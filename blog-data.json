@@ -1,458 +1,90 @@
 [
   {
-    "title": "Horizon 20260620 Assured PNT Certification Bottleneck Seed",
-    "url": "posts/2026-06-20-horizon-20260620-assured-pnt-certification-bottleneck-seed.html",
-    "category": "Seed",
-    "date": "2026-06-20",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "GPT-authored seed packet copied mechanically from the captured WebGPT output. Seed title: Assured PNT Field-Test And Certification Bottleneck Core counterfactual question: What if GNSS interference becomes a routine operating condition rather than an episodic conflict-zone ano..."
-  },
-  {
-    "title": "Horizon 20260620 Assured PNT Certification Bottleneck - Manual Cycle Test",
-    "url": "posts/2026-06-20-horizon-20260620-assured-pnt-certification-bottleneck-manual-cycle-test.html",
+    "title": "The PFAS Cleanup Clock May Run Through Carbon Kilns, Not Filter Vessels",
+    "url": "posts/2026-06-25-the-pfas-cleanup-clock-may-run-through-carbon-kilns-not-filter-vessels.html",
     "category": "Report",
-    "date": "2026-06-20",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "RUN_MARKER: CSG-20260620-001-CYCLE This is one GPT-originated seed created in this response. Seed title: Assured PNT Field-Test And Certification Bottleneck Core counterfactual question: What if GNSS interference becomes a routine operating condition rather than an episodic co..."
-  },
-  {
-    "title": "Horizon 20260619 Orbital Traffic Coordination Space Infrastructure Bottleneck Seed",
-    "url": "posts/2026-06-19-horizon-20260619-orbital-traffic-coordination-space-infrastructure-bottleneck-seed.html",
-    "category": "Seed",
-    "date": "2026-06-19",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "GPT-authored seed packet copied mechanically from the captured WebGPT output. Seed title: Orbital traffic coordination bottleneck: when LEO growth shifts value from satellites to collision-risk data, compliance, and deorbit execution. Core counterfactual question: What if the..."
-  },
-  {
-    "title": "Horizon 20260619 Orbital Traffic Coordination Space Infrastructure Bottleneck - Three Seed Test 03",
-    "url": "posts/2026-06-19-horizon-20260619-orbital-traffic-coordination-space-infrastructure-bottleneck-three-seed-test-03.html",
-    "category": "Report",
-    "date": "2026-06-19",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "RUN_MARKER: CSG-20260619-004-THREESEED-03 This is one GPT-originated counterfactual seed created in this response. Codex is treated only as a mechanical browser-and-file operator. This is not a buy/sell/hold recommendation, not portfolio advice, and not an investment conclusio..."
-  },
-  {
-    "title": "Horizon 20260619 HVDC Grid Superhighway Factory Slots Seed",
-    "url": "posts/2026-06-19-horizon-20260619-hvdc-grid-superhighway-factory-slots-seed.html",
-    "category": "Seed",
-    "date": "2026-06-19",
-    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "GPT-authored seed packet copied mechanically from the captured WebGPT output. Seed title: HVDC grid superhighway factory-slot bottleneck Core counterfactual question: What if the practical governor of 2026–2034 electrification is not generation, renewables, data-center demand,..."
-  },
-  {
-    "title": "Horizon 20260619 HVDC Grid Superhighway Factory Slots - Three Seed Test 01",
-    "url": "posts/2026-06-19-horizon-20260619-hvdc-grid-superhighway-factory-slots-three-seed-test-01.html",
-    "category": "Report",
-    "date": "2026-06-19",
-    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "RUN_MARKER: CSG-20260619-002-THREESEED-01 This is one GPT-originated seed created in this response. The seed was selected to avoid the already-covered CSG themes listed in the prompt. This report is a first-pass search-heavy drilldown, not a Deep Research report, and it does n..."
-  },
-  {
-    "title": "Horizon 20260619 HFC Phase-Down HVAC Refrigerant Transition Seed",
-    "url": "posts/2026-06-19-horizon-20260619-hfc-phase-down-hvac-refrigerant-transition-seed.html",
-    "category": "Seed",
-    "date": "2026-06-19",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "GPT-authored seed packet copied mechanically from the captured WebGPT output. Seed title: HFC Phase-Down Turns HVAC Refrigerant Transition Into a Reclaim, Code, and Technician Bottleneck External-world change seed: Under the U.S. AIM Act, EPA is restricting high-GWP HFCs by se..."
-  },
-  {
-    "title": "Horizon 20260619 HFC Phase-Down HVAC Refrigerant Transition - 10 Minute Continue Test",
-    "url": "posts/2026-06-19-horizon-20260619-hfc-phase-down-hvac-refrigerant-transition-10-minute-continue-test.html",
-    "category": "Report",
-    "date": "2026-06-19",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Run marker: CSG-20260619-CONTINUE-TESTDRIVE-001 Role boundary: GPT = Brain; Codex = routing/capture/storage only. Generation mode: exactly one new GPT-originated Counterfactual Seed candidate, then immediate first-pass continuation. Research mode: compact Search Heavy / Very H..."
-  },
-  {
-    "title": "Horizon 20260619 Counter-UAS Authority Stack Bottleneck Seed",
-    "url": "posts/2026-06-19-horizon-20260619-counter-uas-authority-stack-bottleneck-seed.html",
-    "category": "Seed",
-    "date": "2026-06-19",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "GPT-authored seed packet copied mechanically from the captured WebGPT output. Seed title: Counter-UAS authority stack: validated low-collateral defeat systems as the new domestic security bottleneck Core counterfactual question: What if the binding constraint in domestic count..."
-  },
-  {
-    "title": "Horizon 20260619 Counter-UAS Authority Stack Bottleneck - Three Seed Test 02",
-    "url": "posts/2026-06-19-horizon-20260619-counter-uas-authority-stack-bottleneck-three-seed-test-02.html",
-    "category": "Report",
-    "date": "2026-06-19",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "RUN_MARKER: CSG-20260619-003-THREESEED-02 This is one GPT-originated seed created in this response. The seed was selected by GPT in this answer, then expanded into a compact Search Heavy / Very High first-pass drilldown using normal web search and browsing, not Deep Research...."
-  },
-  {
-    "title": "Horizon 20260618 Ethylene Oxide Sterilization Validated Capacity - Copy Button Very High",
-    "url": "posts/2026-06-18-horizon-20260618-ethylene-oxide-sterilization-validated-capacity-copy-button-very-high.html",
-    "category": "Report",
-    "date": "2026-06-18",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Run marker: CSG-20260618-COPYBUTTON-VERYHIGH-NEWSEED. Role boundary: GPT is Brain. Codex is only routing and storing this output. Generation mode: exactly one new GPT-originated counterfactual seed candidate was created and mechanically continued in the same answer. Research m..."
-  },
-  {
-    "title": "Horizon 20260618 Ethylene Oxide Sterilization Rules Validated Capacity Seed",
-    "url": "posts/2026-06-18-horizon-20260618-ethylene-oxide-sterilization-rules-validated-capacity-seed.html",
-    "category": "Seed",
-    "date": "2026-06-18",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "GPT-authored seed packet copied mechanically from the captured WebGPT output. Seed title: Ethylene Oxide Sterilization Rules Turn Medtech Sterility Into a Validated-Capacity Bottleneck External-world change seed U.S. medical-device sterilization is being pushed through a regul..."
-  },
-  {
-    "title": "Horizon 20260618 EUDR Plot-Level Traceability Infrastructure Seed",
-    "url": "posts/2026-06-18-horizon-20260618-eudr-plot-level-traceability-infrastructure-seed.html",
-    "category": "Seed",
-    "date": "2026-06-18",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "GPT-authored seed packet copied mechanically from the captured WebGPT output. Seed title: EUDR Turns Commodity Sustainability Into Plot-Level Traceability Infrastructure External-world change seed: The EU Deforestation Regulation is moving toward application after repeated del..."
-  },
-  {
-    "title": "Horizon 20260618 EUDR Plot-Level Traceability Infrastructure - 10 Minute Test Drive",
-    "url": "posts/2026-06-18-horizon-20260618-eudr-plot-level-traceability-infrastructure-10-minute-test-drive.html",
-    "category": "Report",
-    "date": "2026-06-18",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Run marker: CSG-20260618-TENMIN-TESTDRIVE-001 Role boundary: GPT = Brain; Codex = routing/capture/storage only. Generation mode: exactly one new GPT-originated Counterfactual Seed candidate, then immediate first-pass continuation. Research mode: compact Search Heavy / Very Hig..."
-  },
-  {
-    "title": "Horizon Scout Raw Seeds 20260611 Compact Web",
-    "url": "posts/2026-06-11-horizon-scout-raw-seeds-20260611-compact-web.html",
-    "category": "Seed",
-    "date": "2026-06-11",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Raw output: CSG-20260611-001.compact-seedgen-web.gpt-output Source links: S - CSG-20260611-001 Compact Seedgen Citation Links Source Index Seed author: GPT Stored/materialized by: Codex Capture format: `CSG_FINAL_MARKDOWN_READY` plus one fenced markdown code block Codex did no..."
-  },
-  {
-    "title": "Horizon 20260610 Seed 08 Data Center Water Reuse Permitting - Web Edit Chain Pro Expansion Search Heavy",
-    "url": "posts/2026-06-10-horizon-20260610-seed-08-data-center-water-reuse-permitting-web-edit-chain-pro-expansion-search-hea.html",
-    "category": "Report",
-    "date": "2026-06-10",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Seed Provenance This continuation treats Seed 8: “Water Scarcity Turns Data Centers Into Permitting And Reuse Infrastructure Problems” as a GPT-originated first-pass seed. Codex is treated only as the routing/storage layer. This memo is exploratory, not Deep Research, not a fi..."
-  },
-  {
-    "title": "Horizon 20260609 Seed 12 Workforce Credentialing Reindustrialization - Web Edit Chain Search Heavy",
-    "url": "posts/2026-06-09-horizon-20260609-seed-12-workforce-credentialing-reindustrialization-web-edit-chain-search-heavy.html",
-    "category": "Report",
-    "date": "2026-06-09",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Seed Provenance Mechanical continuation of Seed 12: Workforce Credentialing Becomes The Hidden Bottleneck In Reindustrialization. Working hypothesis: industrial policy, reshoring, defense production, nuclear buildout, grid expansion, semiconductor fabs, and data-center infrast..."
-  },
-  {
-    "title": "Horizon 20260609 Seed 11 Nuclear QA Supply Chain - Web Edit Chain Search Heavy",
-    "url": "posts/2026-06-09-horizon-20260609-seed-11-nuclear-qa-supply-chain-web-edit-chain-search-heavy.html",
-    "category": "Report",
-    "date": "2026-06-09",
-    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Seed Provenance Seed 11 is treated as GPT-originated and mechanically continued. Codex is only the router/storage layer. This note is a first-pass Search Heavy continuation, not Deep Research, and it makes no buy/sell/hold judgment. Preserved seed thesis: visible nuclear newbu..."
-  },
-  {
-    "title": "Horizon 20260609 Seed 10 Financial AI Compliance Data Lineage Proof - Web Edit Chain Search Heavy",
-    "url": "posts/2026-06-09-horizon-20260609-seed-10-financial-ai-compliance-data-lineage-proof-web-edit-chain-search-heavy.html",
-    "category": "Report",
-    "date": "2026-06-09",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Seed Provenance Seed mechanically continued from GPT-originated Seed 10: Financial AI Compliance Moves From Model Governance To Data-Lineage Proof. Codex is treated only as routing/storage infrastructure. This is a first-pass search-heavy research note, not Deep Research and n..."
-  },
-  {
-    "title": "Horizon 20260609 Seed 10 Financial AI Compliance Data Lineage Proof - API Search Heavy",
-    "url": "posts/2026-06-09-horizon-20260609-seed-10-financial-ai-compliance-data-lineage-proof-api-search-heavy.html",
-    "category": "Report",
-    "date": "2026-06-09",
-    "image": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "This seed is mechanically pointing at a shift from “Can we govern the model?” to “Can we reconstruct what happened, from which data, with which approvals, after the fact?” The search results do not settle that shift, but they do show three live frictions in financial AI: third..."
-  },
-  {
-    "title": "Horizon 20260609 Seed 10 Financial AI Compliance Data Lineage Proof - API High No Max",
-    "url": "posts/2026-06-09-horizon-20260609-seed-10-financial-ai-compliance-data-lineage-proof-api-high-no-max.html",
-    "category": "Report",
-    "date": "2026-06-09",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Mechanically continuing the packet: it frames the change as a shift from “model governance is visible” to “data lineage / explainable evidence trails may be the real choke point.” I’m preserving that as a question-space, not a conclusion. Traditional model-risk-management cont..."
-  },
-  {
-    "title": "Horizon 20260609 Seed 09 Critical Minerals Tailings Wastewater Permits - Web Edit Chain Second Ring Search Heavy",
-    "url": "posts/2026-06-09-horizon-20260609-seed-09-critical-minerals-tailings-wastewater-permits-web-edit-chain-second-ring-s.html",
-    "category": "Report",
-    "date": "2026-06-09",
-    "image": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Seed Provenance This is a mechanically continued, GPT-originated seed for the Counterfactual Seed Generator. The continuation tests the bottleneck question: whether critical-minerals reshoring is constrained mainly by mining permits, or whether the binding constraint migrates..."
-  },
-  {
-    "title": "Horizon 20260609 Seed 09 Critical Minerals Tailings Wastewater Permits",
-    "url": "posts/2026-06-09-horizon-20260609-seed-09-critical-minerals-tailings-wastewater-permits.html",
-    "category": "Report",
-    "date": "2026-06-09",
+    "date": "2026-06-25",
     "image": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Full raw output is preserved in CSG-20260609-001.seed-09-auto-search-heavy.gpt-output. Citation URLs extracted from the disposable Chrome ChatGPT response are preserved in S - CSG-20260609-001 Seed 09 Citation Links Source Index. This is a first-pass GPT continuation, not Deep..."
+    "excerpt": "The public version of the PFAS drinking-water story is simple: thousands of water systems find “forever chemicals,” install filters, and pass the cost through rates, grants, settlements, or state revolving funds. The industrial version is less simple."
   },
   {
-    "title": "Horizon Scout Raw Seeds 20260608",
-    "url": "posts/2026-06-08-horizon-scout-raw-seeds-20260608.html",
-    "category": "Seed",
-    "date": "2026-06-08",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Raw output: CSG-20260608-010.horizon-scout.gpt-output Prompt: CSG-20260608-010.horizon-scout.thinking-heavy.prompt Run: CSG-20260608-010.horizon-scout.thinking-heavy.run Seed author: GPT Stored/materialized by: Codex Codex did not generate, rewrite, score, reject, or research..."
-  },
-  {
-    "title": "Horizon 20260608 Seed 08 Data Center Water Reuse Permitting",
-    "url": "posts/2026-06-08-horizon-20260608-seed-08-data-center-water-reuse-permitting.html",
+    "title": "The Battery Boom's Fire Gate Is Becoming a Documentation Market",
+    "url": "posts/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market.html",
     "category": "Report",
-    "date": "2026-06-08",
+    "date": "2026-06-23",
+    "image": "https://response.epa.gov/sites/16792/files/IMG_4012.jpg",
+    "excerpt": "24 GW | U.S. battery storage is planned for 2026, but that number is still a permitting outcome. 657 days | Potentia ran from initial filing to CEC approval, even while the post-completeness clock hit 270 days."
+  },
+  {
+    "title": "Offshore Wind's Hidden Gate Is the Maritime Construction Calendar",
+    "url": "posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html",
+    "category": "Report",
+    "date": "2026-06-23",
+    "image": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "The easy explanation for U.S. offshore wind's troubles is politics. Permits are challenged, federal agencies change direction, developers sue, and leases get cancelled or bought back."
+  },
+  {
+    "title": "Cancer's Next Supply Chain Is a Radioisotope Clock",
+    "url": "posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html",
+    "category": "Report",
+    "date": "2026-06-23",
+    "image": "https://isotopes.gov/sites/default/files/2023-04/BNL%20AP%20Hot%20Cell%201000x500.png",
+    "excerpt": "Novartis' two commercial RLT products reached $2.810B of 2025 net sales: Pluvicto at $1.994B and Lutathera at $816M. 200+ centers now order Pluvicto, ~130 more planned — after a 2023 manufacturing shortage."
+  },
+  {
+    "title": "The Hospital Capacity Bottleneck Hiding in a Bag of Salt Water",
+    "url": "posts/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.html",
+    "category": "Report",
+    "date": "2026-06-22",
+    "image": "https://emergency.cdc.gov/han/images/HAN_badge_HEALTH_ADVISORY_320x125.png",
+    "excerpt": "Hospital capacity is usually described in visible terms: beds, nurses, operating rooms, ventilators, and reimbursement. Those are real constraints. But the 2024 IV-fluid shortage showed that a hospital can also be throttled by something far less dramatic: a validated bag of…"
+  },
+  {
+    "title": "The Engine Shop Is the New Gate on Airline Capacity",
+    "url": "posts/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.html",
+    "category": "Report",
+    "date": "2026-06-22",
+    "image": "https://prd-sc102-cdn.rtx.com/prattwhitney/-/media/pw/newsroom/news/2024/02/esa.jpg?rev=-1&rid=b07712ad28b94b93a524d8bd29ca9d8d",
+    "excerpt": "Airline capacity is usually discussed as an airframe problem. Boeing has quality and certification constraints. Airbus has a deep backlog and a slower-than-promised path to higher A320 output."
+  },
+  {
+    "title": "The Subsea Cable Bottleneck Is Who Can Repair the Break",
+    "url": "posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html",
+    "category": "Report",
+    "date": "2026-06-21",
     "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Full raw output is preserved in CSG-20260608-018.seed-08-auto-search-heavy.gpt-output. Citation URLs extracted from the Chrome ChatGPT response are preserved in S - CSG-20260608-018 Seed 08 Citation Links Source Index. This is a first-pass GPT continuation, not Deep Research a..."
+    "excerpt": "Global connectivity depends on an industrial service most people never see: the ability to find a damaged cable, dispatch the right ship, secure permission to enter the right water, recover the cable from the seabed, splice it, test it, and put it back into service."
   },
   {
-    "title": "Horizon 20260608 Seed 07 Carbon Removal MRV And Insurance",
-    "url": "posts/2026-06-08-horizon-20260608-seed-07-carbon-removal-mrv-and-insurance.html",
+    "title": "The Shell Bottleneck Starts Before the Shell",
+    "url": "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html",
     "category": "Report",
-    "date": "2026-06-08",
-    "image": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Full raw output is preserved in CSG-20260608-017.seed-07-auto-search-heavy.gpt-output. Citation URLs extracted from the Chrome ChatGPT response are preserved in S - CSG-20260608-017 Seed 07 Citation Links Source Index. This is a first-pass GPT continuation, not Deep Research a..."
+    "date": "2026-06-21",
+    "image": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "Western rearmament looks like a factory problem because the visible object is a shell body. Governments announce new machining lines, load-assemble-pack capacity, and monthly output targets."
   },
   {
-    "title": "Horizon 20260608 Seed 06 Lab Automation Assay Transfer",
-    "url": "posts/2026-06-08-horizon-20260608-seed-06-lab-automation-assay-transfer.html",
+    "title": "The Grid Bottleneck Is Whether the Model Survives the Fault",
+    "url": "posts/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.html",
     "category": "Report",
-    "date": "2026-06-08",
-    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Full raw output is preserved in CSG-20260608-016.seed-06-auto-search-heavy.gpt-output. Citation URLs extracted from the Chrome ChatGPT response are preserved in S - CSG-20260608-016 Seed 06 Citation Links Source Index. This is a first-pass GPT continuation, not Deep Research a..."
+    "date": "2026-06-21",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Usina_Fotovoltaica_%282%29_%2822963311836%29.jpg",
+    "excerpt": "A solar plant can pass every commercial milestone and still fail the grid at the moment that matters. The panels stay intact. The inverters remain online. The line protection clears a fault."
   },
   {
-    "title": "Horizon 20260608 Seed 05 Clinical AI Workflow Liability",
-    "url": "posts/2026-06-08-horizon-20260608-seed-05-clinical-ai-workflow-liability.html",
+    "title": "The AI Power Trade Is Becoming a Turbine Slot Trade",
+    "url": "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html",
     "category": "Report",
-    "date": "2026-06-08",
-    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Full raw output is preserved in CSG-20260608-015.seed-05-auto-search-heavy.gpt-output. Citation URLs extracted from the Chrome ChatGPT response are preserved in S - CSG-20260608-015 Seed 05 Citation Links Source Index. This is a first-pass GPT continuation, not Deep Research a..."
+    "date": "2026-06-21",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "The standard story about AI power is easy to summarize: data centers are growing faster than the grid. That is true, but it is already becoming too broad to be useful. A hyperscaler can sign a power purchase agreement. A utility can announce new generation."
   },
   {
-    "title": "Horizon 20260608 Seed 04 Industrial Cybersecurity Firmware Provenance",
-    "url": "posts/2026-06-08-horizon-20260608-seed-04-industrial-cybersecurity-firmware-provenance.html",
+    "title": "The AI Buildout’s Next Constraint Is the Air Permit",
+    "url": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
     "category": "Report",
-    "date": "2026-06-08",
+    "date": "2026-06-21",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout 20260608 seed 4 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT con..."
-  },
-  {
-    "title": "Horizon 20260608 Seed 03 Synthetic Data Validity Certification",
-    "url": "posts/2026-06-08-horizon-20260608-seed-03-synthetic-data-validity-certification.html",
-    "category": "Report",
-    "date": "2026-06-08",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout 20260608 seed 3 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT con..."
-  },
-  {
-    "title": "Horizon 20260608 Seed 02 AI Inference Model Routing",
-    "url": "posts/2026-06-08-horizon-20260608-seed-02-ai-inference-model-routing.html",
-    "category": "Report",
-    "date": "2026-06-08",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout 20260608 seed 2 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT con..."
-  },
-  {
-    "title": "Horizon 20260608 Seed 01 Enterprise AI Agent Governance",
-    "url": "posts/2026-06-08-horizon-20260608-seed-01-enterprise-ai-agent-governance.html",
-    "category": "Report",
-    "date": "2026-06-08",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout 20260608 seed 1 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT con..."
-  },
-  {
-    "title": "Horizon Seed 14 Post-Quantum Crypto Inventory Migration",
-    "url": "posts/2026-06-07-horizon-seed-14-post-quantum-crypto-inventory-migration.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 14 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued t..."
-  },
-  {
-    "title": "Horizon Seed 13 AI Chip Packaging Memory Coordination",
-    "url": "posts/2026-06-07-horizon-seed-13-ai-chip-packaging-memory-coordination.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 13 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued t..."
-  },
-  {
-    "title": "Horizon Seed 12 Biosecure Act Tech Transfer Slots",
-    "url": "posts/2026-06-07-horizon-seed-12-biosecure-act-tech-transfer-slots.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 12 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued t..."
-  },
-  {
-    "title": "Horizon Seed 11 Robot Safety Standards Physical AI Gatekeeper",
-    "url": "posts/2026-06-07-horizon-seed-11-robot-safety-standards-physical-ai-gatekeeper.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 11 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued t..."
-  },
-  {
-    "title": "Horizon Seed 10 Humanoid Robot Actuators Safety Integration",
-    "url": "posts/2026-06-07-horizon-seed-10-humanoid-robot-actuators-safety-integration.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 10 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued t..."
-  },
-  {
-    "title": "Horizon Seed 09 Replaceable Battery Repair Logistics",
-    "url": "posts/2026-06-07-horizon-seed-09-replaceable-battery-repair-logistics.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 9 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued th..."
-  },
-  {
-    "title": "Horizon Seed 08 Battery Passport Data Regulated Assets",
-    "url": "posts/2026-06-07-horizon-seed-08-battery-passport-data-regulated-assets.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 8 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued th..."
-  },
-  {
-    "title": "Horizon Seed 07 Shipping Decarbonization Fuel Availability",
-    "url": "posts/2026-06-07-horizon-seed-07-shipping-decarbonization-fuel-availability.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 7 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued th..."
-  },
-  {
-    "title": "Horizon Seed 06 SAF Feedstock Collection Bottleneck",
-    "url": "posts/2026-06-07-horizon-seed-06-saf-feedstock-collection-bottleneck.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 6 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued th..."
-  },
-  {
-    "title": "Horizon Seed 05 PFAS Cleanup Destruction Waste Handling",
-    "url": "posts/2026-06-07-horizon-seed-05-pfas-cleanup-destruction-waste-handling.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 5 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued th..."
-  },
-  {
-    "title": "Horizon Seed 04 CBAM Verification Bottleneck",
-    "url": "posts/2026-06-07-horizon-seed-04-cbam-verification-bottleneck.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 4 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued th..."
-  },
-  {
-    "title": "Horizon Seed 03 GLP-1 Drug-Product Logistics",
-    "url": "posts/2026-06-07-horizon-seed-03-glp-1-drug-product-logistics.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 3 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued th..."
-  },
-  {
-    "title": "Horizon Seed 02 Supplier-Diversification Compliance",
-    "url": "posts/2026-06-07-horizon-seed-02-supplier-diversification-compliance.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 2 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued th..."
-  },
-  {
-    "title": "Horizon Seed 01 Rare-Earth Magnet Qualification",
-    "url": "posts/2026-06-07-horizon-seed-01-rare-earth-magnet-qualification.html",
-    "category": "Report",
-    "date": "2026-06-07",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "~~~text intake_result: materialize reason: GPT output is relevant to mechanically auto-accepted Horizon Scout seed 1 and contains a search-heavy continuation. It is not a fatal error, empty response, login/session/rate-limit message, or off-topic response. ~~~ GPT continued th..."
-  },
-  {
-    "title": "군용 로켓 병목 가설 분해 - Thinking Heavy",
-    "url": "posts/2026-06-06-thinking-heavy.html",
-    "category": "Report",
-    "date": "2026-06-06",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "This note materializes GPT's same-chat Thinking Heavy output. Codex preserved, routed, and linked the output; Codex did not generate the seed, counterfactuals, derived seeds, company exposure hypotheses, or investment judgments. Raw intuition author: User Seed author: GPT Seed..."
-  },
-  {
-    "title": "Value-Capture Map 20260606",
-    "url": "posts/2026-06-06-value-capture-map-20260606.html",
-    "category": "Report",
-    "date": "2026-06-06",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "GPT converted the prior search-first scout output into a value-capture map: public equity value-capture nodes private supplier trapped nodes government-trapped nodes JV / spin-off / newly public nodes signpost watchlists next bottleneck migration questions Deep Research handof..."
-  },
-  {
-    "title": "Search-Heavy 군용 로켓 병목 Counterfactual Scout",
-    "url": "posts/2026-06-06-search-heavy-counterfactual-scout.html",
-    "category": "Report",
-    "date": "2026-06-06",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "This note materializes GPT's Search-Heavy Counterfactual Scout output. Codex preserved, routed, and linked the output; Codex did not generate the seed, search findings, counterfactuals, derived seeds, company exposure hypotheses, or investment judgments. 아래는 최종 검증 보고서가 아니라 cou..."
-  },
-  {
-    "title": "Search-First Long-Horizon Pattern Transfer Test",
-    "url": "posts/2026-06-06-search-first-long-horizon-pattern-transfer-test.html",
-    "category": "Report",
-    "date": "2026-06-06",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "This note preserves GPT's Search-First, Source-Led long-horizon output for the four GPT-authored seed excerpts selected by initial-gpt-seeds-1-4.seed-packet. Codex did not generate, rewrite, score, reject, search, or research the seed content. GPT produced a search-first long-..."
-  },
-  {
-    "title": "New Chat Heavy Long-Horizon Pattern Transfer Test",
-    "url": "posts/2026-06-06-new-chat-heavy-long-horizon-pattern-transfer-test.html",
-    "category": "Report",
-    "date": "2026-06-06",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "This note preserves GPT's new-chat heavy-mode output for the same automatically assembled long-horizon prompt used in CSG-20260606-008.long-horizon-pattern-transfer.auto.prompt. It is separate from the same-chat run so the effect of using a fresh chat can be compared later wit..."
-  },
-  {
-    "title": "Multi-Seed Pattern Transfer Test",
-    "url": "posts/2026-06-06-multi-seed-pattern-transfer-test.html",
-    "category": "Report",
-    "date": "2026-06-06",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "This note materializes GPT's multi-seed Pattern-Transfer Search-Heavy test output. Codex preserved, routed, and linked the output; Codex did not generate the seeds, search findings, transfer candidates, derived meta-seeds, or investment judgments. Raw intuition author: User Se..."
-  },
-  {
-    "title": "Long-Horizon Pattern Transfer Test",
-    "url": "posts/2026-06-06-long-horizon-pattern-transfer-test.html",
-    "category": "Report",
-    "date": "2026-06-06",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "This note preserves GPT's long-horizon pattern-transfer output for the four GPT-authored seed excerpts selected by initial-gpt-seeds-1-4.seed-packet. Codex did not generate, rewrite, score, reject, or research the seed content. GPT produced a long-horizon scenario map for Seed..."
-  },
-  {
-    "title": "Horizon Scout Raw Seeds 20260606",
-    "url": "posts/2026-06-06-horizon-scout-raw-seeds-20260606.html",
-    "category": "Seed",
-    "date": "2026-06-06",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "GPT ran a Horizon Scout and generated raw seed candidates from recent external-world changes. This is a raw seed bank, not validation. Keep these as candidate questions until the user selects which seed to continue. Full raw output is preserved in CSG-20260606-017.horizon-scou..."
-  },
-  {
-    "title": "EU Sovereign Cloud Compliance Bottleneck",
-    "url": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
-    "category": "Report",
-    "date": "2026-06-06",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "GPT continued the selected seed: The continuation searched for external support, source-led surprises, value-capture layers, counterfactual scenarios, bottleneck migration, and signposts. This is not Deep Research and not a final investment thesis. Full raw output is preserved..."
-  },
-  {
-    "title": "군용 로켓 재고 부족과 SRM 병목",
-    "url": "posts/2026-06-05-srm.html",
-    "category": "Seed",
-    "date": "2026-06-05",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "﻿--- type: question-note project: counterfactual-seed-generator topic: military-rocket-srm-bottleneck status: research-ready created: 2026-06-05 updated: 2026-06-05 parent_topic: \"Counterfactual Seed Generator\" source_seed: \"Q - Portfolio-Derived Counterfactual Seeds\" seed_ori..."
-  },
-  {
-    "title": "Portfolio-Derived Counterfactual Seeds",
-    "url": "posts/2026-06-05-portfolio-derived-counterfactual-seeds.html",
-    "category": "Seed",
-    "date": "2026-06-05",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "This seed packet should be treated as GPT-generated reasoning materialized by Codex, not a Codex-generated idea. 이 note는 사용자의 기존 포트폴리오 성과 패턴과 투자 아이디어 생성 방식을 바탕으로 만든 초기 Counterfactual Seed 모음이다. 목적은 투자 매력도를 평가하는 것이 아니라, “테마 -> 물리적 활동 -> 병목 -> 상장사 연결” 구조를 가진 질문들을 보존하고 Deep Resea..."
+    "excerpt": "The public story of artificial intelligence infrastructure is usually told through chips, substations, fiber, and power purchase agreements. The quieter story is about combustion machines parked beside the data halls: diesel generators, gas turbines, reciprocating engines, fuel…"
   }
 ]
