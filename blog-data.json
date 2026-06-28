@@ -44,7 +44,7 @@
     "url": "posts/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.html",
     "category": "Report",
     "date": "2026-06-22",
-    "image": "https://aviationweek.com/sites/default/files/2020-12/esa-28nov19-09.jpg",
+    "image": "https://prd-sc102-cdn.rtx.com/prattwhitney/-/media/pw/newsroom/news/2024/02/esa.jpg?rev=-1&rid=b07712ad28b94b93a524d8bd29ca9d8d",
     "excerpt": "Airline capacity is usually discussed as an airframe problem. Boeing has quality and certification constraints. Airbus has a deep backlog and a slower-than-promised path to higher A320 output."
   },
   {
@@ -53,7 +53,7 @@
     "category": "Report",
     "date": "2026-06-21",
     "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Global connectivity depends on an industrial service most people never see: the ability to find a damaged cable, dispatch the right ship, secure permission to enter the right water, recover the cable from the seabed, splice it, test it, and put it back into service."
+    "excerpt": "Submarine cables carry over 99% of international data; the risk is repair. The scarce asset is a ready cable ship, not more fiber. Two-thirds of repair ships reach end-of-life by 2040. Sustaining the fleet needs about $3 billion for roughly 20 ships."
   },
   {
     "title": "The Shell Bottleneck Starts Before the Shell",
@@ -61,7 +61,7 @@
     "category": "Report",
     "date": "2026-06-21",
     "image": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "Western rearmament looks like a factory problem because the visible object is a shell body. Governments announce new machining lines, load-assemble-pack capacity, and monthly output targets."
+    "excerpt": "Western rearmament looks like a shell-body problem; the gate is chemistry. A complete 155mm shot needs fill, propellant, primer, and fuze. The US had to rebuild domestic TNT production after decades of none."
   },
   {
     "title": "The Grid Bottleneck Is Whether the Model Survives the Fault",
@@ -69,7 +69,7 @@
     "category": "Report",
     "date": "2026-06-21",
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/64/Usina_Fotovoltaica_%282%29_%2822963311836%29.jpg",
-    "excerpt": "A solar plant can pass every commercial milestone and still fail the grid at the moment that matters. The panels stay intact. The inverters remain online. The line protection clears a fault."
+    "excerpt": "A solar plant can pass every milestone and still fail at a fault. The new gate is proof the plant’s model matches real behavior. Disturbances since 2016 keep finding model-versus-reality mismatches. FERC Order 901 turned that gap into enforceable reliability standards."
   },
   {
     "title": "The AI Power Trade Is Becoming a Turbine Slot Trade",
@@ -85,6 +85,6 @@
     "category": "Report",
     "date": "2026-06-21",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "The public story of artificial intelligence infrastructure is usually told through chips, substations, fiber, and power purchase agreements. The quieter story is about combustion machines parked beside the data halls: diesel generators, gas turbines, reciprocating engines, fuel…"
+    "excerpt": "AI campuses need power faster than the grid can deliver it. The workaround is on-site combustion — gated by an air permit. One behind-the-meter plant can emit roughly 190 tons of NOx a year. xAI’s Memphis turbines became a Clean Air Act fight, not an IT story."
   }
 ]

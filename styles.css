@@ -339,10 +339,38 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
   text-underline-offset: 3px;
   overflow-wrap: anywhere;
 }
+.article-body .sidenote {
+  float: right;
+  clear: right;
+  width: 12rem;
+  margin: 0.35rem -13.5rem 0.7rem 0;
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  font-weight: 400;
+  color: var(--muted);
+  border-top: 2px solid var(--accent);
+  padding-top: 0.35rem;
+  letter-spacing: 0;
+}
+.article-body .sidenote a { font-size: inherit; overflow-wrap: anywhere; }
+@media (max-width: 1180px) {
+  .article-body .sidenote {
+    float: none;
+    clear: none;
+    width: auto;
+    margin: 0.7rem 0;
+    padding: 0.05rem 0 0.05rem 0.9rem;
+    border-top: none;
+    border-left: 2px solid var(--accent);
+    font-size: 0.82rem;
+  }
+}
 .article-figure {
   width: min(980px, calc(100vw - 32px));
   margin: 42px 50%;
   transform: translateX(-50%);
+  clear: both;
   border: 1px solid var(--line);
   border-radius: 4px;
   overflow: hidden;
@@ -448,6 +476,96 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
 .chart-area { fill: var(--accent-soft); }
 .chart-dot { fill: var(--accent); }
 .chart-dot-hi { fill: var(--accent-deep); }
+.article-flow svg { display: block; width: 100%; height: auto; }
+.flow-node { fill: var(--surface); stroke: var(--line); stroke-width: 1; }
+.flow-label {
+  fill: var(--ink);
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 11.5px;
+  font-weight: 600;
+}
+.flow-link { fill: none; stroke: var(--accent); stroke-width: 1.6; opacity: 0.42; }
+.flow-arrow { fill: var(--accent); opacity: 0.6; }
+.article-chart rect.chart-wf-up { fill: var(--accent); }
+.article-chart rect.chart-wf-down { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1; }
+.article-chart rect.chart-wf-total { fill: var(--accent-deep); }
+.chart-wf-connector { stroke: var(--faint); stroke-width: 1; stroke-dasharray: 3 3; }
+/* Connection map (home): archetype lanes + post chips + cross-cutting edges */
+.connection-map { background: var(--surface); }
+.connection-map svg { display: block; width: 100%; height: auto; padding: 6px 2px; }
+.connection-map .cmap-lane {
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 12px; font-weight: 700; fill: var(--muted);
+  text-transform: uppercase; letter-spacing: 0.04em;
+}
+.connection-map .cmap-chip { fill: var(--paper); stroke: var(--line); stroke-width: 1; transition: fill 0.15s; }
+.connection-map a:hover .cmap-chip { fill: var(--accent-soft); stroke: var(--accent); }
+.connection-map .cmap-chip-label {
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 11px; font-weight: 600; fill: var(--ink);
+}
+.connection-map a:hover .cmap-chip-label { fill: var(--ink); }
+.connection-map .cmap-edge { fill: none; stroke: var(--accent); stroke-width: 1.5; opacity: 0.4; }
+.connection-map .cmap-entity {
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 10px; font-weight: 600; fill: var(--accent-deep);
+}
+.chip-row {
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto 18px;
+  display: flex; flex-wrap: wrap; gap: 8px;
+}
+.chip {
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 0.82rem; font-weight: 600;
+  padding: 6px 13px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface);
+  color: var(--muted); cursor: pointer; transition: all 0.15s;
+}
+.chip:hover { border-color: var(--accent); color: var(--ink); }
+.chip.is-active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.article-card .card-archetype {
+  display: block;
+  padding: 3px 18px 0;
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 0.68rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--muted);
+}
+/* Related-columns strip at the foot of an article */
+.related {
+  width: min(680px, 100%);
+  margin: 8px auto 0;
+  padding: 24px 0 48px;
+  border-top: 1px solid var(--line);
+}
+.related-kicker {
+  margin: 0 0 14px;
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 0.78rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--muted);
+}
+.related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.related-card {
+  display: block; padding: 14px 16px;
+  border: 1px solid var(--line); border-radius: 4px;
+  background: var(--surface); text-decoration: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.related-card:hover { border-color: var(--accent); box-shadow: var(--shadow); }
+.related-tag {
+  display: block; margin-bottom: 6px;
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 0.68rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.04em;
+  color: var(--accent-deep);
+}
+.related-card strong {
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 1.04rem; font-weight: 600; line-height: 1.25;
+  color: var(--ink);
+}
 .chart-seg-val-light,
 .chart-seg-val-dark {
   font-family: "Source Sans 3", Inter, sans-serif;

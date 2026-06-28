@@ -4,7 +4,7 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed columns on industrial constraints, infrastructure chokepoints, and strategic capacity.</description>
-  <lastBuildDate>Sat, 27 Jun 2026 14:59:33 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 28 Jun 2026 03:34:58 +0000</lastBuildDate>
 
   <item>
     <title>The PFAS Cleanup Clock Runs Through Carbon Kilns</title>
@@ -53,21 +53,21 @@
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html</guid>
     <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    <description>Global connectivity depends on an industrial service most people never see: the ability to find a damaged cable, dispatch the right ship, secure permission to enter the right water, recover the cable from the seabed, splice it, test it, and put it back into service.</description>
+    <description>Submarine cables carry over 99% of international data; the risk is repair. The scarce asset is a ready cable ship, not more fiber. Two-thirds of repair ships reach end-of-life by 2040. Sustaining the fleet needs about $3 billion for roughly 20 ships.</description>
   </item>
   <item>
     <title>The Shell Bottleneck Starts Before the Shell</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html</guid>
     <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    <description>Western rearmament looks like a factory problem because the visible object is a shell body. Governments announce new machining lines, load-assemble-pack capacity, and monthly output targets.</description>
+    <description>Western rearmament looks like a shell-body problem; the gate is chemistry. A complete 155mm shot needs fill, propellant, primer, and fuze. The US had to rebuild domestic TNT production after decades of none.</description>
   </item>
   <item>
     <title>The Grid Bottleneck Is Whether the Model Survives the Fault</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.html</guid>
     <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    <description>A solar plant can pass every commercial milestone and still fail the grid at the moment that matters. The panels stay intact. The inverters remain online. The line protection clears a fault.</description>
+    <description>A solar plant can pass every milestone and still fail at a fault. The new gate is proof the plant’s model matches real behavior. Disturbances since 2016 keep finding model-versus-reality mismatches. FERC Order 901 turned that gap into enforceable reliability standards.</description>
   </item>
   <item>
     <title>The AI Power Trade Is Becoming a Turbine Slot Trade</title>
@@ -81,7 +81,7 @@
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html</guid>
     <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    <description>The public story of artificial intelligence infrastructure is usually told through chips, substations, fiber, and power purchase agreements. The quieter story is about combustion machines parked beside the data halls: diesel generators, gas turbines, reciprocating engines, fuel…</description>
+    <description>AI campuses need power faster than the grid can deliver it. The workaround is on-site combustion — gated by an air permit. One behind-the-meter plant can emit roughly 190 tons of NOx a year. xAI’s Memphis turbines became a Clean Air Act fight, not an IT story.</description>
   </item>
 </channel>
 </rss>
