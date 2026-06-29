@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Abstract bottleneck diagram for Rapid AST Value Moves From Instrument Hardware To Stewardship Workflow Integration">
+  <style>
+    .bg { fill: #f5f3ee; }
+    .ink { fill: #243c5a; }
+    .accent { fill: #b94d4d; }
+    .accent2 { fill: #5f9ea0; }
+    .line { stroke: #243c5a; stroke-width: 3; opacity: 0.22; fill: none; }
+    .dash { stroke: #b94d4d; stroke-width: 6; stroke-linecap: round; fill: none; }
+    .title { fill: #243c5a; font-family: Georgia, 'Times New Roman', serif; font-size: 52px; font-weight: 700; }
+    .eyebrow { fill: #b94d4d; font-family: Arial, sans-serif; font-size: 26px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; }
+    .sub { fill: #243c5a; font-family: Arial, sans-serif; font-size: 27px; opacity: 0.72; }
+    .chip { fill: rgba(255,255,255,0.48); stroke: #243c5a; stroke-width: 2; opacity: 0.82; }
+    .chip-text { fill: #243c5a; font-family: Arial, sans-serif; font-size: 19px; font-weight: 700; }
+  </style>
+  <rect class="bg" width="1600" height="900"/>
+  <circle cx="1260" cy="240" r="250" class="accent" opacity="0.18"/>
+  <circle cx="1375" cy="520" r="160" class="accent2" opacity="0.20"/>
+  <path class="line" d="M940 205 H1260 C1380 205 1380 380 1260 380 H1095 C960 380 960 575 1110 575 H1430"/>
+  <path class="dash" d="M1005 505 C1080 455 1170 455 1250 505 C1332 557 1416 557 1480 505"/>
+  <rect x="1010" y="145" width="170" height="92" rx="12" class="ink" opacity="0.88"/>
+  <rect x="1230" y="334" width="190" height="92" rx="12" class="accent" opacity="0.92"/>
+  <rect x="1115" y="532" width="190" height="92" rx="12" class="accent2" opacity="0.90"/>
+  <text x="120" y="118" class="eyebrow">BOTTLENECK BRIEFS</text>
+  <text x="120" y="190" class="title">Rapid AST Value Moves From</text>
+<text x="120" y="248" class="title">Instrument Hardware To Stewardship</text>
+<text x="120" y="306" class="title">Workflow Integration</text>
+  <text x="120" y="575" class="sub">Healthcare / Validation &amp; certification evidence</text>
+  <g transform="translate(120,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Validation &amp; certification evidence</text></g>
+<g transform="translate(435,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Healthcare</text></g>
+<g transform="translate(750,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Evidence map</text></g>
+</svg>

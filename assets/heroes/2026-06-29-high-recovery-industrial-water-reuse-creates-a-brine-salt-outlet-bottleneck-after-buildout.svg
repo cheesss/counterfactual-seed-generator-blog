@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Abstract bottleneck diagram for High-Recovery Industrial Water Reuse Creates A Brine/Salt Outlet Bottleneck After Buildout">
+  <style>
+    .bg { fill: #f3f0e8; }
+    .ink { fill: #2f342d; }
+    .accent { fill: #8bb7a3; }
+    .accent2 { fill: #d58b58; }
+    .line { stroke: #2f342d; stroke-width: 3; opacity: 0.22; fill: none; }
+    .dash { stroke: #8bb7a3; stroke-width: 6; stroke-linecap: round; fill: none; }
+    .title { fill: #2f342d; font-family: Georgia, 'Times New Roman', serif; font-size: 52px; font-weight: 700; }
+    .eyebrow { fill: #8bb7a3; font-family: Arial, sans-serif; font-size: 26px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; }
+    .sub { fill: #2f342d; font-family: Arial, sans-serif; font-size: 27px; opacity: 0.72; }
+    .chip { fill: rgba(255,255,255,0.48); stroke: #2f342d; stroke-width: 2; opacity: 0.82; }
+    .chip-text { fill: #2f342d; font-family: Arial, sans-serif; font-size: 19px; font-weight: 700; }
+  </style>
+  <rect class="bg" width="1600" height="900"/>
+  <circle cx="1260" cy="240" r="250" class="accent" opacity="0.18"/>
+  <circle cx="1375" cy="520" r="160" class="accent2" opacity="0.20"/>
+  <path class="line" d="M940 205 H1260 C1380 205 1380 380 1260 380 H1095 C960 380 960 575 1110 575 H1430"/>
+  <path class="dash" d="M1005 505 C1080 455 1170 455 1250 505 C1332 557 1416 557 1480 505"/>
+  <rect x="1010" y="145" width="170" height="92" rx="12" class="ink" opacity="0.88"/>
+  <rect x="1230" y="334" width="190" height="92" rx="12" class="accent" opacity="0.92"/>
+  <rect x="1115" y="532" width="190" height="92" rx="12" class="accent2" opacity="0.90"/>
+  <text x="120" y="118" class="eyebrow">BOTTLENECK BRIEFS</text>
+  <text x="120" y="190" class="title">High-Recovery Industrial Water</text>
+<text x="120" y="248" class="title">Reuse Creates A Brine/Salt Outlet</text>
+<text x="120" y="306" class="title">Bottleneck After Buildout</text>
+  <text x="120" y="575" class="sub">Other / Other constraints</text>
+  <g transform="translate(120,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Other constraints</text></g>
+<g transform="translate(435,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Other</text></g>
+<g transform="translate(750,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Evidence map</text></g>
+</svg>
