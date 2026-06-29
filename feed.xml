@@ -4,8 +4,50 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed columns on industrial constraints, infrastructure chokepoints, and strategic capacity.</description>
-  <lastBuildDate>Sun, 28 Jun 2026 06:10:09 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 28 Jun 2026 18:45:09 +0000</lastBuildDate>
 
+  <item>
+    <title>Wastewater AMR Surveillance: the Standardization Bottleneck</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-wastewater-amr-surveillance-the-standardization-bottleneck.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-wastewater-amr-surveillance-the-standardization-bottleneck.html</guid>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <description>Post-COVID, sewage surveillance for resistance is scaling fast. The block is not pipes or sequencers — it is incomparable lab methods. Different labs use different assays, gene targets, and pipelines. Without harmonized protocols and reference standards, results don&#x27;t line up.</description>
+  </item>
+  <item>
+    <title>The AMR Surveillance Push Will Stall in the Sequencing Lab, Not the Clinic</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-the-amr-surveillance-push-will-stall-in-the-sequencing-lab-not-the-clinic.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-the-amr-surveillance-push-will-stall-in-the-sequencing-lab-not-the-clinic.html</guid>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <description>One Health plans want genomic AMR surveillance across livestock and meat. The hidden choke-point is sequencing-lab capacity, not new drugs. US NARMS now sequences 100% of poultry Salmonella and Campylobacter. An Indonesian pilot showed nanopore works but is hard to integrate.</description>
+  </item>
+  <item>
+    <title>Source Diffusion 20260629 06 Green Hydrogen Electrolyzer Feedwater</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-source-diffusion-20260629-06-green-hydrogen-electrolyzer-feedwater.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-source-diffusion-20260629-06-green-hydrogen-electrolyzer-feedwater.html</guid>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <description>Electrolytic hydrogen needs about 9–10 litres of ultrapure water per kilogram. A 1 GW electrolyzer draws ~200 m³/h — a midsize town&#x27;s daily water. Feed-water quality is the single biggest maintenance variable in a stack.</description>
+  </item>
+  <item>
+    <title>Rapid Antibiotic Tests Work — Once the Hospital Is Wired to Use Them</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-rapid-antibiotic-tests-work-once-the-hospital-is-wired-to-use-them.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-rapid-antibiotic-tests-work-once-the-hospital-is-wired-to-use-them.html</guid>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <description>Hospitals bought fast antibiotic-susceptibility tests; resistance and mortality barely moved. The gate is not device speed — it is wiring results into stewardship. Pittsburgh cut time-to-right-antibiotic from 46 to 7 hours by integrating both.</description>
+  </item>
+  <item>
+    <title>Hospital Sewers Can Be Sequenced — They Just Can&#x27;t Yet Be Trusted</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-hospital-sewers-can-be-sequenced-they-just-can-t-yet-be-trusted.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-hospital-sewers-can-be-sequenced-they-just-can-t-yet-be-trusted.html</guid>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <description>Hospitals are sequencing their sewers to spot superbugs early. But sewer signals have not been shown to predict ward infections. Stanford caught COVID trends in wastewater; MRSA and VRE did not track. The gate is validation evidence — no trusted threshold to act on.</description>
+  </item>
+  <item>
+    <title>Antibiotic Subscription Models Create a Reserved-Drug Access And Stewardship Data Bottleneck</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-antibiotic-subscription-models-create-a-reserved-drug-access-and-stewardship-data-bottleneck.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-29-antibiotic-subscription-models-create-a-reserved-drug-access-and-stewardship-data-bottleneck.html</guid>
+    <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+    <description>The UK pays a flat &quot;Netflix&quot; fee for reserve antibiotics — about £10m per drug a year. The fee guarantees supply, but the drugs stay tightly restricted. The real gate is aseptic IV compounding — not every hospital has it.</description>
+  </item>
   <item>
     <title>The PFAS Cleanup Clock Runs Through Carbon Kilns</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.html</link>

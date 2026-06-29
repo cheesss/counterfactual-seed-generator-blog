@@ -1,5 +1,53 @@
 [
   {
+    "title": "Wastewater AMR Surveillance: the Standardization Bottleneck",
+    "url": "posts/2026-06-29-wastewater-amr-surveillance-the-standardization-bottleneck.html",
+    "category": "Report",
+    "date": "2026-06-29",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "Post-COVID, sewage surveillance for resistance is scaling fast. The block is not pipes or sequencers — it is incomparable lab methods. Different labs use different assays, gene targets, and pipelines. Without harmonized protocols and reference standards, results don't line up."
+  },
+  {
+    "title": "The AMR Surveillance Push Will Stall in the Sequencing Lab, Not the Clinic",
+    "url": "posts/2026-06-29-the-amr-surveillance-push-will-stall-in-the-sequencing-lab-not-the-clinic.html",
+    "category": "Report",
+    "date": "2026-06-29",
+    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "One Health plans want genomic AMR surveillance across livestock and meat. The hidden choke-point is sequencing-lab capacity, not new drugs. US NARMS now sequences 100% of poultry Salmonella and Campylobacter. An Indonesian pilot showed nanopore works but is hard to integrate."
+  },
+  {
+    "title": "Source Diffusion 20260629 06 Green Hydrogen Electrolyzer Feedwater",
+    "url": "posts/2026-06-29-source-diffusion-20260629-06-green-hydrogen-electrolyzer-feedwater.html",
+    "category": "Report",
+    "date": "2026-06-29",
+    "image": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "Electrolytic hydrogen needs about 9–10 litres of ultrapure water per kilogram. A 1 GW electrolyzer draws ~200 m³/h — a midsize town's daily water. Feed-water quality is the single biggest maintenance variable in a stack."
+  },
+  {
+    "title": "Rapid Antibiotic Tests Work — Once the Hospital Is Wired to Use Them",
+    "url": "posts/2026-06-29-rapid-antibiotic-tests-work-once-the-hospital-is-wired-to-use-them.html",
+    "category": "Report",
+    "date": "2026-06-29",
+    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "Hospitals bought fast antibiotic-susceptibility tests; resistance and mortality barely moved. The gate is not device speed — it is wiring results into stewardship. Pittsburgh cut time-to-right-antibiotic from 46 to 7 hours by integrating both."
+  },
+  {
+    "title": "Hospital Sewers Can Be Sequenced — They Just Can't Yet Be Trusted",
+    "url": "posts/2026-06-29-hospital-sewers-can-be-sequenced-they-just-can-t-yet-be-trusted.html",
+    "category": "Report",
+    "date": "2026-06-29",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "Hospitals are sequencing their sewers to spot superbugs early. But sewer signals have not been shown to predict ward infections. Stanford caught COVID trends in wastewater; MRSA and VRE did not track. The gate is validation evidence — no trusted threshold to act on."
+  },
+  {
+    "title": "Antibiotic Subscription Models Create a Reserved-Drug Access And Stewardship Data Bottleneck",
+    "url": "posts/2026-06-29-antibiotic-subscription-models-create-a-reserved-drug-access-and-stewardship-data-bottleneck.html",
+    "category": "Report",
+    "date": "2026-06-29",
+    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "The UK pays a flat \"Netflix\" fee for reserve antibiotics — about £10m per drug a year. The fee guarantees supply, but the drugs stay tightly restricted. The real gate is aseptic IV compounding — not every hospital has it."
+  },
+  {
     "title": "The PFAS Cleanup Clock Runs Through Carbon Kilns",
     "url": "posts/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.html",
     "category": "Report",

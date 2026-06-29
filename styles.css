@@ -581,6 +581,60 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
   font-family: "Source Sans 3", Inter, sans-serif;
   font-size: 10px; font-weight: 600; fill: var(--accent-deep);
 }
+/* Relationship graph (deterministic force layout, single accent) */
+.relationship-graph { background: var(--surface); }
+.relationship-graph svg { display: block; width: 100%; height: auto; padding: 8px; }
+.rgraph-edge { stroke: var(--line); stroke-width: 1; }
+.rgraph-edge-entity { stroke: var(--accent); stroke-width: 1.4; opacity: 0.5; }
+.rgraph-post { fill: var(--accent); }
+.rgraph-sector { fill: var(--surface); stroke: var(--muted); stroke-width: 1.5; }
+.rgraph-entity { fill: var(--accent-soft); stroke: var(--accent-deep); stroke-width: 1.6; }
+.relationship-graph a { cursor: pointer; }
+.relationship-graph a:hover .rgraph-post { fill: var(--accent-deep); r: 7; }
+.rgraph-post-label {
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 11px; font-weight: 600; fill: var(--ink);
+}
+.rgraph-hub-label {
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 10.5px; font-weight: 700; letter-spacing: 0.03em;
+  text-transform: uppercase; fill: var(--muted);
+}
+.rgraph-entity-label {
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 10px; font-weight: 700; fill: var(--accent-deep);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .relationship-graph .rgraph-stage svg { animation: rgraph-in 0.7s ease-out both; }
+  @keyframes rgraph-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+}
+/* Interactive relationship graph: controls + drag/hover states */
+.rgraph-controls {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 12px 22px;
+  padding: 14px 16px; border-bottom: 1px solid var(--line);
+}
+.rg-ctl {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.04em;
+  text-transform: uppercase; color: var(--muted);
+}
+.rg-ctl input[type="range"] { width: 96px; accent-color: var(--accent); cursor: pointer; }
+.rg-reset {
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 0.74rem; font-weight: 700; cursor: pointer;
+  padding: 5px 12px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--muted);
+}
+.rg-reset:hover { border-color: var(--accent); color: var(--ink); }
+.rgraph-svg { display: block; width: 100%; height: auto; touch-action: none; cursor: grab; }
+.rgraph-svg:active { cursor: grabbing; }
+.rgraph-svg .rgn { cursor: pointer; }
+.rgraph-svg .rgn.rg-off { opacity: 0.18; transition: opacity 0.15s; }
+.rgraph-svg .rgn.rg-on { opacity: 1; }
+.rgraph-svg .rgn.rg-on .rgraph-post { fill: var(--accent-deep); }
+.rgraph-edge-entity.rg-off, .rgraph-edge.rg-off { opacity: 0.08; }
+.rgraph-edge-entity.rg-on { opacity: 0.85; }
 .filter-bar {
   width: min(1120px, calc(100% - 32px));
   margin: 0 auto 18px;
