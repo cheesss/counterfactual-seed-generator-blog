@@ -4,7 +4,7 @@
     "url": "posts/2026-06-29-wastewater-amr-surveillance-the-standardization-bottleneck.html",
     "category": "Report",
     "date": "2026-06-29",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Microbiological_seeding.jpg/1920px-Microbiological_seeding.jpg",
     "excerpt": "Post-COVID, sewage surveillance for resistance is scaling fast. The block is not pipes or sequencers — it is incomparable lab methods. Different labs use different assays, gene targets, and pipelines. Without harmonized protocols and reference standards, results don't line up."
   },
   {
@@ -12,7 +12,7 @@
     "url": "posts/2026-06-29-the-amr-surveillance-push-will-stall-in-the-sequencing-lab-not-the-clinic.html",
     "category": "Report",
     "date": "2026-06-29",
-    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Microbiological_seeding.jpg/1920px-Microbiological_seeding.jpg",
     "excerpt": "One Health plans want genomic AMR surveillance across livestock and meat. The hidden choke-point is sequencing-lab capacity, not new drugs. US NARMS now sequences 100% of poultry Salmonella and Campylobacter. An Indonesian pilot showed nanopore works but is hard to integrate."
   },
   {
@@ -20,7 +20,7 @@
     "url": "posts/2026-06-29-source-diffusion-20260629-06-green-hydrogen-electrolyzer-feedwater.html",
     "category": "Report",
     "date": "2026-06-29",
-    "image": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Hydrogen_electrolyser_-_Science_Museum%2C_London.jpg/1920px-Hydrogen_electrolyser_-_Science_Museum%2C_London.jpg",
     "excerpt": "Electrolytic hydrogen needs about 9–10 litres of ultrapure water per kilogram. A 1 GW electrolyzer draws ~200 m³/h — a midsize town's daily water. Feed-water quality is the single biggest maintenance variable in a stack."
   },
   {
@@ -28,7 +28,7 @@
     "url": "posts/2026-06-29-rapid-antibiotic-tests-work-once-the-hospital-is-wired-to-use-them.html",
     "category": "Report",
     "date": "2026-06-29",
-    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Microbiological_seeding.jpg/1920px-Microbiological_seeding.jpg",
     "excerpt": "Hospitals bought fast antibiotic-susceptibility tests; resistance and mortality barely moved. The gate is not device speed — it is wiring results into stewardship. Pittsburgh cut time-to-right-antibiotic from 46 to 7 hours by integrating both."
   },
   {
@@ -36,7 +36,7 @@
     "url": "posts/2026-06-29-hospital-sewers-can-be-sequenced-they-just-can-t-yet-be-trusted.html",
     "category": "Report",
     "date": "2026-06-29",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Microbiological_seeding.jpg/1920px-Microbiological_seeding.jpg",
     "excerpt": "Hospitals are sequencing their sewers to spot superbugs early. But sewer signals have not been shown to predict ward infections. Stanford caught COVID trends in wastewater; MRSA and VRE did not track. The gate is validation evidence — no trusted threshold to act on."
   },
   {
@@ -44,7 +44,7 @@
     "url": "posts/2026-06-29-antibiotic-subscription-models-create-a-reserved-drug-access-and-stewardship-data-bottleneck.html",
     "category": "Report",
     "date": "2026-06-29",
-    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Antibiotic_pills.jpg/1920px-Antibiotic_pills.jpg",
     "excerpt": "The UK pays a flat \"Netflix\" fee for reserve antibiotics — about £10m per drug a year. The fee guarantees supply, but the drugs stay tightly restricted. The real gate is aseptic IV compounding — not every hospital has it."
   },
   {
@@ -52,7 +52,7 @@
     "url": "posts/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.html",
     "category": "Report",
     "date": "2026-06-25",
-    "image": "https://images.unsplash.com/photo-1516937941344-00b4e0337589?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gresham_Wastewater_Treatment_Plant_secondary_clarifiers_2025.jpg/1920px-Gresham_Wastewater_Treatment_Plant_secondary_clarifiers_2025.jpg",
     "excerpt": "EPA set 4 ppt drinking-water limits for PFOA and PFOS. The 2026 proposal could move some PFOA/PFOS compliance to 2031. Calgon plans 27 million lb/year of added potable-carbon reactivation. OCWD procurement records show vessel and resin costs becoming separate line items."
   },
   {
@@ -68,7 +68,7 @@
     "url": "posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html",
     "category": "Report",
     "date": "2026-06-23",
-    "image": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Barrow_Offshore_wind_turbines_NR.jpg/1920px-Barrow_Offshore_wind_turbines_NR.jpg",
     "excerpt": "The easy explanation for U.S. offshore wind's troubles is politics. Permits are challenged, federal agencies change direction, developers sue, and leases get cancelled or bought back."
   },
   {
@@ -100,7 +100,7 @@
     "url": "posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html",
     "category": "Report",
     "date": "2026-06-21",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2024-10-22_01_CABLE_INNOVATOR_-_IMO_9101132_%E2%80%93_Victoria%2C_BC_CAN.jpg/1920px-2024-10-22_01_CABLE_INNOVATOR_-_IMO_9101132_%E2%80%93_Victoria%2C_BC_CAN.jpg",
     "excerpt": "Submarine cables carry over 99% of international data; the risk is repair. The scarce asset is a ready cable ship, not more fiber. Two-thirds of repair ships reach end-of-life by 2040. Sustaining the fleet needs about $3 billion for roughly 20 ships."
   },
   {
@@ -108,7 +108,7 @@
     "url": "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html",
     "category": "Report",
     "date": "2026-06-21",
-    "image": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Artillery_shells.jpg/1920px-Artillery_shells.jpg",
     "excerpt": "Western rearmament looks like a shell-body problem; the gate is chemistry. A complete 155mm shot needs fill, propellant, primer, and fuze. The US had to rebuild domestic TNT production after decades of none."
   },
   {
@@ -124,7 +124,7 @@
     "url": "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html",
     "category": "Report",
     "date": "2026-06-21",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Gas_Turbine_Power_Plant.JPG",
     "excerpt": "The standard story about AI power is easy to summarize: data centers are growing faster than the grid. That is true, but it is already becoming too broad to be useful. A hyperscaler can sign a power purchase agreement. A utility can announce new generation."
   },
   {
