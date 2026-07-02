@@ -8,14 +8,6 @@
     "excerpt": "The visible water problem around advanced fabs is usually measured in gallons, acre-feet, reservoirs, drought maps, and municipal politics. That framing is incomplete. A semiconductor fab does not merely need access to water."
   },
   {
-    "title": "Source Diffusion 20260629 11 Produced Water Beneficial Reuse",
-    "url": "posts/2026-07-02-source-diffusion-20260629-11-produced-water-beneficial-reuse.html",
-    "category": "Report",
-    "date": "2026-07-02",
-    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
-    "excerpt": "The visible story in produced-water reuse is desalination: oilfield brine goes into a treatment train, clean water comes out, and the Permian Basin gains a new water source for farms, power plants, data centers, construction, or manufacturing."
-  },
-  {
     "title": "Source Diffusion 20260629 05 Antibiotic Subscription Models Create",
     "url": "posts/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create.html",
     "category": "Report",
@@ -30,6 +22,14 @@
     "date": "2026-07-02",
     "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Antibiotic_Sensitivity_Testing_Plate_reader.jpg",
     "excerpt": "Rapid antimicrobial susceptibility testing has an unusually clean story on the surface: blood culture turns positive, a microbiology instrument runs faster than the conventional path, and the clinician gets an actionable antibiotic answer sooner. The product claims are concrete."
+  },
+  {
+    "title": "Produced-Water Reuse Is Gated By The Qualification File, Not The Treatment Train",
+    "url": "posts/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train.html",
+    "category": "Report",
+    "date": "2026-07-02",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "The visible story in produced-water reuse is desalination: oilfield brine goes into a treatment train, clean water comes out, and the Permian Basin gains a new water source for farms, power plants, data centers, construction, or manufacturing."
   },
   {
     "title": "PFAS / Micropollutant Resin Regeneration As A Residual-Handling Analogue For UPW And AMR Water Systems",

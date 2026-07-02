@@ -1078,51 +1078,6 @@ pre code {
   font-weight: 600;
   background: var(--surface-2);
 }
-.rail-block {
-  padding: 16px 18px;
-  border: 1px solid var(--line);
-  border-left: 3px solid var(--accent);
-  border-radius: 6px;
-  background: var(--surface);
-}
-.rail-block .brief-kicker { margin: 0 0 10px; }
-.rail-block ul { margin: 0; padding-left: 1.05rem; }
-.rail-block li {
-  margin: 0.4em 0;
-  font-size: 0.9rem;
-  line-height: 1.42;
-  color: var(--ink);
-}
-.rail-stats { display: grid; gap: 12px; }
-.rail-stat { display: flex; flex-direction: column; gap: 3px; }
-.rail-stat b {
-  font-family: "Newsreader", Georgia, serif;
-  font-size: 1.18rem;
-  line-height: 1;
-  color: var(--ink);
-  font-variant-numeric: tabular-nums;
-}
-.rail-stat b span {
-  font-family: "Source Sans 3", Inter, sans-serif;
-  font-size: 0.64rem;
-  font-weight: 600;
-  color: var(--muted);
-  margin-left: 4px;
-}
-.rail-stat em {
-  font-style: normal;
-  font-size: 0.7rem;
-  line-height: 1.28;
-  color: var(--muted);
-}
-.rail-density {
-  margin: 0;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--muted);
-}
 /* Home data cards: headline stat strip + density line. */
 .card-figures {
   display: flex;
