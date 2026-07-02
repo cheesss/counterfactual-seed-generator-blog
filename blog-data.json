@@ -1,5 +1,93 @@
 [
   {
+    "title": "UF6 Cylinders Are Becoming A Nuclear Fuel-Cycle Control Point",
+    "url": "posts/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point.html",
+    "category": "Report",
+    "date": "2026-07-03",
+    "image": "https://www.energy.gov/sites/default/files/styles/full_article_width/public/2026-04/PPPO_DUF6_Autoclaves_2026_4_21.jpg?itok=Zofd0bZb",
+    "excerpt": "12500 tU/year | Cameco Port Hope 10600 tU | Cameco Port Hope UF6 Cylinders Are Becoming A Nuclear Fuel-Cycle Control Point | report focus 12500 tU/year | Cameco Port Hope 10600 tU | Cameco Port Hope 2977 tU | Rosatom 4800 USD million | Paducah liability The visible bottleneck in…"
+  },
+  {
+    "title": "Tungsten first-wall qualification and boronization after ITER's beryllium pivot",
+    "url": "posts/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot.html",
+    "category": "Report",
+    "date": "2026-07-03",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "qualified-materials | bottleneck shape 1,500 cycles | China EHF overdesign test 6 gyrotrons | Europe Tungsten first-wall qualification and boronization after ITER's | report focus 1,500 cycles | China EHF overdesign test 6 gyrotrons | Europe 24 gyrotrons | Original ITER plan…"
+  },
+  {
+    "title": "Tritium Closed-Loop Fuel-Cycle Equipment as a Fusion Gate",
+    "url": "posts/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.html",
+    "category": "Report",
+    "date": "2026-07-03",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Hydrogen_electrolyser_-_Science_Museum%2C_London.jpg/1920px-Hydrogen_electrolyser_-_Science_Museum%2C_London.jpg",
+    "excerpt": "validation-evidence | bottleneck shape 30 kg | Global civilian availability 9 TRL | Metal bellows pumps Tritium Closed-Loop Fuel-Cycle Equipment as a Fusion Gate | report focus 30 kg | Global civilian availability 9 TRL | Metal bellows pumps 15 m3/hr | Normetex industry-standard…"
+  },
+  {
+    "title": "Stable-Isotope Enrichment: The Qualified-Materials Bottleneck Behind Fusion Fuel, Quantum Silicon, and Radioligands",
+    "url": "posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html",
+    "category": "Report",
+    "date": "2026-07-03",
+    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "26.8 USD million | Design 33.295 USD million/year | Operations Stable-Isotope Enrichment: The Qualified-Materials Bottleneck Behind | report focus 26.8 USD million | Design 33.295 USD million/year | Operations 46.4 tonnes | HCPB 30 percent Li-6 | Be-based low The obvious story…"
+  },
+  {
+    "title": "Lithium-6 enrichment as fusion's noncommercial isotope plant gate",
+    "url": "posts/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.html",
+    "category": "Report",
+    "date": "2026-07-03",
+    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "validation-evidence | bottleneck shape 46.4 tonnes | HCPB solid breeder 7.5 atom percent | Natural lithium Lithium-6 enrichment as fusion's noncommercial isotope plant gate | report focus 46.4 tonnes | HCPB solid breeder 7.5 atom percent | Natural lithium 11000 tonnes | Y-12…"
+  },
+  {
+    "title": "ISR groundwater restoration and Class III wellfield monitoring as uranium mine-ramp gate",
+    "url": "posts/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate.html",
+    "category": "Report",
+    "date": "2026-07-03",
+    "image": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "validation-evidence | bottleneck shape 13.3 million lb U3O8/year | Operating ISR facilities 375401 lb U3O8 | 2024-Q4 ISR groundwater restoration and Class III wellfield monitoring as | report focus 13.3 million lb U3O8/year | Operating ISR facilities 375401 lb U3O8 | 2024-Q4…"
+  },
+  {
+    "title": "HALEU transport-package certification and package fleet operations",
+    "url": "posts/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.html",
+    "category": "Report",
+    "date": "2026-07-03",
+    "image": "https://www.energy.gov/sites/default/files/styles/full_article_width/public/2023-06/HALEU_Reguli_1200x630.png?itok=c5uKZJOO",
+    "excerpt": "validation-evidence | bottleneck shape 2277 kg UF6 | Standard 30B 430 benchmark experiments | HALEU critical experiments HALEU transport-package certification and package fleet operations | report focus 2277 kg UF6 | Standard 30B 430 benchmark experiments | HALEU critical…"
+  },
+  {
+    "title": "HALEU deconversion and fuel-form handoff to fabrication",
+    "url": "posts/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.html",
+    "category": "Report",
+    "date": "2026-07-03",
+    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.svg",
+    "excerpt": "validation-evidence | bottleneck shape 6 MTU/year | UF6 receipt 5 MTU/year | TX-1 initial TRISO fuel fabrication HALEU deconversion and fuel-form handoff to fabrication | report focus 6 MTU/year | UF6 receipt 5 MTU/year | TX-1 initial TRISO fuel fabrication 99.289528 USD million…"
+  },
+  {
+    "title": "Fusion Materials Data Standards and Qualification Database as Hidden Infrastructure",
+    "url": "posts/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.html",
+    "category": "Report",
+    "date": "2026-07-03",
+    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.svg",
+    "excerpt": "validation-evidence | bottleneck shape 202 EUR million | EU contribution 20 dpa | EUROFER97 Fusion Materials Data Standards and Qualification Database as Hidden | report focus 202 EUR million | EU contribution 20 dpa | EUROFER97 125 mA | IFMIF accelerator 1 Fusion is usually…"
+  },
+  {
+    "title": "Fusion Blanket Validation Slots: 14-MeV Neutron Source, Breeder Prototypes, And Post-Irradiation Evidence",
+    "url": "posts/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.html",
+    "category": "Report",
+    "date": "2026-07-03",
+    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.svg",
+    "excerpt": "validation-evidence | bottleneck shape 5 dpa/year | 2028 lower bound 174 EUR million | Design and construction tender Fusion Blanket Validation Slots: 14-MeV Neutron Source, Breeder | report focus 5 dpa/year | 2028 lower bound 174 EUR million | Design and construction tender 220…"
+  },
+  {
+    "title": "Fluorine Chemistry’s Hidden Control Point",
+    "url": "posts/2026-07-03-fluorine-chemistry-s-hidden-control-point.html",
+    "category": "Report",
+    "date": "2026-07-03",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "qualified-materials | bottleneck shape 451 thousand metric tons | 2021 322 USD/metric ton | 2021 Fluorine Chemistry’s Hidden Control Point | report focus 451 thousand metric tons | 2021 322 USD/metric ton | 2021 6000 thousand metric tons | China 100 USD million | Koura DOE LiPF6…"
+  },
+  {
     "title": "Trace-Contaminant Online Metrology Becomes The Gatekeeper For Reclaimed Water Into High-Spec Manufacturing",
     "url": "posts/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa.html",
     "category": "Report",
