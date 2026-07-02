@@ -424,31 +424,65 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
   text-underline-offset: 3px;
   overflow-wrap: anywhere;
 }
-.article-body .sidenote {
-  float: right;
-  clear: right;
-  width: 12rem;
-  margin: 0.35rem -13.5rem 0.7rem 0;
+/* Tufte-style numbered margin notes. A per-article counter numbers both the
+   in-text marker (.sidenote-number::after) and the note itself (.sidenote::before)
+   so the eye can link them; the marker doubles as the tap-to-expand control on
+   narrow screens via a hidden checkbox (no JS). */
+.article-body { counter-reset: sidenote-counter; }
+.article-body .sidenote-number { counter-increment: sidenote-counter; }
+.article-body .sidenote-number::after {
+  content: counter(sidenote-counter);
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+  left: 0.06em;
   font-family: "Source Sans 3", Inter, sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--accent);
+  cursor: pointer;
+}
+/* Base (every width below the wide-gutter breakpoint, phones included): notes
+   are collapsed and expand inline only when the reader taps the number. There is
+   no float here, so a note can never poke out of a tight gutter and trigger
+   horizontal page scroll. */
+.article-body .sidenote {
+  display: none;
+  font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 0.82rem;
   line-height: 1.45;
   font-weight: 400;
   color: var(--muted);
-  border-top: 2px solid var(--accent);
-  padding-top: 0.35rem;
   letter-spacing: 0;
 }
+.article-body .margin-toggle:checked + .sidenote {
+  display: block;
+  margin: 0.7rem 0;
+  padding: 0.05rem 0 0.05rem 0.9rem;
+  border-left: 2px solid var(--accent);
+}
+.article-body .sidenote::before {
+  content: counter(sidenote-counter) " ";
+  font-weight: 700;
+  color: var(--accent);
+}
 .article-body .sidenote a { font-size: inherit; overflow-wrap: anywhere; }
-@media (max-width: 1180px) {
+.article-body input.margin-toggle { display: none; }
+/* Wide screens only: the body is centered in the 1400px shell with a roughly
+   300px empty left gutter (the scrollspy TOC lives in the right one), so notes
+   float there with room to spare. Below this width the gutter is too tight, so
+   the inline tap-to-expand behavior above applies instead. */
+@media (min-width: 1400px) {
   .article-body .sidenote {
-    float: none;
-    clear: none;
-    width: auto;
-    margin: 0.7rem 0;
-    padding: 0.05rem 0 0.05rem 0.9rem;
-    border-top: none;
-    border-left: 2px solid var(--accent);
-    font-size: 0.82rem;
+    display: block;
+    float: left;
+    clear: left;
+    width: 12rem;
+    margin: 0.35rem 0 0.7rem -13.5rem;
+    padding-top: 0.35rem;
+    border-top: 1px solid var(--line);
+    font-size: 0.8rem;
+    text-align: right;
   }
 }
 .article-figure {
