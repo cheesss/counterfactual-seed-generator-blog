@@ -1029,17 +1029,23 @@ pre code {
   font-variant-numeric: tabular-nums;
 }
 .ledger-values .lv em { font-style: normal; }
-/* Article shell: 680px measure + sticky data rail filling the wide margin. */
+/* Article shell: the 680px reading measure stays dead-centered on the page —
+   equal reserved margins on both sides — with the sticky data rail sitting in
+   the right margin only, so the column never looks pushed off-center. */
 .article-shell {
-  display: flex;
-  align-items: flex-start;
-  gap: clamp(28px, 4vw, 56px);
-  width: min(1080px, 100%);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) min(680px, 100%) minmax(0, 1fr);
+  column-gap: clamp(24px, 3vw, 56px);
+  align-items: start;
+  width: min(1400px, calc(100% - 32px));
   margin: 0 auto;
 }
-.article-shell .article-body { margin: 0; flex: 1 1 auto; min-width: 0; }
+.article-shell .article-body { grid-column: 2; margin: 0; min-width: 0; }
 .article-rail {
-  flex: 0 0 286px;
+  grid-column: 3;
+  justify-self: start;
+  width: 100%;
+  max-width: 300px;
   position: sticky;
   top: 24px;
   margin-top: 8px;
@@ -1047,6 +1053,30 @@ pre code {
   flex-direction: column;
   gap: 18px;
   font-family: "Source Sans 3", Inter, sans-serif;
+}
+.rail-toc ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.rail-toc li a {
+  display: block;
+  padding: 6px 10px;
+  border-left: 2px solid transparent;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.35;
+  text-decoration: none;
+}
+.rail-toc li a:hover { color: var(--ink); }
+.rail-toc li a.is-active {
+  border-left-color: var(--accent);
+  color: var(--ink);
+  font-weight: 600;
+  background: var(--surface-2);
 }
 .rail-block {
   padding: 16px 18px;
@@ -1183,15 +1213,26 @@ tbody tr:nth-child(even) td { background: rgba(243, 240, 232, 0.5); }
     margin: 34px 0;
     transform: none;
   }
-  .article-shell { flex-direction: column; width: 100%; }
+  .ledger-row { grid-template-columns: 1fr; gap: 4px; }
+}
+/* Below ~1180px there isn't room for symmetric margins plus a rail without
+   squeezing it; fall back to the rail stacked above the body (both breakpoints
+   below also inherit this via the max-width cascade). */
+@media (max-width: 1180px) {
+  .article-shell {
+    display: flex;
+    flex-direction: column;
+    width: min(680px, calc(100% - 32px));
+    margin: 0 auto;
+  }
+  .article-shell .article-body { width: 100%; }
   .article-rail {
     order: -1;
     position: static;
-    flex-basis: auto;
     width: 100%;
+    max-width: none;
     margin-top: 0;
   }
-  .ledger-row { grid-template-columns: 1fr; gap: 4px; }
 }
 @media (max-width: 520px) {
   main { width: min(100% - 20px, 1180px); }
