@@ -730,6 +730,57 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
   font-size: 1.32rem; line-height: 1.45; font-weight: 500; color: var(--ink);
 }
 .doc-page a { color: var(--accent-3); text-underline-offset: 3px; }
+/* Patterns page: constraint-shape groupings */
+.pattern-block { margin: 34px 0 8px; padding-top: 20px; border-top: 1px solid var(--line); }
+.pattern-block h2 { margin: 0 0 6px; font-size: 1.4rem; line-height: 1.2; }
+.pattern-gloss {
+  margin: 0 0 4px !important;
+  font-family: "Newsreader", Georgia, serif; font-style: italic; color: var(--ink);
+}
+.pattern-span {
+  margin: 0 0 14px !important;
+  font-family: "Source Sans 3", Inter, sans-serif !important;
+  font-size: 0.82rem !important; font-weight: 600; letter-spacing: 0.01em;
+  color: var(--accent-deep) !important; text-transform: uppercase;
+}
+.pattern-list { list-style: none; margin: 0; padding: 0; }
+.pattern-list li { padding: 12px 0; border-top: 1px dotted var(--line); }
+.pattern-list li:first-child { border-top: none; }
+.pattern-list a {
+  display: flex; gap: 12px; align-items: baseline; justify-content: space-between;
+  text-decoration: none;
+}
+.pattern-list .pat-title { font-family: "Source Sans 3", Inter, sans-serif; font-weight: 600; color: var(--ink); }
+.pattern-list a:hover .pat-title { color: var(--accent-3); }
+.pattern-list .pat-sector {
+  flex: none; font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 0.72rem; font-weight: 600; color: var(--muted); white-space: nowrap;
+}
+.pattern-list .pat-excerpt {
+  margin: 4px 0 0 !important; font-size: 0.95rem !important; line-height: 1.5;
+  color: var(--muted) !important;
+}
+/* Outcome ledger */
+.ledger-entry { margin: 22px 0; padding-top: 16px; border-top: 1px solid var(--line); }
+.led-head { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
+.led-head a {
+  font-family: "Source Sans 3", Inter, sans-serif; font-weight: 600; font-size: 1.05rem;
+  color: var(--ink); text-decoration: none;
+}
+.led-head a:hover { color: var(--accent-3); }
+.led-meta { font-family: "Source Sans 3", Inter, sans-serif; font-size: 0.74rem; color: var(--muted); }
+.led-signals { list-style: none; margin: 10px 0 0; padding: 0; }
+.led-signals li {
+  display: flex; gap: 10px; align-items: baseline; padding: 6px 0;
+  font-family: "Newsreader", Georgia, serif; font-size: 1.02rem; line-height: 1.5; color: var(--ink);
+}
+.led-status {
+  flex: none; font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 0.66rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 2px 8px; border-radius: 999px; border: 1px solid var(--accent);
+  color: var(--accent-deep); background: var(--surface); white-space: nowrap;
+}
+.led-signals .led-signal { flex: 1; }
 .chip {
   font-family: "Source Sans 3", Inter, sans-serif;
   font-size: 0.82rem; font-weight: 600;

@@ -13,20 +13,22 @@
     .chip-text { fill: #2f342d; font-family: Arial, sans-serif; font-size: 19px; font-weight: 700; }
   </style>
   <rect class="bg" width="1600" height="900"/>
-  <circle cx="1260" cy="240" r="250" class="accent" opacity="0.18"/>
-  <circle cx="1375" cy="520" r="160" class="accent2" opacity="0.20"/>
-  <path class="line" d="M940 205 H1260 C1380 205 1380 380 1260 380 H1095 C960 380 960 575 1110 575 H1430"/>
-  <path class="dash" d="M1005 505 C1080 455 1170 455 1250 505 C1332 557 1416 557 1480 505"/>
-  <rect x="1010" y="145" width="170" height="92" rx="12" class="ink" opacity="0.88"/>
-  <rect x="1230" y="334" width="190" height="92" rx="12" class="accent" opacity="0.92"/>
-  <rect x="1115" y="532" width="190" height="92" rx="12" class="accent2" opacity="0.90"/>
+
+  <rect x="1120" y="230" width="270" height="360" rx="14" class="bg"/>
+  <rect x="1120" y="230" width="270" height="360" rx="14" fill="none" class="line" style="stroke-width:5;opacity:0.6"/>
+  <rect x="1210" y="212" width="90" height="34" rx="8" class="accent2"/>
+  <g>
+    <circle cx="1160" cy="308" r="13" class="accent"/><rect x="1188" y="300" width="150" height="16" rx="8" class="ink" opacity="0.55"/>
+    <circle cx="1160" cy="368" r="13" class="accent"/><rect x="1188" y="360" width="150" height="16" rx="8" class="ink" opacity="0.55"/>
+    <circle cx="1160" cy="428" r="13" class="accent"/><rect x="1188" y="420" width="110" height="16" rx="8" class="ink" opacity="0.55"/>
+  </g>
   <text x="120" y="118" class="eyebrow">BOTTLENECK BRIEFS</text>
   <text x="120" y="190" class="title">Fusion Materials Data</text>
 <text x="120" y="248" class="title">Standards and Qualification</text>
 <text x="120" y="306" class="title">Database as Hidden</text>
 <text x="120" y="364" class="title">Infrastructure</text>
-  <text x="120" y="575" class="sub">Other / Other constraints</text>
-  <g transform="translate(120,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Other constraints</text></g>
-<g transform="translate(435,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Other</text></g>
+  <text x="120" y="575" class="sub">Nuclear &amp; fusion / Validation &amp; certification evidence</text>
+  <g transform="translate(120,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Validation evidence</text></g>
+<g transform="translate(435,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Nuclear &amp; fusion</text></g>
 <g transform="translate(750,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Evidence map</text></g>
 </svg>
