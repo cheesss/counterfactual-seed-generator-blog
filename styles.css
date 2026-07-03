@@ -295,7 +295,7 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
 }
 .info-block.disclaimer h3 { color: var(--ink); }
 .article-page {
-  width: min(1120px, calc(100% - 32px));
+  width: min(1480px, calc(100% - 32px));
   max-width: none;
 }
 .article-hero {
@@ -377,7 +377,7 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
 }
 .source-note span { color: var(--accent); font-weight: 760; }
 .article-body {
-  width: min(680px, 100%);
+  width: min(860px, 100%);
   margin: 0 auto;
   padding: 8px 0 54px;
   font-family: "Newsreader", Georgia, "Times New Roman", serif;
@@ -472,7 +472,7 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
    300px empty left gutter (the scrollspy TOC lives in the right one), so notes
    float there with room to spare. Below this width the gutter is too tight, so
    the inline tap-to-expand behavior above applies instead. */
-@media (min-width: 1400px) {
+@media (min-width: 1460px) {
   .article-body .sidenote {
     display: block;
     float: left;
@@ -1119,10 +1119,10 @@ pre code {
    the right margin only, so the column never looks pushed off-center. */
 .article-shell {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) min(680px, 100%) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) min(860px, 100%) minmax(0, 1fr);
   column-gap: clamp(24px, 3vw, 56px);
   align-items: start;
-  width: min(1400px, calc(100% - 32px));
+  width: min(1480px, calc(100% - 32px));
   margin: 0 auto;
 }
 .article-shell .article-body { grid-column: 2; margin: 0; min-width: 0; }
@@ -1262,7 +1262,7 @@ tbody tr:nth-child(even) td { background: rgba(243, 240, 232, 0.5); }
   .article-shell {
     display: flex;
     flex-direction: column;
-    width: min(680px, calc(100% - 32px));
+    width: min(860px, calc(100% - 32px));
     margin: 0 auto;
   }
   .article-shell .article-body { width: 100%; }
