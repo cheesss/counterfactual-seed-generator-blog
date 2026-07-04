@@ -298,6 +298,29 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
   width: min(1480px, calc(100% - 32px));
   max-width: none;
 }
+.post-return {
+  margin: 8px 0 56px;
+  padding-top: 28px;
+  border-top: 1px solid var(--rule, #d9d5c9);
+  text-align: center;
+}
+.return-btn {
+  display: inline-block;
+  padding: 12px 26px;
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+  color: var(--accent);
+  background: transparent;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.return-btn:hover,
+.return-btn:focus {
+  background: var(--accent);
+  color: var(--paper);
+}
 .article-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
