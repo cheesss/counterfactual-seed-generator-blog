@@ -382,24 +382,38 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
   padding: 8px 0 54px;
   font-family: "Newsreader", Georgia, "Times New Roman", serif;
   color: var(--ink);
-  font-size: 1.235rem;
-  line-height: 1.72;
+  /* Font tracks the 860px measure: at this size the line lands near ~75-77
+     characters, the readable band, and the extra leading eases the longer
+     return sweep a wide column creates. */
+  font-size: 1.4rem;
+  line-height: 1.8;
 }
 .article-body h2 {
-  margin: 56px 0 18px;
+  margin: 60px 0 18px;
   padding-top: 18px;
   border-top: 1px solid var(--line);
-  font-size: 2rem;
+  font-size: 2.1rem;
   line-height: 1.12;
+  text-wrap: balance;
 }
+/* h3 must read clearly above 1.4rem body prose, so it jumps in size and weight
+   and gets more air above it — the house style uses full-sentence h3s, so the
+   contrast is what lets a reader scan section starts without a TOC. */
 .article-body h3 {
-  margin: 38px 0 14px;
-  font-size: 1.36rem;
-  line-height: 1.18;
+  margin: 46px 0 14px;
+  font-size: 1.62rem;
+  line-height: 1.22;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
 }
 .article-body p {
   margin: 0 0 1.18em;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  text-wrap: pretty;
 }
+.article-body li { hyphens: auto; -webkit-hyphens: auto; }
 .article-body ul,
 .article-body ol {
   padding-left: 1.25rem;
@@ -413,10 +427,12 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
   margin: 0 0 1.05em;
   padding: 0 0 0.5em;
   color: var(--ink);
-  font-size: 1.46rem;
-  line-height: 1.46;
+  font-size: 1.62rem;
+  line-height: 1.5;
   font-weight: 500;
   letter-spacing: -0.006em;
+  hyphens: manual;
+  -webkit-hyphens: manual;
 }
 .article-body a {
   color: var(--accent-3);
