@@ -4,8 +4,15 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed columns on industrial constraints, infrastructure chokepoints, and strategic capacity.</description>
-  <lastBuildDate>Sat, 04 Jul 2026 07:49:55 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Jul 2026 12:47:33 +0000</lastBuildDate>
 
+  <item>
+    <title>Rare-Earth Magnets: The License Gate Is Visible, the Qualification Gate Is Durable</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html</guid>
+    <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    <description>The rare-earth magnet story is usually told as a mining problem. That is the easiest part to see: deposits, pits, ore grades, national flags, reserve tables. But a mine does not enter a traction motor, missile actuator, radar, industrial pump, humanoid robot joint, wind turbine…</description>
+  </item>
   <item>
     <title>UF6 Cylinders Are Becoming A Nuclear Fuel-Cycle Control Point</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point.html</link>
@@ -208,13 +215,6 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.html</guid>
     <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
     <description>Airline capacity is usually discussed as an airframe problem. Boeing has quality and certification constraints. Airbus has a deep backlog and a slower-than-promised path to higher A320 output.</description>
-  </item>
-  <item>
-    <title>The Subsea Cable Bottleneck Is Who Can Repair the Break</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html</guid>
-    <pubDate>Sun, 21 Jun 2026 00:00:00 +0000</pubDate>
-    <description>TeleGeography and Infra-Analytics put a hard number on the maintenance problem. Their report summary projects a 48% net increase in deployed cable kilometers by 2040, while roughly two-thirds of cable maintenance ships reach end-of-service life by then.</description>
   </item>
 </channel>
 </rss>
