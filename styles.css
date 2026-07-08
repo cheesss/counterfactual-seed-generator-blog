@@ -215,6 +215,35 @@ html { scroll-behavior: smooth; }
   padding-top: 7px; padding-bottom: 7px;
   box-shadow: 0 6px 24px rgba(20, 23, 31, 0.09);
 }
+/* Sliding underline on nav links (all pages). */
+.site-header nav a { position: relative; }
+.site-header nav a::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -3px; height: 2px;
+  background: var(--accent); transform: scaleX(0); transform-origin: 0 50%;
+  transition: transform 0.25s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+.site-header nav a:hover::after, .site-header nav a:focus-visible::after { transform: scaleX(1); }
+/* Reading-progress bar (article pages). */
+.read-progress {
+  position: fixed; top: 0; left: 0; height: 3px; width: 100%;
+  transform: scaleX(0); transform-origin: 0 50%;
+  background: var(--accent); z-index: 5; transition: transform 0.1s linear;
+}
+/* Floating back-to-top button (article pages). */
+.to-top {
+  position: fixed; right: clamp(16px, 3vw, 32px); bottom: clamp(16px, 3vw, 32px);
+  width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink);
+  font-size: 1.1rem; line-height: 1; cursor: pointer;
+  opacity: 0; visibility: hidden; transform: translateY(8px);
+  transition: opacity 0.25s ease, transform 0.25s ease, border-color 0.15s ease, color 0.15s ease;
+  z-index: 5; box-shadow: 0 4px 16px rgba(20, 23, 31, 0.1);
+}
+.to-top.is-visible { opacity: 1; visibility: visible; transform: none; }
+.to-top:hover { border-color: var(--accent); color: var(--accent); }
+@media (prefers-reduced-motion: reduce) {
+  .site-header nav a::after, .read-progress, .to-top { transition: none; }
+}
 .article-card span,
 .article-card h3,
 .article-card p { display: block; padding: 0 18px; }

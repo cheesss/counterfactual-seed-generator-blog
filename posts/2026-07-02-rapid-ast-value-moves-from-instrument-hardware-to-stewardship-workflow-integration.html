@@ -10,12 +10,13 @@
   <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/e/ed/Antibiotic_Sensitivity_Testing_Plate_reader.jpg">
   <meta property="og:type" content="article">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../styles.css?v=20260708-motion2">
+  <link rel="stylesheet" href="../styles.css?v=20260708-reading">
   <link rel="alternate" type="application/rss+xml" title="Bottleneck Briefs" href="../feed.xml">
   <script data-goatcounter="https://cheesss.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
+  <div class="read-progress" aria-hidden="true"></div>
   <a class="skip-link" href="#content">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="../index.html">Bottleneck Briefs</a>
@@ -176,5 +177,25 @@
     </div>
     <p class="footer-legal">© 2026 Bottleneck Briefs · Independent industrial-bottleneck research. <strong>Not investment advice</strong> — informational and educational use only; not an offer or solicitation; companies are named as illustrative exposure, never recommendations. The author may hold positions in companies mentioned.</p>
   </footer>
+  <button class="to-top" type="button" aria-label="Back to top" title="Back to top">&uarr;</button>
+<script>
+(function () {
+  var bar = document.querySelector(".read-progress");
+  var top = document.querySelector(".to-top");
+  var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function onScroll() {
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    var p = max > 0 ? h.scrollTop / max : 0;
+    if (bar) bar.style.transform = "scaleX(" + p + ")";
+    if (top) top.classList.toggle("is-visible", h.scrollTop > 600);
+  }
+  addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+  if (top) top.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+  });
+})();
+</script>
 </body>
 </html>
