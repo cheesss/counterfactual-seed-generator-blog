@@ -166,17 +166,54 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 4px;
-  transition: transform 160ms ease, border-color 160ms ease;
+  transition: transform 220ms cubic-bezier(0.2, 0.6, 0.2, 1), border-color 220ms ease, box-shadow 220ms ease;
   cursor: pointer;
 }
 .article-card:hover {
   border-color: var(--accent);
   box-shadow: var(--shadow);
+  transform: translateY(-4px);
 }
 .article-card img {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  transition: transform 420ms cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+.article-card:hover img { transform: scale(1.045); }
+.article-card h3 { transition: color 200ms ease; }
+.article-card:hover h3 { color: var(--accent); }
+@media (prefers-reduced-motion: reduce) {
+  .article-card, .article-card img, .article-card h3 { transition: none; }
+  .article-card:hover, .article-card:hover img { transform: none; }
+}
+/* Smooth anchor scrolling, disabled for reduced-motion. */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+/* Scroll-reveal: only armed when the head added .js-anim (motion allowed).
+   Without it, targets render normally, so this is pure progressive enhancement. */
+.js-anim .reveal {
+  opacity: 0; transform: translateY(18px);
+  transition: opacity 0.6s cubic-bezier(0.2, 0.6, 0.2, 1), transform 0.6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  will-change: opacity, transform;
+}
+.js-anim .reveal.is-in { opacity: 1; transform: none; }
+/* Hero entrance: pure-CSS, load-time, staggered — motion-safe by media query. */
+@media (prefers-reduced-motion: no-preference) {
+  .home-hero > div > * { animation: heroRise 0.7s cubic-bezier(0.2, 0.6, 0.2, 1) both; }
+  .home-hero > div > *:nth-child(1) { animation-delay: 0.02s; }
+  .home-hero > div > *:nth-child(2) { animation-delay: 0.10s; }
+  .home-hero > div > *:nth-child(3) { animation-delay: 0.18s; }
+  .home-hero > div > *:nth-child(4) { animation-delay: 0.26s; }
+  .home-hero > img { animation: heroFade 1s ease both; }
+}
+@keyframes heroRise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes heroFade { from { opacity: 0; } to { opacity: 1; } }
+/* Header condenses once the page scrolls. */
+.site-header { transition: padding 220ms ease, box-shadow 220ms ease, background 220ms ease; }
+.site-header.is-scrolled {
+  padding-top: 7px; padding-bottom: 7px;
+  box-shadow: 0 6px 24px rgba(20, 23, 31, 0.09);
 }
 .article-card span,
 .article-card h3,
@@ -819,7 +856,34 @@ main { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
   padding: 2px 8px; border-radius: 999px; border: 1px solid var(--accent);
   color: var(--accent-deep); background: var(--surface); white-space: nowrap;
 }
+.led-status[data-state="open"] { border-color: var(--line); color: var(--muted); }
+.led-status[data-state="confirmed"] { border-color: #1f7a4d; color: #145c39; background: #eaf6ef; }
+.led-status[data-state="weakened"] { border-color: #b7791f; color: #8a5a0c; background: #fbf1de; }
+.led-status[data-state="broken"] { border-color: #b4402f; color: #8f2f22; background: #fbeae7; }
 .led-signals .led-signal { flex: 1; }
+.led-resolution {
+  margin-top: 4px; font-family: "Source Sans 3", Inter, sans-serif;
+  font-size: 0.82rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 8px;
+}
+.led-resolution .led-date { font-weight: 700; color: var(--ink); }
+.led-scoreboard {
+  display: flex; flex-wrap: wrap; gap: 12px; margin: 8px 0 28px;
+}
+.led-score {
+  flex: 1 1 120px; padding: 12px 16px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--surface);
+}
+.led-score strong { display: block; font-size: 1.8rem; line-height: 1; }
+.led-score span {
+  font-family: "Source Sans 3", Inter, sans-serif; font-size: 0.72rem;
+  font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted);
+}
+.led-score[data-state="confirmed"] { border-color: #1f7a4d; }
+.led-score[data-state="confirmed"] strong { color: #145c39; }
+.led-score[data-state="weakened"] { border-color: #b7791f; }
+.led-score[data-state="weakened"] strong { color: #8a5a0c; }
+.led-score[data-state="broken"] { border-color: #b4402f; }
+.led-score[data-state="broken"] strong { color: #8f2f22; }
 .chip {
   font-family: "Source Sans 3", Inter, sans-serif;
   font-size: 0.82rem; font-weight: 600;

@@ -38,3 +38,35 @@ for (const chip of sectorChips) {
     applyFilters();
   });
 }
+
+// Scroll-reveal. Armed only when the head set .js-anim (i.e. the visitor has not
+// asked for reduced motion). Elements rise+fade as they enter view; a failsafe
+// reveals anything the observer never fires for.
+if (document.documentElement.classList.contains("js-anim") && "IntersectionObserver" in window) {
+  const io = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-in");
+        io.unobserve(entry.target);
+      }
+    }
+  }, { rootMargin: "0px 0px -6% 0px", threshold: 0.08 });
+  for (const el of document.querySelectorAll(".reveal")) {
+    const sibs = el.parentElement
+      ? Array.from(el.parentElement.children).filter((c) => c.classList.contains("reveal"))
+      : [el];
+    el.style.transitionDelay = Math.min(sibs.indexOf(el), 6) * 60 + "ms";
+    io.observe(el);
+  }
+  setTimeout(() => {
+    for (const el of document.querySelectorAll(".reveal:not(.is-in)")) el.classList.add("is-in");
+  }, 2500);
+}
+
+// Header condenses once the page scrolls past the fold edge.
+const siteHeader = document.querySelector(".site-header");
+if (siteHeader) {
+  const onScroll = () => siteHeader.classList.toggle("is-scrolled", window.scrollY > 12);
+  addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+}
