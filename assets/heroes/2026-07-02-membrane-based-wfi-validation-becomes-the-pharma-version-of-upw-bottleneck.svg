@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Abstract bottleneck diagram for In membrane-based WFI, validation evidence becomes the control point">
+  <style>
+    .bg { fill: #eef4f4; }
+    .ink { fill: #1f4b59; }
+    .accent { fill: #4d8fb8; }
+    .accent2 { fill: #8bb7a3; }
+    .line { stroke: #1f4b59; stroke-width: 3; opacity: 0.22; fill: none; }
+    .dash { stroke: #4d8fb8; stroke-width: 6; stroke-linecap: round; fill: none; }
+    .title { fill: #1f4b59; font-family: Georgia, 'Times New Roman', serif; font-size: 52px; font-weight: 700; }
+    .eyebrow { fill: #4d8fb8; font-family: Arial, sans-serif; font-size: 26px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; }
+    .sub { fill: #1f4b59; font-family: Arial, sans-serif; font-size: 27px; opacity: 0.72; }
+    .chip { fill: rgba(255,255,255,0.48); stroke: #1f4b59; stroke-width: 2; opacity: 0.82; }
+    .chip-text { fill: #1f4b59; font-family: Arial, sans-serif; font-size: 19px; font-weight: 700; }
+  </style>
+  <rect class="bg" width="1600" height="900"/>
+
+  <rect x="1120" y="230" width="270" height="360" rx="14" class="bg"/>
+  <rect x="1120" y="230" width="270" height="360" rx="14" fill="none" class="line" style="stroke-width:5;opacity:0.6"/>
+  <rect x="1210" y="212" width="90" height="34" rx="8" class="accent2"/>
+  <g>
+    <circle cx="1160" cy="308" r="13" class="accent"/><rect x="1188" y="300" width="150" height="16" rx="8" class="ink" opacity="0.55"/>
+    <circle cx="1160" cy="368" r="13" class="accent"/><rect x="1188" y="360" width="150" height="16" rx="8" class="ink" opacity="0.55"/>
+    <circle cx="1160" cy="428" r="13" class="accent"/><rect x="1188" y="420" width="110" height="16" rx="8" class="ink" opacity="0.55"/>
+  </g>
+  <text x="120" y="118" class="eyebrow">BOTTLENECK BRIEFS</text>
+  <text x="120" y="190" class="title">In membrane-based WFI,</text>
+<text x="120" y="248" class="title">validation evidence becomes</text>
+<text x="120" y="306" class="title">the control point</text>
+  <text x="120" y="575" class="sub">Water &amp; environment / Validation &amp; certification evidence</text>
+  <g transform="translate(120,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Validation evidence</text></g>
+<g transform="translate(435,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Water &amp; environment</text></g>
+<g transform="translate(750,660)"><rect width="285" height="48" rx="8" class="chip"/><text x="142.5" y="31" class="chip-text" text-anchor="middle">Evidence map</text></g>
+</svg>

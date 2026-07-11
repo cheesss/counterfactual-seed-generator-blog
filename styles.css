@@ -1297,25 +1297,37 @@ pre code {
 }
 /* Home data cards: headline stat strip + density line. */
 .card-figures {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px 14px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px 18px;
   padding: 0 18px 12px;
 }
-.card-stat { display: flex; flex-direction: column; gap: 1px; }
-.card-stat b {
+.article-card .card-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  padding: 0;
+  color: inherit;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.article-card .card-stat b {
+  display: block;
   font-family: "Newsreader", Georgia, serif;
-  font-size: 0.94rem;
+  font-size: 1rem;
   line-height: 1;
   color: var(--ink);
   font-variant-numeric: tabular-nums;
 }
-.card-stat em {
+.article-card .card-stat em {
+  display: block;
   font-style: normal;
-  font-size: 0.62rem;
-  line-height: 1.22;
+  font-size: 0.65rem;
+  line-height: 1.35;
   color: var(--muted);
-  max-width: 132px;
+  max-width: 240px;
+  overflow-wrap: anywhere;
 }
 .card-density {
   padding: 0 18px 16px !important;
