@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "summary": {
     "articles": 35,
     "data_series": 177,
@@ -9,10 +9,10 @@
       "signals": 95,
       "resolved": 4,
       "states": {
-        "weakened": 0,
         "broken": 0,
         "confirmed": 4,
-        "open": 91
+        "open": 91,
+        "weakened": 0
       },
       "extraction_modes": {
         "explicit_bullet": 95
@@ -28,9 +28,7 @@
         "codex-blog-editor"
       ],
       "complete_by_sections": 1,
-      "complete_by_run_manifest": 0,
-      "reports_with_any_run_manifest": 1,
-      "run_manifests": 4
+      "complete_by_run_manifest": 0
     },
     "outcome_ledger": {
       "entries": 4,
@@ -60,8 +58,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Barrow_Offshore_wind_turbines_NR.jpg/1920px-Barrow_Offshore_wind_turbines_NR.jpg",
         "alt": "Offshore wind turbines at sea"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260707 Rare Earth Magnet Separation Qualification - Search Heavy.md",
-      "source_report_hash_sha256": "2f28cf80bc0782aab021cadd374c24e2769311fc567e507d214e1673ffbde6fd",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -76,70 +72,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": true,
-        "recorded_stages": [
-          "moat-and-capture",
-          "private-investment-thesis"
-        ],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 4,
-        "runs": [
-          {
-            "run_id": "20260710-020821",
-            "manifest_path": "10_Topics/Counterfactual Seed Generator/_System/Bridge/Runs/20260710-020821.q-horizon-20260707-rare-earth-magnet-separation/report-stage-run.json",
-            "stages": [
-              {
-                "stage": "moat-and-capture",
-                "status": "prompt-created",
-                "expected_heading": "Moat And Capture",
-                "prompt_hash_sha256": "f940378401f98075b53935116c5f465439ac27e681bfa601718921c38feea4bd",
-                "report_hash_before_sha256": "ac9690440a61ff912150a968d93a66455eb21bddcb9152685cda30b7c9239154",
-                "raw_output_path": ""
-              }
-            ]
-          },
-          {
-            "run_id": "20260710-021124",
-            "manifest_path": "10_Topics/Counterfactual Seed Generator/_System/Bridge/Runs/20260710-021124.q-horizon-20260707-rare-earth-magnet-separation/report-stage-run.json",
-            "stages": [
-              {
-                "stage": "moat-and-capture",
-                "status": "applied",
-                "expected_heading": "Moat And Capture",
-                "prompt_hash_sha256": "f940378401f98075b53935116c5f465439ac27e681bfa601718921c38feea4bd",
-                "report_hash_before_sha256": "ac9690440a61ff912150a968d93a66455eb21bddcb9152685cda30b7c9239154",
-                "raw_output_path": "10_Topics/Counterfactual Seed Generator/_System/Bridge/Inbox/20260710-021124.q-horizon-20260707-rare-earth-magnet-separation.moat-and-capture.gpt-output.md"
-              }
-            ]
-          },
-          {
-            "run_id": "20260710-021628",
-            "manifest_path": "10_Topics/Counterfactual Seed Generator/_System/Bridge/Runs/20260710-021628.q-horizon-20260707-rare-earth-magnet-separation/report-stage-run.json",
-            "stages": [
-              {
-                "stage": "private-investment-thesis",
-                "status": "prompt-created",
-                "expected_heading": "Private Investment Thesis",
-                "prompt_hash_sha256": "bc7756dcd30dc4a6f6d211f763e70e57cb760b2082d90485f11ff0e9faa3c8e5",
-                "report_hash_before_sha256": "db98a8667b418110272c6a0ebfbf05496010c6970e9f20491e0d4c25482e4e59",
-                "raw_output_path": ""
-              }
-            ]
-          },
-          {
-            "run_id": "20260710-021931",
-            "manifest_path": "10_Topics/Counterfactual Seed Generator/_System/Bridge/Runs/20260710-021931.q-horizon-20260707-rare-earth-magnet-separation/report-stage-run.json",
-            "stages": [
-              {
-                "stage": "private-investment-thesis",
-                "status": "applied",
-                "expected_heading": "Private Investment Thesis",
-                "prompt_hash_sha256": "bc7756dcd30dc4a6f6d211f763e70e57cb760b2082d90485f11ff0e9faa3c8e5",
-                "report_hash_before_sha256": "db98a8667b418110272c6a0ebfbf05496010c6970e9f20491e0d4c25482e4e59",
-                "raw_output_path": "10_Topics/Counterfactual Seed Generator/_System/Bridge/Inbox/20260710-021931.q-horizon-20260707-rare-earth-magnet-separation.private-investment-thesis.gpt-output.md"
-              }
-            ]
-          }
-        ]
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -819,10 +752,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": [
-        "unitless_calendar_year_excluded_from_cards"
-      ]
+      }
     },
     {
       "slug": "2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point",
@@ -845,8 +775,6 @@
         "url": "https://www.energy.gov/sites/default/files/styles/full_article_width/public/2026-04/PPPO_DUF6_Autoclaves_2026_4_21.jpg?itok=Zofd0bZb",
         "alt": "DUF6 autoclaves at Paducah"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Uranium Fusion Diffusion 20260703 08 UF6 cylinder recertification 30B and - Search Heavy.md",
-      "source_report_hash_sha256": "b7cc9935d18142518e3993b6e90a28958735b5be40c3a9a78b7a129f32e9aea0",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -861,10 +789,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -1211,10 +1136,7 @@
         "status": "unstructured_prose",
         "source_heading": "Several signals would weaken the thesis",
         "unpublished_candidate_count": 4
-      },
-      "extraction_notes": [
-        "watch_section_requires_explicit_bullets"
-      ]
+      }
     },
     {
       "slug": "2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot",
@@ -1237,8 +1159,6 @@
         "url": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1600&q=80",
         "alt": "Software code on a computer monitor"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Uranium Fusion Diffusion 20260703 11 Tungsten first wall qualification and - Search Heavy.md",
-      "source_report_hash_sha256": "cb91d87dccaa8e72e5cccf44f39a6a5acd2382ce38e0ccbd3b9f174dcc95e44c",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -1253,10 +1173,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -1544,8 +1461,7 @@
         "status": "missing",
         "source_heading": "",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate",
@@ -1568,8 +1484,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Hydrogen_electrolyser_-_Science_Museum%2C_London.jpg/1920px-Hydrogen_electrolyser_-_Science_Museum%2C_London.jpg",
         "alt": "Hydrogen electrolyser equipment"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Uranium Fusion Diffusion 20260703 04 Tritium closed loop fuel cycle - Search Heavy.md",
-      "source_report_hash_sha256": "baaecf5130d80c682d3ad0eba9af2deedde6094eb2e3aa363868bd51489da069",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -1584,10 +1498,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -1867,10 +1778,7 @@
         "status": "unstructured_prose",
         "source_heading": "The most useful monitoring marks are concrete rather than rhetorical",
         "unpublished_candidate_count": 6
-      },
-      "extraction_notes": [
-        "watch_section_requires_explicit_bullets"
-      ]
+      }
     },
     {
       "slug": "2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and",
@@ -1893,8 +1801,6 @@
         "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
         "alt": "Laboratory scientist working with research equipment"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Uranium Fusion Diffusion 20260703 10 Stable isotope enrichment as a - Search Heavy.md",
-      "source_report_hash_sha256": "1f24bdb9b2381956b5e78d84e76995c35e5fe131780777197b39ce7873be0371",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -1909,10 +1815,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -2207,10 +2110,7 @@
         "status": "unstructured_prose",
         "source_heading": "The signals to watch are concrete",
         "unpublished_candidate_count": 3
-      },
-      "extraction_notes": [
-        "watch_section_requires_explicit_bullets"
-      ]
+      }
     },
     {
       "slug": "2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate",
@@ -2233,8 +2133,6 @@
         "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1600&q=80",
         "alt": "Power transmission lines crossing open terrain"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Uranium Fusion Diffusion 20260703 03 Lithium 6 enrichment as fusion - Search Heavy.md",
-      "source_report_hash_sha256": "63464b9a5060e008e5b412eb978ec2df9c06416d1bd3f3a492d2c10216c351ef",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -2249,10 +2147,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -2458,8 +2353,7 @@
         "status": "missing",
         "source_heading": "",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate",
@@ -2482,8 +2376,6 @@
         "url": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=1600&q=80",
         "alt": "Cargo containers stacked at a port"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Uranium Fusion Diffusion 20260703 07 ISR groundwater restoration and Class - Search Heavy.md",
-      "source_report_hash_sha256": "86d436073fffc654f60e60c94d16dd8de2a8d20c0de299213a455244ef514195",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -2498,10 +2390,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -2994,8 +2883,7 @@
         "status": "missing",
         "source_heading": "",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-07-03-haleu-transport-package-certification-and-package-fleet-operations",
@@ -3018,8 +2906,6 @@
         "url": "https://www.energy.gov/sites/default/files/styles/full_article_width/public/2023-06/HALEU_Reguli_1200x630.png?itok=c5uKZJOO",
         "alt": "HALEU reguli from downblended legacy EBR-II material"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Uranium Fusion Diffusion 20260703 01 HALEU transport package certification and - Search Heavy.md",
-      "source_report_hash_sha256": "58bd114ff098c931f549c313e4d64572ddf3f4c9597cdf8c4794ebf3048a6ff0",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -3034,10 +2920,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -3385,10 +3268,7 @@
         "status": "unstructured_prose",
         "source_heading": "The watch list is narrow: new NRC Part 71 certificate applications and amendments for HALEU contents",
         "unpublished_candidate_count": 6
-      },
-      "extraction_notes": [
-        "watch_section_requires_explicit_bullets"
-      ]
+      }
     },
     {
       "slug": "2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication",
@@ -3411,8 +3291,6 @@
         "url": "https://www.energy.gov/sites/default/files/2026-02/x_energy_construction-horiz.png",
         "alt": "TRISO-X advanced nuclear fuel facility construction site"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Uranium Fusion Diffusion 20260703 02 HALEU deconversion and fuel form - Search Heavy.md",
-      "source_report_hash_sha256": "18977800638ec68ddc5be8a848638e2764c4b8f28b11e57e00e9a07a27d11fda",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -3427,10 +3305,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -3732,10 +3607,7 @@
         "status": "unstructured_prose",
         "source_heading": "The signals worth monitoring are specific",
         "unpublished_candidate_count": 5
-      },
-      "extraction_notes": [
-        "watch_section_requires_explicit_bullets"
-      ]
+      }
     },
     {
       "slug": "2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure",
@@ -3758,8 +3630,6 @@
         "url": "https://fusionforenergy.europa.eu/wp-content/uploads/2025/07/DONES-pic-cropped-scaled.jpg",
         "alt": "IFMIF-DONES fusion materials irradiation facility project visual"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Uranium Fusion Diffusion 20260703 06 Fusion materials data standards and - Search Heavy.md",
-      "source_report_hash_sha256": "ded0f5de8a75b3670cc46c508ed874e62b6ca72c86910235828a51c5bb42429f",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -3774,10 +3644,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -3966,10 +3833,7 @@
         "status": "unstructured_prose",
         "source_heading": "Watch whether ASME Division 4, RCC-MRx, NRC guidance, UK or EU procurement documents, or private fusion",
         "unpublished_candidate_count": 6
-      },
-      "extraction_notes": [
-        "watch_section_requires_explicit_bullets"
-      ]
+      }
     },
     {
       "slug": "2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide",
@@ -3992,8 +3856,6 @@
         "url": "https://www.ukaea.org/wp-content/uploads/2025/08/work-librti-breeder-blanket-illustrated.jpg",
         "alt": "LIBRTI breeder blanket testbed illustration"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Uranium Fusion Diffusion 20260703 05 Fusion blanket validation slots 14 - Search Heavy.md",
-      "source_report_hash_sha256": "ae6079fc1e35151de97ce3c522b1cfba8da3066ae7a5f5eca0a1283d1012f461",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -4008,10 +3870,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -4392,8 +4251,7 @@
         "status": "missing",
         "source_heading": "",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-07-03-fluorine-chemistry-s-hidden-control-point",
@@ -4416,8 +4274,6 @@
         "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
         "alt": "Close-up of an illuminated circuit board"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Uranium Fusion Diffusion 20260703 09 Fluorine chemistry and HF byproduct - Search Heavy.md",
-      "source_report_hash_sha256": "0d589b6cbe60d2795265346205386d521f40994a8ff7e69fa0b75e2b6efe82ed",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -4432,10 +4288,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -4784,8 +4637,7 @@
         "status": "missing",
         "source_heading": "",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa",
@@ -4808,8 +4660,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gresham_Wastewater_Treatment_Plant_secondary_clarifiers_2025.jpg/1920px-Gresham_Wastewater_Treatment_Plant_secondary_clarifiers_2025.jpg",
         "alt": "Secondary clarifiers at a wastewater treatment plant"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 10 Trace Contaminant Online Metrology - Search Heavy.md",
-      "source_report_hash_sha256": "3a95553bda8bdfda2d1f38203959037e79c31dae643b7135d8e776ef4a088603",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -4824,10 +4674,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -5183,10 +5030,7 @@
         "status": "unstructured_prose",
         "source_heading": "What would prove this wrong, and what to watch",
         "unpublished_candidate_count": 6
-      },
-      "extraction_notes": [
-        "watch_section_requires_explicit_bullets"
-      ]
+      }
     },
     {
       "slug": "2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create",
@@ -5209,8 +5053,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Antibiotic_pills.jpg/1920px-Antibiotic_pills.jpg",
         "alt": "Antibiotic capsules"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 05 Antibiotic Subscription Models Create - Search Heavy.md",
-      "source_report_hash_sha256": "5928d1ca211a0d12beec96c8e8be7d0d8619584bf3238d908de78a649b3f629e",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -5225,10 +5067,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -5663,10 +5502,7 @@
         "status": "unstructured_prose",
         "source_heading": "The signals worth watching are concrete",
         "unpublished_candidate_count": 6
-      },
-      "extraction_notes": [
-        "watch_section_requires_explicit_bullets"
-      ]
+      }
     },
     {
       "slug": "2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration",
@@ -5689,8 +5525,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Antibiotic_Sensitivity_Testing_Plate_reader.jpg",
         "alt": "Antibiotic susceptibility testing plate reader"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 03 Rapid AST Value Moves - Search Heavy.md",
-      "source_report_hash_sha256": "9236e17812d77bea43374533ed84f3d8b60ab33facd0f4c611f8ae8a96979a44",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -5705,10 +5539,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -6191,10 +6022,7 @@
         "status": "unstructured_prose",
         "source_heading": "What would prove this wrong, and what to watch",
         "unpublished_candidate_count": 6
-      },
-      "extraction_notes": [
-        "watch_section_requires_explicit_bullets"
-      ]
+      }
     },
     {
       "slug": "2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train",
@@ -6217,8 +6045,6 @@
         "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80",
         "alt": "Data center server racks with cool blue lighting"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 11 Produced Water Beneficial Reuse - Search Heavy.md",
-      "source_report_hash_sha256": "894573cee36c8a22e79ccd7119c7450a922deba7eb5fba40070b4a7d4391ca5c",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -6233,10 +6059,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [],
       "card_metrics": [],
@@ -6291,8 +6114,7 @@
         "status": "explicit_bullets",
         "source_heading": "Who controls the constraint, and what to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system",
@@ -6315,8 +6137,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/RF_02_011_%2826967646190%29.jpg/1920px-RF_02_011_%2826967646190%29.jpg",
         "alt": "Granular activated carbon water treatment equipment"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 12 PFAS Micropollutant Resin Regeneration - Search Heavy.md",
-      "source_report_hash_sha256": "ca5fb36e03a74bee61c25df5acce46cdd031a7daabc70a8d5900bb3315c64ae6",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -6331,10 +6151,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -6444,10 +6261,7 @@
         "status": "explicit_bullets",
         "source_heading": "What would prove this wrong, and what to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": [
-        "unitless_calendar_year_excluded_from_cards"
-      ]
+      }
     },
     {
       "slug": "2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck",
@@ -6470,8 +6284,6 @@
         "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck.svg",
         "alt": "Abstract bottleneck diagram for In membrane-based WFI, validation evidence becomes the control point"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 07 Membrane Based WFI Validation - Search Heavy.md",
-      "source_report_hash_sha256": "8b21ae8223a9843ead4a7fdc1a930e215fe63c7169e46da88899af832f78d16b",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -6486,10 +6298,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -6590,8 +6399,7 @@
         "status": "explicit_bullets",
         "source_heading": "What would prove this wrong, and what to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck",
@@ -6614,8 +6422,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Salar_de_Atacama_Lithium_salt_ponds_2018.jpg",
         "alt": "Lithium brine evaporation ponds in the Salar de Atacama"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 09 High Recovery Industrial Water - Search Heavy.md",
-      "source_report_hash_sha256": "ef41f862e4faa4f0cc18c44a4d163438f344066ad6d18702a6cd5eb2ba81f13e",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -6630,10 +6436,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -7091,10 +6894,7 @@
         "status": "unstructured_prose",
         "source_heading": "What would prove this wrong, and what to watch",
         "unpublished_candidate_count": 2
-      },
-      "extraction_notes": [
-        "watch_section_requires_explicit_bullets"
-      ]
+      }
     },
     {
       "slug": "2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck",
@@ -7117,8 +6917,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Superheroes_of_our_time.jpg/1920px-Superheroes_of_our_time.jpg",
         "alt": "Green hydrogen electrolyzer installation"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 06 Green Hydrogen Electrolyzer Feedwater - Search Heavy.md",
-      "source_report_hash_sha256": "0406b6c009b586f801904ff2731da8bbf6ba1844517cfb4cb808316c09ea478b",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -7133,10 +6931,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -7462,8 +7257,7 @@
         "status": "explicit_bullets",
         "source_heading": "What would prove this wrong, and what to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint",
@@ -7486,8 +7280,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/ChevyVoltFirstBattery08_%284267061985%29.jpg/1920px-ChevyVoltFirstBattery08_%284267061985%29.jpg",
         "alt": "Electric vehicle battery pack manufacturing line"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 08 Battery Gigafactory Wastewater And - Search Heavy.md",
-      "source_report_hash_sha256": "d218d5aec90be4bf4cc75900e14a140eaad60ed27b67c713436e0111d52e8c0d",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -7502,10 +7294,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -8021,8 +7810,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck",
@@ -8045,8 +7833,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Food_safety_research100.jpg",
         "alt": "Food safety researcher counting bacterial colonies in sample plates"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 02 Slaughterhouse And Retail Meat - Search Heavy.md",
-      "source_report_hash_sha256": "59946717439723137098ad78aa4a9ffacb699abdf457aa3cbf8b450a864219a4",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -8061,10 +7847,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -8316,8 +8099,7 @@
         "status": "explicit_bullets",
         "source_heading": "What could loosen the bottleneck, and what to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure",
@@ -8340,8 +8122,6 @@
         "url": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/media/images/Ohio_FlowCompositeSample.png",
         "alt": "Flow-based composite wastewater sample being collected at a wastewater facility"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 04 Hospital Wastewater AMR Surveillance - Search Heavy.md",
-      "source_report_hash_sha256": "a8cfb5d3cd8d71077830147c5ab6b24b7edb308f1451956ced7f16495349c8b6",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -8356,10 +8136,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [],
       "card_metrics": [],
@@ -8368,10 +8145,7 @@
         "status": "unstructured_prose",
         "source_heading": "What would prove this wrong, and what to watch",
         "unpublished_candidate_count": 6
-      },
-      "extraction_notes": [
-        "watch_section_requires_explicit_bullets"
-      ]
+      }
     },
     {
       "slug": "2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck",
@@ -8394,8 +8168,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/QPCR_Machine_%28NIH_BioArt_426%29.png",
         "alt": "qPCR machine used for molecular testing"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Source Diffusion 20260629 01 AMR Wastewater Surveillance Becomes - Search Heavy.md",
-      "source_report_hash_sha256": "b282e0b0a169dfee1af2bac5f97579148d0845497653642fbaf935c223391dbf",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -8410,10 +8182,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -8602,8 +8371,7 @@
         "status": "explicit_bullets",
         "source_heading": "What would prove this wrong, and what to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns",
@@ -8626,8 +8394,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Activated_Carbon.jpg/1920px-Activated_Carbon.jpg",
         "alt": "Granular activated carbon"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260625 PFAS Spent-Media Reactivation Gate - Search Heavy.md",
-      "source_report_hash_sha256": "0bd5a17a4741e05b99c5984a466dd58141683d994c323f7c071d9eded46f066f",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -8642,10 +8408,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -8782,10 +8545,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": [
-        "unitless_calendar_year_excluded_from_cards"
-      ]
+      }
     },
     {
       "slug": "2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market",
@@ -8808,8 +8568,6 @@
         "url": "https://response.epa.gov/sites/16792/files/IMG_4012.jpg",
         "alt": "Moss Landing lithium-ion battery fire response"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260623 Battery Storage Fire-Code Acceptance Bottleneck - Live Cycle.md",
-      "source_report_hash_sha256": "d491d2e01e7eb769d1bb5aed7974c5fc96caeb9d3eaecfeee60f36e1d727e603",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -8824,10 +8582,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -9717,8 +9472,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar",
@@ -9741,8 +9495,6 @@
         "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.svg",
         "alt": "Abstract bottleneck diagram for Offshore Wind's Hidden Gate Is the Maritime Construction Calendar"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260623 Offshore Wind Maritime Construction Calendar - Live Cycle.md",
-      "source_report_hash_sha256": "eb35c0ca1ca4884610ebf080dd36068f528fefea6659e800135e8e1e1b979c89",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -9757,10 +9509,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -9914,8 +9663,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock",
@@ -9938,8 +9686,6 @@
         "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.svg",
         "alt": "Abstract bottleneck diagram for Cancer's Next Supply Chain Is a Radioisotope Clock"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260623 Cancer Radioisotope Clock - Reused Source Cycle.md",
-      "source_report_hash_sha256": "c702d161194ad5efaffa7abab0caefefb011ae5636f167b58816545a4078e0ca",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -9954,10 +9700,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -10422,8 +10165,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water",
@@ -10446,8 +10188,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Dextrose_Saline_0.18%25_001.jpg/1920px-Dextrose_Saline_0.18%25_001.jpg",
         "alt": "Intravenous saline solution bag"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260622 Hospital Saline Bag Capacity - New Source Cycle.md",
-      "source_report_hash_sha256": "fba70672e19cc9f793ae9d12ef2dcb556e9df5eb5ed112b2e2d2935925337bc3",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -10462,10 +10202,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -10687,8 +10424,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity",
@@ -10711,8 +10447,6 @@
         "url": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1600&q=80",
         "alt": "Jet aircraft wing above the clouds"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260622 Engine Shop Airline Capacity - Live Cycle.md",
-      "source_report_hash_sha256": "65e0d4f836dad9c496e7dd0906e2bb4f574559b74268030e9faec6b54fdd86f9",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -10727,10 +10461,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -11213,8 +10944,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break",
@@ -11237,8 +10967,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2024-10-22_01_CABLE_INNOVATOR_-_IMO_9101132_%E2%80%93_Victoria%2C_BC_CAN.jpg/1920px-2024-10-22_01_CABLE_INNOVATOR_-_IMO_9101132_%E2%80%93_Victoria%2C_BC_CAN.jpg",
         "alt": "Submarine cable-laying ship"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260621 Subsea Cable Repair Fleet Sovereignty Bottleneck - Column Prompt Test.md",
-      "source_report_hash_sha256": "3515d5fd82515ab2dc64eb5ff2b355ed17bd27ef38769bac59a56b0164acc8c0",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -11253,10 +10981,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [],
       "card_metrics": [],
@@ -11265,8 +10990,7 @@
         "status": "missing",
         "source_heading": "",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault",
@@ -11289,8 +11013,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Usina_Fotovoltaica_%282%29_%2822963311836%29.jpg",
         "alt": "Utility-scale photovoltaic plant"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260621 Grid Model Reality Bottleneck - Visual Package Cycle Test.md",
-      "source_report_hash_sha256": "7983a6e4c895076dc277a248345a3e1cba7527071102c466eaef9c31779a2177",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -11305,10 +11027,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -11415,8 +11134,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-06-21-the-shell-bottleneck-starts-before-the-shell",
@@ -11439,8 +11157,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Artillery_shells.jpg/1920px-Artillery_shells.jpg",
         "alt": "Stacked artillery shells"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260621 Energetics Permit Stack Shell Factory Bottleneck - Blog Cycle Test.md",
-      "source_report_hash_sha256": "73e8755b72400c41978743dc1b4efb9258d6070ae7929644a5a85996557aff7f",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -11455,10 +11171,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [],
       "card_metrics": [],
@@ -11522,8 +11235,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade",
@@ -11546,8 +11258,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Gas_Turbine_Power_Plant.JPG",
         "alt": "Gas turbine power plant"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260621 AI Power Turbine Slot Trade - Reference Style Cycle Test.md",
-      "source_report_hash_sha256": "f18f1f07c60d392e6bf1cec6ceb0610296d91d4676592972be832ceeb67cfcb3",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -11562,10 +11272,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [
         {
@@ -11871,8 +11578,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     },
     {
       "slug": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit",
@@ -11895,8 +11601,6 @@
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Power_generator_of_a_hospital_data_center.jpg/1920px-Power_generator_of_a_hospital_data_center.jpg",
         "alt": "Power generator beside a data center building"
       },
-      "source_report": "10_Topics/Counterfactual Seed Generator/Information/Reports/Q - Horizon 20260621 AI Buildout Air Permit Bottleneck - Visual Link Stress Test.md",
-      "source_report_hash_sha256": "9a9ed2a1945481e0e14ee34e0c67737bda731dd2b3770ee10e90e3e135312234",
       "report_stage": {
         "required_public_stages": [
           "claim-audit",
@@ -11911,10 +11615,7 @@
           "codex-blog-editor": true
         },
         "public_cycle_complete_by_sections": false,
-        "recorded_stages": [],
-        "public_cycle_complete_by_run_manifest": false,
-        "run_manifest_count": 0,
-        "runs": []
+        "public_cycle_complete_by_run_manifest": false
       },
       "data_series": [],
       "card_metrics": [],
@@ -11975,8 +11676,7 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
-      },
-      "extraction_notes": []
+      }
     }
   ]
 }
