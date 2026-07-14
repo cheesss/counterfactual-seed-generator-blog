@@ -9,10 +9,10 @@
       "signals": 126,
       "resolved": 4,
       "states": {
-        "open": 122,
-        "weakened": 0,
         "confirmed": 4,
-        "broken": 0
+        "open": 122,
+        "broken": 0,
+        "weakened": 0
       },
       "extraction_modes": {
         "explicit_bullet": 126
@@ -55,8 +55,8 @@
       },
       "excerpt": "The intuition was sound. If psychedelic training has to pass through live supervised sessions, classroom seats will not tell you how fast the workforce can grow. The strong version of that thesis predicted a visible queue: didactic completers piling up ahead of practicum, supervisors pulled off client work, and centers losing throughput to training.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
-        "alt": "Laboratory scientist working with research equipment"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/A_session_with_a_psychotherapist_%28751707089%29.jpg",
+        "alt": "A session with a psychotherapist (751707089)"
       },
       "report_stage": {
         "required_public_stages": [
@@ -130,232 +130,6 @@
       }
     },
     {
-      "slug": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem",
-      "slug_source": "publication_registry",
-      "title": "The real bottleneck in genomic screening starts after diagnosis",
-      "url": "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html",
-      "date": "2026-07-14",
-      "updated": "2026-07-14",
-      "category": "Report",
-      "sector": {
-        "key": "healthcare",
-        "label": "Healthcare"
-      },
-      "archetype": {
-        "key": "queue-slot",
-        "label": "Queue & slot scarcity"
-      },
-      "excerpt": "Genomic screening can clear the diagnostic gate and still miss the treatment gate. A positive result has to survive confirmatory testing, current phenotype, label fit, payer approval, center acceptance, caregiver logistics, and a dated slot.",
-      "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Microbiological_seeding.jpg/1920px-Microbiological_seeding.jpg",
-        "alt": "Bacterial culture being streaked on an agar plate"
-      },
-      "report_stage": {
-        "required_public_stages": [
-          "claim-audit",
-          "thesis-deepening",
-          "adversarial-verification",
-          "codex-blog-editor"
-        ],
-        "sections_present": {
-          "claim-audit": true,
-          "thesis-deepening": true,
-          "adversarial-verification": true,
-          "codex-blog-editor": true
-        },
-        "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": false
-      },
-      "data_series": [
-        {
-          "metric": "participating Medicaid programs in the CMS CGT Access Model",
-          "points": [
-            {
-              "label": "participating Medicaid programs in the CMS CGT Access Model",
-              "value": 34.0,
-              "unit": ""
-            }
-          ],
-          "headline": {
-            "value": 34.0,
-            "value_text": "34",
-            "unit": "",
-            "metric": "participating Medicaid programs in the CMS CGT Access Model",
-            "point_label": "participating Medicaid programs in the CMS CGT Access Model",
-            "display_label": "participating Medicaid programs in the CMS CGT Access Model",
-            "selection_mode": "single_point",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "key_figures",
-            "section": "Codex-Edited Public Column > Key figures",
-            "source_text": "34 | participating Medicaid programs in the CMS CGT Access Model",
-            "source_urls": []
-          }
-        },
-        {
-          "metric": "CASGEVY infusions disclosed for 2025",
-          "points": [
-            {
-              "label": "CASGEVY infusions disclosed for 2025",
-              "value": 64.0,
-              "unit": ""
-            }
-          ],
-          "headline": {
-            "value": 64.0,
-            "value_text": "64",
-            "unit": "",
-            "metric": "CASGEVY infusions disclosed for 2025",
-            "point_label": "CASGEVY infusions disclosed for 2025",
-            "display_label": "CASGEVY infusions disclosed for 2025",
-            "selection_mode": "single_point",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "key_figures",
-            "section": "Codex-Edited Public Column > Key figures",
-            "source_text": "64 | CASGEVY infusions disclosed for 2025",
-            "source_urls": []
-          }
-        },
-        {
-          "metric": "LENMELDY U.S. qualified treatment centers",
-          "points": [
-            {
-              "label": "LENMELDY U.S. qualified treatment centers",
-              "value": 8.0,
-              "unit": ""
-            }
-          ],
-          "headline": {
-            "value": 8.0,
-            "value_text": "8",
-            "unit": "",
-            "metric": "LENMELDY U.S. qualified treatment centers",
-            "point_label": "LENMELDY U.S. qualified treatment centers",
-            "display_label": "LENMELDY U.S. qualified treatment centers",
-            "selection_mode": "single_point",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "key_figures",
-            "section": "Codex-Edited Public Column > Key figures",
-            "source_text": "8 | LENMELDY U.S. qualified treatment centers",
-            "source_urls": []
-          }
-        }
-      ],
-      "card_metrics": [
-        {
-          "value": 34.0,
-          "value_text": "34",
-          "unit": "",
-          "metric": "participating Medicaid programs in the CMS CGT Access Model",
-          "point_label": "participating Medicaid programs in the CMS CGT Access Model",
-          "display_label": "participating Medicaid programs in the CMS CGT Access Model",
-          "selection_mode": "single_point",
-          "is_calendar_year": false,
-          "card_eligible": true,
-          "provenance": {
-            "kind": "key_figures",
-            "section": "Codex-Edited Public Column > Key figures",
-            "source_text": "34 | participating Medicaid programs in the CMS CGT Access Model",
-            "source_urls": []
-          }
-        },
-        {
-          "value": 64.0,
-          "value_text": "64",
-          "unit": "",
-          "metric": "CASGEVY infusions disclosed for 2025",
-          "point_label": "CASGEVY infusions disclosed for 2025",
-          "display_label": "CASGEVY infusions disclosed for 2025",
-          "selection_mode": "single_point",
-          "is_calendar_year": false,
-          "card_eligible": true,
-          "provenance": {
-            "kind": "key_figures",
-            "section": "Codex-Edited Public Column > Key figures",
-            "source_text": "64 | CASGEVY infusions disclosed for 2025",
-            "source_urls": []
-          }
-        },
-        {
-          "value": 8.0,
-          "value_text": "8",
-          "unit": "",
-          "metric": "LENMELDY U.S. qualified treatment centers",
-          "point_label": "LENMELDY U.S. qualified treatment centers",
-          "display_label": "LENMELDY U.S. qualified treatment centers",
-          "selection_mode": "single_point",
-          "is_calendar_year": false,
-          "card_eligible": true,
-          "provenance": {
-            "kind": "key_figures",
-            "section": "Codex-Edited Public Column > Key figures",
-            "source_text": "8 | LENMELDY U.S. qualified treatment centers",
-            "source_urls": []
-          }
-        }
-      ],
-      "watch_signals": [
-        {
-          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:f823d0ae8a50",
-          "text": "The October 15, 2026 Sunshine Genetics consortium report for site lists, budget lines, and referral targets.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "The October 15, 2026 Sunshine Genetics consortium report for site lists, budget lines, and referral targets.",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:d42b2077dcfa",
-          "text": "The first 2027 CMS CGT model evaluation for authorization days, resubmissions, and completed treatments.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "The first 2027 CMS CGT model evaluation for authorization days, resubmissions, and completed treatments.",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:ad5c7cc6aedf",
-          "text": "A GUARDIAN or Generation release that sorts screen-positive cases by intervention class, not total flags.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "A GUARDIAN or Generation release that sorts screen-positive cases by intervention class, not total flags.",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:221a007a8b0b",
-          "text": "Any sponsor or center disclosure that links CASGEVY collections, releases, and infusions by cohort.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Any sponsor or center disclosure that links CASGEVY collections, releases, and infusions by cohort.",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:f32b0f16b194",
-          "text": "A public KEBILIDI center roster or first commercial procedure announcement.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "A public KEBILIDI center roster or first commercial procedure announcement.",
-          "state": "open",
-          "settlement": null
-        }
-      ],
-      "watch_extraction": {
-        "status": "explicit_bullets",
-        "source_heading": "What to watch",
-        "unpublished_candidate_count": 0
-      }
-    },
-    {
       "slug": "2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks",
       "slug_source": "publication_registry",
       "title": "The launch bottleneck may be conversion-ready treatment capacity",
@@ -373,8 +147,8 @@
       },
       "excerpt": "Most debate still treats psychedelic-treatment capacity as room count or calendar slots. The more precise unit is a conversion-ready synchronized block: protected room time, paired monitors, discharge buffer, and response coverage that must all be available at once.",
       "image": {
-        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.svg",
-        "alt": "Abstract bottleneck diagram for The launch bottleneck may be conversion-ready treatment capacity"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Psilocybin_treatments_for_Veterans_with_Treatment_Resistant_Depression_at_the_VA_%2852482794153%29.jpg",
+        "alt": "Psilocybin treatments for Veterans with Treatment Resistant Depression at the VA (52482794153)"
       },
       "report_stage": {
         "required_public_stages": [
@@ -520,8 +294,8 @@
       },
       "excerpt": "Recovery measurements become more interesting when resting-state biological-age scores rise during surgery or infection and then fall again during recovery. But that does not validate a universal aging curve; it points to a narrower endpoint question tied to a specific stressor, population, and outcome.",
       "image": {
-        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.svg",
-        "alt": "Abstract bottleneck diagram for Recovery curves may become endpoints only when they stop trying to explain all of aging"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Multiomic_proteomic_analysis_of_blood_from_long_COVID_patients_using_invasive_cardiopulmonary_exercise_testing.webp",
+        "alt": "Multiomic proteomic analysis of blood from long COVID patients using invasive cardiopulmonary exercise testing"
       },
       "report_stage": {
         "required_public_stages": [
@@ -800,8 +574,8 @@
       },
       "excerpt": "Most discussion of cell and gene therapy scale starts with the factory. People watch vector yield, cleanroom time, release testing, treatment-center readiness, and CDMO slots. Those limits matter. The public review record shows a second gate that often appears after a sponsor solves part of the physical problem.",
       "image": {
-        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.svg",
-        "alt": "Abstract bottleneck diagram for In cell and gene therapy, scale creates a custody-of-proof problem"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/AstraZeneca_Cell_Therapy_Manufacturing_Center_%2854499867408%29.jpg",
+        "alt": "AstraZeneca Cell Therapy Manufacturing Center (54499867408)"
       },
       "report_stage": {
         "required_public_stages": [
@@ -921,6 +695,232 @@
       }
     },
     {
+      "slug": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem",
+      "slug_source": "publication_registry",
+      "title": "For advanced-therapy genomic cases, the next gate may start after diagnosis",
+      "url": "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html",
+      "date": "2026-07-14",
+      "updated": "2026-07-14",
+      "category": "Report",
+      "sector": {
+        "key": "healthcare",
+        "label": "Healthcare"
+      },
+      "archetype": {
+        "key": "queue-slot",
+        "label": "Queue & slot scarcity"
+      },
+      "excerpt": "For advanced-therapy-eligible cases, genomic screening can clear the diagnostic gate and still miss the treatment gate. A positive result has to survive confirmatory testing, current phenotype, label fit, payer approval, center acceptance, caregiver logistics, and a dated slot.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Newborn_Sickle_Cell_Disease_Screening.jpg",
+        "alt": "Newborn Sickle Cell Disease Screening"
+      },
+      "report_stage": {
+        "required_public_stages": [
+          "claim-audit",
+          "thesis-deepening",
+          "adversarial-verification",
+          "codex-blog-editor"
+        ],
+        "sections_present": {
+          "claim-audit": true,
+          "thesis-deepening": true,
+          "adversarial-verification": true,
+          "codex-blog-editor": true
+        },
+        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [
+        {
+          "metric": "participating Medicaid programs in the CMS CGT Access Model",
+          "points": [
+            {
+              "label": "participating Medicaid programs in the CMS CGT Access Model",
+              "value": 34.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 34.0,
+            "value_text": "34",
+            "unit": "",
+            "metric": "participating Medicaid programs in the CMS CGT Access Model",
+            "point_label": "participating Medicaid programs in the CMS CGT Access Model",
+            "display_label": "participating Medicaid programs in the CMS CGT Access Model",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "34 | participating Medicaid programs in the CMS CGT Access Model",
+            "source_urls": []
+          }
+        },
+        {
+          "metric": "CASGEVY infusions disclosed for 2025",
+          "points": [
+            {
+              "label": "CASGEVY infusions disclosed for 2025",
+              "value": 64.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 64.0,
+            "value_text": "64",
+            "unit": "",
+            "metric": "CASGEVY infusions disclosed for 2025",
+            "point_label": "CASGEVY infusions disclosed for 2025",
+            "display_label": "CASGEVY infusions disclosed for 2025",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "64 | CASGEVY infusions disclosed for 2025",
+            "source_urls": []
+          }
+        },
+        {
+          "metric": "LENMELDY U.S. qualified treatment centers",
+          "points": [
+            {
+              "label": "LENMELDY U.S. qualified treatment centers",
+              "value": 8.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 8.0,
+            "value_text": "8",
+            "unit": "",
+            "metric": "LENMELDY U.S. qualified treatment centers",
+            "point_label": "LENMELDY U.S. qualified treatment centers",
+            "display_label": "LENMELDY U.S. qualified treatment centers",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "8 | LENMELDY U.S. qualified treatment centers",
+            "source_urls": []
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 34.0,
+          "value_text": "34",
+          "unit": "",
+          "metric": "participating Medicaid programs in the CMS CGT Access Model",
+          "point_label": "participating Medicaid programs in the CMS CGT Access Model",
+          "display_label": "participating Medicaid programs in the CMS CGT Access Model",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "34 | participating Medicaid programs in the CMS CGT Access Model",
+            "source_urls": []
+          }
+        },
+        {
+          "value": 64.0,
+          "value_text": "64",
+          "unit": "",
+          "metric": "CASGEVY infusions disclosed for 2025",
+          "point_label": "CASGEVY infusions disclosed for 2025",
+          "display_label": "CASGEVY infusions disclosed for 2025",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "64 | CASGEVY infusions disclosed for 2025",
+            "source_urls": []
+          }
+        },
+        {
+          "value": 8.0,
+          "value_text": "8",
+          "unit": "",
+          "metric": "LENMELDY U.S. qualified treatment centers",
+          "point_label": "LENMELDY U.S. qualified treatment centers",
+          "display_label": "LENMELDY U.S. qualified treatment centers",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "8 | LENMELDY U.S. qualified treatment centers",
+            "source_urls": []
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:f823d0ae8a50",
+          "text": "The October 15, 2026 Sunshine Genetics consortium report for site lists, budget lines, and referral targets.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "The October 15, 2026 Sunshine Genetics consortium report for site lists, budget lines, and referral targets.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:d42b2077dcfa",
+          "text": "The first 2027 CMS CGT model evaluation for authorization days, resubmissions, and completed treatments.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "The first 2027 CMS CGT model evaluation for authorization days, resubmissions, and completed treatments.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:ad5c7cc6aedf",
+          "text": "A GUARDIAN or Generation release that sorts screen-positive cases by intervention class, not total flags.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A GUARDIAN or Generation release that sorts screen-positive cases by intervention class, not total flags.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:221a007a8b0b",
+          "text": "Any sponsor or center disclosure that links CASGEVY collections, releases, and infusions by cohort.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Any sponsor or center disclosure that links CASGEVY collections, releases, and infusions by cohort.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:f32b0f16b194",
+          "text": "A public KEBILIDI center roster or first commercial procedure announcement.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A public KEBILIDI center roster or first commercial procedure announcement.",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
       "slug": "2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock",
       "slug_source": "publication_registry",
       "title": "Aging biomarkers still fail the transfer test",
@@ -938,8 +938,8 @@
       },
       "excerpt": "Aging-biomarker developers already know how to publish predictive models. Large cohorts and high-plex assays can produce strong organ-age and mortality associations. The field's problem starts when that result has to travel across laboratories, matrices, software versions and sponsor programs.",
       "image": {
-        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.svg",
-        "alt": "Abstract bottleneck diagram for Aging biomarkers still fail the transfer test"
+        "url": "https://www.nist.gov/sites/default/files/styles/social/public/images/2023/04/04/Picture2.png?itok=wRv3kbND",
+        "alt": "NIST cell-free-DNA methylation interlaboratory materials"
       },
       "report_stage": {
         "required_public_stages": [
@@ -2833,8 +2833,8 @@
       },
       "excerpt": "The obvious story in fusion, quantum computing, and radiopharmaceuticals is usually a demand story. Fusion needs magnets, power electronics, blankets, and tritium. Quantum processors need better qubits, lower error rates, cryogenic control, and usable manufacturing yield. Radioligand therapy needs more approved drugs, more treatment centers, more nuclear pharmacists, and more isotope logistics. Those explanations are real, but they can miss a smaller upstream constraint: the qualified stable isotope.",
       "image": {
-        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.svg",
-        "alt": "Abstract bottleneck diagram for Stable-Isotope Enrichment: The Qualified-Materials Bottleneck Behind Fusion Fuel, Quantum Silicon, and Radioligands"
+        "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Laboratory scientist working with research equipment"
       },
       "report_stage": {
         "required_public_stages": [
@@ -7316,8 +7316,8 @@
       },
       "excerpt": "The visible story is an equipment swap: pharmaceutical plants can replace energy-hungry distillation with membrane-based Water for Injection systems and cut steam, cooling, and floor-space demand. Regulators have opened the door, and vendors have built standardized skids. The harder question is whether a site can prove the whole water loop stays under control.",
       "image": {
-        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck.svg",
-        "alt": "Abstract bottleneck diagram for In membrane-based WFI, validation evidence becomes the control point"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gresham_Wastewater_Treatment_Plant_secondary_clarifiers_2025.jpg/1920px-Gresham_Wastewater_Treatment_Plant_secondary_clarifiers_2025.jpg",
+        "alt": "Secondary clarifiers at a wastewater treatment plant"
       },
       "report_stage": {
         "required_public_stages": [
@@ -10527,8 +10527,8 @@
       },
       "excerpt": "The easy explanation for U.S. offshore wind's troubles is politics. Permits are challenged, federal agencies change direction, developers sue, and leases get cancelled or bought back. The second easy explanation is cost: higher rates, inflated steel and vessel day-rates, turbine reliability problems, and power contracts signed before the supply chain repriced.",
       "image": {
-        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.svg",
-        "alt": "Abstract bottleneck diagram for Offshore Wind's Hidden Gate Is the Maritime Construction Calendar"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Barrow_Offshore_wind_turbines_NR.jpg/1920px-Barrow_Offshore_wind_turbines_NR.jpg",
+        "alt": "Offshore wind turbines at sea"
       },
       "report_stage": {
         "required_public_stages": [
@@ -10718,8 +10718,8 @@
       },
       "excerpt": "Radiopharma becomes an industrial timing business the moment isotope production begins. Every dose starts decaying before it reaches a patient, so value depends on whether source material, hot cells, radiochemical separation, cGMP manufacturing, quality release, shielded transport, and a treatment slot all line up before the clock runs out.",
       "image": {
-        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.svg",
-        "alt": "Abstract bottleneck diagram for Cancer's Next Supply Chain Is a Radioisotope Clock"
+        "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Laboratory scientist working with research equipment"
       },
       "report_stage": {
         "required_public_stages": [

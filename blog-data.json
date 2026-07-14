@@ -4,23 +4,15 @@
     "url": "posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html",
     "category": "Report",
     "date": "2026-07-14",
-    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/A_session_with_a_psychotherapist_%28751707089%29.jpg",
     "excerpt": "The intuition was sound. If psychedelic training has to pass through live supervised sessions, classroom seats will not tell you how fast the workforce can grow. The strong version of that thesis predicted a visible queue: didactic completers piling up ahead of practicum, supervisors pulled off client work, and centers losing throughput to training."
-  },
-  {
-    "title": "The real bottleneck in genomic screening starts after diagnosis",
-    "url": "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html",
-    "category": "Report",
-    "date": "2026-07-14",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Microbiological_seeding.jpg/1920px-Microbiological_seeding.jpg",
-    "excerpt": "Genomic screening can clear the diagnostic gate and still miss the treatment gate. A positive result has to survive confirmatory testing, current phenotype, label fit, payer approval, center acceptance, caregiver logistics, and a dated slot."
   },
   {
     "title": "The launch bottleneck may be conversion-ready treatment capacity",
     "url": "posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html",
     "category": "Report",
     "date": "2026-07-14",
-    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/66/Psilocybin_treatments_for_Veterans_with_Treatment_Resistant_Depression_at_the_VA_%2852482794153%29.jpg",
     "excerpt": "Most debate still treats psychedelic-treatment capacity as room count or calendar slots. The more precise unit is a conversion-ready synchronized block: protected room time, paired monitors, discharge buffer, and response coverage that must all be available at once."
   },
   {
@@ -28,7 +20,7 @@
     "url": "posts/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.html",
     "category": "Report",
     "date": "2026-07-14",
-    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Multiomic_proteomic_analysis_of_blood_from_long_COVID_patients_using_invasive_cardiopulmonary_exercise_testing.webp",
     "excerpt": "Recovery measurements become more interesting when resting-state biological-age scores rise during surgery or infection and then fall again during recovery. But that does not validate a universal aging curve; it points to a narrower endpoint question tied to a specific stressor, population, and outcome."
   },
   {
@@ -36,15 +28,23 @@
     "url": "posts/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.html",
     "category": "Report",
     "date": "2026-07-14",
-    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/AstraZeneca_Cell_Therapy_Manufacturing_Center_%2854499867408%29.jpg",
     "excerpt": "Most discussion of cell and gene therapy scale starts with the factory. People watch vector yield, cleanroom time, release testing, treatment-center readiness, and CDMO slots. Those limits matter. The public review record shows a second gate that often appears after a sponsor solves part of the physical problem."
+  },
+  {
+    "title": "For advanced-therapy genomic cases, the next gate may start after diagnosis",
+    "url": "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html",
+    "category": "Report",
+    "date": "2026-07-14",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Newborn_Sickle_Cell_Disease_Screening.jpg",
+    "excerpt": "For advanced-therapy-eligible cases, genomic screening can clear the diagnostic gate and still miss the treatment gate. A positive result has to survive confirmatory testing, current phenotype, label fit, payer approval, center acceptance, caregiver logistics, and a dated slot."
   },
   {
     "title": "Aging biomarkers still fail the transfer test",
     "url": "posts/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.html",
     "category": "Report",
     "date": "2026-07-14",
-    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.svg",
+    "image": "https://www.nist.gov/sites/default/files/styles/social/public/images/2023/04/04/Picture2.png?itok=wRv3kbND",
     "excerpt": "Aging-biomarker developers already know how to publish predictive models. Large cohorts and high-plex assays can produce strong organ-age and mortality associations. The field's problem starts when that result has to travel across laboratories, matrices, software versions and sponsor programs."
   },
   {
@@ -84,7 +84,7 @@
     "url": "posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html",
     "category": "Report",
     "date": "2026-07-03",
-    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.svg",
+    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
     "excerpt": "The obvious story in fusion, quantum computing, and radiopharmaceuticals is usually a demand story. Fusion needs magnets, power electronics, blankets, and tritium. Quantum processors need better qubits, lower error rates, cryogenic control, and usable manufacturing yield. Radioligand therapy needs more approved drugs, more treatment centers, more nuclear pharmacists, and more isotope logistics. Those explanations are real, but they can miss a smaller upstream constraint: the qualified stable isotope."
   },
   {
@@ -188,7 +188,7 @@
     "url": "posts/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck.html",
     "category": "Report",
     "date": "2026-07-02",
-    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Gresham_Wastewater_Treatment_Plant_secondary_clarifiers_2025.jpg/1920px-Gresham_Wastewater_Treatment_Plant_secondary_clarifiers_2025.jpg",
     "excerpt": "The visible story is an equipment swap: pharmaceutical plants can replace energy-hungry distillation with membrane-based Water for Injection systems and cut steam, cooling, and floor-space demand. Regulators have opened the door, and vendors have built standardized skids. The harder question is whether a site can prove the whole water loop stays under control."
   },
   {
@@ -260,7 +260,7 @@
     "url": "posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html",
     "category": "Report",
     "date": "2026-06-23",
-    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.svg",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Barrow_Offshore_wind_turbines_NR.jpg/1920px-Barrow_Offshore_wind_turbines_NR.jpg",
     "excerpt": "The easy explanation for U.S. offshore wind's troubles is politics. Permits are challenged, federal agencies change direction, developers sue, and leases get cancelled or bought back. The second easy explanation is cost: higher rates, inflated steel and vessel day-rates, turbine reliability problems, and power contracts signed before the supply chain repriced."
   },
   {
@@ -268,7 +268,7 @@
     "url": "posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html",
     "category": "Report",
     "date": "2026-06-23",
-    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.svg",
+    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
     "excerpt": "Radiopharma becomes an industrial timing business the moment isotope production begins. Every dose starts decaying before it reaches a patient, so value depends on whether source material, hot cells, radiochemical separation, cGMP manufacturing, quality release, shielded transport, and a treatment slot all line up before the clock runs out."
   },
   {

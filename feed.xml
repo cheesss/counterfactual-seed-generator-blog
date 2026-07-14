@@ -4,7 +4,7 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed columns on industrial constraints, infrastructure chokepoints, and strategic capacity.</description>
-  <lastBuildDate>Tue, 14 Jul 2026 08:49:44 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 18:50:41 +0000</lastBuildDate>
 
   <item>
     <title>The supervisor bottleneck thesis shrinks to a narrower Oregon question</title>
@@ -12,13 +12,6 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html</guid>
     <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     <description>The intuition was sound. If psychedelic training has to pass through live supervised sessions, classroom seats will not tell you how fast the workforce can grow. The strong version of that thesis predicted a visible queue: didactic completers piling up ahead of practicum, supervisors pulled off client work, and centers losing throughput to training.</description>
-  </item>
-  <item>
-    <title>The real bottleneck in genomic screening starts after diagnosis</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html</guid>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <description>Genomic screening can clear the diagnostic gate and still miss the treatment gate. A positive result has to survive confirmatory testing, current phenotype, label fit, payer approval, center acceptance, caregiver logistics, and a dated slot.</description>
   </item>
   <item>
     <title>The launch bottleneck may be conversion-ready treatment capacity</title>
@@ -40,6 +33,13 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.html</guid>
     <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     <description>Most discussion of cell and gene therapy scale starts with the factory. People watch vector yield, cleanroom time, release testing, treatment-center readiness, and CDMO slots. Those limits matter. The public review record shows a second gate that often appears after a sponsor solves part of the physical problem.</description>
+  </item>
+  <item>
+    <title>For advanced-therapy genomic cases, the next gate may start after diagnosis</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html</guid>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <description>For advanced-therapy-eligible cases, genomic screening can clear the diagnostic gate and still miss the treatment gate. A positive result has to survive confirmatory testing, current phenotype, label fit, payer approval, center acceptance, caregiver logistics, and a dated slot.</description>
   </item>
   <item>
     <title>Aging biomarkers still fail the transfer test</title>
