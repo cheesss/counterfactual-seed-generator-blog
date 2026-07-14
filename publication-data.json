@@ -1,21 +1,21 @@
 {
   "schema_version": 2,
   "summary": {
-    "articles": 35,
-    "data_series": 177,
+    "articles": 41,
+    "data_series": 188,
     "calendar_year_card_candidates_excluded": 4,
     "watch": {
-      "tracked_articles": 18,
-      "signals": 95,
+      "tracked_articles": 24,
+      "signals": 126,
       "resolved": 4,
       "states": {
-        "broken": 0,
+        "open": 122,
+        "weakened": 0,
         "confirmed": 4,
-        "open": 91,
-        "weakened": 0
+        "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 95
+        "explicit_bullet": 126
       },
       "unstructured_watch_sections": 11,
       "unpublished_prose_candidates": 56
@@ -27,7 +27,7 @@
         "adversarial-verification",
         "codex-blog-editor"
       ],
-      "complete_by_sections": 1,
+      "complete_by_sections": 7,
       "complete_by_run_manifest": 0
     },
     "outcome_ledger": {
@@ -37,6 +37,1041 @@
     }
   },
   "articles": [
+    {
+      "slug": "2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time",
+      "slug_source": "publication_registry",
+      "title": "The supervisor bottleneck thesis shrinks to a narrower Oregon question",
+      "url": "posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html",
+      "date": "2026-07-14",
+      "updated": "2026-07-14",
+      "category": "Report",
+      "sector": {
+        "key": "healthcare",
+        "label": "Healthcare"
+      },
+      "archetype": {
+        "key": "queue-slot",
+        "label": "Queue & slot scarcity"
+      },
+      "excerpt": "The intuition was sound. If psychedelic training has to pass through live supervised sessions, classroom seats will not tell you how fast the workforce can grow. The strong version of that thesis predicted a visible queue: didactic completers piling up ahead of practicum, supervisors pulled off client work, and centers losing throughput to training.",
+      "image": {
+        "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Laboratory scientist working with research equipment"
+      },
+      "report_stage": {
+        "required_public_stages": [
+          "claim-audit",
+          "thesis-deepening",
+          "adversarial-verification",
+          "codex-blog-editor"
+        ],
+        "sections_present": {
+          "claim-audit": true,
+          "thesis-deepening": true,
+          "adversarial-verification": true,
+          "codex-blog-editor": true
+        },
+        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [
+        {
+          "signal_id": "2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time:watch:d3db9750ad4d",
+          "text": "Oregon publishes post-January 2026 series for didactic completions, practicum starts, practicum completions, or supervisor allocation.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Oregon publishes post-January 2026 series for didactic completions, practicum starts, practicum completions, or supervisor allocation.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time:watch:64a4adffb17b",
+          "text": "Oregon finalizes or drops draft 2027 changes: higher fees tighten center economics, while recognizing Colorado-approved training widens the eligible pipeline.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Oregon finalizes or drops draft 2027 changes: higher fees tighten center economics, while recognizing Colorado-approved training widens the eligible pipeline.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time:watch:c92d4b8fd699",
+          "text": "Centers disclose teaching shifts that leave client-session volume intact through dedicated supervisors or legitimate multi-trainee concurrency.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Centers disclose teaching shifts that leave client-session volume intact through dedicated supervisors or legitimate multi-trainee concurrency.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time:watch:08e536f0bb4d",
+          "text": "Colorado trainees use recorded review, role play, or other permitted substitutes at material scale without delayed licensure.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Colorado trainees use recorded review, role play, or other permitted substitutes at material scale without delayed licensure.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time:watch:67557f38b8e4",
+          "text": "Trial sponsors or service centers disclose monitor compensation, staffing gaps, or clinician movement between research sites and state-authorized services.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Trial sponsors or service centers disclose monitor compensation, staffing gaps, or clinician movement between research sites and state-authorized services.",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem",
+      "slug_source": "publication_registry",
+      "title": "The real bottleneck in genomic screening starts after diagnosis",
+      "url": "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html",
+      "date": "2026-07-14",
+      "updated": "2026-07-14",
+      "category": "Report",
+      "sector": {
+        "key": "healthcare",
+        "label": "Healthcare"
+      },
+      "archetype": {
+        "key": "queue-slot",
+        "label": "Queue & slot scarcity"
+      },
+      "excerpt": "Genomic screening can clear the diagnostic gate and still miss the treatment gate. A positive result has to survive confirmatory testing, current phenotype, label fit, payer approval, center acceptance, caregiver logistics, and a dated slot.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Microbiological_seeding.jpg/1920px-Microbiological_seeding.jpg",
+        "alt": "Bacterial culture being streaked on an agar plate"
+      },
+      "report_stage": {
+        "required_public_stages": [
+          "claim-audit",
+          "thesis-deepening",
+          "adversarial-verification",
+          "codex-blog-editor"
+        ],
+        "sections_present": {
+          "claim-audit": true,
+          "thesis-deepening": true,
+          "adversarial-verification": true,
+          "codex-blog-editor": true
+        },
+        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [
+        {
+          "metric": "participating Medicaid programs in the CMS CGT Access Model",
+          "points": [
+            {
+              "label": "participating Medicaid programs in the CMS CGT Access Model",
+              "value": 34.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 34.0,
+            "value_text": "34",
+            "unit": "",
+            "metric": "participating Medicaid programs in the CMS CGT Access Model",
+            "point_label": "participating Medicaid programs in the CMS CGT Access Model",
+            "display_label": "participating Medicaid programs in the CMS CGT Access Model",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "34 | participating Medicaid programs in the CMS CGT Access Model",
+            "source_urls": []
+          }
+        },
+        {
+          "metric": "CASGEVY infusions disclosed for 2025",
+          "points": [
+            {
+              "label": "CASGEVY infusions disclosed for 2025",
+              "value": 64.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 64.0,
+            "value_text": "64",
+            "unit": "",
+            "metric": "CASGEVY infusions disclosed for 2025",
+            "point_label": "CASGEVY infusions disclosed for 2025",
+            "display_label": "CASGEVY infusions disclosed for 2025",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "64 | CASGEVY infusions disclosed for 2025",
+            "source_urls": []
+          }
+        },
+        {
+          "metric": "LENMELDY U.S. qualified treatment centers",
+          "points": [
+            {
+              "label": "LENMELDY U.S. qualified treatment centers",
+              "value": 8.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 8.0,
+            "value_text": "8",
+            "unit": "",
+            "metric": "LENMELDY U.S. qualified treatment centers",
+            "point_label": "LENMELDY U.S. qualified treatment centers",
+            "display_label": "LENMELDY U.S. qualified treatment centers",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "8 | LENMELDY U.S. qualified treatment centers",
+            "source_urls": []
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 34.0,
+          "value_text": "34",
+          "unit": "",
+          "metric": "participating Medicaid programs in the CMS CGT Access Model",
+          "point_label": "participating Medicaid programs in the CMS CGT Access Model",
+          "display_label": "participating Medicaid programs in the CMS CGT Access Model",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "34 | participating Medicaid programs in the CMS CGT Access Model",
+            "source_urls": []
+          }
+        },
+        {
+          "value": 64.0,
+          "value_text": "64",
+          "unit": "",
+          "metric": "CASGEVY infusions disclosed for 2025",
+          "point_label": "CASGEVY infusions disclosed for 2025",
+          "display_label": "CASGEVY infusions disclosed for 2025",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "64 | CASGEVY infusions disclosed for 2025",
+            "source_urls": []
+          }
+        },
+        {
+          "value": 8.0,
+          "value_text": "8",
+          "unit": "",
+          "metric": "LENMELDY U.S. qualified treatment centers",
+          "point_label": "LENMELDY U.S. qualified treatment centers",
+          "display_label": "LENMELDY U.S. qualified treatment centers",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "8 | LENMELDY U.S. qualified treatment centers",
+            "source_urls": []
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:f823d0ae8a50",
+          "text": "The October 15, 2026 Sunshine Genetics consortium report for site lists, budget lines, and referral targets.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "The October 15, 2026 Sunshine Genetics consortium report for site lists, budget lines, and referral targets.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:d42b2077dcfa",
+          "text": "The first 2027 CMS CGT model evaluation for authorization days, resubmissions, and completed treatments.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "The first 2027 CMS CGT model evaluation for authorization days, resubmissions, and completed treatments.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:ad5c7cc6aedf",
+          "text": "A GUARDIAN or Generation release that sorts screen-positive cases by intervention class, not total flags.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A GUARDIAN or Generation release that sorts screen-positive cases by intervention class, not total flags.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:221a007a8b0b",
+          "text": "Any sponsor or center disclosure that links CASGEVY collections, releases, and infusions by cohort.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Any sponsor or center disclosure that links CASGEVY collections, releases, and infusions by cohort.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem:watch:f32b0f16b194",
+          "text": "A public KEBILIDI center roster or first commercial procedure announcement.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A public KEBILIDI center roster or first commercial procedure announcement.",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks",
+      "slug_source": "publication_registry",
+      "title": "The launch bottleneck may be conversion-ready treatment capacity",
+      "url": "posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html",
+      "date": "2026-07-14",
+      "updated": "2026-07-14",
+      "category": "Report",
+      "sector": {
+        "key": "healthcare",
+        "label": "Healthcare"
+      },
+      "archetype": {
+        "key": "queue-slot",
+        "label": "Queue & slot scarcity"
+      },
+      "excerpt": "Most debate still treats psychedelic-treatment capacity as room count or calendar slots. The more precise unit is a conversion-ready synchronized block: protected room time, paired monitors, discharge buffer, and response coverage that must all be available at once.",
+      "image": {
+        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.svg",
+        "alt": "Abstract bottleneck diagram for The launch bottleneck may be conversion-ready treatment capacity"
+      },
+      "report_stage": {
+        "required_public_stages": [
+          "claim-audit",
+          "thesis-deepening",
+          "adversarial-verification",
+          "codex-blog-editor"
+        ],
+        "sections_present": {
+          "claim-audit": true,
+          "thesis-deepening": true,
+          "adversarial-verification": true,
+          "codex-blog-editor": true
+        },
+        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [
+        {
+          "metric": "monitors in July 2026 FDA investigational guidance",
+          "points": [
+            {
+              "label": "monitors in July 2026 FDA investigational guidance",
+              "value": 2.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 2.0,
+            "value_text": "2",
+            "unit": "",
+            "metric": "monitors in July 2026 FDA investigational guidance",
+            "point_label": "monitors in July 2026 FDA investigational guidance",
+            "display_label": "monitors in July 2026 FDA investigational guidance",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "2 | monitors in July 2026 FDA investigational guidance",
+            "source_urls": []
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 2.0,
+          "value_text": "2",
+          "unit": "",
+          "metric": "monitors in July 2026 FDA investigational guidance",
+          "point_label": "monitors in July 2026 FDA investigational guidance",
+          "display_label": "monitors in July 2026 FDA investigational guidance",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "2 | monitors in July 2026 FDA investigational guidance",
+            "source_urls": []
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks:watch:f7b6fcc47546",
+          "text": "Any first product-specific label or REMS that cuts monitoring from two dedicated monitors to one or permits pooled or remote observation.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Any first product-specific label or REMS that cuts monitoring from two dedicated monitors to one or permits pooled or remote observation.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks:watch:fc0a2f69d3c4",
+          "text": "COMPASS NDA and launch disclosures that state site-payment terms, staffing assumptions, room requirements, or REMS-readiness buildout ahead of a potential first-half 2027 launch.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "COMPASS NDA and launch disclosures that state site-payment terms, staffing assumptions, room requirements, or REMS-readiness buildout ahead of a potential first-half 2027 launch.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks:watch:467af1352675",
+          "text": "The first two commercial quarters of any approved product for waitlists, capacity-coded denials, monitor overtime, or high utilization of compliant rooms.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "The first two commercial quarters of any approved product for waitlists, capacity-coded denials, monitor overtime, or high utilization of compliant rooms.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks:watch:6f0860d87917",
+          "text": "Oregon quarterly data for average group size rising materially above 2.46 and the individual-session share falling from 88.38%.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Oregon quarterly data for average group size rising materially above 2.46 and the individual-session share falling from 88.38%.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks:watch:2e684e572e69",
+          "text": "Colorado operating records that show off-site administration or larger groups working in routine practice rather than only on paper.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Colorado operating records that show off-site administration or larger groups working in routine practice rather than only on paper.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks:watch:0313e6cae9c0",
+          "text": "Any approval of a shorter-acting or oral alternative that diverts referrals from long monitored sessions.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Any approval of a shorter-acting or oral alternative that diverts referrals from long monitored sessions.",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing",
+      "slug_source": "publication_registry",
+      "title": "Recovery curves may become endpoints only when they stop trying to explain all of aging",
+      "url": "posts/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.html",
+      "date": "2026-07-14",
+      "updated": "2026-07-14",
+      "category": "Report",
+      "sector": {
+        "key": "healthcare",
+        "label": "Healthcare"
+      },
+      "archetype": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "excerpt": "Recovery measurements become more interesting when resting-state biological-age scores rise during surgery or infection and then fall again during recovery. But that does not validate a universal aging curve; it points to a narrower endpoint question tied to a specific stressor, population, and outcome.",
+      "image": {
+        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.svg",
+        "alt": "Abstract bottleneck diagram for Recovery curves may become endpoints only when they stop trying to explain all of aging"
+      },
+      "report_stage": {
+        "required_public_stages": [
+          "claim-audit",
+          "thesis-deepening",
+          "adversarial-verification",
+          "codex-blog-editor"
+        ],
+        "sections_present": {
+          "claim-audit": true,
+          "thesis-deepening": true,
+          "adversarial-verification": true,
+          "codex-blog-editor": true
+        },
+        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [
+        {
+          "metric": "months from PRIME-KNEE launch to primary completion (PRIME-KNEE registry)",
+          "points": [
+            {
+              "label": "months from PRIME-KNEE launch to primary completion (PRIME-KNEE registry)",
+              "value": 44.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 44.0,
+            "value_text": "44",
+            "unit": "",
+            "metric": "months from PRIME-KNEE launch to primary completion (PRIME-KNEE registry)",
+            "point_label": "months from PRIME-KNEE launch to primary completion (PRIME-KNEE registry)",
+            "display_label": "months from PRIME-KNEE launch to primary completion (PRIME-KNEE registry)",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "44 | months from PRIME-KNEE launch to primary completion (PRIME-KNEE registry)",
+            "source_urls": []
+          }
+        },
+        {
+          "metric": "PRIME-KNEE analyzed participants (PRIME-KNEE results)",
+          "points": [
+            {
+              "label": "PRIME-KNEE analyzed participants (PRIME-KNEE results)",
+              "value": 203.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 203.0,
+            "value_text": "203",
+            "unit": "",
+            "metric": "PRIME-KNEE analyzed participants (PRIME-KNEE results)",
+            "point_label": "PRIME-KNEE analyzed participants (PRIME-KNEE results)",
+            "display_label": "PRIME-KNEE analyzed participants (PRIME-KNEE results)",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "203 | PRIME-KNEE analyzed participants (PRIME-KNEE results)",
+            "source_urls": []
+          }
+        },
+        {
+          "metric": "TILDA active-stand participants (TILDA study)",
+          "points": [
+            {
+              "label": "TILDA active-stand participants (TILDA study)",
+              "value": 4337.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 4337.0,
+            "value_text": "4,337",
+            "unit": "",
+            "metric": "TILDA active-stand participants (TILDA study)",
+            "point_label": "TILDA active-stand participants (TILDA study)",
+            "display_label": "TILDA active-stand participants (TILDA study)",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "4,337 | TILDA active-stand participants (TILDA study)",
+            "source_urls": []
+          }
+        },
+        {
+          "metric": "percent Radboud cardiothoracic completeness (Radboud study)",
+          "points": [
+            {
+              "label": "percent Radboud cardiothoracic completeness (Radboud study)",
+              "value": 91.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 91.0,
+            "value_text": "91",
+            "unit": "",
+            "metric": "percent Radboud cardiothoracic completeness (Radboud study)",
+            "point_label": "percent Radboud cardiothoracic completeness (Radboud study)",
+            "display_label": "percent Radboud cardiothoracic completeness (Radboud study)",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "91 | percent Radboud cardiothoracic completeness (Radboud study)",
+            "source_urls": []
+          }
+        },
+        {
+          "metric": "percent Radboud general-surgery completeness (Radboud study)",
+          "points": [
+            {
+              "label": "percent Radboud general-surgery completeness (Radboud study)",
+              "value": 76.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 76.0,
+            "value_text": "76",
+            "unit": "",
+            "metric": "percent Radboud general-surgery completeness (Radboud study)",
+            "point_label": "percent Radboud general-surgery completeness (Radboud study)",
+            "display_label": "percent Radboud general-surgery completeness (Radboud study)",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "76 | percent Radboud general-surgery completeness (Radboud study)",
+            "source_urls": []
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 44.0,
+          "value_text": "44",
+          "unit": "",
+          "metric": "months from PRIME-KNEE launch to primary completion (PRIME-KNEE registry)",
+          "point_label": "months from PRIME-KNEE launch to primary completion (PRIME-KNEE registry)",
+          "display_label": "months from PRIME-KNEE launch to primary completion (PRIME-KNEE registry)",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "44 | months from PRIME-KNEE launch to primary completion (PRIME-KNEE registry)",
+            "source_urls": []
+          }
+        },
+        {
+          "value": 203.0,
+          "value_text": "203",
+          "unit": "",
+          "metric": "PRIME-KNEE analyzed participants (PRIME-KNEE results)",
+          "point_label": "PRIME-KNEE analyzed participants (PRIME-KNEE results)",
+          "display_label": "PRIME-KNEE analyzed participants (PRIME-KNEE results)",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "203 | PRIME-KNEE analyzed participants (PRIME-KNEE results)",
+            "source_urls": []
+          }
+        },
+        {
+          "value": 4337.0,
+          "value_text": "4,337",
+          "unit": "",
+          "metric": "TILDA active-stand participants (TILDA study)",
+          "point_label": "TILDA active-stand participants (TILDA study)",
+          "display_label": "TILDA active-stand participants (TILDA study)",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "4,337 | TILDA active-stand participants (TILDA study)",
+            "source_urls": []
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing:watch:acfb708be7ed",
+          "text": "A peer-reviewed paper or registry results posting for NCT04815824 with repeatable post-exercise recovery parameters.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A peer-reviewed paper or registry results posting for NCT04815824 with repeatable post-exercise recovery parameters.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing:watch:e8d9ed36b21a",
+          "text": "A public disclosure explaining whether any analyzable data survive RECOVER's termination at 12 participants.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A public disclosure explaining whether any analyzable data survive RECOVER's termination at 12 participants.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing:watch:b8da5ec8ae60",
+          "text": "A study across at least 3 sites reporting less than 10% missing primary recovery data in frail older adults.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A study across at least 3 sites reporting less than 10% missing primary recovery data in frail older adults.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing:watch:55ed8a1b2169",
+          "text": "A sponsor or agency document naming a recovery-derived measure and its context of use.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A sponsor or agency document naming a recovery-derived measure and its context of use.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing:watch:d6a369d0415e",
+          "text": "An FDA or consortium update resolving the C-Path CHF step-endpoint review after the December 2024 plan submission.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "An FDA or consortium update resolving the C-Path CHF step-endpoint review after the December 2024 plan submission.",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem",
+      "slug_source": "publication_registry",
+      "title": "In cell and gene therapy, scale creates a custody-of-proof problem",
+      "url": "posts/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.html",
+      "date": "2026-07-14",
+      "updated": "2026-07-14",
+      "category": "Report",
+      "sector": {
+        "key": "healthcare",
+        "label": "Healthcare"
+      },
+      "archetype": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "excerpt": "Most discussion of cell and gene therapy scale starts with the factory. People watch vector yield, cleanroom time, release testing, treatment-center readiness, and CDMO slots. Those limits matter. The public review record shows a second gate that often appears after a sponsor solves part of the physical problem.",
+      "image": {
+        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.svg",
+        "alt": "Abstract bottleneck diagram for In cell and gene therapy, scale creates a custody-of-proof problem"
+      },
+      "report_stage": {
+        "required_public_stages": [
+          "claim-audit",
+          "thesis-deepening",
+          "adversarial-verification",
+          "codex-blog-editor"
+        ],
+        "sections_present": {
+          "claim-audit": true,
+          "thesis-deepening": true,
+          "adversarial-verification": true,
+          "codex-blog-editor": true
+        },
+        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [
+        {
+          "metric": "FDA-recognized regenerative-medicine standards through 2025",
+          "points": [
+            {
+              "label": "FDA-recognized regenerative-medicine standards through 2025",
+              "value": 37.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 37.0,
+            "value_text": "37",
+            "unit": "",
+            "metric": "FDA-recognized regenerative-medicine standards through 2025",
+            "point_label": "FDA-recognized regenerative-medicine standards through 2025",
+            "display_label": "FDA-recognized regenerative-medicine standards through 2025",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "37 | FDA-recognized regenerative-medicine standards through 2025",
+            "source_urls": []
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 37.0,
+          "value_text": "37",
+          "unit": "",
+          "metric": "FDA-recognized regenerative-medicine standards through 2025",
+          "point_label": "FDA-recognized regenerative-medicine standards through 2025",
+          "display_label": "FDA-recognized regenerative-medicine standards through 2025",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "37 | FDA-recognized regenerative-medicine standards through 2025",
+            "source_urls": []
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem:watch:8b1b350fb1c2",
+          "text": "FDA's final action on the June 2026 prior-knowledge draft, especially whether it narrows cross-program reuse.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "FDA's final action on the June 2026 prior-knowledge draft, especially whether it narrows cross-program reuse.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem:watch:168f305b9f2c",
+          "text": "Any FDA or EMA decision across AAV, LVV, or edited cells that accepts cross-program or authorized third-party evidence without a major amendment or restricted pooling.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Any FDA or EMA decision across AAV, LVV, or edited cells that accepts cross-program or authorized third-party evidence without a major amendment or restricted pooling.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem:watch:c4e2c99179f0",
+          "text": "NIST or ATCC releases that expand reference-material supply or lift the VR-1616 three-vial allocation limit.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "NIST or ATCC releases that expand reference-material supply or lift the VR-1616 three-vial allocation limit.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem:watch:c509556aaa4d",
+          "text": "KRESLADI postmarketing updates, especially the December 2028 acceptance-criterion milestone.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "KRESLADI postmarketing updates, especially the December 2028 acceptance-criterion milestone.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem:watch:770dbdefbce3",
+          "text": "A coded public sample of at least ten material CGT manufacturing changes that shows where review time actually goes.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A coded public sample of at least ten material CGT manufacturing changes that shows where review time actually goes.",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock",
+      "slug_source": "publication_registry",
+      "title": "Aging biomarkers still fail the transfer test",
+      "url": "posts/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.html",
+      "date": "2026-07-14",
+      "updated": "2026-07-14",
+      "category": "Report",
+      "sector": {
+        "key": "healthcare",
+        "label": "Healthcare"
+      },
+      "archetype": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "excerpt": "Aging-biomarker developers already know how to publish predictive models. Large cohorts and high-plex assays can produce strong organ-age and mortality associations. The field's problem starts when that result has to travel across laboratories, matrices, software versions and sponsor programs.",
+      "image": {
+        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.svg",
+        "alt": "Abstract bottleneck diagram for Aging biomarkers still fail the transfer test"
+      },
+      "report_stage": {
+        "required_public_stages": [
+          "claim-audit",
+          "thesis-deepening",
+          "adversarial-verification",
+          "codex-blog-editor"
+        ],
+        "sections_present": {
+          "claim-audit": true,
+          "thesis-deepening": true,
+          "adversarial-verification": true,
+          "codex-blog-editor": true
+        },
+        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [
+        {
+          "metric": "Mortality hazard ratio by number of aged organs, hazard ratio",
+          "points": [
+            {
+              "label": "2–4 aged organs",
+              "value": 2.3,
+              "unit": "hazard ratio"
+            },
+            {
+              "label": "5–7 aged organs",
+              "value": 4.5,
+              "unit": "hazard ratio"
+            },
+            {
+              "label": "8 or more aged organs",
+              "value": 8.3,
+              "unit": "hazard ratio"
+            }
+          ],
+          "headline": {
+            "value": 8.3,
+            "value_text": "8.3",
+            "unit": "hazard ratio",
+            "metric": "Mortality hazard ratio by number of aged organs",
+            "point_label": "8 or more aged organs",
+            "display_label": "8 or more aged organs - Mortality hazard ratio by number of aged organs",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2–4 aged organs :: 2.3 :: hazard ratio; 5–7 aged organs :: 4.5 :: hazard ratio; 8 or more aged organs :: 8.3 :: hazard ratio",
+            "source_urls": [
+              "https://www.nature.com/articles/s41591-025-03798-1"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 8.3,
+          "value_text": "8.3",
+          "unit": "hazard ratio",
+          "metric": "Mortality hazard ratio by number of aged organs",
+          "point_label": "8 or more aged organs",
+          "display_label": "8 or more aged organs - Mortality hazard ratio by number of aged organs",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2–4 aged organs :: 2.3 :: hazard ratio; 5–7 aged organs :: 4.5 :: hazard ratio; 8 or more aged organs :: 8.3 :: hazard ratio",
+            "source_urls": [
+              "https://www.nature.com/articles/s41591-025-03798-1"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock:watch:a75e728151ba",
+          "text": "A public FDA Letter of Intent or Qualification Plan for a normal-aging pharmacodynamic or enrichment biomarker.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A public FDA Letter of Intent or Qualification Plan for a normal-aging pharmacodynamic or enrichment biomarker.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock:watch:8c2fd09cb43e",
+          "text": "A blinded multisite ring trial that uses shared human aliquots across at least two aging-biomarker technologies.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A blinded multisite ring trial that uses shared human aliquots across at least two aging-biomarker technologies.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock:watch:0b56fb7c9a4f",
+          "text": "A vendor or sponsor paper showing assay-version or platform substitution with stable participant classifications and treatment-response estimates.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A vendor or sponsor paper showing assay-version or platform substitution with stable participant classifications and treatment-response estimates.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock:watch:ba2428136937",
+          "text": "CALERIE Legacy results released after the estimated January 31, 2027 and January 31, 2028 milestones.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "CALERIE Legacy results released after the estimated January 31, 2027 and January 31, 2028 milestones.",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock:watch:4cbfbb3aac0e",
+          "text": "A recurring aging-specific proficiency catalog from CAP-, EQAPOL- or consortium-style operators.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A recurring aging-specific proficiency catalog from CAP-, EQAPOL- or consortium-style operators.",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
     {
       "slug": "2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable",
       "slug_source": "publication_registry",
@@ -1798,8 +2833,8 @@
       },
       "excerpt": "The obvious story in fusion, quantum computing, and radiopharmaceuticals is usually a demand story. Fusion needs magnets, power electronics, blankets, and tritium. Quantum processors need better qubits, lower error rates, cryogenic control, and usable manufacturing yield. Radioligand therapy needs more approved drugs, more treatment centers, more nuclear pharmacists, and more isotope logistics. Those explanations are real, but they can miss a smaller upstream constraint: the qualified stable isotope.",
       "image": {
-        "url": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
-        "alt": "Laboratory scientist working with research equipment"
+        "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.svg",
+        "alt": "Abstract bottleneck diagram for Stable-Isotope Enrichment: The Qualified-Materials Bottleneck Behind Fusion Fuel, Quantum Silicon, and Radioligands"
       },
       "report_stage": {
         "required_public_stages": [

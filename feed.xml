@@ -4,8 +4,50 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed columns on industrial constraints, infrastructure chokepoints, and strategic capacity.</description>
-  <lastBuildDate>Sat, 11 Jul 2026 15:52:11 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 14 Jul 2026 08:49:44 +0000</lastBuildDate>
 
+  <item>
+    <title>The supervisor bottleneck thesis shrinks to a narrower Oregon question</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html</guid>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <description>The intuition was sound. If psychedelic training has to pass through live supervised sessions, classroom seats will not tell you how fast the workforce can grow. The strong version of that thesis predicted a visible queue: didactic completers piling up ahead of practicum, supervisors pulled off client work, and centers losing throughput to training.</description>
+  </item>
+  <item>
+    <title>The real bottleneck in genomic screening starts after diagnosis</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html</guid>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <description>Genomic screening can clear the diagnostic gate and still miss the treatment gate. A positive result has to survive confirmatory testing, current phenotype, label fit, payer approval, center acceptance, caregiver logistics, and a dated slot.</description>
+  </item>
+  <item>
+    <title>The launch bottleneck may be conversion-ready treatment capacity</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html</guid>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <description>Most debate still treats psychedelic-treatment capacity as room count or calendar slots. The more precise unit is a conversion-ready synchronized block: protected room time, paired monitors, discharge buffer, and response coverage that must all be available at once.</description>
+  </item>
+  <item>
+    <title>Recovery curves may become endpoints only when they stop trying to explain all of aging</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.html</guid>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <description>Recovery measurements become more interesting when resting-state biological-age scores rise during surgery or infection and then fall again during recovery. But that does not validate a universal aging curve; it points to a narrower endpoint question tied to a specific stressor, population, and outcome.</description>
+  </item>
+  <item>
+    <title>In cell and gene therapy, scale creates a custody-of-proof problem</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.html</guid>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <description>Most discussion of cell and gene therapy scale starts with the factory. People watch vector yield, cleanroom time, release testing, treatment-center readiness, and CDMO slots. Those limits matter. The public review record shows a second gate that often appears after a sponsor solves part of the physical problem.</description>
+  </item>
+  <item>
+    <title>Aging biomarkers still fail the transfer test</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.html</guid>
+    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    <description>Aging-biomarker developers already know how to publish predictive models. Large cohorts and high-plex assays can produce strong organ-age and mortality associations. The field&#x27;s problem starts when that result has to travel across laboratories, matrices, software versions and sponsor programs.</description>
+  </item>
   <item>
     <title>Rare-Earth Magnets: The License Gate Is Visible, the Qualification Gate Is Durable</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html</link>
@@ -173,48 +215,6 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck.html</guid>
     <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
     <description>Wastewater antimicrobial-resistance surveillance looks like a sequencing story because the output sounds genomic: blaNDM, blaKPC, mcr-1, vanA, integrons, mobile genetic elements, resistomes. The more durable constraint is less photogenic.</description>
-  </item>
-  <item>
-    <title>The PFAS Cleanup Clock Runs Through Carbon Kilns</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.html</guid>
-    <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-    <description>The public PFAS drinking-water story is usually told as a filter story. Water systems detect PFOA or PFOS, install treatment, and move the cost through rates, grants, state revolving funds, or settlements. That version is true as far as it goes, but it leaves out the part that repeats after the ribbon cutting. Once a treatment vessel works, PFAS mass has not disappeared. It has moved into granular activated carbon, ion exchange resin, membrane concentrate, sludge, or another residual stream.</description>
-  </item>
-  <item>
-    <title>The Battery Boom&#x27;s Fire Gate Is Becoming a Documentation Market</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market.html</guid>
-    <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    <description>The usual battery-storage story starts with demand. Solar-heavy grids need evening capacity, data centers want firming, utilities want fast response, and developers have a growing catalog of containerized systems to buy. On that reading, the bottlenecks are familiar: cells, tariffs, interconnection, transformers, and project finance.</description>
-  </item>
-  <item>
-    <title>Offshore Wind&#x27;s Hidden Gate Is the Maritime Construction Calendar</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html</guid>
-    <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    <description>The easy explanation for U.S. offshore wind&#x27;s troubles is politics. Permits are challenged, federal agencies change direction, developers sue, and leases get cancelled or bought back. The second easy explanation is cost: higher rates, inflated steel and vessel day-rates, turbine reliability problems, and power contracts signed before the supply chain repriced.</description>
-  </item>
-  <item>
-    <title>Cancer&#x27;s Next Supply Chain Is a Radioisotope Clock</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html</guid>
-    <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    <description>Radiopharma becomes an industrial timing business the moment isotope production begins. Every dose starts decaying before it reaches a patient, so value depends on whether source material, hot cells, radiochemical separation, cGMP manufacturing, quality release, shielded transport, and a treatment slot all line up before the clock runs out.</description>
-  </item>
-  <item>
-    <title>The Hospital Capacity Bottleneck Hiding in a Bag of Salt Water</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.html</guid>
-    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    <description>Hospital capacity is usually described in visible terms: beds, nurses, operating rooms, ventilators, and reimbursement. Those are real constraints. But the 2024 IV-fluid shortage showed that a hospital can also be throttled by something far less dramatic: a validated bag of sterile salt water.</description>
-  </item>
-  <item>
-    <title>The Engine Shop Is the New Gate on Airline Capacity</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.html</guid>
-    <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    <description>Airline capacity is usually discussed as an airframe problem. Boeing has quality and certification constraints. Airbus has a deep backlog and a slower-than-promised path to higher A320 output. Airports, pilots, air-traffic control, and geopolitical closures all limit the number of flights the system can absorb. Those explanations are real, but they are incomplete.</description>
   </item>
 </channel>
 </rss>

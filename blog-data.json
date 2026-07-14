@@ -1,5 +1,53 @@
 [
   {
+    "title": "The supervisor bottleneck thesis shrinks to a narrower Oregon question",
+    "url": "posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html",
+    "category": "Report",
+    "date": "2026-07-14",
+    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+    "excerpt": "The intuition was sound. If psychedelic training has to pass through live supervised sessions, classroom seats will not tell you how fast the workforce can grow. The strong version of that thesis predicted a visible queue: didactic completers piling up ahead of practicum, supervisors pulled off client work, and centers losing throughput to training."
+  },
+  {
+    "title": "The real bottleneck in genomic screening starts after diagnosis",
+    "url": "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html",
+    "category": "Report",
+    "date": "2026-07-14",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Microbiological_seeding.jpg/1920px-Microbiological_seeding.jpg",
+    "excerpt": "Genomic screening can clear the diagnostic gate and still miss the treatment gate. A positive result has to survive confirmatory testing, current phenotype, label fit, payer approval, center acceptance, caregiver logistics, and a dated slot."
+  },
+  {
+    "title": "The launch bottleneck may be conversion-ready treatment capacity",
+    "url": "posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html",
+    "category": "Report",
+    "date": "2026-07-14",
+    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.svg",
+    "excerpt": "Most debate still treats psychedelic-treatment capacity as room count or calendar slots. The more precise unit is a conversion-ready synchronized block: protected room time, paired monitors, discharge buffer, and response coverage that must all be available at once."
+  },
+  {
+    "title": "Recovery curves may become endpoints only when they stop trying to explain all of aging",
+    "url": "posts/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.html",
+    "category": "Report",
+    "date": "2026-07-14",
+    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.svg",
+    "excerpt": "Recovery measurements become more interesting when resting-state biological-age scores rise during surgery or infection and then fall again during recovery. But that does not validate a universal aging curve; it points to a narrower endpoint question tied to a specific stressor, population, and outcome."
+  },
+  {
+    "title": "In cell and gene therapy, scale creates a custody-of-proof problem",
+    "url": "posts/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.html",
+    "category": "Report",
+    "date": "2026-07-14",
+    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.svg",
+    "excerpt": "Most discussion of cell and gene therapy scale starts with the factory. People watch vector yield, cleanroom time, release testing, treatment-center readiness, and CDMO slots. Those limits matter. The public review record shows a second gate that often appears after a sponsor solves part of the physical problem."
+  },
+  {
+    "title": "Aging biomarkers still fail the transfer test",
+    "url": "posts/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.html",
+    "category": "Report",
+    "date": "2026-07-14",
+    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.svg",
+    "excerpt": "Aging-biomarker developers already know how to publish predictive models. Large cohorts and high-plex assays can produce strong organ-age and mortality associations. The field's problem starts when that result has to travel across laboratories, matrices, software versions and sponsor programs."
+  },
+  {
     "title": "Rare-Earth Magnets: The License Gate Is Visible, the Qualification Gate Is Durable",
     "url": "posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html",
     "category": "Report",
@@ -36,7 +84,7 @@
     "url": "posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html",
     "category": "Report",
     "date": "2026-07-03",
-    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1600&q=80",
+    "image": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.svg",
     "excerpt": "The obvious story in fusion, quantum computing, and radiopharmaceuticals is usually a demand story. Fusion needs magnets, power electronics, blankets, and tritium. Quantum processors need better qubits, lower error rates, cryogenic control, and usable manufacturing yield. Radioligand therapy needs more approved drugs, more treatment centers, more nuclear pharmacists, and more isotope logistics. Those explanations are real, but they can miss a smaller upstream constraint: the qualified stable isotope."
   },
   {
