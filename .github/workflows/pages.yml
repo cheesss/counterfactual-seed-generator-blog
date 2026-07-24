@@ -1,0 +1,71 @@
+name: Deploy GitHub Pages
+
+"on":
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: Validate Pages artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the deployment commit
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install image decoder
+        run: python -m pip install --disable-pip-version-check pillow==12.2.0
+
+      - name: Test deployment boundary
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+
+      - name: Stage manifest-owned files
+        run: python scripts/stage_pages_artifact.py --site-root . --output _site
+
+      - name: Validate every staged image surface
+        run: >-
+          python scripts/site_image_validator.py
+          --site-root _site
+          --site-url https://cheesss.github.io/counterfactual-seed-generator-blog
+          --manifest _site/image-manifest.json
+
+      - name: Configure Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v5
+
+      - name: Upload validated Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    name: Deploy validated Pages artifact
+    needs: validate
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

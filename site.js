@@ -2,8 +2,10 @@ const search = document.querySelector("#post-search");
 const cards = Array.from(document.querySelectorAll("#post-grid .article-card"));
 const bottleneckChips = Array.from(document.querySelectorAll("#bottleneck-filter .chip"));
 const sectorChips = Array.from(document.querySelectorAll("#sector-filter .chip"));
+const lensChips = Array.from(document.querySelectorAll("#lens-filter .chip"));
 let activeBottleneck = "all";
 let activeSector = "all";
+let activeLens = "all";
 
 function applyFilters() {
   const query = search ? search.value.trim().toLowerCase() : "";
@@ -11,7 +13,8 @@ function applyFilters() {
     const matchesText = query.length === 0 || card.innerText.toLowerCase().includes(query);
     const matchesBottleneck = activeBottleneck === "all" || card.dataset.bottleneck === activeBottleneck;
     const matchesSector = activeSector === "all" || card.dataset.sector === activeSector;
-    card.hidden = !(matchesText && matchesBottleneck && matchesSector);
+    const matchesLens = activeLens === "all" || card.dataset.analysisLens === activeLens;
+    card.hidden = !(matchesText && matchesBottleneck && matchesSector && matchesLens);
   }
 }
 
@@ -33,6 +36,16 @@ for (const chip of sectorChips) {
   chip.addEventListener("click", () => {
     activeSector = chip.dataset.sfilter;
     for (const other of sectorChips) {
+      other.classList.toggle("is-active", other === chip);
+    }
+    applyFilters();
+  });
+}
+
+for (const chip of lensChips) {
+  chip.addEventListener("click", () => {
+    activeLens = chip.dataset.lfilter;
+    for (const other of lensChips) {
       other.classList.toggle("is-active", other === chip);
     }
     applyFilters();

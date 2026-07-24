@@ -1,0 +1,862 @@
+{
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "path": "404.html",
+      "sha256": "340dbda151bb68a3a819d8b5fd9aeea1402d9f8a079aaa562ccdb5cbc34d5cd3",
+      "size": 101095
+    },
+    {
+      "path": "about.html",
+      "sha256": "436059bf1b4f31f7b877fdf3086d5c3c90f5d9fbd9439c1c0ed2b1fddc03f0b8",
+      "size": 4787
+    },
+    {
+      "path": "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-7b773e829520070a.png",
+      "sha256": "7b773e829520070a070020fda054436acc6b1f0e7f8264dea0d4ed50f7a0d3d3",
+      "size": 13069
+    },
+    {
+      "path": "assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-e55e442fc58fbf7e.png",
+      "sha256": "e55e442fc58fbf7e0aa2eec05c2d58ca06f4c89ba22335888fe4ffb75f12f026",
+      "size": 13098
+    },
+    {
+      "path": "assets/heroes/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault-1e552512e6a581d0.png",
+      "sha256": "1e552512e6a581d00b6ec897e14f1fe44b30b371b6c6150f2f2be4d6d1e4c0d8",
+      "size": 13126
+    },
+    {
+      "path": "assets/heroes/2026-06-21-the-shell-bottleneck-starts-before-the-shell-e8d6fb9d055cbda2.png",
+      "sha256": "e8d6fb9d055cbda2c61eb8ddf578fcf3937b354e499aef8eb2730e1f82bb5673",
+      "size": 9894
+    },
+    {
+      "path": "assets/heroes/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break-387a08f2e1145e16.png",
+      "sha256": "387a08f2e1145e16eb07f1238e3d530d9807d8ba747c293434728947bf1e7c7c",
+      "size": 10373
+    },
+    {
+      "path": "assets/heroes/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity-0d6dc548b4d779b2.png",
+      "sha256": "0d6dc548b4d779b2a280d94777907504404cd83d855b47a67d23a415c560169f",
+      "size": 16023
+    },
+    {
+      "path": "assets/heroes/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water-91754cda8b65b463.png",
+      "sha256": "91754cda8b65b463c6960efb77cbda788c894551d707de78577ecf8cea170207",
+      "size": 9003
+    },
+    {
+      "path": "assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock-719ed772d920f092.png",
+      "sha256": "719ed772d920f092f19c6c6824fde76ea03088c7fb9b630599222b186365d9d9",
+      "size": 12800
+    },
+    {
+      "path": "assets/heroes/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar-ab7f76c9dc46f56c.png",
+      "sha256": "ab7f76c9dc46f56ca9d7fbaf48647f095f4da9dc3061568a2230dd935c473d49",
+      "size": 10444
+    },
+    {
+      "path": "assets/heroes/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market-dcb47e9cfc7c0f3d.png",
+      "sha256": "dcb47e9cfc7c0f3d69541aec9aa4fd39b55a4148b27e71282beeb93fea164d11",
+      "size": 9224
+    },
+    {
+      "path": "assets/heroes/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns-04cc29647adc4ae6.png",
+      "sha256": "04cc29647adc4ae6a09ecd1066eb7a5ed48fc53faf8014b776aba82f910af963",
+      "size": 11015
+    },
+    {
+      "path": "assets/heroes/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck-902c72355fac9e82.png",
+      "sha256": "902c72355fac9e82d3db0fac7a0f9a27db3bea0006d1c8cb52997e49b9ecee36",
+      "size": 11181
+    },
+    {
+      "path": "assets/heroes/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure-cb9041081a155ef0.png",
+      "sha256": "cb9041081a155ef07551cbb5b21e11d3f59df2e17468c32860bcbc54f634d15a",
+      "size": 12854
+    },
+    {
+      "path": "assets/heroes/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck-3370d1d88a5824d3.png",
+      "sha256": "3370d1d88a5824d3b0db5c766c33cfd3309b7afd2dbf6aa622fd7dd9158ff2e1",
+      "size": 12821
+    },
+    {
+      "path": "assets/heroes/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint-39f6ed8229ffa406.png",
+      "sha256": "39f6ed8229ffa4061c4d86f8758c601416ce2be35027b33b23597c99e9d566c4",
+      "size": 11076
+    },
+    {
+      "path": "assets/heroes/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck-dd51201c350441c9.png",
+      "sha256": "dd51201c350441c9562187f64f614f2c590bd866772f428cf09419983c58863b",
+      "size": 13184
+    },
+    {
+      "path": "assets/heroes/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck-e2a66b4fb176ab29.png",
+      "sha256": "e2a66b4fb176ab299135a441c60615a45a3f00b525dc4d078674056f4e96d778",
+      "size": 10690
+    },
+    {
+      "path": "assets/heroes/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck-d0b68de37049a73c.png",
+      "sha256": "d0b68de37049a73cfc19665026dfb03f668a2038edfa9aabcc79b7ceb13fe254",
+      "size": 9066
+    },
+    {
+      "path": "assets/heroes/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system-4ccf2bea3f2670f7.png",
+      "sha256": "4ccf2bea3f2670f7c1669538a9bea9f6be617a64702f0d5bf383be9e86e1e32a",
+      "size": 10662
+    },
+    {
+      "path": "assets/heroes/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train-29fd1969aed2afeb.png",
+      "sha256": "29fd1969aed2afeba03330ba467d1ef23ee965ef72aa40cab55b2c3ef04a1c25",
+      "size": 10711
+    },
+    {
+      "path": "assets/heroes/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration-68e5222880c321a0.png",
+      "sha256": "68e5222880c321a0111c116b42b244af38bbc8fec0f7fad8355c3516ae05e14d",
+      "size": 13075
+    },
+    {
+      "path": "assets/heroes/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create-783e302f82366f3a.png",
+      "sha256": "783e302f82366f3a6741c08de2a664135b2c472298ea0e8f0187058db8a20e54",
+      "size": 12921
+    },
+    {
+      "path": "assets/heroes/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa-54169fd9008305d2.png",
+      "sha256": "54169fd9008305d2fda48e86fd9f5c990ba1ce7edceee7e75747fc9938e97dea",
+      "size": 10692
+    },
+    {
+      "path": "assets/heroes/2026-07-03-fluorine-chemistry-s-hidden-control-point-1bbddaabfd2c52d6.png",
+      "sha256": "1bbddaabfd2c52d64b3e37764cc06626774ca88ec03a6f3543a001ef3ebf6d07",
+      "size": 9266
+    },
+    {
+      "path": "assets/heroes/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide-0fa1573643111395.png",
+      "sha256": "0fa1573643111395d72faee8d6c92ea056503bfcee02cc1ba7a478c87e8e4b9d",
+      "size": 22705
+    },
+    {
+      "path": "assets/heroes/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure-e1bdd05f3b5fefc8.png",
+      "sha256": "e1bdd05f3b5fefc8abade3892e7d232b7326409870c7de1af20aa5a8938cfcac",
+      "size": 23353
+    },
+    {
+      "path": "assets/heroes/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication-b19b93be52630572.png",
+      "sha256": "b19b93be526305729851eef1c3efdd609c61a729ece6b1bc0f42bda478b24608",
+      "size": 9288
+    },
+    {
+      "path": "assets/heroes/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations-007fe4a696960466.png",
+      "sha256": "007fe4a6969604665a7348cdd49941cfceb919679310d41db1edf4f5130dc083",
+      "size": 9276
+    },
+    {
+      "path": "assets/heroes/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate-2928d42a279959d7.png",
+      "sha256": "2928d42a279959d757e6a1df945ef53103e655336ff4ae6bf42091d33858b463",
+      "size": 9311
+    },
+    {
+      "path": "assets/heroes/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate-a7e8f2d40aeb79c7.png",
+      "sha256": "a7e8f2d40aeb79c7286b672f8f955fa48ca08e2b533fc83ef327e094296dcc67",
+      "size": 23817
+    },
+    {
+      "path": "assets/heroes/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and-8838d225782c0dea.png",
+      "sha256": "8838d225782c0dea0bf036c8bec7317fe93d90c770b2b4def99498bb7b0a1810",
+      "size": 11499
+    },
+    {
+      "path": "assets/heroes/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate-fdb1528dde9a0ffd.png",
+      "sha256": "fdb1528dde9a0ffd27a889ce46cc9cf8f066705a87e2ea78ab2766e7c2eeee6e",
+      "size": 23741
+    },
+    {
+      "path": "assets/heroes/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot-63878f975f875888.png",
+      "sha256": "63878f975f87588812d1441734b9cb9393b8e9e3e5ef772863404fea11094f81",
+      "size": 22951
+    },
+    {
+      "path": "assets/heroes/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point-bb08da2f13e746b9.png",
+      "sha256": "bb08da2f13e746b90ed4ca2942f823014d6d271a3e8d6e87d2b553f12f5c32db",
+      "size": 9273
+    },
+    {
+      "path": "assets/heroes/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable-af361f5e604f5f4a.png",
+      "sha256": "af361f5e604f5f4a3413b57ad7e18a3b7c71dfa3fdc557169b7fbcdee83a65fa",
+      "size": 10599
+    },
+    {
+      "path": "assets/heroes/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem-70dfbfd16f4a2d62.png",
+      "sha256": "70dfbfd16f4a2d62dc8cc9d9b4ca33480371a067db6f343aacdd75db48559789",
+      "size": 10087
+    },
+    {
+      "path": "assets/heroes/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem-7207dff9b847c9f2.png",
+      "sha256": "7207dff9b847c9f248c3ce6ff7e9c8694ed5f2b75f6a91d255f4ccd133e499b7",
+      "size": 9391
+    },
+    {
+      "path": "assets/heroes/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks-a0d31da5a4575845.png",
+      "sha256": "a0d31da5a4575845bae8a088aa005d92a699b81b07fe0bd1c4fc25ddacf7e8ad",
+      "size": 10664
+    },
+    {
+      "path": "assets/heroes/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing-d417f0706a7e124b.png",
+      "sha256": "d417f0706a7e124b6cec6345c72eccb6a5485195774431922d0d8d874a08db98",
+      "size": 12268
+    },
+    {
+      "path": "assets/heroes/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock-d3057db697c836d8.png",
+      "sha256": "d3057db697c836d85ca7e9b32897e5b24d0f148a5a8abaf2412859c2a99e0721",
+      "size": 11429
+    },
+    {
+      "path": "assets/heroes/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time-cbc549cc9d5a23ea.png",
+      "sha256": "cbc549cc9d5a23eae336a6ffedbd8114f40cf8f43099c226620b988355e56245",
+      "size": 9542
+    },
+    {
+      "path": "assets/heroes/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration-675f2282d359772e.png",
+      "sha256": "675f2282d359772ef9cb77d6faa757466fc1549e3ee9958d575432fbd9d4f911",
+      "size": 9050
+    },
+    {
+      "path": "assets/heroes/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market-be8677e741f6e36f.png",
+      "sha256": "be8677e741f6e36f99f8969afa29a57c3fe85262d7a435c2c46b2a9b7b9a6585",
+      "size": 10018
+    },
+    {
+      "path": "assets/heroes/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path-d03689377e6495a2.png",
+      "sha256": "d03689377e6495a242dff94e6138c2a2e5106192358bd33bf45b983dd7ba7210",
+      "size": 9143
+    },
+    {
+      "path": "assets/heroes/2026-07-24-port-electrification-is-becoming-an-operating-system-problem-415ae8b8a9b60771.png",
+      "sha256": "415ae8b8a9b60771424f2fcaf4d3b317b8f4ef17be1aaf6c64ab5a87be7f72d6",
+      "size": 8181
+    },
+    {
+      "path": "assets/heroes/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence-ca79358eaa27a9ee.png",
+      "sha256": "ca79358eaa27a9ee7df67671bb880dfc06634a20b5ff1c4b5c05d21267bae6dc",
+      "size": 14148
+    },
+    {
+      "path": "assets/heroes/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases-e03b380c3769a06e.png",
+      "sha256": "e03b380c3769a06ec51a9a7514a7b46907e0e57519e8612c4a01d3457f02aa81",
+      "size": 9902
+    },
+    {
+      "path": "assets/heroes/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system-ff7cd7e2acdfd22e.png",
+      "sha256": "ff7cd7e2acdfd22e36e0809eb53516944b458c47ecc617b45c0b21ab6c193083",
+      "size": 11928
+    },
+    {
+      "path": "assets/heroes/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit-6c96ce787003ec1a.png",
+      "sha256": "6c96ce787003ec1ab4b676addc8ee9a5c26b67fc5af43f334f4015843630a035",
+      "size": 9242
+    },
+    {
+      "path": "assets/heroes/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply-84a1d51b7453bf26.png",
+      "sha256": "84a1d51b7453bf26b48ac6bff4cdb8cb5823b82301c739c8e14fc159ac2cf000",
+      "size": 9563
+    },
+    {
+      "path": "assets/heroes/2026-07-24-the-part-is-becoming-a-governed-production-record-e07f98e871253b00.png",
+      "sha256": "e07f98e871253b00b9e1c6e334a29b1b00e3fd4d6ce14f5365947649eb817ab7",
+      "size": 9570
+    },
+    {
+      "path": "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.png",
+      "sha256": "70810bde98bccf4a64225f22d7c21debf39831c188778d702693137f889d0a56",
+      "size": 52111
+    },
+    {
+      "path": "assets/og/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.png",
+      "sha256": "19e986381431d0e84b2b6c8ec43d0209d2cd85e81844188c947ac808ec843c38",
+      "size": 36213
+    },
+    {
+      "path": "assets/og/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.png",
+      "sha256": "9be15c72748a0a3659690db5723936ede156fc14eda9e839b22c5971bc1fbe83",
+      "size": 47802
+    },
+    {
+      "path": "assets/og/2026-06-21-the-shell-bottleneck-starts-before-the-shell.png",
+      "sha256": "3b5377fbd544b9fd8cd9676d3fe9c83b24d3b20ed32fe1e02c585170b3215f71",
+      "size": 44515
+    },
+    {
+      "path": "assets/og/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.png",
+      "sha256": "270fa470d8f8a8c3f9dcdea688835dfc9fcf597aca775b997423910a679beae1",
+      "size": 35741
+    },
+    {
+      "path": "assets/og/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.png",
+      "sha256": "c2e370dc4f172dee73505f86ed97fa9ddb1c956fa29968ba82318db0088bbf56",
+      "size": 44051
+    },
+    {
+      "path": "assets/og/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.png",
+      "sha256": "ef3f7b8b7b1b8bd092e2ff9c585eaa15ce60429659d4dddca2fde6fff8cfcdd1",
+      "size": 49358
+    },
+    {
+      "path": "assets/og/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.png",
+      "sha256": "72a1108e10387abae872b1f1c2621614cb83181122ea44e89cbae2bdb1f79fce",
+      "size": 51730
+    },
+    {
+      "path": "assets/og/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.png",
+      "sha256": "746fef43522d51cc5bbb666bae718225bd053199dd7aad7952a06eee3f83fddb",
+      "size": 53932
+    },
+    {
+      "path": "assets/og/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market.png",
+      "sha256": "24a208043bf37be06cd5c9b2f0a5653b667bffe71ccc60b17f260a95c39a9b39",
+      "size": 58502
+    },
+    {
+      "path": "assets/og/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.png",
+      "sha256": "4521422603073f6b0706846fe5663e1c8b8bdcd7bba062f5e2c8c5d3eb95351a",
+      "size": 46146
+    },
+    {
+      "path": "assets/og/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck.png",
+      "sha256": "096736a3556af0f745193a33798cf93388e3c38f0b176e544579528e94573450",
+      "size": 60959
+    },
+    {
+      "path": "assets/og/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure.png",
+      "sha256": "0075660eb68a28aeca1bca5593d8d81e85e60dc8202d0bd606e6cd9e6033161e",
+      "size": 56850
+    },
+    {
+      "path": "assets/og/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck.png",
+      "sha256": "764768367dca5faf542f229fea431c4330cd1b3a71eadd3601f41253ec9eb1ff",
+      "size": 51354
+    },
+    {
+      "path": "assets/og/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint.png",
+      "sha256": "08cbf1fdb596c639909a7e991927df451e8f03b6db409a4cd4fdd3bc192878ef",
+      "size": 41766
+    },
+    {
+      "path": "assets/og/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck.png",
+      "sha256": "31027cec8a3ef7d8447b4d793ab5bb15af4b7fbed40004623cce7586deeb8714",
+      "size": 51709
+    },
+    {
+      "path": "assets/og/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck.png",
+      "sha256": "430cf51f90446945971f76629538408b5d651654c9ce7cad4a853ce3a13395e0",
+      "size": 50836
+    },
+    {
+      "path": "assets/og/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck.png",
+      "sha256": "97dd7801775b31314c4c5b166798c4b7be1162d6f61c0f0d774d8c155e8aa23d",
+      "size": 44961
+    },
+    {
+      "path": "assets/og/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system.png",
+      "sha256": "86d121eba9d46c06f0161fd2c2b8ba6c96d20a6dcb4c36624affb146bfea7564",
+      "size": 49892
+    },
+    {
+      "path": "assets/og/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train.png",
+      "sha256": "ff443d3a7f6c0bd6a57eff4814d7d04c091f2b5008d176cd12badc09d6e9d9f8",
+      "size": 56803
+    },
+    {
+      "path": "assets/og/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration.png",
+      "sha256": "579b72d82b6d5cb28b1a523a8a5705e618d8f7dbdd2153dd7bd6b2549c97a79f",
+      "size": 51910
+    },
+    {
+      "path": "assets/og/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create.png",
+      "sha256": "fa3b8c8a25188967a91e349dd846ef82ff3aa8a598b4d1f1a94fdf16e26f932d",
+      "size": 47950
+    },
+    {
+      "path": "assets/og/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa.png",
+      "sha256": "092e1d5a501e96bdc6ff950bede0e445458098ca79cc6d259c2cf9b79de2a269",
+      "size": 44404
+    },
+    {
+      "path": "assets/og/2026-07-03-fluorine-chemistry-s-hidden-control-point.png",
+      "sha256": "1407125a02066eaddf1a9f08432a47f076905ccf028b46688f2dcf252556e9fb",
+      "size": 43561
+    },
+    {
+      "path": "assets/og/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.png",
+      "sha256": "48a33129b0d0c97ea3be6b97ec2acf04ab32948c2bf368315150392923f0ebc6",
+      "size": 40769
+    },
+    {
+      "path": "assets/og/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.png",
+      "sha256": "58fa35c6283a2121de07b30e1a24c77f54d5b75183ea3c7100de23e686fbb966",
+      "size": 35027
+    },
+    {
+      "path": "assets/og/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.png",
+      "sha256": "8645fbb6198702c92696be6a99f9bba1ad94cdcfbe58e838b96592082a18d0af",
+      "size": 50730
+    },
+    {
+      "path": "assets/og/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.png",
+      "sha256": "e48a8080758c2f2a1b733b56ce5c67d5c359776b294c17f7ff900bb52b7b106c",
+      "size": 41321
+    },
+    {
+      "path": "assets/og/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate.png",
+      "sha256": "978e716e9419908d03d7d08e197c2e2d5f2efec6581786ac00d844cfbbb14908",
+      "size": 39727
+    },
+    {
+      "path": "assets/og/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.png",
+      "sha256": "2f2fa13221f84f558d35b424fdad9e7499d501906a836ddcc10e1bbad19c1a37",
+      "size": 44042
+    },
+    {
+      "path": "assets/og/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.png",
+      "sha256": "7db31045bea481440c0bba7c7bc98cbd398f3ea5cefebbfeb963a0867827c49f",
+      "size": 44337
+    },
+    {
+      "path": "assets/og/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.png",
+      "sha256": "cb68fd416ba14addfbeab1896b796bc8ef9970dca5b9bfcd28879b7736201ec8",
+      "size": 53984
+    },
+    {
+      "path": "assets/og/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot.png",
+      "sha256": "a86d5b1548fe5001b284d49c84552f825e341eb52392dc4226302953f8b176d1",
+      "size": 42728
+    },
+    {
+      "path": "assets/og/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point.png",
+      "sha256": "3f7e66539af2dcccfb4d5e26aca4028395ff622e11f66931551e8fd82a5fb939",
+      "size": 58994
+    },
+    {
+      "path": "assets/og/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.png",
+      "sha256": "b06c288c4643a2fcc03052d09f019e7bb6e99d0548a91db372d6844c3684f49b",
+      "size": 45593
+    },
+    {
+      "path": "assets/og/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.png",
+      "sha256": "7d3cc8cc1eed9639eb5d3a5c3860dd36e8c23dfce2b2cbf83817a216646c5c93",
+      "size": 46573
+    },
+    {
+      "path": "assets/og/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.png",
+      "sha256": "15f1c398124920b3e646c891abd46ed4ce3f15ef18f97fd7ff180c9432297ce9",
+      "size": 44048
+    },
+    {
+      "path": "assets/og/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.png",
+      "sha256": "030313b8dddc462a0998163d630015d740ba1aece4a4f5c14930e2a39fe522e8",
+      "size": 39238
+    },
+    {
+      "path": "assets/og/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.png",
+      "sha256": "435e204bb9adb487042453e8594ac31ab9ff5424a0a06e23184e448a37c348fb",
+      "size": 60152
+    },
+    {
+      "path": "assets/og/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.png",
+      "sha256": "ac26348080cbff83e4d419a0b728efebb8bf17d1e4f683e63a74e5626cc51c15",
+      "size": 40088
+    },
+    {
+      "path": "assets/og/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.png",
+      "sha256": "aea0031ad733b0d4ba0dc17470c2e9b59bb2961dfc29f9277349f8607d5e2ed2",
+      "size": 46641
+    },
+    {
+      "path": "assets/og/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration.png",
+      "sha256": "63102ebebbd25860be79f6467f4bd04bd5e045acc495a39248f8c7ccce1aa9c6",
+      "size": 50749
+    },
+    {
+      "path": "assets/og/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market.png",
+      "sha256": "1ed1945a47a7f01ac8d8ece9a27b1f7f3ea719af20b36e326e9a064685beaa5f",
+      "size": 53678
+    },
+    {
+      "path": "assets/og/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path.png",
+      "sha256": "eb32953a0e6d0f46019df599209f6514889f252c754b8fe2e59ff6e62d44273e",
+      "size": 46415
+    },
+    {
+      "path": "assets/og/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.png",
+      "sha256": "563fee38760d47432a00b13b1c5a764a8e739359ba19684792d902c5ea09beaf",
+      "size": 48482
+    },
+    {
+      "path": "assets/og/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence.png",
+      "sha256": "38ac500ce61d0d5b3f90a0681bb667b7208f2a797012a4bf18f8776e4866bd12",
+      "size": 55171
+    },
+    {
+      "path": "assets/og/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases.png",
+      "sha256": "ae5da96ed19190d1b934ff5e5aa81d18733bb46dce9cc9dea216b4e93ce62248",
+      "size": 45648
+    },
+    {
+      "path": "assets/og/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system.png",
+      "sha256": "7ff2d3408dfdd0ab39ae17b9a89535d2b9dd8f70ce02a3ce90ed77274a48f4b7",
+      "size": 57190
+    },
+    {
+      "path": "assets/og/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit.png",
+      "sha256": "1d865d9aa0f38b2378ae36516510d1876f3de475d3b05888cd72a0cfc8d44cc1",
+      "size": 59663
+    },
+    {
+      "path": "assets/og/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply.png",
+      "sha256": "e5175df1017501adca5357659a1e863f65e94907e5f09b2be9f31d52853b7b72",
+      "size": 44676
+    },
+    {
+      "path": "assets/og/2026-07-24-the-part-is-becoming-a-governed-production-record.png",
+      "sha256": "349d3e37f0cd2596d0cf45fb59334b54d57cf737f8707d60ab2fb5e9a78bdedd",
+      "size": 42532
+    },
+    {
+      "path": "assets/site/editorial-network.png",
+      "sha256": "101d705af6b93ed9b711901fb96568d2853ff0274f16fa0540620a1cf504f7d7",
+      "size": 16083
+    },
+    {
+      "path": "blog-data.json",
+      "sha256": "dfecaf1fe210fedff102d32562e4ca7fcf501473ac8bebcc0596c25c4f08c95c",
+      "size": 36662
+    },
+    {
+      "path": "disclaimer.html",
+      "sha256": "49a6955f3bd84815a9dec72e8a31e0d477b1280633654a4a8de3df4999ecb909",
+      "size": 3735
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
+      "size": 328
+    },
+    {
+      "path": "feed.xml",
+      "sha256": "450c1450141ef396e7a7104605b5658e02c3aca4b1f0b2bb24cc64abe1df9304",
+      "size": 25535
+    },
+    {
+      "path": "image-manifest.json",
+      "sha256": "1c7261711af246a1c228920e871fbedbc71447b1d3b8b59570c4177810deeef5",
+      "size": 222990
+    },
+    {
+      "path": "index.html",
+      "sha256": "340dbda151bb68a3a819d8b5fd9aeea1402d9f8a079aaa562ccdb5cbc34d5cd3",
+      "size": 101095
+    },
+    {
+      "path": "ledger.html",
+      "sha256": "06adb32bf052e6984b7f9017ab2269e417bfb686b0c5b0e28f5b734c334ddaaf",
+      "size": 73406
+    },
+    {
+      "path": "patterns.html",
+      "sha256": "827e1fbc1a65da63e6d2982b1247f7c67f9db76fe67cdbc5b75b90351ad215e7",
+      "size": 35881
+    },
+    {
+      "path": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
+      "sha256": "b3efa7bdd3474549029a0eb208b0cae0a8f10162f33f95b13ae41719d36a00fd",
+      "size": 34469
+    },
+    {
+      "path": "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html",
+      "sha256": "3d5cc71a5953ab8904d34f644c8dc73f10b979b7b92562ea71c8c8101ebf2215",
+      "size": 47302
+    },
+    {
+      "path": "posts/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.html",
+      "sha256": "ef909336ee76ffd36aed984e79f22dca5d9c2fbae185d00215d9707d41ecc65c",
+      "size": 44529
+    },
+    {
+      "path": "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html",
+      "sha256": "63bc239e6b927d3cfdd4e391b7e0b86c457324b330894263dcc1d479569101c0",
+      "size": 29357
+    },
+    {
+      "path": "posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html",
+      "sha256": "efbe2afd0d9f67aa772526c0a65caa8eaeb13c542913cd9e5dca3ea90bc71dfd",
+      "size": 30253
+    },
+    {
+      "path": "posts/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.html",
+      "sha256": "b1dcfdffa96cf24a9a15a9fe6de352d6c24d6c50a4b451315ed599a4e611885d",
+      "size": 57251
+    },
+    {
+      "path": "posts/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.html",
+      "sha256": "ac94043da42192ecda8ef4336e7d56ed6e31995e933dd03d7682e7277d85b04f",
+      "size": 42383
+    },
+    {
+      "path": "posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html",
+      "sha256": "ca789559ada0b1142922ce8f3ec6279d4ccbc8d8bd254ab809afa02582f5b811",
+      "size": 57108
+    },
+    {
+      "path": "posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html",
+      "sha256": "4812d360e4977785b3d538f1f9db551fcfbf014c64b7a3b92584f3d048f8d382",
+      "size": 46057
+    },
+    {
+      "path": "posts/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market.html",
+      "sha256": "88d34c3e5f97b97fb7d7dced69ad452b6516efaa5558ea91794353d245c9c2c0",
+      "size": 57541
+    },
+    {
+      "path": "posts/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.html",
+      "sha256": "3e4a02a858dca9f81b1a3730d388d3052102763365f39c6498067a89c9a296c8",
+      "size": 43505
+    },
+    {
+      "path": "posts/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck.html",
+      "sha256": "9d8ef53cf31edd3487f18ab6c14eb30756857a793c1790ec9c5491c6a6d99fa3",
+      "size": 41966
+    },
+    {
+      "path": "posts/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure.html",
+      "sha256": "e156a558d9db466ae3c8137ecf635f9c8d6d869f7795267afaf30edae1d76648",
+      "size": 42505
+    },
+    {
+      "path": "posts/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck.html",
+      "sha256": "dfc17c36e16d6c4007e70caa43c09654260225c4d093c2e8deebbf5cf5f3cbfb",
+      "size": 63116
+    },
+    {
+      "path": "posts/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint.html",
+      "sha256": "3d090461d0caafa90e9ca4240afc706c6adcd395906a95053092f9db1676b96e",
+      "size": 57130
+    },
+    {
+      "path": "posts/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck.html",
+      "sha256": "69396f5627bb6fbe984b22260bb4cf41c65ad1d878f1df3e0ad93ae3ee015d7f",
+      "size": 60491
+    },
+    {
+      "path": "posts/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck.html",
+      "sha256": "41412dc449db550f8ae747d0e371f463791da6d864fa9e5c2cd42e18e70252ee",
+      "size": 55635
+    },
+    {
+      "path": "posts/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck.html",
+      "sha256": "209bdccb65839cb7e3495a90e4f54df7d8ad7636de021b2a2ca3b1b36087b3e9",
+      "size": 49919
+    },
+    {
+      "path": "posts/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system.html",
+      "sha256": "ada1f2659f4f250c7a9af29e3f87f8ae299a4123585c9c7ecf4ea52209a8f477",
+      "size": 37486
+    },
+    {
+      "path": "posts/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train.html",
+      "sha256": "e3c2fa80df65fa08418723b8dbf80e2769d4f312716697c472d223b8a1e824c4",
+      "size": 37882
+    },
+    {
+      "path": "posts/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration.html",
+      "sha256": "10a737947f4d2593b5391f24961fd689bec4ab41fb84321723aba079b731362b",
+      "size": 55899
+    },
+    {
+      "path": "posts/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create.html",
+      "sha256": "c2c4286d173d6762992bdd899c069c7f8ce3c3bd0b91a6a75fd332bd186adc8b",
+      "size": 56730
+    },
+    {
+      "path": "posts/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa.html",
+      "sha256": "f9d45aca08bef3b606729b3ae25daac00e6415461c490913ff5e6036faad7609",
+      "size": 52567
+    },
+    {
+      "path": "posts/2026-07-03-fluorine-chemistry-s-hidden-control-point.html",
+      "sha256": "6e9c5d03fbb9673f1e3c3f098989fc3d097be13ae078781eb403cad12a2681ed",
+      "size": 66188
+    },
+    {
+      "path": "posts/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.html",
+      "sha256": "b3b4a77c0c172cfadd52c4c2ef41d75fc7a535129c7cc1b3c15f9acf31ea4be0",
+      "size": 51114
+    },
+    {
+      "path": "posts/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.html",
+      "sha256": "c2b44399a093707e850eebeafe444e9bc603d0f4f916c7d4ca69f7c03843cdc9",
+      "size": 52514
+    },
+    {
+      "path": "posts/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.html",
+      "sha256": "c39bd2135407d622aadb931cd77229459012663e4df12aed411897504649f9e5",
+      "size": 49147
+    },
+    {
+      "path": "posts/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.html",
+      "sha256": "822bae3f74e4816e190e58e9db7f63fab521c764e9918920d839159ed991acbe",
+      "size": 46408
+    },
+    {
+      "path": "posts/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate.html",
+      "sha256": "66107e1bf36d83d77e3ed9740b5399776975a28c4eeaa79e2015c89d4f9e32ef",
+      "size": 57481
+    },
+    {
+      "path": "posts/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.html",
+      "sha256": "447d6fdb1eaad80fe6c2a62faba666d92862323e3d2bdbef9b66ac10803ab238",
+      "size": 64739
+    },
+    {
+      "path": "posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html",
+      "sha256": "1a217da942a70d6ae2c14b027a744da9409dbfc02af38bbf771ab2b6dfd3352d",
+      "size": 49052
+    },
+    {
+      "path": "posts/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.html",
+      "sha256": "5e20bfc3189e3e7049308b3377e3fcac0ddd60a7f9b7397f4220ecd79ace57fa",
+      "size": 46894
+    },
+    {
+      "path": "posts/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot.html",
+      "sha256": "608f1c3768d6a9c422b152d4bdcc8727d2a3e4e303c6889f89dd1be50fc70b87",
+      "size": 53268
+    },
+    {
+      "path": "posts/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point.html",
+      "sha256": "cb4ec12abbe1b6c3a4b0be416633eaf1550d523149a532b302f826d144200d3e",
+      "size": 49790
+    },
+    {
+      "path": "posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html",
+      "sha256": "557478682fdb8ccb074b7515af4745e044c498aeb896b0f1f71a915b739b86a3",
+      "size": 55112
+    },
+    {
+      "path": "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html",
+      "sha256": "c0d2c73ae6f000890fd068d667899e77952b5b3ebe44380eeae9e4f8ead14b1d",
+      "size": 38642
+    },
+    {
+      "path": "posts/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.html",
+      "sha256": "84bc6a6ac0b686d9f4bff44bb6154bdb117a35a661a6a069f460e97841bb259d",
+      "size": 56115
+    },
+    {
+      "path": "posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html",
+      "sha256": "431f0ba91448ce2c590970ea8f5c50e13f3fb583f6a5fba49234716c8fccc22a",
+      "size": 33682
+    },
+    {
+      "path": "posts/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.html",
+      "sha256": "9763b4d58cd882fac1c3f776ae8ee13845364c20fd9e4f78432a18ed0e347579",
+      "size": 40549
+    },
+    {
+      "path": "posts/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.html",
+      "sha256": "11f1f3426cdcb99a82a3a1732523aa587fbf9b7716d6af26a20febc925beadc5",
+      "size": 35300
+    },
+    {
+      "path": "posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html",
+      "sha256": "f2f49b98da9356f8e77de5d99444ba03481161dc7a76fa06c7e30f6006ffffbe",
+      "size": 31051
+    },
+    {
+      "path": "posts/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration.html",
+      "sha256": "67f0609c8aa0008e32602e68ad4ef1bbfe2cbb12aae9201ffddefb1c8658887e",
+      "size": 52179
+    },
+    {
+      "path": "posts/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market.html",
+      "sha256": "a93fae857b3aa6cf6462d71fad6f20f049184047b0006ad6943e2c2f20ef2c29",
+      "size": 49722
+    },
+    {
+      "path": "posts/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path.html",
+      "sha256": "ffe01bbaa2b542622910a57c2fd44e848937544debc65a994d5e021619fde265",
+      "size": 47636
+    },
+    {
+      "path": "posts/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.html",
+      "sha256": "bd0b84e3341841e0ff055353cd7ddb3aa10bde075833f5f8080ef156298f8b6e",
+      "size": 56092
+    },
+    {
+      "path": "posts/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence.html",
+      "sha256": "775572a7286aee59ae07004be5115cb159f4010554c2e41df035844ab1517633",
+      "size": 52917
+    },
+    {
+      "path": "posts/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases.html",
+      "sha256": "a03f286e52a8cabf3ab7b98ff37a3d41e9af06354a73a5e0f90f8e62176df372",
+      "size": 53063
+    },
+    {
+      "path": "posts/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system.html",
+      "sha256": "9b8d7004a58dc7fc8626da03872ae7f7bc921f9c167953e1f85edc8d8a2abfb0",
+      "size": 48972
+    },
+    {
+      "path": "posts/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit.html",
+      "sha256": "c8e81b14a86fafe6d2e7044819496bc923b28884dd0f28c581086c48e8eee1d4",
+      "size": 49524
+    },
+    {
+      "path": "posts/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply.html",
+      "sha256": "41f13360e4023f116f319fa69a8b7b08c640e34cadbe5d2d79388822fd307fe3",
+      "size": 50674
+    },
+    {
+      "path": "posts/2026-07-24-the-part-is-becoming-a-governed-production-record.html",
+      "sha256": "ec4bd1252cdb17cce7066a7e977324dbfdfb7ba39dde2fcf1ffd5d9396fa9698",
+      "size": 57269
+    },
+    {
+      "path": "privacy.html",
+      "sha256": "bc2566f7ac788a38cbecf757237a8f9c2d6a0c6298e38997400d76927dee90ad",
+      "size": 3068
+    },
+    {
+      "path": "publication-data.json",
+      "sha256": "00f824258477b393d0b896f8117dd5b0d185480fb4105742f2689841cf4da608",
+      "size": 673917
+    },
+    {
+      "path": "rgraph.js",
+      "sha256": "eea1c5f6c40f22b809110a0db602fffa932c6e6759aabce7836401d69521092a",
+      "size": 8547
+    },
+    {
+      "path": "site.js",
+      "sha256": "a4802ab7d88f8a7741080448478fe005fba32448610d08edd9ad65b2a642b31d",
+      "size": 3202
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "8ce1ae08fe006375101ec131795521863caed4c647c68cb63d19333f9beeceb0",
+      "size": 9476
+    },
+    {
+      "path": "styles.css",
+      "sha256": "d26de3cd6d60927094d37dcffc5dcc44e262fab62e50affa26c0917ed2b70fca",
+      "size": 48110
+    }
+  ],
+  "generator": "sync_static_site/v1",
+  "schema_version": 1,
+  "site_url": "https://cheesss.github.io/counterfactual-seed-generator-blog"
+}
