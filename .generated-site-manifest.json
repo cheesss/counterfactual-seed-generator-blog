@@ -7,8 +7,8 @@
     },
     {
       "path": "404.html",
-      "sha256": "ba8326fc3a431f281a8a191f480acff096d7eaebfcf7b680f080609dc2df7de7",
-      "size": 98223
+      "sha256": "2af4d5eade5c8f728e5c55902a63d00e55f87eb1ffc531f958818c44f78776fd",
+      "size": 98265
     },
     {
       "path": "about.html",
@@ -547,7 +547,7 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "2c2d760e67f024b33816b3e22184762894633ba11a0502da08beefc8fd94736e",
+      "sha256": "9e57317ac8a64a6b5e3d16d8f95b191d336f936d56ed8120fd0fa11efaa5fe3b",
       "size": 25535
     },
     {
@@ -557,8 +557,8 @@
     },
     {
       "path": "index.html",
-      "sha256": "ba8326fc3a431f281a8a191f480acff096d7eaebfcf7b680f080609dc2df7de7",
-      "size": 98223
+      "sha256": "2af4d5eade5c8f728e5c55902a63d00e55f87eb1ffc531f958818c44f78776fd",
+      "size": 98265
     },
     {
       "path": "ledger.html",
@@ -832,8 +832,8 @@
     },
     {
       "path": "publication-data.json",
-      "sha256": "e66094a0cba0a9d5bc2e88d67ed35ac77a1932d2133c59da666841ffeb76e5e1",
-      "size": 671367
+      "sha256": "6106efa9155908e1f958da42d250ec700030de7735f8f8e2a2d6b54ef3903e9f",
+      "size": 671409
     },
     {
       "path": "rgraph.js",

@@ -10,9 +10,9 @@
       "resolved": 0,
       "states": {
         "open": 270,
-        "broken": 0,
         "confirmed": 0,
-        "weakened": 0
+        "weakened": 0,
+        "broken": 0
       },
       "extraction_modes": {
         "explicit_bullet": 270
@@ -32,8 +32,8 @@
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 41,
-        "commercialization": 5,
+        "constraint": 38,
+        "commercialization": 8,
         "disruption": 2,
         "ecosystem-expansion": 3
       },
@@ -5126,8 +5126,8 @@
         "label": "Qualified materials & supply"
       },
       "analysis_lens": {
-        "key": "constraint",
-        "label": "Constraint"
+        "key": "commercialization",
+        "label": "Commercialization"
       },
       "excerpt": "China’s April 2025 export controls made the rare-earth magnet problem look like an administrative shortage. Beijing required licences for specified heavy rare earths, magnet materials and related products. Chinese rare-earth magnet exports then fell to 1,239 tonnes in May 2025 before recovering to 5,952 tonnes in December.",
       "image": {
@@ -8391,8 +8391,8 @@
         "label": "Validation & certification evidence"
       },
       "analysis_lens": {
-        "key": "constraint",
-        "label": "Constraint"
+        "key": "commercialization",
+        "label": "Commercialization"
       },
       "excerpt": "The public fusion race focuses on magnets, confinement, net energy and the date of first power. Those are genuine gates. But a deuterium-tritium developer that clears them still has to prove that the surrounding machine can survive the neutron environment, breed and control tritium, remove heat, tolerate corrosion and activation, and be maintained remotely.",
       "image": {
@@ -15335,8 +15335,8 @@
         "label": "Queue & slot scarcity"
       },
       "analysis_lens": {
-        "key": "constraint",
-        "label": "Constraint"
+        "key": "commercialization",
+        "label": "Commercialization"
       },
       "excerpt": "The standard explanation for the AI power problem is that data centers are arriving faster than utilities can expand the grid. That remains true. It no longer describes the entire constraint.",
       "image": {
