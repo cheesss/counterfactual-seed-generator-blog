@@ -4,8 +4,15 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed research on industrial constraints, commercialization, disruption, and the systems that decide what scales next.</description>
-  <lastBuildDate>Mon, 27 Jul 2026 16:44:49 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 02 Aug 2026 16:43:25 +0000</lastBuildDate>
 
+  <item>
+    <title>The Material Is Not Ready When the Material Exists</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.html</guid>
+    <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+    <description>A military explosive, a cancer-treatment isotope and a rare-earth magnet do not share a supply chain. They do share an industrial transition.</description>
+  </item>
   <item>
     <title>The Part Is Becoming a Governed Production Record</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-24-the-part-is-becoming-a-governed-production-record.html</link>
@@ -208,13 +215,6 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck.html</guid>
     <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     <description>The public case for water reuse usually begins with scarcity: drought, declining aquifers, imported-water dependence, or wastewater that could become a local supply. The visible engineering follows naturally—microfiltration, reverse osmosis, ultraviolet treatment, advanced oxidation, and higher recovery rates.</description>
-  </item>
-  <item>
-    <title>The Battery Factory Bottleneck Hiding in the Sewer Permit</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint.html</guid>
-    <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    <description>Battery manufacturing is usually discussed through cathode chemistry, lithium supply, dry rooms, grid power, skilled labor, subsidies and vehicle demand. Those are the constraints investors and policymakers can see in factory announcements and earnings calls.</description>
   </item>
 </channel>
 </rss>

@@ -7,8 +7,8 @@
     },
     {
       "path": "404.html",
-      "sha256": "2af4d5eade5c8f728e5c55902a63d00e55f87eb1ffc531f958818c44f78776fd",
-      "size": 98265
+      "sha256": "bd4b1c5939cde70069acbdd114ea29667725ce63e9ff36e848f9c274de3b45d6",
+      "size": 98485
     },
     {
       "path": "about.html",
@@ -271,6 +271,11 @@
       "size": 2484960
     },
     {
+      "path": "assets/heroes/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets-9c6884928d8102c5.png",
+      "sha256": "9c6884928d8102c57aa9b816e4eae5d74f35eb28e3c12c39297a344f8ad00044",
+      "size": 1680342
+    },
+    {
       "path": "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.png",
       "sha256": "2001fcb97a77310277126a6cbcae0ef82e7fe971ae8ecef2e702c8f53047ba2d",
       "size": 1269904
@@ -526,14 +531,19 @@
       "size": 1322080
     },
     {
+      "path": "assets/og/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.png",
+      "sha256": "cd56cba6a72b238b28f2d0d0d534801ca3d54c8cbf049611edd99229dc6d8512",
+      "size": 954092
+    },
+    {
       "path": "assets/site/industrial-port-photo.png",
       "sha256": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
       "size": 1936877
     },
     {
       "path": "blog-data.json",
-      "sha256": "82a909a866374efa2411c795756568fe938dfedd8a15f3f3f67ab36bb822e9d8",
-      "size": 36662
+      "sha256": "3a45b4ab111ce9a9590fdac44b2bb899129c58d6a0c2963871aac7258b71b1b3",
+      "size": 37195
     },
     {
       "path": "disclaimer.html",
@@ -547,28 +557,28 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "9e57317ac8a64a6b5e3d16d8f95b191d336f936d56ed8120fd0fa11efaa5fe3b",
-      "size": 25535
+      "sha256": "fba5d282394acb648a325b68394e3a8036c8f773c7376293e4792425c24373b8",
+      "size": 25344
     },
     {
       "path": "image-manifest.json",
-      "sha256": "77231e382209440a20cc4cf1bceac239e216f710eebb33433f3f961220eabd67",
-      "size": 223276
+      "sha256": "65de7880342cfbe88dbf2f8532b89694f2c7c95801109f63bb88e303bf6ca8f9",
+      "size": 227167
     },
     {
       "path": "index.html",
-      "sha256": "2af4d5eade5c8f728e5c55902a63d00e55f87eb1ffc531f958818c44f78776fd",
-      "size": 98265
+      "sha256": "bd4b1c5939cde70069acbdd114ea29667725ce63e9ff36e848f9c274de3b45d6",
+      "size": 98485
     },
     {
       "path": "ledger.html",
-      "sha256": "78dac32a999f1269bafd10d924f372f4f7af549bb432b1f5900ba44f3b427293",
-      "size": 73410
+      "sha256": "92ee018ea922553c6ba262bb9cbc3d687fe707f54b50a3e6a727db03ff178a73",
+      "size": 74956
     },
     {
       "path": "patterns.html",
-      "sha256": "d2874a87d6603dadbf2896724576d953cb41481a0f8b2ff833ad15f994453ceb",
-      "size": 35885
+      "sha256": "df63e02f81d3dcd5cff683990c86f29c81346e3b1f39828e5d68d69450a0c9ee",
+      "size": 36295
     },
     {
       "path": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
@@ -587,8 +597,8 @@
     },
     {
       "path": "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html",
-      "sha256": "a929df14a0bd4e3405c6adc08e5146c92ef57ae6483cffb1b05428727d74d1a3",
-      "size": 29280
+      "sha256": "e78e0c21e03eb45ff66c6bb4f71158a29dc19c12b926cfde872314470d2e2a06",
+      "size": 29261
     },
     {
       "path": "posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html",
@@ -602,13 +612,13 @@
     },
     {
       "path": "posts/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.html",
-      "sha256": "0bf4ef36cc99b8cad50882edcb3e8b7d1c8898c3acfddbd9a64c87be3e2a01b3",
-      "size": 42327
+      "sha256": "11790686f9d422be7bc98f0ee14bf55bacbe7197695d74c654f356d9aefdaa42",
+      "size": 42308
     },
     {
       "path": "posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html",
-      "sha256": "65341427ec20d44ae8f6f9135ca661e1ffb2da1034c806ab31a4b2a3ddd354e6",
-      "size": 57028
+      "sha256": "53add00ea57bbf4618a54f992884821fa44a520f686fd215f510b564f8ac4221",
+      "size": 57009
     },
     {
       "path": "posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html",
@@ -647,8 +657,8 @@
     },
     {
       "path": "posts/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck.html",
-      "sha256": "9701a30545cdff47f096ccccfb080a2e0b3c8e7e605569fd7ae865213c38fd54",
-      "size": 60458
+      "sha256": "3f1bf50ec9002cb037f252ac27a6869f450ce6c7b94760390d21574efeff5252",
+      "size": 60439
     },
     {
       "path": "posts/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck.html",
@@ -687,8 +697,8 @@
     },
     {
       "path": "posts/2026-07-03-fluorine-chemistry-s-hidden-control-point.html",
-      "sha256": "096a40be841f08662df080142ad7fd3390f6ad16dde035dfce0c6de9dd2e9ca5",
-      "size": 66113
+      "sha256": "8501fa708f804096519d89f6bb670431a5c2a9cb3f0c08ee246950225e868fd3",
+      "size": 66094
     },
     {
       "path": "posts/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.html",
@@ -702,8 +712,8 @@
     },
     {
       "path": "posts/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.html",
-      "sha256": "46619a8980afd4cedce2fca94dcac35139599d436632fc4fdd970c15f0cf3337",
-      "size": 49098
+      "sha256": "2d80782c6633e59096bc83eed97f6e60b75964558fdf0c7c9388118c16d18a51",
+      "size": 49077
     },
     {
       "path": "posts/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.html",
@@ -717,13 +727,13 @@
     },
     {
       "path": "posts/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.html",
-      "sha256": "b39be1dd59edbffee0b9768a22ee0e80179cf61d75be40aa3529455064a9b25b",
-      "size": 64730
+      "sha256": "2586c0ac09d95e9b7beea311565c46f375574563f94c17d31023c085c9f81950",
+      "size": 64711
     },
     {
       "path": "posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html",
-      "sha256": "de3e1a3205d82e240128b759b85676ecc8859f6582ca3a180b893e8bc7eccf0f",
-      "size": 49042
+      "sha256": "8b83e1fe7626d32fe0b80b0631886115f56079e77176813e20adc7a7bae983d4",
+      "size": 49021
     },
     {
       "path": "posts/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.html",
@@ -742,8 +752,8 @@
     },
     {
       "path": "posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html",
-      "sha256": "765486e4bc0216fb8687e33f15b41bbaa98e6c445538374c54a510c251ecf18d",
-      "size": 55061
+      "sha256": "12ec1e05dcc4ec982a1c46d5a748aacb8eab98322772ce49a8a9341764467335",
+      "size": 55040
     },
     {
       "path": "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html",
@@ -826,14 +836,19 @@
       "size": 57229
     },
     {
+      "path": "posts/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.html",
+      "sha256": "845b66bff5c3db7d3c647b624c58503fd9f5e0e439eac32ec362f4cd2ce6ce69",
+      "size": 24111
+    },
+    {
       "path": "privacy.html",
       "sha256": "b1234284a5d00575527f5190f9e191b50d11e4b7c5aa738421c941db99beff2b",
       "size": 3072
     },
     {
       "path": "publication-data.json",
-      "sha256": "6106efa9155908e1f958da42d250ec700030de7735f8f8e2a2d6b54ef3903e9f",
-      "size": 671409
+      "sha256": "9b3cee68686ea82392830230a2ad3e3fee00d4d2b7d507f2912e2e0df61dc927",
+      "size": 691977
     },
     {
       "path": "rgraph.js",
@@ -847,8 +862,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "8ce1ae08fe006375101ec131795521863caed4c647c68cb63d19333f9beeceb0",
-      "size": 9476
+      "sha256": "12b0d4872258e3d0d3043c72240ddb32a512e6696a0194820d376696e0adbdc5",
+      "size": 9639
     },
     {
       "path": "styles.css",
