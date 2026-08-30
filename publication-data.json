@@ -1,21 +1,21 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 52,
-    "data_series": 215,
+    "articles": 57,
+    "data_series": 245,
     "calendar_year_card_candidates_excluded": 5,
     "watch": {
-      "tracked_articles": 51,
-      "signals": 275,
+      "tracked_articles": 56,
+      "signals": 301,
       "resolved": 0,
       "states": {
-        "open": 275,
+        "open": 301,
         "confirmed": 0,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 275
+        "explicit_bullet": 301
       },
       "unstructured_watch_sections": 1,
       "unpublished_prose_candidates": 5
@@ -32,18 +32,18 @@
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 38,
-        "commercialization": 8,
-        "disruption": 2,
-        "ecosystem-expansion": 4
+        "constraint": 40,
+        "commercialization": 9,
+        "disruption": 3,
+        "ecosystem-expansion": 5
       },
       "sectors": {
-        "energy": 5,
+        "energy": 6,
         "nuclear": 11,
         "ai-infra": 2,
         "defense": 3,
         "healthcare": 13,
-        "water": 6,
+        "water": 7,
         "aviation": 1,
         "telecom": 1,
         "critical-materials": 1,
@@ -51,10 +51,10 @@
         "quantum": 1,
         "neurotechnology": 1,
         "industrial-software": 2,
-        "logistics": 1,
+        "logistics": 3,
         "robotics": 0,
         "space": 0,
-        "finance": 2,
+        "finance": 3,
         "cross-sector": 1,
         "other": 0
       },
@@ -62,15 +62,15 @@
         "permits": 1,
         "qualified-materials": 10,
         "queue-slot": 5,
-        "validation-evidence": 24,
+        "validation-evidence": 25,
         "repair-capacity": 2,
-        "residual-handling": 3,
+        "residual-handling": 4,
         "procurement-risk-transfer": 0,
         "finance-bankability": 0,
-        "software-workflow": 4,
+        "software-workflow": 5,
         "logistics-infrastructure": 1,
         "manufacturing-tooling": 0,
-        "standards-interoperability": 1,
+        "standards-interoperability": 3,
         "workforce-capacity": 0,
         "demand-formation": 1,
         "other": 0
@@ -78,6 +78,2192 @@
     }
   },
   "articles": [
+    {
+      "slug": "2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse",
+      "slug_source": "frontmatter",
+      "title": "The Hidden Infrastructure Behind Inland Water Reuse",
+      "url": "posts/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse.html",
+      "date": "2026-08-30",
+      "updated": "2026-08-30",
+      "category": "Report",
+      "sector": {
+        "key": "water",
+        "label": "Water & environment"
+      },
+      "system_pattern": {
+        "key": "residual-handling",
+        "label": "Residual & waste handling"
+      },
+      "archetype": {
+        "key": "residual-handling",
+        "label": "Residual & waste handling"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "The visible story in drought-resilient water infrastructure is the purification plant: reverse osmosis, ultraviolet treatment, pumps, wells and new potable-water capacity. Inland projects have another system behind that system. Reverse osmosis does not eliminate salts, PFAS or other rejected constituents. It puts them into a smaller, more concentrated stream that still needs somewhere to go.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse-88120e0da9d6bdf1.png",
+        "alt": "Behind the mesh - geograph.org.uk - 4190132"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [
+        {
+          "metric": "North Gateway Phase I capital build-up — USD million",
+          "points": [
+            {
+              "label": "Wastewater collection",
+              "value": 140.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "Wastewater treatment",
+              "value": 297.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "Advanced water treatment",
+              "value": 164.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "Concentrate management",
+              "value": 360.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "Treated-water conveyance",
+              "value": 109.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "Total Phase I",
+              "value": 1070.0,
+              "unit": "USD million"
+            }
+          ],
+          "headline": {
+            "value": 1070.0,
+            "value_text": "1,070",
+            "unit": "USD million",
+            "metric": "North Gateway Phase I capital build-up — USD million",
+            "point_label": "Total Phase I",
+            "display_label": "Total Phase I - North Gateway Phase I capital build-up — USD million",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Wastewater collection :: 140 :: USD million; Wastewater treatment :: 297 :: USD million; Advanced water treatment :: 164 :: USD million; Concentrate management :: 360 :: USD million; Treated-water conveyance :: 109 :: USD million; Total Phase I :: 1070 :: USD million",
+            "source_urls": [
+              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20and%20Wastewater%20Unit%20Cost%20Study_08142024_v2.pdf](https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20and%20Wastewater%20Unit%20Cost%20Study_08142024_v2.pdf?utm_source=chatgpt.com"
+            ]
+          }
+        },
+        {
+          "metric": "North Gateway buildout unit-capital components — USD per gallon/day",
+          "points": [
+            {
+              "label": "Advanced treatment",
+              "value": 16.0,
+              "unit": "USD/gpd"
+            },
+            {
+              "label": "Concentrate management",
+              "value": 29.0,
+              "unit": "USD/gpd"
+            },
+            {
+              "label": "Treated-water conveyance",
+              "value": 8.94,
+              "unit": "USD/gpd"
+            }
+          ],
+          "headline": {
+            "value": 29.0,
+            "value_text": "29",
+            "unit": "USD/gpd",
+            "metric": "North Gateway buildout unit-capital components — USD per gallon/day",
+            "point_label": "Concentrate management",
+            "display_label": "Concentrate management - North Gateway buildout unit-capital components — USD per gallon/day",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Advanced treatment :: 16 :: USD/gpd; Concentrate management :: 29 :: USD/gpd; Treated-water conveyance :: 8.94 :: USD/gpd",
+            "source_urls": [
+              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20Treatment%20IIP%20Approved%2012-18-2024.pdf](https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20Treatment%20IIP%20Approved%2012-18-2024.pdf?utm_source=chatgpt.com"
+            ]
+          }
+        },
+        {
+          "metric": "Selected FY2023 Class I injection-well counts — wells",
+          "points": [
+            {
+              "label": "Florida",
+              "value": 302.0,
+              "unit": "wells"
+            },
+            {
+              "label": "Texas",
+              "value": 160.0,
+              "unit": "wells"
+            },
+            {
+              "label": "Wyoming",
+              "value": 85.0,
+              "unit": "wells"
+            },
+            {
+              "label": "Kansas",
+              "value": 65.0,
+              "unit": "wells"
+            },
+            {
+              "label": "Michigan",
+              "value": 53.0,
+              "unit": "wells"
+            },
+            {
+              "label": "California",
+              "value": 47.0,
+              "unit": "wells"
+            },
+            {
+              "label": "Louisiana",
+              "value": 36.0,
+              "unit": "wells"
+            }
+          ],
+          "headline": {
+            "value": 302.0,
+            "value_text": "302",
+            "unit": "wells",
+            "metric": "Selected FY2023 Class I injection-well counts — wells",
+            "point_label": "Florida",
+            "display_label": "Florida - Selected FY2023 Class I injection-well counts — wells",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Florida :: 302 :: wells; Texas :: 160 :: wells; Wyoming :: 85 :: wells; Kansas :: 65 :: wells; Michigan :: 53 :: wells; California :: 47 :: wells; Louisiana :: 36 :: wells",
+            "source_urls": [
+              "https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf](https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf?utm_source=chatgpt.com"
+            ]
+          }
+        },
+        {
+          "metric": "EPA example spent-GAC management totals — USD/lb",
+          "points": [
+            {
+              "label": "Off-site reactivation",
+              "value": 1.63,
+              "unit": "USD/lb"
+            },
+            {
+              "label": "Landfill",
+              "value": 2.21,
+              "unit": "USD/lb"
+            },
+            {
+              "label": "Incineration",
+              "value": 3.35,
+              "unit": "USD/lb"
+            }
+          ],
+          "headline": {
+            "value": 3.35,
+            "value_text": "3.35",
+            "unit": "USD/lb",
+            "metric": "EPA example spent-GAC management totals — USD/lb",
+            "point_label": "Incineration",
+            "display_label": "Incineration - EPA example spent-GAC management totals — USD/lb",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Off-site reactivation :: 1.63 :: USD/lb; Landfill :: 2.21 :: USD/lb; Incineration :: 3.35 :: USD/lb",
+            "source_urls": [
+              "https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf](https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf?utm_source=chatgpt.com"
+            ]
+          }
+        },
+        {
+          "metric": "Named concentrate streams / handling scale — MGD",
+          "points": [
+            {
+              "label": "Goodyear Bullard",
+              "value": 0.5,
+              "unit": "MGD"
+            },
+            {
+              "label": "KBH average",
+              "value": 1.25,
+              "unit": "MGD"
+            },
+            {
+              "label": "Palm Coast ZLD capability",
+              "value": 1.2,
+              "unit": "MGD"
+            }
+          ],
+          "headline": {
+            "value": 1.25,
+            "value_text": "1.25",
+            "unit": "MGD",
+            "metric": "Named concentrate streams / handling scale — MGD",
+            "point_label": "KBH average",
+            "display_label": "KBH average - Named concentrate streams / handling scale — MGD",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Goodyear Bullard :: 0.5 :: MGD; KBH average :: 1.25 :: MGD; Palm Coast ZLD capability :: 1.2 :: MGD",
+            "source_urls": [
+              "https://www.fws.gov/project/goodyear-pilot-wetlands](https://www.fws.gov/project/goodyear-pilot-wetlands?utm_source=chatgpt.com",
+              "https://www3.twdb.texas.gov/apps/waterdatainteractive/GetReports.aspx?Num=109&Type=Desal](https://www3.twdb.texas.gov/apps/waterdatainteractive/GetReports.aspx?Num=109&Type=Desal&utm_source=chatgpt.com",
+              "https://agendas.palmcoastgov.com/meetings/2018/1/261_A_planning-and-land-development-regulation-board_2018-01-17_Agenda.pdf](https://agendas.palmcoastgov.com/meetings/2018/1/261_A_planning-and-land-development-regulation-board_2018-01-17_Agenda.pdf?utm_source=chatgpt.com"
+            ]
+          }
+        },
+        {
+          "metric": "Recovery examples across named systems — percent",
+          "points": [
+            {
+              "label": "KBH current database",
+              "value": 82.5,
+              "unit": "%"
+            },
+            {
+              "label": "H2Oaks operating description",
+              "value": 90.0,
+              "unit": "%"
+            },
+            {
+              "label": "KBH DesaliTec pilot",
+              "value": 94.0,
+              "unit": "%"
+            },
+            {
+              "label": "Palm Coast ZLD reported",
+              "value": 99.3,
+              "unit": "%"
+            }
+          ],
+          "headline": {
+            "value": 99.3,
+            "value_text": "99.3",
+            "unit": "%",
+            "metric": "Recovery examples across named systems — percent",
+            "point_label": "Palm Coast ZLD reported",
+            "display_label": "Palm Coast ZLD reported - Recovery examples across named systems — percent",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "KBH current database :: 82.5 :: percent; H2Oaks operating description :: 90 :: percent; KBH DesaliTec pilot :: 94 :: percent; Palm Coast ZLD reported :: 99.3 :: percent",
+            "source_urls": [
+              "https://www3.twdb.texas.gov/apps/waterdatainteractive/GetReports.aspx?Num=109&Type=Desal](https://www3.twdb.texas.gov/apps/waterdatainteractive/GetReports.aspx?Num=109&Type=Desal&utm_source=chatgpt.com",
+              "https://www.saws.org/your-water/management-sources/brackish-groundwater-desalination/](https://www.saws.org/your-water/management-sources/brackish-groundwater-desalination/?utm_source=chatgpt.com",
+              "https://www.dupont.com/knowledge/desalitec-purifies-groundwater-el-paso.html](https://www.dupont.com/knowledge/desalitec-purifies-groundwater-el-paso.html?utm_source=chatgpt.com",
+              "https://www.mckimcreed.com/news-and-insights/water-reuse-project-of-year-awarded-by-fwea/](https://www.mckimcreed.com/news-and-insights/water-reuse-project-of-year-awarded-by-fwea/?utm_source=chatgpt.com"
+            ]
+          }
+        },
+        {
+          "metric": "Disclosed 374Water municipal deployment values — USD million",
+          "points": [
+            {
+              "label": "St. Cloud",
+              "value": 0.6,
+              "unit": "USD million"
+            },
+            {
+              "label": "Orlando demonstration",
+              "value": 0.812,
+              "unit": "USD million"
+            },
+            {
+              "label": "Olathe",
+              "value": 4.8,
+              "unit": "USD million"
+            }
+          ],
+          "headline": {
+            "value": 4.8,
+            "value_text": "4.8",
+            "unit": "USD million",
+            "metric": "Disclosed 374Water municipal deployment values — USD million",
+            "point_label": "Olathe",
+            "display_label": "Olathe - Disclosed 374Water municipal deployment values — USD million",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "St. Cloud :: 0.6 :: USD million; Orlando demonstration :: 0.812 :: USD million; Olathe :: 4.8 :: USD million",
+            "source_urls": [
+              "https://www.sec.gov/Archives/edgar/data/933972/000165495426007728/scwo_ex991.htm](https://www.sec.gov/Archives/edgar/data/933972/000165495426007728/scwo_ex991.htm?utm_source=chatgpt.com",
+              "https://orlando.novusagenda.com/agendapublic/AttachmentViewer.ashx?AttachmentID=127941&ItemID=64605](https://orlando.novusagenda.com/agendapublic/AttachmentViewer.ashx?AttachmentID=127941&ItemID=64605&utm_source=chatgpt.com"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 1070.0,
+          "value_text": "1,070",
+          "unit": "USD million",
+          "metric": "North Gateway Phase I capital build-up — USD million",
+          "point_label": "Total Phase I",
+          "display_label": "Total Phase I - North Gateway Phase I capital build-up — USD million",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Wastewater collection :: 140 :: USD million; Wastewater treatment :: 297 :: USD million; Advanced water treatment :: 164 :: USD million; Concentrate management :: 360 :: USD million; Treated-water conveyance :: 109 :: USD million; Total Phase I :: 1070 :: USD million",
+            "source_urls": [
+              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20and%20Wastewater%20Unit%20Cost%20Study_08142024_v2.pdf](https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20and%20Wastewater%20Unit%20Cost%20Study_08142024_v2.pdf?utm_source=chatgpt.com"
+            ]
+          }
+        },
+        {
+          "value": 29.0,
+          "value_text": "29",
+          "unit": "USD/gpd",
+          "metric": "North Gateway buildout unit-capital components — USD per gallon/day",
+          "point_label": "Concentrate management",
+          "display_label": "Concentrate management - North Gateway buildout unit-capital components — USD per gallon/day",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Advanced treatment :: 16 :: USD/gpd; Concentrate management :: 29 :: USD/gpd; Treated-water conveyance :: 8.94 :: USD/gpd",
+            "source_urls": [
+              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20Treatment%20IIP%20Approved%2012-18-2024.pdf](https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20Treatment%20IIP%20Approved%2012-18-2024.pdf?utm_source=chatgpt.com"
+            ]
+          }
+        },
+        {
+          "value": 302.0,
+          "value_text": "302",
+          "unit": "wells",
+          "metric": "Selected FY2023 Class I injection-well counts — wells",
+          "point_label": "Florida",
+          "display_label": "Florida - Selected FY2023 Class I injection-well counts — wells",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Florida :: 302 :: wells; Texas :: 160 :: wells; Wyoming :: 85 :: wells; Kansas :: 65 :: wells; Michigan :: 53 :: wells; California :: 47 :: wells; Louisiana :: 36 :: wells",
+            "source_urls": [
+              "https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf](https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf?utm_source=chatgpt.com"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse:watch:4f66f0ef01c8",
+          "text": "North Gateway final design retains concentrate management at 20% or more of relevant AWP capital.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "North Gateway final design retains concentrate management at 20% or more of relevant AWP capital.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse:watch:7d590a13e983",
+          "text": "WRF Project 5323 publishes full PFAS-removal, media-use and treatment-cost results in 2027.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "WRF Project 5323 publishes full PFAS-removal, media-use and treatment-cost results in 2027.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse:watch:1c22898e1b9e",
+          "text": "Cave Creek completes commissioning and its required demonstration without redesigning the 91st Avenue residual route.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Cave Creek completes commissioning and its required demonstration without redesigning the 91st Avenue residual route.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse:watch:2f0d0679da03",
+          "text": "KBH’s 33.5-MGD expansion commissions with the planned concentrate-pipeline modifications by the 2030 horizon.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "KBH’s 33.5-MGD expansion commissions with the planned concentrate-pipeline modifications by the 2030 horizon.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse:watch:868696946447",
+          "text": "Three municipal systems sustain at least 95% recovery for 12 months with complete solids and O&M records.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Three municipal systems sustain at least 95% recovery for 12 months with complete solids and O&M records.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction",
+      "slug_source": "frontmatter",
+      "title": "When a weather forecast becomes a payment instruction",
+      "url": "posts/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction.html",
+      "date": "2026-08-29",
+      "updated": "2026-08-29",
+      "category": "Report",
+      "sector": {
+        "key": "finance",
+        "label": "Industrial finance & insurance"
+      },
+      "system_pattern": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "archetype": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "analysis_lens": {
+        "key": "commercialization",
+        "label": "Commercialization"
+      },
+      "excerpt": "Climate-risk systems are usually described as a forecasting story. Satellite rainfall estimates improve, seasonal models gain skill, river gauges feed better hydrology, and cyclone tracks provide more warning. For anticipatory food-security finance, however, the decisive commercialization step comes after the forecast has been produced.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction-272b1b31a54a690d.png",
+        "alt": "Flickr - law keven - When the weather gets you down..."
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [
+        {
+          "metric": "WFP anticipatory-action coverage, million people",
+          "points": [
+            {
+              "label": "2022",
+              "value": 3.2,
+              "unit": "million people"
+            },
+            {
+              "label": "2023",
+              "value": 4.1,
+              "unit": "million people"
+            },
+            {
+              "label": "2024",
+              "value": 6.2,
+              "unit": "million people"
+            },
+            {
+              "label": "2025",
+              "value": 6.3,
+              "unit": "million people"
+            }
+          ],
+          "headline": {
+            "value": 6.3,
+            "value_text": "6.3",
+            "unit": "million people",
+            "metric": "WFP anticipatory-action coverage",
+            "point_label": "2025",
+            "display_label": "2025 - WFP anticipatory-action coverage",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2022 :: 3.2 :: million people; 2023 :: 4.1 :: million people; 2024 :: 6.2 :: million people; 2025 :: 6.3 :: million people",
+            "source_urls": [
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+            ]
+          }
+        },
+        {
+          "metric": "WFP anticipatory-action portfolio, USD million",
+          "points": [
+            {
+              "label": "2023",
+              "value": 70.75,
+              "unit": "USD million"
+            },
+            {
+              "label": "2024",
+              "value": 100.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "2025",
+              "value": 124.0,
+              "unit": "USD million"
+            }
+          ],
+          "headline": {
+            "value": 124.0,
+            "value_text": "124",
+            "unit": "USD million",
+            "metric": "WFP anticipatory-action portfolio",
+            "point_label": "2025",
+            "display_label": "2025 - WFP anticipatory-action portfolio",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2023 :: 70.75 :: USD million; 2024 :: 100 :: USD million; 2025 :: 124 :: USD million",
+            "source_urls": [
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+            ]
+          }
+        },
+        {
+          "metric": "WFP stated pre-arranged finance, USD million",
+          "points": [
+            {
+              "label": "2023",
+              "value": 61.5,
+              "unit": "USD million"
+            },
+            {
+              "label": "2024",
+              "value": 72.6,
+              "unit": "USD million"
+            },
+            {
+              "label": "2025",
+              "value": 89.0,
+              "unit": "USD million"
+            }
+          ],
+          "headline": {
+            "value": 89.0,
+            "value_text": "89",
+            "unit": "USD million",
+            "metric": "WFP stated pre-arranged finance",
+            "point_label": "2025",
+            "display_label": "2025 - WFP stated pre-arranged finance",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2023 :: 61.5 :: USD million; 2024 :: 72.6 :: USD million; 2025 :: 89 :: USD million",
+            "source_urls": [
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+            ]
+          }
+        },
+        {
+          "metric": "Bangladesh named anticipatory-cash activations, people",
+          "points": [
+            {
+              "label": "Cyclone Remal 2024",
+              "value": 150000.0,
+              "unit": "people"
+            },
+            {
+              "label": "Jamuna flood 2024",
+              "value": 478140.0,
+              "unit": "people"
+            },
+            {
+              "label": "Bandarban flood 2026",
+              "value": 75000.0,
+              "unit": "people"
+            }
+          ],
+          "headline": {
+            "value": 478140.0,
+            "value_text": "478,140",
+            "unit": "people",
+            "metric": "Bangladesh named anticipatory-cash activations",
+            "point_label": "Jamuna flood 2024",
+            "display_label": "Jamuna flood 2024 - Bangladesh named anticipatory-cash activations",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Cyclone Remal 2024 :: 150000 :: people; Jamuna flood 2024 :: 478140 :: people; Bandarban flood 2026 :: 75000 :: people",
+            "source_urls": [
+              "https://docs.wfp.org/api/documents/WFP-0000166065/download/](https://docs.wfp.org/api/documents/WFP-0000166065/download/",
+              "https://www.wfp.org/news/wfp-activates-early-action-ahead-bangladesh-flood-peak](https://www.wfp.org/news/wfp-activates-early-action-ahead-bangladesh-flood-peak"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 6.3,
+          "value_text": "6.3",
+          "unit": "million people",
+          "metric": "WFP anticipatory-action coverage",
+          "point_label": "2025",
+          "display_label": "2025 - WFP anticipatory-action coverage",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2022 :: 3.2 :: million people; 2023 :: 4.1 :: million people; 2024 :: 6.2 :: million people; 2025 :: 6.3 :: million people",
+            "source_urls": [
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+            ]
+          }
+        },
+        {
+          "value": 124.0,
+          "value_text": "124",
+          "unit": "USD million",
+          "metric": "WFP anticipatory-action portfolio",
+          "point_label": "2025",
+          "display_label": "2025 - WFP anticipatory-action portfolio",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2023 :: 70.75 :: USD million; 2024 :: 100 :: USD million; 2025 :: 124 :: USD million",
+            "source_urls": [
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+            ]
+          }
+        },
+        {
+          "value": 89.0,
+          "value_text": "89",
+          "unit": "USD million",
+          "metric": "WFP stated pre-arranged finance",
+          "point_label": "2025",
+          "display_label": "2025 - WFP stated pre-arranged finance",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2023 :: 61.5 :: USD million; 2024 :: 72.6 :: USD million; 2025 :: 89 :: USD million",
+            "source_urls": [
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction:watch:146f9f5b6ee7",
+          "text": "By March 31, 2027, a priority El Niño country documents trigger, finance release and delivered action together.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By March 31, 2027, a priority El Niño country documents trigger, finance release and delivered action together.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction:watch:9fb862f5f933",
+          "text": "During 2027, FAO, WFP or a government awards a repeat trigger-validation or data-service contract.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "During 2027, FAO, WFP or a government awards a repeat trigger-validation or data-service contract.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction:watch:4adf873571fd",
+          "text": "In the next major Bangladesh hazard, an existing government registry executes another anticipatory social-protection top-up.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "In the next major Bangladesh hazard, an existing government registry executes another anticipatory social-protection top-up.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction:watch:41dfa7a5c6fc",
+          "text": "By end-2028, at least three programmes publish comparable false-alarm, miss or basis-risk performance metrics.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By end-2028, at least three programmes publish comparable false-alarm, miss or basis-risk performance metrics.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction:watch:9413541a675a",
+          "text": "Through 2029, WFP-reported pre-arranged anticipatory finance remains above its US$61.5 million 2023 level.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Through 2029, WFP-reported pre-arranged anticipatory finance remains above its US$61.5 million 2023 level.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem",
+      "slug_source": "frontmatter",
+      "title": "The transformer shortage is also an interoperability problem",
+      "url": "posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html",
+      "date": "2026-08-29",
+      "updated": "2026-08-29",
+      "category": "Report",
+      "sector": {
+        "key": "energy",
+        "label": "Energy & grid"
+      },
+      "system_pattern": {
+        "key": "standards-interoperability",
+        "label": "Standards & interoperability"
+      },
+      "archetype": {
+        "key": "standards-interoperability",
+        "label": "Standards & interoperability"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "The visible transformer problem is a factory queue. DOE’s 2024 review cited commonly quoted lead times of 36 months for large power transformers, with maximum quotations reaching 60 months. That alone is enough to make transformer supply a resilience issue after a major grid failure.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem-e94f0cec5adeb2de.png",
+        "alt": "Alter Friedhof Gießen, Umspannhaus"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [
+        {
+          "metric": "DOE FITT selected project funding (USD million)",
+          "points": [
+            {
+              "label": "Clemson SHAPE",
+              "value": 2.47,
+              "unit": "USD million"
+            },
+            {
+              "label": "Eaton hybrid",
+              "value": 2.94,
+              "unit": "USD million"
+            },
+            {
+              "label": "EPRI PowerHub",
+              "value": 2.88,
+              "unit": "USD million"
+            },
+            {
+              "label": "ERMCO DTE",
+              "value": 1.84,
+              "unit": "USD million"
+            },
+            {
+              "label": "GE FASST",
+              "value": 1.99,
+              "unit": "USD million"
+            },
+            {
+              "label": "GE universal spare",
+              "value": 2.99,
+              "unit": "USD million"
+            },
+            {
+              "label": "Resilient Power SolidFlex",
+              "value": 1.47,
+              "unit": "USD million"
+            },
+            {
+              "label": "Transforma DIRECT",
+              "value": 1.45,
+              "unit": "USD million"
+            }
+          ],
+          "headline": {
+            "value": 2.99,
+            "value_text": "2.99",
+            "unit": "USD million",
+            "metric": "DOE FITT selected project funding (USD million)",
+            "point_label": "GE universal spare",
+            "display_label": "GE universal spare - DOE FITT selected project funding (USD million)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Clemson SHAPE :: 2.47 :: USD million; Eaton hybrid :: 2.94 :: USD million; EPRI PowerHub :: 2.88 :: USD million; ERMCO DTE :: 1.84 :: USD million; GE FASST :: 1.99 :: USD million; GE universal spare :: 2.99 :: USD million; Resilient Power SolidFlex :: 1.47 :: USD million; Transforma DIRECT :: 1.45 :: USD million; Pittsburgh flexible distribution :: 2.50 :: USD million",
+            "source_urls": [
+              "https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer](https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer",
+              "https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf](https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf"
+            ]
+          }
+        },
+        {
+          "metric": "Selected U.S. transformer factory investments (USD million)",
+          "points": [
+            {
+              "label": "Hitachi South Boston",
+              "value": 457.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "Eaton Jonesville",
+              "value": 340.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "Prolec Goldsboro",
+              "value": 140.0,
+              "unit": "USD million"
+            }
+          ],
+          "headline": {
+            "value": 457.0,
+            "value_text": "457",
+            "unit": "USD million",
+            "metric": "Selected U.S. transformer factory investments (USD million)",
+            "point_label": "Hitachi South Boston",
+            "display_label": "Hitachi South Boston - Selected U.S. transformer factory investments (USD million)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Hitachi South Boston :: 457 :: USD million; Eaton Jonesville :: 340 :: USD million; Prolec Goldsboro :: 140 :: USD million",
+            "source_urls": [
+              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia](https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
+              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html](https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
+              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/](https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
+            ]
+          }
+        },
+        {
+          "metric": "Announced jobs at selected transformer factory expansions (jobs)",
+          "points": [
+            {
+              "label": "Hitachi South Boston",
+              "value": 825.0,
+              "unit": "jobs"
+            },
+            {
+              "label": "Eaton Jonesville",
+              "value": 700.0,
+              "unit": "jobs"
+            },
+            {
+              "label": "Prolec Goldsboro",
+              "value": 330.0,
+              "unit": "jobs"
+            }
+          ],
+          "headline": {
+            "value": 825.0,
+            "value_text": "825",
+            "unit": "jobs",
+            "metric": "Announced jobs at selected transformer factory expansions (jobs)",
+            "point_label": "Hitachi South Boston",
+            "display_label": "Hitachi South Boston - Announced jobs at selected transformer factory expansions (jobs)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Hitachi South Boston :: 825 :: jobs; Eaton Jonesville :: 700 :: jobs; Prolec Goldsboro :: 330 :: jobs",
+            "source_urls": [
+              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia](https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
+              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html](https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
+              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/](https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
+            ]
+          }
+        },
+        {
+          "metric": "Prolec Goldsboro annual transformer capacity bridge (units/year)",
+          "points": [
+            {
+              "label": "Existing capacity",
+              "value": 220.0,
+              "unit": "units/year"
+            },
+            {
+              "label": "Added capacity",
+              "value": 200.0,
+              "unit": "units/year"
+            },
+            {
+              "label": "Total expected",
+              "value": 420.0,
+              "unit": "units/year"
+            }
+          ],
+          "headline": {
+            "value": 420.0,
+            "value_text": "420",
+            "unit": "units/year",
+            "metric": "Prolec Goldsboro annual transformer capacity bridge (units/year)",
+            "point_label": "Total expected",
+            "display_label": "Total expected - Prolec Goldsboro annual transformer capacity bridge (units/year)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Existing capacity :: 220 :: units/year; Added capacity :: 200 :: units/year; Total expected :: 420 :: units/year",
+            "source_urls": [
+              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/](https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
+            ]
+          }
+        },
+        {
+          "metric": "Demonstrated or actual rapid transformer deployment time (days)",
+          "points": [
+            {
+              "label": "RecX",
+              "value": 4.42,
+              "unit": "days"
+            },
+            {
+              "label": "WattStock FLEX",
+              "value": 7.0,
+              "unit": "days"
+            },
+            {
+              "label": "Westar rapid recovery",
+              "value": 9.0,
+              "unit": "days"
+            }
+          ],
+          "headline": {
+            "value": 9.0,
+            "value_text": "9",
+            "unit": "days",
+            "metric": "Demonstrated or actual rapid transformer deployment time (days)",
+            "point_label": "Westar rapid recovery",
+            "display_label": "Westar rapid recovery - Demonstrated or actual rapid transformer deployment time (days)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "RecX :: 4.42 :: days; WattStock FLEX :: 7 :: days; Westar rapid recovery :: 9 :: days",
+            "source_urls": [
+              "https://www.dhs.gov/sites/default/files/publications/RecX%20-%20Emergency%20Spare%20Transformer%20Strategy-508.pdf](https://www.dhs.gov/sites/default/files/publications/RecX%20-%20Emergency%20Spare%20Transformer%20Strategy-508.pdf",
+              "https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf",
+              "https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability](https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability"
+            ]
+          }
+        },
+        {
+          "metric": "Program-specific transformer coverage metrics (%)",
+          "points": [
+            {
+              "label": "Westar system coverage",
+              "value": 80.0,
+              "unit": "%"
+            },
+            {
+              "label": "WattStock substation-LPT estimate",
+              "value": 60.0,
+              "unit": "%"
+            },
+            {
+              "label": "WattStock GSU estimate",
+              "value": 80.0,
+              "unit": "%"
+            },
+            {
+              "label": "Grid Assurance modeled service level",
+              "value": 98.0,
+              "unit": "%"
+            }
+          ],
+          "headline": {
+            "value": 98.0,
+            "value_text": "98",
+            "unit": "%",
+            "metric": "Program-specific transformer coverage metrics (%)",
+            "point_label": "Grid Assurance modeled service level",
+            "display_label": "Grid Assurance modeled service level - Program-specific transformer coverage metrics (%)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Westar system coverage :: 80 :: percent; WattStock substation-LPT estimate :: 60 :: percent; WattStock GSU estimate :: 80 :: percent; Grid Assurance modeled service level :: 98 :: percent",
+            "source_urls": [
+              "https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability](https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability",
+              "https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf",
+              "https://gridassurance.com/grid-resilience-solution/](https://gridassurance.com/grid-resilience-solution/"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 2.99,
+          "value_text": "2.99",
+          "unit": "USD million",
+          "metric": "DOE FITT selected project funding (USD million)",
+          "point_label": "GE universal spare",
+          "display_label": "GE universal spare - DOE FITT selected project funding (USD million)",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Clemson SHAPE :: 2.47 :: USD million; Eaton hybrid :: 2.94 :: USD million; EPRI PowerHub :: 2.88 :: USD million; ERMCO DTE :: 1.84 :: USD million; GE FASST :: 1.99 :: USD million; GE universal spare :: 2.99 :: USD million; Resilient Power SolidFlex :: 1.47 :: USD million; Transforma DIRECT :: 1.45 :: USD million; Pittsburgh flexible distribution :: 2.50 :: USD million",
+            "source_urls": [
+              "https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer](https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer",
+              "https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf](https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf"
+            ]
+          }
+        },
+        {
+          "value": 457.0,
+          "value_text": "457",
+          "unit": "USD million",
+          "metric": "Selected U.S. transformer factory investments (USD million)",
+          "point_label": "Hitachi South Boston",
+          "display_label": "Hitachi South Boston - Selected U.S. transformer factory investments (USD million)",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Hitachi South Boston :: 457 :: USD million; Eaton Jonesville :: 340 :: USD million; Prolec Goldsboro :: 140 :: USD million",
+            "source_urls": [
+              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia](https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
+              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html](https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
+              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/](https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
+            ]
+          }
+        },
+        {
+          "value": 825.0,
+          "value_text": "825",
+          "unit": "jobs",
+          "metric": "Announced jobs at selected transformer factory expansions (jobs)",
+          "point_label": "Hitachi South Boston",
+          "display_label": "Hitachi South Boston - Announced jobs at selected transformer factory expansions (jobs)",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Hitachi South Boston :: 825 :: jobs; Eaton Jonesville :: 700 :: jobs; Prolec Goldsboro :: 330 :: jobs",
+            "source_urls": [
+              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia](https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
+              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html](https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
+              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/](https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:9b5af5c1d89b",
+          "text": "GE Vernova’s FITT universal spare reaches a named U.S. utility factory-acceptance test or field energization by 2028.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "GE Vernova’s FITT universal spare reaches a named U.S. utility factory-acceptance test or field energization by 2028.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:1f72e96f7592",
+          "text": "A Grid Assurance qualifying event publishes elapsed time from transformer dispatch through delivery or energization by 2029.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A Grid Assurance qualifying event publishes elapsed time from transformer dispatch through delivery or energization by 2029.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:11c819ae2986",
+          "text": "National Grid or another major utility reports procurement-cycle improvement tied to a quantified transformer-SKU reduction.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "National Grid or another major utility reports procurement-cycle improvement tied to a quantified transformer-SKU reduction.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:5946916d0ce5",
+          "text": "Hitachi, Eaton, or Prolec factory ramps coincide with a sustained decline in reported transformer lead times during 2027–2030.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Hitachi, Eaton, or Prolec factory ramps coincide with a sustained decline in reported transformer lead times during 2027–2030.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:271089d73d7d",
+          "text": "A second or third unrelated utility places a repeat order for an adaptable permanent transformer by 2030.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A second or third unrelated utility places a repeat order for an adaptable permanent transformer by 2030.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:a80e2cb4fa73",
+          "text": "A multi-utility post-event record shows compatibility or transport, rather than manufacturing, pacing transformer restoration.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A multi-utility post-event record shows compatibility or transport, rather than manufacturing, pacing transformer restoration.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system",
+      "slug_source": "frontmatter",
+      "title": "The Database Behind the Debris Truck Is Becoming the Control System",
+      "url": "posts/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system.html",
+      "date": "2026-08-29",
+      "updated": "2026-08-29",
+      "category": "Report",
+      "sector": {
+        "key": "logistics",
+        "label": "Logistics & automation"
+      },
+      "system_pattern": {
+        "key": "software-workflow",
+        "label": "Software, data & workflow"
+      },
+      "archetype": {
+        "key": "software-workflow",
+        "label": "Software, data & workflow"
+      },
+      "analysis_lens": {
+        "key": "disruption",
+        "label": "Disruption"
+      },
+      "excerpt": "Disaster debris still looks like a physical logistics business. Trucks move material, excavators clear parcels, temporary sites receive loads, and local governments hire monitors to verify that eligible debris went where contractors say it went.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system-7f71d174a8fa520a.png",
+        "alt": "FEMA - 38903 - Trucks hauling hurricane debris in Texas"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [
+        {
+          "metric": "Los Angeles wildfire property workflow counts, April 24 2025",
+          "points": [
+            {
+              "label": "ROE applications",
+              "value": 9262.0,
+              "unit": "count"
+            },
+            {
+              "label": "Properties cleared",
+              "value": 4963.0,
+              "unit": "count"
+            },
+            {
+              "label": "ROEs completed and returned",
+              "value": 2834.0,
+              "unit": "count"
+            }
+          ],
+          "headline": {
+            "value": 9262.0,
+            "value_text": "9,262",
+            "unit": "count",
+            "metric": "Los Angeles wildfire property workflow counts, April 24 2025",
+            "point_label": "ROE applications",
+            "display_label": "ROE applications - Los Angeles wildfire property workflow counts, April 24 2025",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "ROE applications :: 9,262 :: count; Properties cleared :: 4,963 :: count; ROEs completed and returned :: 2,834 :: count",
+            "source_urls": [
+              "https://www.spl.usace.army.mil/Portals/17/docs/Emergency%20Management/USACE%20SoCalWildfire_Key%20Facts%20SPL%2026APR25.pdf"
+            ]
+          }
+        },
+        {
+          "metric": "Miami-Dade proposed ten-year debris-monitoring allocation, USD million",
+          "points": [
+            {
+              "label": "Aviation",
+              "value": 1.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "Fire Rescue",
+              "value": 4.7,
+              "unit": "USD million"
+            },
+            {
+              "label": "People/Internal Operations",
+              "value": 0.07,
+              "unit": "USD million"
+            },
+            {
+              "label": "Information Technology",
+              "value": 0.1,
+              "unit": "USD million"
+            },
+            {
+              "label": "Parks",
+              "value": 34.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "PortMiami",
+              "value": 0.2,
+              "unit": "USD million"
+            },
+            {
+              "label": "Solid Waste",
+              "value": 150.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "Total proposed allocation",
+              "value": 190.07,
+              "unit": "USD million"
+            }
+          ],
+          "headline": {
+            "value": 190.07,
+            "value_text": "190.07",
+            "unit": "USD million",
+            "metric": "Miami-Dade proposed ten-year debris-monitoring allocation",
+            "point_label": "Total proposed allocation",
+            "display_label": "Total proposed allocation - Miami-Dade proposed ten-year debris-monitoring allocation",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Aviation :: 1 :: USD million; Fire Rescue :: 4.7 :: USD million; People/Internal Operations :: 0.07 :: USD million; Information Technology :: 0.1 :: USD million; Parks :: 34 :: USD million; PortMiami :: 0.2 :: USD million; Solid Waste :: 150 :: USD million; Total proposed allocation :: 190.07 :: USD million",
+            "source_urls": [
+              "https://www.miamidade.gov/govaction/matter.asp?file=true&fileAnalysis=false&matter=260739&yearFolder=Y2026"
+            ]
+          }
+        },
+        {
+          "metric": "New Jersey statewide debris-monitoring purchase-order actual-cost fields, USD",
+          "points": [
+            {
+              "label": "Tetra Tech",
+              "value": 89905.8,
+              "unit": "USD"
+            },
+            {
+              "label": "Rostan",
+              "value": 61371.0,
+              "unit": "USD"
+            },
+            {
+              "label": "Contract 24-PROS1-94346",
+              "value": 42210.0,
+              "unit": "USD"
+            }
+          ],
+          "headline": {
+            "value": 89905.8,
+            "value_text": "89,905.8",
+            "unit": "USD",
+            "metric": "New Jersey statewide debris-monitoring purchase-order actual-cost fields",
+            "point_label": "Tetra Tech",
+            "display_label": "Tetra Tech - New Jersey statewide debris-monitoring purchase-order actual-cost fields",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Tetra Tech :: 89,905.8 :: USD; Rostan :: 61,371 :: USD; Contract 24-PROS1-94346 :: 42,210 :: USD",
+            "source_urls": [
+              "https://www.njstart.gov/bso/external/purchaseorder/poSummary.sda?docId=24-PROS1-94344&external=true&parentUrl=close&releaseNbr=0"
+            ]
+          }
+        },
+        {
+          "metric": "Tetra Tech U.S. client-sector revenue, fiscal 2024–2025, USD million",
+          "points": [
+            {
+              "label": "U.S. federal",
+              "value": 1718.831,
+              "unit": ""
+            },
+            {
+              "label": "U.S. state/local",
+              "value": 789.968,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 1718.831,
+            "value_text": "1,718.83",
+            "unit": "",
+            "metric": "Tetra Tech U.S. client-sector revenue, fiscal 2024–2025, USD million",
+            "point_label": "U.S. federal",
+            "display_label": "U.S. federal - Tetra Tech U.S. client-sector revenue, fiscal 2024–2025, USD million",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "U.S. federal: 2024=1675.996, 2025=1718.831; U.S. state/local: 2024=613.185, 2025=789.968",
+            "source_urls": [
+              "https://www.sec.gov/Archives/edgar/data/831641/000083164125000032/ttek-20250928.htm"
+            ]
+          }
+        },
+        {
+          "metric": "Sanibel 2019 debris-monitoring hourly labor schedule, USD/hour",
+          "points": [
+            {
+              "label": "Project Manager",
+              "value": 65.0,
+              "unit": "USD/hour"
+            },
+            {
+              "label": "Operations Manager",
+              "value": 55.0,
+              "unit": "USD/hour"
+            },
+            {
+              "label": "GIS Analyst",
+              "value": 55.0,
+              "unit": "USD/hour"
+            },
+            {
+              "label": "Field Supervisor",
+              "value": 49.0,
+              "unit": "USD/hour"
+            },
+            {
+              "label": "TDSR/Tower Monitor",
+              "value": 31.5,
+              "unit": "USD/hour"
+            },
+            {
+              "label": "Collection Monitor",
+              "value": 31.5,
+              "unit": "USD/hour"
+            },
+            {
+              "label": "Billing/Invoice Analyst",
+              "value": 39.0,
+              "unit": "USD/hour"
+            },
+            {
+              "label": "Project Assistant",
+              "value": 25.0,
+              "unit": "USD/hour"
+            }
+          ],
+          "headline": {
+            "value": 65.0,
+            "value_text": "65",
+            "unit": "USD/hour",
+            "metric": "Sanibel 2019 debris-monitoring hourly labor schedule",
+            "point_label": "Project Manager",
+            "display_label": "Project Manager - Sanibel 2019 debris-monitoring hourly labor schedule",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Project Manager :: 65 :: USD/hour; Operations Manager :: 55 :: USD/hour; GIS Analyst :: 55 :: USD/hour; Field Supervisor :: 49 :: USD/hour; TDSR/Tower Monitor :: 31.5 :: USD/hour; Collection Monitor :: 31.5 :: USD/hour; Billing/Invoice Analyst :: 39 :: USD/hour; Project Assistant :: 25 :: USD/hour; Roving Monitor :: 31.5 :: USD/hour",
+            "source_urls": [
+              "https://mysanibel.legistar.com/View.ashx?GUID=EC478C8D-36EB-49D2-A5E9-19186A705558&ID=13576418&M=F"
+            ]
+          }
+        },
+        {
+          "metric": "Cedar Rapids 2020 tower-construction bid prices, USD",
+          "points": [
+            {
+              "label": "Tetra Tech",
+              "value": 4300.0,
+              "unit": "USD"
+            },
+            {
+              "label": "Thompson",
+              "value": 3500.0,
+              "unit": "USD"
+            },
+            {
+              "label": "True North",
+              "value": 3000.0,
+              "unit": "USD"
+            }
+          ],
+          "headline": {
+            "value": 4300.0,
+            "value_text": "4,300",
+            "unit": "USD",
+            "metric": "Cedar Rapids 2020 tower-construction bid prices",
+            "point_label": "Tetra Tech",
+            "display_label": "Tetra Tech - Cedar Rapids 2020 tower-construction bid prices",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Tetra Tech :: 4,300 :: USD; Thompson :: 3,500 :: USD; True North :: 3,000 :: USD",
+            "source_urls": [
+              "https://cms8.revize.com/revize/cedarrapids/Purchasing/2020/3rd%20Quarter%2007_08_09/820-042/820-042%20Bid%20Tab.pdf"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 9262.0,
+          "value_text": "9,262",
+          "unit": "count",
+          "metric": "Los Angeles wildfire property workflow counts, April 24 2025",
+          "point_label": "ROE applications",
+          "display_label": "ROE applications - Los Angeles wildfire property workflow counts, April 24 2025",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "ROE applications :: 9,262 :: count; Properties cleared :: 4,963 :: count; ROEs completed and returned :: 2,834 :: count",
+            "source_urls": [
+              "https://www.spl.usace.army.mil/Portals/17/docs/Emergency%20Management/USACE%20SoCalWildfire_Key%20Facts%20SPL%2026APR25.pdf"
+            ]
+          }
+        },
+        {
+          "value": 190.07,
+          "value_text": "190.07",
+          "unit": "USD million",
+          "metric": "Miami-Dade proposed ten-year debris-monitoring allocation",
+          "point_label": "Total proposed allocation",
+          "display_label": "Total proposed allocation - Miami-Dade proposed ten-year debris-monitoring allocation",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Aviation :: 1 :: USD million; Fire Rescue :: 4.7 :: USD million; People/Internal Operations :: 0.07 :: USD million; Information Technology :: 0.1 :: USD million; Parks :: 34 :: USD million; PortMiami :: 0.2 :: USD million; Solid Waste :: 150 :: USD million; Total proposed allocation :: 190.07 :: USD million",
+            "source_urls": [
+              "https://www.miamidade.gov/govaction/matter.asp?file=true&fileAnalysis=false&matter=260739&yearFolder=Y2026"
+            ]
+          }
+        },
+        {
+          "value": 89905.8,
+          "value_text": "89,905.8",
+          "unit": "USD",
+          "metric": "New Jersey statewide debris-monitoring purchase-order actual-cost fields",
+          "point_label": "Tetra Tech",
+          "display_label": "Tetra Tech - New Jersey statewide debris-monitoring purchase-order actual-cost fields",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Tetra Tech :: 89,905.8 :: USD; Rostan :: 61,371 :: USD; Contract 24-PROS1-94346 :: 42,210 :: USD",
+            "source_urls": [
+              "https://www.njstart.gov/bso/external/purchaseorder/poSummary.sda?docId=24-PROS1-94344&external=true&parentUrl=close&releaseNbr=0"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system:watch:4af674d99459",
+          "text": "By June 9, 2028, three additional large U.S. procurements require electronic tickets plus GPS/GIS/web data.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By June 9, 2028, three additional large U.S. procurements require electronic tickets plus GPS/GIS/web data.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system:watch:b8f5d5fcd190",
+          "text": "A major post-2026 disaster links near-real-time load, site, or parcel data to operating or reimbursement records.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A major post-2026 disaster links near-real-time load, site, or parcel data to operating or reimbursement records.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system:watch:23e65cf9bd64",
+          "text": "A 2026–2029 public contract exposes repeatable per-device, per-load, or recurring ADMS software pricing.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A 2026–2029 public contract exposes repeatable per-device, per-load, or recurring ADMS software pricing.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system:watch:264d0476015b",
+          "text": "Several large buyers require vendor-neutral exports, APIs, or common data dictionaries before a federal schema appears.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Several large buyers require vendor-neutral exports, APIs, or common data dictionaries before a federal schema appears.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system:watch:a22acc249e19",
+          "text": "By end-2028, at least three digital-first contracts still require paper or hard-copy backup.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By end-2028, at least three digital-first contracts still require paper or hard-copy backup.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room",
+      "slug_source": "frontmatter",
+      "title": "Cold Storage’s Refrigerant Shift Is Building a Service Economy Around the Machine Room",
+      "url": "posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html",
+      "date": "2026-08-29",
+      "updated": "2026-08-29",
+      "category": "Report",
+      "sector": {
+        "key": "logistics",
+        "label": "Logistics & automation"
+      },
+      "system_pattern": {
+        "key": "standards-interoperability",
+        "label": "Standards & interoperability"
+      },
+      "archetype": {
+        "key": "standards-interoperability",
+        "label": "Standards & interoperability"
+      },
+      "analysis_lens": {
+        "key": "ecosystem-expansion",
+        "label": "Ecosystem expansion"
+      },
+      "excerpt": "The visible story in cold-storage decarbonization is refrigerant substitution: warehouses move away from high-global-warming-potential HFCs and toward ammonia, carbon dioxide, or newer synthetic refrigerants. The more important industrial story is what has to form around those choices.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room-a4b79aac5b391f44.png",
+        "alt": "Market Cold Storage, Newtown 01"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false
+      },
+      "data_series": [
+        {
+          "metric": "Reported refrigerant use among responding U.S. cold-storage warehouses (%)",
+          "points": [
+            {
+              "label": "Ammonia",
+              "value": 91.0,
+              "unit": "%"
+            },
+            {
+              "label": "Synthetic F-gas",
+              "value": 10.0,
+              "unit": "%"
+            },
+            {
+              "label": "CO2",
+              "value": 5.0,
+              "unit": "%"
+            }
+          ],
+          "headline": {
+            "value": 91.0,
+            "value_text": "91",
+            "unit": "%",
+            "metric": "Reported refrigerant use among responding U.S. cold-storage warehouses (%)",
+            "point_label": "Ammonia",
+            "display_label": "Ammonia - Reported refrigerant use among responding U.S. cold-storage warehouses (%)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Ammonia :: 91 :: percent; Synthetic F-gas :: 10 :: percent; CO2 :: 5 :: percent",
+            "source_urls": [
+              "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10387.pdf"
+            ]
+          }
+        },
+        {
+          "metric": "Floor area of named drilldown facilities (square feet)",
+          "points": [
+            {
+              "label": "Valley Fine Foods",
+              "value": 72000.0,
+              "unit": "square feet"
+            },
+            {
+              "label": "RLS Sturbridge",
+              "value": 83035.0,
+              "unit": "square feet"
+            },
+            {
+              "label": "Alpine Vernon",
+              "value": 116000.0,
+              "unit": "square feet"
+            },
+            {
+              "label": "Shoreline Bridgeton",
+              "value": 188000.0,
+              "unit": "square feet"
+            },
+            {
+              "label": "Arcadia Joliet",
+              "value": 294840.0,
+              "unit": "square feet"
+            },
+            {
+              "label": "RL Cold Ridgeville",
+              "value": 295000.0,
+              "unit": "square feet"
+            },
+            {
+              "label": "Lineage Hutchins",
+              "value": 606375.0,
+              "unit": "square feet"
+            }
+          ],
+          "headline": {
+            "value": 606375.0,
+            "value_text": "606,375",
+            "unit": "square feet",
+            "metric": "Floor area of named drilldown facilities (square feet)",
+            "point_label": "Lineage Hutchins",
+            "display_label": "Lineage Hutchins - Floor area of named drilldown facilities (square feet)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Valley Fine Foods :: 72000 :: square feet; RLS Sturbridge :: 83035 :: square feet; Alpine Vernon :: 116000 :: square feet; Shoreline Bridgeton :: 188000 :: square feet; Arcadia Joliet :: 294840 :: square feet; RL Cold Ridgeville :: 295000 :: square feet; Lineage Hutchins :: 606375 :: square feet",
+            "source_urls": [
+              "https://www.energy.ca.gov/sites/default/files/2025-06/CEC-500-2025-035.pdf",
+              "https://www.sturbridge.gov/planning-board/webforms/rls-complete-90-charlton-road-site-planspecial-permit",
+              "https://www.arconational.com/alpine-food-distributing/",
+              "https://www.shorelinefreezers.com/",
+              "https://saxumre.com/portfolio/chicago-cold-storage/",
+              "https://www.enr.com/articles/59510-merit-energy-industrial-rl-cold-greenfield-refrigerated-warehouse",
+              "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026000170"
+            ]
+          }
+        },
+        {
+          "metric": "Valley Fine Foods reported reductions after CO₂ conversion (%)",
+          "points": [
+            {
+              "label": "Refrigerant use",
+              "value": 28.0,
+              "unit": "%"
+            },
+            {
+              "label": "Electricity",
+              "value": 50.0,
+              "unit": "%"
+            },
+            {
+              "label": "Natural gas",
+              "value": 31.0,
+              "unit": "%"
+            },
+            {
+              "label": "Water",
+              "value": 12.0,
+              "unit": "%"
+            },
+            {
+              "label": "Refrigeration energy intensity",
+              "value": 57.0,
+              "unit": "%"
+            },
+            {
+              "label": "GHG emissions",
+              "value": 90.0,
+              "unit": "%"
+            }
+          ],
+          "headline": {
+            "value": 90.0,
+            "value_text": "90",
+            "unit": "%",
+            "metric": "Valley Fine Foods reported reductions after CO₂ conversion (%)",
+            "point_label": "GHG emissions",
+            "display_label": "GHG emissions - Valley Fine Foods reported reductions after CO₂ conversion (%)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Refrigerant use :: 28 :: percent; Electricity :: 50 :: percent; Natural gas :: 31 :: percent; Water :: 12 :: percent; Refrigeration energy intensity :: 57 :: percent; GHG emissions :: 90 :: percent",
+            "source_urls": [
+              "https://www.energy.ca.gov/sites/default/files/2025-06/CEC-500-2025-035.pdf"
+            ]
+          }
+        },
+        {
+          "metric": "Valley Fine Foods project funding amounts (USD million)",
+          "points": [
+            {
+              "label": "Co-funded amount",
+              "value": 0.933392,
+              "unit": "USD million"
+            },
+            {
+              "label": "Amount spent",
+              "value": 1.546799,
+              "unit": "USD million"
+            },
+            {
+              "label": "Award amount",
+              "value": 1.733443,
+              "unit": "USD million"
+            }
+          ],
+          "headline": {
+            "value": 1.733443,
+            "value_text": "1.73",
+            "unit": "USD million",
+            "metric": "Valley Fine Foods project funding amounts (USD million)",
+            "point_label": "Award amount",
+            "display_label": "Award amount - Valley Fine Foods project funding amounts (USD million)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Co-funded amount :: 0.933392 :: USD million; Amount spent :: 1.546799 :: USD million; Award amount :: 1.733443 :: USD million",
+            "source_urls": [
+              "https://www.energizeinnovation.fund/projects/valley-fine-foods-transcritical-co2-conversion"
+            ]
+          }
+        },
+        {
+          "metric": "Current IIAR non-member certificate-course prices (USD)",
+          "points": [
+            {
+              "label": "IIAR 2",
+              "value": 1590.0,
+              "unit": "USD"
+            },
+            {
+              "label": "IIAR 4",
+              "value": 850.0,
+              "unit": "USD"
+            },
+            {
+              "label": "PSM-RMP",
+              "value": 1350.0,
+              "unit": "USD"
+            },
+            {
+              "label": "IIAR 6",
+              "value": 1390.0,
+              "unit": "USD"
+            }
+          ],
+          "headline": {
+            "value": 1590.0,
+            "value_text": "1,590",
+            "unit": "USD",
+            "metric": "Current IIAR non-member certificate-course prices (USD)",
+            "point_label": "IIAR 2",
+            "display_label": "IIAR 2 - Current IIAR non-member certificate-course prices (USD)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "IIAR 2 :: 1590 :: USD; IIAR 4 :: 850 :: USD; PSM-RMP :: 1350 :: USD; IIAR 6 :: 1390 :: USD",
+            "source_urls": [
+              "https://www.iiar.org/IIAR/IIAR/Education/IIAR_Certificate_Course_Institutional_Enrollment.aspx"
+            ]
+          }
+        },
+        {
+          "metric": "Chemours Opteon refrigerant sales (USD million)",
+          "points": [
+            {
+              "label": "2023",
+              "value": 710.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "2024",
+              "value": 810.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "2025",
+              "value": 1264.0,
+              "unit": "USD million"
+            }
+          ],
+          "headline": {
+            "value": 1264.0,
+            "value_text": "1,264",
+            "unit": "USD million",
+            "metric": "Chemours Opteon refrigerant sales (USD million)",
+            "point_label": "2025",
+            "display_label": "2025 - Chemours Opteon refrigerant sales (USD million)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2023 :: 710 :: USD million; 2024 :: 810 :: USD million; 2025 :: 1264 :: USD million",
+            "source_urls": [
+              "https://www.sec.gov/Archives/edgar/data/1627223/000119312526065201/cc-20251231.htm"
+            ]
+          }
+        },
+        {
+          "metric": "Lineage recurring maintenance capital expenditure by quarter (USD million)",
+          "points": [
+            {
+              "label": "2025-Q1",
+              "value": 32.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "2025-Q2",
+              "value": 42.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "2025-Q3",
+              "value": 43.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "2025-Q4",
+              "value": 56.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "2026-Q1",
+              "value": 31.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "2026-Q2",
+              "value": 33.0,
+              "unit": "USD million"
+            }
+          ],
+          "headline": {
+            "value": 56.0,
+            "value_text": "56",
+            "unit": "USD million",
+            "metric": "Lineage recurring maintenance capital expenditure by quarter (USD million)",
+            "point_label": "2025-Q4",
+            "display_label": "2025-Q4 - Lineage recurring maintenance capital expenditure by quarter (USD million)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2025-Q1 :: 32 :: USD million; 2025-Q2 :: 42 :: USD million; 2025-Q3 :: 43 :: USD million; 2025-Q4 :: 56 :: USD million; 2026-Q1 :: 31 :: USD million; 2026-Q2 :: 33 :: USD million",
+            "source_urls": [
+              "https://www.sec.gov/Archives/edgar/data/1868159/000186815926000038/final-lineageinc2q26earn.htm"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 91.0,
+          "value_text": "91",
+          "unit": "%",
+          "metric": "Reported refrigerant use among responding U.S. cold-storage warehouses (%)",
+          "point_label": "Ammonia",
+          "display_label": "Ammonia - Reported refrigerant use among responding U.S. cold-storage warehouses (%)",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Ammonia :: 91 :: percent; Synthetic F-gas :: 10 :: percent; CO2 :: 5 :: percent",
+            "source_urls": [
+              "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10387.pdf"
+            ]
+          }
+        },
+        {
+          "value": 606375.0,
+          "value_text": "606,375",
+          "unit": "square feet",
+          "metric": "Floor area of named drilldown facilities (square feet)",
+          "point_label": "Lineage Hutchins",
+          "display_label": "Lineage Hutchins - Floor area of named drilldown facilities (square feet)",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Valley Fine Foods :: 72000 :: square feet; RLS Sturbridge :: 83035 :: square feet; Alpine Vernon :: 116000 :: square feet; Shoreline Bridgeton :: 188000 :: square feet; Arcadia Joliet :: 294840 :: square feet; RL Cold Ridgeville :: 295000 :: square feet; Lineage Hutchins :: 606375 :: square feet",
+            "source_urls": [
+              "https://www.energy.ca.gov/sites/default/files/2025-06/CEC-500-2025-035.pdf",
+              "https://www.sturbridge.gov/planning-board/webforms/rls-complete-90-charlton-road-site-planspecial-permit",
+              "https://www.arconational.com/alpine-food-distributing/",
+              "https://www.shorelinefreezers.com/",
+              "https://saxumre.com/portfolio/chicago-cold-storage/",
+              "https://www.enr.com/articles/59510-merit-energy-industrial-rl-cold-greenfield-refrigerated-warehouse",
+              "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026000170"
+            ]
+          }
+        },
+        {
+          "value": 90.0,
+          "value_text": "90",
+          "unit": "%",
+          "metric": "Valley Fine Foods reported reductions after CO₂ conversion (%)",
+          "point_label": "GHG emissions",
+          "display_label": "GHG emissions - Valley Fine Foods reported reductions after CO₂ conversion (%)",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Refrigerant use :: 28 :: percent; Electricity :: 50 :: percent; Natural gas :: 31 :: percent; Water :: 12 :: percent; Refrigeration energy intensity :: 57 :: percent; GHG emissions :: 90 :: percent",
+            "source_urls": [
+              "https://www.energy.ca.gov/sites/default/files/2025-06/CEC-500-2025-035.pdf"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room:watch:108a19f49a45",
+          "text": "Lineage Hutchins refrigeration specification: a disclosed refrigerant and Division 23 equipment schedule would settle a major 2026-27 procurement case.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Lineage Hutchins refrigeration specification: a disclosed refrigerant and Division 23 equipment schedule would settle a major 2026-27 procurement case.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room:watch:12e6f3817ab8",
+          "text": "Six post-July-2026 project disclosures: four or more ammonia/CO₂ selections would support natural-refrigerant dominance through 2028.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Six post-July-2026 project disclosures: four or more ammonia/CO₂ selections would support natural-refrigerant dominance through 2028.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room:watch:19ca91a7d793",
+          "text": "Three major lifecycle-software platforms by end-2029: deployment, diagnostics, warranty or maintenance functions would confirm workflow expansion.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Three major lifecycle-software platforms by end-2029: deployment, diagnostics, warranty or maintenance functions would confirm workflow expansion.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room:watch:7d99c0fd18ed",
+          "text": "2030-31 project specifications: repeated use of configurations already compliant with the 2032 GWP 150/300 limits would mark the next qualification wave.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "2030-31 project specifications: repeated use of configurations already compliant with the 2032 GWP 150/300 limits would mark the next qualification wave.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room:watch:545db52594d4",
+          "text": "UL/ETL certification volumes or lead times: measurable growth would show qualification becoming a distinct commercial activity rather than routine product refresh.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "UL/ETL certification volumes or lead times: measurable growth would show qualification becoming a distinct commercial activity rather than routine product refresh.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
     {
       "slug": "2026-08-02-qualified-materials-across-defense-isotopes-and-magnets",
       "slug_source": "publication_registry",

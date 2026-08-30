@@ -4,8 +4,43 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed research on industrial constraints, commercialization, disruption, and the systems that decide what scales next.</description>
-  <lastBuildDate>Sun, 02 Aug 2026 16:43:25 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 30 Aug 2026 16:30:03 +0000</lastBuildDate>
 
+  <item>
+    <title>The Hidden Infrastructure Behind Inland Water Reuse</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse.html</guid>
+    <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
+    <description>The visible story in drought-resilient water infrastructure is the purification plant: reverse osmosis, ultraviolet treatment, pumps, wells and new potable-water capacity. Inland projects have another system behind that system. Reverse osmosis does not eliminate salts, PFAS or other rejected constituents. It puts them into a smaller, more concentrated stream that still needs somewhere to go.</description>
+  </item>
+  <item>
+    <title>When a weather forecast becomes a payment instruction</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction.html</guid>
+    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    <description>Climate-risk systems are usually described as a forecasting story. Satellite rainfall estimates improve, seasonal models gain skill, river gauges feed better hydrology, and cyclone tracks provide more warning. For anticipatory food-security finance, however, the decisive commercialization step comes after the forecast has been produced.</description>
+  </item>
+  <item>
+    <title>The transformer shortage is also an interoperability problem</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html</guid>
+    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    <description>The visible transformer problem is a factory queue. DOE’s 2024 review cited commonly quoted lead times of 36 months for large power transformers, with maximum quotations reaching 60 months. That alone is enough to make transformer supply a resilience issue after a major grid failure.</description>
+  </item>
+  <item>
+    <title>The Database Behind the Debris Truck Is Becoming the Control System</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system.html</guid>
+    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    <description>Disaster debris still looks like a physical logistics business. Trucks move material, excavators clear parcels, temporary sites receive loads, and local governments hire monitors to verify that eligible debris went where contractors say it went.</description>
+  </item>
+  <item>
+    <title>Cold Storage’s Refrigerant Shift Is Building a Service Economy Around the Machine Room</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html</guid>
+    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    <description>The visible story in cold-storage decarbonization is refrigerant substitution: warehouses move away from high-global-warming-potential HFCs and toward ammonia, carbon dioxide, or newer synthetic refrigerants. The more important industrial story is what has to form around those choices.</description>
+  </item>
   <item>
     <title>The Material Is Not Ready When the Material Exists</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.html</link>
@@ -180,41 +215,6 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.html</guid>
     <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     <description>Fusion developers and investors usually watch plasma gain, high-temperature superconducting magnets, tritium breeding, heat exhaust, permits and financing. Those gates remain upstream. A different constraint emerges once a developer must turn a successful machine into high-fluence components that can be manufactured repeatedly, inspected, insured and accepted by an independent authority.</description>
-  </item>
-  <item>
-    <title>Fusion’s first wall is becoming an evidence business</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description>The most visible changes to ITER’s programme are its later operating milestones and longer commissioning sequence. The more consequential industrial change may be the 2023 decision to replace beryllium armour with tungsten across the first wall.</description>
-  </item>
-  <item>
-    <title>Fusion’s Tritium Loop Is a Qualification Problem, Not an Unsolved Machine</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description>Fusion commentary usually starts with plasma gain, magnets, lasers, wall materials and the cost of first-of-a-kind plants. Tritium then appears as a fuel-supply question: whether enough material exists to start and sustain deuterium-tritium machines.</description>
-  </item>
-  <item>
-    <title>Fusion’s Next Gate Is the Qualification File</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description>The public fusion race focuses on magnets, confinement, net energy and the date of first power. Those are genuine gates. But a deuterium-tritium developer that clears them still has to prove that the surrounding machine can survive the neutron environment, breed and control tritium, remove heat, tolerate corrosion and activation, and be maintained remotely.</description>
-  </item>
-  <item>
-    <title>Fluorine’s Industrial Constraint Is the Qualified Pathway</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-fluorine-chemistry-s-hidden-control-point.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-fluorine-chemistry-s-hidden-control-point.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description>Fluorine supply usually appears as a mineral-security problem. The United States remains fully reliant on net fluorspar imports when stockpiled material is excluded, and Mexico supplied 64% of U.S. imports during 2021–2024. China produced an estimated 6 million tonnes of fluorspar in 2025, roughly 60% of global mine output. Acid-grade fluorspar feeds the anhydrous hydrofluoric acid plants behind uranium conversion, semiconductor cleaning, refrigerants, aluminum fluoride and battery electrolyte salts.</description>
-  </item>
-  <item>
-    <title>The Scarce Asset in Water Reuse Is the Place Where the Salt Goes</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck.html</guid>
-    <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-    <description>The public case for water reuse usually begins with scarcity: drought, declining aquifers, imported-water dependence, or wastewater that could become a local supply. The visible engineering follows naturally—microfiltration, reverse osmosis, ultraviolet treatment, advanced oxidation, and higher recovery rates.</description>
   </item>
 </channel>
 </rss>
