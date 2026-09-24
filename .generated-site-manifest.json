@@ -7,8 +7,8 @@
     },
     {
       "path": "404.html",
-      "sha256": "b2cdaef2d8030a34e474bf41b19037a421a8a0ccd6c92f6307773d7320bd3ced",
-      "size": 106355
+      "sha256": "d1855a29b4c547b778e1571138c27c376a281cddd215345b6334cb966fc46966",
+      "size": 106393
     },
     {
       "path": "about.html",
@@ -41,9 +41,9 @@
       "size": 1736913
     },
     {
-      "path": "assets/heroes/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity-dbb0e34b96444a5b.png",
-      "sha256": "dbb0e34b96444a5b20595ceef59c589a03a994b5ea87c41e8d1e3f42b86faf59",
-      "size": 1111700
+      "path": "assets/heroes/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity-ba9d58c028f1a574.png",
+      "sha256": "ba9d58c028f1a574786d561a5bf469390073a93d317e3b1fe0112c8915d5b63c",
+      "size": 1112621
     },
     {
       "path": "assets/heroes/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water-3eebe1ebac34ef8d.png",
@@ -51,9 +51,9 @@
       "size": 1035598
     },
     {
-      "path": "assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock-42f75e2c76195500.png",
-      "sha256": "42f75e2c7619550003e01246589c1b9b8cc3a8e5bc02deb676bf6e7b87d43c0d",
-      "size": 1144235
+      "path": "assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock-9ac594d8463abe1f.png",
+      "sha256": "9ac594d8463abe1f7fdfa6782719106cc668457979531612439e4510dd62d26e",
+      "size": 1144210
     },
     {
       "path": "assets/heroes/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar-91c68cc40f758837.png",
@@ -71,9 +71,9 @@
       "size": 2355154
     },
     {
-      "path": "assets/heroes/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck-22af642c3af074f0.png",
-      "sha256": "22af642c3af074f074e57d3380e47cdf20560367544f3235cf815e27fd9794b7",
-      "size": 2395544
+      "path": "assets/heroes/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck-15082b98d57d8101.png",
+      "sha256": "15082b98d57d81012fe213518519dad07372fe3e17eb107704ccdf4a67431a67",
+      "size": 2450553
     },
     {
       "path": "assets/heroes/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure-02f4cbb2fe76e6d5.png",
@@ -106,9 +106,9 @@
       "size": 2827986
     },
     {
-      "path": "assets/heroes/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system-72cd116a0e9a8578.png",
-      "sha256": "72cd116a0e9a8578550d9d484f4de94f590884cc9f08500ec6cb2bca5d55f23c",
-      "size": 1852479
+      "path": "assets/heroes/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system-f9b77cd8a1b296c3.png",
+      "sha256": "f9b77cd8a1b296c3e178ca97da79a79b3681ecfb49b448e4b524e15985e06d9b",
+      "size": 1864987
     },
     {
       "path": "assets/heroes/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train-02f4cbb2fe76e6d5.png",
@@ -116,9 +116,9 @@
       "size": 2827986
     },
     {
-      "path": "assets/heroes/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration-22af642c3af074f0.png",
-      "sha256": "22af642c3af074f074e57d3380e47cdf20560367544f3235cf815e27fd9794b7",
-      "size": 2395544
+      "path": "assets/heroes/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration-15082b98d57d8101.png",
+      "sha256": "15082b98d57d81012fe213518519dad07372fe3e17eb107704ccdf4a67431a67",
+      "size": 2450553
     },
     {
       "path": "assets/heroes/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create-d166740d1c7501fe.png",
@@ -141,9 +141,9 @@
       "size": 2711465
     },
     {
-      "path": "assets/heroes/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure-e8fd380852d58bd3.png",
-      "sha256": "e8fd380852d58bd3b0f7a80565b0b89235282dc8258302a83fd31c274ecff6d2",
-      "size": 2391954
+      "path": "assets/heroes/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure-0941e3888609ec1b.png",
+      "sha256": "0941e3888609ec1beefc9d734a82f117839896b6a4eb150139996d6466d3c50c",
+      "size": 2401058
     },
     {
       "path": "assets/heroes/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication-cdd40611b9e60bc8.png",
@@ -186,9 +186,9 @@
       "size": 1570676
     },
     {
-      "path": "assets/heroes/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable-9c6884928d8102c5.png",
-      "sha256": "9c6884928d8102c57aa9b816e4eae5d74f35eb28e3c12c39297a344f8ad00044",
-      "size": 1680342
+      "path": "assets/heroes/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable-897153173a61b160.png",
+      "sha256": "897153173a61b1601b96cd1c8a159e04339ce3b941711d0b1d3dd40de3277655",
+      "size": 1680930
     },
     {
       "path": "assets/heroes/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem-998e4ffba2bc2170.png",
@@ -271,9 +271,9 @@
       "size": 2484960
     },
     {
-      "path": "assets/heroes/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets-9c6884928d8102c5.png",
-      "sha256": "9c6884928d8102c57aa9b816e4eae5d74f35eb28e3c12c39297a344f8ad00044",
-      "size": 1680342
+      "path": "assets/heroes/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets-897153173a61b160.png",
+      "sha256": "897153173a61b1601b96cd1c8a159e04339ce3b941711d0b1d3dd40de3277655",
+      "size": 1680930
     },
     {
       "path": "assets/heroes/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room-a4b79aac5b391f44.png",
@@ -327,8 +327,8 @@
     },
     {
       "path": "assets/og/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.png",
-      "sha256": "d5d456f7ca0acca3ba0b93729feb8962a93df15eb49ddd6f2501a0581259c911",
-      "size": 696784
+      "sha256": "9d34be2af7d499381e676d1e2e89fa3db7d9da02eb00236cee0e967e54ef88df",
+      "size": 696312
     },
     {
       "path": "assets/og/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.png",
@@ -337,8 +337,8 @@
     },
     {
       "path": "assets/og/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.png",
-      "sha256": "ff3580e521d8040819860a4ba07c7f0e1b0d3b1f0368e8fea3ce460c6e539a4c",
-      "size": 712377
+      "sha256": "5db1cb11f3da77060c90d79b8673e43c8ac8545c0bd8500dc1c208fbb9343f4a",
+      "size": 712379
     },
     {
       "path": "assets/og/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.png",
@@ -357,8 +357,8 @@
     },
     {
       "path": "assets/og/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck.png",
-      "sha256": "e16ec3b2cc1e726fe716e1f7bffee3bb4578eafb13db3413de1b9b48c5484e68",
-      "size": 1342354
+      "sha256": "25d307daabe6917ff49b5cd6fcb6da73603ac6515e727e2aa3181cc8dde67489",
+      "size": 1383207
     },
     {
       "path": "assets/og/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure.png",
@@ -392,8 +392,8 @@
     },
     {
       "path": "assets/og/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system.png",
-      "sha256": "2c018179aed3de20d5da78a6c230f8cfdafe1d6216b373b189faca0c5cff10e8",
-      "size": 1046293
+      "sha256": "7b65242c4193b6782610ea210b620a22a150c3a6cf9998ebe8af3c4afe01ad20",
+      "size": 1053409
     },
     {
       "path": "assets/og/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train.png",
@@ -402,8 +402,8 @@
     },
     {
       "path": "assets/og/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration.png",
-      "sha256": "e16ec3b2cc1e726fe716e1f7bffee3bb4578eafb13db3413de1b9b48c5484e68",
-      "size": 1342354
+      "sha256": "25d307daabe6917ff49b5cd6fcb6da73603ac6515e727e2aa3181cc8dde67489",
+      "size": 1383207
     },
     {
       "path": "assets/og/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create.png",
@@ -427,8 +427,8 @@
     },
     {
       "path": "assets/og/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.png",
-      "sha256": "f35e45640bd043f907d35fd28e512b6d89e96c655f1a0e03af17f970e3adcd40",
-      "size": 1352265
+      "sha256": "3dc52a91ce1c19f26c81c43652773972af57632e3734a051e7334788e9260dbf",
+      "size": 1356276
     },
     {
       "path": "assets/og/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.png",
@@ -472,8 +472,8 @@
     },
     {
       "path": "assets/og/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.png",
-      "sha256": "cd56cba6a72b238b28f2d0d0d534801ca3d54c8cbf049611edd99229dc6d8512",
-      "size": 954092
+      "sha256": "cf1cce4851cb126a7a3190c987f673077623201f8345abaf853f638349ebc0ad",
+      "size": 954369
     },
     {
       "path": "assets/og/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.png",
@@ -557,8 +557,8 @@
     },
     {
       "path": "assets/og/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.png",
-      "sha256": "cd56cba6a72b238b28f2d0d0d534801ca3d54c8cbf049611edd99229dc6d8512",
-      "size": 954092
+      "sha256": "cf1cce4851cb126a7a3190c987f673077623201f8345abaf853f638349ebc0ad",
+      "size": 954369
     },
     {
       "path": "assets/og/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.png",
@@ -592,8 +592,8 @@
     },
     {
       "path": "blog-data.json",
-      "sha256": "475520fb9ec5439c0b09778cd196fc2cdc18f8690b9d90437dcaf9c15e2894a5",
-      "size": 40857
+      "sha256": "1831137de73a522a9402d3e28a8408c34b9543813cea5104ffe80c63247f1758",
+      "size": 40955
     },
     {
       "path": "disclaimer.html",
@@ -607,67 +607,67 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "e904ca44c2cc689e746c0f3e1289d16065b5d6f8bee888d87f258f4289b34558",
+      "sha256": "adf65678a0e3f160d8fb75e31395201b5ad3c667bda29b27cb73a48600fad1f1",
       "size": 25184
     },
     {
       "path": "image-manifest.json",
-      "sha256": "23e640203e647706b154b96e4bb16cc5812351929bf8447c1df7003ecc9373dd",
+      "sha256": "82dd9f0516c7f5ea4e17c720632a5121bef957c157ce849872833fe88b698928",
       "size": 247765
     },
     {
       "path": "index.html",
-      "sha256": "b2cdaef2d8030a34e474bf41b19037a421a8a0ccd6c92f6307773d7320bd3ced",
-      "size": 106355
+      "sha256": "d1855a29b4c547b778e1571138c27c376a281cddd215345b6334cb966fc46966",
+      "size": 106393
     },
     {
       "path": "ledger.html",
-      "sha256": "70e626580dcbc825ea5cfb6985b8a5786db9ba0118f1f394b3bd1692e3399def",
-      "size": 82319
+      "sha256": "475844c11c59d937e96c1375832e8b44446bb4e468c5fd4a94fe5a40e99bca0b",
+      "size": 83388
     },
     {
       "path": "patterns.html",
-      "sha256": "949f208627964b872cc1f0b1c1706633661310e1659968db7864adfdbbf27767",
-      "size": 39404
+      "sha256": "78eecebd5d0beba0ebf47fbddbd8108766c5a3e0d136f398bff00b21ad688903",
+      "size": 39502
     },
     {
       "path": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
-      "sha256": "512dc4f53463b68b105b4f1ec6b20cc582552cb69673793146ba7ff858b010de",
-      "size": 34413
+      "sha256": "26017b7626473b378ea0ca2a7d5f67e2a2c938bc17f6bccd2d946ab0edcfda6b",
+      "size": 34139
     },
     {
       "path": "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html",
-      "sha256": "5f1eb408ceea55c9f64933e8774364c6fb7b6af6a578175deeebe71ed3d88e39",
-      "size": 47236
+      "sha256": "5bad392a3e572ca413c1ab0752bb9d766b0463e032d66f3117a15d843766640b",
+      "size": 50016
     },
     {
       "path": "posts/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.html",
-      "sha256": "597bcab021db40e07993f654c0042a5547d358772f283da193c751ca2d7f39ed",
-      "size": 44453
+      "sha256": "f340c8f64a0832eae6f371703b83326a16d6921738749fdd4234f07199b9ff65",
+      "size": 41361
     },
     {
       "path": "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html",
-      "sha256": "e78e0c21e03eb45ff66c6bb4f71158a29dc19c12b926cfde872314470d2e2a06",
-      "size": 29261
+      "sha256": "28dfb2748367653ff0d5a51fc3cb00fa05c8a25d09cbee6b1ca9af717c2fcfae",
+      "size": 35321
     },
     {
       "path": "posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html",
-      "sha256": "5aa8b49a5078ccc902b71ea819a91d516ba42f36ad0a3972737677ba8e1f1418",
-      "size": 30252
+      "sha256": "74fe8c69e259a8a1a6a1c80eb0935fdbf8e49cdf4427ea05d98523f15673e420",
+      "size": 34356
     },
     {
       "path": "posts/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.html",
-      "sha256": "58fc36d5cd8b1e6f9330682be5e7b8078e9254c11fa759dfd0a565f8ee5d02db",
-      "size": 57174
+      "sha256": "5c6990c9bc8069fa49b252d25629579fcf0cfcd552edb2aa77d157d7280d326f",
+      "size": 59921
     },
     {
       "path": "posts/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.html",
-      "sha256": "11790686f9d422be7bc98f0ee14bf55bacbe7197695d74c654f356d9aefdaa42",
-      "size": 42308
+      "sha256": "25f4a1f415599ea954b1b1a8c36a7f3c81b6f004710f723ecf739ea6ab36ad91",
+      "size": 50621
     },
     {
       "path": "posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html",
-      "sha256": "53add00ea57bbf4618a54f992884821fa44a520f686fd215f510b564f8ac4221",
+      "sha256": "58c1c54316933de50ba03570cfc36a01befad60239365ee2ff61a8e5eeade2eb",
       "size": 57009
     },
     {
@@ -687,7 +687,7 @@
     },
     {
       "path": "posts/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck.html",
-      "sha256": "5c09595479abec74fde0806bae933ca74f0b302439036e24f46197eccb4e546c",
+      "sha256": "c203d5a99b2451fe58af1786ef039321c906d260956a0c42a15b723b5eaf4fc9",
       "size": 41841
     },
     {
@@ -722,7 +722,7 @@
     },
     {
       "path": "posts/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system.html",
-      "sha256": "0dbc32ebafbefb8a41934d4d938bdb75a357871f44834fbfe41b5e9b79053ebb",
+      "sha256": "66521d953482928596d5d4dd96958721ab179915d36ed30c1693bd6a13437dab",
       "size": 37411
     },
     {
@@ -732,7 +732,7 @@
     },
     {
       "path": "posts/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration.html",
-      "sha256": "e463828d1978c2aaa6683412db2e7622f62c8209a3d9890aed536bd34251307f",
+      "sha256": "154f135a4682c2a62e0cc0e7f6603b0b7742e08a30f800a2560cf99c305a72b7",
       "size": 55793
     },
     {
@@ -757,7 +757,7 @@
     },
     {
       "path": "posts/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.html",
-      "sha256": "d78868922928d001e2aa15e1c88ed04466f883852b69f9a98e8824ab42c2bdfd",
+      "sha256": "e8d36cfea1ed434d8d303e6895244f832ce31f0166ff08454b7f36164f95bd72",
       "size": 52505
     },
     {
@@ -802,7 +802,7 @@
     },
     {
       "path": "posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html",
-      "sha256": "12ec1e05dcc4ec982a1c46d5a748aacb8eab98322772ce49a8a9341764467335",
+      "sha256": "b0ab3842d6a011bf8798066afd6c9877925340596b932bf4684ed582510d7c43",
       "size": 55040
     },
     {
@@ -887,7 +887,7 @@
     },
     {
       "path": "posts/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.html",
-      "sha256": "845b66bff5c3db7d3c647b624c58503fd9f5e0e439eac32ec362f4cd2ce6ce69",
+      "sha256": "b6966883e2c0d86c6313ff9cd19149b0d16483d40c81401c052f6772f50f0b37",
       "size": 24111
     },
     {
@@ -922,8 +922,8 @@
     },
     {
       "path": "publication-data.json",
-      "sha256": "2c60d9262d3d22ffc4301cfba9c136473e590727f8b200f0b76caa7907a82770",
-      "size": 793987
+      "sha256": "4a1c91a6e36d5edb0fca4bebaade345509f290f3ddfee56791e444c37b717670",
+      "size": 806193
     },
     {
       "path": "rgraph.js",
