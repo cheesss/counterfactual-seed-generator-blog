@@ -1,5 +1,13 @@
 [
   {
+    "title": "EUDR is making origin data part of the commodity itself",
+    "url": "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html",
+    "category": "Report",
+    "date": "2026-09-24",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-2dc795bd1cd6a468.png",
+    "excerpt": "The European Union's deforestation regulation is often described as a sustainability disclosure regime. Its operational effect is more concrete. For covered commodities, access to the EU market increasingly depends on whether an exporter and its buyers can carry usable origin, legality and risk data from a farm or production establishment into a shipment, a due-diligence statement and customs-facing records."
+  },
+  {
     "title": "The Hidden Infrastructure Behind Inland Water Reuse",
     "url": "posts/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse.html",
     "category": "Report",
@@ -462,5 +470,13 @@
     "date": "2026-06-21",
     "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-d3504c7623b1d316.png",
     "excerpt": "Updated September 23, 2026. Evidence reviewed through June 26, 2026. A developer can bypass a slow grid connection with on-site generation and still miss its energization year. Reuters reported large-frame gas-turbine lead times above five years; GE Vernova ended Q1 2026 with 56 GW of production-slot reservations."
+  },
+  {
+    "title": "Sterilization capacity only counts when a device can actually use it",
+    "url": "posts/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.html",
+    "category": "Report",
+    "date": "2026-06-18",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it-1d1cb2f1e43594a9.png",
+    "excerpt": "Ethylene oxide is often discussed as an emissions problem. It is also a capacity problem, but not in the usual industrial sense. A medical-device maker cannot simply buy an empty chamber somewhere else when a sterilizer is constrained. The replacement site, cycle, package, materials, residual testing and regulatory evidence all have to line up. That makes the scarce asset a bundle: permitted chamber time plus a device-specific record that allows the chamber to be used."
   }
 ]

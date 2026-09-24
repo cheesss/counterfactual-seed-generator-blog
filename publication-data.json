@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 58,
+    "articles": 60,
     "data_series": 246,
     "calendar_year_card_candidates_excluded": 5,
     "watch": {
@@ -24,9 +24,9 @@
       "complete_by_sections": 46,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
+        "current-incomplete": 9,
         "legacy-migration-gap": 5,
         "legacy-complete": 45,
-        "current-incomplete": 7,
         "current-complete": 1
       }
     },
@@ -38,7 +38,7 @@
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 42,
+        "constraint": 44,
         "commercialization": 8,
         "disruption": 3,
         "ecosystem-expansion": 5
@@ -48,7 +48,7 @@
         "nuclear": 11,
         "ai-infra": 2,
         "defense": 3,
-        "healthcare": 13,
+        "healthcare": 14,
         "water": 7,
         "aviation": 1,
         "telecom": 1,
@@ -56,7 +56,7 @@
         "semiconductors": 1,
         "quantum": 1,
         "neurotechnology": 1,
-        "industrial-software": 2,
+        "industrial-software": 3,
         "logistics": 3,
         "robotics": 0,
         "space": 0,
@@ -68,7 +68,7 @@
         "permits": 1,
         "qualified-materials": 10,
         "queue-slot": 5,
-        "validation-evidence": 25,
+        "validation-evidence": 27,
         "repair-capacity": 2,
         "residual-handling": 4,
         "procurement-risk-transfer": 0,
@@ -84,6 +84,49 @@
     }
   },
   "articles": [
+    {
+      "slug": "2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself",
+      "slug_source": "publication_registry",
+      "title": "EUDR is making origin data part of the commodity itself",
+      "url": "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html",
+      "date": "2026-09-24",
+      "updated": "2026-09-24",
+      "category": "Report",
+      "sector": {
+        "key": "industrial-software",
+        "label": "Industrial software & data"
+      },
+      "system_pattern": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "archetype": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "The European Union's deforestation regulation is often described as a sustainability disclosure regime. Its operational effect is more concrete. For covered commodities, access to the EU market increasingly depends on whether an exporter and its buyers can carry usable origin, legality and risk data from a farm or production establishment into a shipment, a due-diligence statement and customs-facing records.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-2dc795bd1cd6a468.png",
+        "alt": "A cocoa farm in Ghana"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "missing",
+        "source_heading": "",
+        "unpublished_candidate_count": 0
+      }
+    },
     {
       "slug": "2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse",
       "slug_source": "publication_registry",
@@ -18641,6 +18684,49 @@
       "watch_extraction": {
         "status": "explicit_bullets",
         "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it",
+      "slug_source": "publication_registry",
+      "title": "Sterilization capacity only counts when a device can actually use it",
+      "url": "posts/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.html",
+      "date": "2026-06-18",
+      "updated": "2026-06-18",
+      "category": "Report",
+      "sector": {
+        "key": "healthcare",
+        "label": "Healthcare"
+      },
+      "system_pattern": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "archetype": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "Ethylene oxide is often discussed as an emissions problem. It is also a capacity problem, but not in the usual industrial sense. A medical-device maker cannot simply buy an empty chamber somewhere else when a sterilizer is constrained. The replacement site, cycle, package, materials, residual testing and regulatory evidence all have to line up. That makes the scarce asset a bundle: permitted chamber time plus a device-specific record that allows the chamber to be used.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it-1d1cb2f1e43594a9.png",
+        "alt": "Medical sterilizer"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "missing",
+        "source_heading": "",
         "unpublished_candidate_count": 0
       }
     }
