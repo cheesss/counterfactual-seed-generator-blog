@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Space is scaling faster than its traffic-control system - Bottleneck Briefs</title>
+  <meta name="description" content="The commercial space story is usually told through rockets: cheaper launch, larger constellations and more payloads reaching orbit. But once a satellite separates from its launcher, it joins a shared operating environment with no global air-traffic controller. The question is becoming whether the data, standards and authority needed to coordinate spacecraft can scale as quickly as launch capacity.">
+  <meta property="og:title" content="Space is scaling faster than its traffic-control system">
+  <meta property="og:description" content="The commercial space story is usually told through rockets: cheaper launch, larger constellations and more payloads reaching orbit. But once a satellite separates from its launcher, it joins a shared operating environment with no global air-traffic controller. The question is becoming whether the data, standards and authority needed to coordinate spacecraft can scale as quickly as launch capacity.">
+  <meta property="og:image" content="https://cheesss.github.io/counterfactual-seed-generator-blog/assets/og/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.png">
+  <meta property="og:type" content="article">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css?v=20260708-og">
+  <link rel="alternate" type="application/rss+xml" title="Bottleneck Briefs" href="../feed.xml">
+  <meta name="twitter:card" content="summary_large_image">
+  <script data-goatcounter="https://cheesss.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+  <div class="read-progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html">Bottleneck Briefs</a>
+    <nav aria-label="Primary">
+      <a href="../index.html#articles">Articles</a>
+      <a href="../patterns.html">Patterns</a>
+      <a href="../ledger.html">Ledger</a>
+      <a href="../about.html">About</a>
+      <a href="https://github.com/cheesss/counterfactual-seed-generator-blog" rel="noopener">GitHub</a>
+      <a href="../feed.xml">RSS</a>
+    </nav>
+  </header>
+
+<main id="content" class="article-page">
+  <article data-hero-source="licensed-source">
+    <header class="article-hero">
+      <div class="article-hero-text">
+        <p class="eyebrow">Space systems &middot; 2026-09-24</p>
+        <h1>Space is scaling faster than its traffic-control system</h1>
+        <p>The commercial space story is usually told through rockets: cheaper launch, larger constellations and more payloads reaching orbit. But once a satellite separates from its launcher, it joins a shared operating environment with no global air-traffic controller. The question is becoming whether the data, standards and authority needed to coordinate spacecraft can scale as quickly as launch capacity.</p>
+        <p class="byline">By Bottleneck Briefs · Published 2026-09-24 · 4 min read</p>
+
+      </div>
+      <figure class="article-hero-media">
+        <img src="/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png" alt="MIR Space Station Scale model">
+        <figcaption class="hero-credit">SpaceMusk / Wikimedia Commons / Creative Commons Attribution-ShareAlike 4.0 International</figcaption>
+      </figure>
+    </header>
+    <div class="article-shell">
+      <section class="article-body">
+        <h3 id="in-brief">In brief</h3>
+
+<h3 id="launching-is-only-the-first-handoff">Launching is only the first handoff</h3>
+<p>ESA recorded more than 300 launches and over 4,000 new payloads in 2025. That is a deployment achievement. It is not yet an operating system. Every new active satellite creates a stream of tracking updates, conjunction screenings, operator contacts and potential maneuver decisions. The important distinction is between detecting an object and knowing its trajectory well enough, recently enough, to decide whether a maneuver is necessary and what new risk that maneuver creates.</p>
+<p>For a large constellation, that is already a machine-scale problem. Starlink says its collision-avoidance system typically executes more than 1,000 avoidance maneuvers a day. This should not be read as 1,000 imminent crashes; thresholds are deliberately conservative. It is evidence that safe operations increasingly depend on automated processing, timely ephemerides and repeatable rules rather than a human dispatcher watching a small set of spacecraft.</p>
+<h3 id="the-control-plane-is-distributed">The control plane is distributed</h3>
+<p>Unlike aviation, orbital operations lack a global body that can issue a binding instruction to every vehicle. Tracking providers can detect and assess a close approach. NOAA's Traffic Coordination System for Space and the EU's SST services can provide conjunction information and evaluate candidate maneuvers. But the spacecraft operator decides whether and how to move.</p>
+<p>That decentralisation is workable while participants share accurate data, usable contact information and compatible decision processes. It gets harder when two maneuverable spacecraft rely on different state estimates, different risk thresholds or different assumptions about who should yield. The infrastructure is therefore not a single radar network. It is a chain of sensors, operator-provided ephemerides, message formats, maneuver-screening tools, licences and operational conventions.</p>
+<h3 id="fresh-data-becomes-an-industrial-input">Fresh data becomes an industrial input</h3>
+<p>Maneuverable satellites make old tracking data less useful. Starlink says station-keeping can occur daily and orbit-transfer maneuvers roughly hourly; its preferred owner/operator ephemerides update about hourly. Passive observations cannot anticipate an intentional maneuver. The valuable input is consequently not just catalogue coverage, but a timely, interoperable picture of where a spacecraft intends to be.</p>
+<p>The public layer is growing quickly. By August 2026, NOAA reported 70 TraCSS pilot users representing more than 11,345 satellites and ten national-government accounts. That is meaningful evidence of scale. It is also a transition: NOAA's own materials say the service is still retiring known production-environment risks before it publishes an updated integrated schedule. The coordination layer is being built while the fleet it must serve is already expanding.</p>
+<h3 id="the-consequences-are-not-theoretical">The consequences are not theoretical</h3>
+<p>The 2009 Iridium 33-Cosmos 2251 collision remains a useful boundary case: NASA describes it as the first known unintended hypervelocity collision between intact satellites, at about 790 kilometres altitude and 11.6 kilometres per second. In 2019, ESA maneuvered Aeolus when the collision probability with Starlink 44 rose to roughly one in 1,000; ESA described the decision process at the time as largely manual and ad hoc.</p>
+<p>Neither event proves that orbital activity has reached an absolute traffic ceiling. Together they show why the operational layer matters. Traffic management can coordinate active spacecraft. It cannot command a derelict satellite or a fragment created by an earlier collision. That makes disposal, passivation and debris remediation part of the same long-run capacity question.</p>
+<h3 id="standards-make-a-wider-network-possible">Standards make a wider network possible</h3>
+<p>CCSDS has standardised the Conjunction Data Message, and ISO 23705:2026 now specifies collision-identification, risk-assessment, data and avoidance workflows. Standard formats do not create a global right-of-way rule, but they reduce the friction of sharing a problem across operators and systems.</p>
+<p>Licensing and spectrum impose parallel constraints. FCC rules require many low-Earth-orbit spacecraft to complete post-mission disposal within five years. ITU deployment milestones make spectrum rights contingent on constellation buildout. Insurance requirements differ by jurisdiction: U.S. FAA rules concentrate on licensed launch and re-entry, while UK orbital licences commonly include a EUR60 million third-party-liability requirement for standard missions. These are not one universal gate, but together they shape whether a constellation can move from a technically possible design to an operating network.</p>
+<h3 id="what-to-watch-next">What to watch next</h3>
+<p>The productive question is not whether satellites are becoming too numerous in the abstract. It is whether the shared coordination stack becomes more interoperable before events force a crisis. The signals are practical: the reliability of TraCSS's move into production; adoption of machine-readable conjunction and orbit data; sharing of realistic covariance and operator contacts; common rules for maneuver responsibility; and whether ISO 23705 becomes embedded in licences, procurement and operator procedures.</p>
+<p>Launch capacity still matters, and for communications networks spectrum may bind before collision management. But the next constraint is increasingly after separation. Space can add thousands of spacecraft in a year. The harder task is building a control plane capable of keeping their decisions legible to one another.</p>
+<h3 id="sources">Sources</h3>
+<ul><li>ESA, <a href="https://www.esa.int/Space_Safety/Space_Debris/ESA_Space_Environment_Report_2026">Space Environment Report 2026</a></li><li>NOAA Office of Space Commerce, <a href="https://space.commerce.gov/traffic-coordination-system-for-space-tracss/">TraCSS</a></li><li>SpaceX/Starlink, <a href="https://space-safety.starlink.com/docs/space-safety-articles/starlink_cola_conops/">Collision Avoidance CONOPS</a></li><li>ISO, <a href="https://www.iso.org/standard/87556.html">ISO 23705:2026</a></li><li>NASA, <a href="https://ntrs.nasa.gov/citations/20100008433">Iridium 33-Cosmos 2251 analysis</a></li></ul>
+<h2 id="sources-amp-further-reading">Sources &amp; further reading</h2>
+<ul><li><a href="https://www.esa.int/Space_Safety/Space_Debris/ESA_Space_Environment_Report_2026">Space Environment Report 2026</a></li><li><a href="https://space.commerce.gov/traffic-coordination-system-for-space-tracss/">TraCSS</a></li><li><a href="https://space-safety.starlink.com/docs/space-safety-articles/starlink_cola_conops/">Collision Avoidance CONOPS</a></li><li><a href="https://www.iso.org/standard/87556.html">ISO 23705:2026</a></li><li><a href="https://ntrs.nasa.gov/citations/20100008433">Iridium 33-Cosmos 2251 analysis</a></li></ul>
+      </section>
+      <aside class="article-rail" aria-label="Article sections"><nav class="rail-toc" aria-label="Article sections"><p class="brief-kicker">In this piece</p><ol><li><a href="#in-brief">In brief</a></li><li><a href="#launching-is-only-the-first-handoff">Launching is only the first handoff</a></li><li><a href="#the-control-plane-is-distributed">The control plane is distributed</a></li><li><a href="#fresh-data-becomes-an-industrial-input">Fresh data becomes an industrial input</a></li><li><a href="#the-consequences-are-not-theoretical">The consequences are not theoretical</a></li><li><a href="#standards-make-a-wider-network-possible">Standards make a wider network possible</a></li><li><a href="#what-to-watch-next">What to watch next</a></li><li><a href="#sources">Sources</a></li><li><a href="#sources-amp-further-reading">Sources &amp; further reading</a></li></ol></nav></aside>
+    </div>
+    <aside class="related" aria-label="Related columns">
+  <p class="related-kicker">This bottleneck rhymes with</p>
+  <div class="related-grid"><a class="related-card" href="../posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html"><span class="related-tag">Same gate · Standards &amp; interoperability</span><strong>The transformer shortage is also an interoperability problem</strong></a><a class="related-card" href="../posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html"><span class="related-tag">Same gate · Standards &amp; interoperability</span><strong>Cold Storage’s Refrigerant Shift Is Building a Service Economy Around the Machine Room</strong></a><a class="related-card" href="../posts/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply.html"><span class="related-tag">Same gate · Standards &amp; interoperability</span><strong>The Hidden Layer Between Allied Factories and Allied Supply</strong></a></div>
+</aside>
+    <nav class="post-return" aria-label="Return to the home page">
+      <a class="return-btn" href="../index.html">&larr; Back to all briefs</a>
+    </nav>
+  </article>
+</main>
+<script>
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll(".rail-toc a"));
+  if (!links.length || !("IntersectionObserver" in window)) return;
+  var byId = {};
+  var sections = [];
+  links.forEach(function (a) {
+    var id = a.getAttribute("href").slice(1);
+    var el = document.getElementById(id);
+    if (el) { byId[id] = a; sections.push(el); }
+  });
+  if (!sections.length) return;
+  var current = null;
+  function setActive(id) {
+    if (id === current) return;
+    if (current && byId[current]) byId[current].classList.remove("is-active");
+    if (id && byId[id]) byId[id].classList.add("is-active");
+    current = id;
+  }
+  var observer = new IntersectionObserver(function (entries) {
+    var visible = entries.filter(function (e) { return e.isIntersecting; });
+    if (visible.length) {
+      visible.sort(function (a, b) { return a.boundingClientRect.top - b.boundingClientRect.top; });
+      setActive(visible[0].target.id);
+    }
+  }, { rootMargin: "-15% 0px -70% 0px", threshold: [0, 1] });
+  sections.forEach(function (s) { observer.observe(s); });
+})();
+</script>
+
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <p class="footer-brand">Bottleneck Briefs</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="../about.html">About</a>
+        <a href="https://github.com/cheesss/counterfactual-seed-generator-blog" rel="noopener">GitHub</a>
+        <a href="../feed.xml">RSS</a>
+        <a href="../disclaimer.html">Disclaimer</a>
+        <a href="../privacy.html">Privacy</a>
+      </nav>
+    </div>
+    <p class="footer-legal">© 2026 Bottleneck Briefs · Independent industrial-change research. <strong>Not investment advice</strong> — informational and educational use only; not an offer or solicitation; companies are named as illustrative exposure, never recommendations. The author may hold positions in companies mentioned.</p>
+  </footer>
+  <button class="to-top" type="button" aria-label="Back to top" title="Back to top">&uarr;</button>
+<script>
+(function () {
+  var bar = document.querySelector(".read-progress");
+  var top = document.querySelector(".to-top");
+  var reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function onScroll() {
+    var h = document.documentElement;
+    var max = h.scrollHeight - h.clientHeight;
+    var p = max > 0 ? h.scrollTop / max : 0;
+    if (bar) bar.style.transform = "scaleX(" + p + ")";
+    if (top) top.classList.toggle("is-visible", h.scrollTop > 600);
+  }
+  addEventListener("scroll", onScroll, { passive: true });
+  onScroll();
+  if (top) top.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+  });
+})();
+</script>
+</body>
+</html>

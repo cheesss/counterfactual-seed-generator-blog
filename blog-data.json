@@ -1,11 +1,35 @@
 [
   {
+    "title": "The hard part of resilient navigation is proving the whole system works",
+    "url": "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html",
+    "category": "Report",
+    "date": "2026-09-24",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png",
+    "excerpt": "Critical infrastructure does not lack ideas for operating through a GPS disruption. Anti-jam receivers, authenticated signals, terrestrial timing, inertial sensors and alternative navigation systems all exist. The slower step is turning those components into a trusted operating capability: testing them against realistic interference, qualifying receivers, integrating them into platforms, clearing spectrum issues, obtaining certification and teaching operators what to do when navigation degrades."
+  },
+  {
+    "title": "The grid buildout is turning into a factory-calendar problem",
+    "url": "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html",
+    "category": "Report",
+    "date": "2026-09-24",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-49c19d9f17ef8ffd.png",
+    "excerpt": "Europe and the UK have announced enough offshore links and interconnectors to make the next decade of grid construction look like a civil-engineering boom. But the decisive scheduling problem is increasingly industrial: a project needs a compatible sequence of 525 kV cable, converter valves, transformer bays, test capacity, specialist engineers, vessels and commissioning windows. A permit creates the right to build. It does not reserve the machinery needed to do it."
+  },
+  {
     "title": "The HVAC refrigerant transition ran into a cylinder problem",
     "url": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
     "category": "Report",
     "date": "2026-09-24",
     "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png",
     "excerpt": "The 2025 U.S. HVAC refrigerant disruption was not simply a shortage of compliant equipment or of bulk R-454B. EPA found that the refrigerant existed in sufficient supply, while contractors could not reliably obtain it in the service cylinders needed for installation and repair. The constraint sat in filling, down-packing, distribution and field readiness."
+  },
+  {
+    "title": "Space is scaling faster than its traffic-control system",
+    "url": "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html",
+    "category": "Report",
+    "date": "2026-09-24",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png",
+    "excerpt": "The commercial space story is usually told through rockets: cheaper launch, larger constellations and more payloads reaching orbit. But once a satellite separates from its launcher, it joins a shared operating environment with no global air-traffic controller. The question is becoming whether the data, standards and authority needed to coordinate spacecraft can scale as quickly as launch capacity."
   },
   {
     "title": "EUDR is making origin data part of the commodity itself",
@@ -22,6 +46,14 @@
     "date": "2026-09-24",
     "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-0d1525e7b8477fd8.png",
     "excerpt": "Counter-drone hardware can be bought, tested and fielded quickly. Domestic deployment is slower because an active system must be connected to a lawful operator, a site plan, aviation and spectrum coordination, trained personnel, evidence handling and a continuing audit trail. The 2025-26 U.S. reforms widened authority, but they also made the operating stack visible."
+  },
+  {
+    "title": "A critical-minerals mine is only as large as its waste system",
+    "url": "posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html",
+    "category": "Report",
+    "date": "2026-09-24",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-8d780a0a0e1a24e7.png",
+    "excerpt": "The rush for copper, lithium, nickel and rare earths is usually measured in resource tonnes, refinery announcements and projected demand. Those numbers miss the infrastructure that turns an orebody into a durable operation: tailings storage, water treatment, waste-rock management, monitoring, financial assurance, permits and a closure plan that can survive regulatory and community scrutiny."
   },
   {
     "title": "The Hidden Infrastructure Behind Inland Water Reuse",

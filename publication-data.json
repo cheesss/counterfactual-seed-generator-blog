@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 62,
+    "articles": 66,
     "data_series": 246,
     "calendar_year_card_candidates_excluded": 5,
     "watch": {
@@ -17,14 +17,14 @@
       "extraction_modes": {
         "explicit_bullet": 296
       },
-      "unstructured_watch_sections": 2,
-      "unpublished_prose_candidates": 11
+      "unstructured_watch_sections": 4,
+      "unpublished_prose_candidates": 17
     },
     "report_stage": {
       "complete_by_sections": 46,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
-        "current-incomplete": 11,
+        "current-incomplete": 15,
         "legacy-migration-gap": 5,
         "legacy-complete": 45,
         "current-complete": 1
@@ -38,28 +38,28 @@
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 46,
+        "constraint": 50,
         "commercialization": 8,
         "disruption": 3,
         "ecosystem-expansion": 5
       },
       "sectors": {
-        "energy": 7,
+        "energy": 8,
         "nuclear": 11,
         "ai-infra": 2,
         "defense": 4,
         "healthcare": 14,
         "water": 7,
         "aviation": 1,
-        "telecom": 1,
-        "critical-materials": 1,
+        "telecom": 2,
+        "critical-materials": 2,
         "semiconductors": 1,
         "quantum": 1,
         "neurotechnology": 1,
         "industrial-software": 3,
         "logistics": 3,
         "robotics": 0,
-        "space": 0,
+        "space": 1,
         "finance": 3,
         "cross-sector": 1,
         "other": 1
@@ -68,15 +68,15 @@
         "permits": 2,
         "qualified-materials": 10,
         "queue-slot": 5,
-        "validation-evidence": 27,
+        "validation-evidence": 28,
         "repair-capacity": 2,
-        "residual-handling": 4,
+        "residual-handling": 5,
         "procurement-risk-transfer": 0,
         "finance-bankability": 0,
         "software-workflow": 5,
         "logistics-infrastructure": 2,
-        "manufacturing-tooling": 0,
-        "standards-interoperability": 3,
+        "manufacturing-tooling": 1,
+        "standards-interoperability": 4,
         "workforce-capacity": 0,
         "demand-formation": 1,
         "other": 1
@@ -84,6 +84,92 @@
     }
   },
   "articles": [
+    {
+      "slug": "2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works",
+      "slug_source": "publication_registry",
+      "title": "The hard part of resilient navigation is proving the whole system works",
+      "url": "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html",
+      "date": "2026-09-24",
+      "updated": "2026-09-24",
+      "category": "Report",
+      "sector": {
+        "key": "telecom",
+        "label": "Telecom"
+      },
+      "system_pattern": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "archetype": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "Critical infrastructure does not lack ideas for operating through a GPS disruption. Anti-jam receivers, authenticated signals, terrestrial timing, inertial sensors and alternative navigation systems all exist. The slower step is turning those components into a trusted operating capability: testing them against realistic interference, qualifying receivers, integrating them into platforms, clearing spectrum issues, obtaining certification and teaching operators what to do when navigation degrades.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png",
+        "alt": "Hard-Schleienloch Nord-04ASD"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "missing",
+        "source_heading": "",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem",
+      "slug_source": "publication_registry",
+      "title": "The grid buildout is turning into a factory-calendar problem",
+      "url": "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html",
+      "date": "2026-09-24",
+      "updated": "2026-09-24",
+      "category": "Report",
+      "sector": {
+        "key": "energy",
+        "label": "Energy & grid"
+      },
+      "system_pattern": {
+        "key": "manufacturing-tooling",
+        "label": "Manufacturing & tooling"
+      },
+      "archetype": {
+        "key": "manufacturing-tooling",
+        "label": "Manufacturing & tooling"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "Europe and the UK have announced enough offshore links and interconnectors to make the next decade of grid construction look like a civil-engineering boom. But the decisive scheduling problem is increasingly industrial: a project needs a compatible sequence of 525 kV cable, converter valves, transformer bays, test capacity, specialist engineers, vessels and commissioning windows. A permit creates the right to build. It does not reserve the machinery needed to do it.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-49c19d9f17ef8ffd.png",
+        "alt": "Initial Expeditionary Camp Setup at March Air Reserve Base (8074669)"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "missing",
+        "source_heading": "",
+        "unpublished_candidate_count": 0
+      }
+    },
     {
       "slug": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem",
       "slug_source": "publication_registry",
@@ -125,6 +211,49 @@
         "status": "missing",
         "source_heading": "",
         "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-09-24-space-is-scaling-faster-than-its-traffic-control-system",
+      "slug_source": "publication_registry",
+      "title": "Space is scaling faster than its traffic-control system",
+      "url": "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html",
+      "date": "2026-09-24",
+      "updated": "2026-09-24",
+      "category": "Report",
+      "sector": {
+        "key": "space",
+        "label": "Space systems"
+      },
+      "system_pattern": {
+        "key": "standards-interoperability",
+        "label": "Standards & interoperability"
+      },
+      "archetype": {
+        "key": "standards-interoperability",
+        "label": "Standards & interoperability"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "The commercial space story is usually told through rockets: cheaper launch, larger constellations and more payloads reaching orbit. But once a satellite separates from its launcher, it joins a shared operating environment with no global air-traffic controller. The question is becoming whether the data, standards and authority needed to coordinate spacecraft can scale as quickly as launch capacity.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png",
+        "alt": "MIR Space Station Scale model"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "unstructured_prose",
+        "source_heading": "What to watch next",
+        "unpublished_candidate_count": 4
       }
     },
     {
@@ -211,6 +340,49 @@
         "status": "missing",
         "source_heading": "",
         "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system",
+      "slug_source": "publication_registry",
+      "title": "A critical-minerals mine is only as large as its waste system",
+      "url": "posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html",
+      "date": "2026-09-24",
+      "updated": "2026-09-24",
+      "category": "Report",
+      "sector": {
+        "key": "critical-materials",
+        "label": "Critical materials"
+      },
+      "system_pattern": {
+        "key": "residual-handling",
+        "label": "Residual & waste handling"
+      },
+      "archetype": {
+        "key": "residual-handling",
+        "label": "Residual & waste handling"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "The rush for copper, lithium, nickel and rare earths is usually measured in resource tonnes, refinery announcements and projected demand. Those numbers miss the infrastructure that turns an orebody into a durable operation: tailings storage, water treatment, waste-rock management, monitoring, financial assurance, permits and a closure plan that can survive regulatory and community scrutiny.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-8d780a0a0e1a24e7.png",
+        "alt": "Tiehm's buckwheat habitat"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "unstructured_prose",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 2
       }
     },
     {

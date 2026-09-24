@@ -4,14 +4,35 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed research on industrial constraints, commercialization, disruption, and the systems that decide what scales next.</description>
-  <lastBuildDate>Thu, 24 Sep 2026 12:04:54 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 24 Sep 2026 12:34:43 +0000</lastBuildDate>
 
+  <item>
+    <title>The hard part of resilient navigation is proving the whole system works</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description>Critical infrastructure does not lack ideas for operating through a GPS disruption. Anti-jam receivers, authenticated signals, terrestrial timing, inertial sensors and alternative navigation systems all exist. The slower step is turning those components into a trusted operating capability: testing them against realistic interference, qualifying receivers, integrating them into platforms, clearing spectrum issues, obtaining certification and teaching operators what to do when navigation degrades.</description>
+  </item>
+  <item>
+    <title>The grid buildout is turning into a factory-calendar problem</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description>Europe and the UK have announced enough offshore links and interconnectors to make the next decade of grid construction look like a civil-engineering boom. But the decisive scheduling problem is increasingly industrial: a project needs a compatible sequence of 525 kV cable, converter valves, transformer bays, test capacity, specialist engineers, vessels and commissioning windows. A permit creates the right to build. It does not reserve the machinery needed to do it.</description>
+  </item>
   <item>
     <title>The HVAC refrigerant transition ran into a cylinder problem</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     <description>The 2025 U.S. HVAC refrigerant disruption was not simply a shortage of compliant equipment or of bulk R-454B. EPA found that the refrigerant existed in sufficient supply, while contractors could not reliably obtain it in the service cylinders needed for installation and repair. The constraint sat in filling, down-packing, distribution and field readiness.</description>
+  </item>
+  <item>
+    <title>Space is scaling faster than its traffic-control system</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description>The commercial space story is usually told through rockets: cheaper launch, larger constellations and more payloads reaching orbit. But once a satellite separates from its launcher, it joins a shared operating environment with no global air-traffic controller. The question is becoming whether the data, standards and authority needed to coordinate spacecraft can scale as quickly as launch capacity.</description>
   </item>
   <item>
     <title>EUDR is making origin data part of the commodity itself</title>
@@ -26,6 +47,13 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     <description>Counter-drone hardware can be bought, tested and fielded quickly. Domestic deployment is slower because an active system must be connected to a lawful operator, a site plan, aviation and spectrum coordination, trained personnel, evidence handling and a continuing audit trail. The 2025-26 U.S. reforms widened authority, but they also made the operating stack visible.</description>
+  </item>
+  <item>
+    <title>A critical-minerals mine is only as large as its waste system</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description>The rush for copper, lithium, nickel and rare earths is usually measured in resource tonnes, refinery announcements and projected demand. Those numbers miss the infrastructure that turns an orebody into a durable operation: tailings storage, water treatment, waste-rock management, monitoring, financial assurance, permits and a closure plan that can survive regulatory and community scrutiny.</description>
   </item>
   <item>
     <title>The Hidden Infrastructure Behind Inland Water Reuse</title>
@@ -187,34 +215,6 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html</guid>
     <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     <description>China’s April 2025 export controls made the rare-earth magnet problem look like an administrative shortage. Beijing required licences for specified heavy rare earths, magnet materials and related products. Chinese rare-earth magnet exports then fell to 1,239 tonnes in May 2025 before recovering to 5,952 tonnes in December.</description>
-  </item>
-  <item>
-    <title>The uranium mine ramp is governed one wellfield at a time</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description>The public uranium debate usually starts with price, utility contracting, Russian supply restrictions and the number of dormant mines that could restart. Those variables determine whether a project is worth pursuing. They do not determine when a U.S. in-situ recovery project can turn an underground resource into repeatable production.</description>
-  </item>
-  <item>
-    <title>The UF6 Cylinder Is an Early-Deployment Gate, Not the Fuel Cycle’s Final Bottleneck</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description>The advanced-nuclear fuel shortage is usually described through mines, conversion plants and centrifuge cascades. Those assets deserve attention: Western conversion capacity remains tight, commercial HALEU enrichment is only beginning to scale, and downstream oxide or metal production is not yet routine.</description>
-  </item>
-  <item>
-    <title>The HALEU bottleneck moves downstream</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description>The visible constraint on advanced reactors is HALEU supply. The United States still lacks a mature commercial supply chain for uranium enriched above 5% and below 20% U-235. Enrichment, deconversion, fuel fabrication and reactor construction remain large, obvious schedule risks.</description>
-  </item>
-  <item>
-    <title>Stable isotopes are not one bottleneck—and that is the point</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description>Fusion developers, quantum-computing companies and radiopharmaceutical manufacturers appear to need the same thing: a rare stable isotope. That framing is directionally useful and operationally incomplete.</description>
   </item>
 </channel>
 </rss>
