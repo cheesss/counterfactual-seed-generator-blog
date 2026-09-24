@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 60,
+    "articles": 62,
     "data_series": 246,
     "calendar_year_card_candidates_excluded": 5,
     "watch": {
@@ -24,7 +24,7 @@
       "complete_by_sections": 46,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
-        "current-incomplete": 9,
+        "current-incomplete": 11,
         "legacy-migration-gap": 5,
         "legacy-complete": 45,
         "current-complete": 1
@@ -38,16 +38,16 @@
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 44,
+        "constraint": 46,
         "commercialization": 8,
         "disruption": 3,
         "ecosystem-expansion": 5
       },
       "sectors": {
-        "energy": 6,
+        "energy": 7,
         "nuclear": 11,
         "ai-infra": 2,
-        "defense": 3,
+        "defense": 4,
         "healthcare": 14,
         "water": 7,
         "aviation": 1,
@@ -65,7 +65,7 @@
         "other": 1
       },
       "system_patterns": {
-        "permits": 1,
+        "permits": 2,
         "qualified-materials": 10,
         "queue-slot": 5,
         "validation-evidence": 27,
@@ -74,7 +74,7 @@
         "procurement-risk-transfer": 0,
         "finance-bankability": 0,
         "software-workflow": 5,
-        "logistics-infrastructure": 1,
+        "logistics-infrastructure": 2,
         "manufacturing-tooling": 0,
         "standards-interoperability": 3,
         "workforce-capacity": 0,
@@ -84,6 +84,49 @@
     }
   },
   "articles": [
+    {
+      "slug": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem",
+      "slug_source": "publication_registry",
+      "title": "The HVAC refrigerant transition ran into a cylinder problem",
+      "url": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
+      "date": "2026-09-24",
+      "updated": "2026-09-24",
+      "category": "Report",
+      "sector": {
+        "key": "energy",
+        "label": "Energy & grid"
+      },
+      "system_pattern": {
+        "key": "logistics-infrastructure",
+        "label": "Logistics & infrastructure"
+      },
+      "archetype": {
+        "key": "logistics-infrastructure",
+        "label": "Logistics & infrastructure"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "The 2025 U.S. HVAC refrigerant disruption was not simply a shortage of compliant equipment or of bulk R-454B. EPA found that the refrigerant existed in sufficient supply, while contractors could not reliably obtain it in the service cylinders needed for installation and repair. The constraint sat in filling, down-packing, distribution and field readiness.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png",
+        "alt": "Industrial refrigeration compressor"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "missing",
+        "source_heading": "",
+        "unpublished_candidate_count": 0
+      }
+    },
     {
       "slug": "2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself",
       "slug_source": "publication_registry",
@@ -112,6 +155,49 @@
       "image": {
         "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-2dc795bd1cd6a468.png",
         "alt": "A cocoa farm in Ghana"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "missing",
+        "source_heading": "",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem",
+      "slug_source": "publication_registry",
+      "title": "Counter-UAS is becoming an operating-authority problem",
+      "url": "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html",
+      "date": "2026-09-24",
+      "updated": "2026-09-24",
+      "category": "Report",
+      "sector": {
+        "key": "defense",
+        "label": "Defense"
+      },
+      "system_pattern": {
+        "key": "permits",
+        "label": "Permits & approvals"
+      },
+      "archetype": {
+        "key": "permits",
+        "label": "Permits & approvals"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "Counter-drone hardware can be bought, tested and fielded quickly. Domestic deployment is slower because an active system must be connected to a lawful operator, a site plan, aviation and spectrum coordination, trained personnel, evidence handling and a continuing audit trail. The 2025-26 U.S. reforms widened authority, but they also made the operating stack visible.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-0d1525e7b8477fd8.png",
+        "alt": "Counter-UAS training"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": false,

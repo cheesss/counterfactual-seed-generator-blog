@@ -7,18 +7,13 @@
     },
     {
       "path": "404.html",
-      "sha256": "5e973383caa82617c33c8ab5dc568263446680d18f8cf870eb0984049cefe3b5",
-      "size": 110812
+      "sha256": "6fb6db362f67907a556a0df036cfa63b7000cca1ecc58acab33d9c4b5e13aa4d",
+      "size": 112451
     },
     {
       "path": "about.html",
       "sha256": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
       "size": 4791
-    },
-    {
-      "path": "assets/heroes/.hero-stage-r0tpjq7i/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.png",
-      "sha256": "74fd254f5c31d1b21ee4ff38879ec3606cffd15f2b53f320b216afbcc34cfe26",
-      "size": 1425407
     },
     {
       "path": "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-fb3a4bae76dc86e8.png",
@@ -306,6 +301,11 @@
       "size": 1800580
     },
     {
+      "path": "assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-0d1525e7b8477fd8.png",
+      "sha256": "0d1525e7b8477fd86e1f921f30756d882137daddfb8734dbbb57c333266f6a25",
+      "size": 3236211
+    },
+    {
       "path": "assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-2dc795bd1cd6a468.png",
       "sha256": "2dc795bd1cd6a4681f7ff357a2e9869ecc66af10819a2c7be6b79030928f338e",
       "size": 2664421
@@ -319,6 +319,11 @@
       "path": "assets/heroes/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it-1d1cb2f1e43594a9.png",
       "sha256": "1d1cb2f1e43594a94556f0eea05f6e732cd04e20949a5e2cab148e568e96f883",
       "size": 1654408
+    },
+    {
+      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png",
+      "sha256": "3a465609a25bdd7b655cc996de4ce500ae77e662e4146304954cf8f5c6518ede",
+      "size": 1871560
     },
     {
       "path": "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.png",
@@ -606,6 +611,11 @@
       "size": 1072935
     },
     {
+      "path": "assets/og/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.png",
+      "sha256": "e89d07c5a43e561a5e9967244d6b691acf4340c25e75f4d56bb043a4f1e098be",
+      "size": 1747412
+    },
+    {
       "path": "assets/og/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.png",
       "sha256": "629fe80e79232e89803d8aae199467535786508767a3742174eef521d74505c2",
       "size": 1480349
@@ -621,14 +631,19 @@
       "size": 1015267
     },
     {
+      "path": "assets/og/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.png",
+      "sha256": "e9154bd4ced27ca323e058514ececb7f9d202c59947b6f9652e3e59bfe813ee5",
+      "size": 1142188
+    },
+    {
       "path": "assets/site/industrial-port-photo.png",
       "sha256": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
       "size": 1936877
     },
     {
       "path": "blog-data.json",
-      "sha256": "ebf0399ae663375bca9ee7082cd4fdfa85cbcd9e561720ed6b771e24d1ebb84f",
-      "size": 43257
+      "sha256": "adc9218687599aaa48374470e3f393cd1cffa032a2d0098357e19c19ed9a0165",
+      "size": 44785
     },
     {
       "path": "disclaimer.html",
@@ -642,18 +657,18 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "2ac28b09dff74458dd1818627b12e000210a16c12afdf7427c5b34d9229d937a",
-      "size": 25173
+      "sha256": "14b8f6e1139c4af2defc2958314d95c3da572bdf23633a05ce96324edd741b2e",
+      "size": 25349
     },
     {
       "path": "image-manifest.json",
-      "sha256": "b30f97d5c0f12538e4d4197073d9c3d01e7b3d4a1fb8822a80be64267c12d2d5",
-      "size": 259989
+      "sha256": "f440c827cb15c30861e718b995b97119ab913226526754e49eab0b949a4c4bd3",
+      "size": 267453
     },
     {
       "path": "index.html",
-      "sha256": "5e973383caa82617c33c8ab5dc568263446680d18f8cf870eb0984049cefe3b5",
-      "size": 110812
+      "sha256": "6fb6db362f67907a556a0df036cfa63b7000cca1ecc58acab33d9c4b5e13aa4d",
+      "size": 112451
     },
     {
       "path": "ledger.html",
@@ -662,13 +677,13 @@
     },
     {
       "path": "patterns.html",
-      "sha256": "bafaa5f6b18401e512d526a57f385d7bce2157b2f9e40da020abc656ee888b26",
-      "size": 41650
+      "sha256": "62a7471015636614e1740efdd89bba120dc0c2d16e18e787a3ad7e7d6dc69ba1",
+      "size": 42931
     },
     {
       "path": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
-      "sha256": "26017b7626473b378ea0ca2a7d5f67e2a2c938bc17f6bccd2d946ab0edcfda6b",
-      "size": 34139
+      "sha256": "43b47f01615810377c79111088d80adfda7c232e82a51c7ed95ccbec1571e9a5",
+      "size": 34394
     },
     {
       "path": "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html",
@@ -887,8 +902,8 @@
     },
     {
       "path": "posts/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.html",
-      "sha256": "d3486c52a5af2ee9d01defba96fd9818bffcf7a22c0b67c7b79b713d68d1e03e",
-      "size": 56060
+      "sha256": "4dc66fa2ff420761b0f068d0244b12128d53123bf38b71bb536d881d219099b4",
+      "size": 56492
     },
     {
       "path": "posts/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence.html",
@@ -951,6 +966,11 @@
       "size": 54864
     },
     {
+      "path": "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html",
+      "sha256": "e83b8143e417e2d5cf62ddd43ba6e4eedb6813c8c564e853aeaf7992f69506e4",
+      "size": 16634
+    },
+    {
       "path": "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html",
       "sha256": "668f66aeb4d2b8dbb71e8ce514946a92a029f99f00998357414bd825b52dc41a",
       "size": 19760
@@ -966,14 +986,19 @@
       "size": 21145
     },
     {
+      "path": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
+      "sha256": "e79b8f02561bdff7e6092b81a2005e80f4051e1ebe83a7d9b5b2a4c911b0ecab",
+      "size": 15883
+    },
+    {
       "path": "privacy.html",
       "sha256": "b1234284a5d00575527f5190f9e191b50d11e4b7c5aa738421c941db99beff2b",
       "size": 3072
     },
     {
       "path": "publication-data.json",
-      "sha256": "f27e94af4ce616decc0f06ecb5bd2e0128e1e6a9c85dc8c5fd16640c51e89c3c",
-      "size": 812642
+      "sha256": "e950927234b88245e72a0bf900033a8613711f263f8cca4bdcab1d8312ca863c",
+      "size": 816266
     },
     {
       "path": "rgraph.js",
@@ -987,8 +1012,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "466059036cb4c87cff8b059d7ccd9b015dda433f35e79a0f2797909f8f903c18",
-      "size": 10987
+      "sha256": "50673b6919a1b18bb615b7da5d4abbf990149ae81ec51e3579e0d829f516aff4",
+      "size": 11316
     },
     {
       "path": "styles.css",

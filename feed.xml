@@ -4,14 +4,28 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed research on industrial constraints, commercialization, disruption, and the systems that decide what scales next.</description>
-  <lastBuildDate>Thu, 24 Sep 2026 11:30:34 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 24 Sep 2026 12:04:54 +0000</lastBuildDate>
 
+  <item>
+    <title>The HVAC refrigerant transition ran into a cylinder problem</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description>The 2025 U.S. HVAC refrigerant disruption was not simply a shortage of compliant equipment or of bulk R-454B. EPA found that the refrigerant existed in sufficient supply, while contractors could not reliably obtain it in the service cylinders needed for installation and repair. The constraint sat in filling, down-packing, distribution and field readiness.</description>
+  </item>
   <item>
     <title>EUDR is making origin data part of the commodity itself</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     <description>The European Union&#x27;s deforestation regulation is often described as a sustainability disclosure regime. Its operational effect is more concrete. For covered commodities, access to the EU market increasingly depends on whether an exporter and its buyers can carry usable origin, legality and risk data from a farm or production establishment into a shipment, a due-diligence statement and customs-facing records.</description>
+  </item>
+  <item>
+    <title>Counter-UAS is becoming an operating-authority problem</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description>Counter-drone hardware can be bought, tested and fielded quickly. Domestic deployment is slower because an active system must be connected to a lawful operator, a site plan, aviation and spectrum coordination, trained personnel, evidence handling and a continuing audit trail. The 2025-26 U.S. reforms widened authority, but they also made the operating stack visible.</description>
   </item>
   <item>
     <title>The Hidden Infrastructure Behind Inland Water Reuse</title>
@@ -201,20 +215,6 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html</guid>
     <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
     <description>Fusion developers, quantum-computing companies and radiopharmaceutical manufacturers appear to need the same thing: a rare stable isotope. That framing is directionally useful and operationally incomplete.</description>
-  </item>
-  <item>
-    <title>HALEU’s next problem is turning enriched uranium into accepted fuel</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description>The most visible constraint in advanced nuclear fuel is the supply of high-assay low-enriched uranium, or HALEU. The United States has responded with large enrichment contracts, new cascades and federal ownership of early production.</description>
-  </item>
-  <item>
-    <title>Fusion’s next bottleneck may be the blanket, not the plasma</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-    <description>Fusion’s visible milestones are plasma temperature, magnetic confinement, laser gain, grid interconnection and power-purchase agreements. Those milestones determine whether a reactor concept can become a credible power project. But they do not close the deuterium-tritium fuel cycle.</description>
   </item>
 </channel>
 </rss>
