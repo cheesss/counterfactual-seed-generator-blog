@@ -1,32 +1,33 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 57,
-    "data_series": 245,
+    "articles": 58,
+    "data_series": 246,
     "calendar_year_card_candidates_excluded": 5,
     "watch": {
-      "tracked_articles": 55,
-      "signals": 290,
+      "tracked_articles": 56,
+      "signals": 296,
       "resolved": 0,
       "states": {
-        "open": 290,
+        "open": 296,
         "confirmed": 0,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 290
+        "explicit_bullet": 296
       },
       "unstructured_watch_sections": 2,
       "unpublished_prose_candidates": 11
     },
     "report_stage": {
-      "complete_by_sections": 45,
+      "complete_by_sections": 46,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
         "legacy-migration-gap": 5,
         "legacy-complete": 45,
-        "current-incomplete": 7
+        "current-incomplete": 7,
+        "current-complete": 1
       }
     },
     "outcome_ledger": {
@@ -37,7 +38,7 @@
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 41,
+        "constraint": 42,
         "commercialization": 8,
         "disruption": 3,
         "ecosystem-expansion": 5
@@ -61,7 +62,7 @@
         "space": 0,
         "finance": 3,
         "cross-sector": 1,
-        "other": 0
+        "other": 1
       },
       "system_patterns": {
         "permits": 1,
@@ -78,7 +79,7 @@
         "standards-interoperability": 3,
         "workforce-capacity": 0,
         "demand-formation": 1,
-        "other": 0
+        "other": 1
       }
     }
   },
@@ -168,7 +169,7 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Wastewater collection :: 140 :: USD million; Wastewater treatment :: 297 :: USD million; Advanced water treatment :: 164 :: USD million; Concentrate management :: 360 :: USD million; Treated-water conveyance :: 109 :: USD million; Total Phase I :: 1070 :: USD million",
             "source_urls": [
-              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20and%20Wastewater%20Unit%20Cost%20Study_08142024_v2.pdf](https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20and%20Wastewater%20Unit%20Cost%20Study_08142024_v2.pdf?utm_source=chatgpt.com"
+              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20and%20Wastewater%20Unit%20Cost%20Study_08142024_v2.pdf?utm_source=chatgpt.com"
             ]
           }
         },
@@ -207,7 +208,7 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Advanced treatment :: 16 :: USD/gpd; Concentrate management :: 29 :: USD/gpd; Treated-water conveyance :: 8.94 :: USD/gpd",
             "source_urls": [
-              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20Treatment%20IIP%20Approved%2012-18-2024.pdf](https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20Treatment%20IIP%20Approved%2012-18-2024.pdf?utm_source=chatgpt.com"
+              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20Treatment%20IIP%20Approved%2012-18-2024.pdf?utm_source=chatgpt.com"
             ]
           }
         },
@@ -266,7 +267,7 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Florida :: 302 :: wells; Texas :: 160 :: wells; Wyoming :: 85 :: wells; Kansas :: 65 :: wells; Michigan :: 53 :: wells; California :: 47 :: wells; Louisiana :: 36 :: wells",
             "source_urls": [
-              "https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf](https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf?utm_source=chatgpt.com"
+              "https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf?utm_source=chatgpt.com"
             ]
           }
         },
@@ -305,7 +306,7 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Off-site reactivation :: 1.63 :: USD/lb; Landfill :: 2.21 :: USD/lb; Incineration :: 3.35 :: USD/lb",
             "source_urls": [
-              "https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf](https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf?utm_source=chatgpt.com"
+              "https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf?utm_source=chatgpt.com"
             ]
           }
         },
@@ -344,9 +345,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Goodyear Bullard :: 0.5 :: MGD; KBH average :: 1.25 :: MGD; Palm Coast ZLD capability :: 1.2 :: MGD",
             "source_urls": [
-              "https://www.fws.gov/project/goodyear-pilot-wetlands](https://www.fws.gov/project/goodyear-pilot-wetlands?utm_source=chatgpt.com",
-              "https://www3.twdb.texas.gov/apps/waterdatainteractive/GetReports.aspx?Num=109&Type=Desal](https://www3.twdb.texas.gov/apps/waterdatainteractive/GetReports.aspx?Num=109&Type=Desal&utm_source=chatgpt.com",
-              "https://agendas.palmcoastgov.com/meetings/2018/1/261_A_planning-and-land-development-regulation-board_2018-01-17_Agenda.pdf](https://agendas.palmcoastgov.com/meetings/2018/1/261_A_planning-and-land-development-regulation-board_2018-01-17_Agenda.pdf?utm_source=chatgpt.com"
+              "https://www.fws.gov/project/goodyear-pilot-wetlands?utm_source=chatgpt.com",
+              "https://www3.twdb.texas.gov/apps/waterdatainteractive/GetReports.aspx?Num=109&Type=Desal&utm_source=chatgpt.com",
+              "https://agendas.palmcoastgov.com/meetings/2018/1/261_A_planning-and-land-development-regulation-board_2018-01-17_Agenda.pdf?utm_source=chatgpt.com"
             ]
           }
         },
@@ -390,10 +391,10 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "KBH current database :: 82.5 :: percent; H2Oaks operating description :: 90 :: percent; KBH DesaliTec pilot :: 94 :: percent; Palm Coast ZLD reported :: 99.3 :: percent",
             "source_urls": [
-              "https://www3.twdb.texas.gov/apps/waterdatainteractive/GetReports.aspx?Num=109&Type=Desal](https://www3.twdb.texas.gov/apps/waterdatainteractive/GetReports.aspx?Num=109&Type=Desal&utm_source=chatgpt.com",
-              "https://www.saws.org/your-water/management-sources/brackish-groundwater-desalination/](https://www.saws.org/your-water/management-sources/brackish-groundwater-desalination/?utm_source=chatgpt.com",
-              "https://www.dupont.com/knowledge/desalitec-purifies-groundwater-el-paso.html](https://www.dupont.com/knowledge/desalitec-purifies-groundwater-el-paso.html?utm_source=chatgpt.com",
-              "https://www.mckimcreed.com/news-and-insights/water-reuse-project-of-year-awarded-by-fwea/](https://www.mckimcreed.com/news-and-insights/water-reuse-project-of-year-awarded-by-fwea/?utm_source=chatgpt.com"
+              "https://www3.twdb.texas.gov/apps/waterdatainteractive/GetReports.aspx?Num=109&Type=Desal&utm_source=chatgpt.com",
+              "https://www.saws.org/your-water/management-sources/brackish-groundwater-desalination/?utm_source=chatgpt.com",
+              "https://www.dupont.com/knowledge/desalitec-purifies-groundwater-el-paso.html?utm_source=chatgpt.com",
+              "https://www.mckimcreed.com/news-and-insights/water-reuse-project-of-year-awarded-by-fwea/?utm_source=chatgpt.com"
             ]
           }
         },
@@ -432,8 +433,8 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "St. Cloud :: 0.6 :: USD million; Orlando demonstration :: 0.812 :: USD million; Olathe :: 4.8 :: USD million",
             "source_urls": [
-              "https://www.sec.gov/Archives/edgar/data/933972/000165495426007728/scwo_ex991.htm](https://www.sec.gov/Archives/edgar/data/933972/000165495426007728/scwo_ex991.htm?utm_source=chatgpt.com",
-              "https://orlando.novusagenda.com/agendapublic/AttachmentViewer.ashx?AttachmentID=127941&ItemID=64605](https://orlando.novusagenda.com/agendapublic/AttachmentViewer.ashx?AttachmentID=127941&ItemID=64605&utm_source=chatgpt.com"
+              "https://www.sec.gov/Archives/edgar/data/933972/000165495426007728/scwo_ex991.htm?utm_source=chatgpt.com",
+              "https://orlando.novusagenda.com/agendapublic/AttachmentViewer.ashx?AttachmentID=127941&ItemID=64605&utm_source=chatgpt.com"
             ]
           }
         }
@@ -454,7 +455,7 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Wastewater collection :: 140 :: USD million; Wastewater treatment :: 297 :: USD million; Advanced water treatment :: 164 :: USD million; Concentrate management :: 360 :: USD million; Treated-water conveyance :: 109 :: USD million; Total Phase I :: 1070 :: USD million",
             "source_urls": [
-              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20and%20Wastewater%20Unit%20Cost%20Study_08142024_v2.pdf](https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20and%20Wastewater%20Unit%20Cost%20Study_08142024_v2.pdf?utm_source=chatgpt.com"
+              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20and%20Wastewater%20Unit%20Cost%20Study_08142024_v2.pdf?utm_source=chatgpt.com"
             ]
           }
         },
@@ -473,7 +474,7 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Advanced treatment :: 16 :: USD/gpd; Concentrate management :: 29 :: USD/gpd; Treated-water conveyance :: 8.94 :: USD/gpd",
             "source_urls": [
-              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20Treatment%20IIP%20Approved%2012-18-2024.pdf](https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20Treatment%20IIP%20Approved%2012-18-2024.pdf?utm_source=chatgpt.com"
+              "https://www.phoenix.gov/content/dam/phoenix/pddsite/documents/impact-fees/2025-if-update/Water%20Treatment%20IIP%20Approved%2012-18-2024.pdf?utm_source=chatgpt.com"
             ]
           }
         },
@@ -492,7 +493,7 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Florida :: 302 :: wells; Texas :: 160 :: wells; Wyoming :: 85 :: wells; Kansas :: 65 :: wells; Michigan :: 53 :: wells; California :: 47 :: wells; Louisiana :: 36 :: wells",
             "source_urls": [
-              "https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf](https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf?utm_source=chatgpt.com"
+              "https://www.epa.gov/system/files/documents/2026-04/2026-interim-guidance-on-pfas-destruction-and-disposal.pdf?utm_source=chatgpt.com"
             ]
           }
         }
@@ -635,9 +636,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "2022 :: 3.2 :: million people; 2023 :: 4.1 :: million people; 2024 :: 6.2 :: million people; 2025 :: 6.3 :: million people",
             "source_urls": [
-              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
-              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
-              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
             ]
           }
         },
@@ -676,9 +677,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "2023 :: 70.75 :: USD million; 2024 :: 100 :: USD million; 2025 :: 124 :: USD million",
             "source_urls": [
-              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
-              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
-              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
             ]
           }
         },
@@ -717,9 +718,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "2023 :: 61.5 :: USD million; 2024 :: 72.6 :: USD million; 2025 :: 89 :: USD million",
             "source_urls": [
-              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
-              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
-              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
             ]
           }
         },
@@ -758,8 +759,8 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Cyclone Remal 2024 :: 150000 :: people; Jamuna flood 2024 :: 478140 :: people; Bandarban flood 2026 :: 75000 :: people",
             "source_urls": [
-              "https://docs.wfp.org/api/documents/WFP-0000166065/download/](https://docs.wfp.org/api/documents/WFP-0000166065/download/",
-              "https://www.wfp.org/news/wfp-activates-early-action-ahead-bangladesh-flood-peak](https://www.wfp.org/news/wfp-activates-early-action-ahead-bangladesh-flood-peak"
+              "https://docs.wfp.org/api/documents/WFP-0000166065/download/",
+              "https://www.wfp.org/news/wfp-activates-early-action-ahead-bangladesh-flood-peak"
             ]
           }
         }
@@ -780,9 +781,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "2022 :: 3.2 :: million people; 2023 :: 4.1 :: million people; 2024 :: 6.2 :: million people; 2025 :: 6.3 :: million people",
             "source_urls": [
-              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
-              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
-              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
             ]
           }
         },
@@ -801,9 +802,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "2023 :: 70.75 :: USD million; 2024 :: 100 :: USD million; 2025 :: 124 :: USD million",
             "source_urls": [
-              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
-              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
-              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
             ]
           }
         },
@@ -822,9 +823,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "2023 :: 61.5 :: USD million; 2024 :: 72.6 :: USD million; 2025 :: 89 :: USD million",
             "source_urls": [
-              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023](https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
-              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024](https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
-              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025](https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
+              "https://www.wfp.org/publications/scaling-anticipatory-actions-food-security-anticipatory-action-year-focus-2023",
+              "https://www.wfp.org/publications/10-years-action-anticipatory-action-year-focus-2024",
+              "https://www.wfp.org/publications/anticipatory-action-year-focus-2025"
             ]
           }
         }
@@ -987,8 +988,8 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Clemson SHAPE :: 2.47 :: USD million; Eaton hybrid :: 2.94 :: USD million; EPRI PowerHub :: 2.88 :: USD million; ERMCO DTE :: 1.84 :: USD million; GE FASST :: 1.99 :: USD million; GE universal spare :: 2.99 :: USD million; Resilient Power SolidFlex :: 1.47 :: USD million; Transforma DIRECT :: 1.45 :: USD million; Pittsburgh flexible distribution :: 2.50 :: USD million",
             "source_urls": [
-              "https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer](https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer",
-              "https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf](https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf"
+              "https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer",
+              "https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf"
             ]
           }
         },
@@ -1027,9 +1028,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Hitachi South Boston :: 457 :: USD million; Eaton Jonesville :: 340 :: USD million; Prolec Goldsboro :: 140 :: USD million",
             "source_urls": [
-              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia](https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
-              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html](https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
-              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/](https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
+              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
+              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
+              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
             ]
           }
         },
@@ -1068,9 +1069,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Hitachi South Boston :: 825 :: jobs; Eaton Jonesville :: 700 :: jobs; Prolec Goldsboro :: 330 :: jobs",
             "source_urls": [
-              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia](https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
-              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html](https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
-              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/](https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
+              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
+              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
+              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
             ]
           }
         },
@@ -1109,7 +1110,7 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Existing capacity :: 220 :: units/year; Added capacity :: 200 :: units/year; Total expected :: 420 :: units/year",
             "source_urls": [
-              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/](https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
+              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
             ]
           }
         },
@@ -1148,9 +1149,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "RecX :: 4.42 :: days; WattStock FLEX :: 7 :: days; Westar rapid recovery :: 9 :: days",
             "source_urls": [
-              "https://www.dhs.gov/sites/default/files/publications/RecX%20-%20Emergency%20Spare%20Transformer%20Strategy-508.pdf](https://www.dhs.gov/sites/default/files/publications/RecX%20-%20Emergency%20Spare%20Transformer%20Strategy-508.pdf",
-              "https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf",
-              "https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability](https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability"
+              "https://www.dhs.gov/sites/default/files/publications/RecX%20-%20Emergency%20Spare%20Transformer%20Strategy-508.pdf",
+              "https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf",
+              "https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability"
             ]
           }
         },
@@ -1194,9 +1195,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Westar system coverage :: 80 :: percent; WattStock substation-LPT estimate :: 60 :: percent; WattStock GSU estimate :: 80 :: percent; Grid Assurance modeled service level :: 98 :: percent",
             "source_urls": [
-              "https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability](https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability",
-              "https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf](https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf",
-              "https://gridassurance.com/grid-resilience-solution/](https://gridassurance.com/grid-resilience-solution/"
+              "https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability",
+              "https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf",
+              "https://gridassurance.com/grid-resilience-solution/"
             ]
           }
         }
@@ -1217,8 +1218,8 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Clemson SHAPE :: 2.47 :: USD million; Eaton hybrid :: 2.94 :: USD million; EPRI PowerHub :: 2.88 :: USD million; ERMCO DTE :: 1.84 :: USD million; GE FASST :: 1.99 :: USD million; GE universal spare :: 2.99 :: USD million; Resilient Power SolidFlex :: 1.47 :: USD million; Transforma DIRECT :: 1.45 :: USD million; Pittsburgh flexible distribution :: 2.50 :: USD million",
             "source_urls": [
-              "https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer](https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer",
-              "https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf](https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf"
+              "https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer",
+              "https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf"
             ]
           }
         },
@@ -1237,9 +1238,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Hitachi South Boston :: 457 :: USD million; Eaton Jonesville :: 340 :: USD million; Prolec Goldsboro :: 140 :: USD million",
             "source_urls": [
-              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia](https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
-              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html](https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
-              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/](https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
+              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
+              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
+              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
             ]
           }
         },
@@ -1258,9 +1259,9 @@
             "section": "Blog Visual Package > Chart Candidates",
             "source_text": "Hitachi South Boston :: 825 :: jobs; Eaton Jonesville :: 700 :: jobs; Prolec Goldsboro :: 330 :: jobs",
             "source_urls": [
-              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia](https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
-              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html](https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
-              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/](https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
+              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
+              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
+              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
             ]
           }
         }
@@ -17655,6 +17656,187 @@
           "source_urls": [
             "https://www.safran-group.com/pressroom/iag-and-cfm-reach-agreement-new-leap-premier-mro-license-strengthen-leap-support-ecosystem-2026-04-20-0"
           ],
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem",
+      "slug_source": "publication_registry",
+      "title": "Radiopharmaceutical Scale Is a Chain Problem: Decay, Qualification, Release, Transport and Licensed Administration",
+      "url": "posts/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem.html",
+      "date": "2026-06-22",
+      "updated": "2026-06-22",
+      "category": "Report",
+      "sector": {
+        "key": "other",
+        "label": "Other"
+      },
+      "system_pattern": {
+        "key": "other",
+        "label": "Other constraints"
+      },
+      "archetype": {
+        "key": "other",
+        "label": "Other constraints"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "Radiopharmaceuticals are sometimes described as if radioactive decay creates a permanent, industry-wide shortage by itself. That framing is too simple.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-9ac594d8463abe1f.png",
+        "alt": "Medical radioisotope laboratory"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-complete"
+      },
+      "data_series": [
+        {
+          "metric": "Selected radioisotope/RLT facility sizes",
+          "points": [
+            {
+              "label": "TerraPower Bellwether Laboratory —",
+              "value": 250000.0,
+              "unit": "sq ft"
+            },
+            {
+              "label": "Nusano West Valley City facility —",
+              "value": 190000.0,
+              "unit": "sq ft"
+            },
+            {
+              "label": "Novartis Indianapolis —",
+              "value": 70000.0,
+              "unit": "sq ft"
+            },
+            {
+              "label": "Novartis Denton —",
+              "value": 46000.0,
+              "unit": "sq ft"
+            }
+          ],
+          "headline": {
+            "value": 250000.0,
+            "value_text": "250,000",
+            "unit": "sq ft",
+            "metric": "Selected radioisotope/RLT facility sizes",
+            "point_label": "TerraPower Bellwether Laboratory —",
+            "display_label": "TerraPower Bellwether Laboratory — - Selected radioisotope/RLT facility sizes",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "TerraPower Bellwether Laboratory — 250,000 sq ft; Nusano West Valley City facility — 190,000 sq ft; Novartis Indianapolis — 70,000 sq ft; Novartis Denton — 46,000 sq ft",
+            "source_urls": [
+              "https://www.terrapower.com/TerraPower-Isotopes-Breaks-Ground-on-Worlds-Largest-Actinium-225-Manufacturing-Facility-in-Philadelphia",
+              "https://nusano.com/nusano-cuts-ribbon-on-state-of-the-art-radioisotope-production-facility/?utm_source=chatgpt.com",
+              "https://www.novartis.com/us-en/news/media-releases/novartis-expands-production-pluvicto-addition-its-largest-and-most-advanced-radioligand-therapy-manufacturing-facility-indianapolis",
+              "https://www.novartis.com/us-en/radioligand-therapy-production-denton-texas"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 250000.0,
+          "value_text": "250,000",
+          "unit": "sq ft",
+          "metric": "Selected radioisotope/RLT facility sizes",
+          "point_label": "TerraPower Bellwether Laboratory —",
+          "display_label": "TerraPower Bellwether Laboratory — - Selected radioisotope/RLT facility sizes",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "TerraPower Bellwether Laboratory — 250,000 sq ft; Nusano West Valley City facility — 190,000 sq ft; Novartis Indianapolis — 70,000 sq ft; Novartis Denton — 46,000 sq ft",
+            "source_urls": [
+              "https://www.terrapower.com/TerraPower-Isotopes-Breaks-Ground-on-Worlds-Largest-Actinium-225-Manufacturing-Facility-in-Philadelphia",
+              "https://nusano.com/nusano-cuts-ribbon-on-state-of-the-art-radioisotope-production-facility/?utm_source=chatgpt.com",
+              "https://www.novartis.com/us-en/news/media-releases/novartis-expands-production-pluvicto-addition-its-largest-and-most-advanced-radioligand-therapy-manufacturing-facility-indianapolis",
+              "https://www.novartis.com/us-en/radioligand-therapy-production-denton-texas"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:efb448d25250",
+          "text": "Qualified output: Evidence that expanded isotope production repeatedly converts into specification-compliant, released material.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Qualified output: Evidence that expanded isotope production repeatedly converts into specification-compliant, released material.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:6f5d70e76fb9",
+          "text": "Release performance: Batch consistency, purity, stability, yield and reliable release at increasing production volumes.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Release performance: Batch consistency, purity, stability, yield and reliable release at increasing production volumes.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:536db56cc5fc",
+          "text": "Operational uptime: Whether new facilities sustain production rather than merely reaching commissioning or announced capacity.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Operational uptime: Whether new facilities sustain production rather than merely reaching commissioning or announced capacity.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:71ecc2718d5e",
+          "text": "Fulfilment: Demonstrated ability to route released doses through transport and treatment scheduling inside labelled expiry.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Fulfilment: Demonstrated ability to route released doses through transport and treatment scheduling inside labelled expiry.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:da3890bedc6e",
+          "text": "Administration capacity: Whether licensed treatment networks expand fast enough to absorb additional drug-product supply.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Administration capacity: Whether licensed treatment networks expand fast enough to absorb additional drug-product supply.",
+          "source_url": "",
+          "source_urls": [],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:7acdc65d2b83",
+          "text": "Ac-225 evidence: CMC, inspection and commercial-scale operating data that distinguish qualified supply from nominal isotope production.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Ac-225 evidence: CMC, inspection and commercial-scale operating data that distinguish qualified supply from nominal isotope production.",
+          "source_url": "",
+          "source_urls": [],
           "state": "open",
           "settlement": null
         }
