@@ -5,24 +5,29 @@
     "data_series": 245,
     "calendar_year_card_candidates_excluded": 5,
     "watch": {
-      "tracked_articles": 56,
-      "signals": 301,
+      "tracked_articles": 55,
+      "signals": 290,
       "resolved": 0,
       "states": {
-        "open": 301,
+        "open": 290,
         "confirmed": 0,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 301
+        "explicit_bullet": 290
       },
-      "unstructured_watch_sections": 1,
-      "unpublished_prose_candidates": 5
+      "unstructured_watch_sections": 2,
+      "unpublished_prose_candidates": 11
     },
     "report_stage": {
-      "complete_by_sections": 52,
-      "complete_by_run_manifest": 52
+      "complete_by_sections": 45,
+      "complete_by_run_manifest": 0,
+      "coverage_statuses": {
+        "legacy-migration-gap": 5,
+        "legacy-complete": 45,
+        "current-incomplete": 7
+      }
     },
     "outcome_ledger": {
       "entries": 4,
@@ -32,8 +37,8 @@
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 40,
-        "commercialization": 9,
+        "constraint": 41,
+        "commercialization": 8,
         "disruption": 3,
         "ecosystem-expansion": 5
       },
@@ -80,7 +85,7 @@
   "articles": [
     {
       "slug": "2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse",
-      "slug_source": "frontmatter",
+      "slug_source": "publication_registry",
       "title": "The Hidden Infrastructure Behind Inland Water Reuse",
       "url": "posts/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse.html",
       "date": "2026-08-30",
@@ -109,7 +114,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": false,
-        "public_cycle_complete_by_run_manifest": false
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-migration-gap"
       },
       "data_series": [
         {
@@ -556,7 +562,7 @@
     },
     {
       "slug": "2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction",
-      "slug_source": "frontmatter",
+      "slug_source": "publication_registry",
       "title": "When a weather forecast becomes a payment instruction",
       "url": "posts/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction.html",
       "date": "2026-08-29",
@@ -585,7 +591,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": false,
-        "public_cycle_complete_by_run_manifest": false
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-migration-gap"
       },
       "data_series": [
         {
@@ -887,7 +894,7 @@
     },
     {
       "slug": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem",
-      "slug_source": "frontmatter",
+      "slug_source": "publication_registry",
       "title": "The transformer shortage is also an interoperability problem",
       "url": "posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html",
       "date": "2026-08-29",
@@ -916,7 +923,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": false,
-        "public_cycle_complete_by_run_manifest": false
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-migration-gap"
       },
       "data_series": [
         {
@@ -1333,7 +1341,7 @@
     },
     {
       "slug": "2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system",
-      "slug_source": "frontmatter",
+      "slug_source": "publication_registry",
       "title": "The Database Behind the Debris Truck Is Becoming the Control System",
       "url": "posts/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system.html",
       "date": "2026-08-29",
@@ -1362,7 +1370,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": false,
-        "public_cycle_complete_by_run_manifest": false
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-migration-gap"
       },
       "data_series": [
         {
@@ -1769,7 +1778,7 @@
     },
     {
       "slug": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room",
-      "slug_source": "frontmatter",
+      "slug_source": "publication_registry",
       "title": "Cold Storage’s Refrigerant Shift Is Building a Service Economy Around the Machine Room",
       "url": "posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html",
       "date": "2026-08-29",
@@ -1798,7 +1807,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": false,
-        "public_cycle_complete_by_run_manifest": false
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-migration-gap"
       },
       "data_series": [
         {
@@ -2290,12 +2300,13 @@
       },
       "excerpt": "A military explosive, a cancer-treatment isotope and a rare-earth magnet do not share a supply chain. They do share an industrial transition.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets-9c6884928d8102c5.png",
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets-897153173a61b160.png",
         "alt": "Neodymium magnet 1140509"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [],
       "card_metrics": [],
@@ -2393,7 +2404,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -2592,7 +2604,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -3042,7 +3055,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -3424,7 +3438,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -3972,7 +3987,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -4311,7 +4327,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -4717,7 +4734,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -5262,7 +5280,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -5713,7 +5732,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -5945,7 +5965,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -6382,7 +6403,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -6614,7 +6636,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -6900,7 +6923,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [],
       "card_metrics": [],
@@ -6998,7 +7022,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -7142,7 +7167,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -7357,7 +7383,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -7584,12 +7611,13 @@
       },
       "excerpt": "China’s April 2025 export controls made the rare-earth magnet problem look like an administrative shortage. Beijing required licences for specified heavy rare earths, magnet materials and related products. Chinese rare-earth magnet exports then fell to 1,239 tonnes in May 2025 before recovering to 5,952 tonnes in December.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable-9c6884928d8102c5.png",
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable-897153173a61b160.png",
         "alt": "Neodymium magnet 1140509"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -8303,7 +8331,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -8896,7 +8925,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -9051,7 +9081,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -9195,7 +9226,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -9590,7 +9622,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -9992,7 +10025,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -10113,12 +10147,13 @@
       },
       "excerpt": "Fusion developers and investors usually watch plasma gain, high-temperature superconducting magnets, tritium breeding, heat exhaust, permits and financing. Those gates remain upstream. A different constraint emerges once a developer must turn a successful machine into high-fluence components that can be manufactured repeatedly, inspected, insured and accepted by an independent authority.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure-e8fd380852d58bd3.png",
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure-0941e3888609ec1b.png",
         "alt": "U.S. Department of Energy - Science - 114 035 002 (14281232230)"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -10407,7 +10442,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -10784,7 +10820,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -10966,7 +11003,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -11447,7 +11485,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -11885,7 +11924,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -12432,7 +12472,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -12982,7 +13023,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -13422,12 +13464,13 @@
       },
       "excerpt": "Rapid antimicrobial susceptibility testing has already crossed an important technical threshold. Q-linea’s ASTar, bioMérieux’s VITEK REVEAL AST, and Accelerate Diagnostics’ Pheno lineage demonstrated that phenotypic susceptibility results can be produced directly from positive blood cultures within the same clinical shift.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration-22af642c3af074f0.png",
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration-15082b98d57d8101.png",
         "alt": "Laboratory"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -13615,7 +13658,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [],
       "card_metrics": [],
@@ -13719,12 +13763,13 @@
       },
       "excerpt": "PFAS treatment is usually described as an equipment problem. Utilities test groundwater, choose granular activated carbon, ion-exchange resin, reverse osmosis or nanofiltration, and install enough vessels to bring finished water below a regulatory limit.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system-72cd116a0e9a8578.png",
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system-f9b77cd8a1b296c3.png",
         "alt": "RF 02 011 (26967646190)"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [],
       "card_metrics": [],
@@ -13822,7 +13867,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -14010,7 +14056,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -14390,7 +14437,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -14534,7 +14582,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -14849,7 +14898,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [],
       "card_metrics": [],
@@ -14886,12 +14936,13 @@
       },
       "excerpt": "Antimicrobial-resistance surveillance in wastewater sounds like a sequencing market. The outputs are genomic: blaNDM, blaKPC, mcr-1, vanA, integrons, mobile genetic elements and whole resistomes. That framing directs attention toward sequencers, library preparation and bioinformatics.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck-22af642c3af074f0.png",
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck-15082b98d57d8101.png",
         "alt": "Laboratory"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -15123,7 +15174,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -15249,7 +15301,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -16173,7 +16226,8 @@
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -16323,12 +16377,13 @@
       },
       "excerpt": "Cancer drug analysis usually starts with the molecule: the target, the response rate, the safety profile and the size of the eligible population. Radiopharmaceuticals add an industrial question. Can the developer convert a radioactive isotope into a regulatorily usable dose, release it on time, move it through licensed transport and place it in front of a prepared patient before decay consumes its value?",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock-42f75e2c76195500.png",
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock-9ac594d8463abe1f.png",
         "alt": "Topic-specific source photograph"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "legacy-complete"
       },
       "data_series": [
         {
@@ -16837,8 +16892,9 @@
         "alt": "Dextrose Saline 0.18% 001"
       },
       "report_stage": {
-        "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
       },
       "data_series": [
         {
@@ -17020,57 +17076,67 @@
       ],
       "watch_signals": [
         {
-          "signal_id": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water:watch:aefae3c56834",
-          "text": "December 31, 2027: Vizient, Baxter or a provider discloses a named IV-reserve participant, SKU, renewal or draw.",
+          "signal_id": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water:watch:be57d3eaaa3f",
+          "text": "By 2027-12-31 (base 2026-07-21): A 90-day FDA listing for 0.9% sodium-chloride large-volume bags would show renewed acute scarcity; absence of a listing alone cannot prove reserve procurement. (FDA)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "December 31, 2027: Vizient, Baxter or a provider discloses a named IV-reserve participant, SKU, renewal or draw.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "By 2027-12-31 (base 2026-07-21): A 90-day FDA listing for 0.9% sodium-chloride large-volume bags would show renewed acute scarcity; absence of a listing alone cannot prove reserve procurement. (FDA)",
+          "source_url": "https://www.fda.gov/news-events/press-announcements/statement-fda-commissioner-marty-makary-md-mph-announcing-resolution-iv-saline-solutions-shortage",
+          "source_urls": [
+            "https://www.fda.gov/news-events/press-announcements/statement-fda-commissioner-marty-makary-md-mph-announcing-resolution-iv-saline-solutions-shortage"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water:watch:4130411545dd",
-          "text": "December 31, 2027: FDA’s 2022 drug-shortage risk-management guidance remains draft or becomes final.",
+          "signal_id": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water:watch:f394301c606f",
+          "text": "By 2027-12-31 (base 2026-07-21): A dated Vizient, Baxter or provider disclosure must name a new IV-reserve participant, covered SKU, renewal, expansion or draw. This measures public program activity, not repeat purchasing or performance. (Vizient)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "December 31, 2027: FDA’s 2022 drug-shortage risk-management guidance remains draft or becomes final.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "By 2027-12-31 (base 2026-07-21): A dated Vizient, Baxter or provider disclosure must name a new IV-reserve participant, covered SKU, renewal, expansion or draw. This measures public program activity, not repeat purchasing or performance. (Vizient)",
+          "source_url": "https://www.vizientinc.com/insights/blogs/2026/strategic-spend-supply-shortages-keep-climbing-but-assurance-pushes-forward",
+          "source_urls": [
+            "https://www.vizientinc.com/insights/blogs/2026/strategic-spend-supply-shortages-keep-climbing-but-assurance-pushes-forward"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water:watch:1195679287a6",
-          "text": "December 31, 2027: Any FDA 0.9% saline large-volume shortage persists for 90 consecutive days.",
+          "signal_id": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water:watch:5cf1dcdfc4a1",
+          "text": "By 2028-12-31 (base 2026-07-21): A named U.S. buyer or GPO document must identify an IV-fluid presentation and either two qualified suppliers or dedicated reserve access. One disclosure cannot establish broad adoption or workable pricing. (Vizient)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "December 31, 2027: Any FDA 0.9% saline large-volume shortage persists for 90 consecutive days.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "By 2028-12-31 (base 2026-07-21): A named U.S. buyer or GPO document must identify an IV-fluid presentation and either two qualified suppliers or dedicated reserve access. One disclosure cannot establish broad adoption or workable pricing. (Vizient)",
+          "source_url": "https://www.vizientinc.com/insights/blogs/2026/strategic-spend-supply-shortages-keep-climbing-but-assurance-pushes-forward",
+          "source_urls": [
+            "https://www.vizientinc.com/insights/blogs/2026/strategic-spend-supply-shortages-keep-climbing-but-assurance-pushes-forward"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water:watch:50c8a36d9450",
-          "text": "December 31, 2028: A named U.S. buyer discloses SKU-level dual sourcing or dedicated IV-fluid reserve access.",
+          "signal_id": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water:watch:7b57fb1ec979",
+          "text": "By 2029-12-31 (base 2026-07-21): A public record must identify geographically independent, FDA-qualified spare U.S. capacity of at least one million bags per day across the required presentations. No disclosure is not proof that capacity is absent. (Baxter filing)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "December 31, 2028: A named U.S. buyer discloses SKU-level dual sourcing or dedicated IV-fluid reserve access.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "By 2029-12-31 (base 2026-07-21): A public record must identify geographically independent, FDA-qualified spare U.S. capacity of at least one million bags per day across the required presentations. No disclosure is not proof that capacity is absent. (Baxter filing)",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/10456/000162828026028962/bax-20260331.htm",
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/10456/000162828026028962/bax-20260331.htm"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water:watch:38c62febad7f",
-          "text": "December 31, 2029: A manufacturer documents one million bags per day of qualified, geographically independent spare U.S. capacity.",
+          "signal_id": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water:watch:7fcf469e565a",
+          "text": "At the next material U.S. IV-fluid site interruption (base 2026-07-21): Check whether hospitals obtain matching alternate bags through existing contracts within normal lead times, without emergency imports, allocation cuts or procedure deferrals. This operational response, if observed, is the stronger test. (FDA import response)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "December 31, 2029: A manufacturer documents one million bags per day of qualified, geographically independent spare U.S. capacity.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "At the next material U.S. IV-fluid site interruption (base 2026-07-21): Check whether hospitals obtain matching alternate bags through existing contracts within normal lead times, without emergency imports, allocation cuts or procedure deferrals. This operational response, if observed, is the stronger test. (FDA import response)",
+          "source_url": "https://www.fda.gov/media/182883/download",
+          "source_urls": [
+            "https://www.fda.gov/media/182883/download"
+          ],
           "state": "open",
           "settlement": null
         }
@@ -17107,12 +17173,13 @@
       },
       "excerpt": "Airline capacity is normally discussed through aircraft deliveries. Boeing has production and certification problems. Airbus has a backlog measured in years. Airlines also face scarce pilots, congested airports, air-traffic-control limits and closed airspace.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity-dbb0e34b96444a5b.png",
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity-ba9d58c028f1a574.png",
         "alt": "Topic-specific source photograph"
       },
       "report_stage": {
-        "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
       },
       "data_series": [
         {
@@ -17540,68 +17607,54 @@
       ],
       "watch_signals": [
         {
-          "signal_id": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity:watch:3edf3921cda3",
-          "text": "2027-03-31: Does JetBlue still report PW1100G shop visits above 180 days?",
+          "signal_id": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity:watch:6c61ceec7f14",
+          "text": "JetBlue shop time, base June 22, 2026: By March 31, 2027, does reported PW1100G turnaround fall to 180 days or less from roughly 300? A result above 180 would weaken the recovery case; 90 or less would weaken the acute GTF-constraint thesis. (JetBlue annual report)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "2027-03-31: Does JetBlue still report PW1100G shop visits above 180 days?",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "JetBlue shop time, base June 22, 2026: By March 31, 2027, does reported PW1100G turnaround fall to 180 days or less from roughly 300? A result above 180 would weaken the recovery case; 90 or less would weaken the acute GTF-constraint thesis. (JetBlue annual report)",
+          "source_url": "https://s202.q4cdn.com/853609783/files/doc_financials/2026/ar/455617_P41395_JETBLUE-AIRWAYS_2025-AR_PROOF_MS.pdf",
+          "source_urls": [
+            "https://s202.q4cdn.com/853609783/files/doc_financials/2026/ar/455617_P41395_JETBLUE-AIRWAYS_2025-AR_PROOF_MS.pdf"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity:watch:07e8925a9d85",
-          "text": "2027-03-31: Has Wizz reduced GTF-related groundings to 20 aircraft or fewer?",
+          "signal_id": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity:watch:74dd8edd6638",
+          "text": "Wizz groundings, base June 5, 2026: By March 31, 2027, does its GTF-related count fall to 20 or fewer from 24? A count above 20 would miss management’s stated recovery range. (Wizz final results)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "2027-03-31: Has Wizz reduced GTF-related groundings to 20 aircraft or fewer?",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "Wizz groundings, base June 5, 2026: By March 31, 2027, does its GTF-related count fall to 20 or fewer from 24? A count above 20 would miss management’s stated recovery range. (Wizz final results)",
+          "source_url": "https://www.investegate.co.uk/announcement/rns/wizz-air-holdings--wizz/final-results/9612330",
+          "source_urls": [
+            "https://www.investegate.co.uk/announcement/rns/wizz-air-holdings--wizz/final-results/9612330"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity:watch:90c51dee7f4c",
-          "text": "2027 results: Does Airbus still call Pratt a pacing factor for A320 production?",
+          "signal_id": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity:watch:3b6b95fcf917",
+          "text": "Airbus ramp, base April 2026: By December 31, 2027, does A320-family output reach a sustained 70 aircraft a month without Airbus naming engine supply as a pacer? A lower sustained rate or continued engine warning would weaken the relief case. (Airbus Q1 results)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "2027 results: Does Airbus still call Pratt a pacing factor for A320 production?",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "Airbus ramp, base April 2026: By December 31, 2027, does A320-family output reach a sustained 70 aircraft a month without Airbus naming engine supply as a pacer? A lower sustained rate or continued engine warning would weaken the relief case. (Airbus Q1 results)",
+          "source_url": "https://www.airbus.com/en/newsroom/press-releases/2026-04-airbus-reports-first-quarter-q1-2026-results",
+          "source_urls": [
+            "https://www.airbus.com/en/newsroom/press-releases/2026-04-airbus-reports-first-quarter-q1-2026-results"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity:watch:f2bdc7fca3eb",
-          "text": "2027-06-30: Has CFM completed LEAP-1B durability-kit production cutover?",
+          "signal_id": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity:watch:93a143f55257",
+          "text": "Iberia LEAP hub, base April 20, 2026: By March 31, 2027, has La Muñoza reported its first LEAP induction? A missed start would weaken the announced capacity timetable; induction alone would not prove completed throughput. (Safran-IAG agreement)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "2027-06-30: Has CFM completed LEAP-1B durability-kit production cutover?",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity:watch:a1fefd992b23",
-          "text": "2027-12-31: Have two new LEAP facilities reported completed customer redeliveries?",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "2027-12-31: Have two new LEAP facilities reported completed customer redeliveries?",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity:watch:b56310de4540",
-          "text": "Four consecutive quarters: Do engine completions exceed inductions without rising parts-waiting queues?",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Four consecutive quarters: Do engine completions exceed inductions without rising parts-waiting queues?",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "Iberia LEAP hub, base April 20, 2026: By March 31, 2027, has La Muñoza reported its first LEAP induction? A missed start would weaken the announced capacity timetable; induction alone would not prove completed throughput. (Safran-IAG agreement)",
+          "source_url": "https://www.safran-group.com/pressroom/iag-and-cfm-reach-agreement-new-leap-premier-mro-license-strengthen-leap-support-ecosystem-2026-04-20-0",
+          "source_urls": [
+            "https://www.safran-group.com/pressroom/iag-and-cfm-reach-agreement-new-leap-premier-mro-license-strengthen-leap-support-ecosystem-2026-04-20-0"
+          ],
           "state": "open",
           "settlement": null
         }
@@ -17618,7 +17671,7 @@
       "title": "When AI Power Moves On-Site, the Air Permit Becomes the Next Gate",
       "url": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
       "date": "2026-06-21",
-      "updated": "2026-06-28",
+      "updated": "2026-09-23",
       "category": "Report",
       "sector": {
         "key": "ai-infra",
@@ -17636,81 +17689,79 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "The first constraint on an AI campus is still electricity delivery. Utilities must build substations, reinforce transmission and determine how a very large load will connect without shifting excessive cost or reliability risk to other customers.",
+      "excerpt": "Updated September 23, 2026. Evidence cutoff: July 14, 2026. On-site generation brings data centers into the air-permitting system, but no documented campus delay yet settles the risk.",
       "image": {
         "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-fb3a4bae76dc86e8.png",
         "alt": "Power generator of a hospital data center"
       },
       "report_stage": {
-        "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
       },
       "data_series": [],
       "card_metrics": [],
       "watch_signals": [
         {
-          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:a15f56b58ff6",
-          "text": "By June 30, 2027, a Virginia permit based on a post-July 1, 2026 application specifies the full presumptive control package.",
+          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:0ea6b86f709b",
+          "text": "Virginia control-package permit: As of July 14, 2026, watch through June 30, 2027 for a final permit on an application filed under the post-July 1 APG-576 guidance that specifies the presumptive controls and testing. (Virginia DEQ) Issuance without material redesign or schedule slippage would weaken the pacing-constraint thesis",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "By June 30, 2027, a Virginia permit based on a post-July 1, 2026 application specifies the full presumptive control package.",
+          "source_text": "Virginia control-package permit: As of July 14, 2026, watch through June 30, 2027 for a final permit on an application filed under the post-July 1 APG-576 guidance that specifies the presumptive controls and testing. (Virginia DEQ) Issuance without material redesign or schedule slippage would weaken the pacing-constraint thesis; a documented air-driven delay would strengthen it.",
+          "source_url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air/issued-air-permits-for-data-centers",
+          "source_urls": [
+            "https://www.deq.virginia.gov/news-info/shortcuts/permits/air/issued-air-permits-for-data-centers"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:5ef1f87416d3",
+          "text": "a documented air-driven delay would strengthen it.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Virginia control-package permit: As of July 14, 2026, watch through June 30, 2027 for a final permit on an application filed under the post-July 1 APG-576 guidance that specifies the presumptive controls and testing. (Virginia DEQ) Issuance without material redesign or schedule slippage would weaken the pacing-constraint thesis; a documented air-driven delay would strengthen it.",
+          "source_url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air/issued-air-permits-for-data-centers",
+          "source_urls": [
+            "https://www.deq.virginia.gov/news-info/shortcuts/permits/air/issued-air-permits-for-data-centers"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:836f6ffb25c2",
+          "text": "A documented commissioning delay: As of July 14, 2026, watch through December 31, 2028 for a named U.S. campus whose public record attributes at least 90 days of missed commercial operation primarily to air-permit issuance, source classification or insufficient permitted runtime. The 90-day cutoff is this column's monitoring threshold. No qualifying case, or records assigning delay to grid, gas, equipment or zoning, would weaken the thesis.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "A documented commissioning delay: As of July 14, 2026, watch through December 31, 2028 for a named U.S. campus whose public record attributes at least 90 days of missed commercial operation primarily to air-permit issuance, source classification or insufficient permitted runtime. The 90-day cutoff is this column's monitoring threshold. No qualifying case, or records assigning delay to grid, gas, equipment or zoning, would weaken the thesis.",
           "source_url": "",
           "source_urls": [],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:f6f2eced02f6",
-          "text": "By December 31, 2028, a public filing attributes a data-center delay of at least 90 days primarily to air permitting.",
+          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:00d6ac94bbdd",
+          "text": "Southaven temporary-fleet disposition: As of July 14, 2026, the temporary fleet remained disputed. (Reuters, Southaven Turbine Dispute) Watch through June 30, 2028 for an agency order, court decision, permanent permit or documented removal that resolves the Mississippi fleet's legal or operating status. Removal or procedural resolution without an adverse stationary-source finding would weaken its value as a broader precedent",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "By December 31, 2028, a public filing attributes a data-center delay of at least 90 days primarily to air permitting.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "Southaven temporary-fleet disposition: As of July 14, 2026, the temporary fleet remained disputed. (Reuters, Southaven Turbine Dispute) Watch through June 30, 2028 for an agency order, court decision, permanent permit or documented removal that resolves the Mississippi fleet's legal or operating status. Removal or procedural resolution without an adverse stationary-source finding would weaken its value as a broader precedent; continued disputed operation would leave the test unsettled.",
+          "source_url": "https://www.reuters.com/business/energy/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14/",
+          "source_urls": [
+            "https://www.reuters.com/business/energy/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14/"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:32ec517bd38c",
-          "text": "By June 30, 2028, a court or agency rules on federal stationary-source treatment of Southaven’s temporary fleet.",
+          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:e0df0caa4bc9",
+          "text": "continued disputed operation would leave the test unsettled.",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "By June 30, 2028, a court or agency rules on federal stationary-source treatment of Southaven’s temporary fleet.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:ec66d31e95f0",
-          "text": "Before month 24, temporary turbine fleets either demobilize, receive permanent permits or face enforcement action.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Before month 24, temporary turbine fleets either demobilize, receive permanent permits or face enforcement action.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:a21d03b693c2",
-          "text": "By December 31, 2029, a 2026-announced U.S. gas-engine project above 100 MW reaches commercial operation.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "By December 31, 2029, a 2026-announced U.S. gas-engine project above 100 MW reaches commercial operation.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:cbef0fdd225e",
-          "text": "Post-2026 projects disclose whether gas supply, equipment, zoning or grid delivery—not air permits—controlled their schedules.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Post-2026 projects disclose whether gas supply, equipment, zoning or grid delivery—not air permits—controlled their schedules.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "Southaven temporary-fleet disposition: As of July 14, 2026, the temporary fleet remained disputed. (Reuters, Southaven Turbine Dispute) Watch through June 30, 2028 for an agency order, court decision, permanent permit or documented removal that resolves the Mississippi fleet's legal or operating status. Removal or procedural resolution without an adverse stationary-source finding would weaken its value as a broader precedent; continued disputed operation would leave the test unsettled.",
+          "source_url": "https://www.reuters.com/business/energy/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14/",
+          "source_urls": [
+            "https://www.reuters.com/business/energy/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14/"
+          ],
           "state": "open",
           "settlement": null
         }
@@ -17751,8 +17802,9 @@
         "alt": "Usina Fotovoltaica (2) (22963311836)"
       },
       "report_stage": {
-        "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
       },
       "data_series": [
         {
@@ -17802,78 +17854,11 @@
           }
         }
       ],
-      "watch_signals": [
-        {
-          "signal_id": "2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault:watch:f77d05725247",
-          "text": "2027-12-31: a major grid operator mandates a defined EMT or equivalent artifact for a specified IBR class.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "2027-12-31: a major grid operator mandates a defined EMT or equivalent artifact for a specified IBR class.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault:watch:d5cf93329a25",
-          "text": "2027-12-31: NERC or a regional entity publishes IBR-specific model-verification audit evidence guidance.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "2027-12-31: NERC or a regional entity publishes IBR-specific model-verification audit evidence guidance.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault:watch:56e68afffa59",
-          "text": "2028-12-31: a named project discloses a milestone delay caused by model fidelity or failed validation.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "2028-12-31: a named project discloses a milestone delay caused by model fidelity or failed validation.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault:watch:71a112c2dea3",
-          "text": "2029-12-31: two independent facilities complete documented model correction-and-acceptance cycles.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "2029-12-31: two independent facilities complete documented model correction-and-acceptance cycles.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault:watch:a577e91e82ff",
-          "text": "2030-12-31: an OEM or EPC contract discloses enforceable model-delivery and update obligations.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "2030-12-31: an OEM or EPC contract discloses enforceable model-delivery and update obligations.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault:watch:db6299614888",
-          "text": "2030-12-31: a provider reports recurring IBR-validation procurement, backlog or attributable revenue.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "2030-12-31: a provider reports recurring IBR-validation procurement, backlog or attributable revenue.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        }
-      ],
+      "watch_signals": [],
       "watch_extraction": {
-        "status": "explicit_bullets",
+        "status": "unstructured_prose",
         "source_heading": "What to watch",
-        "unpublished_candidate_count": 0
+        "unpublished_candidate_count": 6
       }
     },
     {
@@ -17882,7 +17867,7 @@
       "title": "The Shell Bottleneck Has Not Reached the Chemistry Yet",
       "url": "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html",
       "date": "2026-06-21",
-      "updated": "2026-06-28",
+      "updated": "2026-07-21",
       "category": "Report",
       "sector": {
         "key": "defense",
@@ -17906,64 +17891,88 @@
         "alt": "Krupp Factory WWI"
       },
       "report_stage": {
-        "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
       },
       "data_series": [],
       "card_metrics": [],
       "watch_signals": [
         {
-          "signal_id": "2026-06-21-the-shell-bottleneck-starts-before-the-shell:watch:27a35aad26fa",
-          "text": "By June 30, 2027: the next official U.S. update names the principal 155mm constraint.",
+          "signal_id": "2026-06-21-the-shell-bottleneck-starts-before-the-shell:watch:605f2910c237",
+          "text": "By June 30, 2027, from the July 21, 2026 baseline: an Army or DoD update issued within that interval identifies the principal 155mm constraint. Continued attribution to projectile parts or LAP would support the current diagnosis and defer the energetics-migration thesis",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "By June 30, 2027: the next official U.S. update names the principal 155mm constraint.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "By June 30, 2027, from the July 21, 2026 baseline: an Army or DoD update issued within that interval identifies the principal 155mm constraint. Continued attribution to projectile parts or LAP would support the current diagnosis and defer the energetics-migration thesis; a new attribution to energetics would weaken the current diagnosis and support migration. The Inspector General evaluation supplies the baseline; without a new update, the test remains unresolved.",
+          "source_url": "https://media.defense.gov/2026/Jul/10/2003960034/-1/-1/1/DOWIG-2026-095_REDACTED_FINAL%20SECURE.PDF",
+          "source_urls": [
+            "https://media.defense.gov/2026/Jul/10/2003960034/-1/-1/1/DOWIG-2026-095_REDACTED_FINAL%20SECURE.PDF"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-shell-bottleneck-starts-before-the-shell:watch:3be9ff5cc1f9",
-          "text": "By December 31, 2027: completed output exceeds the March 2026 baseline of 36,000 rounds/month.",
+          "signal_id": "2026-06-21-the-shell-bottleneck-starts-before-the-shell:watch:94215bf131db",
+          "text": "a new attribution to energetics would weaken the current diagnosis and support migration. The Inspector General evaluation supplies the baseline",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "By December 31, 2027: completed output exceeds the March 2026 baseline of 36,000 rounds/month.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "By June 30, 2027, from the July 21, 2026 baseline: an Army or DoD update issued within that interval identifies the principal 155mm constraint. Continued attribution to projectile parts or LAP would support the current diagnosis and defer the energetics-migration thesis; a new attribution to energetics would weaken the current diagnosis and support migration. The Inspector General evaluation supplies the baseline; without a new update, the test remains unresolved.",
+          "source_url": "https://media.defense.gov/2026/Jul/10/2003960034/-1/-1/1/DOWIG-2026-095_REDACTED_FINAL%20SECURE.PDF",
+          "source_urls": [
+            "https://media.defense.gov/2026/Jul/10/2003960034/-1/-1/1/DOWIG-2026-095_REDACTED_FINAL%20SECURE.PDF"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-shell-bottleneck-starts-before-the-shell:watch:96e6b1d268ad",
-          "text": "During 2027: Nitro-Chem confirms its first delivery under the 18,000-tonne U.S. agreement.",
+          "signal_id": "2026-06-21-the-shell-bottleneck-starts-before-the-shell:watch:e938bcf4fe7e",
+          "text": "without a new update, the test remains unresolved.",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "During 2027: Nitro-Chem confirms its first delivery under the 18,000-tonne U.S. agreement.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "By June 30, 2027, from the July 21, 2026 baseline: an Army or DoD update issued within that interval identifies the principal 155mm constraint. Continued attribution to projectile parts or LAP would support the current diagnosis and defer the energetics-migration thesis; a new attribution to energetics would weaken the current diagnosis and support migration. The Inspector General evaluation supplies the baseline; without a new update, the test remains unresolved.",
+          "source_url": "https://media.defense.gov/2026/Jul/10/2003960034/-1/-1/1/DOWIG-2026-095_REDACTED_FINAL%20SECURE.PDF",
+          "source_urls": [
+            "https://media.defense.gov/2026/Jul/10/2003960034/-1/-1/1/DOWIG-2026-095_REDACTED_FINAL%20SECURE.PDF"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-shell-bottleneck-starts-before-the-shell:watch:4cd48f0030d3",
-          "text": "By December 31, 2028: an official record names an energetic input as the limiting factor.",
+          "signal_id": "2026-06-21-the-shell-bottleneck-starts-before-the-shell:watch:a117383e54fc",
+          "text": "By December 31, 2027, from the July 21, 2026 baseline: an official monthly completed-round figure exceeds the March 2026 level of about 36,000, rather than merely reporting component or nameplate capacity. The Inspector General evaluation supplies the baseline",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "By December 31, 2028: an official record names an energetic input as the limiting factor.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "By December 31, 2027, from the July 21, 2026 baseline: an official monthly completed-round figure exceeds the March 2026 level of about 36,000, rather than merely reporting component or nameplate capacity. The Inspector General evaluation supplies the baseline; output remaining near it would weaken the expected downstream recovery.",
+          "source_url": "https://media.defense.gov/2026/Jul/10/2003960034/-1/-1/1/DOWIG-2026-095_REDACTED_FINAL%20SECURE.PDF",
+          "source_urls": [
+            "https://media.defense.gov/2026/Jul/10/2003960034/-1/-1/1/DOWIG-2026-095_REDACTED_FINAL%20SECURE.PDF"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-shell-bottleneck-starts-before-the-shell:watch:26e0373cdcbb",
-          "text": "By December 31, 2029: Graham produces a publicly acknowledged TNT lot accepted for military use.",
+          "signal_id": "2026-06-21-the-shell-bottleneck-starts-before-the-shell:watch:b30463e5c295",
+          "text": "output remaining near it would weaken the expected downstream recovery.",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "By December 31, 2029: Graham produces a publicly acknowledged TNT lot accepted for military use.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "By December 31, 2027, from the July 21, 2026 baseline: an official monthly completed-round figure exceeds the March 2026 level of about 36,000, rather than merely reporting component or nameplate capacity. The Inspector General evaluation supplies the baseline; output remaining near it would weaken the expected downstream recovery.",
+          "source_url": "https://media.defense.gov/2026/Jul/10/2003960034/-1/-1/1/DOWIG-2026-095_REDACTED_FINAL%20SECURE.PDF",
+          "source_urls": [
+            "https://media.defense.gov/2026/Jul/10/2003960034/-1/-1/1/DOWIG-2026-095_REDACTED_FINAL%20SECURE.PDF"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-06-21-the-shell-bottleneck-starts-before-the-shell:watch:ad3648e17f96",
+          "text": "During 2027, from the July 21, 2026 baseline: Nitro-Chem, PGZ or a U.S. buyer confirms a first shipment or accepted delivery under the 18,000-tonne agreement. Reuters reported the 2027-2029 delivery schedule",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "During 2027, from the July 21, 2026 baseline: Nitro-Chem, PGZ or a U.S. buyer confirms a first shipment or accepted delivery under the 18,000-tonne agreement. Reuters reported the 2027-2029 delivery schedule; a disclosed slip to 2028 would weaken the allied-supply bridge, while confirmed delivery would weaken a broad shortage claim.",
+          "source_url": "https://www.reuters.com/business/aerospace-defense/polands-nitro-chem-signs-310-mln-deal-supply-tnt-us-military-2025-04-09/",
+          "source_urls": [
+            "https://www.reuters.com/business/aerospace-defense/polands-nitro-chem-signs-310-mln-deal-supply-tnt-us-military-2025-04-09/"
+          ],
           "state": "open",
           "settlement": null
         }
@@ -17980,7 +17989,7 @@
       "title": "The Internet’s Hidden Repair Constraint",
       "url": "posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html",
       "date": "2026-06-21",
-      "updated": "2026-06-28",
+      "updated": "2026-09-23",
       "category": "Report",
       "sector": {
         "key": "telecom",
@@ -17998,14 +18007,15 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "Submarine cables are not fragile in the way headlines often suggest. They fail regularly, and the industry has spent decades learning how to route around damage, locate faults and repair them.",
+      "excerpt": "During clustered or contested-water faults, can an eligible repair package reach the break before rerouting capacity runs thin? Routine breaks usually give the industry time to route around damage, locate faults and repair them.",
       "image": {
         "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break-d60a34f610f7fee2.png",
         "alt": "2024-10-22 01 CABLE INNOVATOR - IMO 9101132 – Victoria, BC CAN"
       },
       "report_stage": {
-        "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
       },
       "data_series": [
         {
@@ -18057,66 +18067,33 @@
       ],
       "watch_signals": [
         {
-          "signal_id": "2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break:watch:1d9f68b66574",
-          "text": "October 8, 2026: whether the €40 million EU repair-module call closes without extension.",
+          "signal_id": "2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break:watch:5ef622ea6145",
+          "text": "First EU module exercise: look for cable recovery, jointing, testing, and redeployment on a preconfigured vessel.",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "October 8, 2026: whether the €40 million EU repair-module call closes without extension.",
+          "source_text": "First EU module exercise: look for cable recovery, jointing, testing, and redeployment on a preconfigured vessel.",
           "source_url": "",
           "source_urls": [],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break:watch:585cff15cd9b",
-          "text": "December 31, 2026: whether the Baltic pilot names at least one funded deployment project.",
+          "signal_id": "2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break:watch:a24c253892de",
+          "text": "Next clustered regional fault: look for a published restoration clock separating dispatch delay from rerouting failure.",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "December 31, 2026: whether the Baltic pilot names at least one funded deployment project.",
+          "source_text": "Next clustered regional fault: look for a published restoration clock separating dispatch delay from rerouting failure.",
           "source_url": "",
           "source_urls": [],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break:watch:71aca9bdcc6d",
-          "text": "December 31, 2028: whether an EU module completes a three-vessel, three-day installation test.",
+          "signal_id": "2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break:watch:b294d26c53dc",
+          "text": "First public availability renewal: look for continuing funding and measured mobilization performance beyond the initial grant.",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "December 31, 2028: whether an EU module completes a three-vessel, three-day installation test.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break:watch:a17864c8f46e",
-          "text": "December 31, 2028: whether OMS takes delivery of CS Resilience and assigns it to operational work.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "December 31, 2028: whether OMS takes delivery of CS Resilience and assigns it to operational work.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break:watch:0f07bf549cd3",
-          "text": "December 31, 2030: whether Europe signs a three-year repair-availability contract with a mobilization SLA.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "December 31, 2030: whether Europe signs a three-year repair-availability contract with a mobilization SLA.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break:watch:cbf5e3b880de",
-          "text": "Next clustered fault: whether restoration delay is caused by dispatch constraints or inadequate rerouting capacity.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Next clustered fault: whether restoration delay is caused by dispatch constraints or inadequate rerouting capacity.",
+          "source_text": "First public availability renewal: look for continuing funding and measured mobilization performance beyond the initial grant.",
           "source_url": "",
           "source_urls": [],
           "state": "open",
@@ -18150,17 +18127,18 @@
         "label": "Queue & slot scarcity"
       },
       "analysis_lens": {
-        "key": "commercialization",
-        "label": "Commercialization"
+        "key": "constraint",
+        "label": "Constraint"
       },
-      "excerpt": "The standard explanation for the AI power problem is that data centers are arriving faster than utilities can expand the grid. That remains true. It no longer describes the entire constraint.",
+      "excerpt": "Updated September 23, 2026. Evidence reviewed through June 26, 2026. A developer can bypass a slow grid connection with on-site generation and still miss its energization year. Reuters reported large-frame gas-turbine lead times above five years; GE Vernova ended Q1 2026 with 56 GW of production-slot reservations.",
       "image": {
         "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-d3504c7623b1d316.png",
         "alt": "Altbach Gas Turbine Plant"
       },
       "report_stage": {
-        "public_cycle_complete_by_sections": true,
-        "public_cycle_complete_by_run_manifest": true
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
       },
       "data_series": [
         {
@@ -18411,57 +18389,69 @@
       ],
       "watch_signals": [
         {
-          "signal_id": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade:watch:ea04318b96ae",
-          "text": "By December 31, 2026, Project Kilby reaches formal FID with financing, permits and notice to proceed.",
+          "signal_id": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade:watch:6d4d58553a21",
+          "text": "Kilby FID. As of June 26, 2026, Chevron still targeted a formal decision by December 31, 2026. Board approval, financing, material permits and notice to proceed would confirm progress",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "By December 31, 2026, Project Kilby reaches formal FID with financing, permits and notice to proceed.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "Kilby FID. As of June 26, 2026, Chevron still targeted a formal decision by December 31, 2026. Board approval, financing, material permits and notice to proceed would confirm progress; another delay despite secured offtake and equipment would point to other pacing gates. (Chevron-Microsoft agreement) (Reuters Kilby update)",
+          "source_url": "https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center",
+          "source_urls": [
+            "https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center",
+            "https://www.reuters.com/legal/litigation/chevron-eyes-more-deals-power-us-data-centers-2026-06-26/"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade:watch:b017415a63b2",
-          "text": "By June 30, 2027, two major OEMs offer standard large-frame delivery within 36 months.",
+          "signal_id": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade:watch:9925d2c73923",
+          "text": "another delay despite secured offtake and equipment would point to other pacing gates. (Chevron-Microsoft agreement) (Reuters Kilby update)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "By June 30, 2027, two major OEMs offer standard large-frame delivery within 36 months.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "Kilby FID. As of June 26, 2026, Chevron still targeted a formal decision by December 31, 2026. Board approval, financing, material permits and notice to proceed would confirm progress; another delay despite secured offtake and equipment would point to other pacing gates. (Chevron-Microsoft agreement) (Reuters Kilby update)",
+          "source_url": "https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center",
+          "source_urls": [
+            "https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center",
+            "https://www.reuters.com/legal/litigation/chevron-eyes-more-deals-power-us-data-centers-2026-06-26/"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade:watch:97a808fd63f0",
-          "text": "GE’s backlog-plus-reservations decline for two consecutive quarters while shipments rise without cancellation-driven attrition.",
+          "signal_id": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade:watch:0ef4da0dce84",
+          "text": "Large-frame delivery windows. From a June 26, 2026 base, check by June 30, 2027 whether two named OEMs publicly quote standard delivery within 36 months. If they do, sustained turbine-slot scarcity is weakening. (Wood Mackenzie turbine outlook)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "GE’s backlog-plus-reservations decline for two consecutive quarters while shipments rise without cancellation-driven attrition.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "Large-frame delivery windows. From a June 26, 2026 base, check by June 30, 2027 whether two named OEMs publicly quote standard delivery within 36 months. If they do, sustained turbine-slot scarcity is weakening. (Wood Mackenzie turbine outlook)",
+          "source_url": "https://www.woodmac.com/press-releases/gas-turbine-prices-soar-195-as-market-faces-supply-demand-crisis/",
+          "source_urls": [
+            "https://www.woodmac.com/press-releases/gas-turbine-prices-soar-195-as-market-faces-supply-demand-crisis/"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade:watch:917b8d09c627",
-          "text": "By December 31, 2027, Circe supplies at least 100 MW to data-center load for 30 consecutive days.",
+          "signal_id": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade:watch:a8b937462da8",
+          "text": "GE queue quality. GE Vernova's Q1 2026 base was 44 GW of firm backlog and 56 GW of slot reservations. In two consecutive quarterly reports published by December 31, 2027, reconcile changes in both pools with disclosed new reservations, conversions, shipments and cancellations. A smaller combined queue with rising shipments signals supply relief only if those flows rule out cancellation-led shrinkage. If cancellations or reservation terms remain undisclosed, the result is inconclusive. (GE Vernova Q1 2026 results)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "By December 31, 2027, Circe supplies at least 100 MW to data-center load for 30 consecutive days.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "GE queue quality. GE Vernova's Q1 2026 base was 44 GW of firm backlog and 56 GW of slot reservations. In two consecutive quarterly reports published by December 31, 2027, reconcile changes in both pools with disclosed new reservations, conversions, shipments and cancellations. A smaller combined queue with rising shipments signals supply relief only if those flows rule out cancellation-led shrinkage. If cancellations or reservation terms remain undisclosed, the result is inconclusive. (GE Vernova Q1 2026 results)",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000063/gevpressrelease1q26.htm",
+          "source_urls": [
+            "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000063/gevpressrelease1q26.htm"
+          ],
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade:watch:3e2466344970",
-          "text": "By December 31, 2030, at least 1 GW of the named large-frame cohort reaches verified operation.",
+          "signal_id": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade:watch:4c4b455a1f29",
+          "text": "Circe's operating bypass. From Cummins' June 16, 2026 announcement, test by December 31, 2027 whether at least 100 MW supplies a named data-center load for 30 consecutive days in the intended configuration. That operating milestone would weaken the claim that large-frame access controls early energization. (Cummins-Circe agreement)",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "By December 31, 2030, at least 1 GW of the named large-frame cohort reaches verified operation.",
-          "source_url": "",
-          "source_urls": [],
+          "source_text": "Circe's operating bypass. From Cummins' June 16, 2026 announcement, test by December 31, 2027 whether at least 100 MW supplies a named data-center load for 30 consecutive days in the intended configuration. That operating milestone would weaken the claim that large-frame access controls early energization. (Cummins-Circe agreement)",
+          "source_url": "https://www.cummins.com/en-na/news/releases/2026/06/16/cummins-natural-gas-generators-power-large-scale-data-centers-west-texas",
+          "source_urls": [
+            "https://www.cummins.com/en-na/news/releases/2026/06/16/cummins-natural-gas-generators-power-large-scale-data-centers-west-texas"
+          ],
           "state": "open",
           "settlement": null
         }
