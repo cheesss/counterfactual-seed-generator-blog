@@ -2,32 +2,32 @@
   "schema_version": 3,
   "summary": {
     "articles": 66,
-    "data_series": 246,
+    "data_series": 248,
     "calendar_year_card_candidates_excluded": 5,
     "watch": {
-      "tracked_articles": 56,
-      "signals": 296,
+      "tracked_articles": 58,
+      "signals": 308,
       "resolved": 0,
       "states": {
-        "open": 296,
+        "open": 308,
         "confirmed": 0,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 296
+        "explicit_bullet": 308
       },
       "unstructured_watch_sections": 4,
       "unpublished_prose_candidates": 17
     },
     "report_stage": {
-      "complete_by_sections": 46,
-      "complete_by_run_manifest": 0,
+      "complete_by_sections": 48,
+      "complete_by_run_manifest": 2,
       "coverage_statuses": {
-        "current-incomplete": 15,
+        "current-incomplete": 13,
         "legacy-migration-gap": 5,
         "legacy-complete": 45,
-        "current-complete": 1
+        "current-complete": 3
       }
     },
     "outcome_ledger": {
@@ -173,7 +173,7 @@
     {
       "slug": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem",
       "slug_source": "publication_registry",
-      "title": "The HVAC refrigerant transition ran into a cylinder problem",
+      "title": "The refrigerant transition needed a second delivery system",
       "url": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
       "date": "2026-09-24",
       "updated": "2026-09-24",
@@ -194,22 +194,103 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "The 2025 U.S. HVAC refrigerant disruption was not simply a shortage of compliant equipment or of bulk R-454B. EPA found that the refrigerant existed in sufficient supply, while contractors could not reliably obtain it in the service cylinders needed for installation and repair. The constraint sat in filling, down-packing, distribution and field readiness.",
+      "excerpt": "EPA documented sufficient bulk R-454B during the 2025 transition alongside regional difficulty obtaining service cylinders. Carrier later reported delivery relief after securing cylinders and down-packing capacity; Chemours subsequently described stabilizing availability.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png",
-        "alt": "Industrial refrigeration compressor"
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-af99de256299187f.png",
+        "alt": "R-134a refrigerant cylinder and packaging"
       },
       "report_stage": {
-        "public_cycle_complete_by_sections": false,
-        "public_cycle_complete_by_run_manifest": false,
-        "coverage_status": "current-incomplete"
+        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_run_manifest": true,
+        "coverage_status": "current-complete"
       },
       "data_series": [],
       "card_metrics": [],
-      "watch_signals": [],
+      "watch_signals": [
+        {
+          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:a2b87183790c",
+          "text": "R-454B replenishment, base September 29, 2026",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "R-454B replenishment, base September 29, 2026; review November 30, 2027: track May-September 2027 orders and linked jobs in a fixed panel of three unrelated distributors, retaining rejected orders. Dependable deliveries and completions support relief in those channels; recurrent cylinder-attributable stoppages despite available equipment and bulk refrigerant weaken it. (Carrier fulfillment statement)",
+          "source_url": "https://www.carrier.com/residential/en/us/news/news-article/carrier-enables-2-week-delivery-for-r-454b-refrigerant-orders-with-no-quantity-or-bundling-limitations.html",
+          "source_urls": [
+            "https://www.carrier.com/residential/en/us/news/news-article/carrier-enables-2-week-delivery-for-r-454b-refrigerant-orders-with-no-quantity-or-bundling-limitations.html"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:3a56a24d9189",
+          "text": "review November 30, 2027: track May-September 2027 orders and linked jobs in a fixed panel of three unrelated distributors, retaining rejected orders. Dependable deliveries and completions support relief in those channels",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "R-454B replenishment, base September 29, 2026; review November 30, 2027: track May-September 2027 orders and linked jobs in a fixed panel of three unrelated distributors, retaining rejected orders. Dependable deliveries and completions support relief in those channels; recurrent cylinder-attributable stoppages despite available equipment and bulk refrigerant weaken it. (Carrier fulfillment statement)",
+          "source_url": "https://www.carrier.com/residential/en/us/news/news-article/carrier-enables-2-week-delivery-for-r-454b-refrigerant-orders-with-no-quantity-or-bundling-limitations.html",
+          "source_urls": [
+            "https://www.carrier.com/residential/en/us/news/news-article/carrier-enables-2-week-delivery-for-r-454b-refrigerant-orders-with-no-quantity-or-bundling-limitations.html"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:59f534dc9dc1",
+          "text": "recurrent cylinder-attributable stoppages despite available equipment and bulk refrigerant weaken it. (Carrier fulfillment statement)",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "R-454B replenishment, base September 29, 2026; review November 30, 2027: track May-September 2027 orders and linked jobs in a fixed panel of three unrelated distributors, retaining rejected orders. Dependable deliveries and completions support relief in those channels; recurrent cylinder-attributable stoppages despite available equipment and bulk refrigerant weaken it. (Carrier fulfillment statement)",
+          "source_url": "https://www.carrier.com/residential/en/us/news/news-article/carrier-enables-2-week-delivery-for-r-454b-refrigerant-orders-with-no-quantity-or-bundling-limitations.html",
+          "source_urls": [
+            "https://www.carrier.com/residential/en/us/news/news-article/carrier-enables-2-week-delivery-for-r-454b-refrigerant-orders-with-no-quantity-or-bundling-limitations.html"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:2d7b78475a83",
+          "text": "REFRESH repeat payments, base September 29, 2026",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "REFRESH repeat payments, base September 29, 2026; by December 31, 2027: three distinct contractors each receiving payment for the second of two separately accepted R-410A returns made after the base date would demonstrate repeat paid recovery. One-off returns or acceptance without payment do not meet that threshold. (REFRESH program) (Hudson recovery-payment terms)",
+          "source_url": "https://fripfunding.com/residential-reclaim/",
+          "source_urls": [
+            "https://fripfunding.com/residential-reclaim/",
+            "https://www.hudsontech.com/refresh-program/"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:cc9db8fe9d7b",
+          "text": "by December 31, 2027: three distinct contractors each receiving payment for the second of two separately accepted R-410A returns made after the base date would demonstrate repeat paid recovery. One-off returns or acceptance without payment do not meet that threshold. (REFRESH program) (Hudson recovery-payment terms)",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "REFRESH repeat payments, base September 29, 2026; by December 31, 2027: three distinct contractors each receiving payment for the second of two separately accepted R-410A returns made after the base date would demonstrate repeat paid recovery. One-off returns or acceptance without payment do not meet that threshold. (REFRESH program) (Hudson recovery-payment terms)",
+          "source_url": "https://fripfunding.com/residential-reclaim/",
+          "source_urls": [
+            "https://fripfunding.com/residential-reclaim/",
+            "https://www.hudsontech.com/refresh-program/"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:e3fb9e0fb599",
+          "text": "San Antonio execution, base September 29, 2026; by December 31, 2028: one named multifamily A2L project receiving final mechanical approval with plans expressly using CI-2025-002 would demonstrate execution of the local route. Documented refusals would weaken its practical usefulness. (San Antonio interpretation)",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "San Antonio execution, base September 29, 2026; by December 31, 2028: one named multifamily A2L project receiving final mechanical approval with plans expressly using CI-2025-002 would demonstrate execution of the local route. Documented refusals would weaken its practical usefulness. (San Antonio interpretation)",
+          "source_url": "https://docsonline.sanantonio.gov/FileUploads/DSD/CI-2025-002-A2LRefrigerant.pdf",
+          "source_urls": [
+            "https://docsonline.sanantonio.gov/FileUploads/DSD/CI-2025-002-A2LRefrigerant.pdf"
+          ],
+          "state": "open",
+          "settlement": null
+        }
+      ],
       "watch_extraction": {
-        "status": "missing",
-        "source_heading": "",
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
         "unpublished_candidate_count": 0
       }
     },
@@ -302,7 +383,7 @@
     {
       "slug": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem",
       "slug_source": "publication_registry",
-      "title": "Counter-UAS is becoming an operating-authority problem",
+      "title": "Counter-Drone Protection: Turning Purchases into Staffed Coverage",
       "url": "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html",
       "date": "2026-09-24",
       "updated": "2026-09-24",
@@ -323,22 +404,191 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "Counter-drone hardware can be bought, tested and fielded quickly. Domestic deployment is slower because an active system must be connected to a lawful operator, a site plan, aviation and spectrum coordination, trained personnel, evidence handling and a continuing audit trail. The 2025-26 U.S. reforms widened authority, but they also made the operating stack visible.",
+      "excerpt": "Published September 24, 2026. Updated September 29, 2026. Los Angeles’s April 3, 2026 financing report described trained counter-drone personnel waiting for equipment. The city proposed front-funding a $9,770,209 purchase while grant reimbursements were paused. Delivery was expected within 70 days after receipt of the city’s payment.",
       "image": {
         "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-0d1525e7b8477fd8.png",
         "alt": "Counter-UAS training"
       },
       "report_stage": {
-        "public_cycle_complete_by_sections": false,
-        "public_cycle_complete_by_run_manifest": false,
-        "coverage_status": "current-incomplete"
+        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_run_manifest": true,
+        "coverage_status": "current-complete"
       },
-      "data_series": [],
-      "card_metrics": [],
-      "watch_signals": [],
+      "data_series": [
+        {
+          "metric": "Dallas counter-UAS purchasing addition approved May 13, 2026",
+          "points": [
+            {
+              "label": "Dallas counter-UAS purchasing addition approved May 13, 2026",
+              "value": 10382400.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 10382400.0,
+            "value_text": "10,382,400",
+            "unit": "",
+            "metric": "Dallas counter-UAS purchasing addition approved May 13, 2026",
+            "point_label": "Dallas counter-UAS purchasing addition approved May 13, 2026",
+            "display_label": "Dallas counter-UAS purchasing addition approved May 13, 2026",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "$10,382,400 | Dallas counter-UAS purchasing addition approved May 13, 2026",
+            "source_urls": []
+          }
+        },
+        {
+          "metric": "San Bernardino detection agreement approved June 23, 2026",
+          "points": [
+            {
+              "label": "San Bernardino detection agreement approved June 23, 2026",
+              "value": 1440732.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 1440732.0,
+            "value_text": "1,440,732",
+            "unit": "",
+            "metric": "San Bernardino detection agreement approved June 23, 2026",
+            "point_label": "San Bernardino detection agreement approved June 23, 2026",
+            "display_label": "San Bernardino detection agreement approved June 23, 2026",
+            "selection_mode": "single_point",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "$1,440,732 | San Bernardino detection agreement approved June 23, 2026",
+            "source_urls": []
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 10382400.0,
+          "value_text": "10,382,400",
+          "unit": "",
+          "metric": "Dallas counter-UAS purchasing addition approved May 13, 2026",
+          "point_label": "Dallas counter-UAS purchasing addition approved May 13, 2026",
+          "display_label": "Dallas counter-UAS purchasing addition approved May 13, 2026",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "$10,382,400 | Dallas counter-UAS purchasing addition approved May 13, 2026",
+            "source_urls": []
+          }
+        },
+        {
+          "value": 1440732.0,
+          "value_text": "1,440,732",
+          "unit": "",
+          "metric": "San Bernardino detection agreement approved June 23, 2026",
+          "point_label": "San Bernardino detection agreement approved June 23, 2026",
+          "display_label": "San Bernardino detection agreement approved June 23, 2026",
+          "selection_mode": "single_point",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "$1,440,732 | San Bernardino detection agreement approved June 23, 2026",
+            "source_urls": []
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:397bef0198c7",
+          "text": "Base date: September 29, 2026. September 30, 2026–March 31, 2027: An effective successor FCC instrument supplies class-wide eligible SLTT mitigation spectrum authority beyond the original term. Proposals, manufacturer test authorizations and single-agency grants do not qualify",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Base date: September 29, 2026. September 30, 2026–March 31, 2027: An effective successor FCC instrument supplies class-wide eligible SLTT mitigation spectrum authority beyond the original term. Proposals, manufacturer test authorizations and single-agency grants do not qualify; uninterrupted coverage is not required. (FCC baseline order)",
+          "source_url": "https://docs.fcc.gov/public/attachments/DA-26-656A1.pdf",
+          "source_urls": [
+            "https://docs.fcc.gov/public/attachments/DA-26-656A1.pdf"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:f3635be5d183",
+          "text": "uninterrupted coverage is not required. (FCC baseline order)",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Base date: September 29, 2026. September 30, 2026–March 31, 2027: An effective successor FCC instrument supplies class-wide eligible SLTT mitigation spectrum authority beyond the original term. Proposals, manufacturer test authorizations and single-agency grants do not qualify; uninterrupted coverage is not required. (FCC baseline order)",
+          "source_url": "https://docs.fcc.gov/public/attachments/DA-26-656A1.pdf",
+          "source_urls": [
+            "https://docs.fcc.gov/public/attachments/DA-26-656A1.pdf"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:d25f4b53f393",
+          "text": "Base date: September 29, 2026. September 30, 2026–June 30, 2027: FAA delivers its substantive integration update to GAO, established by dated submission or acknowledgment—not another promise, deployment clearance or recommendation closure. (GAO update milestone)",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Base date: September 29, 2026. September 30, 2026–June 30, 2027: FAA delivers its substantive integration update to GAO, established by dated submission or acknowledgment—not another promise, deployment clearance or recommendation closure. (GAO update milestone)",
+          "source_url": "https://www.gao.gov/products/gao-24-107195",
+          "source_urls": [
+            "https://www.gao.gov/products/gao-24-107195"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:69a349d0600b",
+          "text": "Base date: September 29, 2026. September 30, 2026–September 30, 2027: NYPD completes an additional independent mitigation-ready window with qualified staffing, eligible available equipment and applicable coordination. No hostile engagement is required",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Base date: September 29, 2026. September 30, 2026–September 30, 2027: NYPD completes an additional independent mitigation-ready window with qualified staffing, eligible available equipment and applicable coordination. No hostile engagement is required; detection-only, ordinary confiscation and exclusively federal coverage do not qualify. (NYPD operating baseline)",
+          "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/transcript--mayor-mamdani-joins-nypd-commissioner-jessica-s--tis2",
+          "source_urls": [
+            "https://www.nyc.gov/mayors-office/news/2026/09/transcript--mayor-mamdani-joins-nypd-commissioner-jessica-s--tis2"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:1948e95c04c2",
+          "text": "detection-only, ordinary confiscation and exclusively federal coverage do not qualify. (NYPD operating baseline)",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Base date: September 29, 2026. September 30, 2026–September 30, 2027: NYPD completes an additional independent mitigation-ready window with qualified staffing, eligible available equipment and applicable coordination. No hostile engagement is required; detection-only, ordinary confiscation and exclusively federal coverage do not qualify. (NYPD operating baseline)",
+          "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/transcript--mayor-mamdani-joins-nypd-commissioner-jessica-s--tis2",
+          "source_urls": [
+            "https://www.nyc.gov/mayors-office/news/2026/09/transcript--mayor-mamdani-joins-nypd-commissioner-jessica-s--tis2"
+          ],
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:652b5ce45a40",
+          "text": "Base date: September 29, 2026. September 30, 2026–December 31, 2027: An accredited provider completes mitigation-ready coverage for a different, non-accredited host under a written regional arrangement, retaining responsibility and supplying qualified personnel. An unused agreement, detection-only service or exclusively federal operation does not qualify. (regional-support pathway)",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Base date: September 29, 2026. September 30, 2026–December 31, 2027: An accredited provider completes mitigation-ready coverage for a different, non-accredited host under a written regional arrangement, retaining responsibility and supplying qualified personnel. An unused agreement, detection-only service or exclusively federal operation does not qualify. (regional-support pathway)",
+          "source_url": "https://www.ecfr.gov/current/title-28/chapter-I/part-124/section-124.4",
+          "source_urls": [
+            "https://www.ecfr.gov/current/title-28/chapter-I/part-124/section-124.4"
+          ],
+          "state": "open",
+          "settlement": null
+        }
+      ],
       "watch_extraction": {
-        "status": "missing",
-        "source_heading": "",
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
         "unpublished_candidate_count": 0
       }
     },

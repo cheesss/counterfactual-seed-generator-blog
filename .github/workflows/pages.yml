@@ -10,6 +10,7 @@ name: Deploy GitHub Pages
   workflow_dispatch:
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -25,6 +26,8 @@ jobs:
     steps:
       - name: Check out the deployment commit
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -46,6 +49,16 @@ jobs:
           --site-root _site
           --site-url https://cheesss.github.io/counterfactual-seed-generator-blog
           --manifest _site/image-manifest.json
+
+      - name: Verify full release or baseline-preserving selected repair
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f _site/.publication-update.json ]; then
+            python scripts/static_update_baseline.py --site-root _site --baseline-repo .
+          else
+            python scripts/site_release_validator.py --site-root _site
+          fi
 
       - name: Configure Pages
         if: github.event_name != 'pull_request'

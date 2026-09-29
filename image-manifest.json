@@ -531,6 +531,14 @@
     },
     {
       "format": "PNG",
+      "height": 900,
+      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-af99de256299187f.png",
+      "sha256": "af99de256299187f2d875acca743b76dc62f2eea750a63526e74bf75fb16adc5",
+      "size": 1527832,
+      "width": 1600
+    },
+    {
+      "format": "PNG",
       "height": 630,
       "path": "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.png",
       "sha256": "cd63512eea6a9835c9519c3fdc0605c7963f4f8771f08b56c53398072dabea24",
@@ -1053,8 +1061,8 @@
       "format": "PNG",
       "height": 630,
       "path": "assets/og/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.png",
-      "sha256": "e9154bd4ced27ca323e058514ececb7f9d202c59947b6f9652e3e59bfe813ee5",
-      "size": 1142188,
+      "sha256": "8efce87127f26f91fce7766e8110f86abdddd214f8cba1e47a8d77fdf2060c88",
+      "size": 974063,
       "width": 1200
     },
     {
@@ -1671,9 +1679,9 @@
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png",
+      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-af99de256299187f.png",
       "surface": "$[2].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-af99de256299187f.png"
     },
     {
       "document": "blog-data.json",
@@ -3603,9 +3611,9 @@
     },
     {
       "document": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
-      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png",
+      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-af99de256299187f.png",
       "surface": "report-hero:img[src]",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-af99de256299187f.png"
     },
     {
       "document": "privacy.html",
@@ -3753,9 +3761,9 @@
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png",
+      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-af99de256299187f.png",
       "surface": "$.articles[2].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-af99de256299187f.png"
     },
     {
       "document": "publication-data.json",
@@ -5254,7 +5262,7 @@
           "surface": "$.articles[5].image.url"
         }
       ],
-      "title": "Counter-UAS is becoming an operating-authority problem"
+      "title": "Counter-Drone Protection: Turning Purchases into Staffed Coverage"
     },
     {
       "asset_path": "assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-2dc795bd1cd6a468.png",
@@ -5383,8 +5391,8 @@
       "title": "The hard part of resilient navigation is proving the whole system works"
     },
     {
-      "asset_path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png",
-      "asset_sha256": "3a465609a25bdd7b655cc996de4ce500ae77e662e4146304954cf8f5c6518ede",
+      "asset_path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-af99de256299187f.png",
+      "asset_sha256": "af99de256299187f2d875acca743b76dc62f2eea750a63526e74bf75fb16adc5",
       "report_path": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
       "slug": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem",
       "sources": [
@@ -5401,7 +5409,7 @@
           "surface": "$.articles[2].image.url"
         }
       ],
-      "title": "The HVAC refrigerant transition ran into a cylinder problem"
+      "title": "The refrigerant transition needed a second delivery system"
     }
   ],
   "schema_version": 2,

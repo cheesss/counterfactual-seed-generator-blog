@@ -14,6 +14,8 @@ DEPLOYMENT_MANIFEST_NAME = ".generated-site-manifest.json"
 DEPLOYMENT_SCHEMA_VERSION = 1
 OWNED_ROOT_FILES = {
     ".nojekyll",
+    ".publication-release.json",
+    ".publication-update.json",
     "404.html",
     "about.html",
     "blog-data.json",
