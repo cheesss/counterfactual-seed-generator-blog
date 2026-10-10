@@ -7,14 +7,14 @@
   <lastBuildDate>Thu, 24 Sep 2026 12:34:43 +0000</lastBuildDate>
 
   <item>
-    <title>The hard part of resilient navigation is proving the whole system works</title>
+    <title>Assured PNT: The Bottleneck Is Increasingly the Assurance Stack, Not the Sensor Shelf</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     <description>Critical infrastructure does not lack ideas for operating through a GPS disruption. Anti-jam receivers, authenticated signals, terrestrial timing, inertial sensors and alternative navigation systems all exist. The slower step is turning those components into a trusted operating capability: testing them against realistic interference, qualifying receivers, integrating them into platforms, clearing spectrum issues, obtaining certification and teaching operators what to do when navigation degrades.</description>
   </item>
   <item>
-    <title>The grid buildout is turning into a factory-calendar problem</title>
+    <title>HVDC Grid Superhighways: Factory Slots Are Becoming Part of the Critical Path</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
@@ -28,7 +28,7 @@
     <description>The 2025 U.S. HVAC refrigerant disruption was not simply a shortage of compliant equipment or of bulk R-454B. EPA found that the refrigerant existed in sufficient supply, while contractors could not reliably obtain it in the service cylinders needed for installation and repair. The constraint sat in filling, down-packing, distribution and field readiness.</description>
   </item>
   <item>
-    <title>Space is scaling faster than its traffic-control system</title>
+    <title>Orbital Traffic Coordination: The Control Plane Catching Up to Launch Scale</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
@@ -49,7 +49,7 @@
     <description>Counter-drone hardware can be bought, tested and fielded quickly. Domestic deployment is slower because an active system must be connected to a lawful operator, a site plan, aviation and spectrum coordination, trained personnel, evidence handling and a continuing audit trail. The 2025-26 U.S. reforms widened authority, but they also made the operating stack visible.</description>
   </item>
   <item>
-    <title>A critical-minerals mine is only as large as its waste system</title>
+    <title>The Hidden Capacity Constraint in Critical Minerals: Tailings, Water and Environmental Permits</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>

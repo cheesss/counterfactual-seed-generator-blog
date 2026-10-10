@@ -468,6 +468,14 @@
     {
       "format": "PNG",
       "height": 900,
+      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-c21c26ec047afd3b.png",
+      "sha256": "c21c26ec047afd3bb1201039bde84735f99015370895b0fcf06b7645de58e1ae",
+      "size": 2631863,
+      "width": 1600
+    },
+    {
+      "format": "PNG",
+      "height": 900,
       "path": "assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-0d1525e7b8477fd8.png",
       "sha256": "0d1525e7b8477fd86e1f921f30756d882137daddfb8734dbbb57c333266f6a25",
       "size": 3236211,
@@ -487,6 +495,14 @@
       "path": "assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-9ac594d8463abe1f.png",
       "sha256": "9ac594d8463abe1f7fdfa6782719106cc668457979531612439e4510dd62d26e",
       "size": 1144210,
+      "width": 1600
+    },
+    {
+      "format": "PNG",
+      "height": 900,
+      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-81649788fd5635f2.png",
+      "sha256": "81649788fd5635f2bb2fe2d4ead55e9d3627d5efacd1efa1a58a327c2391d294",
+      "size": 1960236,
       "width": 1600
     },
     {
@@ -516,9 +532,25 @@
     {
       "format": "PNG",
       "height": 900,
+      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-fa1d4104e1bebe7e.png",
+      "sha256": "fa1d4104e1bebe7ea50b881dda7ab6d6343114078a92fb5a617306efd9a7cebf",
+      "size": 2472027,
+      "width": 1600
+    },
+    {
+      "format": "PNG",
+      "height": 900,
       "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png",
       "sha256": "599b1dee6ac572c588ac9b687bdc42d5dbf1e7e7c2ca7939733968e954b86511",
       "size": 2567889,
+      "width": 1600
+    },
+    {
+      "format": "PNG",
+      "height": 900,
+      "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-6ab35e70580c8585.png",
+      "sha256": "6ab35e70580c8585decae40383303e234421f96bbf6b55bb0a14e46afb167df7",
+      "size": 2213892,
       "width": 1600
     },
     {
@@ -997,8 +1029,8 @@
       "format": "PNG",
       "height": 630,
       "path": "assets/og/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.png",
-      "sha256": "c7a3de31fc13ee01286fba6c00874f90ed6f1c543bb1992d5ad6db250b9496d2",
-      "size": 1326547,
+      "sha256": "95628e1d8963624aa3258ca53cea25f4f82a51d95dcf0f30172a6b2404568b6b",
+      "size": 1534068,
       "width": 1200
     },
     {
@@ -1029,8 +1061,8 @@
       "format": "PNG",
       "height": 630,
       "path": "assets/og/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.png",
-      "sha256": "ab7ca167e236b68ad2c4b84be1057dff1b073cf3785821139db928bb1b6d980f",
-      "size": 1252554,
+      "sha256": "0e131ec60bb18d4678fe383e5025a6e10b8f070c8c84659b34d5050acb34c82e",
+      "size": 1208673,
       "width": 1200
     },
     {
@@ -1045,16 +1077,16 @@
       "format": "PNG",
       "height": 630,
       "path": "assets/og/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.png",
-      "sha256": "8950d8ab4e5195c36b13d8007904449b6d951a4ddf0e5b440f7ad408e29798a9",
-      "size": 989068,
+      "sha256": "915d7cdcf481d1c638cf710fa194b337e5549e4a36c296eb3bc9be44e4320248",
+      "size": 1376770,
       "width": 1200
     },
     {
       "format": "PNG",
       "height": 630,
       "path": "assets/og/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.png",
-      "sha256": "28d0ea138ddfe90eacb7c2d23305f346c57a0d52908b754a78da2d166663e796",
-      "size": 1446813,
+      "sha256": "cd1ec2901fe040a9b00d5f2f25c37f1a1cda387d09b62420a152ffc1580a5468",
+      "size": 1149729,
       "width": 1200
     },
     {
@@ -1547,9 +1579,9 @@
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png",
+      "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-6ab35e70580c8585.png",
       "surface": "$[0].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-6ab35e70580c8585.png"
     },
     {
       "document": "blog-data.json",
@@ -1613,9 +1645,9 @@
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-49c19d9f17ef8ffd.png",
+      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-fa1d4104e1bebe7e.png",
       "surface": "$[1].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-49c19d9f17ef8ffd.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-fa1d4104e1bebe7e.png"
     },
     {
       "document": "blog-data.json",
@@ -1745,9 +1777,9 @@
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png",
+      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-81649788fd5635f2.png",
       "surface": "$[3].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-81649788fd5635f2.png"
     },
     {
       "document": "blog-data.json",
@@ -1919,9 +1951,9 @@
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-8d780a0a0e1a24e7.png",
+      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-c21c26ec047afd3b.png",
       "surface": "$[6].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-8d780a0a0e1a24e7.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-c21c26ec047afd3b.png"
     },
     {
       "document": "blog-data.json",
@@ -3467,9 +3499,9 @@
     },
     {
       "document": "posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html",
-      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-8d780a0a0e1a24e7.png",
+      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-c21c26ec047afd3b.png",
       "surface": "report-hero:img[src]",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-8d780a0a0e1a24e7.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-c21c26ec047afd3b.png"
     },
     {
       "document": "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html",
@@ -3539,9 +3571,9 @@
     },
     {
       "document": "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html",
-      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png",
+      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-81649788fd5635f2.png",
       "surface": "report-hero:img[src]",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-81649788fd5635f2.png"
     },
     {
       "document": "posts/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.html",
@@ -3575,9 +3607,9 @@
     },
     {
       "document": "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html",
-      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-49c19d9f17ef8ffd.png",
+      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-fa1d4104e1bebe7e.png",
       "surface": "report-hero:img[src]",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-49c19d9f17ef8ffd.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-fa1d4104e1bebe7e.png"
     },
     {
       "document": "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html",
@@ -3593,9 +3625,9 @@
     },
     {
       "document": "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html",
-      "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png",
+      "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-6ab35e70580c8585.png",
       "surface": "report-hero:img[src]",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-6ab35e70580c8585.png"
     },
     {
       "document": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
@@ -3629,9 +3661,9 @@
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png",
+      "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-6ab35e70580c8585.png",
       "surface": "$.articles[0].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-6ab35e70580c8585.png"
     },
     {
       "document": "publication-data.json",
@@ -3695,9 +3727,9 @@
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-49c19d9f17ef8ffd.png",
+      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-fa1d4104e1bebe7e.png",
       "surface": "$.articles[1].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-49c19d9f17ef8ffd.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-fa1d4104e1bebe7e.png"
     },
     {
       "document": "publication-data.json",
@@ -3827,9 +3859,9 @@
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png",
+      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-81649788fd5635f2.png",
       "surface": "$.articles[3].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-81649788fd5635f2.png"
     },
     {
       "document": "publication-data.json",
@@ -4001,9 +4033,9 @@
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-8d780a0a0e1a24e7.png",
+      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-c21c26ec047afd3b.png",
       "surface": "$.articles[6].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-8d780a0a0e1a24e7.png"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-c21c26ec047afd3b.png"
     },
     {
       "document": "publication-data.json",
@@ -4044,7 +4076,7 @@
           "surface": "$.articles[60].image.url"
         }
       ],
-      "title": "When AI Power Moves On-Site, the Air Permit Becomes the Next Gate"
+      "title": "The AI Buildout\u2019s Next Constraint Is the Air Permit"
     },
     {
       "asset_path": "assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-d3504c7623b1d316.png",
@@ -5223,8 +5255,8 @@
       "title": "The Hidden Infrastructure Behind Inland Water Reuse"
     },
     {
-      "asset_path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-8d780a0a0e1a24e7.png",
-      "asset_sha256": "8d780a0a0e1a24e7a4f4da514587334ef9dfa95389b5135abb0e3ab5b4dfbaff",
+      "asset_path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-c21c26ec047afd3b.png",
+      "asset_sha256": "c21c26ec047afd3bb1201039bde84735f99015370895b0fcf06b7645de58e1ae",
       "report_path": "posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html",
       "slug": "2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system",
       "sources": [
@@ -5241,7 +5273,7 @@
           "surface": "$.articles[6].image.url"
         }
       ],
-      "title": "A critical-minerals mine is only as large as its waste system"
+      "title": "The Hidden Capacity Constraint in Critical Minerals: Tailings, Water and Environmental Permits"
     },
     {
       "asset_path": "assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-0d1525e7b8477fd8.png",
@@ -5307,8 +5339,8 @@
       "title": "Radiopharmaceutical Scale Is a Chain Problem: Decay, Qualification, Release, Transport and Licensed Administration"
     },
     {
-      "asset_path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png",
-      "asset_sha256": "b225047d297828fe459df9cda32759ba95c2d4402b88b100e4d883ecbedc762a",
+      "asset_path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-81649788fd5635f2.png",
+      "asset_sha256": "81649788fd5635f2bb2fe2d4ead55e9d3627d5efacd1efa1a58a327c2391d294",
       "report_path": "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html",
       "slug": "2026-09-24-space-is-scaling-faster-than-its-traffic-control-system",
       "sources": [
@@ -5325,7 +5357,7 @@
           "surface": "$.articles[3].image.url"
         }
       ],
-      "title": "Space is scaling faster than its traffic-control system"
+      "title": "Orbital Traffic Coordination: The Control Plane Catching Up to Launch Scale"
     },
     {
       "asset_path": "assets/heroes/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it-1d1cb2f1e43594a9.png",
@@ -5349,8 +5381,8 @@
       "title": "Sterilization capacity only counts when a device can actually use it"
     },
     {
-      "asset_path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-49c19d9f17ef8ffd.png",
-      "asset_sha256": "49c19d9f17ef8ffd445d53d3ca6977fd42cad0afd7ee74cf0ec1313d9a026144",
+      "asset_path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-fa1d4104e1bebe7e.png",
+      "asset_sha256": "fa1d4104e1bebe7ea50b881dda7ab6d6343114078a92fb5a617306efd9a7cebf",
       "report_path": "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html",
       "slug": "2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem",
       "sources": [
@@ -5367,11 +5399,11 @@
           "surface": "$.articles[1].image.url"
         }
       ],
-      "title": "The grid buildout is turning into a factory-calendar problem"
+      "title": "HVDC Grid Superhighways: Factory Slots Are Becoming Part of the Critical Path"
     },
     {
-      "asset_path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png",
-      "asset_sha256": "599b1dee6ac572c588ac9b687bdc42d5dbf1e7e7c2ca7939733968e954b86511",
+      "asset_path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-6ab35e70580c8585.png",
+      "asset_sha256": "6ab35e70580c8585decae40383303e234421f96bbf6b55bb0a14e46afb167df7",
       "report_path": "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html",
       "slug": "2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works",
       "sources": [
@@ -5388,7 +5420,7 @@
           "surface": "$.articles[0].image.url"
         }
       ],
-      "title": "The hard part of resilient navigation is proving the whole system works"
+      "title": "Assured PNT: The Bottleneck Is Increasingly the Assurance Stack, Not the Sensor Shelf"
     },
     {
       "asset_path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-af99de256299187f.png",

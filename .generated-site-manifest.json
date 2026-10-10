@@ -7,13 +7,13 @@
     },
     {
       "path": ".publication-update.json",
-      "sha256": "0a7d7db2d7a57ddd3b0fd0031c755dd02798c6c170e37b25d3ccb500b26ac5c3",
-      "size": 179261
+      "sha256": "c4c1e2ae0d289a0fc5bc773172b12c915229b2aeef44485d6542093a13582eb4",
+      "size": 197313
     },
     {
       "path": "404.html",
-      "sha256": "5168dc0d150646f3024a1717807a7bcff7cf21c5d29fba16fcf92b795ec9bce6",
-      "size": 117432
+      "sha256": "5281a4b532f3eef136387ca1684946a343d218135898e8a1b4047ab8e6f1db8f",
+      "size": 117615
     },
     {
       "path": "about.html",
@@ -311,6 +311,11 @@
       "size": 2547023
     },
     {
+      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-c21c26ec047afd3b.png",
+      "sha256": "c21c26ec047afd3bb1201039bde84735f99015370895b0fcf06b7645de58e1ae",
+      "size": 2631863
+    },
+    {
       "path": "assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-0d1525e7b8477fd8.png",
       "sha256": "0d1525e7b8477fd86e1f921f30756d882137daddfb8734dbbb57c333266f6a25",
       "size": 3236211
@@ -324,6 +329,11 @@
       "path": "assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-9ac594d8463abe1f.png",
       "sha256": "9ac594d8463abe1f7fdfa6782719106cc668457979531612439e4510dd62d26e",
       "size": 1144210
+    },
+    {
+      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-81649788fd5635f2.png",
+      "sha256": "81649788fd5635f2bb2fe2d4ead55e9d3627d5efacd1efa1a58a327c2391d294",
+      "size": 1960236
     },
     {
       "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png",
@@ -341,9 +351,19 @@
       "size": 1682531
     },
     {
+      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-fa1d4104e1bebe7e.png",
+      "sha256": "fa1d4104e1bebe7ea50b881dda7ab6d6343114078a92fb5a617306efd9a7cebf",
+      "size": 2472027
+    },
+    {
       "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png",
       "sha256": "599b1dee6ac572c588ac9b687bdc42d5dbf1e7e7c2ca7939733968e954b86511",
       "size": 2567889
+    },
+    {
+      "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-6ab35e70580c8585.png",
+      "sha256": "6ab35e70580c8585decae40383303e234421f96bbf6b55bb0a14e46afb167df7",
+      "size": 2213892
     },
     {
       "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3a465609a25bdd7b.png",
@@ -642,8 +662,8 @@
     },
     {
       "path": "assets/og/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.png",
-      "sha256": "c7a3de31fc13ee01286fba6c00874f90ed6f1c543bb1992d5ad6db250b9496d2",
-      "size": 1326547
+      "sha256": "95628e1d8963624aa3258ca53cea25f4f82a51d95dcf0f30172a6b2404568b6b",
+      "size": 1534068
     },
     {
       "path": "assets/og/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.png",
@@ -662,8 +682,8 @@
     },
     {
       "path": "assets/og/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.png",
-      "sha256": "ab7ca167e236b68ad2c4b84be1057dff1b073cf3785821139db928bb1b6d980f",
-      "size": 1252554
+      "sha256": "0e131ec60bb18d4678fe383e5025a6e10b8f070c8c84659b34d5050acb34c82e",
+      "size": 1208673
     },
     {
       "path": "assets/og/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.png",
@@ -672,13 +692,13 @@
     },
     {
       "path": "assets/og/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.png",
-      "sha256": "8950d8ab4e5195c36b13d8007904449b6d951a4ddf0e5b440f7ad408e29798a9",
-      "size": 989068
+      "sha256": "915d7cdcf481d1c638cf710fa194b337e5549e4a36c296eb3bc9be44e4320248",
+      "size": 1376770
     },
     {
       "path": "assets/og/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.png",
-      "sha256": "28d0ea138ddfe90eacb7c2d23305f346c57a0d52908b754a78da2d166663e796",
-      "size": 1446813
+      "sha256": "cd1ec2901fe040a9b00d5f2f25c37f1a1cda387d09b62420a152ffc1580a5468",
+      "size": 1149729
     },
     {
       "path": "assets/og/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.png",
@@ -692,8 +712,8 @@
     },
     {
       "path": "blog-data.json",
-      "sha256": "073b7db8a56f38ec3b284655d099ca938ea6f77b9a475cb344ea907024ca9db4",
-      "size": 48113
+      "sha256": "fdb2067f297997b1f251f4b2acd29f2f31d574fd9cd12aff21ef57cd15ee5b52",
+      "size": 47628
     },
     {
       "path": "disclaimer.html",
@@ -707,33 +727,33 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "e057eea14ec6d76104157018e279d7a740980dd0bec3f3047d12961ea7ded635",
-      "size": 25868
+      "sha256": "ec1104b67af73c84004438b69e8ace3da8b6961f5668bbe0be237bd151e79fbd",
+      "size": 25952
     },
     {
       "path": "image-manifest.json",
-      "sha256": "32829dfea437064d7bfc295c1d33445d0278031e069ae31db447252f1aad67f2",
-      "size": 284182
+      "sha256": "ba0e6b701a6b8b0feb7acf9b69a698c078a94a71866932ba3ad6771617f280d7",
+      "size": 285497
     },
     {
       "path": "index.html",
-      "sha256": "5168dc0d150646f3024a1717807a7bcff7cf21c5d29fba16fcf92b795ec9bce6",
-      "size": 117432
+      "sha256": "5281a4b532f3eef136387ca1684946a343d218135898e8a1b4047ab8e6f1db8f",
+      "size": 117615
     },
     {
       "path": "ledger.html",
-      "sha256": "a8429f1ff0dd2d0609d01af9619016579470e6d1b88ce693ba40724adc68eead",
-      "size": 85066
+      "sha256": "7208d937b247875d964b5bc25a154129fecc11491c10461dfa8a15d532cb57dd",
+      "size": 85054
     },
     {
       "path": "patterns.html",
-      "sha256": "2bc5572347d0ce2bdc20798727710fc793ae010862769e1e05a71abc8a95de4c",
-      "size": 46193
+      "sha256": "074cdc9e060e083d15374dfcb6638f6027ca42600a667ab76d3145603a3889ea",
+      "size": 46265
     },
     {
       "path": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
-      "sha256": "43b47f01615810377c79111088d80adfda7c232e82a51c7ed95ccbec1571e9a5",
-      "size": 34394
+      "sha256": "59ad88e8f8e43efca86749c1d312a0dedf11fb3d7ffb8ee17087db10c4f35177",
+      "size": 43172
     },
     {
       "path": "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html",
@@ -1017,8 +1037,8 @@
     },
     {
       "path": "posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html",
-      "sha256": "1fca82fd7bfc8330ba29907896ce4e32981a736d2bc4c0089df2ea5aa881e3a3",
-      "size": 13810
+      "sha256": "8fa48dbe5428baf074ee0fe96d5d10105f65197137c337e81ba7a7a6a4664698",
+      "size": 36571
     },
     {
       "path": "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html",
@@ -1037,8 +1057,8 @@
     },
     {
       "path": "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html",
-      "sha256": "72cf63f688610e136dff9566a81f6ca758fdfeafe62a571948bfd0940a54b649",
-      "size": 15724
+      "sha256": "a43fd5cce896c668733483a01b7c89be91eb95994f304057a68d61dd5cc82aae",
+      "size": 37310
     },
     {
       "path": "posts/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.html",
@@ -1047,13 +1067,13 @@
     },
     {
       "path": "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html",
-      "sha256": "894d5de330e70c270f4e8010eee517b1458f83fb55173ab14308f5f8ad2eb913",
-      "size": 15930
+      "sha256": "39e4ec79580a1f9042eeacb4a0c0c5cdaa09d1f46003964f9fd30eebe92d3e02",
+      "size": 42099
     },
     {
       "path": "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html",
-      "sha256": "dfb816cabf587d23e0ce9a6d0e2c84826363621cb407a82d72964165a53316e9",
-      "size": 14680
+      "sha256": "6e38c28ec9edd58ec60662ccdce0f22d941ecea0f9ad36fa490a9587f205a47f",
+      "size": 36092
     },
     {
       "path": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
@@ -1067,8 +1087,8 @@
     },
     {
       "path": "publication-data.json",
-      "sha256": "bff80c175ed04f47aaccd0dd162f7529fed1a914fdd9cd81fbe60a90580eb777",
-      "size": 841905
+      "sha256": "c12cab2a7d3e18fdd087566270b89f4f3c34fd0d040743069947cfd9f1523bec",
+      "size": 835118
     },
     {
       "path": "rgraph.js",

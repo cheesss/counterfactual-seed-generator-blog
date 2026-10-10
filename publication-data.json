@@ -5,20 +5,20 @@
     "data_series": 248,
     "calendar_year_card_candidates_excluded": 5,
     "watch": {
-      "tracked_articles": 58,
-      "signals": 308,
+      "tracked_articles": 57,
+      "signals": 303,
       "resolved": 0,
       "states": {
-        "open": 308,
+        "open": 303,
         "confirmed": 0,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 308
+        "explicit_bullet": 303
       },
-      "unstructured_watch_sections": 4,
-      "unpublished_prose_candidates": 17
+      "unstructured_watch_sections": 6,
+      "unpublished_prose_candidates": 32
     },
     "report_stage": {
       "complete_by_sections": 48,
@@ -87,7 +87,7 @@
     {
       "slug": "2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works",
       "slug_source": "publication_registry",
-      "title": "The hard part of resilient navigation is proving the whole system works",
+      "title": "Assured PNT: The Bottleneck Is Increasingly the Assurance Stack, Not the Sensor Shelf",
       "url": "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html",
       "date": "2026-09-24",
       "updated": "2026-09-24",
@@ -108,10 +108,10 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "Critical infrastructure does not lack ideas for operating through a GPS disruption. Anti-jam receivers, authenticated signals, terrestrial timing, inertial sensors and alternative navigation systems all exist. The slower step is turning those components into a trusted operating capability: testing them against realistic interference, qualifying receivers, integrating them into platforms, clearing spectrum issues, obtaining certification and teaching operators what to do when navigation degrades.",
+      "excerpt": "Once a positioning or timing source can meet a particular application's requirements, the constraint often moves downstream: proving that the installed system can detect bad information, continue through disruption and recover correctly. That is the defensible case for an assurance-and-integration industry around resilient positioning, navigation and timing, or PNT. It is not evidence that the underlying hardware problem has been solved everywhere.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-599b1dee6ac572c5.png",
-        "alt": "Hard-Schleienloch Nord-04ASD"
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-6ab35e70580c8585.png",
+        "alt": "PNT Delta Redesignated as Mission Delta 31 (241015-F-TD082-1003)"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": false,
@@ -122,15 +122,15 @@
       "card_metrics": [],
       "watch_signals": [],
       "watch_extraction": {
-        "status": "missing",
-        "source_heading": "",
-        "unpublished_candidate_count": 0
+        "status": "unstructured_prose",
+        "source_heading": "What To Watch",
+        "unpublished_candidate_count": 3
       }
     },
     {
       "slug": "2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem",
       "slug_source": "publication_registry",
-      "title": "The grid buildout is turning into a factory-calendar problem",
+      "title": "HVDC Grid Superhighways: Factory Slots Are Becoming Part of the Critical Path",
       "url": "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html",
       "date": "2026-09-24",
       "updated": "2026-09-24",
@@ -151,10 +151,10 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "Europe and the UK have announced enough offshore links and interconnectors to make the next decade of grid construction look like a civil-engineering boom. But the decisive scheduling problem is increasingly industrial: a project needs a compatible sequence of 525 kV cable, converter valves, transformer bays, test capacity, specialist engineers, vessels and commissioning windows. A permit creates the right to build. It does not reserve the machinery needed to do it.",
+      "excerpt": "A grid project can reserve its cable years before it has permission to build the substation at the other end.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-49c19d9f17ef8ffd.png",
-        "alt": "Initial Expeditionary Camp Setup at March Air Reserve Base (8074669)"
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-fa1d4104e1bebe7e.png",
+        "alt": "HVDC Submarine Cable Cross Section - from New Zealand Inter-island scheme"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": false,
@@ -165,9 +165,9 @@
       "card_metrics": [],
       "watch_signals": [],
       "watch_extraction": {
-        "status": "missing",
-        "source_heading": "",
-        "unpublished_candidate_count": 0
+        "status": "unstructured_prose",
+        "source_heading": "What To Watch",
+        "unpublished_candidate_count": 6
       }
     },
     {
@@ -297,7 +297,7 @@
     {
       "slug": "2026-09-24-space-is-scaling-faster-than-its-traffic-control-system",
       "slug_source": "publication_registry",
-      "title": "Space is scaling faster than its traffic-control system",
+      "title": "Orbital Traffic Coordination: The Control Plane Catching Up to Launch Scale",
       "url": "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html",
       "date": "2026-09-24",
       "updated": "2026-09-24",
@@ -318,10 +318,10 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "The commercial space story is usually told through rockets: cheaper launch, larger constellations and more payloads reaching orbit. But once a satellite separates from its launcher, it joins a shared operating environment with no global air-traffic controller. The question is becoming whether the data, standards and authority needed to coordinate spacecraft can scale as quickly as launch capacity.",
+      "excerpt": "A satellite needs more than a place in orbit. It needs a reliable account of where other objects will be, whether they can move, and what their operators intend to do. Launch supplies the asset; coordination helps make continued operation possible.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-b225047d297828fe.png",
-        "alt": "MIR Space Station Scale model"
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-81649788fd5635f2.png",
+        "alt": "STS-125 Orbital Debris"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": false,
@@ -332,9 +332,9 @@
       "card_metrics": [],
       "watch_signals": [],
       "watch_extraction": {
-        "status": "unstructured_prose",
-        "source_heading": "What to watch next",
-        "unpublished_candidate_count": 4
+        "status": "missing",
+        "source_heading": "",
+        "unpublished_candidate_count": 0
       }
     },
     {
@@ -595,7 +595,7 @@
     {
       "slug": "2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system",
       "slug_source": "publication_registry",
-      "title": "A critical-minerals mine is only as large as its waste system",
+      "title": "The Hidden Capacity Constraint in Critical Minerals: Tailings, Water and Environmental Permits",
       "url": "posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html",
       "date": "2026-09-24",
       "updated": "2026-09-24",
@@ -616,10 +616,10 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "The rush for copper, lithium, nickel and rare earths is usually measured in resource tonnes, refinery announcements and projected demand. Those numbers miss the infrastructure that turns an orebody into a durable operation: tailings storage, water treatment, waste-rock management, monitoring, financial assurance, permits and a closure plan that can survive regulatory and community scrutiny.",
+      "excerpt": "A mine can have a valuable deposit and still lack a workable system for what it cannot sell. Tailings placement, water management and closure obligations can determine the feasible design before construction begins. Once those conditions are met, the constraint can move elsewhere.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-8d780a0a0e1a24e7.png",
-        "alt": "Tiehm's buckwheat habitat"
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-c21c26ec047afd3b.png",
+        "alt": "WATER LEAKING FROM MINE TAILINGS POND AT IDARADO MILL FLOWS INTO THE SAN MIGUEL RIVER - NARA - 543670"
       },
       "report_stage": {
         "public_cycle_complete_by_sections": false,
@@ -631,8 +631,8 @@
       "watch_signals": [],
       "watch_extraction": {
         "status": "unstructured_prose",
-        "source_heading": "What to watch",
-        "unpublished_candidate_count": 2
+        "source_heading": "What To Watch",
+        "unpublished_candidate_count": 6
       }
     },
     {
@@ -18401,7 +18401,7 @@
     {
       "slug": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit",
       "slug_source": "publication_registry",
-      "title": "When AI Power Moves On-Site, the Air Permit Becomes the Next Gate",
+      "title": "The AI Buildout’s Next Constraint Is the Air Permit",
       "url": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
       "date": "2026-06-21",
       "updated": "2026-09-23",
@@ -18422,7 +18422,7 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "Updated September 23, 2026. Evidence cutoff: July 14, 2026. On-site generation brings data centers into the air-permitting system, but no documented campus delay yet settles the risk.",
+      "excerpt": "Evidence through October 10, 2026. A data center can secure electricity before its permanent utility connection arrives. It cannot assume that temporary electricity may remain temporary indefinitely. Bringing engines or turbines to the campus substitutes a power plant for a missing grid connection.",
       "image": {
         "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-fb3a4bae76dc86e8.png",
         "alt": "Power generator of a hospital data center"
@@ -18434,75 +18434,11 @@
       },
       "data_series": [],
       "card_metrics": [],
-      "watch_signals": [
-        {
-          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:0ea6b86f709b",
-          "text": "Virginia control-package permit: As of July 14, 2026, watch through June 30, 2027 for a final permit on an application filed under the post-July 1 APG-576 guidance that specifies the presumptive controls and testing. (Virginia DEQ) Issuance without material redesign or schedule slippage would weaken the pacing-constraint thesis",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Virginia control-package permit: As of July 14, 2026, watch through June 30, 2027 for a final permit on an application filed under the post-July 1 APG-576 guidance that specifies the presumptive controls and testing. (Virginia DEQ) Issuance without material redesign or schedule slippage would weaken the pacing-constraint thesis; a documented air-driven delay would strengthen it.",
-          "source_url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air/issued-air-permits-for-data-centers",
-          "source_urls": [
-            "https://www.deq.virginia.gov/news-info/shortcuts/permits/air/issued-air-permits-for-data-centers"
-          ],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:5ef1f87416d3",
-          "text": "a documented air-driven delay would strengthen it.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Virginia control-package permit: As of July 14, 2026, watch through June 30, 2027 for a final permit on an application filed under the post-July 1 APG-576 guidance that specifies the presumptive controls and testing. (Virginia DEQ) Issuance without material redesign or schedule slippage would weaken the pacing-constraint thesis; a documented air-driven delay would strengthen it.",
-          "source_url": "https://www.deq.virginia.gov/news-info/shortcuts/permits/air/issued-air-permits-for-data-centers",
-          "source_urls": [
-            "https://www.deq.virginia.gov/news-info/shortcuts/permits/air/issued-air-permits-for-data-centers"
-          ],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:836f6ffb25c2",
-          "text": "A documented commissioning delay: As of July 14, 2026, watch through December 31, 2028 for a named U.S. campus whose public record attributes at least 90 days of missed commercial operation primarily to air-permit issuance, source classification or insufficient permitted runtime. The 90-day cutoff is this column's monitoring threshold. No qualifying case, or records assigning delay to grid, gas, equipment or zoning, would weaken the thesis.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "A documented commissioning delay: As of July 14, 2026, watch through December 31, 2028 for a named U.S. campus whose public record attributes at least 90 days of missed commercial operation primarily to air-permit issuance, source classification or insufficient permitted runtime. The 90-day cutoff is this column's monitoring threshold. No qualifying case, or records assigning delay to grid, gas, equipment or zoning, would weaken the thesis.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:00d6ac94bbdd",
-          "text": "Southaven temporary-fleet disposition: As of July 14, 2026, the temporary fleet remained disputed. (Reuters, Southaven Turbine Dispute) Watch through June 30, 2028 for an agency order, court decision, permanent permit or documented removal that resolves the Mississippi fleet's legal or operating status. Removal or procedural resolution without an adverse stationary-source finding would weaken its value as a broader precedent",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Southaven temporary-fleet disposition: As of July 14, 2026, the temporary fleet remained disputed. (Reuters, Southaven Turbine Dispute) Watch through June 30, 2028 for an agency order, court decision, permanent permit or documented removal that resolves the Mississippi fleet's legal or operating status. Removal or procedural resolution without an adverse stationary-source finding would weaken its value as a broader precedent; continued disputed operation would leave the test unsettled.",
-          "source_url": "https://www.reuters.com/business/energy/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14/",
-          "source_urls": [
-            "https://www.reuters.com/business/energy/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14/"
-          ],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit:watch:e0df0caa4bc9",
-          "text": "continued disputed operation would leave the test unsettled.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Southaven temporary-fleet disposition: As of July 14, 2026, the temporary fleet remained disputed. (Reuters, Southaven Turbine Dispute) Watch through June 30, 2028 for an agency order, court decision, permanent permit or documented removal that resolves the Mississippi fleet's legal or operating status. Removal or procedural resolution without an adverse stationary-source finding would weaken its value as a broader precedent; continued disputed operation would leave the test unsettled.",
-          "source_url": "https://www.reuters.com/business/energy/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14/",
-          "source_urls": [
-            "https://www.reuters.com/business/energy/pollution-musks-unpermitted-xai-power-project-hits-hardest-black-communities-2026-07-14/"
-          ],
-          "state": "open",
-          "settlement": null
-        }
-      ],
+      "watch_signals": [],
       "watch_extraction": {
-        "status": "explicit_bullets",
-        "source_heading": "What to watch",
-        "unpublished_candidate_count": 0
+        "status": "unstructured_prose",
+        "source_heading": "What To Watch",
+        "unpublished_candidate_count": 6
       }
     },
     {
