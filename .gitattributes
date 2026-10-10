@@ -1,0 +1,2 @@
+scripts/site_release_validator.py text eol=lf
+scripts/static_update_validator.py text eol=lf

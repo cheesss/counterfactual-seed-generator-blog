@@ -2,7 +2,7 @@
 
 ``files`` and ``baseline_files`` are path-to-SHA-256 maps. The original
 selected-only aggregate bytes are carried in ``selected_artifacts`` as base64,
-so the embedded v1 proof can be checked without rewriting its hashes.
+so the embedded release proof can be checked without rewriting its hashes.
 Git repository/commit/run authenticity is the caller's separate responsibility.
 """
 from __future__ import annotations
@@ -250,8 +250,8 @@ def _selected_proof(site: Path, update: dict[str, Any], files: dict[str, str],
                     baseline_files: dict[str, str]) -> dict[str, dict[str, Any]]:
     proof = update.get("selected_release")
     if (not isinstance(proof, dict) or type(proof.get("schema_version")) is not int
-            or proof["schema_version"] != 1):
-        raise ReleaseFailure("selected_release must be a v1 proof object")
+            or proof["schema_version"] not in {artifact.SCHEMA_VERSION, artifact.PROFILE_SCHEMA_VERSION}):
+        raise ReleaseFailure("selected_release must be a supported release proof object")
     proof_files = _manifest(proof.get("files"))
     records = proof.get("articles")
     if not isinstance(records, list) or not records:
@@ -261,7 +261,7 @@ def _selected_proof(site: Path, update: dict[str, Any], files: dict[str, str],
                 or type(record["quality"].get("blocking_issue_count")) is not int):
             raise ReleaseFailure("malformed selected proof quality types")
     if artifact.RELEASE_FILE in proof_files or "image-manifest.json" in proof_files:
-        raise ReleaseFailure("selected proof contains unsupported v1 file inventory")
+        raise ReleaseFailure("selected proof contains unsupported file inventory")
     encoded = update.get("selected_artifacts")
     expected = set(proof_files) & AGGREGATE_ROOTS
     if not isinstance(encoded, dict) or set(encoded) != expected:

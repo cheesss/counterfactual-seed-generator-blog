@@ -8,9 +8,12 @@ import shutil
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 from scripts import site_release_validator as artifact
 from scripts import static_update_validator as validator
+
+from publication_proof_fixtures import append_repair, integrate_proof, invalid_scoped_records, stage_proof
 
 
 def write_json(path: Path, value: object) -> None:
@@ -460,6 +463,126 @@ class StaticUpdateTests(unittest.TestCase):
             self.skipTest("host does not permit creating symlinks")
         with self.assertRaisesRegex(validator.ReleaseFailure, "symbolic link"):
             self.validate()
+
+
+class ProfileStaticUpdateTests(StaticUpdateTests):
+    def setUp(self) -> None:
+        super().setUp()
+        integrate_proof(self.update["selected_release"])
+        seal(self.update["selected_release"])
+        self.refresh()
+
+    def test_nested_v2_validation_is_delegated_without_upgrading_outer_schema(self) -> None:
+        self.assertEqual(1, self.update["schema_version"])
+        self.assertEqual("static-selected-update-v1", self.update["kind"])
+        with mock.patch.object(artifact, "validate_release", wraps=artifact.validate_release) as validate:
+            self.assertEqual(2, self.validate()["verified_updates"])
+        validate.assert_called_once()
+
+    def test_known_profiles_require_their_own_complete_stages(self) -> None:
+        proof = self.update["selected_release"]
+        record = proof["articles"][1]
+        record["profile"] = artifact.EXHAUSTIVE_PROFILE
+        record["stages"] = [stage_proof(stage) for stage in artifact.PUBLIC_STAGES]
+        record["quality"].pop("review_scope")
+        record["quality"].pop("review_provenance")
+        proof["profile_contracts"][artifact.EXHAUSTIVE_PROFILE] = "a" * 64
+        seal(proof)
+        self.refresh()
+        self.assertEqual(2, self.validate()["verified_updates"])
+        record["stages"][0] = copy.deepcopy(proof["articles"][0]["stages"][0])
+        seal(proof)
+        self.refresh()
+        with self.assertRaisesRegex(validator.ReleaseFailure, "incomplete stage proof"):
+            self.validate()
+
+    def test_unknown_profiles_contracts_and_cross_profile_evidence_fail_closed(self) -> None:
+        original = copy.deepcopy(self.update["selected_release"])
+        mutations = {
+            "omitted profile": lambda p: p["articles"][0].pop("profile"),
+            "unknown profile": lambda p: p["articles"][0].update(profile="future-v1"),
+            "malformed profile": lambda p: p["articles"][0].update(profile=[]),
+            "omitted stage": lambda p: p["articles"][0]["stages"].pop(),
+            "mixed stages": lambda p: p["articles"][0]["stages"][0].update(stage="claim-audit"),
+            "mixed stage profile": lambda p: p["articles"][0]["stages"][0].update(profile=artifact.EXHAUSTIVE_PROFILE),
+            "missing contract": lambda p: p["profile_contracts"].clear(),
+            "unknown contract": lambda p: p["profile_contracts"].update({"future-v1": "a" * 64}),
+            "unused contract": lambda p: p["profile_contracts"].update({artifact.EXHAUSTIVE_PROFILE: "a" * 64}),
+            "invalid contract hash": lambda p: p["profile_contracts"].update({artifact.INTEGRATED_PROFILE: "bad"}),
+            "legacy schema blend": lambda p: p.update(required_stages=list(artifact.PUBLIC_STAGES)),
+            "review raw hash drift": lambda p: p["articles"][0]["stages"][-1].update(raw_sha256="7" * 64),
+            "scope tamper": lambda p: p["articles"][0]["quality"].update(review_scope="blanket-approval"),
+            "scope omitted": lambda p: p["articles"][0]["quality"].pop("review_scope"),
+            "provenance omitted": lambda p: p["articles"][0]["quality"].pop("review_provenance"),
+            "wrong report binding": lambda p: p["articles"][0]["quality"]["review_provenance"].update(report_sha256="0" * 64),
+        }
+        for name, mutate in mutations.items():
+            with self.subTest(mutation=name):
+                proof = copy.deepcopy(original)
+                mutate(proof)
+                self.update["selected_release"] = seal(proof)
+                self.refresh()
+                with self.assertRaises(validator.ReleaseFailure):
+                    self.validate()
+
+    def test_nested_reviewer_cannot_be_replaced_by_research_stage_or_rebound_hashes(self) -> None:
+        original = copy.deepcopy(self.update["selected_release"])
+        replacements = [original["articles"][0]["stages"][0]]
+        replacements.extend({field: "0" * 64} for field in ("prompt_sha256", "raw_sha256", "section_sha256"))
+        for replacement in replacements:
+            with self.subTest(replacement=replacement):
+                proof = copy.deepcopy(original)
+                proof["articles"][0]["quality"]["review_provenance"].update(**replacement)
+                self.update["selected_release"] = seal(proof)
+                self.refresh()
+                with self.assertRaisesRegex(validator.ReleaseFailure, "captured profile reviewer"):
+                    self.validate()
+
+    def test_unknown_or_noninteger_nested_schema_is_rejected(self) -> None:
+        for version in (True, False, 0, 3, "2", None):
+            with self.subTest(version=version):
+                self.update["selected_release"]["schema_version"] = version
+                seal(self.update["selected_release"])
+                self.refresh()
+                with self.assertRaisesRegex(validator.ReleaseFailure, "supported release proof"):
+                    self.validate()
+
+    def test_outer_schema_stays_v1_even_with_valid_v2_selected_release(self) -> None:
+        for version in (True, 2, "1", None):
+            with self.subTest(version=version):
+                self.update["schema_version"] = version
+                self.refresh()
+                with self.assertRaisesRegex(validator.ReleaseFailure, "unsupported static update profile"):
+                    self.validate()
+
+    def test_nested_format_only_and_affected_claim_proofs_are_accepted(self) -> None:
+        original = copy.deepcopy(self.update["selected_release"])
+        for scope in (artifact.FORMAT_REPAIR_SCOPE, artifact.CLAIM_REPAIR_SCOPE):
+            with self.subTest(scope=scope):
+                proof = copy.deepcopy(original)
+                append_repair(proof["articles"][0], scope)
+                self.update["selected_release"] = seal(proof)
+                self.refresh()
+                self.assertEqual({"status": "selected-update-ready", "verified_updates": 2,
+                                  "preserved_articles": 64}, self.validate())
+
+    def test_nested_composed_chain_and_affected_claim_checks_are_not_bypassed(self) -> None:
+        proof = self.update["selected_release"]
+        record = proof["articles"][0]
+        append_repair(record, artifact.FORMAT_REPAIR_SCOPE)
+        append_repair(record, artifact.CLAIM_REPAIR_SCOPE)
+        seal(proof)
+        self.refresh()
+        self.assertEqual(2, self.validate()["verified_updates"])
+        original = copy.deepcopy(proof)
+        for name, invalid in invalid_scoped_records(record):
+            with self.subTest(mutation=name):
+                proof = copy.deepcopy(original)
+                proof["articles"][0] = invalid
+                self.update["selected_release"] = seal(proof)
+                self.refresh()
+                with self.assertRaises(validator.ReleaseFailure):
+                    self.validate()
 
 
 if __name__ == "__main__":
