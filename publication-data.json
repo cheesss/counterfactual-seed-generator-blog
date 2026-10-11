@@ -2,30 +2,30 @@
   "schema_version": 3,
   "summary": {
     "articles": 66,
-    "data_series": 248,
+    "data_series": 236,
     "calendar_year_card_candidates_excluded": 5,
     "watch": {
-      "tracked_articles": 57,
-      "signals": 303,
+      "tracked_articles": 55,
+      "signals": 292,
       "resolved": 0,
       "states": {
-        "open": 303,
+        "open": 292,
         "confirmed": 0,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 303
+        "explicit_bullet": 292
       },
-      "unstructured_watch_sections": 6,
-      "unpublished_prose_candidates": 32
+      "unstructured_watch_sections": 7,
+      "unpublished_prose_candidates": 38
     },
     "report_stage": {
       "complete_by_sections": 48,
       "complete_by_run_manifest": 2,
       "coverage_statuses": {
-        "current-incomplete": 13,
-        "legacy-migration-gap": 5,
+        "current-incomplete": 15,
+        "legacy-migration-gap": 3,
         "legacy-complete": 45,
         "current-complete": 3
       }
@@ -1447,7 +1447,7 @@
     {
       "slug": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem",
       "slug_source": "publication_registry",
-      "title": "The transformer shortage is also an interoperability problem",
+      "title": "Standardized Universal Spare Transformers and Regional Recovery Pools",
       "url": "posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html",
       "date": "2026-08-29",
       "updated": "2026-08-29",
@@ -1468,7 +1468,7 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "The visible transformer problem is a factory queue. DOE’s 2024 review cited commonly quoted lead times of 36 months for large power transformers, with maximum quotations reaching 60 months. That alone is enough to make transformer supply a resilience issue after a major grid failure.",
+      "excerpt": "A transformer can be in stock and still be unusable at the substation that needs it. The recovery constraint is not inventory alone: a replacement must be available, electrically acceptable, transportable and ready for safe connection. Standardized design families, adaptable hardware and pooled reserves can improve that chain, but none substitutes for the other steps.",
       "image": {
         "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem-e94f0cec5adeb2de.png",
         "alt": "Alter Friedhof Gießen, Umspannhaus"
@@ -1476,418 +1476,60 @@
       "report_stage": {
         "public_cycle_complete_by_sections": false,
         "public_cycle_complete_by_run_manifest": false,
-        "coverage_status": "legacy-migration-gap"
+        "coverage_status": "current-incomplete"
       },
       "data_series": [
         {
-          "metric": "DOE FITT selected project funding (USD million)",
+          "metric": "Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing",
           "points": [
             {
-              "label": "Clemson SHAPE",
-              "value": 2.47,
-              "unit": "USD million"
-            },
-            {
-              "label": "Eaton hybrid",
-              "value": 2.94,
-              "unit": "USD million"
-            },
-            {
-              "label": "EPRI PowerHub",
-              "value": 2.88,
-              "unit": "USD million"
-            },
-            {
-              "label": "ERMCO DTE",
-              "value": 1.84,
-              "unit": "USD million"
-            },
-            {
-              "label": "GE FASST",
-              "value": 1.99,
-              "unit": "USD million"
-            },
-            {
-              "label": "GE universal spare",
-              "value": 2.99,
-              "unit": "USD million"
-            },
-            {
-              "label": "Resilient Power SolidFlex",
-              "value": 1.47,
-              "unit": "USD million"
-            },
-            {
-              "label": "Transforma DIRECT",
-              "value": 1.45,
-              "unit": "USD million"
+              "label": "Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing",
+              "value": 13467.0,
+              "unit": ""
             }
           ],
           "headline": {
-            "value": 2.99,
-            "value_text": "2.99",
-            "unit": "USD million",
-            "metric": "DOE FITT selected project funding (USD million)",
-            "point_label": "GE universal spare",
-            "display_label": "GE universal spare - DOE FITT selected project funding (USD million)",
-            "selection_mode": "largest_absolute_value",
+            "value": 13467.0,
+            "value_text": "13,467",
+            "unit": "",
+            "metric": "Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing",
+            "point_label": "Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing",
+            "display_label": "Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing",
+            "selection_mode": "single_point",
             "is_calendar_year": false,
             "card_eligible": true
           },
           "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Clemson SHAPE :: 2.47 :: USD million; Eaton hybrid :: 2.94 :: USD million; EPRI PowerHub :: 2.88 :: USD million; ERMCO DTE :: 1.84 :: USD million; GE FASST :: 1.99 :: USD million; GE universal spare :: 2.99 :: USD million; Resilient Power SolidFlex :: 1.47 :: USD million; Transforma DIRECT :: 1.45 :: USD million; Pittsburgh flexible distribution :: 2.50 :: USD million",
-            "source_urls": [
-              "https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer",
-              "https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf"
-            ]
-          }
-        },
-        {
-          "metric": "Selected U.S. transformer factory investments (USD million)",
-          "points": [
-            {
-              "label": "Hitachi South Boston",
-              "value": 457.0,
-              "unit": "USD million"
-            },
-            {
-              "label": "Eaton Jonesville",
-              "value": 340.0,
-              "unit": "USD million"
-            },
-            {
-              "label": "Prolec Goldsboro",
-              "value": 140.0,
-              "unit": "USD million"
-            }
-          ],
-          "headline": {
-            "value": 457.0,
-            "value_text": "457",
-            "unit": "USD million",
-            "metric": "Selected U.S. transformer factory investments (USD million)",
-            "point_label": "Hitachi South Boston",
-            "display_label": "Hitachi South Boston - Selected U.S. transformer factory investments (USD million)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Hitachi South Boston :: 457 :: USD million; Eaton Jonesville :: 340 :: USD million; Prolec Goldsboro :: 140 :: USD million",
-            "source_urls": [
-              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
-              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
-              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
-            ]
-          }
-        },
-        {
-          "metric": "Announced jobs at selected transformer factory expansions (jobs)",
-          "points": [
-            {
-              "label": "Hitachi South Boston",
-              "value": 825.0,
-              "unit": "jobs"
-            },
-            {
-              "label": "Eaton Jonesville",
-              "value": 700.0,
-              "unit": "jobs"
-            },
-            {
-              "label": "Prolec Goldsboro",
-              "value": 330.0,
-              "unit": "jobs"
-            }
-          ],
-          "headline": {
-            "value": 825.0,
-            "value_text": "825",
-            "unit": "jobs",
-            "metric": "Announced jobs at selected transformer factory expansions (jobs)",
-            "point_label": "Hitachi South Boston",
-            "display_label": "Hitachi South Boston - Announced jobs at selected transformer factory expansions (jobs)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Hitachi South Boston :: 825 :: jobs; Eaton Jonesville :: 700 :: jobs; Prolec Goldsboro :: 330 :: jobs",
-            "source_urls": [
-              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
-              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
-              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
-            ]
-          }
-        },
-        {
-          "metric": "Prolec Goldsboro annual transformer capacity bridge (units/year)",
-          "points": [
-            {
-              "label": "Existing capacity",
-              "value": 220.0,
-              "unit": "units/year"
-            },
-            {
-              "label": "Added capacity",
-              "value": 200.0,
-              "unit": "units/year"
-            },
-            {
-              "label": "Total expected",
-              "value": 420.0,
-              "unit": "units/year"
-            }
-          ],
-          "headline": {
-            "value": 420.0,
-            "value_text": "420",
-            "unit": "units/year",
-            "metric": "Prolec Goldsboro annual transformer capacity bridge (units/year)",
-            "point_label": "Total expected",
-            "display_label": "Total expected - Prolec Goldsboro annual transformer capacity bridge (units/year)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Existing capacity :: 220 :: units/year; Added capacity :: 200 :: units/year; Total expected :: 420 :: units/year",
-            "source_urls": [
-              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
-            ]
-          }
-        },
-        {
-          "metric": "Demonstrated or actual rapid transformer deployment time (days)",
-          "points": [
-            {
-              "label": "RecX",
-              "value": 4.42,
-              "unit": "days"
-            },
-            {
-              "label": "WattStock FLEX",
-              "value": 7.0,
-              "unit": "days"
-            },
-            {
-              "label": "Westar rapid recovery",
-              "value": 9.0,
-              "unit": "days"
-            }
-          ],
-          "headline": {
-            "value": 9.0,
-            "value_text": "9",
-            "unit": "days",
-            "metric": "Demonstrated or actual rapid transformer deployment time (days)",
-            "point_label": "Westar rapid recovery",
-            "display_label": "Westar rapid recovery - Demonstrated or actual rapid transformer deployment time (days)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "RecX :: 4.42 :: days; WattStock FLEX :: 7 :: days; Westar rapid recovery :: 9 :: days",
-            "source_urls": [
-              "https://www.dhs.gov/sites/default/files/publications/RecX%20-%20Emergency%20Spare%20Transformer%20Strategy-508.pdf",
-              "https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf",
-              "https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability"
-            ]
-          }
-        },
-        {
-          "metric": "Program-specific transformer coverage metrics (%)",
-          "points": [
-            {
-              "label": "Westar system coverage",
-              "value": 80.0,
-              "unit": "%"
-            },
-            {
-              "label": "WattStock substation-LPT estimate",
-              "value": 60.0,
-              "unit": "%"
-            },
-            {
-              "label": "WattStock GSU estimate",
-              "value": 80.0,
-              "unit": "%"
-            },
-            {
-              "label": "Grid Assurance modeled service level",
-              "value": 98.0,
-              "unit": "%"
-            }
-          ],
-          "headline": {
-            "value": 98.0,
-            "value_text": "98",
-            "unit": "%",
-            "metric": "Program-specific transformer coverage metrics (%)",
-            "point_label": "Grid Assurance modeled service level",
-            "display_label": "Grid Assurance modeled service level - Program-specific transformer coverage metrics (%)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Westar system coverage :: 80 :: percent; WattStock substation-LPT estimate :: 60 :: percent; WattStock GSU estimate :: 80 :: percent; Grid Assurance modeled service level :: 98 :: percent",
-            "source_urls": [
-              "https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability",
-              "https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf",
-              "https://gridassurance.com/grid-resilience-solution/"
-            ]
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "$13,467 | Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing.",
+            "source_urls": []
           }
         }
       ],
       "card_metrics": [
         {
-          "value": 2.99,
-          "value_text": "2.99",
-          "unit": "USD million",
-          "metric": "DOE FITT selected project funding (USD million)",
-          "point_label": "GE universal spare",
-          "display_label": "GE universal spare - DOE FITT selected project funding (USD million)",
-          "selection_mode": "largest_absolute_value",
+          "value": 13467.0,
+          "value_text": "13,467",
+          "unit": "",
+          "metric": "Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing",
+          "point_label": "Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing",
+          "display_label": "Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing",
+          "selection_mode": "single_point",
           "is_calendar_year": false,
           "card_eligible": true,
           "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Clemson SHAPE :: 2.47 :: USD million; Eaton hybrid :: 2.94 :: USD million; EPRI PowerHub :: 2.88 :: USD million; ERMCO DTE :: 1.84 :: USD million; GE FASST :: 1.99 :: USD million; GE universal spare :: 2.99 :: USD million; Resilient Power SolidFlex :: 1.47 :: USD million; Transforma DIRECT :: 1.45 :: USD million; Pittsburgh flexible distribution :: 2.50 :: USD million",
-            "source_urls": [
-              "https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer",
-              "https://arpa-e.energy.gov/sites/default/files/2026-02/Andre%20Pereira%20-%20cleared%20for%20posting.pdf"
-            ]
-          }
-        },
-        {
-          "value": 457.0,
-          "value_text": "457",
-          "unit": "USD million",
-          "metric": "Selected U.S. transformer factory investments (USD million)",
-          "point_label": "Hitachi South Boston",
-          "display_label": "Hitachi South Boston - Selected U.S. transformer factory investments (USD million)",
-          "selection_mode": "largest_absolute_value",
-          "is_calendar_year": false,
-          "card_eligible": true,
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Hitachi South Boston :: 457 :: USD million; Eaton Jonesville :: 340 :: USD million; Prolec Goldsboro :: 140 :: USD million",
-            "source_urls": [
-              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
-              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
-              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
-            ]
-          }
-        },
-        {
-          "value": 825.0,
-          "value_text": "825",
-          "unit": "jobs",
-          "metric": "Announced jobs at selected transformer factory expansions (jobs)",
-          "point_label": "Hitachi South Boston",
-          "display_label": "Hitachi South Boston - Announced jobs at selected transformer factory expansions (jobs)",
-          "selection_mode": "largest_absolute_value",
-          "is_calendar_year": false,
-          "card_eligible": true,
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Hitachi South Boston :: 825 :: jobs; Eaton Jonesville :: 700 :: jobs; Prolec Goldsboro :: 330 :: jobs",
-            "source_urls": [
-              "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2026/06/hitachi-energy-breaks-ground-on-the-nation-s-largest-facility-for-the-production-of-large-power-transformers-in-south-boston-virginia",
-              "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2025/eaton-invests-in-new-south-carolina-transformer-manufacturing.html",
-              "https://www.prolec.energy/news/prolec-ge-waukesha-breaks-ground-on-major-expansion-in-wayne-county/"
-            ]
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "$13,467 | Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing.",
+            "source_urls": []
           }
         }
       ],
-      "watch_signals": [
-        {
-          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:9b5af5c1d89b",
-          "text": "GE Vernova’s FITT universal spare reaches a named U.S. utility factory-acceptance test or field energization by 2028.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "GE Vernova’s FITT universal spare reaches a named U.S. utility factory-acceptance test or field energization by 2028.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:1f72e96f7592",
-          "text": "A Grid Assurance qualifying event publishes elapsed time from transformer dispatch through delivery or energization by 2029.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "A Grid Assurance qualifying event publishes elapsed time from transformer dispatch through delivery or energization by 2029.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:11c819ae2986",
-          "text": "National Grid or another major utility reports procurement-cycle improvement tied to a quantified transformer-SKU reduction.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "National Grid or another major utility reports procurement-cycle improvement tied to a quantified transformer-SKU reduction.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:5946916d0ce5",
-          "text": "Hitachi, Eaton, or Prolec factory ramps coincide with a sustained decline in reported transformer lead times during 2027–2030.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Hitachi, Eaton, or Prolec factory ramps coincide with a sustained decline in reported transformer lead times during 2027–2030.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:271089d73d7d",
-          "text": "A second or third unrelated utility places a repeat order for an adaptable permanent transformer by 2030.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "A second or third unrelated utility places a repeat order for an adaptable permanent transformer by 2030.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem:watch:a80e2cb4fa73",
-          "text": "A multi-utility post-event record shows compatibility or transport, rather than manufacturing, pacing transformer restoration.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "A multi-utility post-event record shows compatibility or transport, rather than manufacturing, pacing transformer restoration.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        }
-      ],
+      "watch_signals": [],
       "watch_extraction": {
-        "status": "explicit_bullets",
-        "source_heading": "What to watch",
+        "status": "missing",
+        "source_heading": "",
         "unpublished_candidate_count": 0
       }
     },
@@ -2331,7 +1973,7 @@
     {
       "slug": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room",
       "slug_source": "publication_registry",
-      "title": "Cold Storage’s Refrigerant Shift Is Building a Service Economy Around the Machine Room",
+      "title": "Low-GWP Cold-Storage Qualification, Testing and Service Stack — Search Heavy Deep Drilldown",
       "url": "posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html",
       "date": "2026-08-29",
       "updated": "2026-08-29",
@@ -2352,7 +1994,7 @@
         "key": "ecosystem-expansion",
         "label": "Ecosystem expansion"
       },
-      "excerpt": "The visible story in cold-storage decarbonization is refrigerant substitution: warehouses move away from high-global-warming-potential HFCs and toward ammonia, carbon dioxide, or newer synthetic refrigerants. The more important industrial story is what has to form around those choices.",
+      "excerpt": "At Alpine Food Distributing's Vernon, California facility, choosing CO2 meant assembling a working refrigeration package, not merely changing a fluid. The completed renovation occupies roughly 116,000 gross square feet, but ARCO describes 59,000 square feet of dry warehouse alongside freezer, convertible cooler, cold dock and production space.",
       "image": {
         "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room-a4b79aac5b391f44.png",
         "alt": "Market Cold Storage, Newtown 01"
@@ -2360,470 +2002,15 @@
       "report_stage": {
         "public_cycle_complete_by_sections": false,
         "public_cycle_complete_by_run_manifest": false,
-        "coverage_status": "legacy-migration-gap"
+        "coverage_status": "current-incomplete"
       },
-      "data_series": [
-        {
-          "metric": "Reported refrigerant use among responding U.S. cold-storage warehouses (%)",
-          "points": [
-            {
-              "label": "Ammonia",
-              "value": 91.0,
-              "unit": "%"
-            },
-            {
-              "label": "Synthetic F-gas",
-              "value": 10.0,
-              "unit": "%"
-            },
-            {
-              "label": "CO2",
-              "value": 5.0,
-              "unit": "%"
-            }
-          ],
-          "headline": {
-            "value": 91.0,
-            "value_text": "91",
-            "unit": "%",
-            "metric": "Reported refrigerant use among responding U.S. cold-storage warehouses (%)",
-            "point_label": "Ammonia",
-            "display_label": "Ammonia - Reported refrigerant use among responding U.S. cold-storage warehouses (%)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Ammonia :: 91 :: percent; Synthetic F-gas :: 10 :: percent; CO2 :: 5 :: percent",
-            "source_urls": [
-              "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10387.pdf"
-            ]
-          }
-        },
-        {
-          "metric": "Floor area of named drilldown facilities (square feet)",
-          "points": [
-            {
-              "label": "Valley Fine Foods",
-              "value": 72000.0,
-              "unit": "square feet"
-            },
-            {
-              "label": "RLS Sturbridge",
-              "value": 83035.0,
-              "unit": "square feet"
-            },
-            {
-              "label": "Alpine Vernon",
-              "value": 116000.0,
-              "unit": "square feet"
-            },
-            {
-              "label": "Shoreline Bridgeton",
-              "value": 188000.0,
-              "unit": "square feet"
-            },
-            {
-              "label": "Arcadia Joliet",
-              "value": 294840.0,
-              "unit": "square feet"
-            },
-            {
-              "label": "RL Cold Ridgeville",
-              "value": 295000.0,
-              "unit": "square feet"
-            },
-            {
-              "label": "Lineage Hutchins",
-              "value": 606375.0,
-              "unit": "square feet"
-            }
-          ],
-          "headline": {
-            "value": 606375.0,
-            "value_text": "606,375",
-            "unit": "square feet",
-            "metric": "Floor area of named drilldown facilities (square feet)",
-            "point_label": "Lineage Hutchins",
-            "display_label": "Lineage Hutchins - Floor area of named drilldown facilities (square feet)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Valley Fine Foods :: 72000 :: square feet; RLS Sturbridge :: 83035 :: square feet; Alpine Vernon :: 116000 :: square feet; Shoreline Bridgeton :: 188000 :: square feet; Arcadia Joliet :: 294840 :: square feet; RL Cold Ridgeville :: 295000 :: square feet; Lineage Hutchins :: 606375 :: square feet",
-            "source_urls": [
-              "https://www.energy.ca.gov/sites/default/files/2025-06/CEC-500-2025-035.pdf",
-              "https://www.sturbridge.gov/planning-board/webforms/rls-complete-90-charlton-road-site-planspecial-permit",
-              "https://www.arconational.com/alpine-food-distributing/",
-              "https://www.shorelinefreezers.com/",
-              "https://saxumre.com/portfolio/chicago-cold-storage/",
-              "https://www.enr.com/articles/59510-merit-energy-industrial-rl-cold-greenfield-refrigerated-warehouse",
-              "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026000170"
-            ]
-          }
-        },
-        {
-          "metric": "Valley Fine Foods reported reductions after CO₂ conversion (%)",
-          "points": [
-            {
-              "label": "Refrigerant use",
-              "value": 28.0,
-              "unit": "%"
-            },
-            {
-              "label": "Electricity",
-              "value": 50.0,
-              "unit": "%"
-            },
-            {
-              "label": "Natural gas",
-              "value": 31.0,
-              "unit": "%"
-            },
-            {
-              "label": "Water",
-              "value": 12.0,
-              "unit": "%"
-            },
-            {
-              "label": "Refrigeration energy intensity",
-              "value": 57.0,
-              "unit": "%"
-            },
-            {
-              "label": "GHG emissions",
-              "value": 90.0,
-              "unit": "%"
-            }
-          ],
-          "headline": {
-            "value": 90.0,
-            "value_text": "90",
-            "unit": "%",
-            "metric": "Valley Fine Foods reported reductions after CO₂ conversion (%)",
-            "point_label": "GHG emissions",
-            "display_label": "GHG emissions - Valley Fine Foods reported reductions after CO₂ conversion (%)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Refrigerant use :: 28 :: percent; Electricity :: 50 :: percent; Natural gas :: 31 :: percent; Water :: 12 :: percent; Refrigeration energy intensity :: 57 :: percent; GHG emissions :: 90 :: percent",
-            "source_urls": [
-              "https://www.energy.ca.gov/sites/default/files/2025-06/CEC-500-2025-035.pdf"
-            ]
-          }
-        },
-        {
-          "metric": "Valley Fine Foods project funding amounts (USD million)",
-          "points": [
-            {
-              "label": "Co-funded amount",
-              "value": 0.933392,
-              "unit": "USD million"
-            },
-            {
-              "label": "Amount spent",
-              "value": 1.546799,
-              "unit": "USD million"
-            },
-            {
-              "label": "Award amount",
-              "value": 1.733443,
-              "unit": "USD million"
-            }
-          ],
-          "headline": {
-            "value": 1.733443,
-            "value_text": "1.73",
-            "unit": "USD million",
-            "metric": "Valley Fine Foods project funding amounts (USD million)",
-            "point_label": "Award amount",
-            "display_label": "Award amount - Valley Fine Foods project funding amounts (USD million)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Co-funded amount :: 0.933392 :: USD million; Amount spent :: 1.546799 :: USD million; Award amount :: 1.733443 :: USD million",
-            "source_urls": [
-              "https://www.energizeinnovation.fund/projects/valley-fine-foods-transcritical-co2-conversion"
-            ]
-          }
-        },
-        {
-          "metric": "Current IIAR non-member certificate-course prices (USD)",
-          "points": [
-            {
-              "label": "IIAR 2",
-              "value": 1590.0,
-              "unit": "USD"
-            },
-            {
-              "label": "IIAR 4",
-              "value": 850.0,
-              "unit": "USD"
-            },
-            {
-              "label": "PSM-RMP",
-              "value": 1350.0,
-              "unit": "USD"
-            },
-            {
-              "label": "IIAR 6",
-              "value": 1390.0,
-              "unit": "USD"
-            }
-          ],
-          "headline": {
-            "value": 1590.0,
-            "value_text": "1,590",
-            "unit": "USD",
-            "metric": "Current IIAR non-member certificate-course prices (USD)",
-            "point_label": "IIAR 2",
-            "display_label": "IIAR 2 - Current IIAR non-member certificate-course prices (USD)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "IIAR 2 :: 1590 :: USD; IIAR 4 :: 850 :: USD; PSM-RMP :: 1350 :: USD; IIAR 6 :: 1390 :: USD",
-            "source_urls": [
-              "https://www.iiar.org/IIAR/IIAR/Education/IIAR_Certificate_Course_Institutional_Enrollment.aspx"
-            ]
-          }
-        },
-        {
-          "metric": "Chemours Opteon refrigerant sales (USD million)",
-          "points": [
-            {
-              "label": "2023",
-              "value": 710.0,
-              "unit": "USD million"
-            },
-            {
-              "label": "2024",
-              "value": 810.0,
-              "unit": "USD million"
-            },
-            {
-              "label": "2025",
-              "value": 1264.0,
-              "unit": "USD million"
-            }
-          ],
-          "headline": {
-            "value": 1264.0,
-            "value_text": "1,264",
-            "unit": "USD million",
-            "metric": "Chemours Opteon refrigerant sales (USD million)",
-            "point_label": "2025",
-            "display_label": "2025 - Chemours Opteon refrigerant sales (USD million)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "2023 :: 710 :: USD million; 2024 :: 810 :: USD million; 2025 :: 1264 :: USD million",
-            "source_urls": [
-              "https://www.sec.gov/Archives/edgar/data/1627223/000119312526065201/cc-20251231.htm"
-            ]
-          }
-        },
-        {
-          "metric": "Lineage recurring maintenance capital expenditure by quarter (USD million)",
-          "points": [
-            {
-              "label": "2025-Q1",
-              "value": 32.0,
-              "unit": "USD million"
-            },
-            {
-              "label": "2025-Q2",
-              "value": 42.0,
-              "unit": "USD million"
-            },
-            {
-              "label": "2025-Q3",
-              "value": 43.0,
-              "unit": "USD million"
-            },
-            {
-              "label": "2025-Q4",
-              "value": 56.0,
-              "unit": "USD million"
-            },
-            {
-              "label": "2026-Q1",
-              "value": 31.0,
-              "unit": "USD million"
-            },
-            {
-              "label": "2026-Q2",
-              "value": 33.0,
-              "unit": "USD million"
-            }
-          ],
-          "headline": {
-            "value": 56.0,
-            "value_text": "56",
-            "unit": "USD million",
-            "metric": "Lineage recurring maintenance capital expenditure by quarter (USD million)",
-            "point_label": "2025-Q4",
-            "display_label": "2025-Q4 - Lineage recurring maintenance capital expenditure by quarter (USD million)",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "2025-Q1 :: 32 :: USD million; 2025-Q2 :: 42 :: USD million; 2025-Q3 :: 43 :: USD million; 2025-Q4 :: 56 :: USD million; 2026-Q1 :: 31 :: USD million; 2026-Q2 :: 33 :: USD million",
-            "source_urls": [
-              "https://www.sec.gov/Archives/edgar/data/1868159/000186815926000038/final-lineageinc2q26earn.htm"
-            ]
-          }
-        }
-      ],
-      "card_metrics": [
-        {
-          "value": 91.0,
-          "value_text": "91",
-          "unit": "%",
-          "metric": "Reported refrigerant use among responding U.S. cold-storage warehouses (%)",
-          "point_label": "Ammonia",
-          "display_label": "Ammonia - Reported refrigerant use among responding U.S. cold-storage warehouses (%)",
-          "selection_mode": "largest_absolute_value",
-          "is_calendar_year": false,
-          "card_eligible": true,
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Ammonia :: 91 :: percent; Synthetic F-gas :: 10 :: percent; CO2 :: 5 :: percent",
-            "source_urls": [
-              "https://www.govinfo.gov/content/pkg/FR-2026-05-26/pdf/2026-10387.pdf"
-            ]
-          }
-        },
-        {
-          "value": 606375.0,
-          "value_text": "606,375",
-          "unit": "square feet",
-          "metric": "Floor area of named drilldown facilities (square feet)",
-          "point_label": "Lineage Hutchins",
-          "display_label": "Lineage Hutchins - Floor area of named drilldown facilities (square feet)",
-          "selection_mode": "largest_absolute_value",
-          "is_calendar_year": false,
-          "card_eligible": true,
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Valley Fine Foods :: 72000 :: square feet; RLS Sturbridge :: 83035 :: square feet; Alpine Vernon :: 116000 :: square feet; Shoreline Bridgeton :: 188000 :: square feet; Arcadia Joliet :: 294840 :: square feet; RL Cold Ridgeville :: 295000 :: square feet; Lineage Hutchins :: 606375 :: square feet",
-            "source_urls": [
-              "https://www.energy.ca.gov/sites/default/files/2025-06/CEC-500-2025-035.pdf",
-              "https://www.sturbridge.gov/planning-board/webforms/rls-complete-90-charlton-road-site-planspecial-permit",
-              "https://www.arconational.com/alpine-food-distributing/",
-              "https://www.shorelinefreezers.com/",
-              "https://saxumre.com/portfolio/chicago-cold-storage/",
-              "https://www.enr.com/articles/59510-merit-energy-industrial-rl-cold-greenfield-refrigerated-warehouse",
-              "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026000170"
-            ]
-          }
-        },
-        {
-          "value": 90.0,
-          "value_text": "90",
-          "unit": "%",
-          "metric": "Valley Fine Foods reported reductions after CO₂ conversion (%)",
-          "point_label": "GHG emissions",
-          "display_label": "GHG emissions - Valley Fine Foods reported reductions after CO₂ conversion (%)",
-          "selection_mode": "largest_absolute_value",
-          "is_calendar_year": false,
-          "card_eligible": true,
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "Refrigerant use :: 28 :: percent; Electricity :: 50 :: percent; Natural gas :: 31 :: percent; Water :: 12 :: percent; Refrigeration energy intensity :: 57 :: percent; GHG emissions :: 90 :: percent",
-            "source_urls": [
-              "https://www.energy.ca.gov/sites/default/files/2025-06/CEC-500-2025-035.pdf"
-            ]
-          }
-        }
-      ],
-      "watch_signals": [
-        {
-          "signal_id": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room:watch:108a19f49a45",
-          "text": "Lineage Hutchins refrigeration specification: a disclosed refrigerant and Division 23 equipment schedule would settle a major 2026-27 procurement case.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Lineage Hutchins refrigeration specification: a disclosed refrigerant and Division 23 equipment schedule would settle a major 2026-27 procurement case.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room:watch:12e6f3817ab8",
-          "text": "Six post-July-2026 project disclosures: four or more ammonia/CO₂ selections would support natural-refrigerant dominance through 2028.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Six post-July-2026 project disclosures: four or more ammonia/CO₂ selections would support natural-refrigerant dominance through 2028.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room:watch:19ca91a7d793",
-          "text": "Three major lifecycle-software platforms by end-2029: deployment, diagnostics, warranty or maintenance functions would confirm workflow expansion.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Three major lifecycle-software platforms by end-2029: deployment, diagnostics, warranty or maintenance functions would confirm workflow expansion.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room:watch:7d99c0fd18ed",
-          "text": "2030-31 project specifications: repeated use of configurations already compliant with the 2032 GWP 150/300 limits would mark the next qualification wave.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "2030-31 project specifications: repeated use of configurations already compliant with the 2032 GWP 150/300 limits would mark the next qualification wave.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room:watch:545db52594d4",
-          "text": "UL/ETL certification volumes or lead times: measurable growth would show qualification becoming a distinct commercial activity rather than routine product refresh.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "UL/ETL certification volumes or lead times: measurable growth would show qualification becoming a distinct commercial activity rather than routine product refresh.",
-          "source_url": "",
-          "source_urls": [],
-          "state": "open",
-          "settlement": null
-        }
-      ],
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
       "watch_extraction": {
-        "status": "explicit_bullets",
-        "source_heading": "What to watch",
-        "unpublished_candidate_count": 0
+        "status": "unstructured_prose",
+        "source_heading": "Three Outcomes To Watch",
+        "unpublished_candidate_count": 6
       }
     },
     {
