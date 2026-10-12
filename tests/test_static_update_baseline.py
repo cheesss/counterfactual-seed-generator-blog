@@ -48,6 +48,18 @@ class BaselineTrustTests(unittest.TestCase):
                 self.assertRaises(baseline.artifact.ReleaseFailure):
             baseline.verify_deployment(Path("."), self.identity)
 
+    def test_unchanged_artifact_after_its_own_deployment_is_accepted(self):
+        manifest = {"generator": "sync_static_site/v1", "schema_version": 1, "files": [{"path": "index.html"}]}
+        with tempfile.TemporaryDirectory() as temporary:
+            repo = Path(temporary)
+            (repo / baseline.MANIFEST).write_text(json.dumps(manifest, indent=2), encoding="utf-8")
+            latest = dict(self.identity, commit="b" * 40)
+            with mock.patch.object(baseline, "command", return_value=json.dumps(manifest).encode()):
+                self.assertTrue(baseline.already_deployed(repo, latest))
+            changed = dict(manifest, files=[{"path": "posts/new.html"}])
+            with mock.patch.object(baseline, "command", return_value=json.dumps(changed).encode()):
+                self.assertFalse(baseline.already_deployed(repo, latest))
+
     def test_no_baseline_path_escape_or_hash_claim_adoption(self):
         for name in ("../escape", "/absolute", "assets/../../escape", "scripts/unsafe.py"):
             manifest = {"generator": "sync_static_site/v1", "schema_version": 1,
