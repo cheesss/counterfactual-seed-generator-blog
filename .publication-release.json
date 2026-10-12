@@ -1,0 +1,1241 @@
+{
+  "articles": [
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "3ee5fc7fc3bc637335af2ff2c80eb4209965fc81a5ab7b5474593b47cd5664f2",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "edd724beff0dd9d347ff03e765796e08efbb84e4b3625e91dd6c48a4430f3585",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "9b909d9dd3043287c01844297a17742d266b095ccda577d8bd34518398eb8864",
+      "slug": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "8fa48dbe5428baf074ee0fe96d5d10105f65197137c337e81ba7a7a6a4664698",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "018ba795f9e5b6a0cc7fadb7704ddf870f28c82d1d7608c616b5ccd586f61686",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "1ea53ebab826bd48bd5bcf46ed63adbae58e16b62eccc438808a4b8bc81093a8",
+      "slug": "2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "a43fd5cce896c668733483a01b7c89be91eb95994f304057a68d61dd5cc82aae",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "ab1a65f97cd4694ee36c4eeafa608a20c7ef9d545e3e0578e0a21490b291de4d",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "006eb4273721f40ece9cef7366edeccd3db7357d47a092f13cac1de3e94477ea",
+      "slug": "2026-09-24-space-is-scaling-faster-than-its-traffic-control-system"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "39e4ec79580a1f9042eeacb4a0c0c5cdaa09d1f46003964f9fd30eebe92d3e02",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "8915f650ec3de1c724a1d97854fa3db5ffa7c03520e030ef5b0b9d866257f020",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "5e68e40e04bca885f429ef3fbf2b07a0d21a06403150cd41dc8f9fafb3ce3d93",
+      "slug": "2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "ae3ae51f3790857505ba34a824510d29785b14b42bd18deca2d5fc3f9090d3ce",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "24624d57f34c0cf51632c7d09c7d2bcc64e3546e97cae5f8907d4db83b3bdc10",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "8ca9bb9cdc2997f1b0e71f8b76777a5b5df8d03cd61a0a49c935b2034eb66525",
+      "slug": "2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "237d06aed479dbb6e5f18746d0291316c4f257b234af2bc855395bd7ef9c4773",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "a918006876ff88f748d5bec26437ba6ba45b088cb9789c0b0c9cc323484f542a",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "70949abab439bbc39c16213788703c843b4be472bc5d9f6da76687d2e907fdec",
+      "slug": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "6e38c28ec9edd58ec60662ccdce0f22d941ecea0f9ad36fa490a9587f205a47f",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "0260af29a86194eceecb18a02a4a18ed518ee34a46ecd7846c66d50f5b3c90ce",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "ada486617643a1692aeaad1c5405b88b8b255118b8d2a24ef86f4e2f522c638f",
+      "slug": "2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "27fd772a0fbf18a744f7e9c0a2cdd3f88f9a866dd03ecea0acb9ab6674c06d49",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "009de5ff892b2c9f8fcaa6836af1d233f638f1e1510ce9735dcfc8e25fcb59f4",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "e4a8a5f767b05f96beb04ec4ca44cfcd545e9a5595545878798505ff7bb1beaf",
+      "slug": "2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "43a663309ab21e8e109ed1932cea319d788091539723c982ba80655cc66ea501",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "fa4b9ef0655869f0b18cd72386f8d5580a44bae687ea3eb1d409dabb2911b229",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "4d08d53fb42fa229e1b2489071537841b8946a053c8e9d095bdb676bce320492",
+      "slug": "2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "ee59da2198795f97847d82d6ab859cefe9089479c1aad6107ee4371086ff143a",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "587aec0db41d8b5ba3e34dbe893886621e3deb7b417cb94952e5796c39d22cf2",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "e7c5d68e3ac3fcebe42c4567e453d2d3be4ac3a828713bfbe7776da843fe1ede",
+      "slug": "2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system"
+    },
+    {
+      "post_sha256": "ab26bda5a7db819c1b51839e8f28ec38c9fa35cb300048962d94c3108c734427",
+      "profile": "integrated-v1",
+      "quality": {
+        "approval_chain": [
+          {
+            "report_sha256": "c6305a5abaa7d9471f19d17e81ba325ab5640705e4f9d5bdd953dd8780d1bc7c",
+            "scope": "integrated-independent-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "6fa593cf05c051d5434d598f247e2eac1f8d07c4ff6474e7f9b1965fb7aa9cbf",
+                "raw_sha256": "1584cce94d5f63a48133de3169ba1b2b944231043d1046f97746e3b42da62ec4",
+                "section_sha256": "06f141a6fe5e5d581aaadd087ceba586752aad6d1d4ed92c13fb73d6d2e96b56",
+                "stage": "integrated-research"
+              },
+              {
+                "prompt_sha256": "441de4e2b6ac2dc2c25ae59d2afd7c05b615347ff4e146992c5110892caf1657",
+                "raw_sha256": "620329c0cdace0bce1ee3da90d594031f04fa93f24187def9e1ee3c4e3930e48",
+                "section_sha256": "95d348bac78c13adc9d1eacaf90a7ae8c201b10f36ec401b1bf6f0ce24950034",
+                "stage": "independent-review-edit"
+              }
+            ]
+          },
+          {
+            "after_sha256": "a6c8af75d1225de1e3f3b685908b4dca403c70214ccdc58a2d24185762be6817",
+            "before_sha256": "c6305a5abaa7d9471f19d17e81ba325ab5640705e4f9d5bdd953dd8780d1bc7c",
+            "changed_claims": [
+              {
+                "after": "Westar's 2017 failure response used nine daylight-shift installation days.",
+                "before": "",
+                "id": "C-001",
+                "section": "In brief"
+              },
+              {
+                "after": "Grid Assurance describes seven EHV transformer rating classes, not universal coverage.",
+                "before": "",
+                "id": "C-002",
+                "section": "In brief"
+              },
+              {
+                "after": "GE Vernova's $2.99 million FITT universal spare is a selection, not an operating sale.",
+                "before": "",
+                "id": "C-003",
+                "section": "In brief"
+              },
+              {
+                "after": "36 months | Commonly quoted LPT procurement lead time in DOE's July 2024 review; historical, not current.",
+                "before": "",
+                "id": "C-004",
+                "section": "Key figures"
+              },
+              {
+                "after": "60 months | Maximum LPT procurement quotations in DOE's July 2024 review; historical, not current.",
+                "before": "",
+                "id": "C-005",
+                "section": "Key figures"
+              },
+              {
+                "after": "$13,467 | Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing.",
+                "before": "",
+                "id": "C-006",
+                "section": "Key figures"
+              }
+            ],
+            "grounded_assertions": [],
+            "scope": "artifact-affected-claim-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "6920be83be45f4e38b56e1dc30ba4c77c086f5bcabfc30c64e80312acc4c8f94",
+                "raw_sha256": "3929c139c0ad51b5dfb98dde96e8b106ef69cfdd59c1b0503cd4bb5e77ae7e58",
+                "section_sha256": "2ff107e96d46e5cf99ed3b0d15e1a71544dcde39149cbc64b54f77f2d14ec410",
+                "stage": "artifact-format-repair"
+              },
+              {
+                "prompt_sha256": "d50165c0967fe8b4a47b452a4a619436b4f237f7db2a3434cf6507f717d27ad2",
+                "raw_sha256": "1184ddac440b433ad21e305a04a72818868ba793623e0af06b91ab3fa2e3dce3",
+                "section_sha256": "66d48bade89c0b8329a50ada9825501fe720c80846d70fe27cb76b4ede26e4cd",
+                "stage": "artifact-claim-review"
+              }
+            ],
+            "verified_claims": [
+              {
+                "after": "Westar's 2017 failure response used nine daylight-shift installation days.",
+                "before": "",
+                "change_id": "C-001",
+                "finding": "Opened the July 12, 2017 operator-authored account: the failed autotransformer replacement entered service June 9 after nine installation days using normal daylight shifts. This is one installation, not total customer interruption or an independent outage audit.",
+                "source_url": "https://www.tdworld.com/smart-utility/grid-security/article/20969890/westar-energy-pioneers-grid-reliability"
+              },
+              {
+                "after": "Grid Assurance describes seven EHV transformer rating classes, not universal coverage.",
+                "before": "",
+                "change_id": "C-002",
+                "finding": "Direct opening timed out; native search retrieved primary-page indexed text specifying seven rating classes for EHV transformers at 230 kV and higher. Supports the attributed inventory description, not universal compatibility, quantities or verified event performance.",
+                "source_url": "https://gridassurance.com/grid-resilience-solution/"
+              },
+              {
+                "after": "GE Vernova's $2.99 million FITT universal spare is a selection, not an operating sale.",
+                "before": "",
+                "change_id": "C-003",
+                "finding": "Opened DOE's December 3, 2024 announcement and checked the GE Vernova universal-spare entry: $2.99 million selected for research, development and demonstration. The announced transaction is a project selection, not a commercial operating sale. No assertion about present deployment or absence of later sales was verified.",
+                "source_url": "https://www.energy.gov/oe/articles/energy-department-advances-us-electric-grid-resilience-and-reliability-new-transformer"
+              },
+              {
+                "after": "36 months | Commonly quoted LPT procurement lead time in DOE's July 2024 review; historical, not current.",
+                "before": "",
+                "change_id": "C-004",
+                "finding": "Opened the July 2024 DOE report; printed page 2 describes 36-month acquisition lead times as commonly quoted. The label accurately preserves a historical quotation, not a current survey or blackout duration.",
+                "source_url": "https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf"
+              },
+              {
+                "after": "60 months | Maximum LPT procurement quotations in DOE's July 2024 review; historical, not current.",
+                "before": "",
+                "change_id": "C-005",
+                "finding": "Checked printed page 2 of the opened July 2024 report: maximum acquisition lead times reached as much as 60 months. This supports the dated quotation maximum, not a universal maximum or current market measurement.",
+                "source_url": "https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%207-10-24.pdf"
+              },
+              {
+                "after": "$13,467 | Kentucky Power subscription payments during 2019-2022 for breaker access through AEP cost sharing, not transformer pricing.",
+                "before": "",
+                "change_id": "C-006",
+                "finding": "Opened the verified application; paragraphs 32-33 on printed pages 11-12 establish AEP-affiliate cost sharing, $13,467 paid from 2019 through 2022, and access to fifteen 345-kV and twenty 138-kV circuit breakers. This is reported subscription spending, not transformer pricing or independently audited savings. Only the six listed additions were source-reviewed; unchanged facts retain original approval only.",
+                "source_url": "https://psc.ky.gov/pscecf/2023-00305/mmcaldwell%40aep.com/09152023045054/KPCO_Verified_Application_for_Renewal.pdf"
+              }
+            ]
+          }
+        ],
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "ab26bda5a7db819c1b51839e8f28ec38c9fa35cb300048962d94c3108c734427",
+        "report_sha256": "a6c8af75d1225de1e3f3b685908b4dca403c70214ccdc58a2d24185762be6817",
+        "review_provenance": {
+          "agent_id": "01a12b4b-1692-7473-981e-78aca65fb3fd",
+          "base_state_sha256": "897d9ecc0192dbdc013913e438670521b0db83f8882ea3918097cbf2dcd9fbd5",
+          "original_report_sha256": "c6305a5abaa7d9471f19d17e81ba325ab5640705e4f9d5bdd953dd8780d1bc7c",
+          "profile": "integrated-v1",
+          "prompt_sha256": "d50165c0967fe8b4a47b452a4a619436b4f237f7db2a3434cf6507f717d27ad2",
+          "raw_sha256": "1184ddac440b433ad21e305a04a72818868ba793623e0af06b91ab3fa2e3dce3",
+          "repair_chain_sha256": "2d5485dc1ef98bc611b1b1de9bf17960ca2feccaad434d0e6511e4c8cda1ba14",
+          "report_sha256": "a6c8af75d1225de1e3f3b685908b4dca403c70214ccdc58a2d24185762be6817",
+          "scope": "artifact-affected-claim-source-review",
+          "section_sha256": "66d48bade89c0b8329a50ada9825501fe720c80846d70fe27cb76b4ede26e4cd",
+          "stage": "artifact-claim-review"
+        },
+        "review_scope": "artifact-affected-claim-source-review",
+        "review_sha256": "98e436eea373900f06c213f95b783a07116fc304db171ce6c74c77816ba3b755",
+        "status": "publishable"
+      },
+      "report_sha256": "a6c8af75d1225de1e3f3b685908b4dca403c70214ccdc58a2d24185762be6817",
+      "slug": "2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem",
+      "stages": [
+        {
+          "prompt_sha256": "6fa593cf05c051d5434d598f247e2eac1f8d07c4ff6474e7f9b1965fb7aa9cbf",
+          "raw_sha256": "1584cce94d5f63a48133de3169ba1b2b944231043d1046f97746e3b42da62ec4",
+          "section_sha256": "06f141a6fe5e5d581aaadd087ceba586752aad6d1d4ed92c13fb73d6d2e96b56",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "441de4e2b6ac2dc2c25ae59d2afd7c05b615347ff4e146992c5110892caf1657",
+          "raw_sha256": "620329c0cdace0bce1ee3da90d594031f04fa93f24187def9e1ee3c4e3930e48",
+          "section_sha256": "95d348bac78c13adc9d1eacaf90a7ae8c201b10f36ec401b1bf6f0ce24950034",
+          "stage": "independent-review-edit"
+        }
+      ]
+    },
+    {
+      "post_sha256": "dd6ef9205e1bc9d077f4f387e0358966b6e1710abd7a6462b26fa4c913b29f4d",
+      "profile": "integrated-v1",
+      "quality": {
+        "approval_chain": [
+          {
+            "report_sha256": "adb4883fa6ebd52669a0a50802306b0af50665cf36cba5f016d4f8416a4b00f6",
+            "scope": "integrated-independent-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "22da2ba37e668e7c04b91b818d5c2b0e4d979afccfbcccef7cd0f7b8819564a3",
+                "raw_sha256": "931e98bed8095a06b29e96d91ade43a2131274c372a1a6326d851eecc2a69472",
+                "section_sha256": "789caf34a49ad58d8fde7756157230a74be38ee30a3f8a6bf7f8b64108873cc2",
+                "stage": "integrated-research"
+              },
+              {
+                "prompt_sha256": "399ef1856e2937cdf9d85359c9221be8196aac4e91a97f1245b597ea4f5bc10b",
+                "raw_sha256": "4ab4008073ba45c9b29e8adcfeb7f951263b00b3b2088c854c143d1143b9eb81",
+                "section_sha256": "d625be476ccf0be7c141dba62c2b133edeed3c7162c76da761e72775cd7c09a8",
+                "stage": "independent-review-edit"
+              }
+            ]
+          },
+          {
+            "after_sha256": "c1774812b5219c145bfaead82cbea02ac0bda04567481098f3762b75623122dc",
+            "before_sha256": "adb4883fa6ebd52669a0a50802306b0af50665cf36cba5f016d4f8416a4b00f6",
+            "changed_claims": [
+              {
+                "after": "$1,590 USD | IIAR 2 posted nonmember course tuition; member and institutional discounts apply.",
+                "before": "",
+                "id": "C-001",
+                "section": "Key figures"
+              },
+              {
+                "after": "188,000 square feet | Cold storage advertised on Shoreline's current undated operator page; not independently audited.",
+                "before": "",
+                "id": "C-002",
+                "section": "Key figures"
+              },
+              {
+                "after": "$162 million | Hutchins estimated construction cost, not refrigeration-only spending or verified refrigeration startup.",
+                "before": "",
+                "id": "C-003",
+                "section": "Key figures"
+              }
+            ],
+            "grounded_assertions": [
+              {
+                "assertion": "Alpine is a mixed-use renovation.",
+                "source_url": "https://www.arconational.com/alpine-food-distributing/",
+                "support_text": "Alpine is a mixed-use renovation."
+              },
+              {
+                "assertion": "Purity predates the 2026 rule.",
+                "source_url": "https://www.evapco.com/sites/evapco.com/files/2024-01/CO2_Solutions_KH_11.07.2023.pdf",
+                "support_text": "Purity predates the 2026 rule."
+              },
+              {
+                "assertion": "UL markets low-GWP qualification services.",
+                "source_url": "https://www.ul.com/services/flammable-refrigerants-testing-air-conditioning-and-refrigeration",
+                "support_text": "UL markets low-GWP qualification services."
+              },
+              {
+                "assertion": "IIAR prices are posted tuition, not realized revenue.",
+                "source_url": "https://www.iiar.org/IIAR/IIAR/Education/IIAR_Certificate_Course_Institutional_Enrollment.aspx",
+                "support_text": "IIAR prices are posted tuition, not realized revenue."
+              }
+            ],
+            "scope": "artifact-affected-claim-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "2cb9cd2d73772d43edaf011e2ed790b4383720fe3a836064a84ad2eb19101c61",
+                "raw_sha256": "42fec8d7ef5e5f646c704d7575b356c8eb7018b4e66eab3acc5357aa535eaff4",
+                "section_sha256": "40eb4b2a34c4504b23a3243e2a62808e6c8e6a42e64bed087087763058da7b56",
+                "stage": "artifact-format-repair"
+              },
+              {
+                "prompt_sha256": "9e65da3cca38dc0a0e481d0a5a8a6b64f2ac6d37e96182730579e34144b6b5b9",
+                "raw_sha256": "6cf21993fd104566b5f32caf46c89cf970edfdb6b5058864100a8aebbbcc3a36",
+                "section_sha256": "138edf5ad214f9f2a8c100b7162c49afea92dac9693d994fc2962f887030343b",
+                "stage": "artifact-claim-review"
+              }
+            ],
+            "verified_claims": [
+              {
+                "after": "$1,590 USD | IIAR 2 posted nonmember course tuition; member and institutional discounts apply.",
+                "before": "",
+                "change_id": "C-001",
+                "finding": "Opened IIAR's institutional enrollment catalog. It lists IIAR 2 nonmember price $1,590 and member price $795, alongside participant-based institutional discounts. Supports the posted tuition and discount labels, not realized revenue or enrollment. USD is consistent with the U.S. association's dollar-denominated catalog; the displayed price itself uses the dollar symbol rather than an explicit currency code.",
+                "source_url": "https://www.iiar.org/IIAR/IIAR/Education/IIAR_Certificate_Course_Institutional_Enrollment.aspx"
+              },
+              {
+                "after": "188,000 square feet | Cold storage advertised on Shoreline's current undated operator page; not independently audited.",
+                "before": "",
+                "change_id": "C-002",
+                "finding": "Opened Shoreline's operator homepage, which advertises 188,000 square feet of cold storage space. No publication date or independent floor-area audit appears in the opened page. Supports an attributed operator claim; no independent measurement or commissioning verification was performed.",
+                "source_url": "https://www.shorelinefreezers.com/"
+              },
+              {
+                "after": "$162 million | Hutchins estimated construction cost, not refrigeration-only spending or verified refrigeration startup.",
+                "before": "",
+                "change_id": "C-003",
+                "finding": "Opened Texas's Architectural Barriers project record TABS2026000170 for Lineage-Hutchins TX. Estimated cost is $162,000,000, equivalent to $162 million; scope is a new automated freezer facility including office space. This is a whole-project estimate, not a refrigeration subcontract or realized expenditure. Review Complete is an accessibility-review status and does not verify refrigeration startup. Only the three changed units were freshly source-checked; unchanged facts retain their original approval only.",
+                "source_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026000170"
+              }
+            ]
+          }
+        ],
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "dd6ef9205e1bc9d077f4f387e0358966b6e1710abd7a6462b26fa4c913b29f4d",
+        "report_sha256": "c1774812b5219c145bfaead82cbea02ac0bda04567481098f3762b75623122dc",
+        "review_provenance": {
+          "agent_id": "01a12b48-c5b2-72e2-aaf5-c97f1081882b",
+          "base_state_sha256": "ad2a1d82d26a4b91c41d78c6eca17e9d408e9df02cd229cc9a28427e77c34bf2",
+          "original_report_sha256": "adb4883fa6ebd52669a0a50802306b0af50665cf36cba5f016d4f8416a4b00f6",
+          "profile": "integrated-v1",
+          "prompt_sha256": "9e65da3cca38dc0a0e481d0a5a8a6b64f2ac6d37e96182730579e34144b6b5b9",
+          "raw_sha256": "6cf21993fd104566b5f32caf46c89cf970edfdb6b5058864100a8aebbbcc3a36",
+          "repair_chain_sha256": "faa04db20a19364716ad32aaf442e6534559d53bf263ab55fad50bcba413bc7e",
+          "report_sha256": "c1774812b5219c145bfaead82cbea02ac0bda04567481098f3762b75623122dc",
+          "scope": "artifact-affected-claim-source-review",
+          "section_sha256": "138edf5ad214f9f2a8c100b7162c49afea92dac9693d994fc2962f887030343b",
+          "stage": "artifact-claim-review"
+        },
+        "review_scope": "artifact-affected-claim-source-review",
+        "review_sha256": "26ff3d1759a6352716907f4c27e24c27b69dd2ff8192f60991bc06a388fb4e98",
+        "status": "publishable"
+      },
+      "report_sha256": "c1774812b5219c145bfaead82cbea02ac0bda04567481098f3762b75623122dc",
+      "slug": "2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room",
+      "stages": [
+        {
+          "prompt_sha256": "22da2ba37e668e7c04b91b818d5c2b0e4d979afccfbcccef7cd0f7b8819564a3",
+          "raw_sha256": "931e98bed8095a06b29e96d91ade43a2131274c372a1a6326d851eecc2a69472",
+          "section_sha256": "789caf34a49ad58d8fde7756157230a74be38ee30a3f8a6bf7f8b64108873cc2",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "399ef1856e2937cdf9d85359c9221be8196aac4e91a97f1245b597ea4f5bc10b",
+          "raw_sha256": "4ab4008073ba45c9b29e8adcfeb7f951263b00b3b2088c854c143d1143b9eb81",
+          "section_sha256": "d625be476ccf0be7c141dba62c2b133edeed3c7162c76da761e72775cd7c09a8",
+          "stage": "independent-review-edit"
+        }
+      ]
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "b6966883e2c0d86c6313ff9cd19149b0d16483d40c81401c052f6772f50f0b37",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "eecc2378d37beedd4499046b4682f4f9d6809f8aea86909a58dbdda8885556d6",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "18c67d65cfdf785e8f647bb64212b53739c292eb2e1dec90a9d3656fa34c5807",
+      "slug": "2026-08-02-qualified-materials-across-defense-isotopes-and-magnets"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "3b21a120ce057cb9710e17a298bba6ccd1db794cd8839eeadc4a014321c2c357",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "c79f81422e56e37176c61458d510b538f4721058f8bc2048f6b6b24b34e21aa8",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "31d84c5f1916e9ccd9e578b05746858df93f0e5220376d575fc04057f4859cde",
+      "slug": "2026-07-24-the-part-is-becoming-a-governed-production-record"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "4023619dbe05582a672e9963ebe8870c217952ec8e5ac4fe61928d77c95958a2",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "058b51218155f1fa5e19c5f9a005e50d2c469e4874af841c35d941360ebbc177",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "567fe984086a748a387af6eba831bc7b9301f2296916ae08f7aed02d1f8bbc51",
+      "slug": "2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "e72f98fa037efa7fa66d07dbd63e2dd2abd996ec2438dad5c1e7e8189bdb0831",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "44cfee9d381869ee00a0335e18a54f3646ab5f1cf10c78d63b345538af6acef7",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "676fb03aea6f54161b7d5c82cef7c0d563de66654e63e502e2f666b0b6fa7469",
+      "slug": "2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "9bcba93c868fcd51533e6340f1c672807a2a48d4730d3efedde3eba80aca24b4",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "434cb224226f0a3c12266b7fa062d9502d1a02c6255488756bc8e5780d6f1511",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "5b655819d41711837e1e0ad02582e6928b78547960c5c5af4e0233220fdb41cc",
+      "slug": "2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "00d99049c4cfdfddbd59bd5ecf0b27dec8456c026caebff3d92401dd5c452e0f",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "e265b886e07fd7069b18c095652be3a3f2eba3ce6b08012702dce8f6cba5f649",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "f89dfe616689875d8d4c77a050c34fe381bd3576e9838b0858e8e8965753eb24",
+      "slug": "2026-07-24-the-cyber-resilience-act-will-be-won-between-releases"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "1fddd8740e9fcb37006e44d072a83c428c85b7e95b985956f1cd0c98c86bfb24",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "452abd54191de917ea2fa81b56390fa04995156233a1edd625a756acae8b1d78",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "48adb8103b586d909ccd8157574f1a79dc4b2791af234d1f90cb6b0f66a4e3e3",
+      "slug": "2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "4dc66fa2ff420761b0f068d0244b12128d53123bf38b71bb536d881d219099b4",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "0351fbfce4aca1b818b4f414055be3e6ef0d6788ed8f4998440035042ff7e559",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "9c144018a34001a67f01a3cab17b60c24f2705e7eccb194c4885eac553198993",
+      "slug": "2026-07-24-port-electrification-is-becoming-an-operating-system-problem"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "ebfdddebb6c80657fdea87907b5a8764378b0749fe16f48116713b8afc7fee9a",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "352c0e90b0f3b97e2d2e0347df204eacad91eb4d1056bd49816b691686eb081b",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "26e3d3160208cc8fc6096cca154d10b2221b8fe005ae1b88c14b1b836ccf18ee",
+      "slug": "2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "20b540088c20a74d55a1095b6c389149cf592b3e2c7a6c6844e59b039cdb2409",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "14eaa12e7d0adf527fa750264e7fd831a4cdeeb29150991b248be83405288278",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "306605528b21da6fbf0bae126e03e45ff2855b63da3568dc716bb79af5354d99",
+      "slug": "2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "60f07fc501ec1d4d1a3081f88419bb1c44303c8cf541b404916bdc1ae42383ba",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "445637885d6f6aab3f6e730e008a815ee1dd28242c06e81c903bd8ccc8630bef",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "2d6a42780c3ebc5f3d8b68389fc1a23f90bafa9368dfdf81c0b4d7d0e9d65176",
+      "slug": "2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "81ce6d11fd5b17a5e78c7be3488e10eee3f9d737773c16b170adf9eaeb93520d",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "8823293e1956ec3612c1897eb26dc507c410567ed030245e26ddf50cb64fa6cb",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "6d86defb5597e3de6fc99b226abc3cc5e52a1df89782c3d017e8d2c0484fb329",
+      "slug": "2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "ea96f29fa1f177bbfd38211ba5dc695ceb56c3a3c70d3e6b7369b73e54c16c2b",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "cc9e6b237e067b5395e3b8e8d2ac7ea1cdba96914e2ff553b8604972304d188e",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "2790d17c18f8f25142dbd32d341fc9de35773f2f10ae866b5d4c24d6f9ca57ea",
+      "slug": "2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "3f10a5bcea41e2ba9afd7f5e276bfcd6e2b32f72d8dc5d3b9a38a5bf36410bd7",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "b2f9425406826bb4d4ef8525f6190594379299eed0ff599086a122cf102a70f1",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "3ab94464bc26338115c50ec6dcbe7abc2a0acdc2c2af9c3e7820c8926ad942bd",
+      "slug": "2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "06979340922e8309bc59695c37a50c6528a01f451de082b2469ba7313388d614",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "4fea6a08cd18705ad1c01b6f8970d42174689960038896a2c2fbca4e6eb91658",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "0bfcb7aa007403d589d07eeaf12684ac18e33942facbfffe3852a19533d998de",
+      "slug": "2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "0b8fd02a5be898fa57b2bd17ca032d14e770ab44d09d565058daf900bd895e3a",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "cb15c7c401c17304139a20f4fcc9ba2a711cecdcd954467a7d5448c52e31c68a",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "9a559478eb6881d5203430c9e8c153fe9032b1c4c7aec35c18912388ae743590",
+      "slug": "2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "22486a993855e21b9687baf749308d68d35298226a30084797345d9b9cee1350",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "903df6557fb706cac907729f178010a0cce9a797513594904ab52d868109f6d1",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "85237fd108bd850a6d1cdb1435010a8edb61242aca296f5d0aed7caa2ce759e8",
+      "slug": "2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "b0ab3842d6a011bf8798066afd6c9877925340596b932bf4684ed582510d7c43",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "78a9ee5bf402fabf6d149ecb9d888d2482dfb2439f4770f3210344a5946551e9",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "9a944c382cdb12a43c3a16ee3cc2ab41da17533d2663bf8060c118cfebc41dee",
+      "slug": "2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "8a32abca9590b6fe8a08c4e327487c9ca066f263688384dbf37127342d1ed8f8",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "df0238ba973270ea9f445ddcbe48b4ff6dce82e36d3d2cdc38f91f11885195ba",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "7d1fe2e7abaf0fb9071a9bd4c4bf55c7d9ff1275a7a19db7ed85ccaf6a94adc4",
+      "slug": "2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "d2492d9e9af05561b6ebb1bea086ff2680f179cde255a8d35d646616dce5c694",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "39b1fad599a1c302b975b053016f05804a1c363f0d89c98d5bcaaa3f2a14d227",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "910598bbb4a96303c7005eb4c8ff21f9b5dfec9c6e470a1d958d2a19ede8bc34",
+      "slug": "2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "690f5dc663f4913aeaecd599c2bf74de3c33976dc31d5a537b9bb3234e276a2a",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "b79a2e0acc0026355dd0ca73ae90d5f85804def957ba3e9bb1315f6361c79aef",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "27be435feead0b1c1bd1437deb856f344db01770e2d99c05aa48141d54a9a513",
+      "slug": "2026-07-03-haleu-transport-package-certification-and-package-fleet-operations"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "8b83e1fe7626d32fe0b80b0631886115f56079e77176813e20adc7a7bae983d4",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "461c04fcc29217cae6f9f145806cd75567f678a9fd43d17295b501b43d093b4c",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "a8ee9c277527c47c001b1370054078afa65ad0ea227d21cadb9e4858ae82fdd1",
+      "slug": "2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "2d80782c6633e59096bc83eed97f6e60b75964558fdf0c7c9388118c16d18a51",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "1462ae16e864266c077a7621defa2547850ccf7a941fb1938279f55405587154",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "d46d5aae56f2402ecb330759b698c2f97ad5317208acb050581246d210ce9e11",
+      "slug": "2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "820eca6cf0c6457c75d601b12cc2f3f078c69fd7c96cf6903de13f97104157f2",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "087c20b5123754b25716a0283a5e059e7d39764a9999d328a15210246f9ec656",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "f0827f49ceaf9046e4dc01a1f350ed3d78633c09cb59d43a1bacf71df5456cd0",
+      "slug": "2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "516d704242202ab93223c751ac6e88f49271eb95b61dfc432683f5ba2c3eb5bd",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "1059b01074c35ba101f1d5889b68b3449ac2559da243212dd371175aef99fcbc",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "374f49eb5abf3e90151f683d02fe2521a578828440b82f8495fac05f4c806147",
+      "slug": "2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "2c4ca78e09509ae093cbce38a17ce176dfc5922305b7631bfc14b07d0e03b32b",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "89045dcdb28e2a0219559a6d262a453ba85252ad0fe3992d9a67549a31c50831",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "ea302fd8352c5a70159ea0d68ed30b7e3a7771169428bbe33c2940aaa8e3dd54",
+      "slug": "2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "c98099b74faa2a03d58d8527017897f26cf873e1edb66a0df294d253e18507c5",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "99339f7ea3032c7280d4483910983afdc450efdd67ecf09f118cb91e75af924f",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "80d05d8d4ad3049d6724f3a368550fe56489d6c81a113909c5fba76345a1195f",
+      "slug": "2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "3639fba6007393ee60fa2fbfec3ba1debed2535d00e9425e1e08bfa8e7207152",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "23dfb6927e4185cc7137c99bb32cd94ce390f46e1bd8ad90cb27ede2829956eb",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "8a943a4e2465dd18a147899628bcd9d97b8c11c2d6cb15301afd48c41046ddf7",
+      "slug": "2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "6190736528cece52468e55708d82606b99d29d6077af0be185a5fc5ab417d809",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "d3f40baddae45c57ccc6fe3af4b844f6f507c4ac62bae5c4fded70a94fe16b84",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "c218921c5ed08685d3ed480292e9bfe569dc8ed60875fadb27a9d779dc820df7",
+      "slug": "2026-07-03-fluorine-chemistry-s-hidden-control-point"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "73cb988455cd77e5fe3ca97433832db579cc93a33f0667a2255daa4470809a1c",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "2d0fa18f4eeb7538fcead29f2365149508b2dabe4dc21dd2434cfa55859ea5b5",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "cd3b4c5ebe5201b9465c22122659c1e84807fc02de34f4e4b5cdb4288ad7c2ff",
+      "slug": "2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "af513e51c725dd3d66e8433f1d54d08b94e6e1251f9fdee18c0534370413f5c8",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "da46baa7a9a44bef66e6964e9888756be2360ae6a6d70f7ee3801c2092a62170",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "00e9200be86b83a729fcac44f8834d30669521382854a02f10c43ef51ca93bbd",
+      "slug": "2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "6559160082b34dfc3640c186632ae06baf5d66ab5223f31bc74757079709065d",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "800f82b9240823694f50087ca9dddeb407f37be9a452da56f7aba421dd315344",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "14e834ccd8e656a326e6784976bd61ad700193038162e9557143bdabb6b9c750",
+      "slug": "2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "21362b6295561f2ef0d0d836e05b2e341c501201d9de890f414c0a530af69ff6",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "5e32fb214151aca6c4849c6247e3bfe476aa2d58478f763e1f116da58a1fdb9d",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "06d9bd2b2a299face137f2b6d54ab7676d2ce1ff706afa14372f859b2933dd4c",
+      "slug": "2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "513a52ebdd7ca1df7abb1cc92426891c2f360ac3ba2a69cbe4b3ffa906ba51d2",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "51e2b61eae1fcdc015f6359b7ed0c402850a85b435f3eb5e3a5c89f4ae73180b",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "2118747251989bfaa7139ae94b9ee03f34b9b9d08b266cf46abba7fcf6d88e33",
+      "slug": "2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "93c94b61fabac31946fe6bfe9528da64f32d44f7073ba5939ba16b754fd8b234",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "7651db2103c4a60bdaa35b43b02226618ff499c1899349aefe2737fa79f1078b",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "724a18715fab1036c02ceefc7e928574422ba6fcab575d677bbf0446022ad04f",
+      "slug": "2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "0361d46d02610208a2ca6cdf7fa7980b4f1af024b823dfe4e7035effdf7d0dc8",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "8318ce076daa66d590dfc3ccfaf1eac4c58feafe7d200d0c2050fce8fc157a36",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "303a2a6ed27fb534b2592ffe7728edc1a13a4be8f0f802681460111b8adf56a1",
+      "slug": "2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "3f1bf50ec9002cb037f252ac27a6869f450ce6c7b94760390d21574efeff5252",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "b7f614ffb77498da29b08d02c3e0f120f459cf36be283a9af6844712159c72cb",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "922e0456f13ac3c0236f21ab05b0a61c5eccd0fd4a9e934ee3b88c52856e8e66",
+      "slug": "2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "1f421e39b0fc4278911e7ecc25d643cb18c5d5cf606a4e1f7f0e0776052abeb8",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "e5cb1c7c037cf025c7888c364daedb45b2239ad72a876a5ea6a8da37befafcbd",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "b840c6b4f560c8523bddb0f4a37845fa799995534afd586eb08436b09cf58f19",
+      "slug": "2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "e13d0a8c33dc702f6836cea85b5752d448deadd71acb1fb87edbcdad9bfcd842",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "601165616745dcf47eaa6347c54f31fdae974f4df1f3d876580753eb94d4ce9d",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "7d870a464e991ea700c39fdf7a0d49fda7c43c7398e9b397decc9780b82537d1",
+      "slug": "2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "5115447bc60d3376c0bbe436789ed5fa844737f365dcfd305fa799f59a8ad2d1",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "0d81208ed7ea9124810f54bd1a2552dcd629c9b59fa218bd0d0e65666d754fea",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "042555c4b600efc891cb9b255599b07043d592cedacadc6a1d1c92436c3d2e75",
+      "slug": "2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "ed368a8ae35a837898bb28da06fc0f625a53dbf954ede0ce68c1999a300aed13",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "fd8814c47777bf3ad8f6054ae45af93496a1d68000504db3fd024449e1916853",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "dc3859a3fa636754ada5225887e33825a758b3900dff26cd4aae5951c26c4eb3",
+      "slug": "2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "3d39c35456c843abb62636f43cd5219a272be24ff00b3c7064be21ef0f597664",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "5bbd8ab5160a09d32b4f91851e14b5a7642c4966f694be1db1bc81d2af3f9e90",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "5c9eccb4b57313d54b961c460eb93e1fcb8c87305465c23200f91886a7b93f56",
+      "slug": "2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "e54ff291e5f80ac5582963867f3e6f5523de5cdd498d3d8f5d6d91dbe7922962",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "2d10b64b7c1a797d663d0a6072a0a2f48191b89cd8808a5974a4eda1de6bc938",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "10e2861f28535cc664ca38b2236ec362c4c14d430d0bea70505266b7549315c3",
+      "slug": "2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "f7eaf859766e23bd28565709393a3092d1bd6530bd95c204aae2df890c0f5b69",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "9af99612b652fd52893113e90da19ca79e2b35ab91a94b7313f79dd7772545d8",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "c353664068e76c33d02c9c2e33216decc3df7d416d120079d9699a79bb013561",
+      "slug": "2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "58c1c54316933de50ba03570cfc36a01befad60239365ee2ff61a8e5eeade2eb",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "cfa5f15817d3a488a287ba203244e56ab2280defa87abe162d03c2897a35f903",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "683cfe6faefe25d84e64eb9379db8edf211d5c78743ae1afac8125fc6de01588",
+      "slug": "2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "25f4a1f415599ea954b1b1a8c36a7f3c81b6f004710f723ecf739ea6ab36ad91",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "ed1b079786dc95a5cf4341f9e40273efc67117a9c26675261a20d6679a15e144",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "54c1fc75380cc6888c335e6198c611c34868b4683916184ba2e7621a44652d7d",
+      "slug": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "5c6990c9bc8069fa49b252d25629579fcf0cfcd552edb2aa77d157d7280d326f",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "d23c2ec334cb33d47d369dad2e6a201296b4d8a8ba9f4156d2ee96ab813dd9a3",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "4fafe627a1148caf23620bfaa27b4bf04d594ca45fa037b8324d5eab0c05e3f3",
+      "slug": "2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "f31d7975994fb47f530ebb8397f35f86de7d6d9c5ed019fa69782e720bc07fb5",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "a7d7f868239623226bc543a3d51bc8b8d25292808e3bd97ad0e202a0507c4e61",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "b65b3abad3aeb4ff9d84484a4261b93fb5594c383ac2dc1d44ac81ab24d981ad",
+      "slug": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "7638b6e65ecd2e3f5e1e05cb70fbfd6cd3021cc18d39897f826e63df4f017bea",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "ae4d892925798c9f69a1efac8249f21e79da7255edb89961609904a0809f9e4e",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "6692e4364945fb575e376114382581496705f400422266fe2379db926e3347f4",
+      "slug": "2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "28dfb2748367653ff0d5a51fc3cb00fa05c8a25d09cbee6b1ca9af717c2fcfae",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "9b40908bb6297de9448516942f7853c131f8b3abccf01b265591bb005d734b88",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "7b35312223f6c3c1df7e8602896c27e449288613d1210a13df6866620da09d47",
+      "slug": "2026-06-21-the-shell-bottleneck-starts-before-the-shell"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "74fe8c69e259a8a1a6a1c80eb0935fdbf8e49cdf4427ea05d98523f15673e420",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "a84e7f260f76048f28f6062d90ef02ff750079c749921a8268de2b2c8a7ecad2",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "89ef525ba9ea55fcc8ab6ef328118c965e68c610aaede3c70b011b8034c89387",
+      "slug": "2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "59ad88e8f8e43efca86749c1d312a0dedf11fb3d7ffb8ee17087db10c4f35177",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "788d3426dfd00f9cf296849a28fd08efab98f15f95895dc7edc0c0d645de1f5b",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "555f87e5332dc38d4cb6e09d2924483ff9d75e3f4248e49f09582a9fb9ff4080",
+      "slug": "2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "5bad392a3e572ca413c1ab0752bb9d766b0463e032d66f3117a15d843766640b",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "e9bd16f8ee54ecd480e4994f494cfa0eb3cb4c9bffc8fddff1517ba8b8ef4719",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "24d733a296d840dc100ce4883708934a22b3254a7290a8344cf71f613b9b06f4",
+      "slug": "2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade"
+    },
+    {
+      "attestation": {
+        "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
+        "deployed_post_sha256": "b4ab0015c33ca7ba30f5f3a9287bf2057e786f8df3c69dd1c0f32d26e5f3e0dc",
+        "public_content": "unchanged-since-deployment"
+      },
+      "post_sha256": "89cecd4bd1b6acbe11f743ebe7609d8dff7360017a4eee4f68111ad388b78ae1",
+      "profile": "legacy-deployed-v1",
+      "report_sha256": "960e35d9ffbd1634a538d320e77a2e910bbc70686cb689bc47c24fa5d4ad53f9",
+      "slug": "2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it"
+    }
+  ],
+  "files": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "404.html": "15e3533283fa92f710019c9e91b979546662a17eae3f2146b06287f19ebf917c",
+    "about.html": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
+    "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp": "a39c4e200ba890052fc3cf1d66b2383db3ec3cc3c0b6ced57c339472b3e4dd10",
+    "assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-000bb2c40ce70c96.webp": "000bb2c40ce70c96e95a247e24e7f53a3b6ef0a28f008b622fff5ad9fabd5a34",
+    "assets/heroes/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault-25a09418461370ee.webp": "25a09418461370ee273bfea78ab4993859a5db1d23c73f2691c7f5247607c9a6",
+    "assets/heroes/2026-06-21-the-shell-bottleneck-starts-before-the-shell-274763c329aa852f.webp": "274763c329aa852f062a9491283fd43ceb59af0c47d3c3c8bd58ec93f8cbd399",
+    "assets/heroes/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break-df7359b9e68c7a85.webp": "df7359b9e68c7a8589d1b1bb761942c682ec966f275816a7a9a367e61665c236",
+    "assets/heroes/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity-5f32d475708a35e8.webp": "5f32d475708a35e8d88005cfb10da1ceda28987872569b7cad9039ee4930450e",
+    "assets/heroes/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water-8ee9a97d3a18010b.webp": "8ee9a97d3a18010baf08fbad8dcccf0d3f1e7540c74b48e9600df3c0e42da9e3",
+    "assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock-f2d85a175234c529.webp": "f2d85a175234c5292d0ee2172745863e4d334b4bf2a53269eedb3a19ca0ef711",
+    "assets/heroes/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar-0c69e436be1a929c.webp": "0c69e436be1a929cc829efdc9eddb15af7e571a578a2827715f64fb0abad8dbf",
+    "assets/heroes/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market-def5574543ff8b7e.webp": "def5574543ff8b7ef54f3c0799ccee6508d371a449f00a777105435a69a837a9",
+    "assets/heroes/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns-62fd9d994596a9be.webp": "62fd9d994596a9be46d0270ee70c9a3e2215546f36f32c9bf7835797a5a5c157",
+    "assets/heroes/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck-92cf870a70aa3cac.webp": "92cf870a70aa3cacf35e9c3ce231e114277e11dcddb16f680d4f366553257501",
+    "assets/heroes/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure-91d06a0c46b1add6.webp": "91d06a0c46b1add6cc70167e654bf61deb0346e4268c812140f2ab2d32ee5c2c",
+    "assets/heroes/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck-6f03353ca4698b5a.webp": "6f03353ca4698b5a55b2ce444142441b5b8d3075677e3b1af128c4fcd1c4c4a1",
+    "assets/heroes/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint-def5574543ff8b7e.webp": "def5574543ff8b7ef54f3c0799ccee6508d371a449f00a777105435a69a837a9",
+    "assets/heroes/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck-d743823e0a1d5f7a.webp": "d743823e0a1d5f7a9cb7c3a5fac4154b0e83699167766e2f580ae754a454e6f7",
+    "assets/heroes/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck-91d06a0c46b1add6.webp": "91d06a0c46b1add6cc70167e654bf61deb0346e4268c812140f2ab2d32ee5c2c",
+    "assets/heroes/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck-0dafcb8c04fa8efc.webp": "0dafcb8c04fa8efc37a0ccf2b664c28c703c8f6f8f1714d88216e4557a1ed321",
+    "assets/heroes/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system-6f828988bea2d603.webp": "6f828988bea2d603bcd7f660028ca6eee948e9f337bd976563e2d813e31a0e1f",
+    "assets/heroes/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train-91d06a0c46b1add6.webp": "91d06a0c46b1add6cc70167e654bf61deb0346e4268c812140f2ab2d32ee5c2c",
+    "assets/heroes/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration-30bb78ca946ebc6d.webp": "30bb78ca946ebc6d35fef2a74e9681ccd2995706dfb093367ee1a33fe4623ae1",
+    "assets/heroes/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create-259d091212f155b2.webp": "259d091212f155b2fe7aa14754bbc0cf5ef4701a1794e13e200686960aa01442",
+    "assets/heroes/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa-91d06a0c46b1add6.webp": "91d06a0c46b1add6cc70167e654bf61deb0346e4268c812140f2ab2d32ee5c2c",
+    "assets/heroes/2026-07-03-fluorine-chemistry-s-hidden-control-point-064c05daa14f152f.webp": "064c05daa14f152f5106dd3663a75c2eb68f761f3bf06af33aa46e77327af78b",
+    "assets/heroes/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide-63516cd33c18efd0.webp": "63516cd33c18efd0229f41bc44a57a4167cbc3eed5f0770594b2e3af88137d34",
+    "assets/heroes/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure-b03bad09dce3469c.webp": "b03bad09dce3469c914d13065171aa06453915421ab6d2895c742c61ce998062",
+    "assets/heroes/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication-a09cec4b1d42939f.webp": "a09cec4b1d42939f34900153d31fe69d778c3848d6fffdb422299bad71149635",
+    "assets/heroes/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations-a09cec4b1d42939f.webp": "a09cec4b1d42939f34900153d31fe69d778c3848d6fffdb422299bad71149635",
+    "assets/heroes/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate-2e9f77d3689065fa.webp": "2e9f77d3689065fa9711aeff65ddfcb9d0cb72a9f598b060ece5af386542a18c",
+    "assets/heroes/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate-dce7c0d9879aa690.webp": "dce7c0d9879aa690f6eb337ec07e4cff3f4c96d3fcdccdaa7cbef9b239794bbc",
+    "assets/heroes/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and-dce7c0d9879aa690.webp": "dce7c0d9879aa690f6eb337ec07e4cff3f4c96d3fcdccdaa7cbef9b239794bbc",
+    "assets/heroes/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate-685c86412220a700.webp": "685c86412220a700f9bb24a5fdc4f6bb5dace37f08febb4fa5428297c89c63e6",
+    "assets/heroes/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot-63516cd33c18efd0.webp": "63516cd33c18efd0229f41bc44a57a4167cbc3eed5f0770594b2e3af88137d34",
+    "assets/heroes/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point-a09cec4b1d42939f.webp": "a09cec4b1d42939f34900153d31fe69d778c3848d6fffdb422299bad71149635",
+    "assets/heroes/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable-9092cec4011e3001.webp": "9092cec4011e30018715ad722839c0998f6a0afc3dc66b0a0824ccc40429b4a4",
+    "assets/heroes/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem-f28503b51c20ad71.webp": "f28503b51c20ad71fe9a8a70abffcaa7f0ed1f1a5063c7b449b79af513a59548",
+    "assets/heroes/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem-b10cb0e31d33ba0c.webp": "b10cb0e31d33ba0c9566b11496ef55131405444717eed69a0add7e5abd5eab7c",
+    "assets/heroes/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks-3e50497abb8d6ccb.webp": "3e50497abb8d6ccb8469ad7fe8bd0ffa63921859925cb887159a4f92bfa092d2",
+    "assets/heroes/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing-6408f3f720f9d7ed.webp": "6408f3f720f9d7edd63771aaca0272e59dbc94a7c0cafc95e4dd54ab1b0fda1c",
+    "assets/heroes/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock-88bd57f635cae5b1.webp": "88bd57f635cae5b1ebe2b7e75039819c3b50fce4105a04ea1d322d572fb5c334",
+    "assets/heroes/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time-d68ac917af8c81e6.webp": "d68ac917af8c81e6af7f11307a4c7990ce9329f808c051210cb1aeda48bd7d60",
+    "assets/heroes/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration-82ab4b62fa3740bf.webp": "82ab4b62fa3740bf11e80766a406c8c0866f1bf154a5c59ead1ffec87ac0f332",
+    "assets/heroes/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market-d743823e0a1d5f7a.webp": "d743823e0a1d5f7a9cb7c3a5fac4154b0e83699167766e2f580ae754a454e6f7",
+    "assets/heroes/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path-3c999eff739bfc8b.webp": "3c999eff739bfc8b5f925920415d96761e45f73fc29f7186bf967daa5cac65eb",
+    "assets/heroes/2026-07-24-port-electrification-is-becoming-an-operating-system-problem-3f3380e14dd4a867.webp": "3f3380e14dd4a867f7ea88935cbc341edbd35e5cfec845f93bf8caaf1bdaca05",
+    "assets/heroes/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence-de28f008f49ef04e.webp": "de28f008f49ef04e95a36bc438c09fd63fd071d2b5bd0e606d55e467630348ec",
+    "assets/heroes/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases-cb2481a39cf3118d.webp": "cb2481a39cf3118d7789b9f0d9b3bb3674fb09a13647e98065453ef41484e667",
+    "assets/heroes/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system-ddefffcc67ce1e49.webp": "ddefffcc67ce1e491a25edf335e5c0bdbf1fae47cb0e0506e26328a5a08b243e",
+    "assets/heroes/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit-5ba89872baf7619b.webp": "5ba89872baf7619b5d4111ef386300d72601582e0c6a58bab7e94efed902d7d3",
+    "assets/heroes/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply-fdecbf83a13938eb.webp": "fdecbf83a13938ebf18aad6c5574cc8913f5b12fc4d96202bacb6c6858f58a42",
+    "assets/heroes/2026-07-24-the-part-is-becoming-a-governed-production-record-3ca68393991ac246.webp": "3ca68393991ac246ab6ac5b4f608cd9709212d318a440a7f15cf03be40db5b93",
+    "assets/heroes/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets-9092cec4011e3001.webp": "9092cec4011e30018715ad722839c0998f6a0afc3dc66b0a0824ccc40429b4a4",
+    "assets/heroes/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room-ba8f30bffd98fffb.webp": "ba8f30bffd98fffb202fe4cd84f9babaf0ccf7f155f3175e7f3128f47af9d8d6",
+    "assets/heroes/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system-f1b472b033c3bd38.webp": "f1b472b033c3bd3886de6bf1b225c758554083dabbe128fe3175f8477f6c1c2c",
+    "assets/heroes/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem-9e15b5db78d45c96.webp": "9e15b5db78d45c96507c833c92a0c836061447b865ba025df59397307df40cbe",
+    "assets/heroes/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction-9e61e1aa980b192e.webp": "9e61e1aa980b192e83bb861c3f46fc66fe7c7bb884faa24072e432b17372be1c",
+    "assets/heroes/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse-5ec25ac459d27681.webp": "5ec25ac459d2768179b7c728d9c99f2df2fa845000b4daf9bdb4eb43e7f61731",
+    "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-688eb6b15dbdd0e2.webp": "688eb6b15dbdd0e2ea15380ac2ebb584eb13ad126ad602e650263d6f2301e75b",
+    "assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-46b5a94eb7aa4eba.webp": "46b5a94eb7aa4ebaeaf2e4926ec56a769e08dd446a165a419a890d85e4a55d84",
+    "assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp": "9a6e8d5f8d0f8ec96ee8b3019cc6e7b16e03775ff28a9fa76d2e673e7862128b",
+    "assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-f2d85a175234c529.webp": "f2d85a175234c5292d0ee2172745863e4d334b4bf2a53269eedb3a19ca0ef711",
+    "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-04a06f0628215682.webp": "04a06f0628215682df8471703aa2a31bdfe309e9d90ff29312fedfa4a6e7b233",
+    "assets/heroes/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it-76747e874c471ffe.webp": "76747e874c471ffefb715e03f44ec3ac18d81dfebdffb52c121833be3dd133d1",
+    "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-2d594ba5207ed4b8.webp": "2d594ba5207ed4b8233251ac28b39776f37ced9b50bd6722e93a3fcf1ad5f581",
+    "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-a70776b33af9c4f1.webp": "a70776b33af9c4f1e2e8f53f8ddaee1ad2ff610b8bffeab4956aaa63abf91069",
+    "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp": "3f332c0899493328f2a41be31ec9fbd1f736f44f21146dae216fea0250b85a12",
+    "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.jpg": "fcd22852a3b260036efe7b1d55b007037d39d0e4ab2ed3ee49615d99793c017a",
+    "assets/og/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.jpg": "fe4dc77006b1c0567b9a719c52aaa87bbe1586569fe9dd95c3a9a5a844384361",
+    "assets/og/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.jpg": "b2d25fa610d18bc32eb5ea624fdd5833397ac86e6b476a0af077e9833cda6c0e",
+    "assets/og/2026-06-21-the-shell-bottleneck-starts-before-the-shell.jpg": "651bb25ce4b2264abb276f2c6549208e2c185b0fc38d56633c592ba06f3210b1",
+    "assets/og/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.jpg": "cbb49bd545cdf67e3ca7ebb4847d8c388185a0d646956828805fa0badbfac9e8",
+    "assets/og/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.jpg": "fa6ad46e0a19cbdd9f950b7bb12ba72b05454cdda5bb75006432ccda3210b461",
+    "assets/og/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.jpg": "bb08c2b4926562d0be105956a25e8c7e4f95a8b4a713eac6848f7021e29bb09f",
+    "assets/og/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.jpg": "f2b9a6b3f2b9408bf3535ea5158bd9af406ceedf9412b2cbf192409330d35ac3",
+    "assets/og/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.jpg": "f80c3edb3f4e8c5a19b5ad9977a5655ac52bc9693903289b0f4260c26ea8ed8c",
+    "assets/og/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market.jpg": "43d815ec78e8d5d4050c7011bafc16750f9c6594af864037bb3369d3058ca4b1",
+    "assets/og/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.jpg": "4e077c5087d5987ade4fb5be14dcc4889cfe1fc6e1c9fb901a6977666d2c1596",
+    "assets/og/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck.jpg": "0b234319ca353cb3796266ca115396a448246ae9c6b6825a2101039f329e2d08",
+    "assets/og/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure.jpg": "2ec8bf9a9414867783ef9ed7c00200009725572c71561662a0ee6a7374e68866",
+    "assets/og/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck.jpg": "d28dc6bd7279eb174bc0185ee4d04cdfc1e0cbf8483629fd4725c4613d6653aa",
+    "assets/og/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint.jpg": "43d815ec78e8d5d4050c7011bafc16750f9c6594af864037bb3369d3058ca4b1",
+    "assets/og/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck.jpg": "5f0130c14c3ff7f9b1918ba2cce920f1e1dc99f822df7a577757c8d9f99f591e",
+    "assets/og/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck.jpg": "2ec8bf9a9414867783ef9ed7c00200009725572c71561662a0ee6a7374e68866",
+    "assets/og/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck.jpg": "3965aa6d3aa7c127166063cc16cd9a6137d4942b2bf8490d504c785c8913255d",
+    "assets/og/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system.jpg": "e8381fc50e8f6d87b1a0c4f12f82ae18f69b915d288d82e5057d05b5538c112d",
+    "assets/og/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train.jpg": "2ec8bf9a9414867783ef9ed7c00200009725572c71561662a0ee6a7374e68866",
+    "assets/og/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration.jpg": "17c64ddaeaf4ce011e332047ffd5ea16bfe81da0270535d9f969bfcd66aa018a",
+    "assets/og/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create.jpg": "582387f55578696b943e5cd34c7780a169691aafc09cc8f79e9693900a9b115e",
+    "assets/og/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa.jpg": "2ec8bf9a9414867783ef9ed7c00200009725572c71561662a0ee6a7374e68866",
+    "assets/og/2026-07-03-fluorine-chemistry-s-hidden-control-point.jpg": "512664e059a63a3356ff5c6d5a0843ba1e1a377a6804ae35bbb771aa81ea240e",
+    "assets/og/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.jpg": "9d2f94b28652ee65463c8f6442175ae08d3b291dab0712e826844742ba19ffc1",
+    "assets/og/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.jpg": "2972e60ff6249204b5d81633cfe9d7b366e60351b04fd9885e6c97ebdb663087",
+    "assets/og/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.jpg": "07a6b61dfd43ffe110a83868aa81c0b17e748369a4c7fce465eff6a041c98446",
+    "assets/og/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.jpg": "07a6b61dfd43ffe110a83868aa81c0b17e748369a4c7fce465eff6a041c98446",
+    "assets/og/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate.jpg": "963b5c875abbbcaf94c957e9e62ab953d3ac78d531924b7008798a24634645fb",
+    "assets/og/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.jpg": "d52bcf039692e076969b165ba89dbab36a99a9f3756f7135819efaed2ce05f77",
+    "assets/og/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.jpg": "d52bcf039692e076969b165ba89dbab36a99a9f3756f7135819efaed2ce05f77",
+    "assets/og/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.jpg": "5fb9ad10fa393802ab817078f2b2ef59b8ca0ed80809076e0fc96b92ed4b2fd7",
+    "assets/og/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot.jpg": "9d2f94b28652ee65463c8f6442175ae08d3b291dab0712e826844742ba19ffc1",
+    "assets/og/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point.jpg": "07a6b61dfd43ffe110a83868aa81c0b17e748369a4c7fce465eff6a041c98446",
+    "assets/og/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.jpg": "0bc0a2b09d89959adaee10216f6c5f3e78ee646340aef4ade57aa635c45c7420",
+    "assets/og/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.jpg": "9d6c4f852f6506ca4f59a75be83e67958f35d2d6565c748d3e980ad7ee9e55e4",
+    "assets/og/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.jpg": "23b96b9221731c6b128649173dc403531afec2fff902a185e842527230a06f25",
+    "assets/og/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.jpg": "315eb1adef09a0746556f11c9a6635d7658d883f0821c98ea11fe6a9f94d738e",
+    "assets/og/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.jpg": "1242bc1464cd6b09347f7c2c38a1a91620db152c8ab92fcff60ddf1b5f99d1d4",
+    "assets/og/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.jpg": "25ea6568442b2db5e95f1d1793ded04c74a26f98ada856295efaf9a4605105bb",
+    "assets/og/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.jpg": "368fb8450a159ee7563b8c595d92e552ea33db97c19910f247b5a3cefe07bb46",
+    "assets/og/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration.jpg": "2497558c24a3dee4df49c4772da4e792503406fd4666c9ecd9cc265c84e7b0b8",
+    "assets/og/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market.jpg": "5f0130c14c3ff7f9b1918ba2cce920f1e1dc99f822df7a577757c8d9f99f591e",
+    "assets/og/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path.jpg": "ed5edb98bd33d2643389d8986f0f8990a78a02ce30f48bc0638deb06686b2306",
+    "assets/og/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.jpg": "092237a4146515af15ac7643189ddfaacf2c813abceb58a3c9adf937684fcfd2",
+    "assets/og/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence.jpg": "0e2f97d64c934918a4caf79ed1a84f066af8e7e0a051333ce585c9d912c57acd",
+    "assets/og/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases.jpg": "c0b117e06d90fe00da513335bf59ef5a7e58dd3d4941801d738323b4b2d7e5d6",
+    "assets/og/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system.jpg": "124d52d75bc7288e84e4995242721ba0e48ef08e04879b04973d8b374c3caa30",
+    "assets/og/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit.jpg": "6f9b37b90758f225d4fc6fd79f2695c364e4849158ad0f6380829ce882833cc8",
+    "assets/og/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply.jpg": "f150ee5fefb1a01e7e0bd8b78cb4d5930acbeb5dd9faba18124057c3ad8f6664",
+    "assets/og/2026-07-24-the-part-is-becoming-a-governed-production-record.jpg": "a7fdef49cca274d641b3e90863008c51dec7db0eeef593a1253d98a5aedbd92d",
+    "assets/og/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.jpg": "0bc0a2b09d89959adaee10216f6c5f3e78ee646340aef4ade57aa635c45c7420",
+    "assets/og/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.jpg": "9c5a97a502d1c2f967fdf1c922a751d43386ac72f621ecd7edbfeb3c595062f4",
+    "assets/og/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system.jpg": "1218ac3dba2820ba6348397aef3e92c9ec81a277f4f32d53cc6fed0fd1e270cb",
+    "assets/og/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.jpg": "d89c393f5d4945cbb34c13aeb6131ecb534e3b71af251284dcdbde2da223ee52",
+    "assets/og/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction.jpg": "fdfba9be708f6137b4bd5da7781057b9c5450e7ef392145fa38c267a09b3dcd5",
+    "assets/og/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse.jpg": "9331611aa4aca7cf2a08c39d89cc05f4bbcdfa36efdbbe686af187159940552a",
+    "assets/og/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.jpg": "8049c90e293cccab9028624ea1da05c6092390f015797d92a479b58f987ec2a8",
+    "assets/og/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.jpg": "2bfba15217362979b695a337e6e0c9096302d413db08b1533873283479e3cca4",
+    "assets/og/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.jpg": "81b95547be44012848a1ce62d7437a1e33d7e500c02c45606dd27148520ed8dc",
+    "assets/og/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem.jpg": "f2b9a6b3f2b9408bf3535ea5158bd9af406ceedf9412b2cbf192409330d35ac3",
+    "assets/og/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.jpg": "62eabe24223ecf81b5ba4e646da472e38927685201b1c8bd56a6b714e3409b1e",
+    "assets/og/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.jpg": "a3a7c3a2be7b2656f9154421b326d016bbefe61caa34754e249b625189059b1f",
+    "assets/og/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.jpg": "1ce794125c22d001c89a2c4ffe365651344665bd4f66d1a8bbfca82212218c63",
+    "assets/og/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.jpg": "1c00f1434025dfbafee295461844324e8043a90662e5f2b67e2b93fff8c8eedd",
+    "assets/og/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.jpg": "d27e2e730693f47fd2be715d407b2511f32a7ed8cd0e89d335471be36d1ac5b9",
+    "assets/site/industrial-port-photo.png": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
+    "blog-data.json": "b6c540b5a29877d5c0265ee5ecd91e71a218e9e93925fce6deae6a2317ac415c",
+    "disclaimer.html": "924749b2dcd25d390d1f978585c6f4adbcb7251de172047e7118b4809b0274a1",
+    "favicon.svg": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
+    "feed.xml": "467361a13a423f240cfe02cdca01a0628803c0707e080a77f2b932f5c11e41d4",
+    "index.html": "15e3533283fa92f710019c9e91b979546662a17eae3f2146b06287f19ebf917c",
+    "ledger.html": "3f1eb8a5d9d624142be532f7f71342da024cac87a205452e1291f81d51e0395f",
+    "patterns.html": "730fd10b53405862e06c485b5cc87e7c73beb72f9b96f93c2710b79230c6e93b",
+    "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html": "788d3426dfd00f9cf296849a28fd08efab98f15f95895dc7edc0c0d645de1f5b",
+    "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html": "e9bd16f8ee54ecd480e4994f494cfa0eb3cb4c9bffc8fddff1517ba8b8ef4719",
+    "posts/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.html": "ae4d892925798c9f69a1efac8249f21e79da7255edb89961609904a0809f9e4e",
+    "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html": "9b40908bb6297de9448516942f7853c131f8b3abccf01b265591bb005d734b88",
+    "posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html": "a84e7f260f76048f28f6062d90ef02ff750079c749921a8268de2b2c8a7ecad2",
+    "posts/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.html": "d23c2ec334cb33d47d369dad2e6a201296b4d8a8ba9f4156d2ee96ab813dd9a3",
+    "posts/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.html": "ed1b079786dc95a5cf4341f9e40273efc67117a9c26675261a20d6679a15e144",
+    "posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html": "cfa5f15817d3a488a287ba203244e56ab2280defa87abe162d03c2897a35f903",
+    "posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html": "9af99612b652fd52893113e90da19ca79e2b35ab91a94b7313f79dd7772545d8",
+    "posts/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market.html": "2d10b64b7c1a797d663d0a6072a0a2f48191b89cd8808a5974a4eda1de6bc938",
+    "posts/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.html": "5bbd8ab5160a09d32b4f91851e14b5a7642c4966f694be1db1bc81d2af3f9e90",
+    "posts/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck.html": "fd8814c47777bf3ad8f6054ae45af93496a1d68000504db3fd024449e1916853",
+    "posts/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure.html": "0d81208ed7ea9124810f54bd1a2552dcd629c9b59fa218bd0d0e65666d754fea",
+    "posts/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck.html": "601165616745dcf47eaa6347c54f31fdae974f4df1f3d876580753eb94d4ce9d",
+    "posts/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint.html": "da46baa7a9a44bef66e6964e9888756be2360ae6a6d70f7ee3801c2092a62170",
+    "posts/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck.html": "b7f614ffb77498da29b08d02c3e0f120f459cf36be283a9af6844712159c72cb",
+    "posts/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck.html": "2d0fa18f4eeb7538fcead29f2365149508b2dabe4dc21dd2434cfa55859ea5b5",
+    "posts/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck.html": "8318ce076daa66d590dfc3ccfaf1eac4c58feafe7d200d0c2050fce8fc157a36",
+    "posts/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system.html": "7651db2103c4a60bdaa35b43b02226618ff499c1899349aefe2737fa79f1078b",
+    "posts/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train.html": "51e2b61eae1fcdc015f6359b7ed0c402850a85b435f3eb5e3a5c89f4ae73180b",
+    "posts/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration.html": "5e32fb214151aca6c4849c6247e3bfe476aa2d58478f763e1f116da58a1fdb9d",
+    "posts/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create.html": "e5cb1c7c037cf025c7888c364daedb45b2239ad72a876a5ea6a8da37befafcbd",
+    "posts/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa.html": "800f82b9240823694f50087ca9dddeb407f37be9a452da56f7aba421dd315344",
+    "posts/2026-07-03-fluorine-chemistry-s-hidden-control-point.html": "d3f40baddae45c57ccc6fe3af4b844f6f507c4ac62bae5c4fded70a94fe16b84",
+    "posts/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.html": "23dfb6927e4185cc7137c99bb32cd94ce390f46e1bd8ad90cb27ede2829956eb",
+    "posts/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.html": "1059b01074c35ba101f1d5889b68b3449ac2559da243212dd371175aef99fcbc",
+    "posts/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.html": "1462ae16e864266c077a7621defa2547850ccf7a941fb1938279f55405587154",
+    "posts/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.html": "b79a2e0acc0026355dd0ca73ae90d5f85804def957ba3e9bb1315f6361c79aef",
+    "posts/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate.html": "df0238ba973270ea9f445ddcbe48b4ff6dce82e36d3d2cdc38f91f11885195ba",
+    "posts/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.html": "087c20b5123754b25716a0283a5e059e7d39764a9999d328a15210246f9ec656",
+    "posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html": "461c04fcc29217cae6f9f145806cd75567f678a9fd43d17295b501b43d093b4c",
+    "posts/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.html": "99339f7ea3032c7280d4483910983afdc450efdd67ecf09f118cb91e75af924f",
+    "posts/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot.html": "89045dcdb28e2a0219559a6d262a453ba85252ad0fe3992d9a67549a31c50831",
+    "posts/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point.html": "39b1fad599a1c302b975b053016f05804a1c363f0d89c98d5bcaaa3f2a14d227",
+    "posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html": "78a9ee5bf402fabf6d149ecb9d888d2482dfb2439f4770f3210344a5946551e9",
+    "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html": "903df6557fb706cac907729f178010a0cce9a797513594904ab52d868109f6d1",
+    "posts/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.html": "4fea6a08cd18705ad1c01b6f8970d42174689960038896a2c2fbca4e6eb91658",
+    "posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html": "8823293e1956ec3612c1897eb26dc507c410567ed030245e26ddf50cb64fa6cb",
+    "posts/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.html": "cc9e6b237e067b5395e3b8e8d2ac7ea1cdba96914e2ff553b8604972304d188e",
+    "posts/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.html": "cb15c7c401c17304139a20f4fcc9ba2a711cecdcd954467a7d5448c52e31c68a",
+    "posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html": "b2f9425406826bb4d4ef8525f6190594379299eed0ff599086a122cf102a70f1",
+    "posts/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration.html": "445637885d6f6aab3f6e730e008a815ee1dd28242c06e81c903bd8ccc8630bef",
+    "posts/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market.html": "14eaa12e7d0adf527fa750264e7fd831a4cdeeb29150991b248be83405288278",
+    "posts/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path.html": "352c0e90b0f3b97e2d2e0347df204eacad91eb4d1056bd49816b691686eb081b",
+    "posts/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.html": "0351fbfce4aca1b818b4f414055be3e6ef0d6788ed8f4998440035042ff7e559",
+    "posts/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence.html": "452abd54191de917ea2fa81b56390fa04995156233a1edd625a756acae8b1d78",
+    "posts/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases.html": "e265b886e07fd7069b18c095652be3a3f2eba3ce6b08012702dce8f6cba5f649",
+    "posts/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system.html": "434cb224226f0a3c12266b7fa062d9502d1a02c6255488756bc8e5780d6f1511",
+    "posts/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit.html": "44cfee9d381869ee00a0335e18a54f3646ab5f1cf10c78d63b345538af6acef7",
+    "posts/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply.html": "058b51218155f1fa5e19c5f9a005e50d2c469e4874af841c35d941360ebbc177",
+    "posts/2026-07-24-the-part-is-becoming-a-governed-production-record.html": "c79f81422e56e37176c61458d510b538f4721058f8bc2048f6b6b24b34e21aa8",
+    "posts/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.html": "eecc2378d37beedd4499046b4682f4f9d6809f8aea86909a58dbdda8885556d6",
+    "posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html": "dd6ef9205e1bc9d077f4f387e0358966b6e1710abd7a6462b26fa4c913b29f4d",
+    "posts/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system.html": "587aec0db41d8b5ba3e34dbe893886621e3deb7b417cb94952e5796c39d22cf2",
+    "posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html": "ab26bda5a7db819c1b51839e8f28ec38c9fa35cb300048962d94c3108c734427",
+    "posts/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction.html": "fa4b9ef0655869f0b18cd72386f8d5580a44bae687ea3eb1d409dabb2911b229",
+    "posts/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse.html": "009de5ff892b2c9f8fcaa6836af1d233f638f1e1510ce9735dcfc8e25fcb59f4",
+    "posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html": "018ba795f9e5b6a0cc7fadb7704ddf870f28c82d1d7608c616b5ccd586f61686",
+    "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html": "a918006876ff88f748d5bec26437ba6ba45b088cb9789c0b0c9cc323484f542a",
+    "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html": "24624d57f34c0cf51632c7d09c7d2bcc64e3546e97cae5f8907d4db83b3bdc10",
+    "posts/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem.html": "a7d7f868239623226bc543a3d51bc8b8d25292808e3bd97ad0e202a0507c4e61",
+    "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html": "ab1a65f97cd4694ee36c4eeafa608a20c7ef9d545e3e0578e0a21490b291de4d",
+    "posts/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.html": "89cecd4bd1b6acbe11f743ebe7609d8dff7360017a4eee4f68111ad388b78ae1",
+    "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html": "8915f650ec3de1c724a1d97854fa3db5ffa7c03520e030ef5b0b9d866257f020",
+    "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html": "0260af29a86194eceecb18a02a4a18ed518ee34a46ecd7846c66d50f5b3c90ce",
+    "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html": "edd724beff0dd9d347ff03e765796e08efbb84e4b3625e91dd6c48a4430f3585",
+    "privacy.html": "b1234284a5d00575527f5190f9e191b50d11e4b7c5aa738421c941db99beff2b",
+    "publication-data.json": "0ae29abbdcdbb9d341f6c52f83dc62e9f1a0b27064b168d5ec43a10d105e8089",
+    "rgraph.js": "eea1c5f6c40f22b809110a0db602fffa932c6e6759aabce7836401d69521092a",
+    "site.js": "a4802ab7d88f8a7741080448478fe005fba32448610d08edd9ad65b2a642b31d",
+    "sitemap.xml": "06f7f6456c9041248d6186fd9e11ce2eaff885079723f938938d8bee38d4a8ec",
+    "styles.css": "3c438abf1778e8c96e93713898dc7adb6b7b9754697f1fb2af53c35862a4ef44"
+  },
+  "profile_contracts": {
+    "integrated-v1": "3bf8e6401a1a0d8508dd7e647cda6d9ec7b75c23ef99f43a689be432a17d735a"
+  },
+  "proof_sha256": "0c0c4472ee8f5a336b6b2ab97bee8b112e92f1b469bf4d409dd48536326b5e4b",
+  "schema_version": 3,
+  "status": "publication-ready"
+}

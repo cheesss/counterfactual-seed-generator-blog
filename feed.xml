@@ -4,35 +4,35 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed research on industrial constraints, commercialization, disruption, and the systems that decide what scales next.</description>
-  <lastBuildDate>Thu, 24 Sep 2026 12:34:43 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 05:47:46 +0000</lastBuildDate>
 
-  <item>
-    <title>Assured PNT: The Bottleneck Is Increasingly the Assurance Stack, Not the Sensor Shelf</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html</guid>
-    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    <description>Critical infrastructure does not lack ideas for operating through a GPS disruption. Anti-jam receivers, authenticated signals, terrestrial timing, inertial sensors and alternative navigation systems all exist. The slower step is turning those components into a trusted operating capability: testing them against realistic interference, qualifying receivers, integrating them into platforms, clearing spectrum issues, obtaining certification and teaching operators what to do when navigation degrades.</description>
-  </item>
-  <item>
-    <title>HVDC Grid Superhighways: Factory Slots Are Becoming Part of the Critical Path</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html</guid>
-    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    <description>Europe and the UK have announced enough offshore links and interconnectors to make the next decade of grid construction look like a civil-engineering boom. But the decisive scheduling problem is increasingly industrial: a project needs a compatible sequence of 525 kV cable, converter valves, transformer bays, test capacity, specialist engineers, vessels and commissioning windows. A permit creates the right to build. It does not reserve the machinery needed to do it.</description>
-  </item>
   <item>
     <title>The refrigerant transition needed a second delivery system</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    <description>The 2025 U.S. HVAC refrigerant disruption was not simply a shortage of compliant equipment or of bulk R-454B. EPA found that the refrigerant existed in sufficient supply, while contractors could not reliably obtain it in the service cylinders needed for installation and repair. The constraint sat in filling, down-packing, distribution and field readiness.</description>
+    <description>EPA documented sufficient bulk R-454B during the 2025 transition alongside regional difficulty obtaining service cylinders. Carrier later reported delivery relief after securing cylinders and down-packing capacity; Chemours subsequently described stabilizing availability.</description>
+  </item>
+  <item>
+    <title>The Hidden Capacity Constraint in Critical Minerals: Tailings, Water and Environmental Permits</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description>A mine can have a valuable deposit and still lack a workable system for what it cannot sell. Tailings placement, water management and closure obligations can determine the feasible design before construction begins. Once those conditions are met, the constraint can move elsewhere.</description>
   </item>
   <item>
     <title>Orbital Traffic Coordination: The Control Plane Catching Up to Launch Scale</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    <description>The commercial space story is usually told through rockets: cheaper launch, larger constellations and more payloads reaching orbit. But once a satellite separates from its launcher, it joins a shared operating environment with no global air-traffic controller. The question is becoming whether the data, standards and authority needed to coordinate spacecraft can scale as quickly as launch capacity.</description>
+    <description>A satellite needs more than a place in orbit. It needs a reliable account of where other objects will be, whether they can move, and what their operators intend to do. Launch supplies the asset; coordination helps make continued operation possible.</description>
+  </item>
+  <item>
+    <title>HVDC Grid Superhighways: Factory Slots Are Becoming Part of the Critical Path</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description>A grid project can reserve its cable years before it has permission to build the substation at the other end.</description>
   </item>
   <item>
     <title>EUDR is making origin data part of the commodity itself</title>
@@ -46,14 +46,14 @@
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    <description>Counter-drone hardware can be bought, tested and fielded quickly. Domestic deployment is slower because an active system must be connected to a lawful operator, a site plan, aviation and spectrum coordination, trained personnel, evidence handling and a continuing audit trail. The 2025-26 U.S. reforms widened authority, but they also made the operating stack visible.</description>
+    <description>Published September 24, 2026. Updated September 29, 2026. Los Angeles’s April 3, 2026 financing report described trained counter-drone personnel waiting for equipment. The city proposed front-funding a $9,770,209 purchase while grant reimbursements were paused. Delivery was expected within 70 days after receipt of the city’s payment.</description>
   </item>
   <item>
-    <title>The Hidden Capacity Constraint in Critical Minerals: Tailings, Water and Environmental Permits</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html</guid>
+    <title>Assured PNT: The Bottleneck Is Increasingly the Assurance Stack, Not the Sensor Shelf</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    <description>The rush for copper, lithium, nickel and rare earths is usually measured in resource tonnes, refinery announcements and projected demand. Those numbers miss the infrastructure that turns an orebody into a durable operation: tailings storage, water treatment, waste-rock management, monitoring, financial assurance, permits and a closure plan that can survive regulatory and community scrutiny.</description>
+    <description>Once a positioning or timing source can meet a particular application&#x27;s requirements, the constraint often moves downstream: proving that the installed system can detect bad information, continue through disruption and recover correctly. That is the defensible case for an assurance-and-integration industry around resilient positioning, navigation and timing, or PNT. It is not evidence that the underlying hardware problem has been solved everywhere.</description>
   </item>
   <item>
     <title>The Hidden Infrastructure Behind Inland Water Reuse</title>
@@ -70,13 +70,6 @@
     <description>Climate-risk systems are usually described as a forecasting story. Satellite rainfall estimates improve, seasonal models gain skill, river gauges feed better hydrology, and cyclone tracks provide more warning. For anticipatory food-security finance, however, the decisive commercialization step comes after the forecast has been produced.</description>
   </item>
   <item>
-    <title>Standardized Universal Spare Transformers and Regional Recovery Pools</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html</guid>
-    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-    <description>The visible transformer problem is a factory queue. DOE’s 2024 review cited commonly quoted lead times of 36 months for large power transformers, with maximum quotations reaching 60 months. That alone is enough to make transformer supply a resilience issue after a major grid failure.</description>
-  </item>
-  <item>
     <title>The Database Behind the Debris Truck Is Becoming the Control System</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system.html</guid>
@@ -84,11 +77,18 @@
     <description>Disaster debris still looks like a physical logistics business. Trucks move material, excavators clear parcels, temporary sites receive loads, and local governments hire monitors to verify that eligible debris went where contractors say it went.</description>
   </item>
   <item>
+    <title>Standardized Universal Spare Transformers and Regional Recovery Pools</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html</guid>
+    <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    <description>A transformer can be in stock and still be unusable at the substation that needs it. The recovery constraint is not inventory alone: a replacement must be available, electrically acceptable, transportable and ready for safe connection. Standardized design families, adaptable hardware and pooled reserves can improve that chain, but none substitutes for the other steps.</description>
+  </item>
+  <item>
     <title>Low-GWP Cold-Storage Qualification, Testing and Service Stack — Search Heavy Deep Drilldown</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html</guid>
     <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-    <description>The visible story in cold-storage decarbonization is refrigerant substitution: warehouses move away from high-global-warming-potential HFCs and toward ammonia, carbon dioxide, or newer synthetic refrigerants. The more important industrial story is what has to form around those choices.</description>
+    <description>At Alpine Food Distributing&#x27;s Vernon, California facility, choosing CO2 meant assembling a working refrigeration package, not merely changing a fluid. The completed renovation occupies roughly 116,000 gross square feet, but ARCO describes 59,000 square feet of dry warehouse alongside freezer, convertible cooler, cold dock and production space.</description>
   </item>
   <item>
     <title>The Material Is Not Ready When the Material Exists</title>
