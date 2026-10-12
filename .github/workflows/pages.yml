@@ -57,7 +57,7 @@ jobs:
           if [ -f _site/.publication-update.json ]; then
             python scripts/static_update_baseline.py --site-root _site --baseline-repo .
           else
-            python scripts/site_release_validator.py --site-root _site
+            python scripts/site_release_validator.py --site-root _site --baseline-repo .
           fi
 
       - name: Configure Pages

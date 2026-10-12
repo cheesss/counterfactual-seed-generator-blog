@@ -5,6 +5,7 @@ import argparse
 import hashlib
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 from typing import Any
@@ -12,8 +13,12 @@ from typing import Any
 RELEASE_FILE = ".publication-release.json"
 SCHEMA_VERSION = 1
 PROFILE_SCHEMA_VERSION = 2
+# Schema 3 = schema 2 plus articles carried as unchanged, previously deployed content.
+LEGACY_SCHEMA_VERSION = 3
 EXHAUSTIVE_PROFILE = "exhaustive-v1"
 INTEGRATED_PROFILE = "integrated-v1"
+LEGACY_PROFILE = "legacy-deployed-v1"
+LEGACY_PUBLIC_CONTENT = "unchanged-since-deployment"
 INTEGRATED_REVIEW_SCOPE = "integrated-independent-source-review"
 FORMAT_REPAIR_SCOPE = "artifact-format-validation"
 CLAIM_REPAIR_SCOPE = "artifact-affected-claim-source-review"
@@ -157,6 +162,33 @@ def validate_integrated_quality(quality: dict[str, Any], stages: list[dict[str, 
         raise ReleaseFailure(f"quality approval differs from its captured profile reviewer: {label}")
 
 
+def validate_legacy_record(record: dict[str, Any], *, label: str) -> None:
+    """A carried article attests deployment continuity only, never research or review."""
+    attestation = record.get("attestation")
+    if (set(record) != {"slug", "profile", "report_sha256", "post_sha256", "attestation"}
+            or not isinstance(attestation, dict)
+            or set(attestation) != {"blog_commit", "deployed_post_sha256", "public_content"}
+            or not isinstance(attestation.get("blog_commit"), str)
+            or not re.fullmatch(r"[0-9a-f]{40}", attestation["blog_commit"])
+            or attestation.get("public_content") != LEGACY_PUBLIC_CONTENT):
+        raise ReleaseFailure(f"invalid legacy deployment attestation: {label}")
+    _digest(attestation.get("deployed_post_sha256"), f"deployed post {label}")
+
+
+def verify_legacy_history(repo: Path, records: list[dict[str, Any]]) -> None:
+    """Check against git history that each carried post really was committed to this branch."""
+    for record in records:
+        attestation = record["attestation"]
+        commit = attestation["blog_commit"]
+        ancestor = subprocess.run(["git", "merge-base", "--is-ancestor", commit, "HEAD"], cwd=repo,
+                                  capture_output=True, check=False)
+        blob = subprocess.run(["git", "show", f"{commit}:posts/{record['slug']}.html"], cwd=repo,
+                              capture_output=True, check=False)
+        if (ancestor.returncode or blob.returncode
+                or hashlib.sha256(blob.stdout).hexdigest() != attestation["deployed_post_sha256"]):
+            raise ReleaseFailure(f"legacy attestation is not in this branch's deployed history: {record['slug']}")
+
+
 def artifact_files(site_root: Path) -> dict[str, str]:
     result: dict[str, str] = {}
     for name in sorted(ARTIFACT_ROOT_FILES):
@@ -177,7 +209,7 @@ def artifact_files(site_root: Path) -> dict[str, str]:
     return result
 
 
-def validate_release(site_root: Path) -> dict[str, Any]:
+def validate_release(site_root: Path, *, baseline_repo: Path | None = None) -> dict[str, Any]:
     """Reject absent, partial, stale, or mixed-version publication evidence."""
     site_root = site_root.resolve()
     for name in (RELEASE_FILE, "publication-data.json"):
@@ -189,7 +221,7 @@ def validate_release(site_root: Path) -> dict[str, Any]:
     except (OSError, ValueError) as exc:
         raise ReleaseFailure(f"missing or unreadable publication proof: {exc}") from exc
     if (not isinstance(proof, dict) or type(proof.get("schema_version")) is not int
-            or proof["schema_version"] not in {SCHEMA_VERSION, PROFILE_SCHEMA_VERSION}):
+            or proof["schema_version"] not in {SCHEMA_VERSION, PROFILE_SCHEMA_VERSION, LEGACY_SCHEMA_VERSION}):
         raise ReleaseFailure("unsupported publication proof schema")
     if proof.get("status") != "publication-ready":
         raise ReleaseFailure("artifact has not completed the publication cycle")
@@ -206,7 +238,7 @@ def validate_release(site_root: Path) -> dict[str, Any]:
     else:
         contracts = proof.get("profile_contracts")
         if ("required_stages" in proof or "contract_sha256" in proof or "profile" in proof
-                or not isinstance(contracts, dict) or not contracts
+                or not isinstance(contracts, dict) or (not contracts and version == PROFILE_SCHEMA_VERSION)
                 or any(profile not in PROFILE_STAGES for profile in contracts)):
             raise ReleaseFailure("invalid publication profile contracts")
         for profile, digest in contracts.items():
@@ -227,6 +259,7 @@ def validate_release(site_root: Path) -> dict[str, Any]:
         by_slug[record["slug"]] = record
     expected: set[str] = set()
     used_profiles: set[str] = set()
+    legacy: list[dict[str, Any]] = []
     for article in articles:
         if not isinstance(article, dict) or not isinstance(article.get("slug"), str):
             raise ReleaseFailure("invalid publication inventory article")
@@ -243,6 +276,12 @@ def validate_release(site_root: Path) -> dict[str, Any]:
         if record.get("post_sha256") != files.get(post) or post not in files:
             raise ReleaseFailure(f"article differs from its verified version: {slug}")
         report_hash = _digest(record.get("report_sha256"), f"report {slug}")
+        if record.get("profile") == LEGACY_PROFILE:
+            if version != LEGACY_SCHEMA_VERSION:
+                raise ReleaseFailure(f"legacy deployment attestation requires schema 3: {slug}")
+            validate_legacy_record(record, label=slug)
+            legacy.append(record)
+            continue
         if version == SCHEMA_VERSION:
             if "profile" in record:
                 raise ReleaseFailure(f"legacy article proof cannot declare a profile: {slug}")
@@ -267,21 +306,26 @@ def validate_release(site_root: Path) -> dict[str, Any]:
             validate_integrated_quality(quality, record["stages"], report_hash, label=slug)
     if set(by_slug) != expected:
         raise ReleaseFailure("publication proof inventory differs from the site inventory")
-    if version == PROFILE_SCHEMA_VERSION and set(proof["profile_contracts"]) != used_profiles:
+    if version != SCHEMA_VERSION and set(proof["profile_contracts"]) != used_profiles:
         raise ReleaseFailure("publication profile contracts differ from the article profiles")
     actual_posts = {path for path in files if path.startswith("posts/") and path.endswith(".html")}
     if actual_posts != {f"posts/{slug}.html" for slug in expected}:
         raise ReleaseFailure("published HTML inventory differs from the verified article inventory")
-    return {"status": "publication-ready", "articles": len(expected),
+    if legacy and baseline_repo is not None:
+        verify_legacy_history(baseline_repo, legacy)
+    return {"status": "publication-ready", "articles": len(expected), "legacy_deployed": len(legacy),
+            "legacy_history_checked": bool(legacy) and baseline_repo is not None,
             "proof_sha256": proof["proof_sha256"]}
 
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--site-root", type=Path, required=True)
+    parser.add_argument("--baseline-repo", type=Path,
+                        help="git checkout whose history must contain every legacy-deployed post")
     args = parser.parse_args(argv)
     try:
-        print(json.dumps(validate_release(args.site_root), sort_keys=True))
+        print(json.dumps(validate_release(args.site_root, baseline_repo=args.baseline_repo), sort_keys=True))
     except ReleaseFailure as exc:
         print(f"Publication held: {exc}", file=sys.stderr)
         return 1
