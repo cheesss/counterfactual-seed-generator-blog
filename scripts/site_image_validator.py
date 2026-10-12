@@ -825,14 +825,17 @@ def validate_report_heroes(
         asset_relative = asset_path.relative_to(root).as_posix()
         expected_report = f"posts/{binding.slug}.html"
         image = image_by_path.get(asset_relative)
+        suffix = Path(asset_relative).suffix.casefold()
+        # A declared export digest names the PNG master; a WebP rendition is
+        # content-addressed by its own bytes.
         digest = (
             binding.expected_sha256
-            if isinstance(binding.expected_sha256, str)
+            if suffix == ".png" and isinstance(binding.expected_sha256, str)
             and re.fullmatch(r"[0-9a-f]{64}", binding.expected_sha256)
             else image["sha256"] if image is not None else ""
         )
         expected_asset = (
-            expected_content_addressed_asset(binding.slug, digest)
+            expected_content_addressed_asset(binding.slug, digest, suffix)
             if digest
             else ""
         )
