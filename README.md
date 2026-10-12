@@ -51,13 +51,23 @@ python -m pip install pillow==12.2.0
 python -m unittest discover -s tests -p "test_*.py" -v
 ```
 
-## Required GitHub settings
+## GitHub settings and release flow
 
-Repository files cannot enforce these settings. Configure them in GitHub before relying on this boundary:
+These settings live in GitHub, not in repository files. They were applied on 2026-10-12; re-check them with `gh api repos/cheesss/counterfactual-seed-generator-blog/pages` and `.../branches/main/protection` rather than trusting this note:
 
-1. In **Settings > Pages > Build and deployment**, set **Source** to **GitHub Actions**. Do not select a branch/folder source.
-2. Protect `main` and require the **Validate Pages artifact** status check before merge. Disable direct pushes and bypasses for normal maintainers where the repository policy permits.
-3. In **Settings > Environments > github-pages**, restrict deployment branches to protected branches. Optionally require reviewers when production publication needs an explicit approval.
+1. **Pages source:** GitHub Actions (`build_type: workflow`). Branch/folder publishing is off, so only the validated artifact from `.github/workflows/pages.yml` can go live.
+2. **`main` protection:** a pull request is required, the **Validate Pages artifact** check must pass, the rule applies to administrators, and force pushes and deletion are blocked.
+3. **`github-pages` environment:** deploys only from protected branches; administrators cannot bypass it.
 
-Until the Pages source is switched to GitHub Actions, GitHub can still publish branch files without this workflow, regardless of the checks in the repository.
+Release changes reach `main` only through a pull request. From the source vault, after `run_publication_cycle.py --publish` has synchronized this working tree:
+
+```powershell
+python scripts/release_handoff.py open-pr      # commits the mirror on release/<date>-<vault sha> and opens a PR
+# merge the PR in GitHub after "Validate Pages artifact" passes
+python scripts/release_handoff.py verify-live  # waits for the deployment and compares live bytes with the manifest
+```
+
+`open-pr` refuses an unpushed vault commit or one whose vault CI is not green unless `--allow-unverified-vault "<reason>"` records why in the PR. It never merges.
+
+Reader issue templates (member pack interest, feedback and corrections) live in `.github/ISSUE_TEMPLATE/`; `.github/` is never part of the Pages artifact.
 

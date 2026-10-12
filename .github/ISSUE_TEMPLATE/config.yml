@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Subscribe with RSS
+    url: https://cheesss.github.io/counterfactual-seed-generator-blog/feed.xml
+    about: New and updated columns via any feed reader.

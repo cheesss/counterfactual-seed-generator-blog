@@ -1,0 +1,31 @@
+name: Reader feedback or correction
+description: Report an error, a broken source link, or tell us what was useful.
+title: "[Feedback] "
+labels: ["reader-feedback"]
+body:
+  - type: input
+    id: column
+    attributes:
+      label: Column
+      description: Link the column this is about.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - Factual correction
+        - Broken or wrong source link
+        - Forecast or watch signal has resolved
+        - Was useful / not useful
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: For corrections or resolved signals, include a public source link.
+    validations:
+      required: true
