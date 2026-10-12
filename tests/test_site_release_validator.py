@@ -72,7 +72,7 @@ class SiteReleaseTests(unittest.TestCase):
 
     def test_unknown_or_noninteger_schema_is_rejected(self):
         original = copy.deepcopy(self.proof)
-        for version in (True, False, 0, 3, "2", None):
+        for version in (True, False, 0, 4, "2", None):
             with self.subTest(version=version):
                 self.proof = copy.deepcopy(original)
                 self.proof["schema_version"] = version
@@ -243,6 +243,34 @@ class ProfileSiteReleaseTests(SiteReleaseTests):
         self.proof["files"] = release.artifact_files(self.root)
         self.seal()
         self.assertEqual(2, release.validate_release(self.root)["articles"])
+
+
+class LegacyDeployedReleaseTests(unittest.TestCase):
+    """Schema 3 mixes freshly approved integrated articles with attested legacy ones."""
+
+    def test_integrated_and_legacy_articles_coexist_in_schema3(self):
+        base = ProfileSiteReleaseTests("test_verified_inventory_is_accepted")
+        base.setUp()
+        self.addCleanup(base.doCleanups)
+        legacy_post = base.root / "posts/legacy.html"
+        legacy_post.write_text("<article>Deployed long ago</article>\n", encoding="utf-8")
+        data = json.loads((base.root / "publication-data.json").read_text(encoding="utf-8"))
+        data["articles"].append({"slug": "legacy", "url": "posts/legacy.html"})
+        (base.root / "publication-data.json").write_text(json.dumps(data), encoding="utf-8")
+        digest = release.sha256_file(legacy_post)
+        base.proof["schema_version"] = release.LEGACY_SCHEMA_VERSION
+        base.proof["articles"].append({"slug": "legacy", "profile": release.LEGACY_PROFILE,
+                                       "report_sha256": "9" * 64, "post_sha256": digest,
+                                       "attestation": {"blog_commit": "a" * 40, "deployed_post_sha256": digest,
+                                                       "public_content": release.LEGACY_PUBLIC_CONTENT}})
+        base.proof["files"] = release.artifact_files(base.root)
+        base.seal()
+        result = release.validate_release(base.root)
+        self.assertEqual((2, 1), (result["articles"], result["legacy_deployed"]))
+        base.proof["schema_version"] = release.PROFILE_SCHEMA_VERSION
+        base.seal()
+        with self.assertRaisesRegex(release.ReleaseFailure, "schema 3"):
+            release.validate_release(base.root)
 
 
 class ScopedSiteReleaseTests(SiteReleaseTests):

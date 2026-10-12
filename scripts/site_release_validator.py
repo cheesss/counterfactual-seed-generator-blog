@@ -301,7 +301,7 @@ def validate_release(site_root: Path, *, baseline_repo: Path | None = None) -> d
             raise ReleaseFailure(f"article has no current final quality approval: {slug}")
         _digest(quality.get("review_sha256"), f"quality review {slug}")
         if profile == INTEGRATED_PROFILE or "review_scope" in quality or "review_provenance" in quality:
-            if version != PROFILE_SCHEMA_VERSION or profile != INTEGRATED_PROFILE:
+            if version not in {PROFILE_SCHEMA_VERSION, LEGACY_SCHEMA_VERSION} or profile != INTEGRATED_PROFILE:
                 raise ReleaseFailure(f"quality approval differs from its captured profile reviewer: {slug}")
             validate_integrated_quality(quality, record["stages"], report_hash, label=slug)
     if set(by_slug) != expected:
