@@ -18,6 +18,8 @@ from urllib.parse import unquote, urlparse
 MANIFEST_SCHEMA_VERSION = 2
 DEFAULT_SITE_URL = "https://cheesss.github.io/counterfactual-seed-generator-blog"
 REPORT_HERO_WIDTH = 1600
+# Canonical masters are PNG; the site may serve a WebP rendition of the same photo.
+HERO_FORMATS = {".png": "PNG", ".webp": "WEBP"}
 REPORT_HERO_HEIGHT = 900
 PIXEL_SAMPLE_COLUMNS = 160
 PIXEL_SAMPLE_ROWS = 90
@@ -687,8 +689,9 @@ def validate_report_heroes(
     manifest_bindings: dict[str, dict[str, Any]] = {}
     export_slugs: dict[str, set[str]] = {}
 
-    def expected_content_addressed_asset(slug: str, digest: str) -> str:
-        return f"assets/heroes/{slug}-{digest[:16]}.png"
+    def expected_content_addressed_asset(slug: str, digest: str, suffix: str = ".png") -> str:
+        suffix = suffix if suffix in HERO_FORMATS else ".png"
+        return f"assets/heroes/{slug}-{digest[:16]}{suffix}"
 
     def register_manifest_binding(
         *,
@@ -750,7 +753,8 @@ def validate_report_heroes(
         rendered_asset = asset_paths[0] if len(asset_paths) == 1 else ""
         rendered_image = image_by_path.get(rendered_asset)
         expected_asset = (
-            expected_content_addressed_asset(slug, rendered_image["sha256"])
+            expected_content_addressed_asset(slug, rendered_image["sha256"],
+                                             Path(rendered_asset).suffix.casefold())
             if rendered_image is not None
             else ""
         )
@@ -762,7 +766,7 @@ def validate_report_heroes(
             issues.append(
                 _issue(
                     "report-hero-binding-drift",
-                    "rendered report hero must use the slug-and-content-hash local PNG in assets/heroes",
+                    "rendered report hero must use the slug-and-content-hash local PNG or WebP in assets/heroes",
                     root=root,
                     document=root / report,
                     surface="report-hero:img[src]",
@@ -917,11 +921,11 @@ def validate_report_heroes(
         if image is None:
             continue
         asset_path = root / Path(asset_relative)
-        if asset_path.suffix.casefold() != ".png" or image["format"] != "PNG":
+        if HERO_FORMATS.get(asset_path.suffix.casefold()) != image["format"]:
             issues.append(
                 _issue(
                     "report-hero-format-mismatch",
-                    "local report hero extension and decoded format must both be PNG",
+                    "local report hero extension and decoded format must agree (PNG or WebP)",
                     root=root,
                     document=asset_path,
                     surface="report-hero:asset",
