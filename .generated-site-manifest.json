@@ -7,8 +7,8 @@
     },
     {
       "path": ".publication-release.json",
-      "sha256": "96347088cc6f22eab614589d009cd0f0c6d7d001e350d9151212ab74648941e9",
-      "size": 92683
+      "sha256": "b10106b2ce01d39b0a95cc41a22d48f76c23e22cd8038367d5a0809c39b4895e",
+      "size": 92809
     },
     {
       "path": "404.html",
@@ -702,7 +702,7 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "467361a13a423f240cfe02cdca01a0628803c0707e080a77f2b932f5c11e41d4",
+      "sha256": "58a40a56c6d693af0b292a69cc9a2961d3bf45fa6c04dee74b3fc97c0162975e",
       "size": 25332
     },
     {

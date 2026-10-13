@@ -48,7 +48,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "ae3ae51f3790857505ba34a824510d29785b14b42bd18deca2d5fc3f9090d3ce",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "24624d57f34c0cf51632c7d09c7d2bcc64e3546e97cae5f8907d4db83b3bdc10",
       "profile": "legacy-deployed-v1",
@@ -81,7 +81,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "27fd772a0fbf18a744f7e9c0a2cdd3f88f9a866dd03ecea0acb9ab6674c06d49",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "009de5ff892b2c9f8fcaa6836af1d233f638f1e1510ce9735dcfc8e25fcb59f4",
       "profile": "legacy-deployed-v1",
@@ -92,7 +92,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "43a663309ab21e8e109ed1932cea319d788091539723c982ba80655cc66ea501",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "fa4b9ef0655869f0b18cd72386f8d5580a44bae687ea3eb1d409dabb2911b229",
       "profile": "legacy-deployed-v1",
@@ -446,7 +446,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "4023619dbe05582a672e9963ebe8870c217952ec8e5ac4fe61928d77c95958a2",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "058b51218155f1fa5e19c5f9a005e50d2c469e4874af841c35d941360ebbc177",
       "profile": "legacy-deployed-v1",
@@ -479,7 +479,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "00d99049c4cfdfddbd59bd5ecf0b27dec8456c026caebff3d92401dd5c452e0f",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "e265b886e07fd7069b18c095652be3a3f2eba3ce6b08012702dce8f6cba5f649",
       "profile": "legacy-deployed-v1",
@@ -512,7 +512,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "ebfdddebb6c80657fdea87907b5a8764378b0749fe16f48116713b8afc7fee9a",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "352c0e90b0f3b97e2d2e0347df204eacad91eb4d1056bd49816b691686eb081b",
       "profile": "legacy-deployed-v1",
@@ -534,7 +534,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "60f07fc501ec1d4d1a3081f88419bb1c44303c8cf541b404916bdc1ae42383ba",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "445637885d6f6aab3f6e730e008a815ee1dd28242c06e81c903bd8ccc8630bef",
       "profile": "legacy-deployed-v1",
@@ -589,7 +589,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "0b8fd02a5be898fa57b2bd17ca032d14e770ab44d09d565058daf900bd895e3a",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "cb15c7c401c17304139a20f4fcc9ba2a711cecdcd954467a7d5448c52e31c68a",
       "profile": "legacy-deployed-v1",
@@ -622,7 +622,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "8a32abca9590b6fe8a08c4e327487c9ca066f263688384dbf37127342d1ed8f8",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "df0238ba973270ea9f445ddcbe48b4ff6dce82e36d3d2cdc38f91f11885195ba",
       "profile": "legacy-deployed-v1",
@@ -710,7 +710,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "c98099b74faa2a03d58d8527017897f26cf873e1edb66a0df294d253e18507c5",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "99339f7ea3032c7280d4483910983afdc450efdd67ecf09f118cb91e75af924f",
       "profile": "legacy-deployed-v1",
@@ -732,7 +732,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "6190736528cece52468e55708d82606b99d29d6077af0be185a5fc5ab417d809",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "d3f40baddae45c57ccc6fe3af4b844f6f507c4ac62bae5c4fded70a94fe16b84",
       "profile": "legacy-deployed-v1",
@@ -776,7 +776,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "21362b6295561f2ef0d0d836e05b2e341c501201d9de890f414c0a530af69ff6",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "5e32fb214151aca6c4849c6247e3bfe476aa2d58478f763e1f116da58a1fdb9d",
       "profile": "legacy-deployed-v1",
@@ -809,7 +809,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "0361d46d02610208a2ca6cdf7fa7980b4f1af024b823dfe4e7035effdf7d0dc8",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "8318ce076daa66d590dfc3ccfaf1eac4c58feafe7d200d0c2050fce8fc157a36",
       "profile": "legacy-deployed-v1",
@@ -842,7 +842,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "e13d0a8c33dc702f6836cea85b5752d448deadd71acb1fb87edbcdad9bfcd842",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "601165616745dcf47eaa6347c54f31fdae974f4df1f3d876580753eb94d4ce9d",
       "profile": "legacy-deployed-v1",
@@ -864,7 +864,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "ed368a8ae35a837898bb28da06fc0f625a53dbf954ede0ce68c1999a300aed13",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "fd8814c47777bf3ad8f6054ae45af93496a1d68000504db3fd024449e1916853",
       "profile": "legacy-deployed-v1",
@@ -908,7 +908,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "58c1c54316933de50ba03570cfc36a01befad60239365ee2ff61a8e5eeade2eb",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "cfa5f15817d3a488a287ba203244e56ab2280defa87abe162d03c2897a35f903",
       "profile": "legacy-deployed-v1",
@@ -919,7 +919,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "25f4a1f415599ea954b1b1a8c36a7f3c81b6f004710f723ecf739ea6ab36ad91",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "ed1b079786dc95a5cf4341f9e40273efc67117a9c26675261a20d6679a15e144",
       "profile": "legacy-deployed-v1",
@@ -930,7 +930,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "5c6990c9bc8069fa49b252d25629579fcf0cfcd552edb2aa77d157d7280d326f",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "d23c2ec334cb33d47d369dad2e6a201296b4d8a8ba9f4156d2ee96ab813dd9a3",
       "profile": "legacy-deployed-v1",
@@ -941,7 +941,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "f31d7975994fb47f530ebb8397f35f86de7d6d9c5ed019fa69782e720bc07fb5",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "a7d7f868239623226bc543a3d51bc8b8d25292808e3bd97ad0e202a0507c4e61",
       "profile": "legacy-deployed-v1",
@@ -952,7 +952,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "7638b6e65ecd2e3f5e1e05cb70fbfd6cd3021cc18d39897f826e63df4f017bea",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "ae4d892925798c9f69a1efac8249f21e79da7255edb89961609904a0809f9e4e",
       "profile": "legacy-deployed-v1",
@@ -963,7 +963,7 @@
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "28dfb2748367653ff0d5a51fc3cb00fa05c8a25d09cbee6b1ca9af717c2fcfae",
-        "public_content": "unchanged-since-deployment"
+        "public_content": "text-unchanged-photo-revalidated"
       },
       "post_sha256": "9b40908bb6297de9448516942f7853c131f8b3abccf01b265591bb005d734b88",
       "profile": "legacy-deployed-v1",
@@ -1155,7 +1155,7 @@
     "blog-data.json": "b6c540b5a29877d5c0265ee5ecd91e71a218e9e93925fce6deae6a2317ac415c",
     "disclaimer.html": "924749b2dcd25d390d1f978585c6f4adbcb7251de172047e7118b4809b0274a1",
     "favicon.svg": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
-    "feed.xml": "467361a13a423f240cfe02cdca01a0628803c0707e080a77f2b932f5c11e41d4",
+    "feed.xml": "58a40a56c6d693af0b292a69cc9a2961d3bf45fa6c04dee74b3fc97c0162975e",
     "index.html": "15e3533283fa92f710019c9e91b979546662a17eae3f2146b06287f19ebf917c",
     "ledger.html": "3f1eb8a5d9d624142be532f7f71342da024cac87a205452e1291f81d51e0395f",
     "patterns.html": "730fd10b53405862e06c485b5cc87e7c73beb72f9b96f93c2710b79230c6e93b",
@@ -1235,7 +1235,7 @@
   "profile_contracts": {
     "integrated-v1": "3bf8e6401a1a0d8508dd7e647cda6d9ec7b75c23ef99f43a689be432a17d735a"
   },
-  "proof_sha256": "0c0c4472ee8f5a336b6b2ab97bee8b112e92f1b469bf4d409dd48536326b5e4b",
+  "proof_sha256": "ea49683a9ff57be31c97ae78d44616995bcd0a36b7e0212fb5a188fa300a515a",
   "schema_version": 3,
   "status": "publication-ready"
 }
