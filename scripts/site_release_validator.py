@@ -19,6 +19,9 @@ EXHAUSTIVE_PROFILE = "exhaustive-v1"
 INTEGRATED_PROFILE = "integrated-v1"
 LEGACY_PROFILE = "legacy-deployed-v1"
 LEGACY_PUBLIC_CONTENT = "unchanged-since-deployment"
+# Same text, photograph replaced by a rights/relevance-checked manifest photo.
+LEGACY_PHOTO_REVALIDATED = "text-unchanged-photo-revalidated"
+LEGACY_PUBLIC_CONTENT_STATES = frozenset({LEGACY_PUBLIC_CONTENT, LEGACY_PHOTO_REVALIDATED})
 INTEGRATED_REVIEW_SCOPE = "integrated-independent-source-review"
 FORMAT_REPAIR_SCOPE = "artifact-format-validation"
 CLAIM_REPAIR_SCOPE = "artifact-affected-claim-source-review"
@@ -170,7 +173,7 @@ def validate_legacy_record(record: dict[str, Any], *, label: str) -> None:
             or set(attestation) != {"blog_commit", "deployed_post_sha256", "public_content"}
             or not isinstance(attestation.get("blog_commit"), str)
             or not re.fullmatch(r"[0-9a-f]{40}", attestation["blog_commit"])
-            or attestation.get("public_content") != LEGACY_PUBLIC_CONTENT):
+            or attestation.get("public_content") not in LEGACY_PUBLIC_CONTENT_STATES):
         raise ReleaseFailure(f"invalid legacy deployment attestation: {label}")
     _digest(attestation.get("deployed_post_sha256"), f"deployed post {label}")
 
@@ -314,6 +317,8 @@ def validate_release(site_root: Path, *, baseline_repo: Path | None = None) -> d
     if legacy and baseline_repo is not None:
         verify_legacy_history(baseline_repo, legacy)
     return {"status": "publication-ready", "articles": len(expected), "legacy_deployed": len(legacy),
+            "legacy_photo_revalidated": sum(record["attestation"]["public_content"] == LEGACY_PHOTO_REVALIDATED
+                                            for record in legacy),
             "legacy_history_checked": bool(legacy) and baseline_repo is not None,
             "proof_sha256": proof["proof_sha256"]}
 
