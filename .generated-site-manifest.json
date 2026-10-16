@@ -7,13 +7,13 @@
     },
     {
       "path": ".publication-release.json",
-      "sha256": "b10106b2ce01d39b0a95cc41a22d48f76c23e22cd8038367d5a0809c39b4895e",
-      "size": 92809
+      "sha256": "69f7c99b10b83200b7a9845f66657d3f13b6fc8da223d4e7140cd81433da9f43",
+      "size": 108868
     },
     {
       "path": "404.html",
-      "sha256": "15e3533283fa92f710019c9e91b979546662a17eae3f2146b06287f19ebf917c",
-      "size": 117759
+      "sha256": "a430b122f79774880e3e774b57b61208ea3485f60fca34da099d3c6b0a302b3e",
+      "size": 118065
     },
     {
       "path": "about.html",
@@ -351,6 +351,11 @@
       "size": 105438
     },
     {
+      "path": "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp",
+      "sha256": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
+      "size": 91174
+    },
+    {
       "path": "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.jpg",
       "sha256": "fcd22852a3b260036efe7b1d55b007037d39d0e4ab2ed3ee49615d99793c017a",
       "size": 178451
@@ -681,14 +686,19 @@
       "size": 122678
     },
     {
+      "path": "assets/og/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.jpg",
+      "sha256": "2ff729ce881d125b79b14e91844049ababc9d30b63d343b31f36c1308819f985",
+      "size": 101674
+    },
+    {
       "path": "assets/site/industrial-port-photo.png",
       "sha256": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
       "size": 1936877
     },
     {
       "path": "blog-data.json",
-      "sha256": "b6c540b5a29877d5c0265ee5ecd91e71a218e9e93925fce6deae6a2317ac415c",
-      "size": 47851
+      "sha256": "01d253f7593df23b79776da7ed06112c4114a5fd18db425a0bbcc8de7a8236ea",
+      "size": 48681
     },
     {
       "path": "disclaimer.html",
@@ -702,43 +712,43 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "58a40a56c6d693af0b292a69cc9a2961d3bf45fa6c04dee74b3fc97c0162975e",
-      "size": 25332
+      "sha256": "ec83c2c241d8fa438a5019c51f59374cdb23a55d8c9d7dd89f30e8f14f5dbf40",
+      "size": 25218
     },
     {
       "path": "image-manifest.json",
-      "sha256": "45c8ae6f716e37bc021db4bead040c61dd316dd115d0a69224f69fa3cba61d18",
-      "size": 284733
+      "sha256": "6544e8c9e6b5eca0cca66a21ce408d970ffa84c1e9d92cff8715a63eb43b9f4d",
+      "size": 288828
     },
     {
       "path": "index.html",
-      "sha256": "15e3533283fa92f710019c9e91b979546662a17eae3f2146b06287f19ebf917c",
-      "size": 117759
+      "sha256": "a430b122f79774880e3e774b57b61208ea3485f60fca34da099d3c6b0a302b3e",
+      "size": 118065
     },
     {
       "path": "ledger.html",
-      "sha256": "3f1eb8a5d9d624142be532f7f71342da024cac87a205452e1291f81d51e0395f",
-      "size": 85366
+      "sha256": "d3bf6362c6cd51a44c2d98c7f8ac66acc7d402dd06dcdbf0f4ad630cd44dc1d7",
+      "size": 83015
     },
     {
       "path": "patterns.html",
-      "sha256": "730fd10b53405862e06c485b5cc87e7c73beb72f9b96f93c2710b79230c6e93b",
-      "size": 45761
+      "sha256": "97a100f42d2dcde4737997b381c8c21d1218c933c9fc218cd6fee89c4173f6c9",
+      "size": 46501
     },
     {
       "path": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
-      "sha256": "788d3426dfd00f9cf296849a28fd08efab98f15f95895dc7edc0c0d645de1f5b",
-      "size": 44966
+      "sha256": "8dc3f2d437fcdf1597663fa2af5b166741800be99af19bbc2343e088e96034b9",
+      "size": 44974
     },
     {
       "path": "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html",
-      "sha256": "e9bd16f8ee54ecd480e4994f494cfa0eb3cb4c9bffc8fddff1517ba8b8ef4719",
+      "sha256": "57e19dac2188151dc8e98ba83df6be449274bf45fff75e98359e3e042fe2aee6",
       "size": 51313
     },
     {
       "path": "posts/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.html",
-      "sha256": "ae4d892925798c9f69a1efac8249f21e79da7255edb89961609904a0809f9e4e",
-      "size": 43489
+      "sha256": "541c94428663a5d3f58d370fa3d150a156cd5ee8beb1d3c940d0312759355c03",
+      "size": 43507
     },
     {
       "path": "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html",
@@ -747,7 +757,7 @@
     },
     {
       "path": "posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html",
-      "sha256": "a84e7f260f76048f28f6062d90ef02ff750079c749921a8268de2b2c8a7ecad2",
+      "sha256": "b9406a5715fe5cdac3d3c548c9958c2ced46e7d504629478f19d6db66e0a1ee0",
       "size": 35856
     },
     {
@@ -767,38 +777,38 @@
     },
     {
       "path": "posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html",
-      "sha256": "9af99612b652fd52893113e90da19ca79e2b35ab91a94b7313f79dd7772545d8",
+      "sha256": "4efb7d1562cd1b611a4f6d3514b936484a2ef1ec03ccacdb16c28b65c69ad803",
       "size": 47554
     },
     {
       "path": "posts/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market.html",
-      "sha256": "2d10b64b7c1a797d663d0a6072a0a2f48191b89cd8808a5974a4eda1de6bc938",
-      "size": 59198
+      "sha256": "6ece3bbbbe92d9960ac839fb7ea5e267586896d1db09dd73dfc731c89cff7db9",
+      "size": 59216
     },
     {
       "path": "posts/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.html",
-      "sha256": "5bbd8ab5160a09d32b4f91851e14b5a7642c4966f694be1db1bc81d2af3f9e90",
+      "sha256": "c855ee231cd552e7e7524de783b0dd31f2d0a7ac1277b7297d77fb5c18d6652c",
       "size": 45029
     },
     {
       "path": "posts/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck.html",
-      "sha256": "fd8814c47777bf3ad8f6054ae45af93496a1d68000504db3fd024449e1916853",
-      "size": 43439
+      "sha256": "32df9ea04e64b22b34717a2a34a16b3e2f2014dd75a7a3772ff879d191dd4627",
+      "size": 43457
     },
     {
       "path": "posts/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure.html",
-      "sha256": "0d81208ed7ea9124810f54bd1a2552dcd629c9b59fa218bd0d0e65666d754fea",
-      "size": 44276
+      "sha256": "5f7e65adcabc8fcc7b9951b6f85c458870207a7148e0374fdfcab29596679272",
+      "size": 44294
     },
     {
       "path": "posts/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck.html",
-      "sha256": "601165616745dcf47eaa6347c54f31fdae974f4df1f3d876580753eb94d4ce9d",
-      "size": 64555
+      "sha256": "c19ac1d6aab071574de01a68f728774b114763147271c4cb694940881b80e719",
+      "size": 64573
     },
     {
       "path": "posts/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint.html",
-      "sha256": "da46baa7a9a44bef66e6964e9888756be2360ae6a6d70f7ee3801c2092a62170",
-      "size": 58791
+      "sha256": "0e7a09a16dcb35d3e5c5745b25fdb6d1b2a5517f37580d2d3be25f29d1bb569a",
+      "size": 58809
     },
     {
       "path": "posts/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck.html",
@@ -812,48 +822,48 @@
     },
     {
       "path": "posts/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck.html",
-      "sha256": "8318ce076daa66d590dfc3ccfaf1eac4c58feafe7d200d0c2050fce8fc157a36",
-      "size": 51383
+      "sha256": "978d0620725b948be34b7bf2566a67413532ed6bfc3aff48cf9d3d6c9c8769c3",
+      "size": 51401
     },
     {
       "path": "posts/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system.html",
-      "sha256": "7651db2103c4a60bdaa35b43b02226618ff499c1899349aefe2737fa79f1078b",
+      "sha256": "83439a022303f43fc92924151ebbc11f2a8430dc6b96d03bc07ad654724b8644",
       "size": 39076
     },
     {
       "path": "posts/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train.html",
-      "sha256": "51e2b61eae1fcdc015f6359b7ed0c402850a85b435f3eb5e3a5c89f4ae73180b",
-      "size": 39629
+      "sha256": "3e267f01730894dce93970dbb96abe061f451a5d68031438332caabff327754a",
+      "size": 39647
     },
     {
       "path": "posts/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration.html",
-      "sha256": "5e32fb214151aca6c4849c6247e3bfe476aa2d58478f763e1f116da58a1fdb9d",
-      "size": 57432
+      "sha256": "10505b9a155c61d677f8b2108f91c9a7e406c2950d0395acee8aa1e0c32500e1",
+      "size": 57450
     },
     {
       "path": "posts/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create.html",
-      "sha256": "e5cb1c7c037cf025c7888c364daedb45b2239ad72a876a5ea6a8da37befafcbd",
-      "size": 58096
+      "sha256": "4d4736bf88b8b555f38fbd216d870d0de8099b2846467fec60f5e99653824cda",
+      "size": 58114
     },
     {
       "path": "posts/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa.html",
-      "sha256": "800f82b9240823694f50087ca9dddeb407f37be9a452da56f7aba421dd315344",
-      "size": 54326
+      "sha256": "277c71d16fd87006d27855941f51599f4761794576f45a2cec728d12438b7339",
+      "size": 54344
     },
     {
       "path": "posts/2026-07-03-fluorine-chemistry-s-hidden-control-point.html",
-      "sha256": "d3f40baddae45c57ccc6fe3af4b844f6f507c4ac62bae5c4fded70a94fe16b84",
+      "sha256": "a228494454cb885cc0825507468db1e504f3abac85f6892601d59eed865cc46b",
       "size": 67720
     },
     {
       "path": "posts/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.html",
-      "sha256": "23dfb6927e4185cc7137c99bb32cd94ce390f46e1bd8ad90cb27ede2829956eb",
-      "size": 52748
+      "sha256": "d3a2729d594e6112642c18e37905514cee8331b557220e4210331c6fab9c6c4e",
+      "size": 52766
     },
     {
       "path": "posts/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.html",
-      "sha256": "1059b01074c35ba101f1d5889b68b3449ac2559da243212dd371175aef99fcbc",
-      "size": 54225
+      "sha256": "cfe97b834119d7e719b00fa7ed2d3c0fb74b283b1a104fc743db4be282eb9f01",
+      "size": 54243
     },
     {
       "path": "posts/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.html",
@@ -862,17 +872,17 @@
     },
     {
       "path": "posts/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.html",
-      "sha256": "b79a2e0acc0026355dd0ca73ae90d5f85804def957ba3e9bb1315f6361c79aef",
-      "size": 47926
+      "sha256": "72a89e52985dc6a77c36a398143a056f2b8376433b7f7988e325af9b45def2ed",
+      "size": 47944
     },
     {
       "path": "posts/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate.html",
-      "sha256": "df0238ba973270ea9f445ddcbe48b4ff6dce82e36d3d2cdc38f91f11885195ba",
-      "size": 58967
+      "sha256": "1fbb4e38b443d57ea13be176996f9f1f78ae04ddc4af217ff910075f6ec0503b",
+      "size": 58985
     },
     {
       "path": "posts/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.html",
-      "sha256": "087c20b5123754b25716a0283a5e059e7d39764a9999d328a15210246f9ec656",
+      "sha256": "e3bcd879d5443493affe597f408b5bedb10797a2a88ef346773ed21ef3f7185f",
       "size": 66436
     },
     {
@@ -882,18 +892,18 @@
     },
     {
       "path": "posts/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.html",
-      "sha256": "99339f7ea3032c7280d4483910983afdc450efdd67ecf09f118cb91e75af924f",
-      "size": 48289
+      "sha256": "96a6784fdb357416f62472dd227bcaa8355d995b3827857a5c77eab4e131becc",
+      "size": 48307
     },
     {
       "path": "posts/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot.html",
-      "sha256": "89045dcdb28e2a0219559a6d262a453ba85252ad0fe3992d9a67549a31c50831",
-      "size": 54874
+      "sha256": "ebe130cbfaa145cdc8c4eac7568e3a862cc6afa4090f5eb2fd7da356a08c6b2c",
+      "size": 54892
     },
     {
       "path": "posts/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point.html",
-      "sha256": "39b1fad599a1c302b975b053016f05804a1c363f0d89c98d5bcaaa3f2a14d227",
-      "size": 51388
+      "sha256": "2e093d998e36f74ccbebb82076ee06d37d5133e25c742ebea5c7438a0d1d3588",
+      "size": 51406
     },
     {
       "path": "posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html",
@@ -902,13 +912,13 @@
     },
     {
       "path": "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html",
-      "sha256": "903df6557fb706cac907729f178010a0cce9a797513594904ab52d868109f6d1",
+      "sha256": "002c2f7721e604b2e550a382c5776587351c8d1bbe269a212e266e8d6d0aae83",
       "size": 40094
     },
     {
       "path": "posts/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.html",
-      "sha256": "4fea6a08cd18705ad1c01b6f8970d42174689960038896a2c2fbca4e6eb91658",
-      "size": 57618
+      "sha256": "a49da5bbea4a5bcf5bf33085697aac438abb9a0a5e66cb3d88410a0bf7702b52",
+      "size": 57636
     },
     {
       "path": "posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html",
@@ -917,53 +927,53 @@
     },
     {
       "path": "posts/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.html",
-      "sha256": "cc9e6b237e067b5395e3b8e8d2ac7ea1cdba96914e2ff553b8604972304d188e",
-      "size": 42194
+      "sha256": "cc6ac6ed6c9c5c95616d10ae5770b41eb07ee356424f802d5fc04cdab3df167b",
+      "size": 42212
     },
     {
       "path": "posts/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.html",
-      "sha256": "cb15c7c401c17304139a20f4fcc9ba2a711cecdcd954467a7d5448c52e31c68a",
-      "size": 36637
+      "sha256": "0d88be3e194292b4498190a60428643892dbf887381db3a342c9583ea95f6777",
+      "size": 36655
     },
     {
       "path": "posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html",
-      "sha256": "b2f9425406826bb4d4ef8525f6190594379299eed0ff599086a122cf102a70f1",
+      "sha256": "a3fbc27404b0486ddc8dec93bd7bd5aa84d4fe16d8820387fd5171ddb2b7674b",
       "size": 32585
     },
     {
       "path": "posts/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration.html",
-      "sha256": "445637885d6f6aab3f6e730e008a815ee1dd28242c06e81c903bd8ccc8630bef",
-      "size": 53499
+      "sha256": "e5f1a8c78ed31d6e8b07de3c3a9a38cc8af12aad1779cfc5b9379b5bb7084108",
+      "size": 53517
     },
     {
       "path": "posts/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market.html",
-      "sha256": "14eaa12e7d0adf527fa750264e7fd831a4cdeeb29150991b248be83405288278",
+      "sha256": "7fdf868cfd4893540ecab18df2fe4a398b5db3730b3a6207b64b8667528c1879",
       "size": 51324
     },
     {
       "path": "posts/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path.html",
-      "sha256": "352c0e90b0f3b97e2d2e0347df204eacad91eb4d1056bd49816b691686eb081b",
+      "sha256": "2886143b298a7bc61e7e53f79d5a4504463c7a82e85c5514e6a8179c1332aac7",
       "size": 49251
     },
     {
       "path": "posts/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.html",
-      "sha256": "0351fbfce4aca1b818b4f414055be3e6ef0d6788ed8f4998440035042ff7e559",
-      "size": 57907
+      "sha256": "1f6ecc0459e4f380c2826bb6cf2614fb136fd83fdfb1148bdbe1adab1a918801",
+      "size": 57928
     },
     {
       "path": "posts/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence.html",
-      "sha256": "452abd54191de917ea2fa81b56390fa04995156233a1edd625a756acae8b1d78",
-      "size": 54558
+      "sha256": "dbf5bed488883065187c08ae0b6056b88c9a3b5f15379547500a3ff479e98b78",
+      "size": 54576
     },
     {
       "path": "posts/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases.html",
-      "sha256": "e265b886e07fd7069b18c095652be3a3f2eba3ce6b08012702dce8f6cba5f649",
-      "size": 54537
+      "sha256": "60f8875dd270006db49e84f69867725c8fc7beb908238d6bd2432fcbd36a16b9",
+      "size": 54553
     },
     {
       "path": "posts/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system.html",
-      "sha256": "434cb224226f0a3c12266b7fa062d9502d1a02c6255488756bc8e5780d6f1511",
-      "size": 50353
+      "sha256": "a98420b3d6005a503a861c21d83212902e6adffe9c0a66fb59a41dccfcfa76f2",
+      "size": 50351
     },
     {
       "path": "posts/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit.html",
@@ -972,12 +982,12 @@
     },
     {
       "path": "posts/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply.html",
-      "sha256": "058b51218155f1fa5e19c5f9a005e50d2c469e4874af841c35d941360ebbc177",
+      "sha256": "01141d59bfa9f45729be9c7b2ab50d2eb02bb0268172084b9a297cb6d2dc6ef8",
       "size": 53243
     },
     {
       "path": "posts/2026-07-24-the-part-is-becoming-a-governed-production-record.html",
-      "sha256": "c79f81422e56e37176c61458d510b538f4721058f8bc2048f6b6b24b34e21aa8",
+      "sha256": "8d8723c95061899664b90ca142eb57051eb4a2c8ad53a78b4e6a8868c95fe7e7",
       "size": 58919
     },
     {
@@ -992,7 +1002,7 @@
     },
     {
       "path": "posts/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system.html",
-      "sha256": "587aec0db41d8b5ba3e34dbe893886621e3deb7b417cb94952e5796c39d22cf2",
+      "sha256": "3820672673989b00b2cb6de7a550e9e77db42d7960633fd942cfce9fc3c65f92",
       "size": 57708
     },
     {
@@ -1002,12 +1012,12 @@
     },
     {
       "path": "posts/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction.html",
-      "sha256": "fa4b9ef0655869f0b18cd72386f8d5580a44bae687ea3eb1d409dabb2911b229",
-      "size": 49433
+      "sha256": "63c6f0cacf810c3d9aeff9eb6d15e260d603c7bc60082fdc5186e6985a8c6a21",
+      "size": 49451
     },
     {
       "path": "posts/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse.html",
-      "sha256": "009de5ff892b2c9f8fcaa6836af1d233f638f1e1510ce9735dcfc8e25fcb59f4",
+      "sha256": "d9655f17561e889aabbd5929a2d76b2e4110623ce1fdeb2d50edbc6ab8d52640",
       "size": 56220
     },
     {
@@ -1017,18 +1027,18 @@
     },
     {
       "path": "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html",
-      "sha256": "a918006876ff88f748d5bec26437ba6ba45b088cb9789c0b0c9cc323484f542a",
-      "size": 43624
+      "sha256": "73ca931a97a05a5e4d8135e5e6c68cf8ca924f7ec1bb42d47309cc5e3ca753d8",
+      "size": 38041
     },
     {
       "path": "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html",
-      "sha256": "24624d57f34c0cf51632c7d09c7d2bcc64e3546e97cae5f8907d4db83b3bdc10",
-      "size": 21611
+      "sha256": "2a03cfc04d54e24204797416d5815828826f0d890f14f2d0d6722a4dd84d1d6d",
+      "size": 21629
     },
     {
       "path": "posts/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem.html",
-      "sha256": "a7d7f868239623226bc543a3d51bc8b8d25292808e3bd97ad0e202a0507c4e61",
-      "size": 39578
+      "sha256": "70d6e90f4e74fe249612d5221eeec46945b50d3103232949e63a04a3006ea839",
+      "size": 41303
     },
     {
       "path": "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html",
@@ -1037,8 +1047,8 @@
     },
     {
       "path": "posts/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.html",
-      "sha256": "89cecd4bd1b6acbe11f743ebe7609d8dff7360017a4eee4f68111ad388b78ae1",
-      "size": 23053
+      "sha256": "a92cac838b3f8aa5167634424444f79a4b1e6337f5ca3929d240e545e1901f49",
+      "size": 23071
     },
     {
       "path": "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html",
@@ -1047,13 +1057,18 @@
     },
     {
       "path": "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html",
-      "sha256": "0260af29a86194eceecb18a02a4a18ed518ee34a46ecd7846c66d50f5b3c90ce",
-      "size": 38219
+      "sha256": "14339582a5eea4cd0ee1c047209fb83f1ab413d96cf9522a70cdc55d4ceb84e7",
+      "size": 38237
     },
     {
       "path": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
-      "sha256": "edd724beff0dd9d347ff03e765796e08efbb84e4b3625e91dd6c48a4430f3585",
-      "size": 38290
+      "sha256": "43eb90169b6ae79d03caf84cec103532c85efd0e1ba5f06ebd1d213b04573372",
+      "size": 38720
+    },
+    {
+      "path": "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html",
+      "sha256": "cb921c17fdda4b81db8b7449c37fcf84f1492b476ee83e440eabfd3cf94674c0",
+      "size": 33329
     },
     {
       "path": "privacy.html",
@@ -1062,8 +1077,8 @@
     },
     {
       "path": "publication-data.json",
-      "sha256": "0ae29abbdcdbb9d341f6c52f83dc62e9f1a0b27064b168d5ec43a10d105e8089",
-      "size": 823523
+      "sha256": "089b04cf596efc6815a7c5ea203380b7f62e43b7567af88f634feca3c1747701",
+      "size": 812415
     },
     {
       "path": "rgraph.js",
@@ -1077,8 +1092,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "06f7f6456c9041248d6186fd9e11ce2eaff885079723f938938d8bee38d4a8ec",
-      "size": 11995
+      "sha256": "1d80725882b5753be82342c4743ab14e8d56c04ec62b6844288afa841616c752",
+      "size": 12165
     },
     {
       "path": "styles.css",

@@ -1,31 +1,31 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 66,
-    "data_series": 236,
+    "articles": 67,
+    "data_series": 233,
     "calendar_year_card_candidates_excluded": 5,
     "watch": {
       "tracked_articles": 55,
-      "signals": 291,
+      "signals": 287,
       "resolved": 0,
       "states": {
-        "open": 291,
+        "open": 287,
         "confirmed": 0,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 291
+        "explicit_bullet": 287
       },
-      "unstructured_watch_sections": 7,
-      "unpublished_prose_candidates": 38
+      "unstructured_watch_sections": 8,
+      "unpublished_prose_candidates": 40
     },
     "report_stage": {
       "complete_by_sections": 48,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
+        "current-incomplete": 17,
         "current-complete": 3,
-        "current-incomplete": 16,
         "legacy-migration-gap": 2,
         "legacy-complete": 45
       }
@@ -39,7 +39,7 @@
     "taxonomy": {
       "analysis_lenses": {
         "constraint": 50,
-        "commercialization": 8,
+        "commercialization": 9,
         "disruption": 3,
         "ecosystem-expansion": 5
       },
@@ -55,7 +55,7 @@
         "critical-materials": 2,
         "semiconductors": 1,
         "quantum": 1,
-        "neurotechnology": 1,
+        "neurotechnology": 2,
         "industrial-software": 3,
         "logistics": 3,
         "robotics": 0,
@@ -68,7 +68,7 @@
         "permits": 2,
         "qualified-materials": 10,
         "queue-slot": 5,
-        "validation-evidence": 28,
+        "validation-evidence": 29,
         "repair-capacity": 2,
         "residual-handling": 5,
         "procurement-risk-transfer": 0,
@@ -85,67 +85,82 @@
   },
   "articles": [
     {
-      "slug": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem",
+      "slug": "2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change",
       "slug_source": "publication_registry",
-      "title": "The refrigerant transition needed a second delivery system",
-      "url": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
-      "date": "2026-09-24",
-      "updated": "2026-09-24",
+      "title": "When Living Computers Can Keep the Work After the Cells Change",
+      "url": "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html",
+      "date": "2026-10-17",
+      "updated": "2026-10-17",
       "category": "Report",
       "sector": {
-        "key": "energy",
-        "label": "Energy & grid"
+        "key": "neurotechnology",
+        "label": "BCI & neurotechnology"
       },
       "system_pattern": {
-        "key": "logistics-infrastructure",
-        "label": "Logistics & infrastructure"
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
       },
       "archetype": {
-        "key": "logistics-infrastructure",
-        "label": "Logistics & infrastructure"
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
       },
       "analysis_lens": {
-        "key": "constraint",
-        "label": "Constraint"
+        "key": "commercialization",
+        "label": "Commercialization"
       },
-      "excerpt": "EPA documented sufficient bulk R-454B during the 2025 transition alongside regional difficulty obtaining service cylinders. Carrier later reported delivery relief after securing cylinders and down-packing capacity; Chemours subsequently described stabilizing availability.",
+      "excerpt": "A living computer becomes a different product when useful work can survive the replacement of its cells. Transferable calibration could make that transition possible; extracting an algorithm into software could avoid the replacement problem at the customer's end altogether.",
       "image": {
-        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
-        "alt": "R-134a refrigerant cylinder and packaging"
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp",
+        "alt": "Varbuss"
       },
       "report_stage": {
-        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_sections": false,
         "public_cycle_complete_by_run_manifest": false,
-        "coverage_status": "current-complete"
+        "coverage_status": "current-incomplete"
       },
       "data_series": [],
       "card_metrics": [],
       "watch_signals": [
         {
-          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:b2405a6a8133",
-          "text": "R-454B replenishment, base September 29, 2026; review November 30, 2027: track May-September 2027 orders and linked jobs in a fixed panel of three unrelated distributors, retaining rejected orders. Dependable deliveries and completions support relief in those channels; recurrent cylinder-attributable stoppages despite available equipment and bulk refrigerant weaken it. (Carrier fulfillment statement)",
+          "signal_id": "2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change:watch:8e0f0d12013e",
+          "text": "By October 17, 2027: a qualifying paired raw archive linked from MiV-OS, settling the low-confidence call above.",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "R-454B replenishment, base September 29, 2026; review November 30, 2027: track May-September 2027 orders and linked jobs in a fixed panel of three unrelated distributors, retaining rejected orders. Dependable deliveries and completions support relief in those channels; recurrent cylinder-attributable stoppages despite available equipment and bulk refrigerant weaken it. (Carrier fulfillment statement)",
-          "source_url": "https://www.carrier.com/residential/en/us/news/news-article/carrier-enables-2-week-delivery-for-r-454b-refrigerant-orders-with-no-quantity-or-bundling-limitations.html",
+          "source_text": "By October 17, 2027: a qualifying paired raw archive linked from MiV-OS, settling the low-confidence call above.",
+          "source_url": "https://github.com/GazzolaLab/MiV-OS",
           "source_urls": [
-            "https://www.carrier.com/residential/en/us/news/news-article/carrier-enables-2-week-delivery-for-r-454b-refrigerant-orders-with-no-quantity-or-bundling-limitations.html"
+            "https://github.com/GazzolaLab/MiV-OS"
           ],
-          "resolve_by": "2027-11-30",
-          "resolve_by_text": "November 30, 2027",
+          "resolve_by": "2027-10-17",
+          "resolve_by_text": "October 17, 2027",
           "state": "open",
           "settlement": null
         },
         {
-          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:5a13c9abd32a",
-          "text": "REFRESH repeat payments, base September 29, 2026; by December 31, 2027: three distinct contractors each receiving payment for the second of two separately accepted R-410A returns made after the base date would demonstrate repeat paid recovery. One-off returns or acceptance without payment do not meet that threshold. (REFRESH program) (Hudson recovery-payment terms)",
+          "signal_id": "2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change:watch:90b881a8f9ab",
+          "text": "By January 31, 2027: public commissioning evidence for Frontier's stated 500-million-neuron cluster. This checks an attributed roadmap, separately from its confirmed financing.",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "REFRESH repeat payments, base September 29, 2026; by December 31, 2027: three distinct contractors each receiving payment for the second of two separately accepted R-410A returns made after the base date would demonstrate repeat paid recovery. One-off returns or acceptance without payment do not meet that threshold. (REFRESH program) (Hudson recovery-payment terms)",
-          "source_url": "https://fripfunding.com/residential-reclaim/",
+          "source_text": "By January 31, 2027: public commissioning evidence for Frontier's stated 500-million-neuron cluster. This checks an attributed roadmap, separately from its confirmed financing.",
+          "source_url": "https://www.ycombinator.com/companies/frontier-computing",
           "source_urls": [
-            "https://fripfunding.com/residential-reclaim/",
-            "https://www.hudsontech.com/refresh-program/"
+            "https://www.ycombinator.com/companies/frontier-computing",
+            "https://www.wsgr.com/en/insights/firm-advises-frontier-computing-on-dollar10-million-pre-seed-round.html"
+          ],
+          "resolve_by": "2027-01-31",
+          "resolve_by_text": "January 31, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change:watch:ac78ce3b9371",
+          "text": "By December 31, 2027: an ordinary paid TBC offer with price or purchase terms. This is a low-confidence editorial forecast based on announced distribution plans, which specify no launch deadline.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2027: an ordinary paid TBC offer with price or purchase terms. This is a low-confidence editorial forecast based on announced distribution plans, which specify no launch deadline.",
+          "source_url": "https://press.aboutamazon.com/aws/2026/9/the-biological-computing-co-partners-with-aws-to-bring-worlds-first-neuron-derived-ai-video-model-to-market",
+          "source_urls": [
+            "https://press.aboutamazon.com/aws/2026/9/the-biological-computing-co-partners-with-aws-to-bring-worlds-first-neuron-derived-ai-video-model-to-market"
           ],
           "resolve_by": "2027-12-31",
           "resolve_by_text": "December 31, 2027",
@@ -153,47 +168,15 @@
           "settlement": null
         },
         {
-          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:e3fb9e0fb599",
-          "text": "San Antonio execution, base September 29, 2026; by December 31, 2028: one named multifamily A2L project receiving final mechanical approval with plans expressly using CI-2025-002 would demonstrate execution of the local route. Documented refusals would weaken its practical usefulness. (San Antonio interpretation)",
+          "signal_id": "2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change:watch:d1c904ad9ee8",
+          "text": "By December 31, 2029: check for a named buyer accepting the same task through a biological replacement, then paying and renewing. This is a monitoring question, not an adoption forecast.",
           "source_heading": "What to watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "San Antonio execution, base September 29, 2026; by December 31, 2028: one named multifamily A2L project receiving final mechanical approval with plans expressly using CI-2025-002 would demonstrate execution of the local route. Documented refusals would weaken its practical usefulness. (San Antonio interpretation)",
-          "source_url": "https://docsonline.sanantonio.gov/FileUploads/DSD/CI-2025-002-A2LRefrigerant.pdf",
-          "source_urls": [
-            "https://docsonline.sanantonio.gov/FileUploads/DSD/CI-2025-002-A2LRefrigerant.pdf"
-          ],
-          "resolve_by": "2028-12-31",
-          "resolve_by_text": "December 31, 2028",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:d806b26e8deb",
-          "text": "HFC reclamation output, base September 29, 2026; review December 31, 2028: compare unrounded 2027 and 2026 U.S. totals using one EPA data vintage. Higher 2027 output establishes growth; flat or lower output rejects that proposition. Neither result alone settles R-410A scarcity. (EPA reclamation trends)",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "HFC reclamation output, base September 29, 2026; review December 31, 2028: compare unrounded 2027 and 2026 U.S. totals using one EPA data vintage. Higher 2027 output establishes growth; flat or lower output rejects that proposition. Neither result alone settles R-410A scarcity. (EPA reclamation trends)",
-          "source_url": "https://www.epa.gov/section608/summary-refrigerant-reclamation-trends",
-          "source_urls": [
-            "https://www.epa.gov/section608/summary-refrigerant-reclamation-trends"
-          ],
-          "resolve_by": "2028-12-31",
-          "resolve_by_text": "December 31, 2028",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:10b17ddb620e",
-          "text": "R-410A servicing, base September 29, 2026; review June 30, 2031: compare the 2029-2030 cooling seasons with 2028 in a fixed distributor panel. Sustained refrigerant-attributable repair queues support a service constraint; reconciled supply and timely repairs reject its dominance. Rising reclaimed share alone is insufficient. (HFC allowance schedule)",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "R-410A servicing, base September 29, 2026; review June 30, 2031: compare the 2029-2030 cooling seasons with 2028 in a fixed distributor panel. Sustained refrigerant-attributable repair queues support a service constraint; reconciled supply and timely repairs reject its dominance. Rising reclaimed share alone is insufficient. (HFC allowance schedule)",
-          "source_url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-A/section-84.7",
-          "source_urls": [
-            "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-C/part-84/subpart-A/section-84.7"
-          ],
-          "resolve_by": "2031-06-30",
-          "resolve_by_text": "June 30, 2031",
+          "source_text": "By December 31, 2029: check for a named buyer accepting the same task through a biological replacement, then paying and renewing. This is a monitoring question, not an adoption forecast.",
+          "source_url": "",
+          "source_urls": [],
+          "resolve_by": "2029-12-31",
+          "resolve_by_text": "December 31, 2029",
           "state": "open",
           "settlement": null
         }
@@ -334,6 +317,110 @@
       }
     },
     {
+      "slug": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem",
+      "slug_source": "publication_registry",
+      "title": "HFC Phase-Down: Why the HVAC Refrigerant Transition Bottleneck Moved Downstream",
+      "url": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
+      "date": "2026-09-24",
+      "updated": "2026-09-24",
+      "category": "Report",
+      "sector": {
+        "key": "energy",
+        "label": "Energy & grid"
+      },
+      "system_pattern": {
+        "key": "logistics-infrastructure",
+        "label": "Logistics & infrastructure"
+      },
+      "archetype": {
+        "key": "logistics-infrastructure",
+        "label": "Logistics & infrastructure"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "In 2025, available bulk R-454B and new HVAC equipment could coexist with unfinished installations. Contractor-sized refrigerant packages were a separate constraint. Manufacturers responded by expanding that delivery channel and moving some field charging into the factory.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
+        "alt": "R-134a refrigerant cylinder and packaging"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": true,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-complete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [
+        {
+          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:e27bc8175917",
+          "text": "By September 30, 2027: compare public supplier updates with the starting two-week fulfillment claim, keeping promised dispatch and customer receipt separate. Observation base October 16, 2026. Carrier",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By September 30, 2027: compare public supplier updates with the starting two-week fulfillment claim, keeping promised dispatch and customer receipt separate. Observation base October 16, 2026. Carrier",
+          "source_url": "https://www.carrier.com/residential/en/us/news/news-article/carrier-enables-2-week-delivery-for-r-454b-refrigerant-orders-with-no-quantity-or-bundling-limitations.html",
+          "source_urls": [
+            "https://www.carrier.com/residential/en/us/news/news-article/carrier-enables-2-week-delivery-for-r-454b-refrigerant-orders-with-no-quantity-or-bundling-limitations.html"
+          ],
+          "resolve_by": "2027-09-30",
+          "resolve_by_text": "September 30, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:fb35fe04fe0b",
+          "text": "By December 31, 2027: look for REFRESH disclosure of accepted returns, payments and repeat contractor participation. Observation base October 16, 2026. Program administrator",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2027: look for REFRESH disclosure of accepted returns, payments and repeat contractor participation. Observation base October 16, 2026. Program administrator",
+          "source_url": "https://fripfunding.com/residential-reclaim/",
+          "source_urls": [
+            "https://fripfunding.com/residential-reclaim/"
+          ],
+          "resolve_by": "2027-12-31",
+          "resolve_by_text": "December 31, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:b8885cf4f172",
+          "text": "By December 31, 2028: settle the 2027-versus-2026 reclaimed-HFC output call using a comparable public series. Forecast base September 29, 2026. EPA records",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2028: settle the 2027-versus-2026 reclaimed-HFC output call using a comparable public series. Forecast base September 29, 2026. EPA records",
+          "source_url": "https://www.epa.gov/section608/summary-refrigerant-reclamation-trends",
+          "source_urls": [
+            "https://www.epa.gov/section608/summary-refrigerant-reclamation-trends"
+          ],
+          "resolve_by": "2028-12-31",
+          "resolve_by_text": "December 31, 2028",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem:watch:795fb5eb1219",
+          "text": "By December 31, 2029: check for an unaffiliated buyer's acceptance and payment for a traceable Hudson-Icorium processed lot. Forecast base September 29, 2026. Starting agreement",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2029: check for an unaffiliated buyer's acceptance and payment for a traceable Hudson-Icorium processed lot. Forecast base September 29, 2026. Starting agreement",
+          "source_url": "https://www.hudsontech.com/company-news-and-financial-results/hudson-technologies-signs-joint-development-agreement-with-icorium/",
+          "source_urls": [
+            "https://www.hudsontech.com/company-news-and-financial-results/hudson-technologies-signs-joint-development-agreement-with-icorium/"
+          ],
+          "resolve_by": "2029-12-31",
+          "resolve_by_text": "December 31, 2029",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
       "slug": "2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself",
       "slug_source": "publication_registry",
       "title": "EUDR is making origin data part of the commodity itself",
@@ -379,7 +466,7 @@
     {
       "slug": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem",
       "slug_source": "publication_registry",
-      "title": "Counter-Drone Protection: Turning Purchases into Staffed Coverage",
+      "title": "Counter-UAS Deployment: Turning Equipment into Lawful, Staffed Protection",
       "url": "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html",
       "date": "2026-09-24",
       "updated": "2026-09-24",
@@ -400,7 +487,7 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "Published September 24, 2026. Updated September 29, 2026. Los Angeles’s April 3, 2026 financing report described trained counter-drone personnel waiting for equipment. The city proposed front-funding a $9,770,209 purchase while grant reimbursements were paused. Delivery was expected within 70 days after receipt of the city’s payment.",
+      "excerpt": "Equipment acquisition does not itself establish lawful, staffed counter-UAS protection. America's expanded local authority changes who can organize that protection, while regional support and reusable operating arrangements offer a way to spread it across more sites.",
       "image": {
         "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-46b5a94eb7aa4eba.webp",
         "alt": "Counter-UAS training"
@@ -410,105 +497,15 @@
         "public_cycle_complete_by_run_manifest": false,
         "coverage_status": "current-complete"
       },
-      "data_series": [
-        {
-          "metric": "Dallas counter-UAS purchasing addition approved May 13, 2026",
-          "points": [
-            {
-              "label": "Dallas counter-UAS purchasing addition approved May 13, 2026",
-              "value": 10382400.0,
-              "unit": ""
-            }
-          ],
-          "headline": {
-            "value": 10382400.0,
-            "value_text": "10,382,400",
-            "unit": "",
-            "metric": "Dallas counter-UAS purchasing addition approved May 13, 2026",
-            "point_label": "Dallas counter-UAS purchasing addition approved May 13, 2026",
-            "display_label": "Dallas counter-UAS purchasing addition approved May 13, 2026",
-            "selection_mode": "single_point",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "key_figures",
-            "section": "Codex-Edited Public Column > Key figures",
-            "source_text": "$10,382,400 | Dallas counter-UAS purchasing addition approved May 13, 2026",
-            "source_urls": []
-          }
-        },
-        {
-          "metric": "San Bernardino detection agreement approved June 23, 2026",
-          "points": [
-            {
-              "label": "San Bernardino detection agreement approved June 23, 2026",
-              "value": 1440732.0,
-              "unit": ""
-            }
-          ],
-          "headline": {
-            "value": 1440732.0,
-            "value_text": "1,440,732",
-            "unit": "",
-            "metric": "San Bernardino detection agreement approved June 23, 2026",
-            "point_label": "San Bernardino detection agreement approved June 23, 2026",
-            "display_label": "San Bernardino detection agreement approved June 23, 2026",
-            "selection_mode": "single_point",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "key_figures",
-            "section": "Codex-Edited Public Column > Key figures",
-            "source_text": "$1,440,732 | San Bernardino detection agreement approved June 23, 2026",
-            "source_urls": []
-          }
-        }
-      ],
-      "card_metrics": [
-        {
-          "value": 10382400.0,
-          "value_text": "10,382,400",
-          "unit": "",
-          "metric": "Dallas counter-UAS purchasing addition approved May 13, 2026",
-          "point_label": "Dallas counter-UAS purchasing addition approved May 13, 2026",
-          "display_label": "Dallas counter-UAS purchasing addition approved May 13, 2026",
-          "selection_mode": "single_point",
-          "is_calendar_year": false,
-          "card_eligible": true,
-          "provenance": {
-            "kind": "key_figures",
-            "section": "Codex-Edited Public Column > Key figures",
-            "source_text": "$10,382,400 | Dallas counter-UAS purchasing addition approved May 13, 2026",
-            "source_urls": []
-          }
-        },
-        {
-          "value": 1440732.0,
-          "value_text": "1,440,732",
-          "unit": "",
-          "metric": "San Bernardino detection agreement approved June 23, 2026",
-          "point_label": "San Bernardino detection agreement approved June 23, 2026",
-          "display_label": "San Bernardino detection agreement approved June 23, 2026",
-          "selection_mode": "single_point",
-          "is_calendar_year": false,
-          "card_eligible": true,
-          "provenance": {
-            "kind": "key_figures",
-            "section": "Codex-Edited Public Column > Key figures",
-            "source_text": "$1,440,732 | San Bernardino detection agreement approved June 23, 2026",
-            "source_urls": []
-          }
-        }
-      ],
+      "data_series": [],
+      "card_metrics": [],
       "watch_signals": [
         {
-          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:39a83c501dc8",
-          "text": "Base date: September 29, 2026. September 30, 2026–March 31, 2027: An effective successor FCC instrument supplies class-wide eligible SLTT mitigation spectrum authority beyond the original term. Proposals, manufacturer test authorizations and single-agency grants do not qualify; uninterrupted coverage is not required. (FCC baseline order)",
-          "source_heading": "What to watch",
+          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:f5de9fd5f6ff",
+          "text": "By March 31, 2027: an effective successor extends class-wide eligible SLTT spectrum authority beyond the original term. Base September 29, 2026. FCC baseline.",
+          "source_heading": "What to Watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "Base date: September 29, 2026. September 30, 2026–March 31, 2027: An effective successor FCC instrument supplies class-wide eligible SLTT mitigation spectrum authority beyond the original term. Proposals, manufacturer test authorizations and single-agency grants do not qualify; uninterrupted coverage is not required. (FCC baseline order)",
+          "source_text": "By March 31, 2027: an effective successor extends class-wide eligible SLTT spectrum authority beyond the original term. Base September 29, 2026. FCC baseline.",
           "source_url": "https://docs.fcc.gov/public/attachments/DA-26-656A1.pdf",
           "source_urls": [
             "https://docs.fcc.gov/public/attachments/DA-26-656A1.pdf"
@@ -519,11 +516,11 @@
           "settlement": null
         },
         {
-          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:d25f4b53f393",
-          "text": "Base date: September 29, 2026. September 30, 2026–June 30, 2027: FAA delivers its substantive integration update to GAO, established by dated submission or acknowledgment—not another promise, deployment clearance or recommendation closure. (GAO update milestone)",
-          "source_heading": "What to watch",
+          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:c4099538d954",
+          "text": "By June 30, 2027: FAA delivers its substantive integration update, evidenced by transmittal or GAO acknowledgment. Base September 29, 2026. GAO commitment.",
+          "source_heading": "What to Watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "Base date: September 29, 2026. September 30, 2026–June 30, 2027: FAA delivers its substantive integration update to GAO, established by dated submission or acknowledgment—not another promise, deployment clearance or recommendation closure. (GAO update milestone)",
+          "source_text": "By June 30, 2027: FAA delivers its substantive integration update, evidenced by transmittal or GAO acknowledgment. Base September 29, 2026. GAO commitment.",
           "source_url": "https://www.gao.gov/products/gao-24-107195",
           "source_urls": [
             "https://www.gao.gov/products/gao-24-107195"
@@ -534,11 +531,11 @@
           "settlement": null
         },
         {
-          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:69a349d0600b",
-          "text": "Base date: September 29, 2026. September 30, 2026–September 30, 2027: NYPD completes an additional independent mitigation-ready window with qualified staffing, eligible available equipment and applicable coordination. No hostile engagement is required",
-          "source_heading": "What to watch",
+          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:95620f08f438",
+          "text": "By September 30, 2027: NYPD completes an additional independently authorized mitigation-ready window with eligible equipment, staffing and coordination. Base September 29, 2026. Operating baseline.",
+          "source_heading": "What to Watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "Base date: September 29, 2026. September 30, 2026–September 30, 2027: NYPD completes an additional independent mitigation-ready window with qualified staffing, eligible available equipment and applicable coordination. No hostile engagement is required; detection-only, ordinary confiscation and exclusively federal coverage do not qualify. (NYPD operating baseline)",
+          "source_text": "By September 30, 2027: NYPD completes an additional independently authorized mitigation-ready window with eligible equipment, staffing and coordination. Base September 29, 2026. Operating baseline.",
           "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/transcript--mayor-mamdani-joins-nypd-commissioner-jessica-s--tis2",
           "source_urls": [
             "https://www.nyc.gov/mayors-office/news/2026/09/transcript--mayor-mamdani-joins-nypd-commissioner-jessica-s--tis2"
@@ -549,26 +546,11 @@
           "settlement": null
         },
         {
-          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:1948e95c04c2",
-          "text": "detection-only, ordinary confiscation and exclusively federal coverage do not qualify. (NYPD operating baseline)",
-          "source_heading": "What to watch",
+          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:ece3e7982274",
+          "text": "By December 31, 2027: completed regional agency-led coverage meets the call's conditions. Base September 29, 2026; reaffirmed October 16, 2026. Regional pathway.",
+          "source_heading": "What to Watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "Base date: September 29, 2026. September 30, 2026–September 30, 2027: NYPD completes an additional independent mitigation-ready window with qualified staffing, eligible available equipment and applicable coordination. No hostile engagement is required; detection-only, ordinary confiscation and exclusively federal coverage do not qualify. (NYPD operating baseline)",
-          "source_url": "https://www.nyc.gov/mayors-office/news/2026/09/transcript--mayor-mamdani-joins-nypd-commissioner-jessica-s--tis2",
-          "source_urls": [
-            "https://www.nyc.gov/mayors-office/news/2026/09/transcript--mayor-mamdani-joins-nypd-commissioner-jessica-s--tis2"
-          ],
-          "resolve_by": null,
-          "resolve_by_text": "",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:652b5ce45a40",
-          "text": "Base date: September 29, 2026. September 30, 2026–December 31, 2027: An accredited provider completes mitigation-ready coverage for a different, non-accredited host under a written regional arrangement, retaining responsibility and supplying qualified personnel. An unused agreement, detection-only service or exclusively federal operation does not qualify. (regional-support pathway)",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Base date: September 29, 2026. September 30, 2026–December 31, 2027: An accredited provider completes mitigation-ready coverage for a different, non-accredited host under a written regional arrangement, retaining responsibility and supplying qualified personnel. An unused agreement, detection-only service or exclusively federal operation does not qualify. (regional-support pathway)",
+          "source_text": "By December 31, 2027: completed regional agency-led coverage meets the call's conditions. Base September 29, 2026; reaffirmed October 16, 2026. Regional pathway.",
           "source_url": "https://www.ecfr.gov/current/title-28/chapter-I/part-124/section-124.4",
           "source_urls": [
             "https://www.ecfr.gov/current/title-28/chapter-I/part-124/section-124.4"
@@ -579,24 +561,24 @@
           "settlement": null
         },
         {
-          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:424d221d3333",
-          "text": "Base date: September 29, 2026. December 31, 2027 cohort review: A predeclared multi-site request cohort, retaining unsuccessful and abandoned attempts, attributes most coverage loss to financing, delivery or technical acceptance despite available personnel and operating arrangements. That would reject operating-capacity dominance in that cohort. (protection-request reporting route)",
-          "source_heading": "What to watch",
+          "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:9f9331a2cab0",
+          "text": "By December 31, 2028: Fort Worth makes a nonzero payment for an exercised post-initial software/support renewal. Base September 29, 2026. Renewal authorization.",
+          "source_heading": "What to Watch",
           "extraction_mode": "explicit_bullet",
-          "source_text": "Base date: September 29, 2026. December 31, 2027 cohort review: A predeclared multi-site request cohort, retaining unsuccessful and abandoned attempts, attributes most coverage loss to financing, delivery or technical acceptance despite available personnel and operating arrangements. That would reject operating-capacity dominance in that cohort. (protection-request reporting route)",
-          "source_url": "https://www.ecfr.gov/current/title-28/chapter-I/part-124/section-124.13",
+          "source_text": "By December 31, 2028: Fort Worth makes a nonzero payment for an exercised post-initial software/support renewal. Base September 29, 2026. Renewal authorization.",
+          "source_url": "https://fortworthgov.legistar.com/LegislationDetail.aspx?GUID=7F1A2981-5775-45D4-BACC-F3BE4124122D&ID=8046304&Options=&Search=",
           "source_urls": [
-            "https://www.ecfr.gov/current/title-28/chapter-I/part-124/section-124.13"
+            "https://fortworthgov.legistar.com/LegislationDetail.aspx?GUID=7F1A2981-5775-45D4-BACC-F3BE4124122D&ID=8046304&Options=&Search="
           ],
-          "resolve_by": "2027-12-31",
-          "resolve_by_text": "December 31, 2027",
+          "resolve_by": "2028-12-31",
+          "resolve_by_text": "December 31, 2028",
           "state": "open",
           "settlement": null
         }
       ],
       "watch_extraction": {
         "status": "explicit_bullets",
-        "source_heading": "What to watch",
+        "source_heading": "What to Watch",
         "unpublished_candidate_count": 0
       }
     },
@@ -17935,7 +17917,7 @@
     {
       "slug": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem",
       "slug_source": "publication_registry",
-      "title": "Radiopharmaceutical Scale Is a Chain Problem: Decay, Qualification, Release, Transport and Licensed Administration",
+      "title": "Cancer's Next Supply Chain Is a Radioisotope Clock",
       "url": "posts/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem.html",
       "date": "2026-06-22",
       "updated": "2026-06-22",
@@ -17956,7 +17938,7 @@
         "key": "constraint",
         "label": "Constraint"
       },
-      "excerpt": "Radiopharmaceuticals are sometimes described as if radioactive decay creates a permanent, industry-wide shortage by itself. That framing is too simple.",
+      "excerpt": "Cancer medicines that decay expose a familiar industrial constraint: announced capacity becomes useful only when a qualified chain can convert it into dependable output. For radioligand therapy, that output is a usable dose arriving at a staffed treatment appointment. Increasing isotope production helps; expanding accepted processing, manufacturing and delivery routes can matter just as much.",
       "image": {
         "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-f2d85a175234c529.webp",
         "alt": "Production cycle of exotic radioisotopes for medical research MEDICIS 07"
@@ -17966,163 +17948,13 @@
         "public_cycle_complete_by_run_manifest": false,
         "coverage_status": "current-complete"
       },
-      "data_series": [
-        {
-          "metric": "Selected radioisotope/RLT facility sizes",
-          "points": [
-            {
-              "label": "TerraPower Bellwether Laboratory —",
-              "value": 250000.0,
-              "unit": "sq ft"
-            },
-            {
-              "label": "Nusano West Valley City facility —",
-              "value": 190000.0,
-              "unit": "sq ft"
-            },
-            {
-              "label": "Novartis Indianapolis —",
-              "value": 70000.0,
-              "unit": "sq ft"
-            },
-            {
-              "label": "Novartis Denton —",
-              "value": 46000.0,
-              "unit": "sq ft"
-            }
-          ],
-          "headline": {
-            "value": 250000.0,
-            "value_text": "250,000",
-            "unit": "sq ft",
-            "metric": "Selected radioisotope/RLT facility sizes",
-            "point_label": "TerraPower Bellwether Laboratory —",
-            "display_label": "TerraPower Bellwether Laboratory — - Selected radioisotope/RLT facility sizes",
-            "selection_mode": "largest_absolute_value",
-            "is_calendar_year": false,
-            "card_eligible": true
-          },
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "TerraPower Bellwether Laboratory — 250,000 sq ft; Nusano West Valley City facility — 190,000 sq ft; Novartis Indianapolis — 70,000 sq ft; Novartis Denton — 46,000 sq ft",
-            "source_urls": [
-              "https://www.terrapower.com/TerraPower-Isotopes-Breaks-Ground-on-Worlds-Largest-Actinium-225-Manufacturing-Facility-in-Philadelphia",
-              "https://nusano.com/nusano-cuts-ribbon-on-state-of-the-art-radioisotope-production-facility/?utm_source=chatgpt.com",
-              "https://www.novartis.com/us-en/news/media-releases/novartis-expands-production-pluvicto-addition-its-largest-and-most-advanced-radioligand-therapy-manufacturing-facility-indianapolis",
-              "https://www.novartis.com/us-en/radioligand-therapy-production-denton-texas"
-            ]
-          }
-        }
-      ],
-      "card_metrics": [
-        {
-          "value": 250000.0,
-          "value_text": "250,000",
-          "unit": "sq ft",
-          "metric": "Selected radioisotope/RLT facility sizes",
-          "point_label": "TerraPower Bellwether Laboratory —",
-          "display_label": "TerraPower Bellwether Laboratory — - Selected radioisotope/RLT facility sizes",
-          "selection_mode": "largest_absolute_value",
-          "is_calendar_year": false,
-          "card_eligible": true,
-          "provenance": {
-            "kind": "chart_candidates",
-            "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "TerraPower Bellwether Laboratory — 250,000 sq ft; Nusano West Valley City facility — 190,000 sq ft; Novartis Indianapolis — 70,000 sq ft; Novartis Denton — 46,000 sq ft",
-            "source_urls": [
-              "https://www.terrapower.com/TerraPower-Isotopes-Breaks-Ground-on-Worlds-Largest-Actinium-225-Manufacturing-Facility-in-Philadelphia",
-              "https://nusano.com/nusano-cuts-ribbon-on-state-of-the-art-radioisotope-production-facility/?utm_source=chatgpt.com",
-              "https://www.novartis.com/us-en/news/media-releases/novartis-expands-production-pluvicto-addition-its-largest-and-most-advanced-radioligand-therapy-manufacturing-facility-indianapolis",
-              "https://www.novartis.com/us-en/radioligand-therapy-production-denton-texas"
-            ]
-          }
-        }
-      ],
-      "watch_signals": [
-        {
-          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:efb448d25250",
-          "text": "Qualified output: Evidence that expanded isotope production repeatedly converts into specification-compliant, released material.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Qualified output: Evidence that expanded isotope production repeatedly converts into specification-compliant, released material.",
-          "source_url": "",
-          "source_urls": [],
-          "resolve_by": null,
-          "resolve_by_text": "",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:6f5d70e76fb9",
-          "text": "Release performance: Batch consistency, purity, stability, yield and reliable release at increasing production volumes.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Release performance: Batch consistency, purity, stability, yield and reliable release at increasing production volumes.",
-          "source_url": "",
-          "source_urls": [],
-          "resolve_by": null,
-          "resolve_by_text": "",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:536db56cc5fc",
-          "text": "Operational uptime: Whether new facilities sustain production rather than merely reaching commissioning or announced capacity.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Operational uptime: Whether new facilities sustain production rather than merely reaching commissioning or announced capacity.",
-          "source_url": "",
-          "source_urls": [],
-          "resolve_by": null,
-          "resolve_by_text": "",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:71ecc2718d5e",
-          "text": "Fulfilment: Demonstrated ability to route released doses through transport and treatment scheduling inside labelled expiry.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Fulfilment: Demonstrated ability to route released doses through transport and treatment scheduling inside labelled expiry.",
-          "source_url": "",
-          "source_urls": [],
-          "resolve_by": null,
-          "resolve_by_text": "",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:da3890bedc6e",
-          "text": "Administration capacity: Whether licensed treatment networks expand fast enough to absorb additional drug-product supply.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Administration capacity: Whether licensed treatment networks expand fast enough to absorb additional drug-product supply.",
-          "source_url": "",
-          "source_urls": [],
-          "resolve_by": null,
-          "resolve_by_text": "",
-          "state": "open",
-          "settlement": null
-        },
-        {
-          "signal_id": "2026-09-24-radiopharmaceutical-scale-is-a-chain-problem:watch:7acdc65d2b83",
-          "text": "Ac-225 evidence: CMC, inspection and commercial-scale operating data that distinguish qualified supply from nominal isotope production.",
-          "source_heading": "What to watch",
-          "extraction_mode": "explicit_bullet",
-          "source_text": "Ac-225 evidence: CMC, inspection and commercial-scale operating data that distinguish qualified supply from nominal isotope production.",
-          "source_url": "",
-          "source_urls": [],
-          "resolve_by": null,
-          "resolve_by_text": "",
-          "state": "open",
-          "settlement": null
-        }
-      ],
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
       "watch_extraction": {
-        "status": "explicit_bullets",
-        "source_heading": "What to watch",
-        "unpublished_candidate_count": 0
+        "status": "unstructured_prose",
+        "source_heading": "What to Watch",
+        "unpublished_candidate_count": 2
       }
     },
     {
