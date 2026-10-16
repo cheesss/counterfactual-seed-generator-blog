@@ -93,9 +93,13 @@ def srcset_urls(value: str) -> list[str]:
     return urls
 
 
-def css_image_references(css: str, document: Path, scope: str) -> list[Reference]:
-    """Collect declaration URLs, excluding @import and @font-face src URLs."""
-    references: list[Reference] = []
+def css_url_declarations(css: str) -> list[tuple[str, str]]:
+    """Return ``(property as written, url)`` for declaration-level CSS URLs.
+
+    Comments, @import and @font-face ``src`` URLs and fragment-only URLs are
+    excluded.
+    """
+    declarations: list[tuple[str, str]] = []
     cleaned = re.sub(r"/\*.*?\*/", "", css, flags=re.DOTALL)
     for match in CSS_URL_RE.finditer(cleaned):
         prefix_start = max(
@@ -106,8 +110,7 @@ def css_image_references(css: str, document: Path, scope: str) -> list[Reference
         property_match = re.match(r"\s*([a-zA-Z-][\w-]*)\s*:", prefix)
         if not property_match:
             continue
-        property_name = property_match.group(1).casefold()
-        if property_name == "src":
+        if property_match.group(1).casefold() == "src":
             continue
         url = (
             match.group("quoted")
@@ -116,10 +119,32 @@ def css_image_references(css: str, document: Path, scope: str) -> list[Reference
         ).strip()
         if url.startswith("#"):
             continue
-        references.append(
-            Reference(document, f"{scope}:{property_name}:url()", url)
-        )
-    return references
+        declarations.append((property_match.group(1), url))
+    return declarations
+
+
+def css_image_references(css: str, document: Path, scope: str) -> list[Reference]:
+    """Collect declaration URLs, excluding @import and @font-face src URLs."""
+    return [
+        Reference(document, f"{scope}:{property_name.casefold()}:url()", url)
+        for property_name, url in css_url_declarations(css)
+    ]
+
+
+def svg_image_hrefs(svg_root: ET.Element) -> list[tuple[str, str, str]]:
+    """Return ``(tag, attribute, url)`` for non-fragment hrefs on SVG image/use/feImage."""
+    hrefs: list[tuple[str, str, str]] = []
+    for element in svg_root.iter():
+        tag_name = str(element.tag).split("}")[-1].casefold()
+        if tag_name not in {"image", "use", "feimage"}:
+            continue
+        for name, value in element.attrib.items():
+            attribute = str(name).split("}")[-1].casefold()
+            if attribute != "href" or not value.strip() or value.strip().startswith("#"):
+                continue
+            rendered_attribute = "xlink:href" if str(name).startswith("{") else "href"
+            hrefs.append((tag_name, rendered_attribute, value.strip()))
+    return hrefs
 
 
 class ImageSurfaceHTMLParser(HTMLParser):
@@ -464,18 +489,10 @@ def collect_references(
                 )
             )
             continue
-        for element in svg_root.iter():
-            tag_name = str(element.tag).split("}")[-1].casefold()
-            if tag_name not in {"image", "use", "feimage"}:
-                continue
-            for name, value in element.attrib.items():
-                attribute = str(name).split("}")[-1].casefold()
-                if attribute != "href" or not value.strip() or value.strip().startswith("#"):
-                    continue
-                rendered_attribute = "xlink:href" if str(name).startswith("{") else "href"
-                references.append(
-                    Reference(path, f"svg:{tag_name}[{rendered_attribute}]", value.strip())
-                )
+        for tag_name, rendered_attribute, url in svg_image_hrefs(svg_root):
+            references.append(
+                Reference(path, f"svg:{tag_name}[{rendered_attribute}]", url)
+            )
 
     json_references, json_report_heroes, json_issues = (
         collect_json_export_references(root)
@@ -593,30 +610,15 @@ def inspect_image(path: Path, root: Path) -> tuple[dict[str, Any] | None, str | 
         }, None
 
     try:
-        from PIL import Image
-
-        with Image.open(path) as probe:
-            verified_format = str(probe.format or "").upper()
-            verified_size = tuple(probe.size)
-            probe.verify()
-        with Image.open(path) as image:
-            frame_count = int(getattr(image, "n_frames", 1))
-            for frame in range(frame_count):
-                image.seek(frame)
-                image.load()
-            loaded_format = str(image.format or "").upper()
-            loaded_size = tuple(image.size)
-        if verified_format != loaded_format or verified_size != loaded_size:
+        bitmap = decode_bitmap(path)
+        if not bitmap.metadata_consistent:
             return None, "bitmap metadata changed between verify and full decode"
-        if loaded_size[0] <= 0 or loaded_size[1] <= 0:
+        if bitmap.width <= 0 or bitmap.height <= 0:
             return None, "bitmap has invalid dimensions"
-        expected_format = str(
-            Image.registered_extensions().get(path.suffix.casefold(), "")
-        ).upper()
-        if not expected_format or expected_format != loaded_format:
+        if not bitmap.extension_matches:
             return None, (
                 f"extension {path.suffix or '(none)'} does not match decoded "
-                f"{loaded_format or 'unknown'}"
+                f"{bitmap.format or 'unknown'}"
             )
     except ImportError:
         return None, "Pillow is required to decode bitmap images"
@@ -624,13 +626,97 @@ def inspect_image(path: Path, root: Path) -> tuple[dict[str, Any] | None, str | 
         return None, f"invalid bitmap ({type(exc).__name__})"
 
     return {
-        "format": loaded_format,
-        "height": loaded_size[1],
+        "format": bitmap.format,
+        "height": bitmap.height,
         "path": relative,
         "sha256": _hash_file(path),
         "size": size,
-        "width": loaded_size[0],
+        "width": bitmap.width,
     }, None
+
+
+@dataclass(frozen=True)
+class DecodedBitmap:
+    """What a full, verified decode of one bitmap file established."""
+
+    width: int
+    height: int
+    format: str
+    verified_size: tuple[int, ...]
+    verified_format: str
+    expected_format: str
+    diversity_problem: str | None = None
+
+    @property
+    def size(self) -> tuple[int, int]:
+        return (self.width, self.height)
+
+    @property
+    def metadata_consistent(self) -> bool:
+        """The header probe and the full decode agree on size and format."""
+        return self.verified_size == self.size and self.verified_format == self.format
+
+    @property
+    def extension_matches(self) -> bool:
+        """The file extension names a Pillow format equal to the decoded one."""
+        return bool(self.expected_format) and self.expected_format == self.format
+
+
+def decode_bitmap(
+    path: Path,
+    *,
+    check_diversity: bool | tuple[int, int] = False,
+) -> DecodedBitmap:
+    """Verify, then fully decode every frame of ``path``.
+
+    Decoder failures propagate as exceptions (ImportError without Pillow).
+    ``check_diversity`` adds the blank-pixel check on the first frame: True
+    always, a ``(width, height)`` pair only when the decoded size equals it.
+    """
+    from PIL import Image
+
+    with Image.open(path) as probe:
+        verified_format = str(probe.format or "").upper()
+        verified_size = tuple(probe.size)
+        probe.verify()
+    diversity_problem: str | None = None
+    with Image.open(path) as image:
+        frame_count = int(getattr(image, "n_frames", 1))
+        for frame in range(frame_count):
+            image.seek(frame)
+            image.load()
+        loaded_format = str(image.format or "").upper()
+        loaded_size = tuple(image.size)
+        if check_diversity is not False:
+            image.seek(0)
+            image.load()
+            if check_diversity is True or loaded_size == tuple(check_diversity):
+                diversity_problem = visible_pixel_diversity_problem(image)
+    expected_format = str(
+        Image.registered_extensions().get(path.suffix.casefold(), "")
+    ).upper()
+    return DecodedBitmap(
+        width=loaded_size[0],
+        height=loaded_size[1],
+        format=loaded_format,
+        verified_size=verified_size,
+        verified_format=verified_format,
+        expected_format=expected_format,
+        diversity_problem=diversity_problem,
+    )
+
+
+def flattened_pixels(image: Any) -> list[Any]:
+    """Return the image's pixel values in row-major order as a list.
+
+    ``Image.getdata()`` is deprecated (removal scheduled for Pillow 14); newer
+    Pillow exposes the same sequence as ``get_flattened_data()``. Both yield
+    identical values, so prefer the new name and fall back on older Pillow.
+    """
+    flattened = getattr(image, "get_flattened_data", None)
+    if flattened is not None:
+        return list(flattened())
+    return list(image.getdata())
 
 
 def visible_pixel_diversity_problem(image: Any) -> str | None:
@@ -948,12 +1034,7 @@ def validate_report_heroes(
                 )
             )
         try:
-            from PIL import Image
-
-            with Image.open(asset_path) as decoded:
-                decoded.seek(0)
-                decoded.load()
-                diversity_problem = visible_pixel_diversity_problem(decoded)
+            diversity_problem = decode_bitmap(asset_path, check_diversity=True).diversity_problem
         except Exception as exc:
             diversity_problem = f"pixel inspection failed ({type(exc).__name__})"
         if diversity_problem:
