@@ -39,5 +39,22 @@ class PagesWorkflowTests(unittest.TestCase):
                         workflow.index("actions/upload-pages-artifact@"))
 
 
+    def test_live_bytes_are_verified_after_a_push_deploy(self) -> None:
+        workflow = WORKFLOW.read_text(encoding="utf-8")
+        job = workflow[workflow.index("\n  verify-live:\n"):]
+        self.assertLess(workflow.index("actions/deploy-pages@"), workflow.index("\n  verify-live:\n"))
+        self.assertIn("    needs: deploy\n", job)
+        self.assertIn("    if: github.event_name == 'push' && github.ref == 'refs/heads/main'\n", job)
+        self.assertIn("    permissions:\n      contents: read\n", job)
+        self.assertIn("page_url: ${{ steps.deployment.outputs.page_url }}", workflow)
+        self.assertIn("PAGE_URL: ${{ needs.deploy.outputs.page_url }}", job)
+        self.assertIn("BEFORE_SHA: ${{ github.event.before }}", job)
+        self.assertIn("python scripts/verify_live.py", job)
+        self.assertIn("--max-wait 600", job)
+        self.assertIn("timeout-minutes: 20", job)
+        for forbidden in ("upload-pages-artifact", "deploy-pages", "git push", "write"):
+            self.assertNotIn(forbidden, job)
+
+
 if __name__ == "__main__":
     unittest.main()

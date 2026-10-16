@@ -1,0 +1,38 @@
+name: Settings drift check
+
+# Notify-only. Reads Pages, branch protection and environment settings back and
+# keeps one tracking issue current. It never changes a setting. Branch
+# protection needs the optional SETTINGS_AUDIT_TOKEN secret (fine-grained,
+# Administration: read-only); without it that part is skipped and the run passes.
+"on":
+  schedule:
+    - cron: "29 2 * * 3"
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+  issues: write
+  pages: read
+
+concurrency:
+  group: settings-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compare settings with the release boundary
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          SETTINGS_AUDIT_TOKEN: ${{ secrets.SETTINGS_AUDIT_TOKEN }}
+        run: python scripts/settings_audit.py --issue --summary "$GITHUB_STEP_SUMMARY"

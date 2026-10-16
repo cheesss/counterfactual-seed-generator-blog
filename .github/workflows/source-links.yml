@@ -1,0 +1,33 @@
+name: Source link scan
+
+# Notify-only. Checks article-body source links weekly and keeps one tracking
+# issue current. Only 404/410 count as dead; it never edits an article.
+"on":
+  schedule:
+    - cron: "41 1 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: source-links
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Update the source-link issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: python scripts/source_links.py --posts posts --issue
