@@ -73,12 +73,12 @@ These settings live in GitHub, not in repository files. They were applied on 202
 Release changes reach `main` only through a pull request. From the source vault, after `run_publication_cycle.py --publish` has synchronized this working tree:
 
 ```powershell
-python scripts/release_handoff.py open-pr      # commits the mirror on release/<date>-<vault sha> and opens a PR
-# merge the PR in GitHub after "Validate Pages artifact" passes
-python scripts/release_handoff.py verify-live  # waits for the deployment and compares live bytes with the manifest
+python scripts/release_handoff.py open-pr      # commits the mirror on release/<date>-<vault sha>, opens a PR with auto-merge
+# GitHub merges it once "Validate Pages artifact" passes; the Pages run then verifies live bytes
+python scripts/release_handoff.py verify-live  # optional local repeat of the live-byte comparison
 ```
 
-`open-pr` refuses an unpushed vault commit or one whose vault CI is not green unless `--allow-unverified-vault "<reason>"` records why in the PR. It never merges.
+`open-pr` refuses an unpushed vault commit or one whose vault CI is not green unless `--allow-unverified-vault "<reason>"` records why in the PR. It turns on GitHub auto-merge, which waits for the required check; `--no-auto-merge` leaves the PR for a manual review, and an unverified-vault override never auto-merges.
 
 Reader issue templates (member pack interest, feedback and corrections) live in `.github/ISSUE_TEMPLATE/`; `.github/` is never part of the Pages artifact.
 
