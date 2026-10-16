@@ -1,2 +1,4 @@
+scripts/site_image_validator.py text eol=lf
 scripts/site_release_validator.py text eol=lf
+scripts/static_update_baseline.py text eol=lf
 scripts/static_update_validator.py text eol=lf
