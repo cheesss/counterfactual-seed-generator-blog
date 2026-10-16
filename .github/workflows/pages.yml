@@ -70,6 +70,14 @@ jobs:
         with:
           path: _site
 
+      - name: Summarize the proposed change
+        # Informational step summary for reviewers; it never gates the check.
+        if: always() && github.event_name == 'pull_request'
+        continue-on-error: true
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python scripts/pr_summary.py --base "$BASE_SHA" --output "$GITHUB_STEP_SUMMARY"
+
   deploy:
     name: Deploy validated Pages artifact
     needs: validate
