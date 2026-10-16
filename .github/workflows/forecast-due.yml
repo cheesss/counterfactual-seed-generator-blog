@@ -2,14 +2,24 @@ name: Forecast checkpoints due
 
 # Notify-only. Lists open watch signals whose dated checkpoint has passed and
 # keeps one tracking issue current. It never researches or settles a forecast.
+# A push to main that changes publication-data.json refreshes the issue at once.
 "on":
   schedule:
     - cron: "17 0 * * 1"
+  push:
+    branches:
+      - main
+    paths:
+      - publication-data.json
   workflow_dispatch:
 
 permissions:
   contents: read
   issues: write
+
+concurrency:
+  group: forecast-due
+  cancel-in-progress: false
 
 jobs:
   notify:

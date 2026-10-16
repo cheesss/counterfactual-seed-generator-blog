@@ -26,6 +26,26 @@ class ForecastDueTests(unittest.TestCase):
         self.assertIn("2026-09-01", body)
         self.assertIn("only notifies", body)
 
+    def test_body_reports_cadence_against_the_weekly_target(self):
+        data = {"articles": [{"slug": s, "date": d, "watch_signals": []} for s, d in (
+            ("a", "2026-10-10"), ("b", "2026-09-20"), ("c", "2026-09-01"), ("d", "not-a-date"))]}
+        stats = forecast_due.summary(data, dt.date(2026, 10, 12))
+        self.assertEqual({"last_28_days": 2, "target_last_28_days": 8, "last_published": "2026-10-10"},
+                         stats["cadence"])
+        body = forecast_due.markdown([], stats)
+        self.assertIn("Cadence: 2 article(s) dated in the last 28 days against a target of 8 (below target)", body)
+        on_target = {"articles": [{"slug": str(i), "date": "2026-10-01"} for i in range(8)]}
+        self.assertIn("(on target)", forecast_due.markdown([], forecast_due.summary(on_target, dt.date(2026, 10, 12))))
+
+    def test_workflow_refreshes_on_publication_data_pushes_and_stays_notify_only(self):
+        workflow = (Path(__file__).resolve().parents[1] / ".github/workflows/forecast-due.yml").read_text(
+            encoding="utf-8")
+        self.assertIn('    branches:\n      - main\n    paths:\n      - publication-data.json\n', workflow)
+        self.assertIn("schedule:", workflow)
+        self.assertIn("issues: write", workflow)
+        self.assertNotIn("contents: write", workflow)
+        self.assertIn("python scripts/forecast_due.py --data publication-data.json --issue", workflow)
+
     def test_undated_data_explains_itself(self):
         data = {"articles": [{"slug": "a", "watch_signals": [{"text": "x", "state": "open"}]}]}
         body = forecast_due.markdown([], forecast_due.summary(data, dt.date(2026, 10, 12)))

@@ -17,6 +17,9 @@ from pathlib import Path
 SITE_URL = "https://cheesss.github.io/counterfactual-seed-generator-blog"
 ISSUE_TITLE = "Forecast checkpoints due"
 ISSUE_LABEL = "forecast-due"
+# Same target as the vault's pipeline_metrics.py: two reviewed columns a week.
+CADENCE_TARGET_PER_WEEK = 2
+CADENCE_WINDOW_DAYS = 28
 
 
 def due_signals(data: dict, today: dt.date) -> list[dict]:
@@ -38,10 +41,25 @@ def due_signals(data: dict, today: dt.date) -> list[dict]:
     return sorted(rows, key=lambda row: (row["deadline"], row["slug"]))
 
 
+def cadence(data: dict, today: dt.date) -> dict:
+    """Articles dated within the last 28 days against the weekly target (ported from pipeline_metrics)."""
+    dates = []
+    for article in data.get("articles", []):
+        try:
+            dates.append(dt.date.fromisoformat(str(article.get("date", ""))[:10]))
+        except ValueError:
+            continue
+    dates.sort()
+    recent = [day for day in dates if 0 <= (today - day).days <= CADENCE_WINDOW_DAYS]
+    return {"last_28_days": len(recent), "target_last_28_days": CADENCE_TARGET_PER_WEEK * 4,
+            "last_published": dates[-1].isoformat() if dates else None}
+
+
 def summary(data: dict, today: dt.date) -> dict:
     signals = [signal for article in data.get("articles", []) for signal in article.get("watch_signals", [])]
     return {"signals": len(signals), "dated": sum(bool(signal.get("resolve_by")) for signal in signals),
-            "open": sum(signal.get("state", "open") == "open" for signal in signals), "as_of": today.isoformat()}
+            "open": sum(signal.get("state", "open") == "open" for signal in signals), "as_of": today.isoformat(),
+            "cadence": cadence(data, today)}
 
 
 def markdown(rows: list[dict], stats: dict) -> str:
@@ -56,6 +74,12 @@ def markdown(rows: list[dict], stats: dict) -> str:
         for row in rows:
             lines.append(f"- [ ] **{row['deadline']}** ({row['phrase']}) [{row['title']}]({row['url']}) - "
                          f"{row['text']} `{row['signal_id']}`")
+    pace = stats.get("cadence")
+    if pace:
+        status = "on target" if pace["last_28_days"] >= pace["target_last_28_days"] else "below target"
+        lines += ["", f"Cadence: {pace['last_28_days']} article(s) dated in the last {CADENCE_WINDOW_DAYS} days "
+                  f"against a target of {pace['target_last_28_days']} ({status}); last published "
+                  f"{pace['last_published'] or 'never'}."]
     lines += ["", "Settle through the vault (`outcome-ledger.json`) with a public source; this issue only notifies."]
     return "\n".join(lines) + "\n"
 
