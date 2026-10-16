@@ -78,7 +78,42 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  verify-live:
+    name: Verify live site bytes
+    # Read-only: fetch the deployed files and compare them with the manifest.
+    # Retries cover CDN propagation (about 10 minutes at most).
+    needs: deploy
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - name: Check out the deployed commit
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compare live bytes with the deployed manifest
+        env:
+          PAGE_URL: ${{ needs.deploy.outputs.page_url }}
+          BEFORE_SHA: ${{ github.event.before }}
+        run: >-
+          python scripts/verify_live.py
+          --site-url "$PAGE_URL"
+          --before "$BEFORE_SHA"
+          --after "$GITHUB_SHA"
+          --max-wait 600
