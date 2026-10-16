@@ -12,6 +12,17 @@ The branch working directory is never the Pages artifact. `README.md`, `.github/
 
 Image validation covers HTML `img` and `source` URLs and `srcset`, social image metadata, video posters, image inputs, icons and image preloads, inline and linked CSS `url(...)`, and SVG `image`, `use`, and `feImage` hrefs. It rejects external origins other than the configured Pages origin, data URLs, missing URLs/files, paths outside the artifact, symlinks, undecodable images, extension/format mismatches, and manifest drift.
 
+## Automated checks
+
+Every workflow is deterministic. None researches, reviews, publishes, commits or merges.
+
+- **Pull requests:** the `Validate Pages artifact` job also writes an informational step summary (`scripts/pr_summary.py`): proof type, proof articles by profile, carried `legacy-deployed-v1` and photo-revalidated counts, changed posts, image count and open/dated watch-signal deltas against the base. It never gates the check.
+- **After a push deploy:** the `verify-live` job (`scripts/verify_live.py`) fetches every manifest text file plus the binaries changed by the push from the deployed URL and compares SHA-256, retrying for up to 10 minutes of CDN lag before failing the run.
+- **Weekly, notify-only issues.** Each keeps one labelled issue current, creates it only when something needs action and closes it when clean:
+  - `forecast-due.yml` (also on pushes to `main` that change `publication-data.json`): open watch signals past their dated checkpoint, plus cadence against 8 articles per 28 days.
+  - `source-links.yml`: article-body source links in `posts/*.html`. Only 404/410 count as dead; 401/403/429/5xx and timeouts are reported as unverified. Requests identify as `BottleneckBriefsBot`, are spaced per host, honour `Retry-After` and are capped.
+  - `settings-audit.yml`: Pages `build_type`, `main` protection and the `github-pages` environment policy. Branch protection needs the optional `SETTINGS_AUDIT_TOKEN` secret, a fine-grained token for this repository with **Administration: Read-only** only. Without it, that part is skipped and the step summary says how to add it.
+
 ## Source sync
 
 The canonical source is the sibling `counterfactual-seed-generator-obsidian-export` repository. Never repair research or edit generated article HTML here. Complete the source pipeline and its release proof first:
