@@ -1,0 +1,43 @@
+name: Member research pack interest
+description: Ask for a deeper member research pack on a published column or a new topic.
+title: "[Pack request] "
+labels: ["member-pack-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Member research packs are in a private pilot. This request records interest only; it is not a purchase, and no payment or contact details are collected here. Please do not post personal or confidential information.
+  - type: input
+    id: column
+    attributes:
+      label: Column or topic
+      description: Link the published column, or name the topic you want covered.
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Which best describes how you would use it?
+      options:
+        - Investor or analyst
+        - Operator or buyer in the industry
+        - Policy or research
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: What decision would the pack help you make?
+      description: One or two sentences are enough.
+    validations:
+      required: true
+  - type: dropdown
+    id: price
+    attributes:
+      label: Would a monthly subscription around 12 USD be reasonable for this kind of research?
+      options:
+        - "Yes"
+        - Only for specific topics
+        - "No"
+        - Not sure

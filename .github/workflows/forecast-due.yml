@@ -1,0 +1,26 @@
+name: Forecast checkpoints due
+
+# Notify-only. Lists open watch signals whose dated checkpoint has passed and
+# keeps one tracking issue current. It never researches or settles a forecast.
+"on":
+  schedule:
+    - cron: "17 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Update the forecast-due issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: python scripts/forecast_due.py --data publication-data.json --issue

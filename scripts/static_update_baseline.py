@@ -121,6 +121,18 @@ def materialize_baseline(repo: Path, baseline: dict, destination: Path) -> None:
                 process.stdout.close()
 
 
+def already_deployed(repo: Path, latest: dict) -> bool:
+    """True when the working artifact is exactly the newest confirmed deployment.
+
+    A repository-only change (README, workflow, issue templates) keeps the deployed
+    selected-update proof. Its baseline is then older than the newest deployment,
+    which is that same update; identical ownership manifests prove nothing moved.
+    """
+    current = json.loads((repo / MANIFEST).read_text(encoding="utf-8"))
+    deployed = json.loads(command(["git", "show", f"{latest['commit']}:{MANIFEST}"], repo))
+    return isinstance(current, dict) and current == deployed
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--site-root", type=Path, required=True)
@@ -131,10 +143,15 @@ def main(argv=None) -> int:
         proof = json.loads((args.site_root / update.UPDATE_FILE).read_text(encoding="utf-8"))
         with tempfile.TemporaryDirectory(prefix="csg-deployed-baseline-") as temporary:
             baseline_root = Path(temporary) / "site"
-            materialize_baseline(args.baseline_repo.resolve(), proof["baseline"], baseline_root)
-            if latest_deployment(args.baseline_repo.resolve()) != proof["baseline"]:
-                raise artifact.ReleaseFailure("a newer Pages deployment exists; rebuild the selected update")
+            repo = args.baseline_repo.resolve()
+            materialize_baseline(repo, proof["baseline"], baseline_root)
             result = update.validate_update(args.site_root, baseline_root)
+            latest = latest_deployment(repo)
+            if latest != proof["baseline"]:
+                if not already_deployed(repo, latest):
+                    raise artifact.ReleaseFailure("a newer Pages deployment exists; rebuild the selected update")
+                result = {**result, "artifact": "unchanged-from-latest-deployment",
+                          "latest_deployment": latest}
         print(json.dumps(result, sort_keys=True))
         return 0
     except (artifact.ReleaseFailure, OSError, ValueError, KeyError, TypeError) as exc:

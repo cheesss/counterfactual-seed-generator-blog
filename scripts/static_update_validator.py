@@ -334,7 +334,7 @@ def _references_asset(value: Any, asset: str) -> bool:
 def _exclusive_selected_og(name: str, selected: dict, proof_files: dict,
                            digest: str | None, baseline: Path, site: Path,
                            old: dict, new: dict, old_blog: dict, new_blog: dict) -> bool:
-    if (name not in {f"assets/og/{slug}.png" for slug in selected}
+    if (name not in {f"assets/og/{slug}{suffix}" for slug in selected for suffix in (".png", ".jpg")}
             or digest is None or proof_files.get(name) != digest):
         return False
     for root in (baseline, site):
