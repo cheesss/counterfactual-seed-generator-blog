@@ -1,11 +1,11 @@
 [
   {
-    "title": "The refrigerant transition needed a second delivery system",
-    "url": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
+    "title": "When Living Computers Can Keep the Work After the Cells Change",
+    "url": "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html",
     "category": "Report",
-    "date": "2026-09-24",
-    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
-    "excerpt": "EPA documented sufficient bulk R-454B during the 2025 transition alongside regional difficulty obtaining service cylinders. Carrier later reported delivery relief after securing cylinders and down-packing capacity; Chemours subsequently described stabilizing availability."
+    "date": "2026-10-17",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp",
+    "excerpt": "A living computer becomes a different product when useful work can survive the replacement of its cells. Transferable calibration could make that transition possible; extracting an algorithm into software could avoid the replacement problem at the customer's end altogether."
   },
   {
     "title": "The Hidden Capacity Constraint in Critical Minerals: Tailings, Water and Environmental Permits",
@@ -32,6 +32,14 @@
     "excerpt": "A grid project can reserve its cable years before it has permission to build the substation at the other end."
   },
   {
+    "title": "HFC Phase-Down: Why the HVAC Refrigerant Transition Bottleneck Moved Downstream",
+    "url": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
+    "category": "Report",
+    "date": "2026-09-24",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
+    "excerpt": "In 2025, available bulk R-454B and new HVAC equipment could coexist with unfinished installations. Contractor-sized refrigerant packages were a separate constraint. Manufacturers responded by expanding that delivery channel and moving some field charging into the factory."
+  },
+  {
     "title": "EUDR is making origin data part of the commodity itself",
     "url": "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html",
     "category": "Report",
@@ -40,12 +48,12 @@
     "excerpt": "The European Union's deforestation regulation is often described as a sustainability disclosure regime. Its operational effect is more concrete. For covered commodities, access to the EU market increasingly depends on whether an exporter and its buyers can carry usable origin, legality and risk data from a farm or production establishment into a shipment, a due-diligence statement and customs-facing records."
   },
   {
-    "title": "Counter-Drone Protection: Turning Purchases into Staffed Coverage",
+    "title": "Counter-UAS Deployment: Turning Equipment into Lawful, Staffed Protection",
     "url": "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html",
     "category": "Report",
     "date": "2026-09-24",
     "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-46b5a94eb7aa4eba.webp",
-    "excerpt": "Published September 24, 2026. Updated September 29, 2026. Los Angeles’s April 3, 2026 financing report described trained counter-drone personnel waiting for equipment. The city proposed front-funding a $9,770,209 purchase while grant reimbursements were paused. Delivery was expected within 70 days after receipt of the city’s payment."
+    "excerpt": "Equipment acquisition does not itself establish lawful, staffed counter-UAS protection. America's expanded local authority changes who can organize that protection, while regional support and reusable operating arrangements offer a way to spread it across more sites."
   },
   {
     "title": "Assured PNT: The Bottleneck Is Increasingly the Assurance Stack, Not the Sensor Shelf",
@@ -472,12 +480,12 @@
     "excerpt": "Airline capacity is normally discussed through aircraft deliveries. Boeing has production and certification problems. Airbus has a backlog measured in years. Airlines also face scarce pilots, congested airports, air-traffic-control limits and closed airspace."
   },
   {
-    "title": "Radiopharmaceutical Scale Is a Chain Problem: Decay, Qualification, Release, Transport and Licensed Administration",
+    "title": "Cancer's Next Supply Chain Is a Radioisotope Clock",
     "url": "posts/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem.html",
     "category": "Report",
     "date": "2026-06-22",
     "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-f2d85a175234c529.webp",
-    "excerpt": "Radiopharmaceuticals are sometimes described as if radioactive decay creates a permanent, industry-wide shortage by itself. That framing is too simple."
+    "excerpt": "Cancer medicines that decay expose a familiar industrial constraint: announced capacity becomes useful only when a qualified chain can convert it into dependable output. For radioligand therapy, that output is a usable dose arriving at a staffed treatment appointment. Increasing isotope production helps; expanding accepted processing, manufacturing and delivery routes can matter just as much."
   },
   {
     "title": "The grid’s next hidden gate is proving that the model matches the plant",

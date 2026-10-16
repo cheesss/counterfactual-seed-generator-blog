@@ -4,14 +4,14 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed research on industrial constraints, commercialization, disruption, and the systems that decide what scales next.</description>
-  <lastBuildDate>Tue, 13 Oct 2026 11:40:23 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 19:59:49 +0000</lastBuildDate>
 
   <item>
-    <title>The refrigerant transition needed a second delivery system</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html</guid>
-    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    <description>EPA documented sufficient bulk R-454B during the 2025 transition alongside regional difficulty obtaining service cylinders. Carrier later reported delivery relief after securing cylinders and down-packing capacity; Chemours subsequently described stabilizing availability.</description>
+    <title>When Living Computers Can Keep the Work After the Cells Change</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html</guid>
+    <pubDate>Sat, 17 Oct 2026 00:00:00 +0000</pubDate>
+    <description>A living computer becomes a different product when useful work can survive the replacement of its cells. Transferable calibration could make that transition possible; extracting an algorithm into software could avoid the replacement problem at the customer&#x27;s end altogether.</description>
   </item>
   <item>
     <title>The Hidden Capacity Constraint in Critical Minerals: Tailings, Water and Environmental Permits</title>
@@ -35,6 +35,13 @@
     <description>A grid project can reserve its cable years before it has permission to build the substation at the other end.</description>
   </item>
   <item>
+    <title>HFC Phase-Down: Why the HVAC Refrigerant Transition Bottleneck Moved Downstream</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html</guid>
+    <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    <description>In 2025, available bulk R-454B and new HVAC equipment could coexist with unfinished installations. Contractor-sized refrigerant packages were a separate constraint. Manufacturers responded by expanding that delivery channel and moving some field charging into the factory.</description>
+  </item>
+  <item>
     <title>EUDR is making origin data part of the commodity itself</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html</guid>
@@ -42,11 +49,11 @@
     <description>The European Union&#x27;s deforestation regulation is often described as a sustainability disclosure regime. Its operational effect is more concrete. For covered commodities, access to the EU market increasingly depends on whether an exporter and its buyers can carry usable origin, legality and risk data from a farm or production establishment into a shipment, a due-diligence statement and customs-facing records.</description>
   </item>
   <item>
-    <title>Counter-Drone Protection: Turning Purchases into Staffed Coverage</title>
+    <title>Counter-UAS Deployment: Turning Equipment into Lawful, Staffed Protection</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html</link>
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html</guid>
     <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
-    <description>Published September 24, 2026. Updated September 29, 2026. Los Angeles’s April 3, 2026 financing report described trained counter-drone personnel waiting for equipment. The city proposed front-funding a $9,770,209 purchase while grant reimbursements were paused. Delivery was expected within 70 days after receipt of the city’s payment.</description>
+    <description>Equipment acquisition does not itself establish lawful, staffed counter-UAS protection. America&#x27;s expanded local authority changes who can organize that protection, while regional support and reusable operating arrangements offer a way to spread it across more sites.</description>
   </item>
   <item>
     <title>Assured PNT: The Bottleneck Is Increasingly the Assurance Stack, Not the Sensor Shelf</title>
@@ -208,13 +215,6 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html</guid>
     <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     <description>Genomic newborn screening is usually measured through enrollment, sequencing success, positive results, and diagnoses. Those metrics matter, but they stop before the industrial problem becomes difficult.</description>
-  </item>
-  <item>
-    <title>Rare-Earth Magnets and the Moving Industrial Bottleneck</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html</guid>
-    <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-    <description>China’s April 2025 export controls made the rare-earth magnet problem look like an administrative shortage. Beijing required licences for specified heavy rare earths, magnet materials and related products. Chinese rare-earth magnet exports then fell to 1,239 tonnes in May 2025 before recovering to 5,952 tonnes in December.</description>
   </item>
 </channel>
 </rss>
