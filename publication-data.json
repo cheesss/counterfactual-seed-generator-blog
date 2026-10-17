@@ -2,7 +2,7 @@
   "schema_version": 3,
   "summary": {
     "articles": 67,
-    "data_series": 233,
+    "data_series": 236,
     "calendar_year_card_candidates_excluded": 5,
     "watch": {
       "tracked_articles": 55,
@@ -118,8 +118,73 @@
         "public_cycle_complete_by_run_manifest": false,
         "coverage_status": "current-incomplete"
       },
-      "data_series": [],
-      "card_metrics": [],
+      "data_series": [
+        {
+          "metric": "Component price, not compute cost",
+          "points": [
+            {
+              "label": "quantity 1-24",
+              "value": 392.0,
+              "unit": "USD/chip"
+            },
+            {
+              "label": "25-99",
+              "value": 334.0,
+              "unit": "USD/chip"
+            },
+            {
+              "label": "100-249",
+              "value": 281.0,
+              "unit": "USD/chip"
+            },
+            {
+              "label": "250+",
+              "value": 226.0,
+              "unit": "USD/chip"
+            }
+          ],
+          "headline": {
+            "value": 392.0,
+            "value_text": "392",
+            "unit": "USD/chip",
+            "metric": "Component price, not compute cost",
+            "point_label": "quantity 1-24",
+            "display_label": "quantity 1-24 - Component price, not compute cost",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "quantity 1-24 :: 392 :: USD/chip; 25-99 :: 334 :: USD/chip; 100-249 :: 281 :: USD/chip; 250+ :: 226 :: USD/chip",
+            "source_urls": [
+              "https://intantech.com/pricing.html"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 392.0,
+          "value_text": "392",
+          "unit": "USD/chip",
+          "metric": "Component price, not compute cost",
+          "point_label": "quantity 1-24",
+          "display_label": "quantity 1-24 - Component price, not compute cost",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "quantity 1-24 :: 392 :: USD/chip; 25-99 :: 334 :: USD/chip; 100-249 :: 281 :: USD/chip; 250+ :: 226 :: USD/chip",
+            "source_urls": [
+              "https://intantech.com/pricing.html"
+            ]
+          }
+        }
+      ],
       "watch_signals": [
         {
           "signal_id": "2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change:watch:8e0f0d12013e",
@@ -497,8 +562,136 @@
         "public_cycle_complete_by_run_manifest": false,
         "coverage_status": "current-complete"
       },
-      "data_series": [],
-      "card_metrics": [],
+      "data_series": [
+        {
+          "metric": "County Detection Package",
+          "points": [
+            {
+              "label": "Equipment",
+              "value": 456860.0,
+              "unit": "USD"
+            },
+            {
+              "label": "Software",
+              "value": 962872.0,
+              "unit": "USD"
+            },
+            {
+              "label": "Professional and specialized services",
+              "value": 21000.0,
+              "unit": "USD"
+            },
+            {
+              "label": "Total",
+              "value": 1440732.0,
+              "unit": "USD"
+            }
+          ],
+          "headline": {
+            "value": 1440732.0,
+            "value_text": "1,440,732",
+            "unit": "USD",
+            "metric": "County Detection Package",
+            "point_label": "Total",
+            "display_label": "Total - County Detection Package",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Equipment :: 456860 :: USD; Software :: 962872 :: USD; Professional and specialized services :: 21000 :: USD; Total :: 1440732 :: USD",
+            "source_urls": [
+              "https://sanbernardino.legistar.com/LegislationDetail.aspx?GUID=FA21FE75-D036-44C2-A275-ECB9D2FF39D0&ID=8116788&Options=&Search="
+            ]
+          }
+        },
+        {
+          "metric": "FAA Evaluation Outcomes",
+          "points": [
+            {
+              "label": "Detection completed",
+              "value": 9.0,
+              "unit": "vendors"
+            },
+            {
+              "label": "Detection washed out",
+              "value": 2.0,
+              "unit": "vendors"
+            },
+            {
+              "label": "Mitigation completed",
+              "value": 3.0,
+              "unit": "vendors"
+            },
+            {
+              "label": "Mitigation washed out",
+              "value": 4.0,
+              "unit": "vendors"
+            }
+          ],
+          "headline": {
+            "value": 9.0,
+            "value_text": "9",
+            "unit": "vendors",
+            "metric": "FAA Evaluation Outcomes",
+            "point_label": "Detection completed",
+            "display_label": "Detection completed - FAA Evaluation Outcomes",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Detection completed :: 9 :: vendors; Detection washed out :: 2 :: vendors; Mitigation completed :: 3 :: vendors; Mitigation washed out :: 4 :: vendors",
+            "source_urls": [
+              "https://www.faa.gov/airports/resources/workshops/2024_national_consultants_workshop/presentations/arp-aas-consultants-forum-2024-uas-detection"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 1440732.0,
+          "value_text": "1,440,732",
+          "unit": "USD",
+          "metric": "County Detection Package",
+          "point_label": "Total",
+          "display_label": "Total - County Detection Package",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Equipment :: 456860 :: USD; Software :: 962872 :: USD; Professional and specialized services :: 21000 :: USD; Total :: 1440732 :: USD",
+            "source_urls": [
+              "https://sanbernardino.legistar.com/LegislationDetail.aspx?GUID=FA21FE75-D036-44C2-A275-ECB9D2FF39D0&ID=8116788&Options=&Search="
+            ]
+          }
+        },
+        {
+          "value": 9.0,
+          "value_text": "9",
+          "unit": "vendors",
+          "metric": "FAA Evaluation Outcomes",
+          "point_label": "Detection completed",
+          "display_label": "Detection completed - FAA Evaluation Outcomes",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Detection completed :: 9 :: vendors; Detection washed out :: 2 :: vendors; Mitigation completed :: 3 :: vendors; Mitigation washed out :: 4 :: vendors",
+            "source_urls": [
+              "https://www.faa.gov/airports/resources/workshops/2024_national_consultants_workshop/presentations/arp-aas-consultants-forum-2024-uas-detection"
+            ]
+          }
+        }
+      ],
       "watch_signals": [
         {
           "signal_id": "2026-09-24-counter-uas-is-becoming-an-operating-authority-problem:watch:f5de9fd5f6ff",

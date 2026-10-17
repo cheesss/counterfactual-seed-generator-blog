@@ -1,12 +1,12 @@
 {
   "articles": [
     {
-      "post_sha256": "cb921c17fdda4b81db8b7449c37fcf84f1492b476ee83e440eabfd3cf94674c0",
+      "post_sha256": "0e92e40d9c0535c650ac9e708c7c1785ca4bddf1b0a19b25e99a55966bfc0d1e",
       "profile": "integrated-v1",
       "quality": {
         "blocking_issue_count": 0,
         "link_health_checked": true,
-        "post_sha256": "cb921c17fdda4b81db8b7449c37fcf84f1492b476ee83e440eabfd3cf94674c0",
+        "post_sha256": "0e92e40d9c0535c650ac9e708c7c1785ca4bddf1b0a19b25e99a55966bfc0d1e",
         "report_sha256": "f88e1011fb4470f63cb7f59c922507d75893630e80f876818c85a697621c5461",
         "review_provenance": {
           "agent_id": "01a145e1-aee2-7dc3-8eef-cb00de14e968",
@@ -131,12 +131,12 @@
       "slug": "2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself"
     },
     {
-      "post_sha256": "73ca931a97a05a5e4d8135e5e6c68cf8ca924f7ec1bb42d47309cc5e3ca753d8",
+      "post_sha256": "ad796349151c6070ecde8e63009a044692bc78084b629b4ff225dcec976916d9",
       "profile": "integrated-v1",
       "quality": {
         "blocking_issue_count": 0,
         "link_health_checked": true,
-        "post_sha256": "73ca931a97a05a5e4d8135e5e6c68cf8ca924f7ec1bb42d47309cc5e3ca753d8",
+        "post_sha256": "ad796349151c6070ecde8e63009a044692bc78084b629b4ff225dcec976916d9",
         "report_sha256": "678a3eb02a9be907c69aa5d1d1a9571ac7401d70ea6f14fedebdab06ff8efdda",
         "review_provenance": {
           "agent_id": "01a1435a-0852-7900-bb1b-a66edc1e848e",
@@ -1247,7 +1247,7 @@
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "404.html": "a430b122f79774880e3e774b57b61208ea3485f60fca34da099d3c6b0a302b3e",
+    "404.html": "a2a953e3276a169fa26872053b2d9922fe4a93e6ecaf10ab90b41faeee3c64b2",
     "about.html": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
     "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp": "a39c4e200ba890052fc3cf1d66b2383db3ec3cc3c0b6ced57c339472b3e4dd10",
     "assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-000bb2c40ce70c96.webp": "000bb2c40ce70c96e95a247e24e7f53a3b6ef0a28f008b622fff5ad9fabd5a34",
@@ -1387,8 +1387,8 @@
     "blog-data.json": "01d253f7593df23b79776da7ed06112c4114a5fd18db425a0bbcc8de7a8236ea",
     "disclaimer.html": "924749b2dcd25d390d1f978585c6f4adbcb7251de172047e7118b4809b0274a1",
     "favicon.svg": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
-    "feed.xml": "ec83c2c241d8fa438a5019c51f59374cdb23a55d8c9d7dd89f30e8f14f5dbf40",
-    "index.html": "a430b122f79774880e3e774b57b61208ea3485f60fca34da099d3c6b0a302b3e",
+    "feed.xml": "282fb02220e34fc7b6d4dc5c7129ac834e75db2adad574bcbe35a83390bbed04",
+    "index.html": "a2a953e3276a169fa26872053b2d9922fe4a93e6ecaf10ab90b41faeee3c64b2",
     "ledger.html": "d3bf6362c6cd51a44c2d98c7f8ac66acc7d402dd06dcdbf0f4ad630cd44dc1d7",
     "patterns.html": "97a100f42d2dcde4737997b381c8c21d1218c933c9fc218cd6fee89c4173f6c9",
     "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html": "8dc3f2d437fcdf1597663fa2af5b166741800be99af19bbc2343e088e96034b9",
@@ -1449,7 +1449,7 @@
     "posts/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction.html": "63c6f0cacf810c3d9aeff9eb6d15e260d603c7bc60082fdc5186e6985a8c6a21",
     "posts/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse.html": "d9655f17561e889aabbd5929a2d76b2e4110623ce1fdeb2d50edbc6ab8d52640",
     "posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html": "018ba795f9e5b6a0cc7fadb7704ddf870f28c82d1d7608c616b5ccd586f61686",
-    "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html": "73ca931a97a05a5e4d8135e5e6c68cf8ca924f7ec1bb42d47309cc5e3ca753d8",
+    "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html": "ad796349151c6070ecde8e63009a044692bc78084b629b4ff225dcec976916d9",
     "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html": "2a03cfc04d54e24204797416d5815828826f0d890f14f2d0d6722a4dd84d1d6d",
     "posts/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem.html": "70d6e90f4e74fe249612d5221eeec46945b50d3103232949e63a04a3006ea839",
     "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html": "ab1a65f97cd4694ee36c4eeafa608a20c7ef9d545e3e0578e0a21490b291de4d",
@@ -1457,9 +1457,9 @@
     "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html": "8915f650ec3de1c724a1d97854fa3db5ffa7c03520e030ef5b0b9d866257f020",
     "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html": "14339582a5eea4cd0ee1c047209fb83f1ab413d96cf9522a70cdc55d4ceb84e7",
     "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html": "43eb90169b6ae79d03caf84cec103532c85efd0e1ba5f06ebd1d213b04573372",
-    "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html": "cb921c17fdda4b81db8b7449c37fcf84f1492b476ee83e440eabfd3cf94674c0",
+    "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html": "0e92e40d9c0535c650ac9e708c7c1785ca4bddf1b0a19b25e99a55966bfc0d1e",
     "privacy.html": "b1234284a5d00575527f5190f9e191b50d11e4b7c5aa738421c941db99beff2b",
-    "publication-data.json": "089b04cf596efc6815a7c5ea203380b7f62e43b7567af88f634feca3c1747701",
+    "publication-data.json": "e2b5c9c8ca0a4e3945ceba87c760172333d9cb2844994a0a0c8bd5a9a1ecbcc7",
     "rgraph.js": "eea1c5f6c40f22b809110a0db602fffa932c6e6759aabce7836401d69521092a",
     "site.js": "a4802ab7d88f8a7741080448478fe005fba32448610d08edd9ad65b2a642b31d",
     "sitemap.xml": "1d80725882b5753be82342c4743ab14e8d56c04ec62b6844288afa841616c752",
@@ -1468,7 +1468,7 @@
   "profile_contracts": {
     "integrated-v1": "3bf8e6401a1a0d8508dd7e647cda6d9ec7b75c23ef99f43a689be432a17d735a"
   },
-  "proof_sha256": "2552995457f6961a58f702c828c8f1aa6f3d9d331d3b1760d7bbce7b08cd0f36",
+  "proof_sha256": "c9d0260d3e9afbd5de1b03ee51bda60bae9f5c2b3ce476889dc576862db0566b",
   "schema_version": 3,
   "status": "publication-ready"
 }
