@@ -7,13 +7,13 @@
     },
     {
       "path": ".publication-release.json",
-      "sha256": "69f7c99b10b83200b7a9845f66657d3f13b6fc8da223d4e7140cd81433da9f43",
+      "sha256": "92b7477dffec5e0808b95277c9e0e1c52ec857cf98995facda5b04c201510656",
       "size": 108868
     },
     {
       "path": "404.html",
-      "sha256": "a430b122f79774880e3e774b57b61208ea3485f60fca34da099d3c6b0a302b3e",
-      "size": 118065
+      "sha256": "a2a953e3276a169fa26872053b2d9922fe4a93e6ecaf10ab90b41faeee3c64b2",
+      "size": 118672
     },
     {
       "path": "about.html",
@@ -712,7 +712,7 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "ec83c2c241d8fa438a5019c51f59374cdb23a55d8c9d7dd89f30e8f14f5dbf40",
+      "sha256": "282fb02220e34fc7b6d4dc5c7129ac834e75db2adad574bcbe35a83390bbed04",
       "size": 25218
     },
     {
@@ -722,8 +722,8 @@
     },
     {
       "path": "index.html",
-      "sha256": "a430b122f79774880e3e774b57b61208ea3485f60fca34da099d3c6b0a302b3e",
-      "size": 118065
+      "sha256": "a2a953e3276a169fa26872053b2d9922fe4a93e6ecaf10ab90b41faeee3c64b2",
+      "size": 118672
     },
     {
       "path": "ledger.html",
@@ -1027,8 +1027,8 @@
     },
     {
       "path": "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html",
-      "sha256": "73ca931a97a05a5e4d8135e5e6c68cf8ca924f7ec1bb42d47309cc5e3ca753d8",
-      "size": 38041
+      "sha256": "ad796349151c6070ecde8e63009a044692bc78084b629b4ff225dcec976916d9",
+      "size": 42562
     },
     {
       "path": "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html",
@@ -1067,8 +1067,8 @@
     },
     {
       "path": "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html",
-      "sha256": "cb921c17fdda4b81db8b7449c37fcf84f1492b476ee83e440eabfd3cf94674c0",
-      "size": 33329
+      "sha256": "0e92e40d9c0535c650ac9e708c7c1785ca4bddf1b0a19b25e99a55966bfc0d1e",
+      "size": 43338
     },
     {
       "path": "privacy.html",
@@ -1077,8 +1077,8 @@
     },
     {
       "path": "publication-data.json",
-      "sha256": "089b04cf596efc6815a7c5ea203380b7f62e43b7567af88f634feca3c1747701",
-      "size": 812415
+      "sha256": "e2b5c9c8ca0a4e3945ceba87c760172333d9cb2844994a0a0c8bd5a9a1ecbcc7",
+      "size": 819611
     },
     {
       "path": "rgraph.js",
