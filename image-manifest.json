@@ -532,6 +532,14 @@
     {
       "format": "WEBP",
       "height": 900,
+      "path": "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp",
+      "sha256": "35dc8e4c9baedf3c2f0d121833060c90798aac45a22b73022b52c7d119658a6f",
+      "size": 14886,
+      "width": 1600
+    },
+    {
+      "format": "WEBP",
+      "height": 900,
       "path": "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp",
       "sha256": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
       "size": 91174,
@@ -1068,6 +1076,14 @@
     {
       "format": "JPEG",
       "height": 630,
+      "path": "assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg",
+      "sha256": "f9c2d3c3f03913a0350fcd352205cebbad8a8236bb1b6fa9053e29cefa9d6057",
+      "size": 19599,
+      "width": 1200
+    },
+    {
+      "format": "JPEG",
+      "height": 630,
       "path": "assets/og/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.jpg",
       "sha256": "2ff729ce881d125b79b14e91844049ababc9d30b63d343b31f36c1308819f985",
       "size": 101674,
@@ -1459,12 +1475,6 @@
     },
     {
       "document": "404.html",
-      "path": "assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp",
-      "surface": "img[src]",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp"
-    },
-    {
-      "document": "404.html",
       "path": "assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-f2d85a175234c529.webp",
       "surface": "img[src]",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-f2d85a175234c529.webp"
@@ -1516,6 +1526,18 @@
       "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
       "surface": "img[src]",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp"
+    },
+    {
+      "document": "404.html",
+      "path": "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp"
+    },
+    {
+      "document": "404.html",
+      "path": "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp"
     },
     {
       "document": "404.html",
@@ -1561,405 +1583,411 @@
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp",
+      "path": "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp",
       "surface": "$[0].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp"
+    },
+    {
+      "document": "blog-data.json",
+      "path": "assets/heroes/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction-9e61e1aa980b192e.webp",
+      "surface": "$[10].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction-9e61e1aa980b192e.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system-f1b472b033c3bd38.webp",
-      "surface": "$[10].image",
+      "surface": "$[11].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system-f1b472b033c3bd38.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem-9e15b5db78d45c96.webp",
-      "surface": "$[11].image",
+      "surface": "$[12].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem-9e15b5db78d45c96.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room-ba8f30bffd98fffb.webp",
-      "surface": "$[12].image",
+      "surface": "$[13].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room-ba8f30bffd98fffb.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets-9092cec4011e3001.webp",
-      "surface": "$[13].image",
+      "surface": "$[14].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets-9092cec4011e3001.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-24-the-part-is-becoming-a-governed-production-record-3ca68393991ac246.webp",
-      "surface": "$[14].image",
+      "surface": "$[15].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-the-part-is-becoming-a-governed-production-record-3ca68393991ac246.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply-fdecbf83a13938eb.webp",
-      "surface": "$[15].image",
+      "surface": "$[16].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply-fdecbf83a13938eb.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit-5ba89872baf7619b.webp",
-      "surface": "$[16].image",
+      "surface": "$[17].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit-5ba89872baf7619b.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system-ddefffcc67ce1e49.webp",
-      "surface": "$[17].image",
+      "surface": "$[18].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system-ddefffcc67ce1e49.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases-cb2481a39cf3118d.webp",
-      "surface": "$[18].image",
+      "surface": "$[19].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases-cb2481a39cf3118d.webp"
     },
     {
       "document": "blog-data.json",
+      "path": "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp",
+      "surface": "$[1].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp"
+    },
+    {
+      "document": "blog-data.json",
       "path": "assets/heroes/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence-de28f008f49ef04e.webp",
-      "surface": "$[19].image",
+      "surface": "$[20].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence-de28f008f49ef04e.webp"
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-688eb6b15dbdd0e2.webp",
-      "surface": "$[1].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-688eb6b15dbdd0e2.webp"
-    },
-    {
-      "document": "blog-data.json",
       "path": "assets/heroes/2026-07-24-port-electrification-is-becoming-an-operating-system-problem-3f3380e14dd4a867.webp",
-      "surface": "$[20].image",
+      "surface": "$[21].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-port-electrification-is-becoming-an-operating-system-problem-3f3380e14dd4a867.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path-3c999eff739bfc8b.webp",
-      "surface": "$[21].image",
+      "surface": "$[22].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path-3c999eff739bfc8b.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market-d743823e0a1d5f7a.webp",
-      "surface": "$[22].image",
+      "surface": "$[23].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market-d743823e0a1d5f7a.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration-82ab4b62fa3740bf.webp",
-      "surface": "$[23].image",
+      "surface": "$[24].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration-82ab4b62fa3740bf.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks-3e50497abb8d6ccb.webp",
-      "surface": "$[24].image",
+      "surface": "$[25].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks-3e50497abb8d6ccb.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing-6408f3f720f9d7ed.webp",
-      "surface": "$[25].image",
+      "surface": "$[26].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing-6408f3f720f9d7ed.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time-d68ac917af8c81e6.webp",
-      "surface": "$[26].image",
+      "surface": "$[27].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time-d68ac917af8c81e6.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem-b10cb0e31d33ba0c.webp",
-      "surface": "$[27].image",
+      "surface": "$[28].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem-b10cb0e31d33ba0c.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock-88bd57f635cae5b1.webp",
-      "surface": "$[28].image",
+      "surface": "$[29].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock-88bd57f635cae5b1.webp"
     },
     {
       "document": "blog-data.json",
+      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-688eb6b15dbdd0e2.webp",
+      "surface": "$[2].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-688eb6b15dbdd0e2.webp"
+    },
+    {
+      "document": "blog-data.json",
       "path": "assets/heroes/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem-f28503b51c20ad71.webp",
-      "surface": "$[29].image",
+      "surface": "$[30].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem-f28503b51c20ad71.webp"
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-04a06f0628215682.webp",
-      "surface": "$[2].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-04a06f0628215682.webp"
-    },
-    {
-      "document": "blog-data.json",
       "path": "assets/heroes/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable-9092cec4011e3001.webp",
-      "surface": "$[30].image",
+      "surface": "$[31].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable-9092cec4011e3001.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate-2e9f77d3689065fa.webp",
-      "surface": "$[31].image",
+      "surface": "$[32].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate-2e9f77d3689065fa.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point-a09cec4b1d42939f.webp",
-      "surface": "$[32].image",
+      "surface": "$[33].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point-a09cec4b1d42939f.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations-a09cec4b1d42939f.webp",
-      "surface": "$[33].image",
+      "surface": "$[34].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations-a09cec4b1d42939f.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and-dce7c0d9879aa690.webp",
-      "surface": "$[34].image",
+      "surface": "$[35].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and-dce7c0d9879aa690.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication-a09cec4b1d42939f.webp",
-      "surface": "$[35].image",
+      "surface": "$[36].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication-a09cec4b1d42939f.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate-dce7c0d9879aa690.webp",
-      "surface": "$[36].image",
+      "surface": "$[37].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate-dce7c0d9879aa690.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure-b03bad09dce3469c.webp",
-      "surface": "$[37].image",
+      "surface": "$[38].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure-b03bad09dce3469c.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot-63516cd33c18efd0.webp",
-      "surface": "$[38].image",
+      "surface": "$[39].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot-63516cd33c18efd0.webp"
     },
     {
       "document": "blog-data.json",
+      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-04a06f0628215682.webp",
+      "surface": "$[3].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-04a06f0628215682.webp"
+    },
+    {
+      "document": "blog-data.json",
       "path": "assets/heroes/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate-685c86412220a700.webp",
-      "surface": "$[39].image",
+      "surface": "$[40].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate-685c86412220a700.webp"
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-2d594ba5207ed4b8.webp",
-      "surface": "$[3].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-2d594ba5207ed4b8.webp"
-    },
-    {
-      "document": "blog-data.json",
       "path": "assets/heroes/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide-63516cd33c18efd0.webp",
-      "surface": "$[40].image",
+      "surface": "$[41].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide-63516cd33c18efd0.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-03-fluorine-chemistry-s-hidden-control-point-064c05daa14f152f.webp",
-      "surface": "$[41].image",
+      "surface": "$[42].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-fluorine-chemistry-s-hidden-control-point-064c05daa14f152f.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck-91d06a0c46b1add6.webp",
-      "surface": "$[42].image",
+      "surface": "$[43].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck-91d06a0c46b1add6.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint-def5574543ff8b7e.webp",
-      "surface": "$[43].image",
+      "surface": "$[44].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint-def5574543ff8b7e.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa-91d06a0c46b1add6.webp",
-      "surface": "$[44].image",
+      "surface": "$[45].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa-91d06a0c46b1add6.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration-30bb78ca946ebc6d.webp",
-      "surface": "$[45].image",
+      "surface": "$[46].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration-30bb78ca946ebc6d.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train-91d06a0c46b1add6.webp",
-      "surface": "$[46].image",
+      "surface": "$[47].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train-91d06a0c46b1add6.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system-6f828988bea2d603.webp",
-      "surface": "$[47].image",
+      "surface": "$[48].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system-6f828988bea2d603.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck-0dafcb8c04fa8efc.webp",
-      "surface": "$[48].image",
+      "surface": "$[49].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck-0dafcb8c04fa8efc.webp"
     },
     {
       "document": "blog-data.json",
+      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-2d594ba5207ed4b8.webp",
+      "surface": "$[4].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-2d594ba5207ed4b8.webp"
+    },
+    {
+      "document": "blog-data.json",
       "path": "assets/heroes/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck-d743823e0a1d5f7a.webp",
-      "surface": "$[49].image",
+      "surface": "$[50].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck-d743823e0a1d5f7a.webp"
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
-      "surface": "$[4].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp"
-    },
-    {
-      "document": "blog-data.json",
       "path": "assets/heroes/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create-259d091212f155b2.webp",
-      "surface": "$[50].image",
+      "surface": "$[51].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create-259d091212f155b2.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck-6f03353ca4698b5a.webp",
-      "surface": "$[51].image",
+      "surface": "$[52].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck-6f03353ca4698b5a.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure-91d06a0c46b1add6.webp",
-      "surface": "$[52].image",
+      "surface": "$[53].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure-91d06a0c46b1add6.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck-92cf870a70aa3cac.webp",
-      "surface": "$[53].image",
+      "surface": "$[54].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck-92cf870a70aa3cac.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns-62fd9d994596a9be.webp",
-      "surface": "$[54].image",
+      "surface": "$[55].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns-62fd9d994596a9be.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market-def5574543ff8b7e.webp",
-      "surface": "$[55].image",
+      "surface": "$[56].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market-def5574543ff8b7e.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar-0c69e436be1a929c.webp",
-      "surface": "$[56].image",
+      "surface": "$[57].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar-0c69e436be1a929c.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock-f2d85a175234c529.webp",
-      "surface": "$[57].image",
+      "surface": "$[58].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock-f2d85a175234c529.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water-8ee9a97d3a18010b.webp",
-      "surface": "$[58].image",
+      "surface": "$[59].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water-8ee9a97d3a18010b.webp"
     },
     {
       "document": "blog-data.json",
+      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
+      "surface": "$[5].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp"
+    },
+    {
+      "document": "blog-data.json",
       "path": "assets/heroes/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity-5f32d475708a35e8.webp",
-      "surface": "$[59].image",
+      "surface": "$[60].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity-5f32d475708a35e8.webp"
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp",
-      "surface": "$[5].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp"
-    },
-    {
-      "document": "blog-data.json",
       "path": "assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-f2d85a175234c529.webp",
-      "surface": "$[60].image",
+      "surface": "$[61].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-f2d85a175234c529.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault-25a09418461370ee.webp",
-      "surface": "$[61].image",
+      "surface": "$[62].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault-25a09418461370ee.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-21-the-shell-bottleneck-starts-before-the-shell-274763c329aa852f.webp",
-      "surface": "$[62].image",
+      "surface": "$[63].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-shell-bottleneck-starts-before-the-shell-274763c329aa852f.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break-df7359b9e68c7a85.webp",
-      "surface": "$[63].image",
+      "surface": "$[64].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break-df7359b9e68c7a85.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp",
-      "surface": "$[64].image",
+      "surface": "$[65].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-000bb2c40ce70c96.webp",
-      "surface": "$[65].image",
+      "surface": "$[66].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-000bb2c40ce70c96.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it-76747e874c471ffe.webp",
-      "surface": "$[66].image",
+      "surface": "$[67].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it-76747e874c471ffe.webp"
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-46b5a94eb7aa4eba.webp",
+      "path": "assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp",
       "surface": "$[6].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp"
+    },
+    {
+      "document": "blog-data.json",
+      "path": "assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-46b5a94eb7aa4eba.webp",
+      "surface": "$[7].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-46b5a94eb7aa4eba.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-a70776b33af9c4f1.webp",
-      "surface": "$[7].image",
+      "surface": "$[8].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-a70776b33af9c4f1.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse-5ec25ac459d27681.webp",
-      "surface": "$[8].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse-5ec25ac459d27681.webp"
-    },
-    {
-      "document": "blog-data.json",
-      "path": "assets/heroes/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction-9e61e1aa980b192e.webp",
       "surface": "$[9].image",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction-9e61e1aa980b192e.webp"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse-5ec25ac459d27681.webp"
     },
     {
       "document": "disclaimer.html",
@@ -2341,12 +2369,6 @@
     },
     {
       "document": "index.html",
-      "path": "assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp",
-      "surface": "img[src]",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp"
-    },
-    {
-      "document": "index.html",
       "path": "assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-f2d85a175234c529.webp",
       "surface": "img[src]",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-f2d85a175234c529.webp"
@@ -2398,6 +2420,18 @@
       "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
       "surface": "img[src]",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp"
+    },
+    {
+      "document": "index.html",
+      "path": "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp"
+    },
+    {
+      "document": "index.html",
+      "path": "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp"
     },
     {
       "document": "index.html",
@@ -3642,6 +3676,24 @@
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp"
     },
     {
+      "document": "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html",
+      "path": "favicon.svg",
+      "surface": "link[href]",
+      "url": "../favicon.svg"
+    },
+    {
+      "document": "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html",
+      "path": "assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg",
+      "surface": "meta[og:image][content]",
+      "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg"
+    },
+    {
+      "document": "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html",
+      "path": "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp",
+      "surface": "report-hero:img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp"
+    },
+    {
       "document": "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html",
       "path": "favicon.svg",
       "surface": "link[href]",
@@ -3673,405 +3725,411 @@
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp",
+      "path": "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp",
       "surface": "$.articles[0].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp"
+    },
+    {
+      "document": "publication-data.json",
+      "path": "assets/heroes/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction-9e61e1aa980b192e.webp",
+      "surface": "$.articles[10].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction-9e61e1aa980b192e.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system-f1b472b033c3bd38.webp",
-      "surface": "$.articles[10].image.url",
+      "surface": "$.articles[11].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system-f1b472b033c3bd38.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem-9e15b5db78d45c96.webp",
-      "surface": "$.articles[11].image.url",
+      "surface": "$.articles[12].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem-9e15b5db78d45c96.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room-ba8f30bffd98fffb.webp",
-      "surface": "$.articles[12].image.url",
+      "surface": "$.articles[13].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room-ba8f30bffd98fffb.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets-9092cec4011e3001.webp",
-      "surface": "$.articles[13].image.url",
+      "surface": "$.articles[14].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets-9092cec4011e3001.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-24-the-part-is-becoming-a-governed-production-record-3ca68393991ac246.webp",
-      "surface": "$.articles[14].image.url",
+      "surface": "$.articles[15].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-the-part-is-becoming-a-governed-production-record-3ca68393991ac246.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply-fdecbf83a13938eb.webp",
-      "surface": "$.articles[15].image.url",
+      "surface": "$.articles[16].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply-fdecbf83a13938eb.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit-5ba89872baf7619b.webp",
-      "surface": "$.articles[16].image.url",
+      "surface": "$.articles[17].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit-5ba89872baf7619b.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system-ddefffcc67ce1e49.webp",
-      "surface": "$.articles[17].image.url",
+      "surface": "$.articles[18].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system-ddefffcc67ce1e49.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases-cb2481a39cf3118d.webp",
-      "surface": "$.articles[18].image.url",
+      "surface": "$.articles[19].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases-cb2481a39cf3118d.webp"
     },
     {
       "document": "publication-data.json",
+      "path": "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp",
+      "surface": "$.articles[1].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp"
+    },
+    {
+      "document": "publication-data.json",
       "path": "assets/heroes/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence-de28f008f49ef04e.webp",
-      "surface": "$.articles[19].image.url",
+      "surface": "$.articles[20].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence-de28f008f49ef04e.webp"
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-688eb6b15dbdd0e2.webp",
-      "surface": "$.articles[1].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-688eb6b15dbdd0e2.webp"
-    },
-    {
-      "document": "publication-data.json",
       "path": "assets/heroes/2026-07-24-port-electrification-is-becoming-an-operating-system-problem-3f3380e14dd4a867.webp",
-      "surface": "$.articles[20].image.url",
+      "surface": "$.articles[21].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-port-electrification-is-becoming-an-operating-system-problem-3f3380e14dd4a867.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path-3c999eff739bfc8b.webp",
-      "surface": "$.articles[21].image.url",
+      "surface": "$.articles[22].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path-3c999eff739bfc8b.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market-d743823e0a1d5f7a.webp",
-      "surface": "$.articles[22].image.url",
+      "surface": "$.articles[23].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market-d743823e0a1d5f7a.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration-82ab4b62fa3740bf.webp",
-      "surface": "$.articles[23].image.url",
+      "surface": "$.articles[24].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration-82ab4b62fa3740bf.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks-3e50497abb8d6ccb.webp",
-      "surface": "$.articles[24].image.url",
+      "surface": "$.articles[25].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks-3e50497abb8d6ccb.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing-6408f3f720f9d7ed.webp",
-      "surface": "$.articles[25].image.url",
+      "surface": "$.articles[26].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing-6408f3f720f9d7ed.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time-d68ac917af8c81e6.webp",
-      "surface": "$.articles[26].image.url",
+      "surface": "$.articles[27].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time-d68ac917af8c81e6.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem-b10cb0e31d33ba0c.webp",
-      "surface": "$.articles[27].image.url",
+      "surface": "$.articles[28].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem-b10cb0e31d33ba0c.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock-88bd57f635cae5b1.webp",
-      "surface": "$.articles[28].image.url",
+      "surface": "$.articles[29].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock-88bd57f635cae5b1.webp"
     },
     {
       "document": "publication-data.json",
+      "path": "assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-688eb6b15dbdd0e2.webp",
+      "surface": "$.articles[2].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system-688eb6b15dbdd0e2.webp"
+    },
+    {
+      "document": "publication-data.json",
       "path": "assets/heroes/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem-f28503b51c20ad71.webp",
-      "surface": "$.articles[29].image.url",
+      "surface": "$.articles[30].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem-f28503b51c20ad71.webp"
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-04a06f0628215682.webp",
-      "surface": "$.articles[2].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-04a06f0628215682.webp"
-    },
-    {
-      "document": "publication-data.json",
       "path": "assets/heroes/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable-9092cec4011e3001.webp",
-      "surface": "$.articles[30].image.url",
+      "surface": "$.articles[31].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable-9092cec4011e3001.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate-2e9f77d3689065fa.webp",
-      "surface": "$.articles[31].image.url",
+      "surface": "$.articles[32].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate-2e9f77d3689065fa.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point-a09cec4b1d42939f.webp",
-      "surface": "$.articles[32].image.url",
+      "surface": "$.articles[33].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point-a09cec4b1d42939f.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations-a09cec4b1d42939f.webp",
-      "surface": "$.articles[33].image.url",
+      "surface": "$.articles[34].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations-a09cec4b1d42939f.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and-dce7c0d9879aa690.webp",
-      "surface": "$.articles[34].image.url",
+      "surface": "$.articles[35].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and-dce7c0d9879aa690.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication-a09cec4b1d42939f.webp",
-      "surface": "$.articles[35].image.url",
+      "surface": "$.articles[36].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication-a09cec4b1d42939f.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate-dce7c0d9879aa690.webp",
-      "surface": "$.articles[36].image.url",
+      "surface": "$.articles[37].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate-dce7c0d9879aa690.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure-b03bad09dce3469c.webp",
-      "surface": "$.articles[37].image.url",
+      "surface": "$.articles[38].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure-b03bad09dce3469c.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot-63516cd33c18efd0.webp",
-      "surface": "$.articles[38].image.url",
+      "surface": "$.articles[39].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot-63516cd33c18efd0.webp"
     },
     {
       "document": "publication-data.json",
+      "path": "assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-04a06f0628215682.webp",
+      "surface": "$.articles[3].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system-04a06f0628215682.webp"
+    },
+    {
+      "document": "publication-data.json",
       "path": "assets/heroes/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate-685c86412220a700.webp",
-      "surface": "$.articles[39].image.url",
+      "surface": "$.articles[40].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate-685c86412220a700.webp"
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-2d594ba5207ed4b8.webp",
-      "surface": "$.articles[3].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-2d594ba5207ed4b8.webp"
-    },
-    {
-      "document": "publication-data.json",
       "path": "assets/heroes/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide-63516cd33c18efd0.webp",
-      "surface": "$.articles[40].image.url",
+      "surface": "$.articles[41].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide-63516cd33c18efd0.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-03-fluorine-chemistry-s-hidden-control-point-064c05daa14f152f.webp",
-      "surface": "$.articles[41].image.url",
+      "surface": "$.articles[42].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-03-fluorine-chemistry-s-hidden-control-point-064c05daa14f152f.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck-91d06a0c46b1add6.webp",
-      "surface": "$.articles[42].image.url",
+      "surface": "$.articles[43].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck-91d06a0c46b1add6.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint-def5574543ff8b7e.webp",
-      "surface": "$.articles[43].image.url",
+      "surface": "$.articles[44].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint-def5574543ff8b7e.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa-91d06a0c46b1add6.webp",
-      "surface": "$.articles[44].image.url",
+      "surface": "$.articles[45].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa-91d06a0c46b1add6.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration-30bb78ca946ebc6d.webp",
-      "surface": "$.articles[45].image.url",
+      "surface": "$.articles[46].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration-30bb78ca946ebc6d.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train-91d06a0c46b1add6.webp",
-      "surface": "$.articles[46].image.url",
+      "surface": "$.articles[47].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train-91d06a0c46b1add6.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system-6f828988bea2d603.webp",
-      "surface": "$.articles[47].image.url",
+      "surface": "$.articles[48].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system-6f828988bea2d603.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck-0dafcb8c04fa8efc.webp",
-      "surface": "$.articles[48].image.url",
+      "surface": "$.articles[49].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck-0dafcb8c04fa8efc.webp"
     },
     {
       "document": "publication-data.json",
+      "path": "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-2d594ba5207ed4b8.webp",
+      "surface": "$.articles[4].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-2d594ba5207ed4b8.webp"
+    },
+    {
+      "document": "publication-data.json",
       "path": "assets/heroes/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck-d743823e0a1d5f7a.webp",
-      "surface": "$.articles[49].image.url",
+      "surface": "$.articles[50].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck-d743823e0a1d5f7a.webp"
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
-      "surface": "$.articles[4].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp"
-    },
-    {
-      "document": "publication-data.json",
       "path": "assets/heroes/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create-259d091212f155b2.webp",
-      "surface": "$.articles[50].image.url",
+      "surface": "$.articles[51].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create-259d091212f155b2.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck-6f03353ca4698b5a.webp",
-      "surface": "$.articles[51].image.url",
+      "surface": "$.articles[52].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck-6f03353ca4698b5a.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure-91d06a0c46b1add6.webp",
-      "surface": "$.articles[52].image.url",
+      "surface": "$.articles[53].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure-91d06a0c46b1add6.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck-92cf870a70aa3cac.webp",
-      "surface": "$.articles[53].image.url",
+      "surface": "$.articles[54].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck-92cf870a70aa3cac.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns-62fd9d994596a9be.webp",
-      "surface": "$.articles[54].image.url",
+      "surface": "$.articles[55].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns-62fd9d994596a9be.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market-def5574543ff8b7e.webp",
-      "surface": "$.articles[55].image.url",
+      "surface": "$.articles[56].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market-def5574543ff8b7e.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar-0c69e436be1a929c.webp",
-      "surface": "$.articles[56].image.url",
+      "surface": "$.articles[57].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar-0c69e436be1a929c.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock-f2d85a175234c529.webp",
-      "surface": "$.articles[57].image.url",
+      "surface": "$.articles[58].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock-f2d85a175234c529.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water-8ee9a97d3a18010b.webp",
-      "surface": "$.articles[58].image.url",
+      "surface": "$.articles[59].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water-8ee9a97d3a18010b.webp"
     },
     {
       "document": "publication-data.json",
+      "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
+      "surface": "$.articles[5].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp"
+    },
+    {
+      "document": "publication-data.json",
       "path": "assets/heroes/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity-5f32d475708a35e8.webp",
-      "surface": "$.articles[59].image.url",
+      "surface": "$.articles[60].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity-5f32d475708a35e8.webp"
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp",
-      "surface": "$.articles[5].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp"
-    },
-    {
-      "document": "publication-data.json",
       "path": "assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-f2d85a175234c529.webp",
-      "surface": "$.articles[60].image.url",
+      "surface": "$.articles[61].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem-f2d85a175234c529.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault-25a09418461370ee.webp",
-      "surface": "$.articles[61].image.url",
+      "surface": "$.articles[62].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault-25a09418461370ee.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-21-the-shell-bottleneck-starts-before-the-shell-274763c329aa852f.webp",
-      "surface": "$.articles[62].image.url",
+      "surface": "$.articles[63].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-shell-bottleneck-starts-before-the-shell-274763c329aa852f.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break-df7359b9e68c7a85.webp",
-      "surface": "$.articles[63].image.url",
+      "surface": "$.articles[64].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break-df7359b9e68c7a85.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp",
-      "surface": "$.articles[64].image.url",
+      "surface": "$.articles[65].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-000bb2c40ce70c96.webp",
-      "surface": "$.articles[65].image.url",
+      "surface": "$.articles[66].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-000bb2c40ce70c96.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it-76747e874c471ffe.webp",
-      "surface": "$.articles[66].image.url",
+      "surface": "$.articles[67].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it-76747e874c471ffe.webp"
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-46b5a94eb7aa4eba.webp",
+      "path": "assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp",
       "surface": "$.articles[6].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself-9a6e8d5f8d0f8ec9.webp"
+    },
+    {
+      "document": "publication-data.json",
+      "path": "assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-46b5a94eb7aa4eba.webp",
+      "surface": "$.articles[7].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem-46b5a94eb7aa4eba.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-a70776b33af9c4f1.webp",
-      "surface": "$.articles[7].image.url",
+      "surface": "$.articles[8].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-a70776b33af9c4f1.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse-5ec25ac459d27681.webp",
-      "surface": "$.articles[8].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse-5ec25ac459d27681.webp"
-    },
-    {
-      "document": "publication-data.json",
-      "path": "assets/heroes/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction-9e61e1aa980b192e.webp",
       "surface": "$.articles[9].image.url",
-      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction-9e61e1aa980b192e.webp"
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse-5ec25ac459d27681.webp"
     }
   ],
   "report_heroes": [
@@ -4083,7 +4141,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[64].image"
+          "surface": "$[65].image"
         },
         {
           "document": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
@@ -4091,7 +4149,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[64].image.url"
+          "surface": "$.articles[65].image.url"
         }
       ],
       "title": "The AI Buildout\u2019s Next Constraint Is the Air Permit"
@@ -4104,7 +4162,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[65].image"
+          "surface": "$[66].image"
         },
         {
           "document": "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html",
@@ -4112,7 +4170,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[65].image.url"
+          "surface": "$.articles[66].image.url"
         }
       ],
       "title": "AI Power Has Entered a Second Queue"
@@ -4125,7 +4183,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[61].image"
+          "surface": "$[62].image"
         },
         {
           "document": "posts/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.html",
@@ -4133,7 +4191,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[61].image.url"
+          "surface": "$.articles[62].image.url"
         }
       ],
       "title": "The grid\u2019s next hidden gate is proving that the model matches the plant"
@@ -4146,7 +4204,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[62].image"
+          "surface": "$[63].image"
         },
         {
           "document": "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html",
@@ -4154,7 +4212,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[62].image.url"
+          "surface": "$.articles[63].image.url"
         }
       ],
       "title": "The Shell Bottleneck Has Not Reached the Chemistry Yet"
@@ -4167,7 +4225,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[63].image"
+          "surface": "$[64].image"
         },
         {
           "document": "posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html",
@@ -4175,7 +4233,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[63].image.url"
+          "surface": "$.articles[64].image.url"
         }
       ],
       "title": "The Internet\u2019s Hidden Repair Constraint"
@@ -4188,7 +4246,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[59].image"
+          "surface": "$[60].image"
         },
         {
           "document": "posts/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.html",
@@ -4196,7 +4254,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[59].image.url"
+          "surface": "$.articles[60].image.url"
         }
       ],
       "title": "The Engine Shop Is the Next Gate on Airline Capacity"
@@ -4209,7 +4267,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[58].image"
+          "surface": "$[59].image"
         },
         {
           "document": "posts/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.html",
@@ -4217,7 +4275,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[58].image.url"
+          "surface": "$.articles[59].image.url"
         }
       ],
       "title": "The Hospital Capacity Bottleneck Hiding in a Bag of Salt Water"
@@ -4230,7 +4288,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[57].image"
+          "surface": "$[58].image"
         },
         {
           "document": "posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html",
@@ -4238,7 +4296,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[57].image.url"
+          "surface": "$.articles[58].image.url"
         }
       ],
       "title": "Cancer\u2019s Radioisotope Bottleneck Has Moved Downstream"
@@ -4251,7 +4309,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[56].image"
+          "surface": "$[57].image"
         },
         {
           "document": "posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html",
@@ -4259,7 +4317,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[56].image.url"
+          "surface": "$.articles[57].image.url"
         }
       ],
       "title": "Offshore Wind\u2019s Real Test Is a Repeatable Maritime Construction Sequence"
@@ -4272,7 +4330,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[55].image"
+          "surface": "$[56].image"
         },
         {
           "document": "posts/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market.html",
@@ -4280,7 +4338,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[55].image.url"
+          "surface": "$.articles[56].image.url"
         }
       ],
       "title": "The Battery Boom\u2019s Second Gate: Turning Fire Evidence Into Buildable Projects"
@@ -4293,7 +4351,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[54].image"
+          "surface": "$[55].image"
         },
         {
           "document": "posts/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.html",
@@ -4301,7 +4359,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[54].image.url"
+          "surface": "$.articles[55].image.url"
         }
       ],
       "title": "The PFAS Cleanup Clock Starts After the Filter Works"
@@ -4314,7 +4372,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[53].image"
+          "surface": "$[54].image"
         },
         {
           "document": "posts/2026-07-01-amr-wastewater-surveillance-becomes-a-qpcr-metagenomics-standardization-bottleneck.html",
@@ -4322,7 +4380,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[53].image.url"
+          "surface": "$.articles[54].image.url"
         }
       ],
       "title": "AMR Wastewater Surveillance Has a Comparability Problem, Not a Sequencing Shortage"
@@ -4335,7 +4393,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[52].image"
+          "surface": "$[53].image"
         },
         {
           "document": "posts/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure.html",
@@ -4343,7 +4401,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[52].image.url"
+          "surface": "$.articles[53].image.url"
         }
       ],
       "title": "Hospital Wastewater AMR Surveillance Can Detect Risk Before It Can Direct Care"
@@ -4356,7 +4414,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[51].image"
+          "surface": "$[52].image"
         },
         {
           "document": "posts/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck.html",
@@ -4364,7 +4422,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[51].image.url"
+          "surface": "$.articles[52].image.url"
         }
       ],
       "title": "The Scarce Asset in Meat-AMR Surveillance Is Evidence, Not Genomes"
@@ -4377,7 +4435,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[43].image"
+          "surface": "$[44].image"
         },
         {
           "document": "posts/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint.html",
@@ -4385,7 +4443,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[43].image.url"
+          "surface": "$.articles[44].image.url"
         }
       ],
       "title": "The Battery Factory Bottleneck Hiding in the Sewer Permit"
@@ -4398,7 +4456,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[49].image"
+          "surface": "$[50].image"
         },
         {
           "document": "posts/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck.html",
@@ -4406,7 +4464,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[49].image.url"
+          "surface": "$.articles[50].image.url"
         }
       ],
       "title": "Green Hydrogen\u2019s Water Problem Is a Qualification Problem"
@@ -4419,7 +4477,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[42].image"
+          "surface": "$[43].image"
         },
         {
           "document": "posts/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck.html",
@@ -4427,7 +4485,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[42].image.url"
+          "surface": "$.articles[43].image.url"
         }
       ],
       "title": "The Scarce Asset in Water Reuse Is the Place Where the Salt Goes"
@@ -4440,7 +4498,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[48].image"
+          "surface": "$[49].image"
         },
         {
           "document": "posts/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck.html",
@@ -4448,7 +4506,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[48].image.url"
+          "surface": "$.articles[49].image.url"
         }
       ],
       "title": "Membrane WFI\u2019s hard part begins after the skid arrives"
@@ -4461,7 +4519,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[47].image"
+          "surface": "$[48].image"
         },
         {
           "document": "posts/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system.html",
@@ -4469,7 +4527,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[47].image.url"
+          "surface": "$.articles[48].image.url"
         }
       ],
       "title": "PFAS Treatment\u2019s Next Constraint Is the Residual Contract"
@@ -4482,7 +4540,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[46].image"
+          "surface": "$[47].image"
         },
         {
           "document": "posts/2026-07-02-produced-water-reuse-is-gated-by-the-qualification-file-not-the-treatment-train.html",
@@ -4490,7 +4548,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[46].image.url"
+          "surface": "$.articles[47].image.url"
         }
       ],
       "title": "Produced-Water Reuse Has Cleared the Treatment Gate. The Commercial Gate Comes Next"
@@ -4503,7 +4561,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[45].image"
+          "surface": "$[46].image"
         },
         {
           "document": "posts/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration.html",
@@ -4511,7 +4569,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[45].image.url"
+          "surface": "$.articles[46].image.url"
         }
       ],
       "title": "Rapid AST Has Solved the Stopwatch. It Has Not Solved Adoption."
@@ -4524,7 +4582,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[50].image"
+          "surface": "$[51].image"
         },
         {
           "document": "posts/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create.html",
@@ -4532,7 +4590,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[50].image.url"
+          "surface": "$.articles[51].image.url"
         }
       ],
       "title": "Antibiotic Subscriptions Create a Second Commercialization Gate"
@@ -4545,7 +4603,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[44].image"
+          "surface": "$[45].image"
         },
         {
           "document": "posts/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa.html",
@@ -4553,7 +4611,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[44].image.url"
+          "surface": "$.articles[45].image.url"
         }
       ],
       "title": "Reclaimed Water Reaches the Fab Only After It Earns Trust"
@@ -4566,7 +4624,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[41].image"
+          "surface": "$[42].image"
         },
         {
           "document": "posts/2026-07-03-fluorine-chemistry-s-hidden-control-point.html",
@@ -4574,7 +4632,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[41].image.url"
+          "surface": "$.articles[42].image.url"
         }
       ],
       "title": "Fluorine\u2019s Industrial Constraint Is the Qualified Pathway"
@@ -4587,7 +4645,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[40].image"
+          "surface": "$[41].image"
         },
         {
           "document": "posts/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.html",
@@ -4595,7 +4653,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[40].image.url"
+          "surface": "$.articles[41].image.url"
         }
       ],
       "title": "Fusion\u2019s Next Gate Is the Qualification File"
@@ -4608,7 +4666,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[37].image"
+          "surface": "$[38].image"
         },
         {
           "document": "posts/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.html",
@@ -4616,7 +4674,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[37].image.url"
+          "surface": "$.articles[38].image.url"
         }
       ],
       "title": "Fusion\u2019s hidden qualification gate"
@@ -4629,7 +4687,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[35].image"
+          "surface": "$[36].image"
         },
         {
           "document": "posts/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.html",
@@ -4637,7 +4695,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[35].image.url"
+          "surface": "$.articles[36].image.url"
         }
       ],
       "title": "HALEU\u2019s next problem is turning enriched uranium into accepted fuel"
@@ -4650,7 +4708,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[33].image"
+          "surface": "$[34].image"
         },
         {
           "document": "posts/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.html",
@@ -4658,7 +4716,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[33].image.url"
+          "surface": "$.articles[34].image.url"
         }
       ],
       "title": "The HALEU bottleneck moves downstream"
@@ -4671,7 +4729,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[31].image"
+          "surface": "$[32].image"
         },
         {
           "document": "posts/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate.html",
@@ -4679,7 +4737,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[31].image.url"
+          "surface": "$.articles[32].image.url"
         }
       ],
       "title": "The uranium mine ramp is governed one wellfield at a time"
@@ -4692,7 +4750,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[36].image"
+          "surface": "$[37].image"
         },
         {
           "document": "posts/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.html",
@@ -4700,7 +4758,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[36].image.url"
+          "surface": "$.articles[37].image.url"
         }
       ],
       "title": "Fusion\u2019s next bottleneck may be the blanket, not the plasma"
@@ -4713,7 +4771,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[34].image"
+          "surface": "$[35].image"
         },
         {
           "document": "posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html",
@@ -4721,7 +4779,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[34].image.url"
+          "surface": "$.articles[35].image.url"
         }
       ],
       "title": "Stable isotopes are not one bottleneck\u2014and that is the point"
@@ -4734,7 +4792,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[39].image"
+          "surface": "$[40].image"
         },
         {
           "document": "posts/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.html",
@@ -4742,7 +4800,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[39].image.url"
+          "surface": "$.articles[40].image.url"
         }
       ],
       "title": "Fusion\u2019s Tritium Loop Is a Qualification Problem, Not an Unsolved Machine"
@@ -4755,7 +4813,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[38].image"
+          "surface": "$[39].image"
         },
         {
           "document": "posts/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot.html",
@@ -4763,7 +4821,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[38].image.url"
+          "surface": "$.articles[39].image.url"
         }
       ],
       "title": "Fusion\u2019s first wall is becoming an evidence business"
@@ -4776,7 +4834,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[32].image"
+          "surface": "$[33].image"
         },
         {
           "document": "posts/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point.html",
@@ -4784,7 +4842,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[32].image.url"
+          "surface": "$.articles[33].image.url"
         }
       ],
       "title": "The UF6 Cylinder Is an Early-Deployment Gate, Not the Fuel Cycle\u2019s Final Bottleneck"
@@ -4797,7 +4855,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[30].image"
+          "surface": "$[31].image"
         },
         {
           "document": "posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html",
@@ -4805,7 +4863,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[30].image.url"
+          "surface": "$.articles[31].image.url"
         }
       ],
       "title": "Rare-Earth Magnets and the Moving Industrial Bottleneck"
@@ -4818,7 +4876,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[29].image"
+          "surface": "$[30].image"
         },
         {
           "document": "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html",
@@ -4826,7 +4884,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[29].image.url"
+          "surface": "$.articles[30].image.url"
         }
       ],
       "title": "A Genomic Diagnosis Is Only the Start of the Treatment Queue"
@@ -4839,7 +4897,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[27].image"
+          "surface": "$[28].image"
         },
         {
           "document": "posts/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.html",
@@ -4847,7 +4905,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[27].image.url"
+          "surface": "$.articles[28].image.url"
         }
       ],
       "title": "Cell and gene therapy\u2019s next bottleneck is custody of proof"
@@ -4860,7 +4918,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[24].image"
+          "surface": "$[25].image"
         },
         {
           "document": "posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html",
@@ -4868,7 +4926,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[24].image.url"
+          "surface": "$.articles[25].image.url"
         }
       ],
       "title": "The launch bottleneck may be a complete treatment block"
@@ -4881,7 +4939,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[25].image"
+          "surface": "$[26].image"
         },
         {
           "document": "posts/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.html",
@@ -4889,7 +4947,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[25].image.url"
+          "surface": "$.articles[26].image.url"
         }
       ],
       "title": "Recovery curves will become credible endpoints only after they stop trying to explain all of aging"
@@ -4902,7 +4960,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[28].image"
+          "surface": "$[29].image"
         },
         {
           "document": "posts/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.html",
@@ -4910,7 +4968,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[28].image.url"
+          "surface": "$.articles[29].image.url"
         }
       ],
       "title": "Aging biomarkers have a portability problem"
@@ -4923,7 +4981,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[26].image"
+          "surface": "$[27].image"
         },
         {
           "document": "posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html",
@@ -4931,7 +4989,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[26].image.url"
+          "surface": "$.articles[27].image.url"
         }
       ],
       "title": "Oregon\u2019s Psychedelic Training Market Has a Second Gate"
@@ -4944,7 +5002,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[23].image"
+          "surface": "$[24].image"
         },
         {
           "document": "posts/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration.html",
@@ -4952,7 +5010,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[23].image.url"
+          "surface": "$.articles[24].image.url"
         }
       ],
       "title": "CXL\u2019s Commercial Control Point Is the Supported Configuration"
@@ -4965,7 +5023,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[22].image"
+          "surface": "$[23].image"
         },
         {
           "document": "posts/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market.html",
@@ -4973,7 +5031,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[22].image.url"
+          "surface": "$.articles[23].image.url"
         }
       ],
       "title": "Europe\u2019s IF24 Hydrogen Auction Selected Projects, Not Yet a Market"
@@ -4986,7 +5044,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[21].image"
+          "surface": "$[22].image"
         },
         {
           "document": "posts/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path.html",
@@ -4994,7 +5052,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[21].image.url"
+          "surface": "$.articles[22].image.url"
         }
       ],
       "title": "Federal AI Procurement Is Starting to Buy the Exit Path"
@@ -5007,7 +5065,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[20].image"
+          "surface": "$[21].image"
         },
         {
           "document": "posts/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.html",
@@ -5015,7 +5073,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[20].image.url"
+          "surface": "$.articles[21].image.url"
         }
       ],
       "title": "Port Electrification Is Becoming an Operating-System Problem"
@@ -5028,7 +5086,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[19].image"
+          "surface": "$[20].image"
         },
         {
           "document": "posts/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence.html",
@@ -5036,7 +5094,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[19].image.url"
+          "surface": "$.articles[20].image.url"
         }
       ],
       "title": "Quantum Computing\u2019s Next Commercial Layer Is Acceptance Evidence"
@@ -5049,7 +5107,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[18].image"
+          "surface": "$[19].image"
         },
         {
           "document": "posts/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases.html",
@@ -5057,7 +5115,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[18].image.url"
+          "surface": "$.articles[19].image.url"
         }
       ],
       "title": "The Cyber Resilience Act Will Be Won Between Releases"
@@ -5070,7 +5128,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[17].image"
+          "surface": "$[18].image"
         },
         {
           "document": "posts/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system.html",
@@ -5078,7 +5136,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[17].image.url"
+          "surface": "$.articles[18].image.url"
         }
       ],
       "title": "The Decoder Is Only the Beginning: Home BCI Becomes an Operating System"
@@ -5091,7 +5149,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[16].image"
+          "surface": "$[17].image"
         },
         {
           "document": "posts/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit.html",
@@ -5099,7 +5157,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[16].image.url"
+          "surface": "$.articles[17].image.url"
         }
       ],
       "title": "The EU Data Act Creates an Exit Right. Industrial Software Still Needs a Proof of Exit."
@@ -5112,7 +5170,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[15].image"
+          "surface": "$[16].image"
         },
         {
           "document": "posts/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply.html",
@@ -5120,7 +5178,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[15].image.url"
+          "surface": "$.articles[16].image.url"
         }
       ],
       "title": "The Hidden Layer Between Allied Factories and Allied Supply"
@@ -5133,7 +5191,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[14].image"
+          "surface": "$[15].image"
         },
         {
           "document": "posts/2026-07-24-the-part-is-becoming-a-governed-production-record.html",
@@ -5141,7 +5199,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[14].image.url"
+          "surface": "$.articles[15].image.url"
         }
       ],
       "title": "The Part Is Becoming a Governed Production Record"
@@ -5154,7 +5212,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[13].image"
+          "surface": "$[14].image"
         },
         {
           "document": "posts/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.html",
@@ -5162,7 +5220,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[13].image.url"
+          "surface": "$.articles[14].image.url"
         }
       ],
       "title": "The Material Is Not Ready When the Material Exists"
@@ -5175,7 +5233,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[12].image"
+          "surface": "$[13].image"
         },
         {
           "document": "posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html",
@@ -5183,7 +5241,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[12].image.url"
+          "surface": "$.articles[13].image.url"
         }
       ],
       "title": "Low-GWP Cold-Storage Qualification, Testing and Service Stack \u2014 Search Heavy Deep Drilldown"
@@ -5196,7 +5254,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[10].image"
+          "surface": "$[11].image"
         },
         {
           "document": "posts/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system.html",
@@ -5204,7 +5262,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[10].image.url"
+          "surface": "$.articles[11].image.url"
         }
       ],
       "title": "The Database Behind the Debris Truck Is Becoming the Control System"
@@ -5217,7 +5275,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[11].image"
+          "surface": "$[12].image"
         },
         {
           "document": "posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html",
@@ -5225,7 +5283,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[11].image.url"
+          "surface": "$.articles[12].image.url"
         }
       ],
       "title": "Standardized Universal Spare Transformers and Regional Recovery Pools"
@@ -5238,7 +5296,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[9].image"
+          "surface": "$[10].image"
         },
         {
           "document": "posts/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction.html",
@@ -5246,7 +5304,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[9].image.url"
+          "surface": "$.articles[10].image.url"
         }
       ],
       "title": "When a weather forecast becomes a payment instruction"
@@ -5259,7 +5317,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[8].image"
+          "surface": "$[9].image"
         },
         {
           "document": "posts/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse.html",
@@ -5267,7 +5325,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[8].image.url"
+          "surface": "$.articles[9].image.url"
         }
       ],
       "title": "The Hidden Infrastructure Behind Inland Water Reuse"
@@ -5280,7 +5338,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[1].image"
+          "surface": "$[2].image"
         },
         {
           "document": "posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html",
@@ -5288,7 +5346,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[1].image.url"
+          "surface": "$.articles[2].image.url"
         }
       ],
       "title": "The Hidden Capacity Constraint in Critical Minerals: Tailings, Water and Environmental Permits"
@@ -5301,7 +5359,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[6].image"
+          "surface": "$[7].image"
         },
         {
           "document": "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html",
@@ -5309,7 +5367,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[6].image.url"
+          "surface": "$.articles[7].image.url"
         }
       ],
       "title": "Counter-UAS Deployment: Turning Equipment into Lawful, Staffed Protection"
@@ -5322,7 +5380,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[5].image"
+          "surface": "$[6].image"
         },
         {
           "document": "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html",
@@ -5330,7 +5388,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[5].image.url"
+          "surface": "$.articles[6].image.url"
         }
       ],
       "title": "EUDR is making origin data part of the commodity itself"
@@ -5343,7 +5401,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[60].image"
+          "surface": "$[61].image"
         },
         {
           "document": "posts/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem.html",
@@ -5351,7 +5409,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[60].image.url"
+          "surface": "$.articles[61].image.url"
         }
       ],
       "title": "Cancer's Next Supply Chain Is a Radioisotope Clock"
@@ -5364,7 +5422,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[2].image"
+          "surface": "$[3].image"
         },
         {
           "document": "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html",
@@ -5372,7 +5430,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[2].image.url"
+          "surface": "$.articles[3].image.url"
         }
       ],
       "title": "Orbital Traffic Coordination: The Control Plane Catching Up to Launch Scale"
@@ -5385,7 +5443,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[66].image"
+          "surface": "$[67].image"
         },
         {
           "document": "posts/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.html",
@@ -5393,7 +5451,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[66].image.url"
+          "surface": "$.articles[67].image.url"
         }
       ],
       "title": "Sterilization capacity only counts when a device can actually use it"
@@ -5406,7 +5464,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[3].image"
+          "surface": "$[4].image"
         },
         {
           "document": "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html",
@@ -5414,7 +5472,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[3].image.url"
+          "surface": "$.articles[4].image.url"
         }
       ],
       "title": "HVDC Grid Superhighways: Factory Slots Are Becoming Part of the Critical Path"
@@ -5427,7 +5485,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[7].image"
+          "surface": "$[8].image"
         },
         {
           "document": "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html",
@@ -5435,7 +5493,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[7].image.url"
+          "surface": "$.articles[8].image.url"
         }
       ],
       "title": "Assured PNT: The Bottleneck Is Increasingly the Assurance Stack, Not the Sensor Shelf"
@@ -5448,7 +5506,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[4].image"
+          "surface": "$[5].image"
         },
         {
           "document": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
@@ -5456,10 +5514,31 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[4].image.url"
+          "surface": "$.articles[5].image.url"
         }
       ],
       "title": "HFC Phase-Down: Why the HVAC Refrigerant Transition Bottleneck Moved Downstream"
+    },
+    {
+      "asset_path": "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp",
+      "asset_sha256": "35dc8e4c9baedf3c2f0d121833060c90798aac45a22b73022b52c7d119658a6f",
+      "report_path": "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html",
+      "slug": "2026-10-16-liver-chips-become-a-business-when-the-study-travels",
+      "sources": [
+        {
+          "document": "blog-data.json",
+          "surface": "$[0].image"
+        },
+        {
+          "document": "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html",
+          "surface": "report-hero:img[src]"
+        },
+        {
+          "document": "publication-data.json",
+          "surface": "$.articles[0].image.url"
+        }
+      ],
+      "title": "Liver-Chips Become a Business When the Study Travels"
     },
     {
       "asset_path": "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp",
@@ -5469,7 +5548,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[0].image"
+          "surface": "$[1].image"
         },
         {
           "document": "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html",
@@ -5477,7 +5556,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[0].image.url"
+          "surface": "$.articles[1].image.url"
         }
       ],
       "title": "When Living Computers Can Keep the Work After the Cells Change"
