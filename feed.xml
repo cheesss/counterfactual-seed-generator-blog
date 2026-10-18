@@ -4,8 +4,15 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed research on industrial constraints, commercialization, disruption, and the systems that decide what scales next.</description>
-  <lastBuildDate>Sat, 17 Oct 2026 16:39:09 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 02:14:42 +0000</lastBuildDate>
 
+  <item>
+    <title>Liver-Chips Become a Business When the Study Travels</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html</guid>
+    <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+    <description>Liver-chips already support real laboratory work. Their next commercialization step is a study whose execution, interpretation and acceptance survive a change of laboratory. A maintained method could let sponsors purchase useful evidence repeatedly while suppliers and service providers divide responsibility for producing it.</description>
+  </item>
   <item>
     <title>When Living Computers Can Keep the Work After the Cells Change</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html</link>
@@ -208,13 +215,6 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-the-real-aging-biomarker-race-is-for-comparability-not-another-clock.html</guid>
     <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     <description>Aging-biomarker companies can already sell tests, run studies and publish models associated with mortality or disease. The harder problem begins when a sponsor tries to move the measurement between laboratories, replace an assay, combine historical datasets or reuse the result in another drug program.</description>
-  </item>
-  <item>
-    <title>A Genomic Diagnosis Is Only the Start of the Treatment Queue</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html</guid>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <description>Genomic newborn screening is usually measured through enrollment, sequencing success, positive results, and diagnoses. Those metrics matter, but they stop before the industrial problem becomes difficult.</description>
   </item>
 </channel>
 </rss>

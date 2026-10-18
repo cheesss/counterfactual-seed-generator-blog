@@ -1,21 +1,21 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 67,
-    "data_series": 236,
-    "calendar_year_card_candidates_excluded": 5,
+    "articles": 68,
+    "data_series": 237,
+    "calendar_year_card_candidates_excluded": 6,
     "watch": {
-      "tracked_articles": 55,
-      "signals": 287,
+      "tracked_articles": 56,
+      "signals": 290,
       "resolved": 0,
       "states": {
-        "open": 287,
+        "open": 290,
         "confirmed": 0,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 287
+        "explicit_bullet": 290
       },
       "unstructured_watch_sections": 8,
       "unpublished_prose_candidates": 40
@@ -24,7 +24,7 @@
       "complete_by_sections": 48,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
-        "current-incomplete": 17,
+        "current-incomplete": 18,
         "current-complete": 3,
         "legacy-migration-gap": 2,
         "legacy-complete": 45
@@ -39,7 +39,7 @@
     "taxonomy": {
       "analysis_lenses": {
         "constraint": 50,
-        "commercialization": 9,
+        "commercialization": 10,
         "disruption": 3,
         "ecosystem-expansion": 5
       },
@@ -48,7 +48,7 @@
         "nuclear": 11,
         "ai-infra": 2,
         "defense": 4,
-        "healthcare": 14,
+        "healthcare": 15,
         "water": 7,
         "aviation": 1,
         "telecom": 2,
@@ -68,7 +68,7 @@
         "permits": 2,
         "qualified-materials": 10,
         "queue-slot": 5,
-        "validation-evidence": 29,
+        "validation-evidence": 30,
         "repair-capacity": 2,
         "residual-handling": 5,
         "procurement-risk-transfer": 0,
@@ -84,6 +84,127 @@
     }
   },
   "articles": [
+    {
+      "slug": "2026-10-16-liver-chips-become-a-business-when-the-study-travels",
+      "slug_source": "publication_registry",
+      "title": "Liver-Chips Become a Business When the Study Travels",
+      "url": "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html",
+      "date": "2026-10-18",
+      "updated": "2026-10-18",
+      "category": "Report",
+      "sector": {
+        "key": "healthcare",
+        "label": "Healthcare"
+      },
+      "system_pattern": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "archetype": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "analysis_lens": {
+        "key": "commercialization",
+        "label": "Commercialization"
+      },
+      "excerpt": "Liver-chips already support real laboratory work. Their next commercialization step is a study whose execution, interpretation and acceptance survive a change of laboratory. A maintained method could let sponsors purchase useful evidence repeatedly while suppliers and service providers divide responsibility for producing it.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp",
+        "alt": "Organ Chip Emulate AVATAR"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [
+        {
+          "metric": "**USD 149,014.66** | Selected catalog subtotal",
+          "points": [
+            {
+              "label": "one [Zoe module](https://www.govsci.com/product-detail/EMULATE--INC/ZOE-CM2/EA/), one [Orb hub](https://www.govsci.com/product-detail/EMULATE--INC/ORB-HM1/EA/) and one [24-pack kit](https://www.govsci.com/product-detail/EMULATE--INC/BIO-LH-QUAD24/KT/), observed October 18",
+              "value": 2026.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 2026.0,
+            "value_text": "2,026",
+            "unit": "",
+            "metric": "**USD 149,014.66** | Selected catalog subtotal",
+            "point_label": "one [Zoe module](https://www.govsci.com/product-detail/EMULATE--INC/ZOE-CM2/EA/), one [Orb hub](https://www.govsci.com/product-detail/EMULATE--INC/ORB-HM1/EA/) and one [24-pack kit](https://www.govsci.com/product-detail/EMULATE--INC/BIO-LH-QUAD24/KT/), observed October 18",
+            "display_label": "one [Zoe module](https://www.govsci.com/product-detail/EMULATE--INC/ZOE-CM2/EA/), one [Orb hub](https://www.govsci.com/product-detail/EMULATE--INC/ORB-HM1/EA/) and one [24-pack kit](https://www.govsci.com/product-detail/EMULATE--INC/BIO-LH-QUAD24/KT/), observed October 18 - **USD 149,014.66** | Selected catalog subtotal",
+            "selection_mode": "single_point",
+            "is_calendar_year": true,
+            "card_eligible": false
+          },
+          "provenance": {
+            "kind": "key_figures",
+            "section": "Codex-Edited Public Column > Key figures",
+            "source_text": "**USD 149,014.66** | Selected catalog subtotal: one [Zoe module](https://www.govsci.com/product-detail/EMULATE--INC/ZOE-CM2/EA/), one [Orb hub](https://www.govsci.com/product-detail/EMULATE--INC/ORB-HM1/EA/) and one [24-pack kit](https://www.govsci.com/product-detail/EMULATE--INC/BIO-LH-QUAD24/KT/), observed October 18, 2026.",
+            "source_urls": [
+              "https://www.govsci.com/product-detail/EMULATE--INC/ZOE-CM2/EA/",
+              "https://www.govsci.com/product-detail/EMULATE--INC/ORB-HM1/EA/",
+              "https://www.govsci.com/product-detail/EMULATE--INC/BIO-LH-QUAD24/KT/"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [],
+      "watch_signals": [
+        {
+          "signal_id": "2026-10-16-liver-chips-become-a-business-when-the-study-travels:watch:876c9bd9a66d",
+          "text": "By October 16, 2027, base October 16, 2026: an affirmative, context-specific FDA determination, settling the call.",
+          "source_heading": "What To Watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By October 16, 2027, base October 16, 2026: an affirmative, context-specific FDA determination, settling the call.",
+          "source_url": "https://force-dsc.my.site.com/ddt/s/ddt-project?ddtprojectid=197",
+          "source_urls": [
+            "https://force-dsc.my.site.com/ddt/s/ddt-project?ddtprojectid=197"
+          ],
+          "resolve_by": "2027-10-16",
+          "resolve_by_text": "October 16, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-10-16-liver-chips-become-a-business-when-the-study-travels:watch:a749e4ffc355",
+          "text": "By October 16, 2028, base October 18, 2026: a named buyer's accepted external report and second paid same-method order, following the service offers.",
+          "source_heading": "What To Watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By October 16, 2028, base October 18, 2026: a named buyer's accepted external report and second paid same-method order, following the service offers.",
+          "source_url": "https://biomere.com/organ-chip/",
+          "source_urls": [
+            "https://biomere.com/organ-chip/"
+          ],
+          "resolve_by": "2028-10-16",
+          "resolve_by_text": "October 16, 2028",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-10-16-liver-chips-become-a-business-when-the-study-travels:watch:7deb7c52ae5b",
+          "text": "By October 16, 2028, base October 18, 2026: agency-linked scope or bridging evidence covering Zoe and AVA, plus a matched cost comparison including reruns and accepted decisions.",
+          "source_heading": "What To Watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By October 16, 2028, base October 18, 2026: agency-linked scope or bridging evidence covering Zoe and AVA, plus a matched cost comparison including reruns and accepted decisions.",
+          "source_url": "https://emulatebio.com/press/emulate-enters-final-stage-of-fda-istand-program/",
+          "source_urls": [
+            "https://emulatebio.com/press/emulate-enters-final-stage-of-fda-istand-program/"
+          ],
+          "resolve_by": "2028-10-16",
+          "resolve_by_text": "October 16, 2028",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What To Watch",
+        "unpublished_candidate_count": 0
+      }
+    },
     {
       "slug": "2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change",
       "slug_source": "publication_registry",
