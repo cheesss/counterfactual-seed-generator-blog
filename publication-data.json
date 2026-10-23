@@ -1,30 +1,30 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 68,
-    "data_series": 237,
+    "articles": 70,
+    "data_series": 239,
     "calendar_year_card_candidates_excluded": 6,
     "watch": {
-      "tracked_articles": 56,
-      "signals": 290,
+      "tracked_articles": 57,
+      "signals": 293,
       "resolved": 0,
       "states": {
-        "open": 290,
+        "open": 293,
         "confirmed": 0,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 290
+        "explicit_bullet": 293
       },
-      "unstructured_watch_sections": 8,
-      "unpublished_prose_candidates": 40
+      "unstructured_watch_sections": 9,
+      "unpublished_prose_candidates": 46
     },
     "report_stage": {
       "complete_by_sections": 48,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
-        "current-incomplete": 18,
+        "current-incomplete": 20,
         "current-complete": 3,
         "legacy-migration-gap": 2,
         "legacy-complete": 45
@@ -39,8 +39,8 @@
     "taxonomy": {
       "analysis_lenses": {
         "constraint": 50,
-        "commercialization": 10,
-        "disruption": 3,
+        "commercialization": 11,
+        "disruption": 4,
         "ecosystem-expansion": 5
       },
       "sectors": {
@@ -58,7 +58,7 @@
         "neurotechnology": 2,
         "industrial-software": 3,
         "logistics": 3,
-        "robotics": 0,
+        "robotics": 2,
         "space": 1,
         "finance": 3,
         "cross-sector": 1,
@@ -66,7 +66,7 @@
       },
       "system_patterns": {
         "permits": 2,
-        "qualified-materials": 10,
+        "qualified-materials": 11,
         "queue-slot": 5,
         "validation-evidence": 30,
         "repair-capacity": 2,
@@ -75,7 +75,7 @@
         "finance-bankability": 0,
         "software-workflow": 5,
         "logistics-infrastructure": 2,
-        "manufacturing-tooling": 1,
+        "manufacturing-tooling": 2,
         "standards-interoperability": 4,
         "workforce-capacity": 0,
         "demand-formation": 1,
@@ -363,6 +363,260 @@
           "source_urls": [],
           "resolve_by": "2029-12-31",
           "resolve_by_text": "December 31, 2029",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-10-04-robot-vision-is-bought-as-a-supported-system",
+      "slug_source": "publication_registry",
+      "title": "Global-Shutter Robot Vision: The Commercial Value Is Moving Into the Qualification Stack",
+      "url": "posts/2026-10-04-robot-vision-is-bought-as-a-supported-system.html",
+      "date": "2026-10-04",
+      "updated": "2026-10-23",
+      "category": "Report",
+      "sector": {
+        "key": "robotics",
+        "label": "Robotics & autonomy"
+      },
+      "system_pattern": {
+        "key": "qualified-materials",
+        "label": "Qualified materials & supply"
+      },
+      "archetype": {
+        "key": "qualified-materials",
+        "label": "Qualified materials & supply"
+      },
+      "analysis_lens": {
+        "key": "commercialization",
+        "label": "Commercialization"
+      },
+      "excerpt": "Commercialization · 2026-10-23 A robot can have the right camera and still lack a supported upgrade path. Universal Robots' AI Accelerator combines an Orbbec Gemini 335Lg with NVIDIA Jetson AGX Orin compute, yet its current instructions keep users on a specific controller-software release. The commercial product is the maintained combination: sensor, camera, connection, software and accepted robot behavior. Each change can reopen work that the buyer thought it had already purchased.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-04-robot-vision-is-bought-as-a-supported-system-0cc11fba9fcbc9aa.webp",
+        "alt": "Intel Realsense, tracking program in the background"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [
+        {
+          "metric": "Original Rendering: Teradyne Robotics Revenue",
+          "points": [
+            {
+              "label": "2023",
+              "value": 375.2,
+              "unit": ""
+            },
+            {
+              "label": "2024",
+              "value": 364.8,
+              "unit": ""
+            },
+            {
+              "label": "2025",
+              "value": 308.3,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 375.2,
+            "value_text": "375.2",
+            "unit": "",
+            "metric": "Original Rendering: Teradyne Robotics Revenue",
+            "point_label": "2023",
+            "display_label": "2023 - Original Rendering: Teradyne Robotics Revenue",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2023 :: 375.2 :: ; 2024 :: 364.8 :: ; 2025 :: 308.3 ::",
+            "source_urls": [
+              "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0000950170-25-023784/0000950170-25-023784.pdf",
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526127510/2025_ter-ars.pdf",
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526059002/ter-20251231.htm"
+            ]
+          }
+        },
+        {
+          "metric": "Original Rendering: Finished ZED X Entry Offers",
+          "points": [
+            {
+              "label": "ZED X Nano",
+              "value": 399.0,
+              "unit": ""
+            },
+            {
+              "label": "ZED X Mini",
+              "value": 549.0,
+              "unit": ""
+            },
+            {
+              "label": "ZED X",
+              "value": 599.0,
+              "unit": ""
+            }
+          ],
+          "headline": {
+            "value": 599.0,
+            "value_text": "599",
+            "unit": "",
+            "metric": "Original Rendering: Finished ZED X Entry Offers",
+            "point_label": "ZED X",
+            "display_label": "Original Rendering: Finished ZED X Entry Offers",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "ZED X Nano :: 399 :: ; ZED X Mini :: 549 :: ; ZED X :: 599 ::",
+            "source_urls": [
+              "https://www.stereolabs.com/en-kr/store"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 375.2,
+          "value_text": "375.2",
+          "unit": "",
+          "metric": "Original Rendering: Teradyne Robotics Revenue",
+          "point_label": "2023",
+          "display_label": "2023 - Original Rendering: Teradyne Robotics Revenue",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2023 :: 375.2 :: ; 2024 :: 364.8 :: ; 2025 :: 308.3 ::",
+            "source_urls": [
+              "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0000950170-25-023784/0000950170-25-023784.pdf",
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526127510/2025_ter-ars.pdf",
+              "https://www.sec.gov/Archives/edgar/data/97210/000119312526059002/ter-20251231.htm"
+            ]
+          }
+        },
+        {
+          "value": 599.0,
+          "value_text": "599",
+          "unit": "",
+          "metric": "Original Rendering: Finished ZED X Entry Offers",
+          "point_label": "ZED X",
+          "display_label": "Original Rendering: Finished ZED X Entry Offers",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "ZED X Nano :: 399 :: ; ZED X Mini :: 549 :: ; ZED X :: 599 ::",
+            "source_urls": [
+              "https://www.stereolabs.com/en-kr/store"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "unstructured_prose",
+        "source_heading": "What To Watch",
+        "unpublished_candidate_count": 6
+      }
+    },
+    {
+      "slug": "2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production",
+      "slug_source": "publication_registry",
+      "title": "Forming the Gearbox: Schaeffler’s Attempt to Move Humanoid Strain-Wave Drives from Precision Machining to High-Volume Forming",
+      "url": "posts/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production.html",
+      "date": "2026-10-04",
+      "updated": "2026-10-23",
+      "category": "Report",
+      "sector": {
+        "key": "robotics",
+        "label": "Robotics & autonomy"
+      },
+      "system_pattern": {
+        "key": "manufacturing-tooling",
+        "label": "Manufacturing & tooling"
+      },
+      "archetype": {
+        "key": "manufacturing-tooling",
+        "label": "Manufacturing & tooling"
+      },
+      "analysis_lens": {
+        "key": "disruption",
+        "label": "Disruption"
+      },
+      "excerpt": "A cheaper way to shape a precision reducer could shift manufacturing work from repeated cutting into reusable tooling and process control. Schaeffler has the relevant industrial history. The commercial test is whether its new humanoid product wins stable designs, accepted production and repeat orders.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production-c0121e03bcdfa06f.webp",
+        "alt": "Strain-wave gearing - elastic wheels"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [
+        {
+          "signal_id": "2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production:watch:f1ad5923b848",
+          "text": "By June 30, 2027; base October 23, 2026: a public record of accepted live-production box handling at Herzogenaurach under the Humanoid phased plan. This tests deployment, separately from gearbox selection.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By June 30, 2027; base October 23, 2026: a public record of accepted live-production box handling at Herzogenaurach under the Humanoid phased plan. This tests deployment, separately from gearbox selection.",
+          "source_url": "https://thehumanoid.ai/humanoid-secures-landmark-deal-with-schaeffler-to-deploy-thousands-of-humanoid-robots/",
+          "source_urls": [
+            "https://thehumanoid.ai/humanoid-secures-landmark-deal-with-schaeffler-to-deploy-thousands-of-humanoid-robots/"
+          ],
+          "resolve_by": "2027-06-30",
+          "resolve_by_text": "June 30, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production:watch:a86c572cf0e5",
+          "text": "By December 31, 2027; base October 23, 2026: German series output explicitly identifying the formed humanoid reducer against the product roadmap.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2027; base October 23, 2026: German series output explicitly identifying the formed humanoid reducer against the product roadmap.",
+          "source_url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88210241",
+          "source_urls": [
+            "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88210241"
+          ],
+          "resolve_by": "2027-12-31",
+          "resolve_by_text": "December 31, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production:watch:a2616cb4d5c5",
+          "text": "By December 31, 2028; base October 23, 2026: a named OEM/platform series nomination for this formed product in a supplier record or corresponding customer announcement.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2028; base October 23, 2026: a named OEM/platform series nomination for this formed product in a supplier record or corresponding customer announcement.",
+          "source_url": "https://www.schaeffler.com/en/media/press-releases/",
+          "source_urls": [
+            "https://www.schaeffler.com/en/media/press-releases/"
+          ],
+          "resolve_by": "2028-12-31",
+          "resolve_by_text": "December 31, 2028",
           "state": "open",
           "settlement": null
         }
