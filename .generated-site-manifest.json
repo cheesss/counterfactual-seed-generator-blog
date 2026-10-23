@@ -7,13 +7,13 @@
     },
     {
       "path": ".publication-release.json",
-      "sha256": "3c086bb76e98fadc278d259a4e63eb0328d2e64c42727f5fb58782c4bf961c91",
-      "size": 117411
+      "sha256": "693646e2fb135405c65fbb8ceca74547696300eb0708f86f8e78d1373fc4167e",
+      "size": 132850
     },
     {
       "path": "404.html",
-      "sha256": "9fb6186fdc536222050efb7e5e7218017595b187b79d0907b746dd13114d39c7",
-      "size": 119619
+      "sha256": "98d00eba795c7c21bac28907a0f26d198e67f62a5355443fb759a0bef778a16c",
+      "size": 123280
     },
     {
       "path": "about.html",
@@ -349,6 +349,16 @@
       "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
       "sha256": "3f332c0899493328f2a41be31ec9fbd1f736f44f21146dae216fea0250b85a12",
       "size": 105438
+    },
+    {
+      "path": "assets/heroes/2026-10-04-robot-vision-is-bought-as-a-supported-system-0cc11fba9fcbc9aa.webp",
+      "sha256": "0cc11fba9fcbc9aaa3689fb27d10a4ace9f560db5584e8303cef8ad0889e40e5",
+      "size": 83196
+    },
+    {
+      "path": "assets/heroes/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production-c0121e03bcdfa06f.webp",
+      "sha256": "c0121e03bcdfa06f9c41b2606b316826e713e8024859cf40b9389b5045d9ba15",
+      "size": 84552
     },
     {
       "path": "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp",
@@ -691,6 +701,16 @@
       "size": 122678
     },
     {
+      "path": "assets/og/2026-10-04-robot-vision-is-bought-as-a-supported-system.jpg",
+      "sha256": "56c962477c2cb3f07e4d62653706768bc47a5810ed564a45d2558475208a6505",
+      "size": 100066
+    },
+    {
+      "path": "assets/og/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production.jpg",
+      "sha256": "94953296f7694b4ac7c155ef22bfa29c93670f84fdc199a14e8f789cf8223a08",
+      "size": 93462
+    },
+    {
       "path": "assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg",
       "sha256": "f9c2d3c3f03913a0350fcd352205cebbad8a8236bb1b6fa9053e29cefa9d6057",
       "size": 19599
@@ -707,8 +727,8 @@
     },
     {
       "path": "blog-data.json",
-      "sha256": "97ce70e2c33f77c91d8bb3c9362e3a6c75be4902865b28e073cae19928f2d3e6",
-      "size": 49396
+      "sha256": "233f3a249c64e523bc9b1e1e5770ae23577bff3e139cc1796c9c34cd736561ed",
+      "size": 51095
     },
     {
       "path": "disclaimer.html",
@@ -722,28 +742,28 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "e15d71875c8446bc3e913d01cc71c4c564d1880358b1f6b0c164d8d1429670fb",
-      "size": 25329
+      "sha256": "5f0cf277dae6506395e24a799932ef31700680f5d34adccbf624ddf6ce1f4e9a",
+      "size": 25601
     },
     {
       "path": "image-manifest.json",
-      "sha256": "44a78d226ada2ebc9cb32b56e47c2bbc8f03904d632ab4b4938c75a2093fd5f5",
-      "size": 292693
+      "sha256": "93095d4d49be8f5fb4a1cd4b83eadd235bf665c74636e4b53d779f31e38387c4",
+      "size": 300752
     },
     {
       "path": "index.html",
-      "sha256": "9fb6186fdc536222050efb7e5e7218017595b187b79d0907b746dd13114d39c7",
-      "size": 119619
+      "sha256": "98d00eba795c7c21bac28907a0f26d198e67f62a5355443fb759a0bef778a16c",
+      "size": 123280
     },
     {
       "path": "ledger.html",
-      "sha256": "48bee36d92de8c920110a74ac902c044312f1bdbb7db5b3947988f5856df4b8b",
-      "size": 84078
+      "sha256": "128cbf1e628b84ad0a70926ef7bdebddd28099d37f4b580a89d82b93c417ff8a",
+      "size": 85307
     },
     {
       "path": "patterns.html",
-      "sha256": "f3c69739daa292512451661ee7c2597349588bd0068b0a884ff9aac757a1c767",
-      "size": 47078
+      "sha256": "4fd0b0b703cdb77d4548037ef186328df75f5310f1c5ebfe37bc07a00626be2a",
+      "size": 48574
     },
     {
       "path": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
@@ -762,8 +782,8 @@
     },
     {
       "path": "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html",
-      "sha256": "9b40908bb6297de9448516942f7853c131f8b3abccf01b265591bb005d734b88",
-      "size": 37246
+      "sha256": "9cad4a7bcebe903deed225087371d943d19ce1589e76c9a389fd2dbb700ab69f",
+      "size": 37217
     },
     {
       "path": "posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html",
@@ -777,13 +797,13 @@
     },
     {
       "path": "posts/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.html",
-      "sha256": "ed1b079786dc95a5cf4341f9e40273efc67117a9c26675261a20d6679a15e144",
-      "size": 53371
+      "sha256": "848124fdaa97faa281b8a7c4b7cc2000adef18463f9d002c18898de986298130",
+      "size": 53342
     },
     {
       "path": "posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html",
-      "sha256": "cfa5f15817d3a488a287ba203244e56ab2280defa87abe162d03c2897a35f903",
-      "size": 58716
+      "sha256": "a706c14af3c755c63299123697336523adf543637205a72cbdfbbdfed747e647",
+      "size": 58687
     },
     {
       "path": "posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html",
@@ -822,8 +842,8 @@
     },
     {
       "path": "posts/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck.html",
-      "sha256": "b7f614ffb77498da29b08d02c3e0f120f459cf36be283a9af6844712159c72cb",
-      "size": 62079
+      "sha256": "b406e176edd0c8b69d55760a88f271dc4e07471963654cea08de38e1dee95749",
+      "size": 62050
     },
     {
       "path": "posts/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck.html",
@@ -862,8 +882,8 @@
     },
     {
       "path": "posts/2026-07-03-fluorine-chemistry-s-hidden-control-point.html",
-      "sha256": "a228494454cb885cc0825507468db1e504f3abac85f6892601d59eed865cc46b",
-      "size": 67720
+      "sha256": "a5fb125bf83e830462fced77ab6d1b45ef3f40aa0f70e7efc3250d6ed79ba5a2",
+      "size": 67691
     },
     {
       "path": "posts/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.html",
@@ -877,8 +897,8 @@
     },
     {
       "path": "posts/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.html",
-      "sha256": "1462ae16e864266c077a7621defa2547850ccf7a941fb1938279f55405587154",
-      "size": 50674
+      "sha256": "526469b3c27612c25e4b1b5df2a21984cb34c64ade4692d5c703a0b8fcbc05b3",
+      "size": 50645
     },
     {
       "path": "posts/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.html",
@@ -892,13 +912,13 @@
     },
     {
       "path": "posts/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.html",
-      "sha256": "e3bcd879d5443493affe597f408b5bedb10797a2a88ef346773ed21ef3f7185f",
-      "size": 66436
+      "sha256": "66179e03330dd629efd05733acde379f2b4bd13fcf697b8cb54f689f47c30a09",
+      "size": 66407
     },
     {
       "path": "posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html",
-      "sha256": "461c04fcc29217cae6f9f145806cd75567f678a9fd43d17295b501b43d093b4c",
-      "size": 50812
+      "sha256": "ff45c1a34110a71455bce6312a0e1ccd88b1c0a23acce7c3b06112b904923a44",
+      "size": 50820
     },
     {
       "path": "posts/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.html",
@@ -917,8 +937,8 @@
     },
     {
       "path": "posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html",
-      "sha256": "78a9ee5bf402fabf6d149ecb9d888d2482dfb2439f4770f3210344a5946551e9",
-      "size": 56438
+      "sha256": "ecf1c4020ff69c86c1d8223661ae9b9c5055c74434fd4d2c3fba8ea4c08f0ced",
+      "size": 56446
     },
     {
       "path": "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html",
@@ -1002,8 +1022,8 @@
     },
     {
       "path": "posts/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.html",
-      "sha256": "eecc2378d37beedd4499046b4682f4f9d6809f8aea86909a58dbdda8885556d6",
-      "size": 25457
+      "sha256": "6c029da0c6e93dae852dd55d85d6fd09258be8cc2a4e6386cdb5c9f44cc3d403",
+      "size": 25465
     },
     {
       "path": "posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html",
@@ -1062,8 +1082,8 @@
     },
     {
       "path": "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html",
-      "sha256": "8915f650ec3de1c724a1d97854fa3db5ffa7c03520e030ef5b0b9d866257f020",
-      "size": 43219
+      "sha256": "f83dd818a12cd44a97f9887570e915cb972f1a4583b79dc98eb4feb6b4940c9e",
+      "size": 43727
     },
     {
       "path": "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html",
@@ -1074,6 +1094,16 @@
       "path": "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html",
       "sha256": "43eb90169b6ae79d03caf84cec103532c85efd0e1ba5f06ebd1d213b04573372",
       "size": 38720
+    },
+    {
+      "path": "posts/2026-10-04-robot-vision-is-bought-as-a-supported-system.html",
+      "sha256": "0e1040d00a1ce312f66df5e33d534550747b9015cbd805326d31680ae410ab25",
+      "size": 39823
+    },
+    {
+      "path": "posts/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production.html",
+      "sha256": "e4f34a01a82ddb7ce3e43815128ff4866fe3a25baffc97e532e0d77805db27fc",
+      "size": 34670
     },
     {
       "path": "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html",
@@ -1092,8 +1122,8 @@
     },
     {
       "path": "publication-data.json",
-      "sha256": "5f621596ccf42264ff8409e6d9f6ddef4dd81b6953e7f25ae6e7835916c8283d",
-      "size": 826447
+      "sha256": "36d4d78c2b4a71f1ae5022b88989731ae10e808588bbc9ad22657f62a6941b5d",
+      "size": 838005
     },
     {
       "path": "rgraph.js",
@@ -1107,8 +1137,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "648c38c3e2c5dc651e28828bf4398cbef1e1feefa25ed885e64ef5bb883a43e7",
-      "size": 12325
+      "sha256": "9ac20788b62b1ba6958a929d5e13692389b7bba80f450216674c929837693532",
+      "size": 12655
     },
     {
       "path": "styles.css",

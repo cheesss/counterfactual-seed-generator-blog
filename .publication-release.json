@@ -160,6 +160,183 @@
       ]
     },
     {
+      "post_sha256": "0e1040d00a1ce312f66df5e33d534550747b9015cbd805326d31680ae410ab25",
+      "profile": "integrated-v1",
+      "quality": {
+        "approval_chain": [
+          {
+            "report_sha256": "8a6dc2717598edbd71abd93222d5c4514c50181087404a66574b15b1e70434ad",
+            "scope": "integrated-independent-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "551595f9affdbce7ac20876606d870e9a7683f5b7e4b773784943f899f4886e4",
+                "raw_sha256": "83977f00ce2b2171aad24088b95aaf98d2c2fffbf7dd8e6d471c038299d0466b",
+                "section_sha256": "f401aef4484f38e02d5454621ec9912adb6a4ee15fc192be620b906cf3306530",
+                "stage": "integrated-research"
+              },
+              {
+                "prompt_sha256": "f8e646c3c8072febdd567de1f9ebc90e87df769ce575125037c78758ef2abb62",
+                "raw_sha256": "88b34631f597400e7f23ff75395f7fc694d4a04fc5e56e5b3866dbbf8937ddb7",
+                "section_sha256": "e924d13a5d49c4a8a728835f22bb4e828bbbe92fe5acc92b74be460862d708b6",
+                "stage": "independent-review-edit"
+              }
+            ]
+          },
+          {
+            "after_sha256": "694469931af9c85833d93fc73a4cf842e119ad5e62e35126ef345fe58f23ed6f",
+            "before_sha256": "8a6dc2717598edbd71abd93222d5c4514c50181087404a66574b15b1e70434ad",
+            "changed_claims": [
+              {
+                "after": "PAL Robotics illustrates the appeal of continuity. RealSense's customer case names TIAGo, TIAGo Pro and StockBot, describing common calibration, integration and testing workflows. It presents portfolio-wide reuse as a development advantage.",
+                "before": "PAL Robotics illustrates the appeal of continuity. [RealSense's customer case](https://www.realsenseai.com/case-studies/pal-robotics-bringing-robots-into-the-real-world-safely/) names TIAGo, TIAGo Pro and StockBot, describing common calibration, integration and testing workflows. It presents portfolio-wide reuse as a development advantage.",
+                "id": "C-001",
+                "section": "Codex-Edited Public Column"
+              },
+              {
+                "after": "March 5, 2027 | displayed last-time-buy date for AR0234CSSM00SUKA0-CR. [DigiKey](https://www.digikey.com/en/products/detail/onsemi/AR0234CSSM00SUKA0-CR/15860089)",
+                "before": "**March 5, 2027:** displayed last-time-buy date for AR0234CSSM00SUKA0-CR. [DigiKey](https://www.digikey.com/en/products/detail/onsemi/AR0234CSSM00SUKA0-CR/15860089)",
+                "id": "C-002",
+                "section": "Key figures"
+              },
+              {
+                "after": "Approximately $16 million | Stereolabs' unaudited 2025 business revenue. [Ouster announcement](https://investors.ouster.com/news-releases/news-release-details/ouster-acquires-stereolabs-creating-world-leading-physical-ai)",
+                "before": "**Approximately $16 million:** Stereolabs' unaudited 2025 business revenue. [Ouster announcement](https://investors.ouster.com/news-releases/news-release-details/ouster-acquires-stereolabs-creating-world-leading-physical-ai)",
+                "id": "C-003",
+                "section": "Key figures"
+              },
+              {
+                "after": "$99.9 million | Teradyne Robotics revenue in Q2 2026, versus $74.9 million a year earlier. [Quarterly filing](https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-327715/0001193125-26-327715.pdf)",
+                "before": "**$99.9 million:** Teradyne Robotics revenue in Q2 2026, versus $74.9 million a year earlier. [Quarterly filing](https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-327715/0001193125-26-327715.pdf)",
+                "id": "C-004",
+                "section": "Key figures"
+              }
+            ],
+            "grounded_assertions": [],
+            "scope": "artifact-affected-claim-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "77e2dd98049049a839294fda3cd4ad28450b6774a1bdd6c9cbc79d95f86688f4",
+                "raw_sha256": "2ea6c6ada6748841110b65e39828a94eace5d1e7df74e28c4361230b125a6117",
+                "section_sha256": "aaef54c5eccbbc9f38b3b326f9cb7b24d6ea6cee0db324272801f28b049304c2",
+                "stage": "artifact-format-repair"
+              },
+              {
+                "prompt_sha256": "1a706493db8158248e80db510bdaf4cdfc257ae9358d98df4cd827a5395be650",
+                "raw_sha256": "9175d852ef30dd5cf1bb8f1484e0951b6a10e0f981e214864b93c2ab5b0f8eef",
+                "section_sha256": "e48d8f4fc9bf99b2634bfd5c3af9e4da03cb8c515444851dfc65b060aa2c006b",
+                "stage": "artifact-claim-review"
+              }
+            ],
+            "verified_claims": [
+              {
+                "after": "PAL Robotics illustrates the appeal of continuity. RealSense's customer case names TIAGo, TIAGo Pro and StockBot, describing common calibration, integration and testing workflows. It presents portfolio-wide reuse as a development advantage.",
+                "before": "PAL Robotics illustrates the appeal of continuity. [RealSense's customer case](https://www.realsenseai.com/case-studies/pal-robotics-bringing-robots-into-the-real-world-safely/) names TIAGo, TIAGo Pro and StockBot, describing common calibration, integration and testing workflows. It presents portfolio-wide reuse as a development advantage.",
+                "change_id": "C-001",
+                "finding": "Supported. The original URL initially could not be retrieved. Opening the primary publisher's shorter URL succeeded and reported a redirect to the original URL. The retrieved case's solution and portfolio-scalability sections name all three robots and describe reuse of calibration processes, integration workflows and testing methodologies across platforms. The candidate removes the hyperlink but preserves supplier attribution and the supported assertion. This verifies RealSense's account and its engineering rationale, not independently measured savings, deployment counts or financial results. No candidate edit was made.",
+                "source_url": "https://www.realsenseai.com/case-studies/pal-robotics/"
+              },
+              {
+                "after": "March 5, 2027 | displayed last-time-buy date for AR0234CSSM00SUKA0-CR. [DigiKey](https://www.digikey.com/en/products/detail/onsemi/AR0234CSSM00SUKA0-CR/15860089)",
+                "before": "**March 5, 2027:** displayed last-time-buy date for AR0234CSSM00SUKA0-CR. [DigiKey](https://www.digikey.com/en/products/detail/onsemi/AR0234CSSM00SUKA0-CR/15860089)",
+                "change_id": "C-002",
+                "finding": "Supported. Opened the exact DigiKey SKU record and located its displayed Last Time Buy Date of 3/5/2027. The change substitutes a value-label separator for bold/colon formatting without changing the date, SKU or displayed-date qualifier. This establishes SKU-specific distributor information, not an OEM delivery commitment, final-shipment date or continued wafer production. Rendered artifact behavior was not tested.",
+                "source_url": "https://www.digikey.com/en/products/detail/onsemi/AR0234CSSM00SUKA0-CR/15860089"
+              },
+              {
+                "after": "Approximately $16 million | Stereolabs' unaudited 2025 business revenue. [Ouster announcement](https://investors.ouster.com/news-releases/news-release-details/ouster-acquires-stereolabs-creating-world-leading-physical-ai)",
+                "before": "**Approximately $16 million:** Stereolabs' unaudited 2025 business revenue. [Ouster announcement](https://investors.ouster.com/news-releases/news-release-details/ouster-acquires-stereolabs-creating-world-leading-physical-ai)",
+                "change_id": "C-003",
+                "finding": "Supported. Opened Ouster's February 9, 2026 announcement. Its strategic-rationale section states that StereoLabs generated approximately $16 million of unaudited revenue in 2025. The formatting change preserves amount, approximation, period, entity and unaudited status. The figure is business-wide revenue, not robot-camera-only revenue, qualification-services revenue, acquisition consideration or independently audited cash collection.",
+                "source_url": "https://investors.ouster.com/news-releases/news-release-details/ouster-acquires-stereolabs-creating-world-leading-physical-ai"
+              },
+              {
+                "after": "$99.9 million | Teradyne Robotics revenue in Q2 2026, versus $74.9 million a year earlier. [Quarterly filing](https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-327715/0001193125-26-327715.pdf)",
+                "before": "**$99.9 million:** Teradyne Robotics revenue in Q2 2026, versus $74.9 million a year earlier. [Quarterly filing](https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-327715/0001193125-26-327715.pdf)",
+                "change_id": "C-004",
+                "finding": "Supported with a retrieval limitation. Direct PDF opening timed out twice; direct SEC and issuer HTML openings exceeded the tool's content-length limit. Native search retrieved the primary issuer-hosted PDF's indexed Results of Operations table and matching issuer HTML filing, titled July 31, 2026 Form 10-Q. The table identifies Robotics revenues of 99.9 and 74.9, in millions, for the three months ended June 28, 2026 and June 29, 2025. This supports the quarterly comparison without treating the inaccessible PDF as fully opened. These are Robotics segment revenues, not camera revenues. The change is formatting only. Review coverage is limited to C-001 through C-004; unchanged facts retain historical approval only and were not freshly checked.",
+                "source_url": "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0001193125-26-327715/0001193125-26-327715.pdf"
+              }
+            ]
+          }
+        ],
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "0e1040d00a1ce312f66df5e33d534550747b9015cbd805326d31680ae410ab25",
+        "report_sha256": "694469931af9c85833d93fc73a4cf842e119ad5e62e35126ef345fe58f23ed6f",
+        "review_provenance": {
+          "agent_id": "01a168b9-511f-7893-a42c-0bb5d6f0bbbb",
+          "base_state_sha256": "5741ed8253c7f7713e772d102eead2320ee42108085b922ae639d2f5eeb92c8f",
+          "original_report_sha256": "8a6dc2717598edbd71abd93222d5c4514c50181087404a66574b15b1e70434ad",
+          "profile": "integrated-v1",
+          "prompt_sha256": "1a706493db8158248e80db510bdaf4cdfc257ae9358d98df4cd827a5395be650",
+          "raw_sha256": "9175d852ef30dd5cf1bb8f1484e0951b6a10e0f981e214864b93c2ab5b0f8eef",
+          "repair_chain_sha256": "b3ba0482ebba82c8d92e779abce86385c83aca28e0f1c80e2304e2914eae8600",
+          "report_sha256": "694469931af9c85833d93fc73a4cf842e119ad5e62e35126ef345fe58f23ed6f",
+          "scope": "artifact-affected-claim-source-review",
+          "section_sha256": "e48d8f4fc9bf99b2634bfd5c3af9e4da03cb8c515444851dfc65b060aa2c006b",
+          "stage": "artifact-claim-review"
+        },
+        "review_scope": "artifact-affected-claim-source-review",
+        "review_sha256": "edbb0ac08e5e08bafb7852324f4c416592719ec6476f87ab107a1d7efa5ae35f",
+        "status": "publishable"
+      },
+      "report_sha256": "694469931af9c85833d93fc73a4cf842e119ad5e62e35126ef345fe58f23ed6f",
+      "slug": "2026-10-04-robot-vision-is-bought-as-a-supported-system",
+      "stages": [
+        {
+          "prompt_sha256": "551595f9affdbce7ac20876606d870e9a7683f5b7e4b773784943f899f4886e4",
+          "raw_sha256": "83977f00ce2b2171aad24088b95aaf98d2c2fffbf7dd8e6d471c038299d0466b",
+          "section_sha256": "f401aef4484f38e02d5454621ec9912adb6a4ee15fc192be620b906cf3306530",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "f8e646c3c8072febdd567de1f9ebc90e87df769ce575125037c78758ef2abb62",
+          "raw_sha256": "88b34631f597400e7f23ff75395f7fc694d4a04fc5e56e5b3866dbbf8937ddb7",
+          "section_sha256": "e924d13a5d49c4a8a728835f22bb4e828bbbe92fe5acc92b74be460862d708b6",
+          "stage": "independent-review-edit"
+        }
+      ]
+    },
+    {
+      "post_sha256": "e4f34a01a82ddb7ce3e43815128ff4866fe3a25baffc97e532e0d77805db27fc",
+      "profile": "integrated-v1",
+      "quality": {
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "e4f34a01a82ddb7ce3e43815128ff4866fe3a25baffc97e532e0d77805db27fc",
+        "report_sha256": "52cc7645e4684df097663b0ed4bc986e7e4155972246e25cde963cdac90933ff",
+        "review_provenance": {
+          "agent_id": "01a168a7-670f-7d10-acd2-8a62f8f699d0",
+          "profile": "integrated-v1",
+          "prompt_sha256": "84485fbe1ca6049a536ff746bde0d7759fd58f09d08c4b3f3692c400a4ae7a76",
+          "raw_sha256": "1b859b9499527ca0f776027d6c31e4eec83cdf170935d993345d460692d09b8f",
+          "report_sha256": "52cc7645e4684df097663b0ed4bc986e7e4155972246e25cde963cdac90933ff",
+          "scope": "integrated-independent-source-review",
+          "section_sha256": "1967898189b65f6dca54b0c4ac19739ac9a78687d9ec4bae23bff780a2cce0ad",
+          "stage": "independent-review-edit"
+        },
+        "review_scope": "integrated-independent-source-review",
+        "review_sha256": "4926e1b181a38817f0f00bd88e46a1fb654e3f8923390a5474987f8752c1bd8d",
+        "status": "publishable"
+      },
+      "report_sha256": "52cc7645e4684df097663b0ed4bc986e7e4155972246e25cde963cdac90933ff",
+      "slug": "2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production",
+      "stages": [
+        {
+          "prompt_sha256": "133e8dda3e832e5abb823863463c35f2627f4d502700d44e2af3f649af8ea7b3",
+          "raw_sha256": "0b157dbfeb751b532ce699f352f6a16703964783574b28276ab8433a0846688f",
+          "section_sha256": "857391b07ce952f1f4563d7a15dffa89b52d26448430c6c4c75ba375187c00fe",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "84485fbe1ca6049a536ff746bde0d7759fd58f09d08c4b3f3692c400a4ae7a76",
+          "raw_sha256": "1b859b9499527ca0f776027d6c31e4eec83cdf170935d993345d460692d09b8f",
+          "section_sha256": "1967898189b65f6dca54b0c4ac19739ac9a78687d9ec4bae23bff780a2cce0ad",
+          "stage": "independent-review-edit"
+        }
+      ]
+    },
+    {
       "attestation": {
         "blog_commit": "010ffce8d75a3362f800bfaecd071970afab831d",
         "deployed_post_sha256": "8fa48dbe5428baf074ee0fe96d5d10105f65197137c337e81ba7a7a6a4664698",
@@ -187,7 +364,7 @@
         "deployed_post_sha256": "39e4ec79580a1f9042eeacb4a0c0c5cdaa09d1f46003964f9fd30eebe92d3e02",
         "public_content": "unchanged-since-deployment"
       },
-      "post_sha256": "8915f650ec3de1c724a1d97854fa3db5ffa7c03520e030ef5b0b9d866257f020",
+      "post_sha256": "f83dd818a12cd44a97f9887570e915cb972f1a4583b79dc98eb4feb6b4940c9e",
       "profile": "legacy-deployed-v1",
       "report_sha256": "5e68e40e04bca885f429ef3fbf2b07a0d21a06403150cd41dc8f9fafb3ce3d93",
       "slug": "2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem"
@@ -641,7 +818,7 @@
         "deployed_post_sha256": "b6966883e2c0d86c6313ff9cd19149b0d16483d40c81401c052f6772f50f0b37",
         "public_content": "unchanged-since-deployment"
       },
-      "post_sha256": "eecc2378d37beedd4499046b4682f4f9d6809f8aea86909a58dbdda8885556d6",
+      "post_sha256": "6c029da0c6e93dae852dd55d85d6fd09258be8cc2a4e6386cdb5c9f44cc3d403",
       "profile": "legacy-deployed-v1",
       "report_sha256": "18c67d65cfdf785e8f647bb64212b53739c292eb2e1dec90a9d3656fa34c5807",
       "slug": "2026-08-02-qualified-materials-across-defense-isotopes-and-magnets"
@@ -828,7 +1005,7 @@
         "deployed_post_sha256": "b0ab3842d6a011bf8798066afd6c9877925340596b932bf4684ed582510d7c43",
         "public_content": "unchanged-since-deployment"
       },
-      "post_sha256": "78a9ee5bf402fabf6d149ecb9d888d2482dfb2439f4770f3210344a5946551e9",
+      "post_sha256": "ecf1c4020ff69c86c1d8223661ae9b9c5055c74434fd4d2c3fba8ea4c08f0ced",
       "profile": "legacy-deployed-v1",
       "report_sha256": "9a944c382cdb12a43c3a16ee3cc2ab41da17533d2663bf8060c118cfebc41dee",
       "slug": "2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable"
@@ -872,7 +1049,7 @@
         "deployed_post_sha256": "8b83e1fe7626d32fe0b80b0631886115f56079e77176813e20adc7a7bae983d4",
         "public_content": "unchanged-since-deployment"
       },
-      "post_sha256": "461c04fcc29217cae6f9f145806cd75567f678a9fd43d17295b501b43d093b4c",
+      "post_sha256": "ff45c1a34110a71455bce6312a0e1ccd88b1c0a23acce7c3b06112b904923a44",
       "profile": "legacy-deployed-v1",
       "report_sha256": "a8ee9c277527c47c001b1370054078afa65ad0ea227d21cadb9e4858ae82fdd1",
       "slug": "2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and"
@@ -883,7 +1060,7 @@
         "deployed_post_sha256": "2d80782c6633e59096bc83eed97f6e60b75964558fdf0c7c9388118c16d18a51",
         "public_content": "unchanged-since-deployment"
       },
-      "post_sha256": "1462ae16e864266c077a7621defa2547850ccf7a941fb1938279f55405587154",
+      "post_sha256": "526469b3c27612c25e4b1b5df2a21984cb34c64ade4692d5c703a0b8fcbc05b3",
       "profile": "legacy-deployed-v1",
       "report_sha256": "d46d5aae56f2402ecb330759b698c2f97ad5317208acb050581246d210ce9e11",
       "slug": "2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication"
@@ -894,7 +1071,7 @@
         "deployed_post_sha256": "820eca6cf0c6457c75d601b12cc2f3f078c69fd7c96cf6903de13f97104157f2",
         "public_content": "unchanged-since-deployment"
       },
-      "post_sha256": "e3bcd879d5443493affe597f408b5bedb10797a2a88ef346773ed21ef3f7185f",
+      "post_sha256": "66179e03330dd629efd05733acde379f2b4bd13fcf697b8cb54f689f47c30a09",
       "profile": "legacy-deployed-v1",
       "report_sha256": "f0827f49ceaf9046e4dc01a1f350ed3d78633c09cb59d43a1bacf71df5456cd0",
       "slug": "2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate"
@@ -949,7 +1126,7 @@
         "deployed_post_sha256": "6190736528cece52468e55708d82606b99d29d6077af0be185a5fc5ab417d809",
         "public_content": "text-unchanged-photo-revalidated"
       },
-      "post_sha256": "a228494454cb885cc0825507468db1e504f3abac85f6892601d59eed865cc46b",
+      "post_sha256": "a5fb125bf83e830462fced77ab6d1b45ef3f40aa0f70e7efc3250d6ed79ba5a2",
       "profile": "legacy-deployed-v1",
       "report_sha256": "c218921c5ed08685d3ed480292e9bfe569dc8ed60875fadb27a9d779dc820df7",
       "slug": "2026-07-03-fluorine-chemistry-s-hidden-control-point"
@@ -1037,7 +1214,7 @@
         "deployed_post_sha256": "3f1bf50ec9002cb037f252ac27a6869f450ce6c7b94760390d21574efeff5252",
         "public_content": "unchanged-since-deployment"
       },
-      "post_sha256": "b7f614ffb77498da29b08d02c3e0f120f459cf36be283a9af6844712159c72cb",
+      "post_sha256": "b406e176edd0c8b69d55760a88f271dc4e07471963654cea08de38e1dee95749",
       "profile": "legacy-deployed-v1",
       "report_sha256": "922e0456f13ac3c0236f21ab05b0a61c5eccd0fd4a9e934ee3b88c52856e8e66",
       "slug": "2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck"
@@ -1125,7 +1302,7 @@
         "deployed_post_sha256": "58c1c54316933de50ba03570cfc36a01befad60239365ee2ff61a8e5eeade2eb",
         "public_content": "text-unchanged-photo-revalidated"
       },
-      "post_sha256": "cfa5f15817d3a488a287ba203244e56ab2280defa87abe162d03c2897a35f903",
+      "post_sha256": "a706c14af3c755c63299123697336523adf543637205a72cbdfbbdfed747e647",
       "profile": "legacy-deployed-v1",
       "report_sha256": "683cfe6faefe25d84e64eb9379db8edf211d5c78743ae1afac8125fc6de01588",
       "slug": "2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock"
@@ -1136,7 +1313,7 @@
         "deployed_post_sha256": "25f4a1f415599ea954b1b1a8c36a7f3c81b6f004710f723ecf739ea6ab36ad91",
         "public_content": "text-unchanged-photo-revalidated"
       },
-      "post_sha256": "ed1b079786dc95a5cf4341f9e40273efc67117a9c26675261a20d6679a15e144",
+      "post_sha256": "848124fdaa97faa281b8a7c4b7cc2000adef18463f9d002c18898de986298130",
       "profile": "legacy-deployed-v1",
       "report_sha256": "54c1fc75380cc6888c335e6198c611c34868b4683916184ba2e7621a44652d7d",
       "slug": "2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water"
@@ -1307,7 +1484,7 @@
         "deployed_post_sha256": "28dfb2748367653ff0d5a51fc3cb00fa05c8a25d09cbee6b1ca9af717c2fcfae",
         "public_content": "text-unchanged-photo-revalidated"
       },
-      "post_sha256": "9b40908bb6297de9448516942f7853c131f8b3abccf01b265591bb005d734b88",
+      "post_sha256": "9cad4a7bcebe903deed225087371d943d19ce1589e76c9a389fd2dbb700ab69f",
       "profile": "legacy-deployed-v1",
       "report_sha256": "7b35312223f6c3c1df7e8602896c27e449288613d1210a13df6866620da09d47",
       "slug": "2026-06-21-the-shell-bottleneck-starts-before-the-shell"
@@ -1359,7 +1536,7 @@
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "404.html": "9fb6186fdc536222050efb7e5e7218017595b187b79d0907b746dd13114d39c7",
+    "404.html": "98d00eba795c7c21bac28907a0f26d198e67f62a5355443fb759a0bef778a16c",
     "about.html": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
     "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp": "a39c4e200ba890052fc3cf1d66b2383db3ec3cc3c0b6ced57c339472b3e4dd10",
     "assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-000bb2c40ce70c96.webp": "000bb2c40ce70c96e95a247e24e7f53a3b6ef0a28f008b622fff5ad9fabd5a34",
@@ -1427,6 +1604,8 @@
     "assets/heroes/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem-2d594ba5207ed4b8.webp": "2d594ba5207ed4b8233251ac28b39776f37ced9b50bd6722e93a3fcf1ad5f581",
     "assets/heroes/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works-a70776b33af9c4f1.webp": "a70776b33af9c4f1e2e8f53f8ddaee1ad2ff610b8bffeab4956aaa63abf91069",
     "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp": "3f332c0899493328f2a41be31ec9fbd1f736f44f21146dae216fea0250b85a12",
+    "assets/heroes/2026-10-04-robot-vision-is-bought-as-a-supported-system-0cc11fba9fcbc9aa.webp": "0cc11fba9fcbc9aaa3689fb27d10a4ace9f560db5584e8303cef8ad0889e40e5",
+    "assets/heroes/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production-c0121e03bcdfa06f.webp": "c0121e03bcdfa06f9c41b2606b316826e713e8024859cf40b9389b5045d9ba15",
     "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp": "35dc8e4c9baedf3c2f0d121833060c90798aac45a22b73022b52c7d119658a6f",
     "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
     "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.jpg": "fcd22852a3b260036efe7b1d55b007037d39d0e4ab2ed3ee49615d99793c017a",
@@ -1495,24 +1674,26 @@
     "assets/og/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.jpg": "1ce794125c22d001c89a2c4ffe365651344665bd4f66d1a8bbfca82212218c63",
     "assets/og/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.jpg": "1c00f1434025dfbafee295461844324e8043a90662e5f2b67e2b93fff8c8eedd",
     "assets/og/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.jpg": "d27e2e730693f47fd2be715d407b2511f32a7ed8cd0e89d335471be36d1ac5b9",
+    "assets/og/2026-10-04-robot-vision-is-bought-as-a-supported-system.jpg": "56c962477c2cb3f07e4d62653706768bc47a5810ed564a45d2558475208a6505",
+    "assets/og/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production.jpg": "94953296f7694b4ac7c155ef22bfa29c93670f84fdc199a14e8f789cf8223a08",
     "assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg": "f9c2d3c3f03913a0350fcd352205cebbad8a8236bb1b6fa9053e29cefa9d6057",
     "assets/og/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.jpg": "2ff729ce881d125b79b14e91844049ababc9d30b63d343b31f36c1308819f985",
     "assets/site/industrial-port-photo.png": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
-    "blog-data.json": "97ce70e2c33f77c91d8bb3c9362e3a6c75be4902865b28e073cae19928f2d3e6",
+    "blog-data.json": "233f3a249c64e523bc9b1e1e5770ae23577bff3e139cc1796c9c34cd736561ed",
     "disclaimer.html": "924749b2dcd25d390d1f978585c6f4adbcb7251de172047e7118b4809b0274a1",
     "favicon.svg": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
-    "feed.xml": "e15d71875c8446bc3e913d01cc71c4c564d1880358b1f6b0c164d8d1429670fb",
-    "index.html": "9fb6186fdc536222050efb7e5e7218017595b187b79d0907b746dd13114d39c7",
-    "ledger.html": "48bee36d92de8c920110a74ac902c044312f1bdbb7db5b3947988f5856df4b8b",
-    "patterns.html": "f3c69739daa292512451661ee7c2597349588bd0068b0a884ff9aac757a1c767",
+    "feed.xml": "5f0cf277dae6506395e24a799932ef31700680f5d34adccbf624ddf6ce1f4e9a",
+    "index.html": "98d00eba795c7c21bac28907a0f26d198e67f62a5355443fb759a0bef778a16c",
+    "ledger.html": "128cbf1e628b84ad0a70926ef7bdebddd28099d37f4b580a89d82b93c417ff8a",
+    "patterns.html": "4fd0b0b703cdb77d4548037ef186328df75f5310f1c5ebfe37bc07a00626be2a",
     "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html": "8dc3f2d437fcdf1597663fa2af5b166741800be99af19bbc2343e088e96034b9",
     "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html": "57e19dac2188151dc8e98ba83df6be449274bf45fff75e98359e3e042fe2aee6",
     "posts/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.html": "040409364826efbc0bb9a8224886b481ef99145be86878676fd5db3c9c23025a",
-    "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html": "9b40908bb6297de9448516942f7853c131f8b3abccf01b265591bb005d734b88",
+    "posts/2026-06-21-the-shell-bottleneck-starts-before-the-shell.html": "9cad4a7bcebe903deed225087371d943d19ce1589e76c9a389fd2dbb700ab69f",
     "posts/2026-06-21-the-subsea-cable-bottleneck-is-who-can-repair-the-break.html": "b9406a5715fe5cdac3d3c548c9958c2ced46e7d504629478f19d6db66e0a1ee0",
     "posts/2026-06-22-the-engine-shop-is-the-new-gate-on-airline-capacity.html": "d23c2ec334cb33d47d369dad2e6a201296b4d8a8ba9f4156d2ee96ab813dd9a3",
-    "posts/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.html": "ed1b079786dc95a5cf4341f9e40273efc67117a9c26675261a20d6679a15e144",
-    "posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html": "cfa5f15817d3a488a287ba203244e56ab2280defa87abe162d03c2897a35f903",
+    "posts/2026-06-22-the-hospital-capacity-bottleneck-hiding-in-a-bag-of-salt-water.html": "848124fdaa97faa281b8a7c4b7cc2000adef18463f9d002c18898de986298130",
+    "posts/2026-06-23-cancer-s-next-supply-chain-is-a-radioisotope-clock.html": "a706c14af3c755c63299123697336523adf543637205a72cbdfbbdfed747e647",
     "posts/2026-06-23-offshore-wind-s-hidden-gate-is-the-maritime-construction-calendar.html": "4efb7d1562cd1b611a4f6d3514b936484a2ef1ec03ccacdb16c28b65c69ad803",
     "posts/2026-06-23-the-battery-boom-s-fire-gate-is-becoming-a-documentation-market.html": "34c7c67ecd49fa125787d82ceb1e6ec9aba92cd781e0f165b4a4ad409d4be933",
     "posts/2026-06-25-the-pfas-cleanup-clock-runs-through-carbon-kilns.html": "c855ee231cd552e7e7524de783b0dd31f2d0a7ac1277b7297d77fb5c18d6652c",
@@ -1520,7 +1701,7 @@
     "posts/2026-07-01-hospital-wastewater-amr-surveillance-becomes-infection-control-workflow-infrastructure.html": "45d99416edbc9e5d9c9bc87adb95a486f6763bf3a1c0c43cef67288c20acc88e",
     "posts/2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck.html": "402d02fc24f15fcf92a1c91cb874a4ee8d1ec2d23614350ab3f5c6e79979848a",
     "posts/2026-07-02-battery-gigafactory-wastewater-and-water-reuse-permits-become-a-manufacturing-constraint.html": "509034b642c991d23ef62591b02da4c74874a7bc409a72168c32f25d4e9cc703",
-    "posts/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck.html": "b7f614ffb77498da29b08d02c3e0f120f459cf36be283a9af6844712159c72cb",
+    "posts/2026-07-02-green-hydrogen-electrolyzer-feedwater-becomes-an-ultrapure-water-o-m-bottleneck.html": "b406e176edd0c8b69d55760a88f271dc4e07471963654cea08de38e1dee95749",
     "posts/2026-07-02-high-recovery-industrial-water-reuse-and-the-brine-outlet-bottleneck.html": "2d0fa18f4eeb7538fcead29f2365149508b2dabe4dc21dd2434cfa55859ea5b5",
     "posts/2026-07-02-membrane-based-wfi-validation-becomes-the-pharma-version-of-upw-bottleneck.html": "0b4010701361c0fdb0d1013e426fb4e51c5ce466abd9ca0f8b46f8989bc30390",
     "posts/2026-07-02-pfas-micropollutant-resin-regeneration-as-a-residual-handling-analogue-for-upw-and-amr-water-system.html": "83439a022303f43fc92924151ebbc11f2a8430dc6b96d03bc07ad654724b8644",
@@ -1528,18 +1709,18 @@
     "posts/2026-07-02-rapid-ast-value-moves-from-instrument-hardware-to-stewardship-workflow-integration.html": "1d73729ea2d868b038e3d0d8d05071b7e39a9252d81768007dddc909a0a8460c",
     "posts/2026-07-02-source-diffusion-20260629-05-antibiotic-subscription-models-create.html": "9dd449ec544d0adf18739dee9b8616924c6ea174c3623254335f10f2d252428e",
     "posts/2026-07-02-trace-contaminant-online-metrology-becomes-the-gatekeeper-for-reclaimed-water-into-high-spec-manufa.html": "89b46dbd8de6e20693702ed75ade17181abd9d77926b8007a09665a0d0553d8d",
-    "posts/2026-07-03-fluorine-chemistry-s-hidden-control-point.html": "a228494454cb885cc0825507468db1e504f3abac85f6892601d59eed865cc46b",
+    "posts/2026-07-03-fluorine-chemistry-s-hidden-control-point.html": "a5fb125bf83e830462fced77ab6d1b45ef3f40aa0f70e7efc3250d6ed79ba5a2",
     "posts/2026-07-03-fusion-blanket-validation-slots-14-mev-neutron-source-breeder-prototypes-and-post-irradiation-evide.html": "e364dbc8b3418e3f03b614281e19c8335eb5904e696fcb7a53130309fefb0d3d",
     "posts/2026-07-03-fusion-materials-data-standards-and-qualification-database-as-hidden-infrastructure.html": "66787e66a20e5fd39a2713f5a8c9d4d3ad8e8ff60f62ad8da25f55376b96c0ae",
-    "posts/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.html": "1462ae16e864266c077a7621defa2547850ccf7a941fb1938279f55405587154",
+    "posts/2026-07-03-haleu-deconversion-and-fuel-form-handoff-to-fabrication.html": "526469b3c27612c25e4b1b5df2a21984cb34c64ade4692d5c703a0b8fcbc05b3",
     "posts/2026-07-03-haleu-transport-package-certification-and-package-fleet-operations.html": "8373b32afb051014192a2627c086fa87abb77b322790d22ca1e2f851a9bd497f",
     "posts/2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate.html": "fa5c3e311c5156024acf4ac524b3e90e4491fe6f7850837ade39e3f332ddc11f",
-    "posts/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.html": "e3bcd879d5443493affe597f408b5bedb10797a2a88ef346773ed21ef3f7185f",
-    "posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html": "461c04fcc29217cae6f9f145806cd75567f678a9fd43d17295b501b43d093b4c",
+    "posts/2026-07-03-lithium-6-enrichment-as-fusion-s-noncommercial-isotope-plant-gate.html": "66179e03330dd629efd05733acde379f2b4bd13fcf697b8cb54f689f47c30a09",
+    "posts/2026-07-03-stable-isotope-enrichment-the-qualified-materials-bottleneck-behind-fusion-fuel-quantum-silicon-and.html": "ff45c1a34110a71455bce6312a0e1ccd88b1c0a23acce7c3b06112b904923a44",
     "posts/2026-07-03-tritium-closed-loop-fuel-cycle-equipment-as-a-fusion-gate.html": "da352d30eeb96e814a6cc323cd9ab9ff15daf6c805d2673aaa3ac1f08777f303",
     "posts/2026-07-03-tungsten-first-wall-qualification-and-boronization-after-iter-s-beryllium-pivot.html": "cbe68f3f55d5c4c796ee860b2ef60dc9bc5b2ebd4a9c1274e9dbb62d1b4e830d",
     "posts/2026-07-03-uf6-cylinders-are-becoming-a-nuclear-fuel-cycle-control-point.html": "a59ec2e666a50add593753b1bd634120fa4595843746d2baad128de527c1e866",
-    "posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html": "78a9ee5bf402fabf6d149ecb9d888d2482dfb2439f4770f3210344a5946551e9",
+    "posts/2026-07-07-rare-earth-magnets-the-license-gate-is-visible-the-qualification-gate-is-durable.html": "ecf1c4020ff69c86c1d8223661ae9b9c5055c74434fd4d2c3fba8ea4c08f0ced",
     "posts/2026-07-14-genomic-screening-is-turning-into-a-scheduling-problem.html": "002c2f7721e604b2e550a382c5776587351c8d1bbe269a212e266e8d6d0aae83",
     "posts/2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem.html": "607d27f5fc786cc7a845260bcdbc521a6bcafa090740a2eca27a1c8e8ce3e6e1",
     "posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html": "8823293e1956ec3612c1897eb26dc507c410567ed030245e26ddf50cb64fa6cb",
@@ -1556,7 +1737,7 @@
     "posts/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit.html": "44cfee9d381869ee00a0335e18a54f3646ab5f1cf10c78d63b345538af6acef7",
     "posts/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply.html": "01141d59bfa9f45729be9c7b2ab50d2eb02bb0268172084b9a297cb6d2dc6ef8",
     "posts/2026-07-24-the-part-is-becoming-a-governed-production-record.html": "8d8723c95061899664b90ca142eb57051eb4a2c8ad53a78b4e6a8868c95fe7e7",
-    "posts/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.html": "eecc2378d37beedd4499046b4682f4f9d6809f8aea86909a58dbdda8885556d6",
+    "posts/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.html": "6c029da0c6e93dae852dd55d85d6fd09258be8cc2a4e6386cdb5c9f44cc3d403",
     "posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html": "dd6ef9205e1bc9d077f4f387e0358966b6e1710abd7a6462b26fa4c913b29f4d",
     "posts/2026-08-29-the-database-behind-the-debris-truck-is-becoming-the-control-system.html": "3820672673989b00b2cb6de7a550e9e77db42d7960633fd942cfce9fc3c65f92",
     "posts/2026-08-29-the-transformer-shortage-is-also-an-interoperability-problem.html": "ab26bda5a7db819c1b51839e8f28ec38c9fa35cb300048962d94c3108c734427",
@@ -1568,22 +1749,24 @@
     "posts/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem.html": "70d6e90f4e74fe249612d5221eeec46945b50d3103232949e63a04a3006ea839",
     "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html": "ab1a65f97cd4694ee36c4eeafa608a20c7ef9d545e3e0578e0a21490b291de4d",
     "posts/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.html": "94441265cf54b0d3770ec9203da881da4e4d18dded6d78fa4a9dc946f89f2b03",
-    "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html": "8915f650ec3de1c724a1d97854fa3db5ffa7c03520e030ef5b0b9d866257f020",
+    "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html": "f83dd818a12cd44a97f9887570e915cb972f1a4583b79dc98eb4feb6b4940c9e",
     "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html": "a1a43cc24d9641d2dd2ffbfada5612056ccbfd3602b8e1107ba092c532ca6160",
     "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html": "43eb90169b6ae79d03caf84cec103532c85efd0e1ba5f06ebd1d213b04573372",
+    "posts/2026-10-04-robot-vision-is-bought-as-a-supported-system.html": "0e1040d00a1ce312f66df5e33d534550747b9015cbd805326d31680ae410ab25",
+    "posts/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production.html": "e4f34a01a82ddb7ce3e43815128ff4866fe3a25baffc97e532e0d77805db27fc",
     "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html": "eb5fd4207d42494579f586fc0dd53855caadfd15225c8b9c6a2213f2bdcf1268",
     "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html": "0e92e40d9c0535c650ac9e708c7c1785ca4bddf1b0a19b25e99a55966bfc0d1e",
     "privacy.html": "b1234284a5d00575527f5190f9e191b50d11e4b7c5aa738421c941db99beff2b",
-    "publication-data.json": "5f621596ccf42264ff8409e6d9f6ddef4dd81b6953e7f25ae6e7835916c8283d",
+    "publication-data.json": "36d4d78c2b4a71f1ae5022b88989731ae10e808588bbc9ad22657f62a6941b5d",
     "rgraph.js": "eea1c5f6c40f22b809110a0db602fffa932c6e6759aabce7836401d69521092a",
     "site.js": "a4802ab7d88f8a7741080448478fe005fba32448610d08edd9ad65b2a642b31d",
-    "sitemap.xml": "648c38c3e2c5dc651e28828bf4398cbef1e1feefa25ed885e64ef5bb883a43e7",
+    "sitemap.xml": "9ac20788b62b1ba6958a929d5e13692389b7bba80f450216674c929837693532",
     "styles.css": "3c438abf1778e8c96e93713898dc7adb6b7b9754697f1fb2af53c35862a4ef44"
   },
   "profile_contracts": {
     "integrated-v1": "3bf8e6401a1a0d8508dd7e647cda6d9ec7b75c23ef99f43a689be432a17d735a"
   },
-  "proof_sha256": "12a6d0a3e7b2665d47c1036adb5021f5a7596b955ea5419acb36db86dfeea193",
+  "proof_sha256": "4db2956ab3f940eef9f67b52999b388e6e04aef9a6684e8f2140e41d3732d1c3",
   "schema_version": 3,
   "status": "publication-ready"
 }

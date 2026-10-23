@@ -16,6 +16,22 @@
     "excerpt": "A living computer becomes a different product when useful work can survive the replacement of its cells. Transferable calibration could make that transition possible; extracting an algorithm into software could avoid the replacement problem at the customer's end altogether."
   },
   {
+    "title": "Global-Shutter Robot Vision: The Commercial Value Is Moving Into the Qualification Stack",
+    "url": "posts/2026-10-04-robot-vision-is-bought-as-a-supported-system.html",
+    "category": "Report",
+    "date": "2026-10-04",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-04-robot-vision-is-bought-as-a-supported-system-0cc11fba9fcbc9aa.webp",
+    "excerpt": "Commercialization · 2026-10-23 A robot can have the right camera and still lack a supported upgrade path. Universal Robots' AI Accelerator combines an Orbbec Gemini 335Lg with NVIDIA Jetson AGX Orin compute, yet its current instructions keep users on a specific controller-software release. The commercial product is the maintained combination: sensor, camera, connection, software and accepted robot behavior. Each change can reopen work that the buyer thought it had already purchased."
+  },
+  {
+    "title": "Forming the Gearbox: Schaeffler’s Attempt to Move Humanoid Strain-Wave Drives from Precision Machining to High-Volume Forming",
+    "url": "posts/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production.html",
+    "category": "Report",
+    "date": "2026-10-04",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production-c0121e03bcdfa06f.webp",
+    "excerpt": "A cheaper way to shape a precision reducer could shift manufacturing work from repeated cutting into reusable tooling and process control. Schaeffler has the relevant industrial history. The commercial test is whether its new humanoid product wins stable designs, accepted production and repeat orders."
+  },
+  {
     "title": "The Hidden Capacity Constraint in Critical Minerals: Tailings, Water and Environmental Permits",
     "url": "posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html",
     "category": "Report",
