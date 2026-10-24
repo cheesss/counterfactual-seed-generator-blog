@@ -7,18 +7,28 @@
     },
     {
       "path": ".publication-release.json",
-      "sha256": "693646e2fb135405c65fbb8ceca74547696300eb0708f86f8e78d1373fc4167e",
-      "size": 132850
+      "sha256": "878970ee8ea3ee15c1b36b590a2c4cca2d90726ee9558022a50ce1fb8b4f73cf",
+      "size": 151100
     },
     {
       "path": "404.html",
-      "sha256": "98d00eba795c7c21bac28907a0f26d198e67f62a5355443fb759a0bef778a16c",
-      "size": 123280
+      "sha256": "4e7d193c9e5c7bba8186e9b0fd1f52e524dea97a2f75c4d9ac4ea101a7581fd3",
+      "size": 126186
     },
     {
       "path": "about.html",
       "sha256": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
       "size": 4791
+    },
+    {
+      "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
+      "sha256": "3e2868cdac991819d9d7ad6d014c10433a12b8cc1a97d90721029606e3f6b3a8",
+      "size": 83746
+    },
+    {
+      "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "sha256": "898b424d1e3ca740322b8f42cbfea54c4c7be5658642f24c594c68ef19dc3e36",
+      "size": 116206
     },
     {
       "path": "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp",
@@ -369,6 +379,16 @@
       "path": "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp",
       "sha256": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
       "size": 91174
+    },
+    {
+      "path": "assets/og/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.jpg",
+      "sha256": "f7a902518a319478e34152f05aa80da6e214686df8480740adeab5a65c733108",
+      "size": 90412
+    },
+    {
+      "path": "assets/og/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.jpg",
+      "sha256": "63a93d0e81d7df13d0e4aaefd770275bf6f6b6db532676b48c8a472f2c2eed0e",
+      "size": 114887
     },
     {
       "path": "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.jpg",
@@ -727,8 +747,8 @@
     },
     {
       "path": "blog-data.json",
-      "sha256": "233f3a249c64e523bc9b1e1e5770ae23577bff3e139cc1796c9c34cd736561ed",
-      "size": 51095
+      "sha256": "479f78431bc0d88e276ac80966093c6cf447a57aefcae8b4aa6800835cf065b4",
+      "size": 52586
     },
     {
       "path": "disclaimer.html",
@@ -742,28 +762,38 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "5f0cf277dae6506395e24a799932ef31700680f5d34adccbf624ddf6ce1f4e9a",
+      "sha256": "df4c7433362323b2032c51502b3b60bf037f8b0be43b5203b908e5e5f97e7c23",
       "size": 25601
     },
     {
       "path": "image-manifest.json",
-      "sha256": "93095d4d49be8f5fb4a1cd4b83eadd235bf665c74636e4b53d779f31e38387c4",
-      "size": 300752
+      "sha256": "c13c49694239c1ac31ccf693c514bab3192becdb79cf8d85ba09395286da06a8",
+      "size": 308795
     },
     {
       "path": "index.html",
-      "sha256": "98d00eba795c7c21bac28907a0f26d198e67f62a5355443fb759a0bef778a16c",
-      "size": 123280
+      "sha256": "4e7d193c9e5c7bba8186e9b0fd1f52e524dea97a2f75c4d9ac4ea101a7581fd3",
+      "size": 126186
     },
     {
       "path": "ledger.html",
-      "sha256": "128cbf1e628b84ad0a70926ef7bdebddd28099d37f4b580a89d82b93c417ff8a",
-      "size": 85307
+      "sha256": "cfddb6cda39578cc391f78c4f45acb03aee6674f6de1efeade87308543e6a70e",
+      "size": 88072
     },
     {
       "path": "patterns.html",
-      "sha256": "4fd0b0b703cdb77d4548037ef186328df75f5310f1c5ebfe37bc07a00626be2a",
-      "size": 48574
+      "sha256": "27b585ad3aad998a926d0e899f86c11d52b2bedd6fd995803c775c6dbf459b77",
+      "size": 49814
+    },
+    {
+      "path": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
+      "sha256": "73230bd8dc9c7de07850d25ccf8b6b1fd805c04e4dbf2872f6d362292b62c45c",
+      "size": 40849
+    },
+    {
+      "path": "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html",
+      "sha256": "6a7883d3f5bca59bcfd664f6d0f5a0124778791281cfd66a8b28812bcd9df2e6",
+      "size": 43603
     },
     {
       "path": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
@@ -987,8 +1017,8 @@
     },
     {
       "path": "posts/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.html",
-      "sha256": "1f6ecc0459e4f380c2826bb6cf2614fb136fd83fdfb1148bdbe1adab1a918801",
-      "size": 57928
+      "sha256": "3059266809c9655a9c36de64bbf578347ee1420b17cf3cf1d954227cdc952d57",
+      "size": 58203
     },
     {
       "path": "posts/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence.html",
@@ -1057,8 +1087,8 @@
     },
     {
       "path": "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html",
-      "sha256": "ad796349151c6070ecde8e63009a044692bc78084b629b4ff225dcec976916d9",
-      "size": 42562
+      "sha256": "48e7fb0d742b8ca8bec3eaa4d399a23b3bf113ba9d543e98f4628ebd493e80be",
+      "size": 42545
     },
     {
       "path": "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html",
@@ -1097,8 +1127,8 @@
     },
     {
       "path": "posts/2026-10-04-robot-vision-is-bought-as-a-supported-system.html",
-      "sha256": "0e1040d00a1ce312f66df5e33d534550747b9015cbd805326d31680ae410ab25",
-      "size": 39823
+      "sha256": "d27cdc57fa5fe7bb0cbcb3ed93957795cae66682be9af364f0ff66fc72d5c4ec",
+      "size": 39582
     },
     {
       "path": "posts/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production.html",
@@ -1112,8 +1142,8 @@
     },
     {
       "path": "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html",
-      "sha256": "0e92e40d9c0535c650ac9e708c7c1785ca4bddf1b0a19b25e99a55966bfc0d1e",
-      "size": 43338
+      "sha256": "f259226fe6cd732944450526fa58481daaf073d1ba5e834dcf412fff5c735926",
+      "size": 43329
     },
     {
       "path": "privacy.html",
@@ -1122,8 +1152,8 @@
     },
     {
       "path": "publication-data.json",
-      "sha256": "36d4d78c2b4a71f1ae5022b88989731ae10e808588bbc9ad22657f62a6941b5d",
-      "size": 838005
+      "sha256": "1a5ec91ae5016f36b5d3ddc7c4a4de2483dd310750ecf9ce7926af44b84eb17e",
+      "size": 858639
     },
     {
       "path": "rgraph.js",
@@ -1137,8 +1167,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "9ac20788b62b1ba6958a929d5e13692389b7bba80f450216674c929837693532",
-      "size": 12655
+      "sha256": "de9f14226d652256a455d098f7face91afce7d132d49b0d2f0f02e2776ec7fb9",
+      "size": 12988
     },
     {
       "path": "styles.css",

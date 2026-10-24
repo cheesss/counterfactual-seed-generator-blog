@@ -558,5 +558,21 @@
     "date": "2026-06-18",
     "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it-76747e874c471ffe.webp",
     "excerpt": "Ethylene oxide is often discussed as an emissions problem. It is also a capacity problem, but not in the usual industrial sense. A medical-device maker cannot simply buy an empty chamber somewhere else when a sterilizer is constrained. The replacement site, cycle, package, materials, residual testing and regulatory evidence all have to line up. That makes the scarce asset a bundle: permitted chamber time plus a device-specific record that allows the chamber to be used."
+  },
+  {
+    "title": "The Jet-Fuel Mandate Runs Through a Restaurant's Back Door",
+    "url": "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html",
+    "category": "Report",
+    "date": "2026-06-07",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+    "excerpt": "Europe's first mandatory year of sustainable aviation fuel supply shows why refinery capacity alone is an incomplete guide to supply. Mandates increase demand for material that is authentic, eligible and acceptable to an operating plant. Collection, treatment, conversion and delivery each control a different part of that chain."
+  },
+  {
+    "title": "Post-quantum migration needs an owner, not just an algorithm",
+    "url": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
+    "category": "Report",
+    "date": "2026-06-07",
+    "image": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
+    "excerpt": "Post-quantum protection is already reaching users through browser and cloud updates. In a mixed enterprise, the constraint can sit elsewhere: connecting a cryptographic finding to someone authorized to deliver a supported change. That handoff, rather than the inventory file itself, is the stronger candidate for a recurring migration business."
   }
 ]

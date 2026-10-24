@@ -113,12 +113,12 @@
       ]
     },
     {
-      "post_sha256": "0e92e40d9c0535c650ac9e708c7c1785ca4bddf1b0a19b25e99a55966bfc0d1e",
+      "post_sha256": "f259226fe6cd732944450526fa58481daaf073d1ba5e834dcf412fff5c735926",
       "profile": "integrated-v1",
       "quality": {
         "blocking_issue_count": 0,
         "link_health_checked": true,
-        "post_sha256": "0e92e40d9c0535c650ac9e708c7c1785ca4bddf1b0a19b25e99a55966bfc0d1e",
+        "post_sha256": "f259226fe6cd732944450526fa58481daaf073d1ba5e834dcf412fff5c735926",
         "report_sha256": "f88e1011fb4470f63cb7f59c922507d75893630e80f876818c85a697621c5461",
         "review_provenance": {
           "agent_id": "01a145e1-aee2-7dc3-8eef-cb00de14e968",
@@ -160,7 +160,7 @@
       ]
     },
     {
-      "post_sha256": "0e1040d00a1ce312f66df5e33d534550747b9015cbd805326d31680ae410ab25",
+      "post_sha256": "d27cdc57fa5fe7bb0cbcb3ed93957795cae66682be9af364f0ff66fc72d5c4ec",
       "profile": "integrated-v1",
       "quality": {
         "approval_chain": [
@@ -261,7 +261,7 @@
         ],
         "blocking_issue_count": 0,
         "link_health_checked": true,
-        "post_sha256": "0e1040d00a1ce312f66df5e33d534550747b9015cbd805326d31680ae410ab25",
+        "post_sha256": "d27cdc57fa5fe7bb0cbcb3ed93957795cae66682be9af364f0ff66fc72d5c4ec",
         "report_sha256": "694469931af9c85833d93fc73a4cf842e119ad5e62e35126ef345fe58f23ed6f",
         "review_provenance": {
           "agent_id": "01a168b9-511f-7893-a42c-0bb5d6f0bbbb",
@@ -420,12 +420,12 @@
       "slug": "2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself"
     },
     {
-      "post_sha256": "ad796349151c6070ecde8e63009a044692bc78084b629b4ff225dcec976916d9",
+      "post_sha256": "48e7fb0d742b8ca8bec3eaa4d399a23b3bf113ba9d543e98f4628ebd493e80be",
       "profile": "integrated-v1",
       "quality": {
         "blocking_issue_count": 0,
         "link_health_checked": true,
-        "post_sha256": "ad796349151c6070ecde8e63009a044692bc78084b629b4ff225dcec976916d9",
+        "post_sha256": "48e7fb0d742b8ca8bec3eaa4d399a23b3bf113ba9d543e98f4628ebd493e80be",
         "report_sha256": "678a3eb02a9be907c69aa5d1d1a9571ac7401d70ea6f14fedebdab06ff8efdda",
         "review_provenance": {
           "agent_id": "01a1435a-0852-7900-bb1b-a66edc1e848e",
@@ -895,7 +895,7 @@
         "deployed_post_sha256": "4dc66fa2ff420761b0f068d0244b12128d53123bf38b71bb536d881d219099b4",
         "public_content": "unchanged-since-deployment"
       },
-      "post_sha256": "1f6ecc0459e4f380c2826bb6cf2614fb136fd83fdfb1148bdbe1adab1a918801",
+      "post_sha256": "3059266809c9655a9c36de64bbf578347ee1420b17cf3cf1d954227cdc952d57",
       "profile": "legacy-deployed-v1",
       "report_sha256": "9c144018a34001a67f01a3cab17b60c24f2705e7eccb194c4885eac553198993",
       "slug": "2026-07-24-port-electrification-is-becoming-an-operating-system-problem"
@@ -1532,12 +1532,217 @@
       "profile": "legacy-deployed-v1",
       "report_sha256": "960e35d9ffbd1634a538d320e77a2e910bbc70686cb689bc47c24fa5d4ad53f9",
       "slug": "2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it"
+    },
+    {
+      "post_sha256": "6a7883d3f5bca59bcfd664f6d0f5a0124778791281cfd66a8b28812bcd9df2e6",
+      "profile": "integrated-v1",
+      "quality": {
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "6a7883d3f5bca59bcfd664f6d0f5a0124778791281cfd66a8b28812bcd9df2e6",
+        "report_sha256": "280e4cba6e372448198b4f62da6afb990908da82041dc7b898ddab4c5bc55d34",
+        "review_provenance": {
+          "agent_id": "01a16c05-ce8a-7d60-9b1b-0d5e555706f7",
+          "profile": "integrated-v1",
+          "prompt_sha256": "58dd9e43c1dc8079bd4b210061a5d47e6a886fda0c4b73e5e9331ae53a0e5ebd",
+          "raw_sha256": "d75047f585c2e6f6275a98a3d6563a14d6f06c3cb57e322f09efbc5f91718c99",
+          "report_sha256": "280e4cba6e372448198b4f62da6afb990908da82041dc7b898ddab4c5bc55d34",
+          "scope": "integrated-independent-source-review",
+          "section_sha256": "9cc9beada057c4bb9755beb0d49c1f2021a358b642516b152c64036c44aa8b4f",
+          "stage": "independent-review-edit"
+        },
+        "review_scope": "integrated-independent-source-review",
+        "review_sha256": "01b30fd29b70c1615c0f79def009214d36aacaedae2c96b19f9e1dc856add64d",
+        "status": "publishable"
+      },
+      "report_sha256": "280e4cba6e372448198b4f62da6afb990908da82041dc7b898ddab4c5bc55d34",
+      "slug": "2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door",
+      "stages": [
+        {
+          "prompt_sha256": "97860879d234b4ff9eab1e3f611d9f6dd34d47d30d71b5c63339626c7b05c712",
+          "raw_sha256": "664ae807400a697736d1107f48068163d2b4f88320dacf900f18fb74bbfc726f",
+          "section_sha256": "5f1a514ba74fc83621622e1fb784065e70879ee93c2706e1f36db7d09b9ca6c2",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "58dd9e43c1dc8079bd4b210061a5d47e6a886fda0c4b73e5e9331ae53a0e5ebd",
+          "raw_sha256": "d75047f585c2e6f6275a98a3d6563a14d6f06c3cb57e322f09efbc5f91718c99",
+          "section_sha256": "9cc9beada057c4bb9755beb0d49c1f2021a358b642516b152c64036c44aa8b4f",
+          "stage": "independent-review-edit"
+        }
+      ]
+    },
+    {
+      "post_sha256": "73230bd8dc9c7de07850d25ccf8b6b1fd805c04e4dbf2872f6d362292b62c45c",
+      "profile": "integrated-v1",
+      "quality": {
+        "approval_chain": [
+          {
+            "report_sha256": "482ab7c1dd3810c5756c15141d0c26854dd958b5fd04b715a7db783c7a813ff6",
+            "scope": "integrated-independent-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "605773646f9866b9b7a1f2761c538e0dc42dbeb770855eb529fb376a8da56ffd",
+                "raw_sha256": "ab67ad88dd148e03c6c79246c4acd909d71f472679c71bdd1517ef77e9189679",
+                "section_sha256": "5201fbe2bb8ec30ba2f5a283bc7c1c5ce11ace9c87a0b47eb86f2456c97fa79a",
+                "stage": "integrated-research"
+              },
+              {
+                "prompt_sha256": "46fbc67e973ef086fa2c4546816e44fd66cb63049a6c4694c8f1a8fd91423ce5",
+                "raw_sha256": "5a7cadc65398aedccd4c2771db668927f44baa15d8adb926740ee4da24964dcc",
+                "section_sha256": "7be35a8c71e09a281978596ce08eb5857f372ec073f31e772750c53708962e86",
+                "stage": "independent-review-edit"
+              }
+            ]
+          },
+          {
+            "after_sha256": "f867abcdcd1f6dce37f45d6f2a207046d2ed895b0e966899ab53517c12cfb9f1",
+            "before_sha256": "482ab7c1dd3810c5756c15141d0c26854dd958b5fd04b715a7db783c7a813ff6",
+            "changed_claims": [
+              {
+                "after": "NIST certificate 5450 records Luna T7's initial FIPS 140-3 Level 3 validation on July 29, 2026. The approved algorithm list includes ML-DSA and ML-KEM. Its [security policy](https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5450.pdf) identifies firmware 7.15.1 and the tested T7/T7U module configurations.",
+                "before": "[NIST certificate 5450](https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5450) records Luna T7's initial FIPS 140-3 Level 3 validation on July 29, 2026. The approved algorithm list includes ML-DSA and ML-KEM. Its [security policy](https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5450.pdf) identifies firmware 7.15.1 and the tested T7/T7U module configurations.",
+                "id": "C-001",
+                "section": "Codex-Edited Public Column"
+              },
+              {
+                "after": "Module validation: Luna T7, July 2026.",
+                "before": "Module validation: [Luna T7, July 2026](https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5450).",
+                "id": "C-002",
+                "section": "Blog Visual Package"
+              },
+              {
+                "after": "1 of 24 agencies | Fully addressed priority-system inventory activity in [GAO's February 2024-September 2025 audit](https://files.gao.gov/reports/GAO-27-108740/index.html).",
+                "before": "**1 of 24 agencies** fully addressed priority-system inventory activity in [GAO's February 2024-September 2025 audit](https://files.gao.gov/reports/GAO-27-108740/index.html).",
+                "id": "C-003",
+                "section": "Key figures"
+              },
+              {
+                "after": "52% | Cloudflare's early-December 2025 reported share for observed human-generated post-quantum traffic, presented in a [TLS 1.3 chart](https://blog.cloudflare.com/radar-2025-year-in-review/).",
+                "before": "**52%** was Cloudflare's early-December 2025 reported share for observed human-generated post-quantum traffic, presented in a [TLS 1.3 chart](https://blog.cloudflare.com/radar-2025-year-in-review/).",
+                "id": "C-004",
+                "section": "Key figures"
+              },
+              {
+                "after": "2,420-4,627 bytes | Range of raw ML-DSA signature sizes in [RFC 9964, Table 1](https://www.rfc-editor.org/rfc/rfc9964.html).",
+                "before": "**2,420-4,627 bytes** spans the raw ML-DSA signature sizes in [RFC 9964, Table 1](https://www.rfc-editor.org/rfc/rfc9964.html).",
+                "id": "C-005",
+                "section": "Key figures"
+              },
+              {
+                "after": "100 days | Scheduled public TLS certificate validity ceiling from [March 15, 2027](https://cabforum.org/working-groups/server/baseline-requirements/requirements/).",
+                "before": "**100 days** is the scheduled public TLS certificate validity ceiling from [March 15, 2027](https://cabforum.org/working-groups/server/baseline-requirements/requirements/).",
+                "id": "C-006",
+                "section": "Key figures"
+              }
+            ],
+            "grounded_assertions": [],
+            "scope": "artifact-affected-claim-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "14ba31001d3a6249abec3588e8cb9e6158159f6419985ef11981ba424a43bfb2",
+                "raw_sha256": "b5669105bc3da34c532d5f73e032c447379237278778993f8baa6d14724fd244",
+                "section_sha256": "2e8956b58c9cb3fd1beeb5fb55398d6cc678707c7fd90088e6e14def07bf10e5",
+                "stage": "artifact-format-repair"
+              },
+              {
+                "prompt_sha256": "286d1ef0ecd00a5dfe5b97bf48b4a4d6b8643fc674f99eda9cba68f0a423ddfb",
+                "raw_sha256": "d6ee7134824e2d9e9d11142b34fef0045742a834240ff0f65888fbcba2e4b4d1",
+                "section_sha256": "55a8ada979c3c7b9967ecd44afc5e0935358dd3d177571e004800cec7bd3bbf7",
+                "stage": "artifact-claim-review"
+              }
+            ],
+            "verified_claims": [
+              {
+                "after": "NIST certificate 5450 records Luna T7's initial FIPS 140-3 Level 3 validation on July 29, 2026. The approved algorithm list includes ML-DSA and ML-KEM. Its [security policy](https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5450.pdf) identifies firmware 7.15.1 and the tested T7/T7U module configurations.",
+                "before": "[NIST certificate 5450](https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5450) records Luna T7's initial FIPS 140-3 Level 3 validation on July 29, 2026. The approved algorithm list includes ML-DSA and ML-KEM. Its [security policy](https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5450.pdf) identifies firmware 7.15.1 and the tested T7/T7U module configurations.",
+                "change_id": "C-001",
+                "finding": "Supported. The opened NIST certificate identifies Luna T7, FIPS 140-3, overall Level 3, initial validation July 29, 2026, and approved ML-DSA and ML-KEM functions. Its directly linked security policy, https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5450.pdf, printed page 11, Table 2, lists firmware 7.15.1 for both T7 and T7U tested configurations. Direct PDF opening initially failed; following the certificate's Security Policy link succeeded. The certificate URL itself opened successfully, so the earlier 404/410 finding was not reproduced. Removing its hyperlink changes no factual assertion. Validation is configuration-specific, not enclosing-system certification or proof of customer deployment. Only this changed unit was checked.",
+                "source_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5450"
+              },
+              {
+                "after": "Module validation: Luna T7, July 2026.",
+                "before": "Module validation: [Luna T7, July 2026](https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5450).",
+                "change_id": "C-002",
+                "finding": "Supported. The opened NIST record names Luna T7 and dates its initial validation July 29, 2026; targeted native search also returned the official active-module listing with the same certificate, module and date. The changed tile removes a hyperlink without changing the supported milestone. The reported broken-link condition was not reproduced. This establishes module validation only, not customer acceptance, payment or deployment; other diagram tiles were not freshly checked.",
+                "source_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5450"
+              },
+              {
+                "after": "1 of 24 agencies | Fully addressed priority-system inventory activity in [GAO's February 2024-September 2025 audit](https://files.gao.gov/reports/GAO-27-108740/index.html).",
+                "before": "**1 of 24 agencies** fully addressed priority-system inventory activity in [GAO's February 2024-September 2025 audit](https://files.gao.gov/reports/GAO-27-108740/index.html).",
+                "change_id": "C-003",
+                "finding": "Supported. Opened the GAO report and checked the complete-inventory-of-priority-systems subsection: one of 24 agencies fully addressed that activity, one did not and 22 partly did. The methodology states a February 2024-September 2025 performance audit. The value-and-label rewrite preserves the activity-level scope and audit period. This is not a current migration-completion rate or evidence that all preparatory practices were completed. No unrelated GAO findings or unchanged article claims received fresh approval.",
+                "source_url": "https://files.gao.gov/reports/GAO-27-108740/index.html"
+              },
+              {
+                "after": "52% | Cloudflare's early-December 2025 reported share for observed human-generated post-quantum traffic, presented in a [TLS 1.3 chart](https://blog.cloudflare.com/radar-2025-year-in-review/).",
+                "before": "**52%** was Cloudflare's early-December 2025 reported share for observed human-generated post-quantum traffic, presented in a [TLS 1.3 chart](https://blog.cloudflare.com/radar-2025-year-in-review/).",
+                "change_id": "C-004",
+                "finding": "Supported. Checked the opened post-quantum subsection: its heading scopes the measurement to human-generated Web traffic, the text reports 52% in early December 2025, and the chart caption identifies post-quantum-encrypted TLS 1.3 traffic. The rewrite preserves those qualifiers. This is Cloudflare-reported observed traffic, not enterprise counts or whole-estate completion. Text and caption were checked; chart pixels, reproduction rights and the underlying telemetry were not independently audited.",
+                "source_url": "https://blog.cloudflare.com/radar-2025-year-in-review/"
+              },
+              {
+                "after": "2,420-4,627 bytes | Range of raw ML-DSA signature sizes in [RFC 9964, Table 1](https://www.rfc-editor.org/rfc/rfc9964.html).",
+                "before": "**2,420-4,627 bytes** spans the raw ML-DSA signature sizes in [RFC 9964, Table 1](https://www.rfc-editor.org/rfc/rfc9964.html).",
+                "change_id": "C-005",
+                "finding": "Supported. Opened RFC 9964 and checked Table 1: ML-DSA-44, ML-DSA-65 and ML-DSA-87 signatures are respectively 2420, 3309 and 4627 bytes. The stated range is the minimum and maximum of those discrete parameter-set values, not a continuous size option. The label retains raw-signature scope and does not include JOSE/COSE or other protocol overhead. No implementation adoption or unrelated RFC claim was checked.",
+                "source_url": "https://www.rfc-editor.org/rfc/rfc9964.html"
+              },
+              {
+                "after": "100 days | Scheduled public TLS certificate validity ceiling from [March 15, 2027](https://cabforum.org/working-groups/server/baseline-requirements/requirements/).",
+                "before": "**100 days** is the scheduled public TLS certificate validity ceiling from [March 15, 2027](https://cabforum.org/working-groups/server/baseline-requirements/requirements/).",
+                "change_id": "C-006",
+                "finding": "Supported. Opened Baseline Requirements version 2.3.1, dated October 4, 2026, and checked section 6.3.2: in-scope subscriber certificates issued on or after March 15, 2027 and before March 15, 2029 must not exceed 100 days. The rewritten label preserves a scheduled ceiling rather than observed issuance compliance. The scope is publicly trusted TLS server certificates, not private internal PKI, universal law or PQC adoption. This affected schedule claim alone was freshly checked; renderer behavior was not tested.",
+                "source_url": "https://cabforum.org/working-groups/server/baseline-requirements/requirements/"
+              }
+            ]
+          }
+        ],
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "73230bd8dc9c7de07850d25ccf8b6b1fd805c04e4dbf2872f6d362292b62c45c",
+        "report_sha256": "f867abcdcd1f6dce37f45d6f2a207046d2ed895b0e966899ab53517c12cfb9f1",
+        "review_provenance": {
+          "agent_id": "01a16c12-0774-7e70-bbe1-52ae7ff75dfc",
+          "base_state_sha256": "91e4e4b511327ebbceda27df975dc273c0f6dcd018610a70182addcf4657920e",
+          "original_report_sha256": "482ab7c1dd3810c5756c15141d0c26854dd958b5fd04b715a7db783c7a813ff6",
+          "profile": "integrated-v1",
+          "prompt_sha256": "286d1ef0ecd00a5dfe5b97bf48b4a4d6b8643fc674f99eda9cba68f0a423ddfb",
+          "raw_sha256": "d6ee7134824e2d9e9d11142b34fef0045742a834240ff0f65888fbcba2e4b4d1",
+          "repair_chain_sha256": "ed9ea9a3ed88bea084a7adffbcb66573537935d78d15306de0c42888766999eb",
+          "report_sha256": "f867abcdcd1f6dce37f45d6f2a207046d2ed895b0e966899ab53517c12cfb9f1",
+          "scope": "artifact-affected-claim-source-review",
+          "section_sha256": "55a8ada979c3c7b9967ecd44afc5e0935358dd3d177571e004800cec7bd3bbf7",
+          "stage": "artifact-claim-review"
+        },
+        "review_scope": "artifact-affected-claim-source-review",
+        "review_sha256": "984626e1310bd6b1f069f55beaee47ff69d7095777d7a4ffe1e2d3b53b197cf0",
+        "status": "publishable"
+      },
+      "report_sha256": "f867abcdcd1f6dce37f45d6f2a207046d2ed895b0e966899ab53517c12cfb9f1",
+      "slug": "2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm",
+      "stages": [
+        {
+          "prompt_sha256": "605773646f9866b9b7a1f2761c538e0dc42dbeb770855eb529fb376a8da56ffd",
+          "raw_sha256": "ab67ad88dd148e03c6c79246c4acd909d71f472679c71bdd1517ef77e9189679",
+          "section_sha256": "5201fbe2bb8ec30ba2f5a283bc7c1c5ce11ace9c87a0b47eb86f2456c97fa79a",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "46fbc67e973ef086fa2c4546816e44fd66cb63049a6c4694c8f1a8fd91423ce5",
+          "raw_sha256": "5a7cadc65398aedccd4c2771db668927f44baa15d8adb926740ee4da24964dcc",
+          "section_sha256": "7be35a8c71e09a281978596ce08eb5857f372ec073f31e772750c53708962e86",
+          "stage": "independent-review-edit"
+        }
+      ]
     }
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "404.html": "98d00eba795c7c21bac28907a0f26d198e67f62a5355443fb759a0bef778a16c",
+    "404.html": "4e7d193c9e5c7bba8186e9b0fd1f52e524dea97a2f75c4d9ac4ea101a7581fd3",
     "about.html": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
+    "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp": "3e2868cdac991819d9d7ad6d014c10433a12b8cc1a97d90721029606e3f6b3a8",
+    "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp": "898b424d1e3ca740322b8f42cbfea54c4c7be5658642f24c594c68ef19dc3e36",
     "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp": "a39c4e200ba890052fc3cf1d66b2383db3ec3cc3c0b6ced57c339472b3e4dd10",
     "assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-000bb2c40ce70c96.webp": "000bb2c40ce70c96e95a247e24e7f53a3b6ef0a28f008b622fff5ad9fabd5a34",
     "assets/heroes/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault-25a09418461370ee.webp": "25a09418461370ee273bfea78ab4993859a5db1d23c73f2691c7f5247607c9a6",
@@ -1608,6 +1813,8 @@
     "assets/heroes/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production-c0121e03bcdfa06f.webp": "c0121e03bcdfa06f9c41b2606b316826e713e8024859cf40b9389b5045d9ba15",
     "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp": "35dc8e4c9baedf3c2f0d121833060c90798aac45a22b73022b52c7d119658a6f",
     "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
+    "assets/og/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.jpg": "f7a902518a319478e34152f05aa80da6e214686df8480740adeab5a65c733108",
+    "assets/og/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.jpg": "63a93d0e81d7df13d0e4aaefd770275bf6f6b6db532676b48c8a472f2c2eed0e",
     "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.jpg": "fcd22852a3b260036efe7b1d55b007037d39d0e4ab2ed3ee49615d99793c017a",
     "assets/og/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.jpg": "fe4dc77006b1c0567b9a719c52aaa87bbe1586569fe9dd95c3a9a5a844384361",
     "assets/og/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.jpg": "b2d25fa610d18bc32eb5ea624fdd5833397ac86e6b476a0af077e9833cda6c0e",
@@ -1679,13 +1886,15 @@
     "assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg": "f9c2d3c3f03913a0350fcd352205cebbad8a8236bb1b6fa9053e29cefa9d6057",
     "assets/og/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.jpg": "2ff729ce881d125b79b14e91844049ababc9d30b63d343b31f36c1308819f985",
     "assets/site/industrial-port-photo.png": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
-    "blog-data.json": "233f3a249c64e523bc9b1e1e5770ae23577bff3e139cc1796c9c34cd736561ed",
+    "blog-data.json": "479f78431bc0d88e276ac80966093c6cf447a57aefcae8b4aa6800835cf065b4",
     "disclaimer.html": "924749b2dcd25d390d1f978585c6f4adbcb7251de172047e7118b4809b0274a1",
     "favicon.svg": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
-    "feed.xml": "5f0cf277dae6506395e24a799932ef31700680f5d34adccbf624ddf6ce1f4e9a",
-    "index.html": "98d00eba795c7c21bac28907a0f26d198e67f62a5355443fb759a0bef778a16c",
-    "ledger.html": "128cbf1e628b84ad0a70926ef7bdebddd28099d37f4b580a89d82b93c417ff8a",
-    "patterns.html": "4fd0b0b703cdb77d4548037ef186328df75f5310f1c5ebfe37bc07a00626be2a",
+    "feed.xml": "df4c7433362323b2032c51502b3b60bf037f8b0be43b5203b908e5e5f97e7c23",
+    "index.html": "4e7d193c9e5c7bba8186e9b0fd1f52e524dea97a2f75c4d9ac4ea101a7581fd3",
+    "ledger.html": "cfddb6cda39578cc391f78c4f45acb03aee6674f6de1efeade87308543e6a70e",
+    "patterns.html": "27b585ad3aad998a926d0e899f86c11d52b2bedd6fd995803c775c6dbf459b77",
+    "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html": "73230bd8dc9c7de07850d25ccf8b6b1fd805c04e4dbf2872f6d362292b62c45c",
+    "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html": "6a7883d3f5bca59bcfd664f6d0f5a0124778791281cfd66a8b28812bcd9df2e6",
     "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html": "8dc3f2d437fcdf1597663fa2af5b166741800be99af19bbc2343e088e96034b9",
     "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html": "57e19dac2188151dc8e98ba83df6be449274bf45fff75e98359e3e042fe2aee6",
     "posts/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.html": "040409364826efbc0bb9a8224886b481ef99145be86878676fd5db3c9c23025a",
@@ -1730,7 +1939,7 @@
     "posts/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration.html": "77a7ac5a0e52b9bfffcff6cce22bd5cd460c14a16dba8abfd21c440500ea13e3",
     "posts/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market.html": "7fdf868cfd4893540ecab18df2fe4a398b5db3730b3a6207b64b8667528c1879",
     "posts/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path.html": "2886143b298a7bc61e7e53f79d5a4504463c7a82e85c5514e6a8179c1332aac7",
-    "posts/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.html": "1f6ecc0459e4f380c2826bb6cf2614fb136fd83fdfb1148bdbe1adab1a918801",
+    "posts/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.html": "3059266809c9655a9c36de64bbf578347ee1420b17cf3cf1d954227cdc952d57",
     "posts/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence.html": "51788cd50fd6e44d989f5baa505f2ddd8494e9804b18813a3bd14ff9703bcd98",
     "posts/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases.html": "249cadd8531528785b58e04c1704855f018e7bf9a63479597fd77fb519bfc582",
     "posts/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system.html": "a98420b3d6005a503a861c21d83212902e6adffe9c0a66fb59a41dccfcfa76f2",
@@ -1744,7 +1953,7 @@
     "posts/2026-08-29-when-a-weather-forecast-becomes-a-payment-instruction.html": "e7b0af46f83b56cd8cace9fbb6b335451a136a382d3c753ccba1c6788ded476e",
     "posts/2026-08-30-the-hidden-infrastructure-behind-inland-water-reuse.html": "d9655f17561e889aabbd5929a2d76b2e4110623ce1fdeb2d50edbc6ab8d52640",
     "posts/2026-09-24-a-critical-minerals-mine-is-only-as-large-as-its-waste-system.html": "018ba795f9e5b6a0cc7fadb7704ddf870f28c82d1d7608c616b5ccd586f61686",
-    "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html": "ad796349151c6070ecde8e63009a044692bc78084b629b4ff225dcec976916d9",
+    "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html": "48e7fb0d742b8ca8bec3eaa4d399a23b3bf113ba9d543e98f4628ebd493e80be",
     "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html": "a43de985e22deb79f3fc711ecf41d2ddf09a7685968452120a790706de3d8518",
     "posts/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem.html": "70d6e90f4e74fe249612d5221eeec46945b50d3103232949e63a04a3006ea839",
     "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html": "ab1a65f97cd4694ee36c4eeafa608a20c7ef9d545e3e0578e0a21490b291de4d",
@@ -1752,21 +1961,21 @@
     "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html": "f83dd818a12cd44a97f9887570e915cb972f1a4583b79dc98eb4feb6b4940c9e",
     "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html": "a1a43cc24d9641d2dd2ffbfada5612056ccbfd3602b8e1107ba092c532ca6160",
     "posts/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem.html": "43eb90169b6ae79d03caf84cec103532c85efd0e1ba5f06ebd1d213b04573372",
-    "posts/2026-10-04-robot-vision-is-bought-as-a-supported-system.html": "0e1040d00a1ce312f66df5e33d534550747b9015cbd805326d31680ae410ab25",
+    "posts/2026-10-04-robot-vision-is-bought-as-a-supported-system.html": "d27cdc57fa5fe7bb0cbcb3ed93957795cae66682be9af364f0ff66fc72d5c4ec",
     "posts/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production.html": "e4f34a01a82ddb7ce3e43815128ff4866fe3a25baffc97e532e0d77805db27fc",
     "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html": "eb5fd4207d42494579f586fc0dd53855caadfd15225c8b9c6a2213f2bdcf1268",
-    "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html": "0e92e40d9c0535c650ac9e708c7c1785ca4bddf1b0a19b25e99a55966bfc0d1e",
+    "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html": "f259226fe6cd732944450526fa58481daaf073d1ba5e834dcf412fff5c735926",
     "privacy.html": "b1234284a5d00575527f5190f9e191b50d11e4b7c5aa738421c941db99beff2b",
-    "publication-data.json": "36d4d78c2b4a71f1ae5022b88989731ae10e808588bbc9ad22657f62a6941b5d",
+    "publication-data.json": "1a5ec91ae5016f36b5d3ddc7c4a4de2483dd310750ecf9ce7926af44b84eb17e",
     "rgraph.js": "eea1c5f6c40f22b809110a0db602fffa932c6e6759aabce7836401d69521092a",
     "site.js": "a4802ab7d88f8a7741080448478fe005fba32448610d08edd9ad65b2a642b31d",
-    "sitemap.xml": "9ac20788b62b1ba6958a929d5e13692389b7bba80f450216674c929837693532",
+    "sitemap.xml": "de9f14226d652256a455d098f7face91afce7d132d49b0d2f0f02e2776ec7fb9",
     "styles.css": "3c438abf1778e8c96e93713898dc7adb6b7b9754697f1fb2af53c35862a4ef44"
   },
   "profile_contracts": {
     "integrated-v1": "3bf8e6401a1a0d8508dd7e647cda6d9ec7b75c23ef99f43a689be432a17d735a"
   },
-  "proof_sha256": "4db2956ab3f940eef9f67b52999b388e6e04aef9a6684e8f2140e41d3732d1c3",
+  "proof_sha256": "1a4e8908c0524cc83d8d6ec8f89663b78028fe8fa50ae5fd4a2ad755d492c22d",
   "schema_version": 3,
   "status": "publication-ready"
 }
