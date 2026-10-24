@@ -1,21 +1,21 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 70,
-    "data_series": 239,
+    "articles": 72,
+    "data_series": 243,
     "calendar_year_card_candidates_excluded": 6,
     "watch": {
-      "tracked_articles": 57,
-      "signals": 293,
+      "tracked_articles": 59,
+      "signals": 301,
       "resolved": 0,
       "states": {
-        "open": 293,
+        "open": 301,
         "confirmed": 0,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 293
+        "explicit_bullet": 301
       },
       "unstructured_watch_sections": 9,
       "unpublished_prose_candidates": 46
@@ -24,7 +24,7 @@
       "complete_by_sections": 48,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
-        "current-incomplete": 20,
+        "current-incomplete": 22,
         "current-complete": 3,
         "legacy-migration-gap": 2,
         "legacy-complete": 45
@@ -38,7 +38,7 @@
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 50,
+        "constraint": 52,
         "commercialization": 11,
         "disruption": 4,
         "ecosystem-expansion": 5
@@ -50,13 +50,13 @@
         "defense": 4,
         "healthcare": 15,
         "water": 7,
-        "aviation": 1,
+        "aviation": 2,
         "telecom": 2,
         "critical-materials": 2,
         "semiconductors": 1,
         "quantum": 1,
         "neurotechnology": 2,
-        "industrial-software": 3,
+        "industrial-software": 4,
         "logistics": 3,
         "robotics": 2,
         "space": 1,
@@ -73,8 +73,8 @@
         "residual-handling": 5,
         "procurement-risk-transfer": 0,
         "finance-bankability": 0,
-        "software-workflow": 5,
-        "logistics-infrastructure": 2,
+        "software-workflow": 6,
+        "logistics-infrastructure": 3,
         "manufacturing-tooling": 2,
         "standards-interoperability": 4,
         "workforce-capacity": 0,
@@ -441,7 +441,7 @@
           "provenance": {
             "kind": "chart_candidates",
             "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "2023 :: 375.2 :: ; 2024 :: 364.8 :: ; 2025 :: 308.3 ::",
+            "source_text": "2023 :: 375.2 ::; 2024 :: 364.8 ::; 2025 :: 308.3 ::",
             "source_urls": [
               "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0000950170-25-023784/0000950170-25-023784.pdf",
               "https://www.sec.gov/Archives/edgar/data/97210/000119312526127510/2025_ter-ars.pdf",
@@ -482,7 +482,7 @@
           "provenance": {
             "kind": "chart_candidates",
             "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "ZED X Nano :: 399 :: ; ZED X Mini :: 549 :: ; ZED X :: 599 ::",
+            "source_text": "ZED X Nano :: 399 ::; ZED X Mini :: 549 ::; ZED X :: 599 ::",
             "source_urls": [
               "https://www.stereolabs.com/en-kr/store"
             ]
@@ -503,7 +503,7 @@
           "provenance": {
             "kind": "chart_candidates",
             "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "2023 :: 375.2 :: ; 2024 :: 364.8 :: ; 2025 :: 308.3 ::",
+            "source_text": "2023 :: 375.2 ::; 2024 :: 364.8 ::; 2025 :: 308.3 ::",
             "source_urls": [
               "https://investors.teradyne.com/sec-filings/all-sec-filings/content/0000950170-25-023784/0000950170-25-023784.pdf",
               "https://www.sec.gov/Archives/edgar/data/97210/000119312526127510/2025_ter-ars.pdf",
@@ -524,7 +524,7 @@
           "provenance": {
             "kind": "chart_candidates",
             "section": "Blog Visual Package > Chart Candidates",
-            "source_text": "ZED X Nano :: 399 :: ; ZED X Mini :: 549 :: ; ZED X :: 599 ::",
+            "source_text": "ZED X Nano :: 399 ::; ZED X Mini :: 549 ::; ZED X :: 599 ::",
             "source_urls": [
               "https://www.stereolabs.com/en-kr/store"
             ]
@@ -19326,6 +19326,451 @@
       "watch_extraction": {
         "status": "missing",
         "source_heading": "",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door",
+      "slug_source": "publication_registry",
+      "title": "The Jet-Fuel Mandate Runs Through a Restaurant's Back Door",
+      "url": "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html",
+      "date": "2026-06-07",
+      "updated": "2026-10-24",
+      "category": "Report",
+      "sector": {
+        "key": "aviation",
+        "label": "Aviation"
+      },
+      "system_pattern": {
+        "key": "logistics-infrastructure",
+        "label": "Logistics & infrastructure"
+      },
+      "archetype": {
+        "key": "logistics-infrastructure",
+        "label": "Logistics & infrastructure"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "Europe's first mandatory year of sustainable aviation fuel supply shows why refinery capacity alone is an incomplete guide to supply. Mandates increase demand for material that is authentic, eligible and acceptable to an operating plant. Collection, treatment, conversion and delivery each control a different part of that chain.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+        "alt": "Seattle - oil collection can for biodiesel"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [
+        {
+          "metric": "Global SAF production",
+          "points": [
+            {
+              "label": "2024 (estimate)",
+              "value": 1.0,
+              "unit": "million metric tonnes"
+            },
+            {
+              "label": "2025 (estimate)",
+              "value": 1.9,
+              "unit": "million metric tonnes"
+            },
+            {
+              "label": "2026 (forecast)",
+              "value": 2.4,
+              "unit": "million metric tonnes"
+            }
+          ],
+          "headline": {
+            "value": 2.4,
+            "value_text": "2.4",
+            "unit": "million metric tonnes",
+            "metric": "Global SAF production",
+            "point_label": "2026 (forecast)",
+            "display_label": "2026 (forecast) - Global SAF production",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2024 (estimate) :: 1.0 :: million metric tonnes; 2025 (estimate) :: 1.9 :: million metric tonnes; 2026 (forecast) :: 2.4 :: million metric tonnes",
+            "source_urls": [
+              "https://www.iata.org/en/iata-repository/pressroom/presentations/media-briefing-saf-and-net-zero-updates-agm-2026/"
+            ]
+          }
+        },
+        {
+          "metric": "US grease feedstock use",
+          "points": [
+            {
+              "label": "MY 2022/23",
+              "value": 6990.0,
+              "unit": "million pounds"
+            },
+            {
+              "label": "MY 2023/24",
+              "value": 8307.0,
+              "unit": "million pounds"
+            },
+            {
+              "label": "MY 2024/25",
+              "value": 6148.0,
+              "unit": "million pounds"
+            }
+          ],
+          "headline": {
+            "value": 8307.0,
+            "value_text": "8,307",
+            "unit": "million pounds",
+            "metric": "US grease feedstock use",
+            "point_label": "MY 2023/24",
+            "display_label": "MY 2023/24 - US grease feedstock use",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "MY 2022/23 :: 6990 :: million pounds; MY 2023/24 :: 8307 :: million pounds; MY 2024/25 :: 6148 :: million pounds",
+            "source_urls": [
+              "https://ers.usda.gov/sites/default/files/_laserfiche/outlooks/113558/OCS-25l.pdf?v=68939"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 2.4,
+          "value_text": "2.4",
+          "unit": "million metric tonnes",
+          "metric": "Global SAF production",
+          "point_label": "2026 (forecast)",
+          "display_label": "2026 (forecast) - Global SAF production",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2024 (estimate) :: 1.0 :: million metric tonnes; 2025 (estimate) :: 1.9 :: million metric tonnes; 2026 (forecast) :: 2.4 :: million metric tonnes",
+            "source_urls": [
+              "https://www.iata.org/en/iata-repository/pressroom/presentations/media-briefing-saf-and-net-zero-updates-agm-2026/"
+            ]
+          }
+        },
+        {
+          "value": 8307.0,
+          "value_text": "8,307",
+          "unit": "million pounds",
+          "metric": "US grease feedstock use",
+          "point_label": "MY 2023/24",
+          "display_label": "MY 2023/24 - US grease feedstock use",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "MY 2022/23 :: 6990 :: million pounds; MY 2023/24 :: 8307 :: million pounds; MY 2024/25 :: 6148 :: million pounds",
+            "source_urls": [
+              "https://ers.usda.gov/sites/default/files/_laserfiche/outlooks/113558/OCS-25l.pdf?v=68939"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door:watch:c0be5dff552d",
+          "text": "By December 31, 2027: EASA's comparable 2026 origin data settle the sourcing call. Reporting hub.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2027: EASA's comparable 2026 origin data settle the sourcing call. Reporting hub.",
+          "source_url": "https://www.easa.europa.eu/en/domains/environment/refueleu-aviation-digital-reporting-tool",
+          "source_urls": [
+            "https://www.easa.europa.eu/en/domains/environment/refueleu-aviation-digital-reporting-tool"
+          ],
+          "resolve_by": "2027-12-31",
+          "resolve_by_text": "December 31, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door:watch:0a3131e64ed3",
+          "text": "By December 31, 2026: a dated full-close announcement tests LanzaJet's financing schedule; silence leaves it unresolved. Company expectation.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2026: a dated full-close announcement tests LanzaJet's financing schedule; silence leaves it unresolved. Company expectation.",
+          "source_url": "https://www.lanzajet.com/news-insights/lanzajet-secures-financing-to-scale-saf-production-and-supply-global-customers-from-first-of-a-kind-to-commercial-growth",
+          "source_urls": [
+            "https://www.lanzajet.com/news-insights/lanzajet-secures-financing-to-scale-saf-production-and-supply-global-customers-from-first-of-a-kind-to-commercial-growth"
+          ],
+          "resolve_by": "2026-12-31",
+          "resolve_by_text": "December 31, 2026",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door:watch:2b51628c96e6",
+          "text": "By December 31, 2027: Vietnam receipts and consignments establish realized supply from the developing network. Recruitment baseline.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2027: Vietnam receipts and consignments establish realized supply from the developing network. Recruitment baseline.",
+          "source_url": "https://www.fathopesenergy.com/uco-suppliers-vietnam/",
+          "source_urls": [
+            "https://www.fathopesenergy.com/uco-suppliers-vietnam/"
+          ],
+          "resolve_by": "2027-12-31",
+          "resolve_by_text": "December 31, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door:watch:506ede6c9161",
+          "text": "By December 31, 2027: repeated customer deliveries and disclosed run-rates test whether non-lipid plants are becoming routine suppliers. Freedom Pines baseline, ERA ONE baseline.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2027: repeated customer deliveries and disclosed run-rates test whether non-lipid plants are becoming routine suppliers. Freedom Pines baseline, ERA ONE baseline.",
+          "source_url": "https://www.lanzajet.com/news-insights/lanzajet-makes-history",
+          "source_urls": [
+            "https://www.lanzajet.com/news-insights/lanzajet-makes-history",
+            "https://www.ineratec.de/de/news/klm-fuehrt-einen-demonstrationsflug-mit-deutschland-hergestelltem-synthetischem-kerosin-durch"
+          ],
+          "resolve_by": "2027-12-31",
+          "resolve_by_text": "December 31, 2027",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm",
+      "slug_source": "publication_registry",
+      "title": "Post-quantum migration needs an owner, not just an algorithm",
+      "url": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
+      "date": "2026-06-07",
+      "updated": "2026-10-24",
+      "category": "Report",
+      "sector": {
+        "key": "industrial-software",
+        "label": "Industrial software & data"
+      },
+      "system_pattern": {
+        "key": "software-workflow",
+        "label": "Software, data & workflow"
+      },
+      "archetype": {
+        "key": "software-workflow",
+        "label": "Software, data & workflow"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "Post-quantum protection is already reaching users through browser and cloud updates. In a mixed enterprise, the constraint can sit elsewhere: connecting a cryptographic finding to someone authorized to deliver a supported change. That handoff, rather than the inventory file itself, is the stronger candidate for a recurring migration business.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
+        "alt": "NCipher nShield F3 Hardware Security Module"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [
+        {
+          "metric": "Raw ML-DSA object sizes: Public keys",
+          "points": [
+            {
+              "label": "ML-DSA-44",
+              "value": 1312.0,
+              "unit": "bytes"
+            },
+            {
+              "label": "ML-DSA-65",
+              "value": 1952.0,
+              "unit": "bytes"
+            },
+            {
+              "label": "ML-DSA-87",
+              "value": 2592.0,
+              "unit": "bytes"
+            }
+          ],
+          "headline": {
+            "value": 2592.0,
+            "value_text": "2,592",
+            "unit": "bytes",
+            "metric": "Raw ML-DSA object sizes: Public keys",
+            "point_label": "ML-DSA-87",
+            "display_label": "ML-DSA-87 - Raw ML-DSA object sizes: Public keys",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "ML-DSA-44 :: 1312 :: bytes; ML-DSA-65 :: 1952 :: bytes; ML-DSA-87 :: 2592 :: bytes",
+            "source_urls": [
+              "https://www.rfc-editor.org/rfc/rfc9964.html"
+            ]
+          }
+        },
+        {
+          "metric": "Raw ML-DSA object sizes: Signatures",
+          "points": [
+            {
+              "label": "ML-DSA-44",
+              "value": 2420.0,
+              "unit": "bytes"
+            },
+            {
+              "label": "ML-DSA-65",
+              "value": 3309.0,
+              "unit": "bytes"
+            },
+            {
+              "label": "ML-DSA-87",
+              "value": 4627.0,
+              "unit": "bytes"
+            }
+          ],
+          "headline": {
+            "value": 4627.0,
+            "value_text": "4,627",
+            "unit": "bytes",
+            "metric": "Raw ML-DSA object sizes: Signatures",
+            "point_label": "ML-DSA-87",
+            "display_label": "ML-DSA-87 - Raw ML-DSA object sizes: Signatures",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "ML-DSA-44 :: 2420 :: bytes; ML-DSA-65 :: 3309 :: bytes; ML-DSA-87 :: 4627 :: bytes",
+            "source_urls": [
+              "https://www.rfc-editor.org/rfc/rfc9964.html"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 2592.0,
+          "value_text": "2,592",
+          "unit": "bytes",
+          "metric": "Raw ML-DSA object sizes: Public keys",
+          "point_label": "ML-DSA-87",
+          "display_label": "ML-DSA-87 - Raw ML-DSA object sizes: Public keys",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "ML-DSA-44 :: 1312 :: bytes; ML-DSA-65 :: 1952 :: bytes; ML-DSA-87 :: 2592 :: bytes",
+            "source_urls": [
+              "https://www.rfc-editor.org/rfc/rfc9964.html"
+            ]
+          }
+        },
+        {
+          "value": 4627.0,
+          "value_text": "4,627",
+          "unit": "bytes",
+          "metric": "Raw ML-DSA object sizes: Signatures",
+          "point_label": "ML-DSA-87",
+          "display_label": "ML-DSA-87 - Raw ML-DSA object sizes: Signatures",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "ML-DSA-44 :: 2420 :: bytes; ML-DSA-65 :: 3309 :: bytes; ML-DSA-87 :: 4627 :: bytes",
+            "source_urls": [
+              "https://www.rfc-editor.org/rfc/rfc9964.html"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm:watch:0a39595161fc",
+          "text": "By December 31, 2026; base October 24, 2026: a low-confidence forecast that the FAR Council publishes the contractor PQC/FIPS proposal directed by section 6(c). Settle on an actual proposal through the official publication index, rather than an agenda entry.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2026; base October 24, 2026: a low-confidence forecast that the FAR Council publishes the contractor PQC/FIPS proposal directed by section 6(c). Settle on an actual proposal through the official publication index, rather than an agenda entry.",
+          "source_url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "source_urls": [
+            "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+            "https://www.acquisition.gov/requesting_comments"
+          ],
+          "resolve_by": "2026-12-31",
+          "resolve_by_text": "December 31, 2026",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm:watch:e1aeffef2577",
+          "text": "By March 31, 2027; base October 24, 2026: the minimum-CBOM guidance specified in the call.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By March 31, 2027; base October 24, 2026: the minimum-CBOM guidance specified in the call.",
+          "source_url": "",
+          "source_urls": [],
+          "resolve_by": "2027-03-31",
+          "resolve_by_text": "March 31, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm:watch:81107a26a47c",
+          "text": "On March 15, 2027; base October 24, 2026: a medium-confidence forecast that the operative TLS requirements retain the scheduled 100-day ceiling; postponement or superseding scope change falsifies it.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "On March 15, 2027; base October 24, 2026: a medium-confidence forecast that the operative TLS requirements retain the scheduled 100-day ceiling; postponement or superseding scope change falsifies it.",
+          "source_url": "https://cabforum.org/working-groups/server/baseline-requirements/requirements/",
+          "source_urls": [
+            "https://cabforum.org/working-groups/server/baseline-requirements/requirements/"
+          ],
+          "resolve_by": "2027-03-15",
+          "resolve_by_text": "March 15, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm:watch:0ac5412d3485",
+          "text": "Through December 31, 2027; base October 24, 2026: observe named customer acceptance and renewals in the DigiCert and Sectigo migration channels. This is an evidence window, not a prediction of customer wins.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "Through December 31, 2027; base October 24, 2026: observe named customer acceptance and renewals in the DigiCert and Sectigo migration channels. This is an evidence window, not a prediction of customer wins.",
+          "source_url": "https://docs.digicert.com/en/quantum-central/quantum-central-release-notes.html",
+          "source_urls": [
+            "https://docs.digicert.com/en/quantum-central/quantum-central-release-notes.html",
+            "https://www.sectigo.com/resource-library/sectigo-introduces-sectigo-quantum-ready-qspm"
+          ],
+          "resolve_by": "2027-12-31",
+          "resolve_by_text": "December 31, 2027",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
         "unpublished_candidate_count": 0
       }
     }

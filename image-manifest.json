@@ -4,6 +4,22 @@
     {
       "format": "WEBP",
       "height": 900,
+      "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
+      "sha256": "3e2868cdac991819d9d7ad6d014c10433a12b8cc1a97d90721029606e3f6b3a8",
+      "size": 83746,
+      "width": 1600
+    },
+    {
+      "format": "WEBP",
+      "height": 900,
+      "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "sha256": "898b424d1e3ca740322b8f42cbfea54c4c7be5658642f24c594c68ef19dc3e36",
+      "size": 116206,
+      "width": 1600
+    },
+    {
+      "format": "WEBP",
+      "height": 900,
       "path": "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp",
       "sha256": "a39c4e200ba890052fc3cf1d66b2383db3ec3cc3c0b6ced57c339472b3e4dd10",
       "size": 224808,
@@ -560,6 +576,22 @@
       "sha256": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
       "size": 91174,
       "width": 1600
+    },
+    {
+      "format": "JPEG",
+      "height": 630,
+      "path": "assets/og/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.jpg",
+      "sha256": "f7a902518a319478e34152f05aa80da6e214686df8480740adeab5a65c733108",
+      "size": 90412,
+      "width": 1200
+    },
+    {
+      "format": "JPEG",
+      "height": 630,
+      "path": "assets/og/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.jpg",
+      "sha256": "63a93d0e81d7df13d0e4aaefd770275bf6f6b6db532676b48c8a472f2c2eed0e",
+      "size": 114887,
+      "width": 1200
     },
     {
       "format": "JPEG",
@@ -1139,6 +1171,18 @@
     }
   ],
   "references": [
+    {
+      "document": "404.html",
+      "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp"
+    },
+    {
+      "document": "404.html",
+      "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp"
+    },
     {
       "document": "404.html",
       "path": "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp",
@@ -2029,6 +2073,18 @@
     },
     {
       "document": "blog-data.json",
+      "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "surface": "$[70].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp"
+    },
+    {
+      "document": "blog-data.json",
+      "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
+      "surface": "$[71].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp"
+    },
+    {
+      "document": "blog-data.json",
       "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
       "surface": "$[7].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp"
@@ -2056,6 +2112,18 @@
       "path": "assets/site/industrial-port-photo.png",
       "surface": "meta[og:image][content]",
       "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/site/industrial-port-photo.png"
+    },
+    {
+      "document": "index.html",
+      "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp"
+    },
+    {
+      "document": "index.html",
+      "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp"
     },
     {
       "document": "index.html",
@@ -2554,6 +2622,42 @@
       "path": "assets/site/industrial-port-photo.png",
       "surface": "meta[og:image][content]",
       "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/site/industrial-port-photo.png"
+    },
+    {
+      "document": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
+      "path": "favicon.svg",
+      "surface": "link[href]",
+      "url": "../favicon.svg"
+    },
+    {
+      "document": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
+      "path": "assets/og/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.jpg",
+      "surface": "meta[og:image][content]",
+      "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/og/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.jpg"
+    },
+    {
+      "document": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
+      "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
+      "surface": "report-hero:img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp"
+    },
+    {
+      "document": "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html",
+      "path": "favicon.svg",
+      "surface": "link[href]",
+      "url": "../favicon.svg"
+    },
+    {
+      "document": "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html",
+      "path": "assets/og/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.jpg",
+      "surface": "meta[og:image][content]",
+      "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/og/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.jpg"
+    },
+    {
+      "document": "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html",
+      "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "surface": "report-hero:img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp"
     },
     {
       "document": "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html",
@@ -4231,6 +4335,18 @@
     },
     {
       "document": "publication-data.json",
+      "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "surface": "$.articles[70].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp"
+    },
+    {
+      "document": "publication-data.json",
+      "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
+      "surface": "$.articles[71].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp"
+    },
+    {
+      "document": "publication-data.json",
       "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
       "surface": "$.articles[7].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp"
@@ -4249,6 +4365,48 @@
     }
   ],
   "report_heroes": [
+    {
+      "asset_path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
+      "asset_sha256": "3e2868cdac991819d9d7ad6d014c10433a12b8cc1a97d90721029606e3f6b3a8",
+      "report_path": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
+      "slug": "2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm",
+      "sources": [
+        {
+          "document": "blog-data.json",
+          "surface": "$[71].image"
+        },
+        {
+          "document": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
+          "surface": "report-hero:img[src]"
+        },
+        {
+          "document": "publication-data.json",
+          "surface": "$.articles[71].image.url"
+        }
+      ],
+      "title": "Post-quantum migration needs an owner, not just an algorithm"
+    },
+    {
+      "asset_path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "asset_sha256": "898b424d1e3ca740322b8f42cbfea54c4c7be5658642f24c594c68ef19dc3e36",
+      "report_path": "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html",
+      "slug": "2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door",
+      "sources": [
+        {
+          "document": "blog-data.json",
+          "surface": "$[70].image"
+        },
+        {
+          "document": "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html",
+          "surface": "report-hero:img[src]"
+        },
+        {
+          "document": "publication-data.json",
+          "surface": "$.articles[70].image.url"
+        }
+      ],
+      "title": "The Jet-Fuel Mandate Runs Through a Restaurant's Back Door"
+    },
     {
       "asset_path": "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp",
       "asset_sha256": "a39c4e200ba890052fc3cf1d66b2383db3ec3cc3c0b6ced57c339472b3e4dd10",
