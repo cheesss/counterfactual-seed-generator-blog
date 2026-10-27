@@ -4,6 +4,14 @@
     {
       "format": "WEBP",
       "height": 900,
+      "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "sha256": "c7989eec514eb55b982f389fcd72a31c46fce42791d10f9b38b668e0881e83a8",
+      "size": 98430,
+      "width": 1600
+    },
+    {
+      "format": "WEBP",
+      "height": 900,
       "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
       "sha256": "3e2868cdac991819d9d7ad6d014c10433a12b8cc1a97d90721029606e3f6b3a8",
       "size": 83746,
@@ -576,6 +584,14 @@
       "sha256": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
       "size": 91174,
       "width": 1600
+    },
+    {
+      "format": "JPEG",
+      "height": 630,
+      "path": "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg",
+      "sha256": "ba85c688e9aa61cc8ef34b06d8daa9e47071989dd832193093a7f86424cecbef",
+      "size": 121315,
+      "width": 1200
     },
     {
       "format": "JPEG",
@@ -1171,6 +1187,12 @@
     }
   ],
   "references": [
+    {
+      "document": "404.html",
+      "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
+    },
     {
       "document": "404.html",
       "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
@@ -2085,6 +2107,12 @@
     },
     {
       "document": "blog-data.json",
+      "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "surface": "$[72].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
+    },
+    {
+      "document": "blog-data.json",
       "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
       "surface": "$[7].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp"
@@ -2112,6 +2140,12 @@
       "path": "assets/site/industrial-port-photo.png",
       "surface": "meta[og:image][content]",
       "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/site/industrial-port-photo.png"
+    },
+    {
+      "document": "index.html",
+      "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
     },
     {
       "document": "index.html",
@@ -2622,6 +2656,24 @@
       "path": "assets/site/industrial-port-photo.png",
       "surface": "meta[og:image][content]",
       "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/site/industrial-port-photo.png"
+    },
+    {
+      "document": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
+      "path": "favicon.svg",
+      "surface": "link[href]",
+      "url": "../favicon.svg"
+    },
+    {
+      "document": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
+      "path": "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg",
+      "surface": "meta[og:image][content]",
+      "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg"
+    },
+    {
+      "document": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
+      "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "surface": "report-hero:img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
     },
     {
       "document": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
@@ -4347,6 +4399,12 @@
     },
     {
       "document": "publication-data.json",
+      "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "surface": "$.articles[72].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
+    },
+    {
+      "document": "publication-data.json",
       "path": "assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp",
       "surface": "$.articles[7].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-09-24-the-hvac-refrigerant-transition-ran-into-a-cylinder-problem-3f332c0899493328.webp"
@@ -4365,6 +4423,27 @@
     }
   ],
   "report_heroes": [
+    {
+      "asset_path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "asset_sha256": "c7989eec514eb55b982f389fcd72a31c46fce42791d10f9b38b668e0881e83a8",
+      "report_path": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
+      "slug": "2026-06-06-eu-sovereign-cloud-compliance-bottleneck",
+      "sources": [
+        {
+          "document": "blog-data.json",
+          "surface": "$[72].image"
+        },
+        {
+          "document": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
+          "surface": "report-hero:img[src]"
+        },
+        {
+          "document": "publication-data.json",
+          "surface": "$.articles[72].image.url"
+        }
+      ],
+      "title": "EU Sovereign Cloud Compliance Bottleneck"
+    },
     {
       "asset_path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
       "asset_sha256": "3e2868cdac991819d9d7ad6d014c10433a12b8cc1a97d90721029606e3f6b3a8",

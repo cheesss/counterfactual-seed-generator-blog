@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any
 
 RELEASE_FILE = ".publication-release.json"
+DRAFT_VALIDATION_FILE = ".draft-validation.json"
 SCHEMA_VERSION = 1
 PROFILE_SCHEMA_VERSION = 2
 # Schema 3 = schema 2 plus articles carried as unchanged, previously deployed content.
@@ -215,6 +216,8 @@ def artifact_files(site_root: Path) -> dict[str, str]:
 def validate_release(site_root: Path, *, baseline_repo: Path | None = None) -> dict[str, Any]:
     """Reject absent, partial, stale, or mixed-version publication evidence."""
     site_root = site_root.resolve()
+    if (site_root / DRAFT_VALIDATION_FILE).exists():
+        raise ReleaseFailure("private draft validation artifacts cannot authorize publication")
     for name in (RELEASE_FILE, "publication-data.json"):
         if (site_root / name).is_symlink():
             raise ReleaseFailure(f"publication metadata is a symbolic link: {name}")
