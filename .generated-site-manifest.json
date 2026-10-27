@@ -7,18 +7,23 @@
     },
     {
       "path": ".publication-release.json",
-      "sha256": "878970ee8ea3ee15c1b36b590a2c4cca2d90726ee9558022a50ce1fb8b4f73cf",
-      "size": 151100
+      "sha256": "f0fcee4172de97252f78121a86c12bd54fa68b5375e2510640359000b31879c7",
+      "size": 164158
     },
     {
       "path": "404.html",
-      "sha256": "4e7d193c9e5c7bba8186e9b0fd1f52e524dea97a2f75c4d9ac4ea101a7581fd3",
-      "size": 126186
+      "sha256": "aae2c9397bba9063e0634f76c47f93387c502c98004679340279c8e8e1c26790",
+      "size": 127771
     },
     {
       "path": "about.html",
       "sha256": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
       "size": 4791
+    },
+    {
+      "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "sha256": "c7989eec514eb55b982f389fcd72a31c46fce42791d10f9b38b668e0881e83a8",
+      "size": 98430
     },
     {
       "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
@@ -379,6 +384,11 @@
       "path": "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp",
       "sha256": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
       "size": 91174
+    },
+    {
+      "path": "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg",
+      "sha256": "ba85c688e9aa61cc8ef34b06d8daa9e47071989dd832193093a7f86424cecbef",
+      "size": 121315
     },
     {
       "path": "assets/og/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.jpg",
@@ -747,8 +757,8 @@
     },
     {
       "path": "blog-data.json",
-      "sha256": "479f78431bc0d88e276ac80966093c6cf447a57aefcae8b4aa6800835cf065b4",
-      "size": 52586
+      "sha256": "328f5493031d41639042b45331ccbb9b04060731391d459fa820fa2a04c7f490",
+      "size": 53322
     },
     {
       "path": "disclaimer.html",
@@ -762,28 +772,33 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "df4c7433362323b2032c51502b3b60bf037f8b0be43b5203b908e5e5f97e7c23",
+      "sha256": "a6fdbc99d70ae9cbb387ff64ae03b3bd405377abbdb562a5dc97706568829f2f",
       "size": 25601
     },
     {
       "path": "image-manifest.json",
-      "sha256": "c13c49694239c1ac31ccf693c514bab3192becdb79cf8d85ba09395286da06a8",
-      "size": 308795
+      "sha256": "c9787fe746d2d370aee6c518827e18eef499503b95f58c7e298533d2381348ca",
+      "size": 312409
     },
     {
       "path": "index.html",
-      "sha256": "4e7d193c9e5c7bba8186e9b0fd1f52e524dea97a2f75c4d9ac4ea101a7581fd3",
-      "size": 126186
+      "sha256": "aae2c9397bba9063e0634f76c47f93387c502c98004679340279c8e8e1c26790",
+      "size": 127771
     },
     {
       "path": "ledger.html",
-      "sha256": "cfddb6cda39578cc391f78c4f45acb03aee6674f6de1efeade87308543e6a70e",
-      "size": 88072
+      "sha256": "0814745144b0e2c671a89e0e9a5ea5bac7bba80edb482d22102a80696f27a7c5",
+      "size": 91999
     },
     {
       "path": "patterns.html",
-      "sha256": "27b585ad3aad998a926d0e899f86c11d52b2bedd6fd995803c775c6dbf459b77",
-      "size": 49814
+      "sha256": "8eb9025a1f07c02749565d69ec2430eab5b6ec959735cf128568ae4134e11472",
+      "size": 50425
+    },
+    {
+      "path": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
+      "sha256": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
+      "size": 45792
     },
     {
       "path": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
@@ -1147,13 +1162,13 @@
     },
     {
       "path": "privacy.html",
-      "sha256": "b1234284a5d00575527f5190f9e191b50d11e4b7c5aa738421c941db99beff2b",
-      "size": 3072
+      "sha256": "9b1a67460e82618ef082b81124f430a625d0a84de63f10acaa7ebb940aff03cd",
+      "size": 3561
     },
     {
       "path": "publication-data.json",
-      "sha256": "1a5ec91ae5016f36b5d3ddc7c4a4de2483dd310750ecf9ce7926af44b84eb17e",
-      "size": 858639
+      "sha256": "990b0c4093fb376f2774b7ff3287ad5efe97d3c33249e9faa1bcce188bddfd4d",
+      "size": 874694
     },
     {
       "path": "rgraph.js",
@@ -1167,8 +1182,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "de9f14226d652256a455d098f7face91afce7d132d49b0d2f0f02e2776ec7fb9",
-      "size": 12988
+      "sha256": "420f5d795eb515258d8a149c75b5abcbce2977852d92da16ac9b41c23117c582",
+      "size": 13136
     },
     {
       "path": "styles.css",

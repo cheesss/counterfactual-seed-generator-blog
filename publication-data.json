@@ -1,44 +1,44 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 72,
-    "data_series": 243,
+    "articles": 73,
+    "data_series": 247,
     "calendar_year_card_candidates_excluded": 6,
     "watch": {
       "tracked_articles": 59,
       "signals": 301,
-      "resolved": 0,
+      "resolved": 5,
       "states": {
-        "open": 301,
-        "confirmed": 0,
+        "open": 296,
+        "confirmed": 5,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
         "explicit_bullet": 301
       },
-      "unstructured_watch_sections": 9,
-      "unpublished_prose_candidates": 46
+      "unstructured_watch_sections": 10,
+      "unpublished_prose_candidates": 52
     },
     "report_stage": {
       "complete_by_sections": 48,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
-        "current-incomplete": 22,
+        "current-incomplete": 23,
         "current-complete": 3,
         "legacy-migration-gap": 2,
         "legacy-complete": 45
       }
     },
     "outcome_ledger": {
-      "entries": 4,
-      "matched": 0,
+      "entries": 9,
+      "matched": 5,
       "retired": 4,
       "unmatched": []
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 52,
+        "constraint": 53,
         "commercialization": 11,
         "disruption": 4,
         "ecosystem-expansion": 5
@@ -62,7 +62,7 @@
         "space": 1,
         "finance": 3,
         "cross-sector": 1,
-        "other": 1
+        "other": 2
       },
       "system_patterns": {
         "permits": 2,
@@ -79,7 +79,7 @@
         "standards-interoperability": 4,
         "workforce-capacity": 0,
         "demand-formation": 1,
-        "other": 1
+        "other": 2
       }
     }
   },
@@ -4612,8 +4612,14 @@
           "source_urls": [],
           "resolve_by": "2026-09-11",
           "resolve_by_text": "11 September 2026",
-          "state": "open",
-          "settlement": null
+          "state": "confirmed",
+          "settlement": {
+            "signal_id": "2026-07-24-the-cyber-resilience-act-will-be-won-between-releases:watch:b6a0ff95b312",
+            "match": "11 September 2026: ENISA launches a usable production SRP and confirms whether external API access remains unavailable.",
+            "date": "2026-10-25",
+            "note": "ENISA's dated 11 September 2026 release announces deployed initial operating capability and says manufacturers can now submit reports; the Commission and Slovakia's National Security Authority corroborate operation that day. The API branch is unavailable: ENISA explicitly says the initial release provides no reporting API and requires interface submission. This confirms an operational mandatory-reporting launch, not complete functionality, uninterrupted availability, or the broader article thesis.",
+            "source": "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched"
+          }
         },
         {
           "signal_id": "2026-07-24-the-cyber-resilience-act-will-be-won-between-releases:watch:3239faf9ad33",
@@ -7404,8 +7410,14 @@
           "source_urls": [],
           "resolve_by": "2026-09-01",
           "resolve_by_text": "September 1, 2026",
-          "state": "open",
-          "settlement": null
+          "state": "confirmed",
+          "settlement": {
+            "signal_id": "2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time:watch:983410e7b68a",
+            "match": "September 1, 2026 | Oregon publishes revised proposed rules covering fees, training recognition, and premises.",
+            "date": "2026-10-25",
+            "note": "OHA published revised proposed psilocybin rules on September 1, 2026, matching the exact publication checkpoint. Its dated same-day bulletin opened public comment, its rulemaking archive explicitly records the publication date, and the proposed documents cover fees, recognition of other-state-approved facilitator training, and licensed premises. OHA subsequently announced on September 22 that it would not finalize that rulemaking or adopt the fee increases. Confirmation is limited to publication, not adoption, implementation, or the broader supervisor-time thesis.",
+            "source": "https://content.govdelivery.com/accounts/ORHA/bulletins/427e613"
+          }
         },
         {
           "signal_id": "2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time:watch:8bf618799459",
@@ -7559,8 +7571,14 @@
           "source_urls": [],
           "resolve_by": "2026-09-01",
           "resolve_by_text": "September 1, 2026",
-          "state": "open",
-          "settlement": null
+          "state": "confirmed",
+          "settlement": {
+            "signal_id": "2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem:watch:845fafecdbd0",
+            "match": "September 1, 2026: FDA’s prior-knowledge guidance remains draft when the regular comment period closes.",
+            "date": "2026-10-25",
+            "note": "The dated observable is supported: FDA's Federal Register notice set September 1, 2026 as the regular comment deadline for docket FDA-2026-D-1257, and BIO's letter dated that day explicitly comments on the draft guidance. September 3 reporting corroborates its continuing draft status, as does FDA's listing at this check. This confirms only the checkpoint, not the broader industry thesis or successful implementation. The regular deadline did not prohibit later comments.",
+            "source": "https://www.govinfo.gov/content/pkg/FR-2026-06-03/html/2026-11054.htm"
+          }
         },
         {
           "signal_id": "2026-07-14-in-cell-and-gene-therapy-scale-turns-into-a-comparability-problem:watch:cf16c386ef21",
@@ -9359,8 +9377,14 @@
           "source_urls": [],
           "resolve_by": "2026-09-30",
           "resolve_by_text": "September 2026",
-          "state": "open",
-          "settlement": null
+          "state": "confirmed",
+          "settlement": {
+            "signal_id": "2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate:watch:de439e48923e",
+            "match": "September 2026 | Ur-Energy confirms the first loaded-resin shipment from Shirley Basin to Lost Creek.",
+            "date": "2026-10-25",
+            "note": "Confirmed ahead of the September 30 checkpoint, not as a September-dated first shipment. Ur-Energy's August 20, 2026 operating release explicitly announced its first Shirley Basin-to-Lost Creek uranium shipment on August 19, 2026. Its June authorization release and August quarterly filing identify this inter-site transport stream as uranium captured on resin. This settles the company-confirmation observable, not independent verification of receipt, downstream processing, commercial production rates, or groundwater restoration performance.",
+            "source": "https://www.ur-energy.com/investors/news-events/press-releases/detail/410/ur-energy-announces-first-shipment-of-uranium-from-shirley"
+          }
         },
         {
           "signal_id": "2026-07-03-isr-groundwater-restoration-and-class-iii-wellfield-monitoring-as-uranium-mine-ramp-gate:watch:b1f9dc8e285f",
@@ -15537,8 +15561,14 @@
           "source_urls": [],
           "resolve_by": "2026-08-23",
           "resolve_by_text": "August 23, 2026",
-          "state": "open",
-          "settlement": null
+          "state": "confirmed",
+          "settlement": {
+            "signal_id": "2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck:watch:4190326be813",
+            "match": "August 23, 2026: Regulation 2025/179 begins applying unless the EU postpones or amends it.",
+            "date": "2026-10-25",
+            "note": "Confirmed for the legal application-date event: Commission Implementing Regulation (EU) 2025/179 became applicable on 2026-08-23, the original-date branch, not a postponement. A directly opened DG SANTE presentation for the 2026-09-02/2026-09-03 Science Meets Policy conference explicitly states that the regulation was published on 2025-02-03 and was applicable on 2026-08-23; EFSA's event account also recognizes the August milestone. Searches for postponement, amendment, repeal and derogation located no contrary timing instrument. This settles only the legal checkpoint, not actual compliance, routine meat-AMR surveillance coverage, or the article's wider bottleneck thesis.",
+            "source": "https://www.efsa.europa.eu/sites/default/files/2026-09/2.1-plantady.pdf"
+          }
         },
         {
           "signal_id": "2026-07-01-slaughterhouse-and-retail-meat-amr-genomic-monitoring-becomes-a-one-health-testing-bottleneck:watch:45d31f211d5c",
@@ -19772,6 +19802,273 @@
         "status": "explicit_bullets",
         "source_heading": "What to watch",
         "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-06-06-eu-sovereign-cloud-compliance-bottleneck",
+      "slug_source": "publication_registry",
+      "title": "EU Sovereign Cloud Compliance Bottleneck",
+      "url": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
+      "date": "2026-06-06",
+      "updated": "2026-06-06",
+      "category": "Report",
+      "sector": {
+        "key": "other",
+        "label": "Other"
+      },
+      "system_pattern": {
+        "key": "other",
+        "label": "Other constraints"
+      },
+      "archetype": {
+        "key": "other",
+        "label": "Other constraints"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "Europe's sovereign-cloud business is advancing when a buyer can move an application into an acceptable operating environment, rather than merely select a provider with the right label. Qualification opens a purchasing route. The next commercial steps are supplying the required functions, integrating the application, securing customer acceptance and earning repeat operating income.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+        "alt": "Participation of Henna Virkkunen, Executive Vice-President of the European Commission, in the Forum Europe’s 4th European Sovereign Cloud Day (P-070098-00-02)"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [
+        {
+          "metric": "PSN's Recognized Revenue",
+          "points": [
+            {
+              "label": "2023",
+              "value": 78.296499,
+              "unit": "EUR million"
+            },
+            {
+              "label": "2024",
+              "value": 255.546505,
+              "unit": "EUR million"
+            },
+            {
+              "label": "2025",
+              "value": 454.347596,
+              "unit": "EUR million"
+            }
+          ],
+          "headline": {
+            "value": 454.347596,
+            "value_text": "454.35",
+            "unit": "EUR million",
+            "metric": "PSN's Recognized Revenue",
+            "point_label": "2025",
+            "display_label": "2025 - PSN's Recognized Revenue",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2023 :: 78.296499 :: EUR million; 2024 :: 255.546505 :: EUR million; 2025 :: 454.347596 :: EUR million",
+            "source_urls": [
+              "https://www.polostrategiconazionale.it/app/uploads/2025/06/BF2023_completo_PSN_web.pdf",
+              "https://www.polostrategiconazionale.it/app/uploads/2025/06/PSN_Bilancio_esercizio_2024-25-LowRes.pdf",
+              "https://www.polostrategiconazionale.it/app/uploads/2026/07/Libro-PSN-2025.pdf"
+            ]
+          }
+        },
+        {
+          "metric": "PSN's FY2023 Customer-Revenue Composition",
+          "points": [
+            {
+              "label": "Migration, rearchitecting, replatforming and infrastructure operations",
+              "value": 76.817154,
+              "unit": "EUR million"
+            },
+            {
+              "label": "Project coordination",
+              "value": 0.664176,
+              "unit": "EUR million"
+            },
+            {
+              "label": "Remaining customer-revenue categories",
+              "value": 0.815169,
+              "unit": "EUR million"
+            },
+            {
+              "label": "Total customer revenue",
+              "value": 78.296499,
+              "unit": "EUR million"
+            }
+          ],
+          "headline": {
+            "value": 78.296499,
+            "value_text": "78.3",
+            "unit": "EUR million",
+            "metric": "PSN's FY2023 Customer-Revenue Composition",
+            "point_label": "Total customer revenue",
+            "display_label": "Total customer revenue - PSN's FY2023 Customer-Revenue Composition",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Migration, rearchitecting, replatforming and infrastructure operations :: 76.817154 :: EUR million; Project coordination :: 0.664176 :: EUR million; Remaining customer-revenue categories :: 0.815169 :: EUR million; Total customer revenue :: 78.296499 :: EUR million",
+            "source_urls": [
+              "https://www.polostrategiconazionale.it/app/uploads/2025/06/BF2023_completo_PSN_web.pdf"
+            ]
+          }
+        },
+        {
+          "metric": "European Infrastructure-Provider Share",
+          "points": [
+            {
+              "label": "2017",
+              "value": 29.0,
+              "unit": "%"
+            },
+            {
+              "label": "2022",
+              "value": 15.0,
+              "unit": "%"
+            },
+            {
+              "label": "July 2025 publication snapshot, approximate",
+              "value": 15.0,
+              "unit": "%"
+            }
+          ],
+          "headline": {
+            "value": 29.0,
+            "value_text": "29",
+            "unit": "%",
+            "metric": "European Infrastructure-Provider Share",
+            "point_label": "2017",
+            "display_label": "2017 - European Infrastructure-Provider Share",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2017 :: 29 :: percent; 2022 :: 15 :: percent; July 2025 publication snapshot, approximate :: 15 :: percent",
+            "source_urls": [
+              "https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15"
+            ]
+          }
+        },
+        {
+          "metric": "European Sovereign IaaS: February 2026 Vintage",
+          "points": [
+            {
+              "label": "2025 estimate",
+              "value": 6868.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "2026 forecast",
+              "value": 12587.0,
+              "unit": "USD million"
+            },
+            {
+              "label": "2027 forecast",
+              "value": 23118.0,
+              "unit": "USD million"
+            }
+          ],
+          "headline": {
+            "value": 23118.0,
+            "value_text": "23,118",
+            "unit": "USD million",
+            "metric": "European Sovereign IaaS: February 2026 Vintage",
+            "point_label": "2027 forecast",
+            "display_label": "2027 forecast - European Sovereign IaaS: February 2026 Vintage",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2025 estimate :: 6868 :: USD million; 2026 forecast :: 12587 :: USD million; 2027 forecast :: 23118 :: USD million",
+            "source_urls": [
+              "https://www.gartner.com/en/newsroom/press-releases/2026-02-09-gartner-says-worldwide-sovereign-cloud-iaas-spending-will-total-us-dollars-80-billion-in-2026"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 454.347596,
+          "value_text": "454.35",
+          "unit": "EUR million",
+          "metric": "PSN's Recognized Revenue",
+          "point_label": "2025",
+          "display_label": "2025 - PSN's Recognized Revenue",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2023 :: 78.296499 :: EUR million; 2024 :: 255.546505 :: EUR million; 2025 :: 454.347596 :: EUR million",
+            "source_urls": [
+              "https://www.polostrategiconazionale.it/app/uploads/2025/06/BF2023_completo_PSN_web.pdf",
+              "https://www.polostrategiconazionale.it/app/uploads/2025/06/PSN_Bilancio_esercizio_2024-25-LowRes.pdf",
+              "https://www.polostrategiconazionale.it/app/uploads/2026/07/Libro-PSN-2025.pdf"
+            ]
+          }
+        },
+        {
+          "value": 78.296499,
+          "value_text": "78.3",
+          "unit": "EUR million",
+          "metric": "PSN's FY2023 Customer-Revenue Composition",
+          "point_label": "Total customer revenue",
+          "display_label": "Total customer revenue - PSN's FY2023 Customer-Revenue Composition",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "Migration, rearchitecting, replatforming and infrastructure operations :: 76.817154 :: EUR million; Project coordination :: 0.664176 :: EUR million; Remaining customer-revenue categories :: 0.815169 :: EUR million; Total customer revenue :: 78.296499 :: EUR million",
+            "source_urls": [
+              "https://www.polostrategiconazionale.it/app/uploads/2025/06/BF2023_completo_PSN_web.pdf"
+            ]
+          }
+        },
+        {
+          "value": 29.0,
+          "value_text": "29",
+          "unit": "%",
+          "metric": "European Infrastructure-Provider Share",
+          "point_label": "2017",
+          "display_label": "2017 - European Infrastructure-Provider Share",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2017 :: 29 :: percent; 2022 :: 15 :: percent; July 2025 publication snapshot, approximate :: 15 :: percent",
+            "source_urls": [
+              "https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "unstructured_prose",
+        "source_heading": "What To Watch",
+        "unpublished_candidate_count": 6
       }
     }
   ]

@@ -1735,12 +1735,151 @@
           "stage": "independent-review-edit"
         }
       ]
+    },
+    {
+      "post_sha256": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
+      "profile": "integrated-v1",
+      "quality": {
+        "approval_chain": [
+          {
+            "report_sha256": "567a2b4fa631916aa1ff535177480bad6d8b2e339438dfd0795674184c277e7d",
+            "scope": "integrated-independent-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "f4870009674202ef3118e1a2964bde3bdc0d5438bbb112c4a0548b2086b1e282",
+                "raw_sha256": "c1e7f0a0a92b705a6e0bc56510574f5b8950b6d9831deabbd89117013666a577",
+                "section_sha256": "a360d190df4f12eb1bab13c3bdaa53c699416128b7139d912261c0d1415f796a",
+                "stage": "integrated-research"
+              },
+              {
+                "prompt_sha256": "3d9fd30ceed5219d611b5180285c77f39eebd370e64ec0cc7d3819f46622bc50",
+                "raw_sha256": "b0152cc3d76469226947a77e06dfdb476fc456bf9b491b7dc3160739c0dbe3a0",
+                "section_sha256": "72b5b32a2ce972a5e0d6123295d4fd05386481f60fd1f7701d20a9e26adde892",
+                "stage": "independent-review-edit"
+              }
+            ]
+          },
+          {
+            "after_sha256": "17636700ea6152184b651bc2fd6eba76d6f5465dd9e2b3ed52b59c35dea3988d",
+            "before_sha256": "567a2b4fa631916aa1ff535177480bad6d8b2e339438dfd0795674184c277e7d",
+            "changed_claims": [
+              {
+                "after": "EUR 180 million | the combined six-year purchasing ceiling for four EU sovereign-cloud contracts. [Commission award](https://commission.europa.eu/news-and-media/news/commission-advances-cloud-sovereignty-through-strategic-procurement-2026-04-17_en).",
+                "before": "EUR 180 million: the combined six-year purchasing ceiling for four EU sovereign-cloud contracts. [Commission award](https://commission.europa.eu/news-and-media/news/commission-advances-cloud-sovereignty-through-strategic-procurement-2026-04-17_en).",
+                "id": "C-001",
+                "section": "Key figures"
+              },
+              {
+                "after": "EUR 454.35 million | PSN's 2025 revenue, alongside a 2.8% EBITDA margin and EUR 14.57 million net loss. [2025 accounts](https://www.polostrategiconazionale.it/app/uploads/2026/07/Libro-PSN-2025.pdf).",
+                "before": "EUR 454.35 million: PSN's 2025 revenue, alongside a 2.8% EBITDA margin and EUR 14.57 million net loss. [2025 accounts](https://www.polostrategiconazionale.it/app/uploads/2026/07/Libro-PSN-2025.pdf).",
+                "id": "C-002",
+                "section": "Key figures"
+              },
+              {
+                "after": "More than 350 | technical requirements assessed in the Health Data Hub's supplier selection. [Customer announcement](https://www.health-data-hub.fr/actualites/la-plateforme-des-donnees-de-sante-engage-sa-migration-vers-un-cloud-souverain-avec).",
+                "before": "More than 350: technical requirements assessed in the Health Data Hub's supplier selection. [Customer announcement](https://www.health-data-hub.fr/actualites/la-plateforme-des-donnees-de-sante-engage-sa-migration-vers-un-cloud-souverain-avec).",
+                "id": "C-003",
+                "section": "Key figures"
+              },
+              {
+                "after": "Approximately 15% | European providers' infrastructure-cloud share in Synergy's July 2025 publication, covering Europe including the UK. [Synergy research](https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15).",
+                "before": "Approximately 15%: European providers' infrastructure-cloud share in Synergy's July 2025 publication, covering Europe including the UK. [Synergy research](https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15).",
+                "id": "C-004",
+                "section": "Key figures"
+              }
+            ],
+            "grounded_assertions": [],
+            "scope": "artifact-affected-claim-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "8637863fe1e61e61f191186a4559c84e95ea4c4934e62eb6d70e01fb98682f41",
+                "raw_sha256": "95edc0ae43ce896f64ea028afb5acea1c2f9728dfe8009822121e0c727d0551d",
+                "section_sha256": "f0842df11d3b60e4d5a0d5dad7526d451b9b2c4de4a344b341a67b5dd67f8ac0",
+                "stage": "artifact-format-repair"
+              },
+              {
+                "prompt_sha256": "8a196f1d17b64f164aa5df1693c797283388abc75170bd34a0d9efdd6a9fb756",
+                "raw_sha256": "e6dc7b8a98224482b3a0e57ddf00242b1f5bf8526aea3d598979db996c11c69d",
+                "section_sha256": "8035af10c3ef3832fdc2c99999e44ab16bbe8113a551dc0fc94576487ba6307c",
+                "stage": "artifact-claim-review"
+              }
+            ],
+            "verified_claims": [
+              {
+                "after": "EUR 180 million | the combined six-year purchasing ceiling for four EU sovereign-cloud contracts. [Commission award](https://commission.europa.eu/news-and-media/news/commission-advances-cloud-sovereignty-through-strategic-procurement-2026-04-17_en).",
+                "before": "EUR 180 million: the combined six-year purchasing ceiling for four EU sovereign-cloud contracts. [Commission award](https://commission.europa.eu/news-and-media/news/commission-advances-cloud-sovereignty-through-strategic-procurement-2026-04-17_en).",
+                "change_id": "C-001",
+                "finding": "Supported. Opened the Commission's April 17, 2026 primary announcement: it permits Union entities to procure up to EUR 180 million over six years and identifies four awarded contracts. This supports a combined purchasing ceiling, not realized sales. The only candidate change is the value-label separator; the source link and substantive assertion are unchanged. No call-off consumption or other article claims were checked.",
+                "source_url": "https://commission.europa.eu/news-and-media/news/commission-advances-cloud-sovereignty-through-strategic-procurement-2026-04-17_en"
+              },
+              {
+                "after": "EUR 454.35 million | PSN's 2025 revenue, alongside a 2.8% EBITDA margin and EUR 14.57 million net loss. [2025 accounts](https://www.polostrategiconazionale.it/app/uploads/2026/07/Libro-PSN-2025.pdf).",
+                "before": "EUR 454.35 million: PSN's 2025 revenue, alongside a 2.8% EBITDA margin and EUR 14.57 million net loss. [2025 accounts](https://www.polostrategiconazionale.it/app/uploads/2026/07/Libro-PSN-2025.pdf).",
+                "change_id": "C-002",
+                "finding": "Supported by the supplied captured evidence, with limited fresh source retrieval. The primary FY2025 PDF opened and its introductory extracted text reports EUR 454 million revenue and EBITDA exceeding EUR 12 million. Subsequent detailed-table opens/finds timed out or failed, and screenshot calls supplied no inspectable image; therefore the exact underlying amounts were not independently re-read from those tables in this review. Independently recalculated from the packet's captured amounts: EUR 454,347,596 / 1,000,000 rounds to EUR 454.35 million; EUR 12,740,285 / EUR 454,347,596 x 100 = 2.804083...%, rounding to 2.8%; EUR 14,572,632 / 1,000,000 rounds to EUR 14.57 million net loss. These captured facts and the calculations support the unchanged financial assertion, without inheriting the original review verdict. The candidate changes only the separator. No other financial claims were checked.",
+                "source_url": "https://www.polostrategiconazionale.it/app/uploads/2026/07/Libro-PSN-2025.pdf"
+              },
+              {
+                "after": "More than 350 | technical requirements assessed in the Health Data Hub's supplier selection. [Customer announcement](https://www.health-data-hub.fr/actualites/la-plateforme-des-donnees-de-sante-engage-sa-migration-vers-un-cloud-souverain-avec).",
+                "before": "More than 350: technical requirements assessed in the Health Data Hub's supplier selection. [Customer announcement](https://www.health-data-hub.fr/actualites/la-plateforme-des-donnees-de-sante-engage-sa-migration-vers-un-cloud-souverain-avec).",
+                "change_id": "C-003",
+                "finding": "Supported. Opened the customer's April 23, 2026 announcement. Its supplier-selection section identifies more than 350 technical requirements, standardized questionnaires and exchanges, and evaluation of offers against PDS needs. The count concerns requirements used in supplier selection, not migration duration or completed delivery. The candidate changes only the separator and retains the exact source link. No other PDS claims were checked.",
+                "source_url": "https://www.health-data-hub.fr/actualites/la-plateforme-des-donnees-de-sante-engage-sa-migration-vers-un-cloud-souverain-avec"
+              },
+              {
+                "after": "Approximately 15% | European providers' infrastructure-cloud share in Synergy's July 2025 publication, covering Europe including the UK. [Synergy research](https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15).",
+                "before": "Approximately 15%: European providers' infrastructure-cloud share in Synergy's July 2025 publication, covering Europe including the UK. [Synergy research](https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15).",
+                "change_id": "C-004",
+                "finding": "Supported. Opened Synergy's original July 24, 2025 publication. It reports European providers holding around 15% after 2022, defines infrastructure services as IaaS, PaaS and hosted private cloud, and explicitly includes the UK among European markets. The candidate preserves the approximate value, publication vintage and geographical scope; it does not present sovereign-cloud share or a newly measured October 2026 share. Only the separator changes. No later market estimates or other article claims were checked.",
+                "source_url": "https://www.srgresearch.com/articles/european-cloud-providers-local-market-share-now-holds-steady-at-15"
+              }
+            ]
+          }
+        ],
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
+        "report_sha256": "17636700ea6152184b651bc2fd6eba76d6f5465dd9e2b3ed52b59c35dea3988d",
+        "review_provenance": {
+          "agent_id": "01a17d3a-3c0f-7572-9998-5993570e87b9",
+          "base_state_sha256": "6d88d748fc5899eba3ebe3a4b7637c20eb3cbe76c1c7b45e88b64616522a04a9",
+          "original_report_sha256": "567a2b4fa631916aa1ff535177480bad6d8b2e339438dfd0795674184c277e7d",
+          "profile": "integrated-v1",
+          "prompt_sha256": "8a196f1d17b64f164aa5df1693c797283388abc75170bd34a0d9efdd6a9fb756",
+          "raw_sha256": "e6dc7b8a98224482b3a0e57ddf00242b1f5bf8526aea3d598979db996c11c69d",
+          "repair_chain_sha256": "943129d88d12e6462cd09851c85ad6243c61c344f84c01fe72c7b54fe3b6d5f5",
+          "report_sha256": "17636700ea6152184b651bc2fd6eba76d6f5465dd9e2b3ed52b59c35dea3988d",
+          "scope": "artifact-affected-claim-source-review",
+          "section_sha256": "8035af10c3ef3832fdc2c99999e44ab16bbe8113a551dc0fc94576487ba6307c",
+          "stage": "artifact-claim-review"
+        },
+        "review_scope": "artifact-affected-claim-source-review",
+        "review_sha256": "91ee63141af7705418d6bf9123dfc4352527a650ac5ce80b66cc0295ffce1893",
+        "status": "publishable"
+      },
+      "report_sha256": "17636700ea6152184b651bc2fd6eba76d6f5465dd9e2b3ed52b59c35dea3988d",
+      "slug": "2026-06-06-eu-sovereign-cloud-compliance-bottleneck",
+      "stages": [
+        {
+          "prompt_sha256": "f4870009674202ef3118e1a2964bde3bdc0d5438bbb112c4a0548b2086b1e282",
+          "raw_sha256": "c1e7f0a0a92b705a6e0bc56510574f5b8950b6d9831deabbd89117013666a577",
+          "section_sha256": "a360d190df4f12eb1bab13c3bdaa53c699416128b7139d912261c0d1415f796a",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "3d9fd30ceed5219d611b5180285c77f39eebd370e64ec0cc7d3819f46622bc50",
+          "raw_sha256": "b0152cc3d76469226947a77e06dfdb476fc456bf9b491b7dc3160739c0dbe3a0",
+          "section_sha256": "72b5b32a2ce972a5e0d6123295d4fd05386481f60fd1f7701d20a9e26adde892",
+          "stage": "independent-review-edit"
+        }
+      ]
     }
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "404.html": "4e7d193c9e5c7bba8186e9b0fd1f52e524dea97a2f75c4d9ac4ea101a7581fd3",
+    "404.html": "aae2c9397bba9063e0634f76c47f93387c502c98004679340279c8e8e1c26790",
     "about.html": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
+    "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp": "c7989eec514eb55b982f389fcd72a31c46fce42791d10f9b38b668e0881e83a8",
     "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp": "3e2868cdac991819d9d7ad6d014c10433a12b8cc1a97d90721029606e3f6b3a8",
     "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp": "898b424d1e3ca740322b8f42cbfea54c4c7be5658642f24c594c68ef19dc3e36",
     "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp": "a39c4e200ba890052fc3cf1d66b2383db3ec3cc3c0b6ced57c339472b3e4dd10",
@@ -1813,6 +1952,7 @@
     "assets/heroes/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production-c0121e03bcdfa06f.webp": "c0121e03bcdfa06f9c41b2606b316826e713e8024859cf40b9389b5045d9ba15",
     "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp": "35dc8e4c9baedf3c2f0d121833060c90798aac45a22b73022b52c7d119658a6f",
     "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
+    "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg": "ba85c688e9aa61cc8ef34b06d8daa9e47071989dd832193093a7f86424cecbef",
     "assets/og/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.jpg": "f7a902518a319478e34152f05aa80da6e214686df8480740adeab5a65c733108",
     "assets/og/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.jpg": "63a93d0e81d7df13d0e4aaefd770275bf6f6b6db532676b48c8a472f2c2eed0e",
     "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.jpg": "fcd22852a3b260036efe7b1d55b007037d39d0e4ab2ed3ee49615d99793c017a",
@@ -1886,13 +2026,14 @@
     "assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg": "f9c2d3c3f03913a0350fcd352205cebbad8a8236bb1b6fa9053e29cefa9d6057",
     "assets/og/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.jpg": "2ff729ce881d125b79b14e91844049ababc9d30b63d343b31f36c1308819f985",
     "assets/site/industrial-port-photo.png": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
-    "blog-data.json": "479f78431bc0d88e276ac80966093c6cf447a57aefcae8b4aa6800835cf065b4",
+    "blog-data.json": "328f5493031d41639042b45331ccbb9b04060731391d459fa820fa2a04c7f490",
     "disclaimer.html": "924749b2dcd25d390d1f978585c6f4adbcb7251de172047e7118b4809b0274a1",
     "favicon.svg": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
-    "feed.xml": "df4c7433362323b2032c51502b3b60bf037f8b0be43b5203b908e5e5f97e7c23",
-    "index.html": "4e7d193c9e5c7bba8186e9b0fd1f52e524dea97a2f75c4d9ac4ea101a7581fd3",
-    "ledger.html": "cfddb6cda39578cc391f78c4f45acb03aee6674f6de1efeade87308543e6a70e",
-    "patterns.html": "27b585ad3aad998a926d0e899f86c11d52b2bedd6fd995803c775c6dbf459b77",
+    "feed.xml": "a6fdbc99d70ae9cbb387ff64ae03b3bd405377abbdb562a5dc97706568829f2f",
+    "index.html": "aae2c9397bba9063e0634f76c47f93387c502c98004679340279c8e8e1c26790",
+    "ledger.html": "0814745144b0e2c671a89e0e9a5ea5bac7bba80edb482d22102a80696f27a7c5",
+    "patterns.html": "8eb9025a1f07c02749565d69ec2430eab5b6ec959735cf128568ae4134e11472",
+    "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
     "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html": "73230bd8dc9c7de07850d25ccf8b6b1fd805c04e4dbf2872f6d362292b62c45c",
     "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html": "6a7883d3f5bca59bcfd664f6d0f5a0124778791281cfd66a8b28812bcd9df2e6",
     "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html": "8dc3f2d437fcdf1597663fa2af5b166741800be99af19bbc2343e088e96034b9",
@@ -1965,17 +2106,17 @@
     "posts/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production.html": "e4f34a01a82ddb7ce3e43815128ff4866fe3a25baffc97e532e0d77805db27fc",
     "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html": "eb5fd4207d42494579f586fc0dd53855caadfd15225c8b9c6a2213f2bdcf1268",
     "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html": "f259226fe6cd732944450526fa58481daaf073d1ba5e834dcf412fff5c735926",
-    "privacy.html": "b1234284a5d00575527f5190f9e191b50d11e4b7c5aa738421c941db99beff2b",
-    "publication-data.json": "1a5ec91ae5016f36b5d3ddc7c4a4de2483dd310750ecf9ce7926af44b84eb17e",
+    "privacy.html": "9b1a67460e82618ef082b81124f430a625d0a84de63f10acaa7ebb940aff03cd",
+    "publication-data.json": "990b0c4093fb376f2774b7ff3287ad5efe97d3c33249e9faa1bcce188bddfd4d",
     "rgraph.js": "eea1c5f6c40f22b809110a0db602fffa932c6e6759aabce7836401d69521092a",
     "site.js": "a4802ab7d88f8a7741080448478fe005fba32448610d08edd9ad65b2a642b31d",
-    "sitemap.xml": "de9f14226d652256a455d098f7face91afce7d132d49b0d2f0f02e2776ec7fb9",
+    "sitemap.xml": "420f5d795eb515258d8a149c75b5abcbce2977852d92da16ac9b41c23117c582",
     "styles.css": "3c438abf1778e8c96e93713898dc7adb6b7b9754697f1fb2af53c35862a4ef44"
   },
   "profile_contracts": {
     "integrated-v1": "3bf8e6401a1a0d8508dd7e647cda6d9ec7b75c23ef99f43a689be432a17d735a"
   },
-  "proof_sha256": "1a4e8908c0524cc83d8d6ec8f89663b78028fe8fa50ae5fd4a2ad755d492c22d",
+  "proof_sha256": "ff67ff258e260718f6cc3d95e085a92bdd6ca6824f8306fd063be43d59de8981",
   "schema_version": 3,
   "status": "publication-ready"
 }

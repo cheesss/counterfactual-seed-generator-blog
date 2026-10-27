@@ -352,6 +352,8 @@ def _exclusive_selected_og(name: str, selected: dict, proof_files: dict,
 
 def validate_update(site_root: Path, baseline_root: Path) -> dict[str, Any]:
     """Verify selected repairs; preserved articles receive no research attestation."""
+    if (site_root / artifact.DRAFT_VALIDATION_FILE).exists():
+        raise ReleaseFailure("private draft validation artifacts cannot authorize publication")
     try:
         site, baseline = _root(site_root), _root(baseline_root)
         if site == baseline or site in baseline.parents or baseline in site.parents:
