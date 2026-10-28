@@ -20,6 +20,14 @@
     {
       "format": "WEBP",
       "height": 900,
+      "path": "assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp",
+      "sha256": "9092cec4011e30018715ad722839c0998f6a0afc3dc66b0a0824ccc40429b4a4",
+      "size": 84666,
+      "width": 1600
+    },
+    {
+      "format": "WEBP",
+      "height": 900,
       "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
       "sha256": "898b424d1e3ca740322b8f42cbfea54c4c7be5658642f24c594c68ef19dc3e36",
       "size": 116206,
@@ -599,6 +607,14 @@
       "path": "assets/og/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.jpg",
       "sha256": "f7a902518a319478e34152f05aa80da6e214686df8480740adeab5a65c733108",
       "size": 90412,
+      "width": 1200
+    },
+    {
+      "format": "JPEG",
+      "height": 630,
+      "path": "assets/og/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.jpg",
+      "sha256": "0bc0a2b09d89959adaee10216f6c5f3e78ee646340aef4ade57aa635c45c7420",
+      "size": 100444,
       "width": 1200
     },
     {
@@ -1198,6 +1214,12 @@
       "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
       "surface": "img[src]",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp"
+    },
+    {
+      "document": "404.html",
+      "path": "assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp"
     },
     {
       "document": "404.html",
@@ -2095,20 +2117,26 @@
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "path": "assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp",
       "surface": "$[70].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp"
+    },
+    {
+      "document": "blog-data.json",
+      "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "surface": "$[71].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
-      "surface": "$[71].image",
+      "surface": "$[72].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp"
     },
     {
       "document": "blog-data.json",
       "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
-      "surface": "$[72].image",
+      "surface": "$[73].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
     },
     {
@@ -2152,6 +2180,12 @@
       "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
       "surface": "img[src]",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp"
+    },
+    {
+      "document": "index.html",
+      "path": "assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp"
     },
     {
       "document": "index.html",
@@ -2692,6 +2726,24 @@
       "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
       "surface": "report-hero:img[src]",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp"
+    },
+    {
+      "document": "posts/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.html",
+      "path": "favicon.svg",
+      "surface": "link[href]",
+      "url": "../favicon.svg"
+    },
+    {
+      "document": "posts/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.html",
+      "path": "assets/og/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.jpg",
+      "surface": "meta[og:image][content]",
+      "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/og/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.jpg"
+    },
+    {
+      "document": "posts/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.html",
+      "path": "assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp",
+      "surface": "report-hero:img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp"
     },
     {
       "document": "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html",
@@ -4387,20 +4439,26 @@
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "path": "assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp",
       "surface": "$.articles[70].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp"
+    },
+    {
+      "document": "publication-data.json",
+      "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
+      "surface": "$.articles[71].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
-      "surface": "$.articles[71].image.url",
+      "surface": "$.articles[72].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp"
     },
     {
       "document": "publication-data.json",
       "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
-      "surface": "$.articles[72].image.url",
+      "surface": "$.articles[73].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
     },
     {
@@ -4431,7 +4489,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[72].image"
+          "surface": "$[73].image"
         },
         {
           "document": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
@@ -4439,7 +4497,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[72].image.url"
+          "surface": "$.articles[73].image.url"
         }
       ],
       "title": "EU Sovereign Cloud Compliance Bottleneck"
@@ -4452,7 +4510,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[71].image"
+          "surface": "$[72].image"
         },
         {
           "document": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
@@ -4460,10 +4518,31 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[71].image.url"
+          "surface": "$.articles[72].image.url"
         }
       ],
       "title": "Post-quantum migration needs an owner, not just an algorithm"
+    },
+    {
+      "asset_path": "assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp",
+      "asset_sha256": "9092cec4011e30018715ad722839c0998f6a0afc3dc66b0a0824ccc40429b4a4",
+      "report_path": "posts/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.html",
+      "slug": "2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories",
+      "sources": [
+        {
+          "document": "blog-data.json",
+          "surface": "$[70].image"
+        },
+        {
+          "document": "posts/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.html",
+          "surface": "report-hero:img[src]"
+        },
+        {
+          "document": "publication-data.json",
+          "surface": "$.articles[70].image.url"
+        }
+      ],
+      "title": "The customer test for new rare-earth magnet factories"
     },
     {
       "asset_path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
@@ -4473,7 +4552,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[70].image"
+          "surface": "$[71].image"
         },
         {
           "document": "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html",
@@ -4481,7 +4560,7 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[70].image.url"
+          "surface": "$.articles[71].image.url"
         }
       ],
       "title": "The Jet-Fuel Mandate Runs Through a Restaurant's Back Door"

@@ -1534,6 +1534,45 @@
       "slug": "2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it"
     },
     {
+      "post_sha256": "1a30bb4071609d68e88b078adc2d3e9e1f1f4e6d56850da61869094b043a9a3a",
+      "profile": "integrated-v1",
+      "quality": {
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "1a30bb4071609d68e88b078adc2d3e9e1f1f4e6d56850da61869094b043a9a3a",
+        "report_sha256": "3ffed0c9713119c3767d3c60fc45f849a61b4a36290be9e46425370e296982fb",
+        "review_provenance": {
+          "agent_id": "01a18374-c2f1-7481-b7e1-d757903778a5",
+          "profile": "integrated-v1",
+          "prompt_sha256": "0bc6515c9b60c0afd923f528deb9568dcae1dfc8f11840247077169cddb2b848",
+          "raw_sha256": "09d526bb4e0a0cf3701f2fb99ba032ebd8703c1902024f2f6e11c06586529870",
+          "report_sha256": "3ffed0c9713119c3767d3c60fc45f849a61b4a36290be9e46425370e296982fb",
+          "scope": "integrated-independent-source-review",
+          "section_sha256": "2995fe66a1832a5afa75a9e3ac891a75c7694046ac6e3f7b46093a3edaa76710",
+          "stage": "independent-review-edit"
+        },
+        "review_scope": "integrated-independent-source-review",
+        "review_sha256": "a7b0a3862852b6d07d7120b7b1f107cfb176f585d62fbb996e47e23f1b9f05a6",
+        "status": "publishable"
+      },
+      "report_sha256": "3ffed0c9713119c3767d3c60fc45f849a61b4a36290be9e46425370e296982fb",
+      "slug": "2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories",
+      "stages": [
+        {
+          "prompt_sha256": "700051be20d91ebd171a821a53e4ec0eeb986bf8201b4a5f4d29c256949e7d21",
+          "raw_sha256": "61de59f961c744ffae8f5744014f8b530156ce3da4d720665a131ed377a4d2e2",
+          "section_sha256": "b7c5d83c8746da1a1307fc70fad4698584300f148e99775083478bcf576b262c",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "0bc6515c9b60c0afd923f528deb9568dcae1dfc8f11840247077169cddb2b848",
+          "raw_sha256": "09d526bb4e0a0cf3701f2fb99ba032ebd8703c1902024f2f6e11c06586529870",
+          "section_sha256": "2995fe66a1832a5afa75a9e3ac891a75c7694046ac6e3f7b46093a3edaa76710",
+          "stage": "independent-review-edit"
+        }
+      ]
+    },
+    {
       "post_sha256": "6a7883d3f5bca59bcfd664f6d0f5a0124778791281cfd66a8b28812bcd9df2e6",
       "profile": "integrated-v1",
       "quality": {
@@ -1877,10 +1916,11 @@
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "404.html": "aae2c9397bba9063e0634f76c47f93387c502c98004679340279c8e8e1c26790",
+    "404.html": "b69c23b54ce1528ff940a5a053552b156399e1e4c855135032e345264acbab49",
     "about.html": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
     "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp": "c7989eec514eb55b982f389fcd72a31c46fce42791d10f9b38b668e0881e83a8",
     "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp": "3e2868cdac991819d9d7ad6d014c10433a12b8cc1a97d90721029606e3f6b3a8",
+    "assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp": "9092cec4011e30018715ad722839c0998f6a0afc3dc66b0a0824ccc40429b4a4",
     "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp": "898b424d1e3ca740322b8f42cbfea54c4c7be5658642f24c594c68ef19dc3e36",
     "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp": "a39c4e200ba890052fc3cf1d66b2383db3ec3cc3c0b6ced57c339472b3e4dd10",
     "assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-000bb2c40ce70c96.webp": "000bb2c40ce70c96e95a247e24e7f53a3b6ef0a28f008b622fff5ad9fabd5a34",
@@ -1954,6 +1994,7 @@
     "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
     "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg": "ba85c688e9aa61cc8ef34b06d8daa9e47071989dd832193093a7f86424cecbef",
     "assets/og/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.jpg": "f7a902518a319478e34152f05aa80da6e214686df8480740adeab5a65c733108",
+    "assets/og/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.jpg": "0bc0a2b09d89959adaee10216f6c5f3e78ee646340aef4ade57aa635c45c7420",
     "assets/og/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.jpg": "63a93d0e81d7df13d0e4aaefd770275bf6f6b6db532676b48c8a472f2c2eed0e",
     "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.jpg": "fcd22852a3b260036efe7b1d55b007037d39d0e4ab2ed3ee49615d99793c017a",
     "assets/og/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.jpg": "fe4dc77006b1c0567b9a719c52aaa87bbe1586569fe9dd95c3a9a5a844384361",
@@ -2026,15 +2067,16 @@
     "assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg": "f9c2d3c3f03913a0350fcd352205cebbad8a8236bb1b6fa9053e29cefa9d6057",
     "assets/og/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.jpg": "2ff729ce881d125b79b14e91844049ababc9d30b63d343b31f36c1308819f985",
     "assets/site/industrial-port-photo.png": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
-    "blog-data.json": "328f5493031d41639042b45331ccbb9b04060731391d459fa820fa2a04c7f490",
+    "blog-data.json": "3d11f89e3a61710054efcad516ba5462a5fdc3f8dc982303932f6d8abce45c3e",
     "disclaimer.html": "924749b2dcd25d390d1f978585c6f4adbcb7251de172047e7118b4809b0274a1",
     "favicon.svg": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
-    "feed.xml": "a6fdbc99d70ae9cbb387ff64ae03b3bd405377abbdb562a5dc97706568829f2f",
-    "index.html": "aae2c9397bba9063e0634f76c47f93387c502c98004679340279c8e8e1c26790",
+    "feed.xml": "b1aa549a4b13fb611dafac4a70ad85d397899722aed0d5114c5f7e639e293fce",
+    "index.html": "b69c23b54ce1528ff940a5a053552b156399e1e4c855135032e345264acbab49",
     "ledger.html": "0814745144b0e2c671a89e0e9a5ea5bac7bba80edb482d22102a80696f27a7c5",
-    "patterns.html": "8eb9025a1f07c02749565d69ec2430eab5b6ec959735cf128568ae4134e11472",
+    "patterns.html": "c96f87b54a4106a5200d6d61d171fe022c64a6c72f0c646a158882da429a1e18",
     "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
     "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html": "73230bd8dc9c7de07850d25ccf8b6b1fd805c04e4dbf2872f6d362292b62c45c",
+    "posts/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.html": "1a30bb4071609d68e88b078adc2d3e9e1f1f4e6d56850da61869094b043a9a3a",
     "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html": "6a7883d3f5bca59bcfd664f6d0f5a0124778791281cfd66a8b28812bcd9df2e6",
     "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html": "8dc3f2d437fcdf1597663fa2af5b166741800be99af19bbc2343e088e96034b9",
     "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html": "57e19dac2188151dc8e98ba83df6be449274bf45fff75e98359e3e042fe2aee6",
@@ -2107,16 +2149,16 @@
     "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html": "eb5fd4207d42494579f586fc0dd53855caadfd15225c8b9c6a2213f2bdcf1268",
     "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html": "f259226fe6cd732944450526fa58481daaf073d1ba5e834dcf412fff5c735926",
     "privacy.html": "9b1a67460e82618ef082b81124f430a625d0a84de63f10acaa7ebb940aff03cd",
-    "publication-data.json": "990b0c4093fb376f2774b7ff3287ad5efe97d3c33249e9faa1bcce188bddfd4d",
+    "publication-data.json": "6506055cfa3706286f3b5df9b501bd5851c8884f9a763b969cd5149cd693bea8",
     "rgraph.js": "eea1c5f6c40f22b809110a0db602fffa932c6e6759aabce7836401d69521092a",
     "site.js": "a4802ab7d88f8a7741080448478fe005fba32448610d08edd9ad65b2a642b31d",
-    "sitemap.xml": "420f5d795eb515258d8a149c75b5abcbce2977852d92da16ac9b41c23117c582",
+    "sitemap.xml": "408406155487996f20dfd4c1997867186dbf1609b9a6ba9d2427b8f2b0a8617a",
     "styles.css": "3c438abf1778e8c96e93713898dc7adb6b7b9754697f1fb2af53c35862a4ef44"
   },
   "profile_contracts": {
     "integrated-v1": "3bf8e6401a1a0d8508dd7e647cda6d9ec7b75c23ef99f43a689be432a17d735a"
   },
-  "proof_sha256": "ff67ff258e260718f6cc3d95e085a92bdd6ca6824f8306fd063be43d59de8981",
+  "proof_sha256": "95b7ae59ad01e9c4b7012e2b1ce6797e4736993e83cdf73f7ec343c49f788cf0",
   "schema_version": 3,
   "status": "publication-ready"
 }

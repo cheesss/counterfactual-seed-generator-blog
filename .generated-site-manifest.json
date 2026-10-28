@@ -7,13 +7,13 @@
     },
     {
       "path": ".publication-release.json",
-      "sha256": "f0fcee4172de97252f78121a86c12bd54fa68b5375e2510640359000b31879c7",
-      "size": 164158
+      "sha256": "b1d5140454a50ff5586046795d8f9ecd1dc471201be960b2aef4c2dcbbccd27e",
+      "size": 166764
     },
     {
       "path": "404.html",
-      "sha256": "aae2c9397bba9063e0634f76c47f93387c502c98004679340279c8e8e1c26790",
-      "size": 127771
+      "sha256": "b69c23b54ce1528ff940a5a053552b156399e1e4c855135032e345264acbab49",
+      "size": 128938
     },
     {
       "path": "about.html",
@@ -29,6 +29,11 @@
       "path": "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp",
       "sha256": "3e2868cdac991819d9d7ad6d014c10433a12b8cc1a97d90721029606e3f6b3a8",
       "size": 83746
+    },
+    {
+      "path": "assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp",
+      "sha256": "9092cec4011e30018715ad722839c0998f6a0afc3dc66b0a0824ccc40429b4a4",
+      "size": 84666
     },
     {
       "path": "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp",
@@ -396,6 +401,11 @@
       "size": 90412
     },
     {
+      "path": "assets/og/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.jpg",
+      "sha256": "0bc0a2b09d89959adaee10216f6c5f3e78ee646340aef4ade57aa635c45c7420",
+      "size": 100444
+    },
+    {
       "path": "assets/og/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.jpg",
       "sha256": "63a93d0e81d7df13d0e4aaefd770275bf6f6b6db532676b48c8a472f2c2eed0e",
       "size": 114887
@@ -757,8 +767,8 @@
     },
     {
       "path": "blog-data.json",
-      "sha256": "328f5493031d41639042b45331ccbb9b04060731391d459fa820fa2a04c7f490",
-      "size": 53322
+      "sha256": "3d11f89e3a61710054efcad516ba5462a5fdc3f8dc982303932f6d8abce45c3e",
+      "size": 54043
     },
     {
       "path": "disclaimer.html",
@@ -772,18 +782,18 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "a6fdbc99d70ae9cbb387ff64ae03b3bd405377abbdb562a5dc97706568829f2f",
+      "sha256": "b1aa549a4b13fb611dafac4a70ad85d397899722aed0d5114c5f7e639e293fce",
       "size": 25601
     },
     {
       "path": "image-manifest.json",
-      "sha256": "c9787fe746d2d370aee6c518827e18eef499503b95f58c7e298533d2381348ca",
-      "size": 312409
+      "sha256": "a810160eb1fd0a2e7c4711853de577d8f01f4aa6ebbd79cc5719a512b26c9b60",
+      "size": 316309
     },
     {
       "path": "index.html",
-      "sha256": "aae2c9397bba9063e0634f76c47f93387c502c98004679340279c8e8e1c26790",
-      "size": 127771
+      "sha256": "b69c23b54ce1528ff940a5a053552b156399e1e4c855135032e345264acbab49",
+      "size": 128938
     },
     {
       "path": "ledger.html",
@@ -792,8 +802,8 @@
     },
     {
       "path": "patterns.html",
-      "sha256": "8eb9025a1f07c02749565d69ec2430eab5b6ec959735cf128568ae4134e11472",
-      "size": 50425
+      "sha256": "c96f87b54a4106a5200d6d61d171fe022c64a6c72f0c646a158882da429a1e18",
+      "size": 51041
     },
     {
       "path": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
@@ -804,6 +814,11 @@
       "path": "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html",
       "sha256": "73230bd8dc9c7de07850d25ccf8b6b1fd805c04e4dbf2872f6d362292b62c45c",
       "size": 40849
+    },
+    {
+      "path": "posts/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.html",
+      "sha256": "1a30bb4071609d68e88b078adc2d3e9e1f1f4e6d56850da61869094b043a9a3a",
+      "size": 34783
     },
     {
       "path": "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html",
@@ -1167,8 +1182,8 @@
     },
     {
       "path": "publication-data.json",
-      "sha256": "990b0c4093fb376f2774b7ff3287ad5efe97d3c33249e9faa1bcce188bddfd4d",
-      "size": 874694
+      "sha256": "6506055cfa3706286f3b5df9b501bd5851c8884f9a763b969cd5149cd693bea8",
+      "size": 876467
     },
     {
       "path": "rgraph.js",
@@ -1182,8 +1197,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "420f5d795eb515258d8a149c75b5abcbce2977852d92da16ac9b41c23117c582",
-      "size": 13136
+      "sha256": "408406155487996f20dfd4c1997867186dbf1609b9a6ba9d2427b8f2b0a8617a",
+      "size": 13297
     },
     {
       "path": "styles.css",
