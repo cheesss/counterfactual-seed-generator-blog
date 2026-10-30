@@ -1573,6 +1573,170 @@
       ]
     },
     {
+      "post_sha256": "dd33b04a345153c5fc7cf945804d31dd3408e16d41bc4a1c6c97a0252db46c5f",
+      "profile": "integrated-v1",
+      "quality": {
+        "approval_chain": [
+          {
+            "report_sha256": "b87470af75c01f6f566dd7d2ac99354b7479572afbdcfaf2afc1846c53f0b449",
+            "scope": "integrated-independent-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "49da10fc960abfa0ae12a35f75b0c242fcf4f3f6a02f76b1198982f61e9bbab6",
+                "raw_sha256": "cde5b1634a432e3cd0fe11c656b765823be8ea5012bf900b4bb8cc43954de782",
+                "section_sha256": "ea58e6d013980a04bb7c99171a15ff0b07054bde97b0bf9f889d983b64b2c6de",
+                "stage": "integrated-research"
+              },
+              {
+                "prompt_sha256": "da181b268cf0df4100651e175194ccfd445afe48f1533a7cc2dd79007d284b1c",
+                "raw_sha256": "e7d5531e2b7048b0fe01a1411d27d41f4fc66c544c0abaac1817286970f5ece1",
+                "section_sha256": "e84f076f08e6d96e0ace94e9aa44ef9411dc04d4bb2ba16072a731575fe53e96",
+                "stage": "independent-review-edit"
+              }
+            ]
+          },
+          {
+            "after_sha256": "bffc2038c17a902961036403afda1712571327c575e37c7fe857de23d197622e",
+            "before_sha256": "b87470af75c01f6f566dd7d2ac99354b7479572afbdcfaf2afc1846c53f0b449",
+            "changed_claims": [
+              {
+                "after": "Recurring supplier-evidence work is an operating customer workflow at Brooks.",
+                "before": "Supplier evidence is becoming a maintained service, combining software, testing, integration and assurance.",
+                "id": "C-001",
+                "section": "In brief"
+              },
+              {
+                "after": "Victoria's Secret uses separate documentary, audit and laboratory services.",
+                "before": "Reusable evidence can help alternative suppliers compete; buyer-specific paperwork can favor incumbents.",
+                "id": "C-002",
+                "section": "In brief"
+              },
+              {
+                "after": "Volvo's current customer page identifies EX90 and ES90 passport availability.",
+                "before": "Battery passports turn some supply-chain records into customer-facing product features.",
+                "id": "C-003",
+                "section": "In brief"
+              },
+              {
+                "after": "285 samples, 40 mills | Abercrombie & Fitch's 2025 Oritain cotton-testing program. [Customer metrics](https://corporate.abercrombie.com/sustainability-progress/)",
+                "before": "**285 samples, 40 mills:** Abercrombie & Fitch's 2025 Oritain cotton-testing program. [Customer metrics](https://corporate.abercrombie.com/sustainability-progress/)",
+                "id": "C-004",
+                "section": "Key figures"
+              },
+              {
+                "after": "GBP135.8 million | Intertek Corporate Assurance revenue in July-September 2026. [Trading statement](https://www.intertek.com/siteassets/investors/2026/intertek-2026-october-trading-statement.pdf)",
+                "before": "**GBP135.8 million:** Intertek Corporate Assurance revenue in July-September 2026. [Trading statement](https://www.intertek.com/siteassets/investors/2026/intertek-2026-october-trading-statement.pdf)",
+                "id": "C-005",
+                "section": "Key figures"
+              },
+              {
+                "after": "February 18, 2027 | EU passport start for EV batteries, LMT batteries and industrial batteries above 2 kWh placed on the market or put into service. [Commission guidance notice](https://single-market-economy.ec.europa.eu/news/guidance-support-preparations-digital-batteries-passport-2026-08-21_en?prefLang=de)",
+                "before": "**February 18, 2027:** EU passport start for EV batteries, LMT batteries and industrial batteries above 2 kWh placed on the market or put into service. [Commission guidance notice](https://single-market-economy.ec.europa.eu/news/guidance-support-preparations-digital-batteries-passport-2026-08-21_en?prefLang=de)",
+                "id": "C-006",
+                "section": "Key figures"
+              }
+            ],
+            "grounded_assertions": [],
+            "scope": "artifact-affected-claim-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "842e218de6dc031a964354209045a85468e8577581e9c98e228121ac66e4aa18",
+                "raw_sha256": "2a3ee06d9a0cac8f48d90de3e5b0b6aeec31efac7f40e2029c3ae5cfa71e6923",
+                "section_sha256": "3aabfe3dc3603c2a5f3fb401fdaafe0e788968a56a71a1d48f61c610d8f63c66",
+                "stage": "artifact-format-repair"
+              },
+              {
+                "prompt_sha256": "9bdee1845deac2f10ef9317b61c3cfaf90b13fe15e43a4bfe932fa55667e9a23",
+                "raw_sha256": "fdfb659dba5cfd4e3efa510c39389301047e6af20af2a9f18d6f5f4dcf2e4bcf",
+                "section_sha256": "aa6353fa7aeb08f750304b882b67df6c506db8c1473cb5cc10087fe57096762c",
+                "stage": "artifact-claim-review"
+              }
+            ],
+            "verified_claims": [
+              {
+                "after": "Recurring supplier-evidence work is an operating customer workflow at Brooks.",
+                "before": "Supplier evidence is becoming a maintained service, combining software, testing, integration and assurance.",
+                "change_id": "C-001",
+                "finding": "Supported. Opened Brooks' responsible-sourcing page: its traceability section describes investment in TrusTrace in 2022, twice-yearly supplier disclosures, purchase-order substantiation and quarterly screening of known Tier 1-4 suppliers. This supports the replacement's narrow characterization of recurring work at a named operating customer. It is customer-reported practice, not independent measurement of complete provenance, switching-time improvement or service economics. The broader before statement is replaced, not freshly approved as a general market claim. Unchanged claims were not freshly checked.",
+                "source_url": "https://www.brooksrunning.com/en_us/meet-brooks/running-responsibly/responsible-sourcing/"
+              },
+              {
+                "after": "Victoria's Secret uses separate documentary, audit and laboratory services.",
+                "before": "Reusable evidence can help alternative suppliers compete; buyer-specific paperwork can favor incumbents.",
+                "change_id": "C-002",
+                "finding": "Supported. Opened the company's supply-chain traceability page: the cotton section requires retention of origin and manufacturing documents, identifies IPS chain-of-custody audits, and separately describes Oritain testing of cotton-containing fabric and finished goods. These substantiate distinct documentary, audit and laboratory activities. Separate contracts, charges and procurement arrangements are not disclosed or inferred. The before statement's competitive mechanism is replaced, not empirically established by this record. Unchanged claims were not freshly checked.",
+                "source_url": "https://victoriassecret.gcs-web.com/corporate-responsibility/supply-chain/social-compliance-program/traceability-and-risk-assessment/"
+              },
+              {
+                "after": "Volvo's current customer page identifies EX90 and ES90 passport availability.",
+                "before": "Battery passports turn some supply-chain records into customer-facing product features.",
+                "change_id": "C-003",
+                "finding": "Supported. Opened Volvo's Australian customer battery page. Its battery-passport section explicitly identifies current EX90 and ES90 availability and directs readers to local retailers for the latest availability information. The page also describes customer access to battery information, supporting the narrow product-feature context of the before/after unit. This is manufacturer-published availability, not an observed owner session, a universal regional guarantee or an exhaustive model list. Unchanged claims were not freshly checked.",
+                "source_url": "https://www.volvocars.com/au/cars/electrification/battery/"
+              },
+              {
+                "after": "285 samples, 40 mills | Abercrombie & Fitch's 2025 Oritain cotton-testing program. [Customer metrics](https://corporate.abercrombie.com/sustainability-progress/)",
+                "before": "**285 samples, 40 mills:** Abercrombie & Fitch's 2025 Oritain cotton-testing program. [Customer metrics](https://corporate.abercrombie.com/sustainability-progress/)",
+                "change_id": "C-004",
+                "finding": "Supported; formatting-only change. Opened the customer metrics page and located its 2025 Oritain Testing section. It identifies cotton-country-of-origin verification and reports 40 mills and 285 product samples. Both before and after preserve those two distinct units and the reporting year. The counts do not establish sampling representativeness, full supplier coverage or population-wide absence of risk. No unrelated customer metrics or unchanged article claims were freshly checked.",
+                "source_url": "https://corporate.abercrombie.com/sustainability-progress/"
+              },
+              {
+                "after": "GBP135.8 million | Intertek Corporate Assurance revenue in July-September 2026. [Trading statement](https://www.intertek.com/siteassets/investors/2026/intertek-2026-october-trading-statement.pdf)",
+                "before": "**GBP135.8 million:** Intertek Corporate Assurance revenue in July-September 2026. [Trading statement](https://www.intertek.com/siteassets/investors/2026/intertek-2026-october-trading-statement.pdf)",
+                "change_id": "C-005",
+                "finding": "Supported; formatting-only change. Opened Intertek's statement dated October 28, 2026. The revenue table on PDF page 2 labels the relevant column as the three months July to September, specifies GBP millions for 2026, and gives Corporate Assurance revenue of 135.8. Both versions preserve the amount, division and period. A screenshot request returned no inspectable image in this review; verification rests on the extracted table text and explicit period/unit headers. This is broad divisional revenue, not separately measured battery-passport revenue, and is not annualized. Unchanged claims were not freshly checked.",
+                "source_url": "https://www.intertek.com/siteassets/investors/2026/intertek-2026-october-trading-statement.pdf"
+              },
+              {
+                "after": "February 18, 2027 | EU passport start for EV batteries, LMT batteries and industrial batteries above 2 kWh placed on the market or put into service. [Commission guidance notice](https://single-market-economy.ec.europa.eu/news/guidance-support-preparations-digital-batteries-passport-2026-08-21_en?prefLang=de)",
+                "before": "**February 18, 2027:** EU passport start for EV batteries, LMT batteries and industrial batteries above 2 kWh placed on the market or put into service. [Commission guidance notice](https://single-market-economy.ec.europa.eu/news/guidance-support-preparations-digital-batteries-passport-2026-08-21_en?prefLang=de)",
+                "change_id": "C-006",
+                "finding": "Supported; formatting-only change. Opened the Commission's August 21, 2026 notice. It expressly sets February 18, 2027 for passports for each EV battery, each LMT battery and each industrial battery above 2 kWh placed on the market or put into service. Both versions preserve the category-specific industrial threshold and market/service trigger. The notice explains existing requirements and states that guidance adds no legal obligations; it is not itself new legislation. No separate due-diligence timetable or unchanged article claims were freshly checked.",
+                "source_url": "https://single-market-economy.ec.europa.eu/news/guidance-support-preparations-digital-batteries-passport-2026-08-21_en?prefLang=de"
+              }
+            ]
+          }
+        ],
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "dd33b04a345153c5fc7cf945804d31dd3408e16d41bc4a1c6c97a0252db46c5f",
+        "report_sha256": "bffc2038c17a902961036403afda1712571327c575e37c7fe857de23d197622e",
+        "review_provenance": {
+          "agent_id": "01a18845-d940-7f22-88b4-b276f12fbc80",
+          "base_state_sha256": "51ccfea0b920cce90cf8950d1597753eeffeba794b756907007220a58add401f",
+          "original_report_sha256": "b87470af75c01f6f566dd7d2ac99354b7479572afbdcfaf2afc1846c53f0b449",
+          "profile": "integrated-v1",
+          "prompt_sha256": "9bdee1845deac2f10ef9317b61c3cfaf90b13fe15e43a4bfe932fa55667e9a23",
+          "raw_sha256": "fdfb659dba5cfd4e3efa510c39389301047e6af20af2a9f18d6f5f4dcf2e4bcf",
+          "repair_chain_sha256": "889c731d353997977a9028423924fda15f6c2fc5a13a5b99394feb1dac4712c8",
+          "report_sha256": "bffc2038c17a902961036403afda1712571327c575e37c7fe857de23d197622e",
+          "scope": "artifact-affected-claim-source-review",
+          "section_sha256": "aa6353fa7aeb08f750304b882b67df6c506db8c1473cb5cc10087fe57096762c",
+          "stage": "artifact-claim-review"
+        },
+        "review_scope": "artifact-affected-claim-source-review",
+        "review_sha256": "a89ad1b6830ed74b76cdbb98e3d2f65be3a0ccdbd9861f4bff407e9d8b921e52",
+        "status": "publishable"
+      },
+      "report_sha256": "bffc2038c17a902961036403afda1712571327c575e37c7fe857de23d197622e",
+      "slug": "2026-06-07-the-product-behind-the-second-supplier",
+      "stages": [
+        {
+          "prompt_sha256": "49da10fc960abfa0ae12a35f75b0c242fcf4f3f6a02f76b1198982f61e9bbab6",
+          "raw_sha256": "cde5b1634a432e3cd0fe11c656b765823be8ea5012bf900b4bb8cc43954de782",
+          "section_sha256": "ea58e6d013980a04bb7c99171a15ff0b07054bde97b0bf9f889d983b64b2c6de",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "da181b268cf0df4100651e175194ccfd445afe48f1533a7cc2dd79007d284b1c",
+          "raw_sha256": "e7d5531e2b7048b0fe01a1411d27d41f4fc66c544c0abaac1817286970f5ece1",
+          "section_sha256": "e84f076f08e6d96e0ace94e9aa44ef9411dc04d4bb2ba16072a731575fe53e96",
+          "stage": "independent-review-edit"
+        }
+      ]
+    },
+    {
       "post_sha256": "6a7883d3f5bca59bcfd664f6d0f5a0124778791281cfd66a8b28812bcd9df2e6",
       "profile": "integrated-v1",
       "quality": {
@@ -1776,6 +1940,144 @@
       ]
     },
     {
+      "post_sha256": "011bb2aa9a6377efe580000fc9cbdc2fe263f52d155e97a8a8f55a5f6988043c",
+      "profile": "integrated-v1",
+      "quality": {
+        "approval_chain": [
+          {
+            "report_sha256": "2159e76a6f363bf1f1ec4f0372d3aac726e1f3a4531a77c2950f4ec066a02a54",
+            "scope": "integrated-independent-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "23b9a2ece2f326c65e8347bb24251275c6a86dce06cc17f49749e8c522fe0b82",
+                "raw_sha256": "e42ea4c21d613006b437a1485fec01dc90f8621f5dcb893c4bc0dcbe47ee115f",
+                "section_sha256": "64c7ab9f5dfa56c20c5e5cbc6921704d6f923e0b3156b2e8f656546345e66062",
+                "stage": "integrated-research"
+              },
+              {
+                "prompt_sha256": "7dd36978aa1f74424483298c1b05c7a2ba6fc7acfe3682457c52c0e64f1e867e",
+                "raw_sha256": "7517d821899f669480c4d45f2e330cf0a9ef99f7cecb1bc05a3d9f97d0cb0850",
+                "section_sha256": "598d2dd4aa00fa60fc2010a61a07deabb8a1fc584d72d2afff412c6a7228a822",
+                "stage": "independent-review-edit"
+              }
+            ]
+          },
+          {
+            "after_sha256": "9b47d4060b8edc809b24c321e89cc5bef91eea77b1644075f8b5dc3c987d691d",
+            "before_sha256": "2159e76a6f363bf1f1ec4f0372d3aac726e1f3a4531a77c2950f4ec066a02a54",
+            "changed_claims": [
+              {
+                "after": "USD 11.7 billion | Novo's acquisition price for three former Catalent sites. [2024 financial report](https://www.sec.gov/Archives/edgar/data/353278/000162828025003924/caq42024.htm)",
+                "before": "**USD 11.7 billion:** Novo's acquisition price for three former Catalent sites. [2024 financial report](https://www.sec.gov/Archives/edgar/data/353278/000162828025003924/caq42024.htm)",
+                "id": "C-001",
+                "section": "Key figures"
+              },
+              {
+                "after": "Four weekly doses | one single-patient Zepbound KwikPen. [February 2026 launch](https://investor.lilly.com/node/53951)",
+                "before": "**Four weekly doses:** one single-patient Zepbound KwikPen. [February 2026 launch](https://investor.lilly.com/node/53951)",
+                "id": "C-002",
+                "section": "Key figures"
+              },
+              {
+                "after": "USD 184 million | worldwide Foundayo revenue in Q3 2026, following USD 98 million in Q2. [Q3 results](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full), [Q2 results](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full)",
+                "before": "**USD 184 million:** worldwide Foundayo revenue in Q3 2026, following USD 98 million in Q2. [Q3 results](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full), [Q2 results](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full)",
+                "id": "C-003",
+                "section": "Key figures"
+              },
+              {
+                "after": "EUR 432 million | announced investment in Novo's Athlone tabletting retrofit. [Project announcement](https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916508)",
+                "before": "**EUR 432 million:** announced investment in Novo's Athlone tabletting retrofit. [Project announcement](https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916508)",
+                "id": "C-004",
+                "section": "Key figures"
+              }
+            ],
+            "grounded_assertions": [],
+            "scope": "artifact-affected-claim-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "08204860908ccf8f0f320a06b19165265b4ab6c427bec549a10a2346d4fa9f19",
+                "raw_sha256": "45169090b3243c26deefdb6141ab86487c665f50f52194dc99d97a69d175858c",
+                "section_sha256": "660c7d8e9e72399278c330ec33d181ccf018cc3960191eb5ee9d1cfcfc5f479b",
+                "stage": "artifact-format-repair"
+              },
+              {
+                "prompt_sha256": "25bb43e84efb5974b3633747f65e4162a6452e1d3f54b89b74488ccbf4f0be73",
+                "raw_sha256": "09cf1ec1d8b9638a4266dcc553912e884b5ccdad112b84d59298f953b86e3fda",
+                "section_sha256": "41c76a93e905cdbef4a4a9a77476bc4ee44682398fe2effd7905526c5989bf20",
+                "stage": "artifact-claim-review"
+              }
+            ],
+            "verified_claims": [
+              {
+                "after": "USD 11.7 billion | Novo's acquisition price for three former Catalent sites. [2024 financial report](https://www.sec.gov/Archives/edgar/data/353278/000162828025003924/caq42024.htm)",
+                "before": "**USD 11.7 billion:** Novo's acquisition price for three former Catalent sites. [2024 financial report](https://www.sec.gov/Archives/edgar/data/353278/000162828025003924/caq42024.htm)",
+                "change_id": "C-001",
+                "finding": "Supported. Opened Novo Nordisk's February 5, 2025 financial report for 2024 and located the cash-flow discussion explicitly identifying USD 11.7 billion as the acquisition price related to the three Catalent manufacturing sites. The delimiter and emphasis change preserves the assertion. This verifies acquisition consideration, not incremental production, capacity utilization or investment returns. Review was limited to C-001 through C-004; no other artifact facts were freshly checked, and historical approvals were not reused as this review's evidence.",
+                "source_url": "https://www.sec.gov/Archives/edgar/data/353278/000162828025003924/caq42024.htm"
+              },
+              {
+                "after": "Four weekly doses | one single-patient Zepbound KwikPen. [February 2026 launch](https://investor.lilly.com/node/53951)",
+                "before": "**Four weekly doses:** one single-patient Zepbound KwikPen. [February 2026 launch](https://investor.lilly.com/node/53951)",
+                "change_id": "C-002",
+                "finding": "Supported. Opened Lilly's February 23, 2026 release. It identifies the FDA label expansion for a four-dose, single-patient-use Zepbound KwikPen delivering a full month of treatment in one device, and describes once-weekly administration. The after text preserves that presentation and dosing relationship. It does not establish device-cost savings, adherence or realized dispensing volume.",
+                "source_url": "https://investor.lilly.com/node/53951"
+              },
+              {
+                "after": "USD 184 million | worldwide Foundayo revenue in Q3 2026, following USD 98 million in Q2. [Q3 results](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full), [Q2 results](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full)",
+                "before": "**USD 184 million:** worldwide Foundayo revenue in Q3 2026, following USD 98 million in Q2. [Q3 results](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full), [Q2 results](https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full)",
+                "change_id": "C-003",
+                "finding": "Supported with a retrieval limitation. Direct opening of the Q3 issuer URL failed. Native web search exposed the October 29, 2026 issuer release and its Selected Revenue Highlights table: dollars in millions, Third-Quarter 2026, Foundayo 184. Separately opened the August 5, 2026 Q2 issuer release and checked its product-revenue table, which reports Foundayo 98 under Second-Quarter 2026: https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full . These are issuer-reported worldwide quarterly product revenues, preserving the displayed rounding. No cumulative amount was reconstructed; neither observation establishes recurring consumption, persistent users or absence of launch inventory.",
+                "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full"
+              },
+              {
+                "after": "EUR 432 million | announced investment in Novo's Athlone tabletting retrofit. [Project announcement](https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916508)",
+                "before": "**EUR 432 million:** announced investment in Novo's Athlone tabletting retrofit. [Project announcement](https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916508)",
+                "change_id": "C-004",
+                "finding": "Supported. Opened Novo Nordisk's March 2, 2026 announcement. It announces EUR 432 million for the Athlone tabletting facility and describes upgrading and retrofitting the existing facility for oral GLP-1 manufacturing. The after text retains the necessary announced-investment qualifier. This is not verified completed expenditure or released commercial output; the announcement places phased construction completion from late 2027 through 2028.",
+                "source_url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916508"
+              }
+            ]
+          }
+        ],
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "011bb2aa9a6377efe580000fc9cbdc2fe263f52d155e97a8a8f55a5f6988043c",
+        "report_sha256": "9b47d4060b8edc809b24c321e89cc5bef91eea77b1644075f8b5dc3c987d691d",
+        "review_provenance": {
+          "agent_id": "01a18840-241c-7871-8d78-2124bc93dc45",
+          "base_state_sha256": "b7d3daed1bc246787f7fb4e7c2e21e3df5737e30d40bc8a9bff98e18195b8a8a",
+          "original_report_sha256": "2159e76a6f363bf1f1ec4f0372d3aac726e1f3a4531a77c2950f4ec066a02a54",
+          "profile": "integrated-v1",
+          "prompt_sha256": "25bb43e84efb5974b3633747f65e4162a6452e1d3f54b89b74488ccbf4f0be73",
+          "raw_sha256": "09cf1ec1d8b9638a4266dcc553912e884b5ccdad112b84d59298f953b86e3fda",
+          "repair_chain_sha256": "b6f7e5c135401fe9048dea3170ac932872441cbac00708c8d53d15073f6a3a7f",
+          "report_sha256": "9b47d4060b8edc809b24c321e89cc5bef91eea77b1644075f8b5dc3c987d691d",
+          "scope": "artifact-affected-claim-source-review",
+          "section_sha256": "41c76a93e905cdbef4a4a9a77476bc4ee44682398fe2effd7905526c5989bf20",
+          "stage": "artifact-claim-review"
+        },
+        "review_scope": "artifact-affected-claim-source-review",
+        "review_sha256": "2855b5fc67f88571c7bef309c71b68473db4cdb46cbdda2d1ee3df5733eec6cf",
+        "status": "publishable"
+      },
+      "report_sha256": "9b47d4060b8edc809b24c321e89cc5bef91eea77b1644075f8b5dc3c987d691d",
+      "slug": "2026-06-07-glp-1-manufacturing-is-becoming-a-format-business",
+      "stages": [
+        {
+          "prompt_sha256": "23b9a2ece2f326c65e8347bb24251275c6a86dce06cc17f49749e8c522fe0b82",
+          "raw_sha256": "e42ea4c21d613006b437a1485fec01dc90f8621f5dcb893c4bc0dcbe47ee115f",
+          "section_sha256": "64c7ab9f5dfa56c20c5e5cbc6921704d6f923e0b3156b2e8f656546345e66062",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "7dd36978aa1f74424483298c1b05c7a2ba6fc7acfe3682457c52c0e64f1e867e",
+          "raw_sha256": "7517d821899f669480c4d45f2e330cf0a9ef99f7cecb1bc05a3d9f97d0cb0850",
+          "section_sha256": "598d2dd4aa00fa60fc2010a61a07deabb8a1fc584d72d2afff412c6a7228a822",
+          "stage": "independent-review-edit"
+        }
+      ]
+    },
+    {
       "post_sha256": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
       "profile": "integrated-v1",
       "quality": {
@@ -1916,12 +2218,14 @@
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "404.html": "b69c23b54ce1528ff940a5a053552b156399e1e4c855135032e345264acbab49",
+    "404.html": "54628cc4d96fb368138e40586e0be47d7673dbf4035183f232465ba90ff2c955",
     "about.html": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
     "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp": "c7989eec514eb55b982f389fcd72a31c46fce42791d10f9b38b668e0881e83a8",
+    "assets/heroes/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business-a8eb00f44db0d926.webp": "a8eb00f44db0d926ecbdaed5cd3aa5836d41d828317fddf56faeab17778e80b4",
     "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp": "3e2868cdac991819d9d7ad6d014c10433a12b8cc1a97d90721029606e3f6b3a8",
     "assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp": "9092cec4011e30018715ad722839c0998f6a0afc3dc66b0a0824ccc40429b4a4",
     "assets/heroes/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door-898b424d1e3ca740.webp": "898b424d1e3ca740322b8f42cbfea54c4c7be5658642f24c594c68ef19dc3e36",
+    "assets/heroes/2026-06-07-the-product-behind-the-second-supplier-defc47b050bda617.webp": "defc47b050bda61724e6c7eaf010000174ed57da2572845d07d72a8527a36ee3",
     "assets/heroes/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit-a39c4e200ba89005.webp": "a39c4e200ba890052fc3cf1d66b2383db3ec3cc3c0b6ced57c339472b3e4dd10",
     "assets/heroes/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade-000bb2c40ce70c96.webp": "000bb2c40ce70c96e95a247e24e7f53a3b6ef0a28f008b622fff5ad9fabd5a34",
     "assets/heroes/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault-25a09418461370ee.webp": "25a09418461370ee273bfea78ab4993859a5db1d23c73f2691c7f5247607c9a6",
@@ -1993,9 +2297,11 @@
     "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp": "35dc8e4c9baedf3c2f0d121833060c90798aac45a22b73022b52c7d119658a6f",
     "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
     "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg": "ba85c688e9aa61cc8ef34b06d8daa9e47071989dd832193093a7f86424cecbef",
+    "assets/og/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business.jpg": "2d0cf9d6bc05480683d3e25992549ce4b9e19576f35e17cd34fccdc01bc95abf",
     "assets/og/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.jpg": "f7a902518a319478e34152f05aa80da6e214686df8480740adeab5a65c733108",
     "assets/og/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.jpg": "0bc0a2b09d89959adaee10216f6c5f3e78ee646340aef4ade57aa635c45c7420",
     "assets/og/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.jpg": "63a93d0e81d7df13d0e4aaefd770275bf6f6b6db532676b48c8a472f2c2eed0e",
+    "assets/og/2026-06-07-the-product-behind-the-second-supplier.jpg": "f0f71c2ca3093c15ac3aea623ba384e489e6e92c8b15c37f37780bbdcbe4016a",
     "assets/og/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.jpg": "fcd22852a3b260036efe7b1d55b007037d39d0e4ab2ed3ee49615d99793c017a",
     "assets/og/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.jpg": "fe4dc77006b1c0567b9a719c52aaa87bbe1586569fe9dd95c3a9a5a844384361",
     "assets/og/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.jpg": "b2d25fa610d18bc32eb5ea624fdd5833397ac86e6b476a0af077e9833cda6c0e",
@@ -2067,17 +2373,19 @@
     "assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg": "f9c2d3c3f03913a0350fcd352205cebbad8a8236bb1b6fa9053e29cefa9d6057",
     "assets/og/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.jpg": "2ff729ce881d125b79b14e91844049ababc9d30b63d343b31f36c1308819f985",
     "assets/site/industrial-port-photo.png": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
-    "blog-data.json": "3d11f89e3a61710054efcad516ba5462a5fdc3f8dc982303932f6d8abce45c3e",
+    "blog-data.json": "d6964741c9f5fd8d91a894472f5022f8bf93db12f8dd6086b6f8fb32a68914e7",
     "disclaimer.html": "924749b2dcd25d390d1f978585c6f4adbcb7251de172047e7118b4809b0274a1",
     "favicon.svg": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
-    "feed.xml": "b1aa549a4b13fb611dafac4a70ad85d397899722aed0d5114c5f7e639e293fce",
-    "index.html": "b69c23b54ce1528ff940a5a053552b156399e1e4c855135032e345264acbab49",
-    "ledger.html": "0814745144b0e2c671a89e0e9a5ea5bac7bba80edb482d22102a80696f27a7c5",
-    "patterns.html": "c96f87b54a4106a5200d6d61d171fe022c64a6c72f0c646a158882da429a1e18",
+    "feed.xml": "c2dafb1b70430827300b755126fd195dcae2539248c2875d1ed1efcb74f7a392",
+    "index.html": "54628cc4d96fb368138e40586e0be47d7673dbf4035183f232465ba90ff2c955",
+    "ledger.html": "ab5f2a1099e8109b35fcdbc41f7af294f3d0edc048f22bfb522256d4b298f992",
+    "patterns.html": "8d749f6cabc8104adf661b86ae63f78348b92c448eb76133217e3fe084178844",
     "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
+    "posts/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business.html": "011bb2aa9a6377efe580000fc9cbdc2fe263f52d155e97a8a8f55a5f6988043c",
     "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html": "73230bd8dc9c7de07850d25ccf8b6b1fd805c04e4dbf2872f6d362292b62c45c",
     "posts/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.html": "1a30bb4071609d68e88b078adc2d3e9e1f1f4e6d56850da61869094b043a9a3a",
     "posts/2026-06-07-the-jet-fuel-mandate-runs-through-a-restaurant-s-back-door.html": "6a7883d3f5bca59bcfd664f6d0f5a0124778791281cfd66a8b28812bcd9df2e6",
+    "posts/2026-06-07-the-product-behind-the-second-supplier.html": "dd33b04a345153c5fc7cf945804d31dd3408e16d41bc4a1c6c97a0252db46c5f",
     "posts/2026-06-21-the-ai-buildout-s-next-constraint-is-the-air-permit.html": "8dc3f2d437fcdf1597663fa2af5b166741800be99af19bbc2343e088e96034b9",
     "posts/2026-06-21-the-ai-power-trade-is-becoming-a-turbine-slot-trade.html": "57e19dac2188151dc8e98ba83df6be449274bf45fff75e98359e3e042fe2aee6",
     "posts/2026-06-21-the-grid-bottleneck-is-whether-the-model-survives-the-fault.html": "040409364826efbc0bb9a8224886b481ef99145be86878676fd5db3c9c23025a",
@@ -2149,16 +2457,16 @@
     "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html": "eb5fd4207d42494579f586fc0dd53855caadfd15225c8b9c6a2213f2bdcf1268",
     "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html": "f259226fe6cd732944450526fa58481daaf073d1ba5e834dcf412fff5c735926",
     "privacy.html": "9b1a67460e82618ef082b81124f430a625d0a84de63f10acaa7ebb940aff03cd",
-    "publication-data.json": "6506055cfa3706286f3b5df9b501bd5851c8884f9a763b969cd5149cd693bea8",
+    "publication-data.json": "e93828491760f010e2c5dba5465c42bb8fa2d6d4c07a9903612fc452e0e2f3ec",
     "rgraph.js": "eea1c5f6c40f22b809110a0db602fffa932c6e6759aabce7836401d69521092a",
     "site.js": "a4802ab7d88f8a7741080448478fe005fba32448610d08edd9ad65b2a642b31d",
-    "sitemap.xml": "408406155487996f20dfd4c1997867186dbf1609b9a6ba9d2427b8f2b0a8617a",
+    "sitemap.xml": "529b53dcfd2ce7a8ab96c87454a42d0cf13565b6efadf2ec2d807aedf6a91883",
     "styles.css": "3c438abf1778e8c96e93713898dc7adb6b7b9754697f1fb2af53c35862a4ef44"
   },
   "profile_contracts": {
     "integrated-v1": "3bf8e6401a1a0d8508dd7e647cda6d9ec7b75c23ef99f43a689be432a17d735a"
   },
-  "proof_sha256": "95b7ae59ad01e9c4b7012e2b1ce6797e4736993e83cdf73f7ec343c49f788cf0",
+  "proof_sha256": "1c86607d8f0f207487cbb0d4730cc2650680596f1bd0b232a7245ffebd46f9cd",
   "schema_version": 3,
   "status": "publication-ready"
 }
