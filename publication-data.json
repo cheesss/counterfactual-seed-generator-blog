@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 76,
+    "articles": 77,
     "data_series": 247,
     "calendar_year_card_candidates_excluded": 6,
     "watch": {
@@ -17,14 +17,14 @@
       "extraction_modes": {
         "explicit_bullet": 304
       },
-      "unstructured_watch_sections": 12,
-      "unpublished_prose_candidates": 60
+      "unstructured_watch_sections": 13,
+      "unpublished_prose_candidates": 66
     },
     "report_stage": {
       "complete_by_sections": 48,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
-        "current-incomplete": 26,
+        "current-incomplete": 27,
         "current-complete": 3,
         "legacy-migration-gap": 2,
         "legacy-complete": 45
@@ -38,7 +38,7 @@
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 54,
+        "constraint": 55,
         "commercialization": 13,
         "disruption": 4,
         "ecosystem-expansion": 5
@@ -61,14 +61,14 @@
         "robotics": 2,
         "space": 1,
         "finance": 3,
-        "cross-sector": 2,
+        "cross-sector": 3,
         "other": 2
       },
       "system_patterns": {
         "permits": 2,
         "qualified-materials": 11,
         "queue-slot": 5,
-        "validation-evidence": 32,
+        "validation-evidence": 33,
         "repair-capacity": 2,
         "residual-handling": 5,
         "procurement-risk-transfer": 0,
@@ -19975,6 +19975,49 @@
         "status": "explicit_bullets",
         "source_heading": "What To Watch",
         "unpublished_candidate_count": 0
+      }
+    },
+    {
+      "slug": "2026-06-07-cbam-verification-and-cleaner-production",
+      "slug_source": "publication_registry",
+      "title": "CBAM's verification problem is the price of proving a cleaner plant",
+      "url": "posts/2026-06-07-cbam-verification-and-cleaner-production.html",
+      "date": "2026-06-07",
+      "updated": "2026-06-07",
+      "category": "Report",
+      "sector": {
+        "key": "cross-sector",
+        "label": "Cross-sector"
+      },
+      "system_pattern": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "archetype": {
+        "key": "validation-evidence",
+        "label": "Validation & certification evidence"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "A producer selling into Europe can lose the benefit of cleaner production at an unexpected point: the handoff of its records. Under the EU's Carbon Border Adjustment Mechanism, installation-specific emissions must become acceptable, independently verified information before an importer can use them as actual values. The physical improvement and the evidence supporting it are separate pieces of work.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp",
+        "alt": "Elektrolichtbogen-Ofen Georgsmarienhütte GmbH"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "unstructured_prose",
+        "source_heading": "What To Watch",
+        "unpublished_candidate_count": 6
       }
     },
     {

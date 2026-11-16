@@ -12,6 +12,14 @@
     {
       "format": "WEBP",
       "height": 900,
+      "path": "assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp",
+      "sha256": "6c3fd91c96bd72c94bd42cea1679aae94d9577bcad0a8305239abe7560f905a2",
+      "size": 120388,
+      "width": 1600
+    },
+    {
+      "format": "WEBP",
+      "height": 900,
       "path": "assets/heroes/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business-a8eb00f44db0d926.webp",
       "sha256": "a8eb00f44db0d926ecbdaed5cd3aa5836d41d828317fddf56faeab17778e80b4",
       "size": 72638,
@@ -615,6 +623,14 @@
       "path": "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg",
       "sha256": "ba85c688e9aa61cc8ef34b06d8daa9e47071989dd832193093a7f86424cecbef",
       "size": 121315,
+      "width": 1200
+    },
+    {
+      "format": "JPEG",
+      "height": 630,
+      "path": "assets/og/2026-06-07-cbam-verification-and-cleaner-production.jpg",
+      "sha256": "36e49bcea09bc356b8f72c381cf5d282196f904215038f4a8cf0e3555a511085",
+      "size": 131034,
       "width": 1200
     },
     {
@@ -1240,6 +1256,12 @@
       "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
       "surface": "img[src]",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
+    },
+    {
+      "document": "404.html",
+      "path": "assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp"
     },
     {
       "document": "404.html",
@@ -2191,8 +2213,14 @@
     },
     {
       "document": "blog-data.json",
-      "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "path": "assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp",
       "surface": "$[75].image",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp"
+    },
+    {
+      "document": "blog-data.json",
+      "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "surface": "$[76].image",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
     },
     {
@@ -2230,6 +2258,12 @@
       "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
       "surface": "img[src]",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
+    },
+    {
+      "document": "index.html",
+      "path": "assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp",
+      "surface": "img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp"
     },
     {
       "document": "index.html",
@@ -2776,6 +2810,24 @@
       "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
       "surface": "report-hero:img[src]",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
+    },
+    {
+      "document": "posts/2026-06-07-cbam-verification-and-cleaner-production.html",
+      "path": "favicon.svg",
+      "surface": "link[href]",
+      "url": "../favicon.svg"
+    },
+    {
+      "document": "posts/2026-06-07-cbam-verification-and-cleaner-production.html",
+      "path": "assets/og/2026-06-07-cbam-verification-and-cleaner-production.jpg",
+      "surface": "meta[og:image][content]",
+      "url": "https://cheesss.github.io/counterfactual-seed-generator-blog/assets/og/2026-06-07-cbam-verification-and-cleaner-production.jpg"
+    },
+    {
+      "document": "posts/2026-06-07-cbam-verification-and-cleaner-production.html",
+      "path": "assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp",
+      "surface": "report-hero:img[src]",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp"
     },
     {
       "document": "posts/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business.html",
@@ -4573,8 +4625,14 @@
     },
     {
       "document": "publication-data.json",
-      "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "path": "assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp",
       "surface": "$.articles[75].image.url",
+      "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp"
+    },
+    {
+      "document": "publication-data.json",
+      "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
+      "surface": "$.articles[76].image.url",
       "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp"
     },
     {
@@ -4605,7 +4663,7 @@
       "sources": [
         {
           "document": "blog-data.json",
-          "surface": "$[75].image"
+          "surface": "$[76].image"
         },
         {
           "document": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
@@ -4613,10 +4671,31 @@
         },
         {
           "document": "publication-data.json",
-          "surface": "$.articles[75].image.url"
+          "surface": "$.articles[76].image.url"
         }
       ],
       "title": "EU Sovereign Cloud Compliance Bottleneck"
+    },
+    {
+      "asset_path": "assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp",
+      "asset_sha256": "6c3fd91c96bd72c94bd42cea1679aae94d9577bcad0a8305239abe7560f905a2",
+      "report_path": "posts/2026-06-07-cbam-verification-and-cleaner-production.html",
+      "slug": "2026-06-07-cbam-verification-and-cleaner-production",
+      "sources": [
+        {
+          "document": "blog-data.json",
+          "surface": "$[75].image"
+        },
+        {
+          "document": "posts/2026-06-07-cbam-verification-and-cleaner-production.html",
+          "surface": "report-hero:img[src]"
+        },
+        {
+          "document": "publication-data.json",
+          "surface": "$.articles[75].image.url"
+        }
+      ],
+      "title": "CBAM's verification problem is the price of proving a cleaner plant"
     },
     {
       "asset_path": "assets/heroes/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business-a8eb00f44db0d926.webp",
