@@ -7,13 +7,13 @@
     },
     {
       "path": ".publication-release.json",
-      "sha256": "b47e56c001cce0eda0d543e6cb11768cc7cb899324767671e86337257211c235",
-      "size": 194192
+      "sha256": "f1271b0427d92b7f10d95a0ebc075ef54443b5f8f41b0d6f2382f568f4c988b2",
+      "size": 206158
     },
     {
       "path": "404.html",
-      "sha256": "54628cc4d96fb368138e40586e0be47d7673dbf4035183f232465ba90ff2c955",
-      "size": 130907
+      "sha256": "fb56eee28544b03e62772afd982aa2f11e948a4858a36626aa3145d3de0d6933",
+      "size": 132002
     },
     {
       "path": "about.html",
@@ -24,6 +24,11 @@
       "path": "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp",
       "sha256": "c7989eec514eb55b982f389fcd72a31c46fce42791d10f9b38b668e0881e83a8",
       "size": 98430
+    },
+    {
+      "path": "assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp",
+      "sha256": "6c3fd91c96bd72c94bd42cea1679aae94d9577bcad0a8305239abe7560f905a2",
+      "size": 120388
     },
     {
       "path": "assets/heroes/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business-a8eb00f44db0d926.webp",
@@ -404,6 +409,11 @@
       "path": "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg",
       "sha256": "ba85c688e9aa61cc8ef34b06d8daa9e47071989dd832193093a7f86424cecbef",
       "size": 121315
+    },
+    {
+      "path": "assets/og/2026-06-07-cbam-verification-and-cleaner-production.jpg",
+      "sha256": "36e49bcea09bc356b8f72c381cf5d282196f904215038f4a8cf0e3555a511085",
+      "size": 131034
     },
     {
       "path": "assets/og/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business.jpg",
@@ -787,8 +797,8 @@
     },
     {
       "path": "blog-data.json",
-      "sha256": "d6964741c9f5fd8d91a894472f5022f8bf93db12f8dd6086b6f8fb32a68914e7",
-      "size": 55360
+      "sha256": "9546e404292ed5f35a58b6e486863314e0ed9cedab3bcfd49746373e028afbac",
+      "size": 56142
     },
     {
       "path": "disclaimer.html",
@@ -802,18 +812,18 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "c2dafb1b70430827300b755126fd195dcae2539248c2875d1ed1efcb74f7a392",
+      "sha256": "61b2db4f4487c26a9b2d34ad8e2e29913c596fd13c3b5152e62f2a37671ace61",
       "size": 25601
     },
     {
       "path": "image-manifest.json",
-      "sha256": "f8a6ea4f4ddb4d5e5e6410cd2968117d842c75cf25feb0c29404d6737ee51028",
-      "size": 323691
+      "sha256": "2c4ac139dd1ae5f02a1db3650d1900c8740d4f4351cb119ee1c0f1fbd4ffd5b5",
+      "size": 327333
     },
     {
       "path": "index.html",
-      "sha256": "54628cc4d96fb368138e40586e0be47d7673dbf4035183f232465ba90ff2c955",
-      "size": 130907
+      "sha256": "fb56eee28544b03e62772afd982aa2f11e948a4858a36626aa3145d3de0d6933",
+      "size": 132002
     },
     {
       "path": "ledger.html",
@@ -822,13 +832,18 @@
     },
     {
       "path": "patterns.html",
-      "sha256": "8d749f6cabc8104adf661b86ae63f78348b92c448eb76133217e3fe084178844",
-      "size": 52125
+      "sha256": "8896efe560d9f33a38eba41a735056f47a332081a2897e871586b1609cfb2189",
+      "size": 52793
     },
     {
       "path": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
       "sha256": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
       "size": 45792
+    },
+    {
+      "path": "posts/2026-06-07-cbam-verification-and-cleaner-production.html",
+      "sha256": "ddf9fe605aa0bc2217537e7ac1b95ea8ef598e2c87453b15e716d2123e4573d6",
+      "size": 33526
     },
     {
       "path": "posts/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business.html",
@@ -1212,8 +1227,8 @@
     },
     {
       "path": "publication-data.json",
-      "sha256": "e93828491760f010e2c5dba5465c42bb8fa2d6d4c07a9903612fc452e0e2f3ec",
-      "size": 882642
+      "sha256": "dcb9512f32908898b90d3a7b91f98b559bade97253fe81aa0327e40bca440696",
+      "size": 884537
     },
     {
       "path": "rgraph.js",
@@ -1227,8 +1242,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "529b53dcfd2ce7a8ab96c87454a42d0cf13565b6efadf2ec2d807aedf6a91883",
-      "size": 13600
+      "sha256": "a47b6acbb3a240a338f9ff7fdc452211d11329fefa735ea4e697b1ef8131acff",
+      "size": 13748
     },
     {
       "path": "styles.css",

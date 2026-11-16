@@ -2078,6 +2078,144 @@
       ]
     },
     {
+      "post_sha256": "ddf9fe605aa0bc2217537e7ac1b95ea8ef598e2c87453b15e716d2123e4573d6",
+      "profile": "integrated-v1",
+      "quality": {
+        "approval_chain": [
+          {
+            "report_sha256": "252eec137ea87f795af44e79ac14237201a694acdf491674b478e8c4dc88bad7",
+            "scope": "integrated-independent-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "6efbdd2e30010b04c8f20b4899356fc8b1728c4b7aeed85b6e166644cb639ce9",
+                "raw_sha256": "02c128f43531bab95a10c90ef5509c8ba6e4220b098549b04985727a79e66890",
+                "section_sha256": "d302b71ae932d983f6b59cc9046ce1d70b686a08e31c33c8db1a4cf2226b7799",
+                "stage": "integrated-research"
+              },
+              {
+                "prompt_sha256": "2d686e89dced577aa7c87cb2bb4979a7b9b4ae6a7d28f247b18bead6994c7feb",
+                "raw_sha256": "07e570d0b1257ffdd2c181df01dd2ae10770e9e17989aaf1ad37429e63b281dd",
+                "section_sha256": "3d7e562d2dc0c7caacdfd7e16c3f8e56b22bcafa4fa7cb30970307bd46d5c16e",
+                "stage": "independent-review-edit"
+              }
+            ]
+          },
+          {
+            "after_sha256": "bc675f6746f205b03231ed879bf2144d2d1336dafb5abda2d8570d361b4bb346",
+            "before_sha256": "252eec137ea87f795af44e79ac14237201a694acdf491674b478e8c4dc88bad7",
+            "changed_claims": [
+              {
+                "after": "50 tonnes | annual net-mass exemption threshold, aggregated per importer across the four material sectors; electricity and hydrogen are excluded. [Amending law](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R2083)",
+                "before": "**50 tonnes:** annual net-mass exemption threshold, aggregated per importer across the four material sectors; electricity and hydrogen are excluded. [Amending law](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R2083)",
+                "id": "C-001",
+                "section": "Key figures"
+              },
+              {
+                "after": "0.87% | embedded emissions the threshold would exempt in the Commission's April 2025-March 2026 assessment. [Assessment](https://taxation-customs.ec.europa.eu/news/cbam-de-minimis-threshold-assessment-2026-09-30_en)",
+                "before": "**0.87%:** embedded emissions the threshold would exempt in the Commission's April 2025-March 2026 assessment. [Assessment](https://taxation-customs.ec.europa.eu/news/cbam-de-minimis-threshold-assessment-2026-09-30_en)",
+                "id": "C-002",
+                "section": "Key figures"
+              },
+              {
+                "after": "EUR 82.32 | Q3 2026 price per CBAM certificate, corresponding to one tonne of CO2-equivalent. [Price table](https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/price-cbam-certificates_en)",
+                "before": "**EUR 82.32:** Q3 2026 price per CBAM certificate, corresponding to one tonne of CO2-equivalent. [Price table](https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/price-cbam-certificates_en)",
+                "id": "C-003",
+                "section": "Key figures"
+              },
+              {
+                "after": "September 30, 2027 | first annual declaration and certificate-surrender deadline, covering 2026 imports. [Amending law](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R2083)",
+                "before": "**September 30, 2027:** first annual declaration and certificate-surrender deadline, covering 2026 imports. [Amending law](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R2083)",
+                "id": "C-004",
+                "section": "Key figures"
+              }
+            ],
+            "grounded_assertions": [],
+            "scope": "artifact-affected-claim-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "da387e6da89fe95b71306d9a9e24122236e4e52bc5056f965e336463162e43ff",
+                "raw_sha256": "1b15b229ddf8a53141a2c64055a868239be5e07b12770868da680d794e384e23",
+                "section_sha256": "2fef2d334e0323683a9821281e5d990eea9d26745477a41bf2f4dbf3611c058a",
+                "stage": "artifact-format-repair"
+              },
+              {
+                "prompt_sha256": "e04aa4168d07c1514f47044da8791575839d8a24bfc939f873960c4ab314fec2",
+                "raw_sha256": "0b87c2319b709a362c564301bac03b0b48abf83254aaf7cb07c98343342f6ddb",
+                "section_sha256": "b4fe56b377d618931c98a0ec3a36659d821c0fe5f139f8f4dbbaed5021848e57",
+                "stage": "artifact-claim-review"
+              }
+            ],
+            "verified_claims": [
+              {
+                "after": "50 tonnes | annual net-mass exemption threshold, aggregated per importer across the four material sectors; electricity and hydrogen are excluded. [Amending law](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R2083)",
+                "before": "**50 tonnes:** annual net-mass exemption threshold, aggregated per importer across the four material sectors; electricity and hydrogen are excluded. [Amending law](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R2083)",
+                "change_id": "C-001",
+                "finding": "Supported. Opened law: inserted Article 2a establishes annual importer-level aggregation and excludes electricity/hydrogen; Annex VII fixes 50 tonnes net mass. Recital 3 identifies the four sectors. Formatting alone changes; no shipment-level exemption is implied. No importer compliance was assessed.",
+                "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R2083"
+              },
+              {
+                "after": "0.87% | embedded emissions the threshold would exempt in the Commission's April 2025-March 2026 assessment. [Assessment](https://taxation-customs.ec.europa.eu/news/cbam-de-minimis-threshold-assessment-2026-09-30_en)",
+                "before": "**0.87%:** embedded emissions the threshold would exempt in the Commission's April 2025-March 2026 assessment. [Assessment](https://taxation-customs.ec.europa.eu/news/cbam-de-minimis-threshold-assessment-2026-09-30_en)",
+                "change_id": "C-002",
+                "finding": "Supported. Opened Commission announcement dated September 30, 2026 explicitly gives 0.87% for April 1, 2025-March 31, 2026. This is the assessed embedded-emissions share the threshold would exempt, not an achieved emissions reduction. Formatting preserves the conditional scope. The underlying calculation was not independently replicated.",
+                "source_url": "https://taxation-customs.ec.europa.eu/news/cbam-de-minimis-threshold-assessment-2026-09-30_en"
+              },
+              {
+                "after": "EUR 82.32 | Q3 2026 price per CBAM certificate, corresponding to one tonne of CO2-equivalent. [Price table](https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/price-cbam-certificates_en)",
+                "before": "**EUR 82.32:** Q3 2026 price per CBAM certificate, corresponding to one tonne of CO2-equivalent. [Price table](https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/price-cbam-certificates_en)",
+                "change_id": "C-003",
+                "finding": "Supported. Opened Commission table lists EUR 82.32 for Q3 2026, published October 5, 2026. Its linked Regulation 2023/956, Article 3(24), defines a certificate as corresponding to one tonne CO2e of embedded emissions; this definition was corroborated in the primary EUR-Lex search-index text at https://eur-lex.europa.eu/eli/reg/2023/956/2025-10-20/eng and https://eur-lex.europa.eu/eli/reg/2023/956/oj/eng/pdf. Direct opens of the base law returned an anti-bot page, so the definition check is index-based, unlike the directly opened price table. This is a certificate reference price, not a charge per material tonne or evidence of payment. Formatting changes no assertion.",
+                "source_url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism/price-cbam-certificates_en"
+              },
+              {
+                "after": "September 30, 2027 | first annual declaration and certificate-surrender deadline, covering 2026 imports. [Amending law](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R2083)",
+                "before": "**September 30, 2027:** first annual declaration and certificate-surrender deadline, covering 2026 imports. [Amending law](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R2083)",
+                "change_id": "C-004",
+                "finding": "Supported. Opened law's Article 1(5) and (18) amend Articles 6(1) and 22(1): both deadlines are September 30, first in 2027 for 2026. This verifies the legal schedule, not completed settlement. All four changed units are covered; unchanged claims retain original approval only and were not freshly checked. Artifact rendering was not tested.",
+                "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A32025R2083"
+              }
+            ]
+          }
+        ],
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "ddf9fe605aa0bc2217537e7ac1b95ea8ef598e2c87453b15e716d2123e4573d6",
+        "report_sha256": "bc675f6746f205b03231ed879bf2144d2d1336dafb5abda2d8570d361b4bb346",
+        "review_provenance": {
+          "agent_id": "01a1e5bf-3dbe-7473-a068-55cdeadcb77e",
+          "base_state_sha256": "3865807a28d4590a1f4a5fee24b0452392719ee81b20ee6d7a1d3f7dff000a75",
+          "original_report_sha256": "252eec137ea87f795af44e79ac14237201a694acdf491674b478e8c4dc88bad7",
+          "profile": "integrated-v1",
+          "prompt_sha256": "e04aa4168d07c1514f47044da8791575839d8a24bfc939f873960c4ab314fec2",
+          "raw_sha256": "0b87c2319b709a362c564301bac03b0b48abf83254aaf7cb07c98343342f6ddb",
+          "repair_chain_sha256": "56f391a42be6d7786d1014d43eed7717773cb0ef909dc6d7af36c661597875df",
+          "report_sha256": "bc675f6746f205b03231ed879bf2144d2d1336dafb5abda2d8570d361b4bb346",
+          "scope": "artifact-affected-claim-source-review",
+          "section_sha256": "b4fe56b377d618931c98a0ec3a36659d821c0fe5f139f8f4dbbaed5021848e57",
+          "stage": "artifact-claim-review"
+        },
+        "review_scope": "artifact-affected-claim-source-review",
+        "review_sha256": "cef6575949bde95f0869d8f39cbbb6eefc7d75bfb75e724261230eb4ac593d7e",
+        "status": "publishable"
+      },
+      "report_sha256": "bc675f6746f205b03231ed879bf2144d2d1336dafb5abda2d8570d361b4bb346",
+      "slug": "2026-06-07-cbam-verification-and-cleaner-production",
+      "stages": [
+        {
+          "prompt_sha256": "6efbdd2e30010b04c8f20b4899356fc8b1728c4b7aeed85b6e166644cb639ce9",
+          "raw_sha256": "02c128f43531bab95a10c90ef5509c8ba6e4220b098549b04985727a79e66890",
+          "section_sha256": "d302b71ae932d983f6b59cc9046ce1d70b686a08e31c33c8db1a4cf2226b7799",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "2d686e89dced577aa7c87cb2bb4979a7b9b4ae6a7d28f247b18bead6994c7feb",
+          "raw_sha256": "07e570d0b1257ffdd2c181df01dd2ae10770e9e17989aaf1ad37429e63b281dd",
+          "section_sha256": "3d7e562d2dc0c7caacdfd7e16c3f8e56b22bcafa4fa7cb30970307bd46d5c16e",
+          "stage": "independent-review-edit"
+        }
+      ]
+    },
+    {
       "post_sha256": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
       "profile": "integrated-v1",
       "quality": {
@@ -2218,9 +2356,10 @@
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "404.html": "54628cc4d96fb368138e40586e0be47d7673dbf4035183f232465ba90ff2c955",
+    "404.html": "fb56eee28544b03e62772afd982aa2f11e948a4858a36626aa3145d3de0d6933",
     "about.html": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
     "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp": "c7989eec514eb55b982f389fcd72a31c46fce42791d10f9b38b668e0881e83a8",
+    "assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp": "6c3fd91c96bd72c94bd42cea1679aae94d9577bcad0a8305239abe7560f905a2",
     "assets/heroes/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business-a8eb00f44db0d926.webp": "a8eb00f44db0d926ecbdaed5cd3aa5836d41d828317fddf56faeab17778e80b4",
     "assets/heroes/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm-3e2868cdac991819.webp": "3e2868cdac991819d9d7ad6d014c10433a12b8cc1a97d90721029606e3f6b3a8",
     "assets/heroes/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories-9092cec4011e3001.webp": "9092cec4011e30018715ad722839c0998f6a0afc3dc66b0a0824ccc40429b4a4",
@@ -2297,6 +2436,7 @@
     "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp": "35dc8e4c9baedf3c2f0d121833060c90798aac45a22b73022b52c7d119658a6f",
     "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
     "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg": "ba85c688e9aa61cc8ef34b06d8daa9e47071989dd832193093a7f86424cecbef",
+    "assets/og/2026-06-07-cbam-verification-and-cleaner-production.jpg": "36e49bcea09bc356b8f72c381cf5d282196f904215038f4a8cf0e3555a511085",
     "assets/og/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business.jpg": "2d0cf9d6bc05480683d3e25992549ce4b9e19576f35e17cd34fccdc01bc95abf",
     "assets/og/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.jpg": "f7a902518a319478e34152f05aa80da6e214686df8480740adeab5a65c733108",
     "assets/og/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.jpg": "0bc0a2b09d89959adaee10216f6c5f3e78ee646340aef4ade57aa635c45c7420",
@@ -2373,14 +2513,15 @@
     "assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg": "f9c2d3c3f03913a0350fcd352205cebbad8a8236bb1b6fa9053e29cefa9d6057",
     "assets/og/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.jpg": "2ff729ce881d125b79b14e91844049ababc9d30b63d343b31f36c1308819f985",
     "assets/site/industrial-port-photo.png": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
-    "blog-data.json": "d6964741c9f5fd8d91a894472f5022f8bf93db12f8dd6086b6f8fb32a68914e7",
+    "blog-data.json": "9546e404292ed5f35a58b6e486863314e0ed9cedab3bcfd49746373e028afbac",
     "disclaimer.html": "924749b2dcd25d390d1f978585c6f4adbcb7251de172047e7118b4809b0274a1",
     "favicon.svg": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
-    "feed.xml": "c2dafb1b70430827300b755126fd195dcae2539248c2875d1ed1efcb74f7a392",
-    "index.html": "54628cc4d96fb368138e40586e0be47d7673dbf4035183f232465ba90ff2c955",
+    "feed.xml": "61b2db4f4487c26a9b2d34ad8e2e29913c596fd13c3b5152e62f2a37671ace61",
+    "index.html": "fb56eee28544b03e62772afd982aa2f11e948a4858a36626aa3145d3de0d6933",
     "ledger.html": "ab5f2a1099e8109b35fcdbc41f7af294f3d0edc048f22bfb522256d4b298f992",
-    "patterns.html": "8d749f6cabc8104adf661b86ae63f78348b92c448eb76133217e3fe084178844",
+    "patterns.html": "8896efe560d9f33a38eba41a735056f47a332081a2897e871586b1609cfb2189",
     "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
+    "posts/2026-06-07-cbam-verification-and-cleaner-production.html": "ddf9fe605aa0bc2217537e7ac1b95ea8ef598e2c87453b15e716d2123e4573d6",
     "posts/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business.html": "011bb2aa9a6377efe580000fc9cbdc2fe263f52d155e97a8a8f55a5f6988043c",
     "posts/2026-06-07-post-quantum-migration-needs-an-owner-not-just-an-algorithm.html": "73230bd8dc9c7de07850d25ccf8b6b1fd805c04e4dbf2872f6d362292b62c45c",
     "posts/2026-06-07-the-customer-test-for-new-rare-earth-magnet-factories.html": "1a30bb4071609d68e88b078adc2d3e9e1f1f4e6d56850da61869094b043a9a3a",
@@ -2457,16 +2598,16 @@
     "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html": "eb5fd4207d42494579f586fc0dd53855caadfd15225c8b9c6a2213f2bdcf1268",
     "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html": "f259226fe6cd732944450526fa58481daaf073d1ba5e834dcf412fff5c735926",
     "privacy.html": "9b1a67460e82618ef082b81124f430a625d0a84de63f10acaa7ebb940aff03cd",
-    "publication-data.json": "e93828491760f010e2c5dba5465c42bb8fa2d6d4c07a9903612fc452e0e2f3ec",
+    "publication-data.json": "dcb9512f32908898b90d3a7b91f98b559bade97253fe81aa0327e40bca440696",
     "rgraph.js": "eea1c5f6c40f22b809110a0db602fffa932c6e6759aabce7836401d69521092a",
     "site.js": "a4802ab7d88f8a7741080448478fe005fba32448610d08edd9ad65b2a642b31d",
-    "sitemap.xml": "529b53dcfd2ce7a8ab96c87454a42d0cf13565b6efadf2ec2d807aedf6a91883",
+    "sitemap.xml": "a47b6acbb3a240a338f9ff7fdc452211d11329fefa735ea4e697b1ef8131acff",
     "styles.css": "3c438abf1778e8c96e93713898dc7adb6b7b9754697f1fb2af53c35862a4ef44"
   },
   "profile_contracts": {
     "integrated-v1": "3bf8e6401a1a0d8508dd7e647cda6d9ec7b75c23ef99f43a689be432a17d735a"
   },
-  "proof_sha256": "1c86607d8f0f207487cbb0d4730cc2650680596f1bd0b232a7245ffebd46f9cd",
+  "proof_sha256": "cad2967a2d402e13359fd5a08f3358df9aaf9c5cc100a69f662d25f426ea57e3",
   "schema_version": 3,
   "status": "publication-ready"
 }
