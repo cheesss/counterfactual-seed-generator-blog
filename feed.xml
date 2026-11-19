@@ -4,8 +4,15 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed research on industrial constraints, commercialization, disruption, and the systems that decide what scales next.</description>
-  <lastBuildDate>Thu, 19 Nov 2026 05:16:33 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 10:16:33 +0000</lastBuildDate>
 
+  <item>
+    <title>The fuel test for methanol ships</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-11-19-methanol-ships-and-marine-fuel-availability.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-11-19-methanol-ships-and-marine-fuel-availability.html</guid>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <description>Claim: Limited repeat purchases of qualifying fuel at a price carriers or their customers will pay will keep Rotterdam&#x27;s calendar-2027 Bio Methanol bunker sales below 25,000 metric tonnes.</description>
+  </item>
   <item>
     <title>A Factory Isn&#x27;t Finished Until the Work Passes</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-11-19-workforce-credentialing-and-industrial-construction.html</link>
@@ -208,13 +215,6 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration.html</guid>
     <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
     <description>Most CXL coverage follows specifications, capacity, bandwidth, latency, and the number of compliant devices. Those are useful measures of technical progress. They are not enough to show that a product can be ordered, installed, updated, operated, and supported as part of a production system.</description>
-  </item>
-  <item>
-    <title>The launch bottleneck may be a complete treatment block</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-psychedelic-treatment-scales-through-synchronized-blocks.html</guid>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <description>Psychedelic-treatment capacity is often described as a room-count problem. That framing is too simple. A long monitored session creates output only when several resources arrive together: a usable room, qualified personnel, controlled product, documentation, discharge capability, emergency response, payer authorization, and payment sufficient to compensate the whole episode.</description>
   </item>
 </channel>
 </rss>

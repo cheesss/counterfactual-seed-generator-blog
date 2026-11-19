@@ -1,6 +1,170 @@
 {
   "articles": [
     {
+      "post_sha256": "0d5057eab64206512da0a90ea83bf5c44aba28fee01db916821c056d78fc5bc2",
+      "profile": "integrated-v1",
+      "quality": {
+        "approval_chain": [
+          {
+            "report_sha256": "becd3aa8b08d8c4f96ce9dc9b4ac57d9018795b80e4b0460d8be6eb9e12db9fd",
+            "scope": "integrated-independent-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "a4b5c23b09c3a5bccd572d915c2731ea4eb1f51172a9ce38cb9608bccd20c74c",
+                "raw_sha256": "3bc4de22b4fcf42bb8071c6700f575fb733d9cb0d19eb40a074f91f90f2d2396",
+                "section_sha256": "bcf5e5a2db9a819c278edbfa231795837ff0a6530a6829f8fe1ef265bbe5818f",
+                "stage": "integrated-research"
+              },
+              {
+                "prompt_sha256": "7ad6cb8e1415d03a662a91f52c027d8e842f449e011491a32da3776a617422fc",
+                "raw_sha256": "630df3492e7e65ab512afdd6fcc81dd3c326ca19d7e726b4575b63177abfb02c",
+                "section_sha256": "825c9e985e5c071ad343cecbea965b97c3dc5782a54b6f6168a2d5531e0e767d",
+                "stage": "independent-review-edit"
+              }
+            ]
+          },
+          {
+            "after_sha256": "9e5e9a77fd7c043c276c3c963226a5a37a9417840cff4bdebc968e60eee3e10c",
+            "before_sha256": "becd3aa8b08d8c4f96ce9dc9b4ac57d9018795b80e4b0460d8be6eb9e12db9fd",
+            "changed_claims": [
+              {
+                "after": "Stena Germanica began methanol sailings between Gothenburg and Kiel in late March 2015 after its retrofit.",
+                "before": "Methanol engines have a decade of operating history; repeat supply of qualifying fuel is newer.",
+                "id": "C-001",
+                "section": "In brief"
+              },
+              {
+                "after": "CMA CGM Osmium took biomethanol at Shanghai in both March and August 2026.",
+                "before": "Shanghai shows how a carrier, producer and bunker operator can make repeat deliveries work.",
+                "id": "C-002",
+                "section": "In brief"
+              },
+              {
+                "after": "\u00d8rsted halted FlagshipONE in August 2024, citing higher costs and an inability to secure long-term offtake at sustainable prices.",
+                "before": "A ship order buys fuel flexibility. A fuel plant needs customers who will pay for output.",
+                "id": "C-003",
+                "section": "In brief"
+              },
+              {
+                "after": "8,016 tonnes | biomethanol delivered to CMA CGM Osmium in Shanghai in August 2026, following 3,643 tonnes in March. [CMA CGM](https://www.cma-cgm.com/local/china/news/166/cma-cgm-sipg-energy-and-shanghai-electric-group-set-new-world-record-for-largest-single-biomethanol-bunkering)",
+                "before": "**8,016 tonnes:** biomethanol delivered to CMA CGM Osmium in Shanghai in August 2026, following 3,643 tonnes in March. [CMA CGM](https://www.cma-cgm.com/local/china/news/166/cma-cgm-sipg-energy-and-shanghai-electric-group-set-new-world-record-for-largest-single-biomethanol-bunkering)",
+                "id": "C-004",
+                "section": "Key figures"
+              },
+              {
+                "after": "11,819 tonnes | Rotterdam's biomethanol bunker sales in 2025, about 0.12% of the port's total bunker tonnage. [Port statistics](https://www.portofrotterdam.com/sites/default/files/2026-10/bunker-sales-2024-2026.pdf)",
+                "before": "**11,819 tonnes:** Rotterdam's biomethanol bunker sales in 2025, about 0.12% of the port's total bunker tonnage. [Port statistics](https://www.portofrotterdam.com/sites/default/files/2026-10/bunker-sales-2024-2026.pdf)",
+                "id": "C-005",
+                "section": "Key figures"
+              },
+              {
+                "after": "61 | global methanol-capable ship orders in 2025 versus 149 in 2024, in DNV's count. [DNV order data](https://www.dnv.com/news/2026/LNG-fuelled-container-ships-sustain-alternative-fuel-share-of-global-orderbook-amid-industry-slowdown/)",
+                "before": "**61 versus 149:** global methanol-capable ship orders in 2025 and 2024, respectively, in DNV's count. [DNV order data](https://www.dnv.com/news/2026/LNG-fuelled-container-ships-sustain-alternative-fuel-share-of-global-orderbook-amid-industry-slowdown/)",
+                "id": "C-006",
+                "section": "Key figures"
+              }
+            ],
+            "grounded_assertions": [],
+            "scope": "artifact-affected-claim-source-review",
+            "stages": [
+              {
+                "prompt_sha256": "9619e3110beed4fcb2a5141b6630d983d3d5b376af80268cb8e325c086630471",
+                "raw_sha256": "0ea5b683b66e46f563e284a732dee08a5710ce29c4dd206c77cea2577b0f2594",
+                "section_sha256": "c504a5cd50afaa61029f22f59c8ed4911137a3a3a8cff0d6fbd4699c9ed2835d",
+                "stage": "artifact-format-repair"
+              },
+              {
+                "prompt_sha256": "f88a7e5185b5869124ea749df846a71568b77ba9d311d5049062a34b8a361934",
+                "raw_sha256": "224c6c73c487a8cdf86073d1d0eeb55db72553ae9356aa6e4bfa68e8afdcede1",
+                "section_sha256": "9e1d85ea4c85c690b8cc8afb146c255bc5277dc9da94459863dc82298c588a08",
+                "stage": "artifact-claim-review"
+              }
+            ],
+            "verified_claims": [
+              {
+                "after": "Stena Germanica began methanol sailings between Gothenburg and Kiel in late March 2015 after its retrofit.",
+                "before": "Methanol engines have a decade of operating history; repeat supply of qualifying fuel is newer.",
+                "change_id": "C-001",
+                "finding": "W\u00e4rtsil\u00e4's retrofit case confirms methanol-powered sailings on the Gothenburg\u2013Kiel route starting in late March 2015. It establishes operation on this ferry, not the age or availability of qualifying fuel supply.",
+                "source_url": "https://www.wartsila.com/marine/customer-segments/references/ferry/stena-germanica"
+              },
+              {
+                "after": "CMA CGM Osmium took biomethanol at Shanghai in both March and August 2026.",
+                "before": "Shanghai shows how a carrier, producer and bunker operator can make repeat deliveries work.",
+                "change_id": "C-002",
+                "finding": "CMA CGM's March release records bunkering on March 5\u20136 at Yangshan Port for Osmium. The August release checked in C-004 records bunkering of the same ship at Shanghai Port on August 15\u201316. These are two deliveries, not proof of fuel burn or a recurring schedule.",
+                "source_url": "https://www.cmacgm-group.com/en/news-media/decarbonization-maritime-industry-cma-cgm-and-sipg-energy-complete-cma-cgms-first"
+              },
+              {
+                "after": "\u00d8rsted halted FlagshipONE in August 2024, citing higher costs and an inability to secure long-term offtake at sustainable prices.",
+                "before": "A ship order buys fuel flexibility. A fuel plant needs customers who will pay for output.",
+                "change_id": "C-003",
+                "finding": "\u00d8rsted's supplementary filing dates the decision to stop construction and development to August 2024 and identifies higher project costs and the failure to sign viable long-term purchase contracts. The H1 2024 report also cites slower-than-expected technology industrialisation and offtake-market development; the candidate does not present its two cited factors as exhaustive.",
+                "source_url": "https://cdn.orsted.com/-/media/rights-issue/orsted-as-supplementary-document.pdf?hash=5F7E557777E926E21F77FB055E728878&rev=9c98369fa4dc43a0a090741a1204fcb9"
+              },
+              {
+                "after": "8,016 tonnes | biomethanol delivered to CMA CGM Osmium in Shanghai in August 2026, following 3,643 tonnes in March. [CMA CGM](https://www.cma-cgm.com/local/china/news/166/cma-cgm-sipg-energy-and-shanghai-electric-group-set-new-world-record-for-largest-single-biomethanol-bunkering)",
+                "before": "**8,016 tonnes:** biomethanol delivered to CMA CGM Osmium in Shanghai in August 2026, following 3,643 tonnes in March. [CMA CGM](https://www.cma-cgm.com/local/china/news/166/cma-cgm-sipg-energy-and-shanghai-electric-group-set-new-world-record-for-largest-single-biomethanol-bunkering)",
+                "change_id": "C-004",
+                "finding": "The retained link records 8,016 loaded in August 2026 and 3,643 in March on the same ship; the carrier's Chinese release confirms metric tonnes for both figures. The new delimiter changes no assertion. These figures are quantities bunkered, not consumed.",
+                "source_url": "https://www.cma-cgm.com/local/china/news/166/cma-cgm-sipg-energy-and-shanghai-electric-group-set-new-world-record-for-largest-single-biomethanol-bunkering"
+              },
+              {
+                "after": "11,819 tonnes | Rotterdam's biomethanol bunker sales in 2025, about 0.12% of the port's total bunker tonnage. [Port statistics](https://www.portofrotterdam.com/sites/default/files/2026-10/bunker-sales-2024-2026.pdf)",
+                "before": "**11,819 tonnes:** Rotterdam's biomethanol bunker sales in 2025, about 0.12% of the port's total bunker tonnage. [Port statistics](https://www.portofrotterdam.com/sites/default/files/2026-10/bunker-sales-2024-2026.pdf)",
+                "change_id": "C-005",
+                "finding": "The retained port table lists 11,819 tonnes of Bio Methanol for full-year 2025. Dividing by the two fuel subtotals (9,173,485 plus 649,466 tonnes) gives 0.1203%, which rounds to 0.12%. The table extrapolates from bunker notifications; this is a port-level estimate.",
+                "source_url": "https://www.portofrotterdam.com/sites/default/files/2026-10/bunker-sales-2024-2026.pdf"
+              },
+              {
+                "after": "61 | global methanol-capable ship orders in 2025 versus 149 in 2024, in DNV's count. [DNV order data](https://www.dnv.com/news/2026/LNG-fuelled-container-ships-sustain-alternative-fuel-share-of-global-orderbook-amid-industry-slowdown/)",
+                "before": "**61 versus 149:** global methanol-capable ship orders in 2025 and 2024, respectively, in DNV's count. [DNV order data](https://www.dnv.com/news/2026/LNG-fuelled-container-ships-sustain-alternative-fuel-share-of-global-orderbook-amid-industry-slowdown/)",
+                "change_id": "C-006",
+                "finding": "DNV's Alternative Fuels Insight release gives 61 methanol ship orders in 2025 versus 149 in 2024. These are new orders in DNV's dataset, not deliveries, operating ships, or fuel use. This review covers only the six listed units; unchanged claims were not freshly checked.",
+                "source_url": "https://www.dnv.com/news/2026/LNG-fuelled-container-ships-sustain-alternative-fuel-share-of-global-orderbook-amid-industry-slowdown/"
+              }
+            ]
+          }
+        ],
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "0d5057eab64206512da0a90ea83bf5c44aba28fee01db916821c056d78fc5bc2",
+        "report_sha256": "9e5e9a77fd7c043c276c3c963226a5a37a9417840cff4bdebc968e60eee3e10c",
+        "review_provenance": {
+          "agent_id": "01a1f33d-4e41-7fb0-b99b-d6151e3e2356",
+          "base_state_sha256": "d239fac07956644b28aa415c03026254b666c214163e1a8acd22ac6305c23dfd",
+          "original_report_sha256": "becd3aa8b08d8c4f96ce9dc9b4ac57d9018795b80e4b0460d8be6eb9e12db9fd",
+          "profile": "integrated-v1",
+          "prompt_sha256": "f88a7e5185b5869124ea749df846a71568b77ba9d311d5049062a34b8a361934",
+          "raw_sha256": "224c6c73c487a8cdf86073d1d0eeb55db72553ae9356aa6e4bfa68e8afdcede1",
+          "repair_chain_sha256": "7409e0c896d4b08fc4f682e01709384996f8e57e0ff96c963fd9493c4b4e60d7",
+          "report_sha256": "9e5e9a77fd7c043c276c3c963226a5a37a9417840cff4bdebc968e60eee3e10c",
+          "scope": "artifact-affected-claim-source-review",
+          "section_sha256": "9e1d85ea4c85c690b8cc8afb146c255bc5277dc9da94459863dc82298c588a08",
+          "stage": "artifact-claim-review"
+        },
+        "review_scope": "artifact-affected-claim-source-review",
+        "review_sha256": "2fe2cc0545beb685049d9f1921b0ae4666b738b9bf5f55c35a76cb1e89877c99",
+        "status": "publishable"
+      },
+      "report_sha256": "9e5e9a77fd7c043c276c3c963226a5a37a9417840cff4bdebc968e60eee3e10c",
+      "slug": "2026-11-19-methanol-ships-and-marine-fuel-availability",
+      "stages": [
+        {
+          "prompt_sha256": "a4b5c23b09c3a5bccd572d915c2731ea4eb1f51172a9ce38cb9608bccd20c74c",
+          "raw_sha256": "3bc4de22b4fcf42bb8071c6700f575fb733d9cb0d19eb40a074f91f90f2d2396",
+          "section_sha256": "bcf5e5a2db9a819c278edbfa231795837ff0a6530a6829f8fe1ef265bbe5818f",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "7ad6cb8e1415d03a662a91f52c027d8e842f449e011491a32da3776a617422fc",
+          "raw_sha256": "630df3492e7e65ab512afdd6fcc81dd3c326ca19d7e726b4575b63177abfb02c",
+          "section_sha256": "825c9e985e5c071ad343cecbea965b97c3dc5782a54b6f6168a2d5531e0e767d",
+          "stage": "independent-review-edit"
+        }
+      ]
+    },
+    {
       "post_sha256": "661c7e5d4be66f5454a3791826c0b5bf53a8fcb350b491698c227de04b4975f3",
       "profile": "integrated-v1",
       "quality": {
@@ -1059,7 +1223,7 @@
         "deployed_post_sha256": "4dc66fa2ff420761b0f068d0244b12128d53123bf38b71bb536d881d219099b4",
         "public_content": "unchanged-since-deployment"
       },
-      "post_sha256": "493ed4beb6040d9bb8f7e0c8eb696181ce3f65204a1de7adf3b350ac83f30d6a",
+      "post_sha256": "44198d825ea21af517c7a033de379856dedab56af98ecf3665383a479bbb9cbb",
       "profile": "legacy-deployed-v1",
       "report_sha256": "9c144018a34001a67f01a3cab17b60c24f2705e7eccb194c4885eac553198993",
       "slug": "2026-07-24-port-electrification-is-becoming-an-operating-system-problem"
@@ -2520,7 +2684,7 @@
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "404.html": "83d818a88fb8948e5c401ef9168184fb19a72c37a8a54dd740670a4fe8f7ca2a",
+    "404.html": "d75016bf9d46c1b87f706251da028c2caadd766a0a8770cccb6e1e326f42c91d",
     "about.html": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
     "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp": "c7989eec514eb55b982f389fcd72a31c46fce42791d10f9b38b668e0881e83a8",
     "assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp": "6c3fd91c96bd72c94bd42cea1679aae94d9577bcad0a8305239abe7560f905a2",
@@ -2600,6 +2764,7 @@
     "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp": "35dc8e4c9baedf3c2f0d121833060c90798aac45a22b73022b52c7d119658a6f",
     "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
     "assets/heroes/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity-0fae7bdf4f8e6d7e.webp": "0fae7bdf4f8e6d7e28b33f201a9cd51d6d79d69900413b28ba03469293d4bdf6",
+    "assets/heroes/2026-11-19-methanol-ships-and-marine-fuel-availability-fb3975663345b64d.webp": "fb3975663345b64d676b65067db1ff4d966c7c3a496d3324cc25630e0c644051",
     "assets/heroes/2026-11-19-workforce-credentialing-and-industrial-construction-ed67a80b2fc15425.webp": "ed67a80b2fc15425148c3d15247613852d9664ac62c676e069f484e139d95e69",
     "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg": "ba85c688e9aa61cc8ef34b06d8daa9e47071989dd832193093a7f86424cecbef",
     "assets/og/2026-06-07-cbam-verification-and-cleaner-production.jpg": "36e49bcea09bc356b8f72c381cf5d282196f904215038f4a8cf0e3555a511085",
@@ -2679,15 +2844,16 @@
     "assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg": "f9c2d3c3f03913a0350fcd352205cebbad8a8236bb1b6fa9053e29cefa9d6057",
     "assets/og/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.jpg": "2ff729ce881d125b79b14e91844049ababc9d30b63d343b31f36c1308819f985",
     "assets/og/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity.jpg": "d20da66be7c46281e02437a61d722a9c10b96831085128cc8171158c33c7eae9",
+    "assets/og/2026-11-19-methanol-ships-and-marine-fuel-availability.jpg": "2b348513ba86ec568043140647e2ed058fd967ad208380e0679ceb5de54f67b7",
     "assets/og/2026-11-19-workforce-credentialing-and-industrial-construction.jpg": "78bd7c91552ab1e4c21f0b76634a06b197a822652e68feb48246feb7a5699752",
     "assets/site/industrial-port-photo.png": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
-    "blog-data.json": "0fb09ade84c9e1eca01b28866263f44cda49ac413c27655a44000c68d7c18e6c",
+    "blog-data.json": "ad3ea0aac1243f0f01d961c81dc1107d9345cae278039adff3f3977238b3f9fa",
     "disclaimer.html": "924749b2dcd25d390d1f978585c6f4adbcb7251de172047e7118b4809b0274a1",
     "favicon.svg": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
-    "feed.xml": "a71b900653104e8bc8c12aa4f02887c3ee01283e4b2e00dc86b2b8bb88d77486",
-    "index.html": "83d818a88fb8948e5c401ef9168184fb19a72c37a8a54dd740670a4fe8f7ca2a",
-    "ledger.html": "f14372d64af7640e9985ff271e61db2bd3d2d70610d98d0f1fba39ed95163dbb",
-    "patterns.html": "bc352fc97038b3d767b780c9e7d48ecaf12085abade3ba598462bf0b30a60811",
+    "feed.xml": "a1eeeafa0b1eadbf4d28d93043c440304742ac2d673caae8e3c90f651526d2d5",
+    "index.html": "d75016bf9d46c1b87f706251da028c2caadd766a0a8770cccb6e1e326f42c91d",
+    "ledger.html": "de5e66b581860c9c3b8c3a5171e71157d5d76c4ed7d635a6ec86be1e5cd0adf5",
+    "patterns.html": "7e1c7dc8eced62a420194c0f307ebfec50fed2547072f04dab17bb208dd66c97",
     "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
     "posts/2026-06-07-cbam-verification-and-cleaner-production.html": "ddf9fe605aa0bc2217537e7ac1b95ea8ef598e2c87453b15e716d2123e4573d6",
     "posts/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business.html": "011bb2aa9a6377efe580000fc9cbdc2fe263f52d155e97a8a8f55a5f6988043c",
@@ -2739,7 +2905,7 @@
     "posts/2026-07-24-cxl-s-commercial-control-point-is-the-supported-configuration.html": "8ade6d2ad89218882312e9cec3af2f616e40f5df702be52deb4421799c2a5127",
     "posts/2026-07-24-europe-s-if24-hydrogen-auction-selected-projects-not-yet-a-market.html": "e3aa0a9334b60603c927ba0bee14b39e8579c986e45e673acf7ead5a1ae2a349",
     "posts/2026-07-24-federal-ai-procurement-is-starting-to-buy-the-exit-path.html": "f76d5288db6305720f8a9fc181caa7fde5c072f8f5df06532a899a47ea02ca16",
-    "posts/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.html": "493ed4beb6040d9bb8f7e0c8eb696181ce3f65204a1de7adf3b350ac83f30d6a",
+    "posts/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.html": "44198d825ea21af517c7a033de379856dedab56af98ecf3665383a479bbb9cbb",
     "posts/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence.html": "51788cd50fd6e44d989f5baa505f2ddd8494e9804b18813a3bd14ff9703bcd98",
     "posts/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases.html": "10fc059b68acca433193a4713dec358ee83b0be89b9d57a57ea3e72acc0bcec5",
     "posts/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system.html": "7abc118475baca75086764cd253eaf02de2b4cff143eb5866e7263f585004662",
@@ -2766,18 +2932,19 @@
     "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html": "eb5fd4207d42494579f586fc0dd53855caadfd15225c8b9c6a2213f2bdcf1268",
     "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html": "f259226fe6cd732944450526fa58481daaf073d1ba5e834dcf412fff5c735926",
     "posts/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity.html": "f43edb80f4aae140a76cef06a0fed8a477f7daf6db39e5c572dcdf3d3c70c1fe",
+    "posts/2026-11-19-methanol-ships-and-marine-fuel-availability.html": "0d5057eab64206512da0a90ea83bf5c44aba28fee01db916821c056d78fc5bc2",
     "posts/2026-11-19-workforce-credentialing-and-industrial-construction.html": "661c7e5d4be66f5454a3791826c0b5bf53a8fcb350b491698c227de04b4975f3",
     "privacy.html": "9b1a67460e82618ef082b81124f430a625d0a84de63f10acaa7ebb940aff03cd",
-    "publication-data.json": "2aa9b08a14e348829554a086ca9cd5554ef75c75aefe0d6c5a8678c4854f6d3d",
+    "publication-data.json": "6a640fb621b5f3021ee98104a449e539bac66e1a7d78b746d84845ecfb5002f2",
     "rgraph.js": "eea1c5f6c40f22b809110a0db602fffa932c6e6759aabce7836401d69521092a",
     "site.js": "a4802ab7d88f8a7741080448478fe005fba32448610d08edd9ad65b2a642b31d",
-    "sitemap.xml": "059923c219403cea495156caf80e0d50996a0a9766ab23406f0f0662e1b35ed4",
+    "sitemap.xml": "962687b23c8bc41afd58141d571a50a0b033ee590026ed3cbac033dd994a155a",
     "styles.css": "3c438abf1778e8c96e93713898dc7adb6b7b9754697f1fb2af53c35862a4ef44"
   },
   "profile_contracts": {
     "integrated-v1": "3bf8e6401a1a0d8508dd7e647cda6d9ec7b75c23ef99f43a689be432a17d735a"
   },
-  "proof_sha256": "781706ec9b1ec1ad259d0029beebc6311c46255b5da2bae6057b5f76b1f40bd4",
+  "proof_sha256": "6dc35e76f704097efda1218d268fdefba6e95c9498e4fee85b1358b55c06d539",
   "schema_version": 3,
   "status": "publication-ready"
 }
