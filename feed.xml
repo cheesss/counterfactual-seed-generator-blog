@@ -4,8 +4,15 @@
   <title>Bottleneck Briefs</title>
   <link>https://cheesss.github.io/counterfactual-seed-generator-blog/</link>
   <description>Source-backed research on industrial constraints, commercialization, disruption, and the systems that decide what scales next.</description>
-  <lastBuildDate>Mon, 16 Nov 2026 19:13:14 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 02:57:53 +0000</lastBuildDate>
 
+  <item>
+    <title>DNA archives need an exit plan</title>
+    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity.html</link>
+    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity.html</guid>
+    <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    <description>The emerging product is a recoverable file: a durable sample accompanied by the information, rights and practical arrangements needed to read it after its original supplier has gone.</description>
+  </item>
   <item>
     <title>Liver-Chips Become a Business When the Study Travels</title>
     <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html</link>
@@ -208,13 +215,6 @@
     <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-recovery-curves-may-beat-aging-clocks-but-the-evidence-stack-is-still-missing.html</guid>
     <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     <description>Longevity research has spent years compressing aging into a resting-state number. Epigenetic clocks, proteomic models, frailty indices, inflammatory panels, and organ-age estimates all try to locate a person on an aging trajectory. Some of those estimates rise during surgery, infection, pregnancy, or other acute stress and then decline during recovery.</description>
-  </item>
-  <item>
-    <title>Oregon’s Psychedelic Training Market Has a Second Gate</title>
-    <link>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html</link>
-    <guid>https://cheesss.github.io/counterfactual-seed-generator-blog/posts/2026-07-14-the-real-bottleneck-in-psychedelic-services-is-protected-supervisor-time.html</guid>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    <description>Psychedelic-workforce discussions usually begin with visible inventories: approved curricula, classroom seats, licensed facilitators, and service centers. Those counts matter, but they do not describe how quickly a trainee can become an active practitioner. The production process has another unit: a compliant session that can serve a client while also advancing a trainee toward licensure.</description>
   </item>
 </channel>
 </rss>

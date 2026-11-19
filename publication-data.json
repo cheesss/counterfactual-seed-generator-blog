@@ -1,21 +1,21 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 77,
-    "data_series": 247,
+    "articles": 78,
+    "data_series": 249,
     "calendar_year_card_candidates_excluded": 6,
     "watch": {
-      "tracked_articles": 60,
-      "signals": 304,
+      "tracked_articles": 61,
+      "signals": 307,
       "resolved": 5,
       "states": {
-        "open": 299,
+        "open": 302,
         "confirmed": 5,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 304
+        "explicit_bullet": 307
       },
       "unstructured_watch_sections": 13,
       "unpublished_prose_candidates": 66
@@ -24,7 +24,7 @@
       "complete_by_sections": 48,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
-        "current-incomplete": 27,
+        "current-incomplete": 28,
         "current-complete": 3,
         "legacy-migration-gap": 2,
         "legacy-complete": 45
@@ -41,7 +41,7 @@
         "constraint": 55,
         "commercialization": 13,
         "disruption": 4,
-        "ecosystem-expansion": 5
+        "ecosystem-expansion": 6
       },
       "sectors": {
         "energy": 8,
@@ -56,7 +56,7 @@
         "semiconductors": 1,
         "quantum": 1,
         "neurotechnology": 2,
-        "industrial-software": 4,
+        "industrial-software": 5,
         "logistics": 3,
         "robotics": 2,
         "space": 1,
@@ -76,7 +76,7 @@
         "software-workflow": 6,
         "logistics-infrastructure": 3,
         "manufacturing-tooling": 2,
-        "standards-interoperability": 4,
+        "standards-interoperability": 5,
         "workforce-capacity": 0,
         "demand-formation": 1,
         "other": 3
@@ -84,6 +84,223 @@
     }
   },
   "articles": [
+    {
+      "slug": "2026-11-18-dna-archive-recovery-assurance-and-custody-continuity",
+      "slug_source": "publication_registry",
+      "title": "DNA archives need an exit plan",
+      "url": "posts/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity.html",
+      "date": "2026-11-18",
+      "updated": "2026-11-19",
+      "category": "Report",
+      "sector": {
+        "key": "industrial-software",
+        "label": "Industrial software & data"
+      },
+      "system_pattern": {
+        "key": "standards-interoperability",
+        "label": "Standards & interoperability"
+      },
+      "archetype": {
+        "key": "standards-interoperability",
+        "label": "Standards & interoperability"
+      },
+      "analysis_lens": {
+        "key": "ecosystem-expansion",
+        "label": "Ecosystem expansion"
+      },
+      "excerpt": "The emerging product is a recoverable file: a durable sample accompanied by the information, rights and practical arrangements needed to read it after its original supplier has gone.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity-0fae7bdf4f8e6d7e.webp",
+        "alt": "Oxford nanopore MinION flow cell back"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [
+        {
+          "metric": "Selected native LTO capacities",
+          "points": [
+            {
+              "label": "LTO-8",
+              "value": 12.0,
+              "unit": "native TB/cartridge"
+            },
+            {
+              "label": "LTO-9",
+              "value": 18.0,
+              "unit": "native TB/cartridge"
+            },
+            {
+              "label": "LTO-10 30-TB variant",
+              "value": 30.0,
+              "unit": "native TB/cartridge"
+            },
+            {
+              "label": "LTO-10 40-TB variant",
+              "value": 40.0,
+              "unit": "native TB/cartridge"
+            }
+          ],
+          "headline": {
+            "value": 40.0,
+            "value_text": "40",
+            "unit": "native TB/cartridge",
+            "metric": "Selected native LTO capacities",
+            "point_label": "LTO-10 40-TB variant",
+            "display_label": "LTO-10 40-TB variant - Selected native LTO capacities",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "LTO-8 :: 12 :: native TB/cartridge; LTO-9 :: 18 :: native TB/cartridge; LTO-10 30-TB variant :: 30 :: native TB/cartridge; LTO-10 40-TB variant :: 40 :: native TB/cartridge",
+            "source_urls": [
+              "https://www.fujifilm.com/tw/en/business/data-management/datastorage/ltotape/specifications"
+            ]
+          }
+        },
+        {
+          "metric": "Selected institutional preservation contributions",
+          "points": [
+            {
+              "label": "LME below USD150,000",
+              "value": 1030.0,
+              "unit": "USD/year"
+            },
+            {
+              "label": "LME USD1-2 million",
+              "value": 7321.0,
+              "unit": "USD/year"
+            },
+            {
+              "label": "LME USD5-7 million",
+              "value": 12566.0,
+              "unit": "USD/year"
+            },
+            {
+              "label": "LME USD20-25 million",
+              "value": 20762.0,
+              "unit": "USD/year"
+            }
+          ],
+          "headline": {
+            "value": 20762.0,
+            "value_text": "20,762",
+            "unit": "USD/year",
+            "metric": "Selected institutional preservation contributions",
+            "point_label": "LME USD20-25 million",
+            "display_label": "LME USD20-25 million - Selected institutional preservation contributions",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "LME below USD150,000 :: 1030 :: USD/year; LME USD1-2 million :: 7321 :: USD/year; LME USD5-7 million :: 12566 :: USD/year; LME USD20-25 million :: 20762 :: USD/year",
+            "source_urls": [
+              "https://www.portico.org/join/how-libraries-can-join/"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 40.0,
+          "value_text": "40",
+          "unit": "native TB/cartridge",
+          "metric": "Selected native LTO capacities",
+          "point_label": "LTO-10 40-TB variant",
+          "display_label": "LTO-10 40-TB variant - Selected native LTO capacities",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "LTO-8 :: 12 :: native TB/cartridge; LTO-9 :: 18 :: native TB/cartridge; LTO-10 30-TB variant :: 30 :: native TB/cartridge; LTO-10 40-TB variant :: 40 :: native TB/cartridge",
+            "source_urls": [
+              "https://www.fujifilm.com/tw/en/business/data-management/datastorage/ltotape/specifications"
+            ]
+          }
+        },
+        {
+          "value": 20762.0,
+          "value_text": "20,762",
+          "unit": "USD/year",
+          "metric": "Selected institutional preservation contributions",
+          "point_label": "LME USD20-25 million",
+          "display_label": "LME USD20-25 million - Selected institutional preservation contributions",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "LME below USD150,000 :: 1030 :: USD/year; LME USD1-2 million :: 7321 :: USD/year; LME USD5-7 million :: 12566 :: USD/year; LME USD20-25 million :: 20762 :: USD/year",
+            "source_urls": [
+              "https://www.portico.org/join/how-libraries-can-join/"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-11-18-dna-archive-recovery-assurance-and-custody-continuity:watch:9f06bc349c7f",
+          "text": "By October 16, 2027; base November 19, 2026: a named customer's matching Shield readback, with a dated customer-attributed result on or directly linked from the program record, settles the narrow call.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By October 16, 2027; base November 19, 2026: a named customer's matching Shield readback, with a dated customer-attributed result on or directly linked from the program record, settles the narrow call.",
+          "source_url": "https://www.biomemory.com/dna-shield-early-access-program",
+          "source_urls": [
+            "https://www.biomemory.com/dna-shield-early-access-program"
+          ],
+          "resolve_by": "2027-10-16",
+          "resolve_by_text": "October 16, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-11-18-dna-archive-recovery-assurance-and-custody-continuity:watch:e4d64ae7b8e3",
+          "text": "By October 16, 2027; base October 16, 2026: the original, stronger forecast requires public documentation by an organization other than Biomemory of a named Shield customer's successful outside-operated recovery; the program record remains a monitoring source.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By October 16, 2027; base October 16, 2026: the original, stronger forecast requires public documentation by an organization other than Biomemory of a named Shield customer's successful outside-operated recovery; the program record remains a monitoring source.",
+          "source_url": "https://www.biomemory.com/dna-shield-early-access-program",
+          "source_urls": [
+            "https://www.biomemory.com/dna-shield-early-access-program"
+          ],
+          "resolve_by": "2027-10-16",
+          "resolve_by_text": "October 16, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-11-18-dna-archive-recovery-assurance-and-custody-continuity:watch:b386880a0e61",
+          "text": "By December 31, 2026; base March 10, 2026: Atlas's vendor target is tested by a public record identifying useful terabyte input and the completed operation's scope against its presentation.",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2026; base March 10, 2026: Atlas's vendor target is tested by a public record identifying useful terabyte input and the completed operation's scope against its presentation.",
+          "source_url": "https://digitalpreservation.gov/meetings/DSA2026/0231_banyai_2026.03.10%20Atlas%20LOC%20v1.pdf",
+          "source_urls": [
+            "https://digitalpreservation.gov/meetings/DSA2026/0231_banyai_2026.03.10%20Atlas%20LOC%20v1.pdf"
+          ],
+          "resolve_by": "2026-12-31",
+          "resolve_by_text": "December 31, 2026",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
     {
       "slug": "2026-10-16-liver-chips-become-a-business-when-the-study-travels",
       "slug_source": "publication_registry",

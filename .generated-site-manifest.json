@@ -7,13 +7,13 @@
     },
     {
       "path": ".publication-release.json",
-      "sha256": "f1271b0427d92b7f10d95a0ebc075ef54443b5f8f41b0d6f2382f568f4c988b2",
-      "size": 206158
+      "sha256": "40ad4fe282ef898f7c7d8c35ee85e3f53b4ae5498f0dea6f087fe1f3fc54ded0",
+      "size": 208764
     },
     {
       "path": "404.html",
-      "sha256": "fb56eee28544b03e62772afd982aa2f11e948a4858a36626aa3145d3de0d6933",
-      "size": 132002
+      "sha256": "9811da922ee7f8c00730b8e2dbc157f22824c215feb861b6e534876498f186be",
+      "size": 133406
     },
     {
       "path": "about.html",
@@ -406,6 +406,11 @@
       "size": 91174
     },
     {
+      "path": "assets/heroes/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity-0fae7bdf4f8e6d7e.webp",
+      "sha256": "0fae7bdf4f8e6d7e28b33f201a9cd51d6d79d69900413b28ba03469293d4bdf6",
+      "size": 81076
+    },
+    {
       "path": "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg",
       "sha256": "ba85c688e9aa61cc8ef34b06d8daa9e47071989dd832193093a7f86424cecbef",
       "size": 121315
@@ -791,14 +796,19 @@
       "size": 101674
     },
     {
+      "path": "assets/og/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity.jpg",
+      "sha256": "d20da66be7c46281e02437a61d722a9c10b96831085128cc8171158c33c7eae9",
+      "size": 94856
+    },
+    {
       "path": "assets/site/industrial-port-photo.png",
       "sha256": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
       "size": 1936877
     },
     {
       "path": "blog-data.json",
-      "sha256": "9546e404292ed5f35a58b6e486863314e0ed9cedab3bcfd49746373e028afbac",
-      "size": 56142
+      "sha256": "3bf0f2436204e7bbc29e50075b27e74d6dd5f5c1bcb5783661bb3ac37745e050",
+      "size": 56693
     },
     {
       "path": "disclaimer.html",
@@ -812,28 +822,28 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "61b2db4f4487c26a9b2d34ad8e2e29913c596fd13c3b5152e62f2a37671ace61",
-      "size": 25601
+      "sha256": "607d04e2939308a5f79922c114f873a78f5dcd56e8756259f7c9bc5b0b6608bd",
+      "size": 25328
     },
     {
       "path": "image-manifest.json",
-      "sha256": "2c4ac139dd1ae5f02a1db3650d1900c8740d4f4351cb119ee1c0f1fbd4ffd5b5",
-      "size": 327333
+      "sha256": "8b4f163c2bed984e2c4329a8fb8603bc4ae9aef13bc444c42ef6bf9b26f8040f",
+      "size": 331201
     },
     {
       "path": "index.html",
-      "sha256": "fb56eee28544b03e62772afd982aa2f11e948a4858a36626aa3145d3de0d6933",
-      "size": 132002
+      "sha256": "9811da922ee7f8c00730b8e2dbc157f22824c215feb861b6e534876498f186be",
+      "size": 133406
     },
     {
       "path": "ledger.html",
-      "sha256": "ab5f2a1099e8109b35fcdbc41f7af294f3d0edc048f22bfb522256d4b298f992",
-      "size": 92998
+      "sha256": "f14372d64af7640e9985ff271e61db2bd3d2d70610d98d0f1fba39ed95163dbb",
+      "size": 94277
     },
     {
       "path": "patterns.html",
-      "sha256": "8896efe560d9f33a38eba41a735056f47a332081a2897e871586b1609cfb2189",
-      "size": 52793
+      "sha256": "f4aa489372b5a346a63f9231c7be0896b595016760ddf02947b3de464a05cec2",
+      "size": 53257
     },
     {
       "path": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
@@ -1117,8 +1127,8 @@
     },
     {
       "path": "posts/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply.html",
-      "sha256": "01141d59bfa9f45729be9c7b2ab50d2eb02bb0268172084b9a297cb6d2dc6ef8",
-      "size": 53243
+      "sha256": "b3576acbea712b21ff6a8afb8d67fe7779c3c30c7c5d2266c64360691937da1b",
+      "size": 53147
     },
     {
       "path": "posts/2026-07-24-the-part-is-becoming-a-governed-production-record.html",
@@ -1177,8 +1187,8 @@
     },
     {
       "path": "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html",
-      "sha256": "ab1a65f97cd4694ee36c4eeafa608a20c7ef9d545e3e0578e0a21490b291de4d",
-      "size": 39466
+      "sha256": "90dd50b1e9cdb25da5fbd8f2facaf4fb2acad1275d9ae85551a06a59131a7da7",
+      "size": 39431
     },
     {
       "path": "posts/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.html",
@@ -1221,14 +1231,19 @@
       "size": 43329
     },
     {
+      "path": "posts/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity.html",
+      "sha256": "f43edb80f4aae140a76cef06a0fed8a477f7daf6db39e5c572dcdf3d3c70c1fe",
+      "size": 39992
+    },
+    {
       "path": "privacy.html",
       "sha256": "9b1a67460e82618ef082b81124f430a625d0a84de63f10acaa7ebb940aff03cd",
       "size": 3561
     },
     {
       "path": "publication-data.json",
-      "sha256": "dcb9512f32908898b90d3a7b91f98b559bade97253fe81aa0327e40bca440696",
-      "size": 884537
+      "sha256": "81e9b833da7e13609abfd893f9b055f82490105a6d6f1515f9e3e91a276394e1",
+      "size": 894579
     },
     {
       "path": "rgraph.js",
@@ -1242,8 +1257,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "a47b6acbb3a240a338f9ff7fdc452211d11329fefa735ea4e697b1ef8131acff",
-      "size": 13748
+      "sha256": "a1292beb9f3943455eb9566c38fd028d9cd2268b6e3ea1ab6b04b0393ddb9633",
+      "size": 13909
     },
     {
       "path": "styles.css",
