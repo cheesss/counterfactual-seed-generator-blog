@@ -1,6 +1,45 @@
 {
   "articles": [
     {
+      "post_sha256": "f43edb80f4aae140a76cef06a0fed8a477f7daf6db39e5c572dcdf3d3c70c1fe",
+      "profile": "integrated-v1",
+      "quality": {
+        "blocking_issue_count": 0,
+        "link_health_checked": true,
+        "post_sha256": "f43edb80f4aae140a76cef06a0fed8a477f7daf6db39e5c572dcdf3d3c70c1fe",
+        "report_sha256": "ac509bcefd0d3f89be85f7388579ad495a5302f6f88e2f34188146368bd328e4",
+        "review_provenance": {
+          "agent_id": "01a1f02f-f315-72f2-aca8-2f97077a528e",
+          "profile": "integrated-v1",
+          "prompt_sha256": "ae804adedba5ee451e308bc550b57d27a6fab0f5cd41fca0f955fcd369f58bbe",
+          "raw_sha256": "ba5abb9fcf2e7598ccaa3065898266fe3798a26b579e685ec25aaa43a8842d92",
+          "report_sha256": "ac509bcefd0d3f89be85f7388579ad495a5302f6f88e2f34188146368bd328e4",
+          "scope": "integrated-independent-source-review",
+          "section_sha256": "69e49dac3ef924c12508501434fc7a3aa18ebf8bff505c5b8c54d6240e269c22",
+          "stage": "independent-review-edit"
+        },
+        "review_scope": "integrated-independent-source-review",
+        "review_sha256": "2f28f9584327c3b78a3044135b60bbe70db41438b8151299c7d1d189e5aa327c",
+        "status": "publishable"
+      },
+      "report_sha256": "ac509bcefd0d3f89be85f7388579ad495a5302f6f88e2f34188146368bd328e4",
+      "slug": "2026-11-18-dna-archive-recovery-assurance-and-custody-continuity",
+      "stages": [
+        {
+          "prompt_sha256": "4f2f19cc9d7349c2c22fc4a797cd55e4956e6d23f7ab94c3a412fe0b9e79cfbf",
+          "raw_sha256": "3615d1437fb6fd038fc83d5b8069c27c705a2e67485fe5e24ed35fae9b2a936c",
+          "section_sha256": "20d12e7dbda1406e0c486becda167054cadf1734a3a1e6d2489f6ab2a899cc16",
+          "stage": "integrated-research"
+        },
+        {
+          "prompt_sha256": "ae804adedba5ee451e308bc550b57d27a6fab0f5cd41fca0f955fcd369f58bbe",
+          "raw_sha256": "ba5abb9fcf2e7598ccaa3065898266fe3798a26b579e685ec25aaa43a8842d92",
+          "section_sha256": "69e49dac3ef924c12508501434fc7a3aa18ebf8bff505c5b8c54d6240e269c22",
+          "stage": "independent-review-edit"
+        }
+      ]
+    },
+    {
       "post_sha256": "eb5fd4207d42494579f586fc0dd53855caadfd15225c8b9c6a2213f2bdcf1268",
       "profile": "integrated-v1",
       "quality": {
@@ -353,7 +392,7 @@
         "deployed_post_sha256": "a43fd5cce896c668733483a01b7c89be91eb95994f304057a68d61dd5cc82aae",
         "public_content": "unchanged-since-deployment"
       },
-      "post_sha256": "ab1a65f97cd4694ee36c4eeafa608a20c7ef9d545e3e0578e0a21490b291de4d",
+      "post_sha256": "90dd50b1e9cdb25da5fbd8f2facaf4fb2acad1275d9ae85551a06a59131a7da7",
       "profile": "legacy-deployed-v1",
       "report_sha256": "006eb4273721f40ece9cef7366edeccd3db7357d47a092f13cac1de3e94477ea",
       "slug": "2026-09-24-space-is-scaling-faster-than-its-traffic-control-system"
@@ -840,7 +879,7 @@
         "deployed_post_sha256": "4023619dbe05582a672e9963ebe8870c217952ec8e5ac4fe61928d77c95958a2",
         "public_content": "text-unchanged-photo-revalidated"
       },
-      "post_sha256": "01141d59bfa9f45729be9c7b2ab50d2eb02bb0268172084b9a297cb6d2dc6ef8",
+      "post_sha256": "b3576acbea712b21ff6a8afb8d67fe7779c3c30c7c5d2266c64360691937da1b",
       "profile": "legacy-deployed-v1",
       "report_sha256": "567fe984086a748a387af6eba831bc7b9301f2296916ae08f7aed02d1f8bbc51",
       "slug": "2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply"
@@ -2356,7 +2395,7 @@
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "404.html": "fb56eee28544b03e62772afd982aa2f11e948a4858a36626aa3145d3de0d6933",
+    "404.html": "9811da922ee7f8c00730b8e2dbc157f22824c215feb861b6e534876498f186be",
     "about.html": "b05d53189c9f8a7da28597481f2e1b38aad2d8d9a3e457b08b08c620137b877b",
     "assets/heroes/2026-06-06-eu-sovereign-cloud-compliance-bottleneck-c7989eec514eb55b.webp": "c7989eec514eb55b982f389fcd72a31c46fce42791d10f9b38b668e0881e83a8",
     "assets/heroes/2026-06-07-cbam-verification-and-cleaner-production-6c3fd91c96bd72c9.webp": "6c3fd91c96bd72c94bd42cea1679aae94d9577bcad0a8305239abe7560f905a2",
@@ -2435,6 +2474,7 @@
     "assets/heroes/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production-c0121e03bcdfa06f.webp": "c0121e03bcdfa06f9c41b2606b316826e713e8024859cf40b9389b5045d9ba15",
     "assets/heroes/2026-10-16-liver-chips-become-a-business-when-the-study-travels-35dc8e4c9baedf3c.webp": "35dc8e4c9baedf3c2f0d121833060c90798aac45a22b73022b52c7d119658a6f",
     "assets/heroes/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change-4960ae2555b252b5.webp": "4960ae2555b252b529934484fdd6ef95d6845d93a1b2ae3843429873d50793a7",
+    "assets/heroes/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity-0fae7bdf4f8e6d7e.webp": "0fae7bdf4f8e6d7e28b33f201a9cd51d6d79d69900413b28ba03469293d4bdf6",
     "assets/og/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.jpg": "ba85c688e9aa61cc8ef34b06d8daa9e47071989dd832193093a7f86424cecbef",
     "assets/og/2026-06-07-cbam-verification-and-cleaner-production.jpg": "36e49bcea09bc356b8f72c381cf5d282196f904215038f4a8cf0e3555a511085",
     "assets/og/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business.jpg": "2d0cf9d6bc05480683d3e25992549ce4b9e19576f35e17cd34fccdc01bc95abf",
@@ -2512,14 +2552,15 @@
     "assets/og/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production.jpg": "94953296f7694b4ac7c155ef22bfa29c93670f84fdc199a14e8f789cf8223a08",
     "assets/og/2026-10-16-liver-chips-become-a-business-when-the-study-travels.jpg": "f9c2d3c3f03913a0350fcd352205cebbad8a8236bb1b6fa9053e29cefa9d6057",
     "assets/og/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.jpg": "2ff729ce881d125b79b14e91844049ababc9d30b63d343b31f36c1308819f985",
+    "assets/og/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity.jpg": "d20da66be7c46281e02437a61d722a9c10b96831085128cc8171158c33c7eae9",
     "assets/site/industrial-port-photo.png": "98cad100fc5ade88b70859d5d274e12bc0c855942ea335c5f667c70f1b56830f",
-    "blog-data.json": "9546e404292ed5f35a58b6e486863314e0ed9cedab3bcfd49746373e028afbac",
+    "blog-data.json": "3bf0f2436204e7bbc29e50075b27e74d6dd5f5c1bcb5783661bb3ac37745e050",
     "disclaimer.html": "924749b2dcd25d390d1f978585c6f4adbcb7251de172047e7118b4809b0274a1",
     "favicon.svg": "ff343c676f889d1ddcb3b562bffa15cdb674a81ae8e4bd31c1d792b2dcd60ebd",
-    "feed.xml": "61b2db4f4487c26a9b2d34ad8e2e29913c596fd13c3b5152e62f2a37671ace61",
-    "index.html": "fb56eee28544b03e62772afd982aa2f11e948a4858a36626aa3145d3de0d6933",
-    "ledger.html": "ab5f2a1099e8109b35fcdbc41f7af294f3d0edc048f22bfb522256d4b298f992",
-    "patterns.html": "8896efe560d9f33a38eba41a735056f47a332081a2897e871586b1609cfb2189",
+    "feed.xml": "607d04e2939308a5f79922c114f873a78f5dcd56e8756259f7c9bc5b0b6608bd",
+    "index.html": "9811da922ee7f8c00730b8e2dbc157f22824c215feb861b6e534876498f186be",
+    "ledger.html": "f14372d64af7640e9985ff271e61db2bd3d2d70610d98d0f1fba39ed95163dbb",
+    "patterns.html": "f4aa489372b5a346a63f9231c7be0896b595016760ddf02947b3de464a05cec2",
     "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html": "6458852e197ccb7090819946727a49ca21eddbc4ef0ac416bb4fb095afa8b318",
     "posts/2026-06-07-cbam-verification-and-cleaner-production.html": "ddf9fe605aa0bc2217537e7ac1b95ea8ef598e2c87453b15e716d2123e4573d6",
     "posts/2026-06-07-glp-1-manufacturing-is-becoming-a-format-business.html": "011bb2aa9a6377efe580000fc9cbdc2fe263f52d155e97a8a8f55a5f6988043c",
@@ -2576,7 +2617,7 @@
     "posts/2026-07-24-the-cyber-resilience-act-will-be-won-between-releases.html": "249cadd8531528785b58e04c1704855f018e7bf9a63479597fd77fb519bfc582",
     "posts/2026-07-24-the-decoder-is-only-the-beginning-home-bci-becomes-an-operating-system.html": "a98420b3d6005a503a861c21d83212902e6adffe9c0a66fb59a41dccfcfa76f2",
     "posts/2026-07-24-the-eu-data-act-creates-an-exit-right-industrial-software-still-needs-a-proof-of-exit.html": "44cfee9d381869ee00a0335e18a54f3646ab5f1cf10c78d63b345538af6acef7",
-    "posts/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply.html": "01141d59bfa9f45729be9c7b2ab50d2eb02bb0268172084b9a297cb6d2dc6ef8",
+    "posts/2026-07-24-the-hidden-layer-between-allied-factories-and-allied-supply.html": "b3576acbea712b21ff6a8afb8d67fe7779c3c30c7c5d2266c64360691937da1b",
     "posts/2026-07-24-the-part-is-becoming-a-governed-production-record.html": "8d8723c95061899664b90ca142eb57051eb4a2c8ad53a78b4e6a8868c95fe7e7",
     "posts/2026-08-02-qualified-materials-across-defense-isotopes-and-magnets.html": "6c029da0c6e93dae852dd55d85d6fd09258be8cc2a4e6386cdb5c9f44cc3d403",
     "posts/2026-08-29-cold-storage-s-refrigerant-shift-is-building-a-service-economy-around-the-machine-room.html": "dd6ef9205e1bc9d077f4f387e0358966b6e1710abd7a6462b26fa4c913b29f4d",
@@ -2588,7 +2629,7 @@
     "posts/2026-09-24-counter-uas-is-becoming-an-operating-authority-problem.html": "48e7fb0d742b8ca8bec3eaa4d399a23b3bf113ba9d543e98f4628ebd493e80be",
     "posts/2026-09-24-eudr-is-making-origin-data-part-of-the-commodity-itself.html": "a43de985e22deb79f3fc711ecf41d2ddf09a7685968452120a790706de3d8518",
     "posts/2026-09-24-radiopharmaceutical-scale-is-a-chain-problem.html": "70d6e90f4e74fe249612d5221eeec46945b50d3103232949e63a04a3006ea839",
-    "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html": "ab1a65f97cd4694ee36c4eeafa608a20c7ef9d545e3e0578e0a21490b291de4d",
+    "posts/2026-09-24-space-is-scaling-faster-than-its-traffic-control-system.html": "90dd50b1e9cdb25da5fbd8f2facaf4fb2acad1275d9ae85551a06a59131a7da7",
     "posts/2026-09-24-sterilization-capacity-only-counts-when-a-device-can-actually-use-it.html": "94441265cf54b0d3770ec9203da881da4e4d18dded6d78fa4a9dc946f89f2b03",
     "posts/2026-09-24-the-grid-buildout-is-turning-into-a-factory-calendar-problem.html": "f83dd818a12cd44a97f9887570e915cb972f1a4583b79dc98eb4feb6b4940c9e",
     "posts/2026-09-24-the-hard-part-of-resilient-navigation-is-proving-the-whole-system-works.html": "a1a43cc24d9641d2dd2ffbfada5612056ccbfd3602b8e1107ba092c532ca6160",
@@ -2597,17 +2638,18 @@
     "posts/2026-10-04-schaeffler-s-humanoid-gearbox-tests-the-economics-of-repeat-production.html": "e4f34a01a82ddb7ce3e43815128ff4866fe3a25baffc97e532e0d77805db27fc",
     "posts/2026-10-16-liver-chips-become-a-business-when-the-study-travels.html": "eb5fd4207d42494579f586fc0dd53855caadfd15225c8b9c6a2213f2bdcf1268",
     "posts/2026-10-17-when-living-computers-can-keep-the-work-after-the-cells-change.html": "f259226fe6cd732944450526fa58481daaf073d1ba5e834dcf412fff5c735926",
+    "posts/2026-11-18-dna-archive-recovery-assurance-and-custody-continuity.html": "f43edb80f4aae140a76cef06a0fed8a477f7daf6db39e5c572dcdf3d3c70c1fe",
     "privacy.html": "9b1a67460e82618ef082b81124f430a625d0a84de63f10acaa7ebb940aff03cd",
-    "publication-data.json": "dcb9512f32908898b90d3a7b91f98b559bade97253fe81aa0327e40bca440696",
+    "publication-data.json": "81e9b833da7e13609abfd893f9b055f82490105a6d6f1515f9e3e91a276394e1",
     "rgraph.js": "eea1c5f6c40f22b809110a0db602fffa932c6e6759aabce7836401d69521092a",
     "site.js": "a4802ab7d88f8a7741080448478fe005fba32448610d08edd9ad65b2a642b31d",
-    "sitemap.xml": "a47b6acbb3a240a338f9ff7fdc452211d11329fefa735ea4e697b1ef8131acff",
+    "sitemap.xml": "a1292beb9f3943455eb9566c38fd028d9cd2268b6e3ea1ab6b04b0393ddb9633",
     "styles.css": "3c438abf1778e8c96e93713898dc7adb6b7b9754697f1fb2af53c35862a4ef44"
   },
   "profile_contracts": {
     "integrated-v1": "3bf8e6401a1a0d8508dd7e647cda6d9ec7b75c23ef99f43a689be432a17d735a"
   },
-  "proof_sha256": "cad2967a2d402e13359fd5a08f3358df9aaf9c5cc100a69f662d25f426ea57e3",
+  "proof_sha256": "6b3d3fd5cd05b476f1421947dd34e28b7bf97d63eafd37498edaa86320a90a76",
   "schema_version": 3,
   "status": "publication-ready"
 }
