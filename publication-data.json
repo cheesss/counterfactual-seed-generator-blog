@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 78,
+    "articles": 79,
     "data_series": 249,
     "calendar_year_card_candidates_excluded": 6,
     "watch": {
@@ -17,14 +17,14 @@
       "extraction_modes": {
         "explicit_bullet": 307
       },
-      "unstructured_watch_sections": 13,
-      "unpublished_prose_candidates": 66
+      "unstructured_watch_sections": 14,
+      "unpublished_prose_candidates": 72
     },
     "report_stage": {
       "complete_by_sections": 48,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
-        "current-incomplete": 28,
+        "current-incomplete": 29,
         "current-complete": 3,
         "legacy-migration-gap": 2,
         "legacy-complete": 45
@@ -38,7 +38,7 @@
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 55,
+        "constraint": 56,
         "commercialization": 13,
         "disruption": 4,
         "ecosystem-expansion": 6
@@ -61,7 +61,7 @@
         "robotics": 2,
         "space": 1,
         "finance": 3,
-        "cross-sector": 3,
+        "cross-sector": 4,
         "other": 2
       },
       "system_patterns": {
@@ -77,13 +77,56 @@
         "logistics-infrastructure": 3,
         "manufacturing-tooling": 2,
         "standards-interoperability": 5,
-        "workforce-capacity": 0,
+        "workforce-capacity": 1,
         "demand-formation": 1,
         "other": 3
       }
     }
   },
   "articles": [
+    {
+      "slug": "2026-11-19-workforce-credentialing-and-industrial-construction",
+      "slug_source": "publication_registry",
+      "title": "A Factory Isn't Finished Until the Work Passes",
+      "url": "posts/2026-11-19-workforce-credentialing-and-industrial-construction.html",
+      "date": "2026-11-19",
+      "updated": "2026-11-19",
+      "category": "Report",
+      "sector": {
+        "key": "cross-sector",
+        "label": "Cross-sector"
+      },
+      "system_pattern": {
+        "key": "workforce-capacity",
+        "label": "Workforce & operating capacity"
+      },
+      "archetype": {
+        "key": "workforce-capacity",
+        "label": "Workforce & operating capacity"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "Constraint · 2026-11-19 Claim: Installation expertise will be a less visible constraint at TSMC's second Arizona fab than at its first: Fab 2 will reach volume production by year-end 2027 without TSMC announcing a skills-driven postponement. Confidence: low, because TSMC discloses installation progress but not the readiness of individual crews. Resolves by: December 31, 2027, with confirmation in the ensuing quarterly report.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-11-19-workforce-credentialing-and-industrial-construction-ed67a80b2fc15425.webp",
+        "alt": "Demonstration of a conduit bender (1)"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [],
+      "card_metrics": [],
+      "watch_signals": [],
+      "watch_extraction": {
+        "status": "unstructured_prose",
+        "source_heading": "What to Watch by December 31, 2027",
+        "unpublished_candidate_count": 6
+      }
+    },
     {
       "slug": "2026-11-18-dna-archive-recovery-assurance-and-custody-continuity",
       "slug_source": "publication_registry",
