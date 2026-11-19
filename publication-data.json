@@ -1,21 +1,21 @@
 {
   "schema_version": 3,
   "summary": {
-    "articles": 79,
-    "data_series": 249,
+    "articles": 80,
+    "data_series": 250,
     "calendar_year_card_candidates_excluded": 6,
     "watch": {
-      "tracked_articles": 61,
-      "signals": 307,
+      "tracked_articles": 62,
+      "signals": 309,
       "resolved": 5,
       "states": {
-        "open": 302,
+        "open": 304,
         "confirmed": 5,
         "weakened": 0,
         "broken": 0
       },
       "extraction_modes": {
-        "explicit_bullet": 307
+        "explicit_bullet": 309
       },
       "unstructured_watch_sections": 14,
       "unpublished_prose_candidates": 72
@@ -24,7 +24,7 @@
       "complete_by_sections": 48,
       "complete_by_run_manifest": 0,
       "coverage_statuses": {
-        "current-incomplete": 29,
+        "current-incomplete": 30,
         "current-complete": 3,
         "legacy-migration-gap": 2,
         "legacy-complete": 45
@@ -38,7 +38,7 @@
     },
     "taxonomy": {
       "analysis_lenses": {
-        "constraint": 56,
+        "constraint": 57,
         "commercialization": 13,
         "disruption": 4,
         "ecosystem-expansion": 6
@@ -57,7 +57,7 @@
         "quantum": 1,
         "neurotechnology": 2,
         "industrial-software": 5,
-        "logistics": 3,
+        "logistics": 4,
         "robotics": 2,
         "space": 1,
         "finance": 3,
@@ -74,7 +74,7 @@
         "procurement-risk-transfer": 0,
         "finance-bankability": 0,
         "software-workflow": 6,
-        "logistics-infrastructure": 3,
+        "logistics-infrastructure": 4,
         "manufacturing-tooling": 2,
         "standards-interoperability": 5,
         "workforce-capacity": 1,
@@ -84,6 +84,140 @@
     }
   },
   "articles": [
+    {
+      "slug": "2026-11-19-methanol-ships-and-marine-fuel-availability",
+      "slug_source": "publication_registry",
+      "title": "The fuel test for methanol ships",
+      "url": "posts/2026-11-19-methanol-ships-and-marine-fuel-availability.html",
+      "date": "2026-11-19",
+      "updated": "2026-11-19",
+      "category": "Report",
+      "sector": {
+        "key": "logistics",
+        "label": "Logistics & automation"
+      },
+      "system_pattern": {
+        "key": "logistics-infrastructure",
+        "label": "Logistics & infrastructure"
+      },
+      "archetype": {
+        "key": "logistics-infrastructure",
+        "label": "Logistics & infrastructure"
+      },
+      "analysis_lens": {
+        "key": "constraint",
+        "label": "Constraint"
+      },
+      "excerpt": "Claim: Limited repeat purchases of qualifying fuel at a price carriers or their customers will pay will keep Rotterdam's calendar-2027 Bio Methanol bunker sales below 25,000 metric tonnes.",
+      "image": {
+        "url": "/counterfactual-seed-generator-blog/assets/heroes/2026-11-19-methanol-ships-and-marine-fuel-availability-fb3975663345b64d.webp",
+        "alt": "Laura Maersk 2023-10-03 JDohrn 2a"
+      },
+      "report_stage": {
+        "public_cycle_complete_by_sections": false,
+        "public_cycle_complete_by_run_manifest": false,
+        "coverage_status": "current-incomplete"
+      },
+      "data_series": [
+        {
+          "metric": "Rotterdam Bio Methanol bunker sales through September (metric tonnes)",
+          "points": [
+            {
+              "label": "2024 Q1–Q3",
+              "value": 3016.0,
+              "unit": "metric tonnes"
+            },
+            {
+              "label": "2025 Q1–Q3",
+              "value": 11819.0,
+              "unit": "metric tonnes"
+            },
+            {
+              "label": "2026 Q1–Q3",
+              "value": 8007.0,
+              "unit": "metric tonnes"
+            }
+          ],
+          "headline": {
+            "value": 11819.0,
+            "value_text": "11,819",
+            "unit": "metric tonnes",
+            "metric": "Rotterdam Bio Methanol bunker sales through September (metric tonnes)",
+            "point_label": "2025 Q1–Q3",
+            "display_label": "2025 Q1–Q3 - Rotterdam Bio Methanol bunker sales through September (metric tonnes)",
+            "selection_mode": "largest_absolute_value",
+            "is_calendar_year": false,
+            "card_eligible": true
+          },
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2024 Q1–Q3 :: 3,016 :: metric tonnes; 2025 Q1–Q3 :: 11,819 :: metric tonnes; 2026 Q1–Q3 :: 8,007 :: metric tonnes",
+            "source_urls": [
+              "https://www.portofrotterdam.com/sites/default/files/2026-10/bunker-sales-2024-2026.pdf"
+            ]
+          }
+        }
+      ],
+      "card_metrics": [
+        {
+          "value": 11819.0,
+          "value_text": "11,819",
+          "unit": "metric tonnes",
+          "metric": "Rotterdam Bio Methanol bunker sales through September (metric tonnes)",
+          "point_label": "2025 Q1–Q3",
+          "display_label": "2025 Q1–Q3 - Rotterdam Bio Methanol bunker sales through September (metric tonnes)",
+          "selection_mode": "largest_absolute_value",
+          "is_calendar_year": false,
+          "card_eligible": true,
+          "provenance": {
+            "kind": "chart_candidates",
+            "section": "Blog Visual Package > Chart Candidates",
+            "source_text": "2024 Q1–Q3 :: 3,016 :: metric tonnes; 2025 Q1–Q3 :: 11,819 :: metric tonnes; 2026 Q1–Q3 :: 8,007 :: metric tonnes",
+            "source_urls": [
+              "https://www.portofrotterdam.com/sites/default/files/2026-10/bunker-sales-2024-2026.pdf"
+            ]
+          }
+        }
+      ],
+      "watch_signals": [
+        {
+          "signal_id": "2026-11-19-methanol-ships-and-marine-fuel-availability:watch:3d56929ff2fc",
+          "text": "By February 11, 2027 (base November 19, 2026): Look for Maersk's confirmation of a dated 2026 receipt under its Goldwind contract. Maersk's November interim report gives that publication date for its full-year report. A documented deferral would miss the announced 2026 start; a silent report leaves it unresolved. Maersk financial reports",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By February 11, 2027 (base November 19, 2026): Look for Maersk's confirmation of a dated 2026 receipt under its Goldwind contract. Maersk's November interim report gives that publication date for its full-year report. A documented deferral would miss the announced 2026 start; a silent report leaves it unresolved. Maersk financial reports",
+          "source_url": "https://investor.maersk.com/financials/financial-reports",
+          "source_urls": [
+            "https://investor.maersk.com/financials/financial-reports"
+          ],
+          "resolve_by": "2027-02-11",
+          "resolve_by_text": "February 11, 2027",
+          "state": "open",
+          "settlement": null
+        },
+        {
+          "signal_id": "2026-11-19-methanol-ships-and-marine-fuel-availability:watch:0bb3baa72365",
+          "text": "By December 31, 2027 (base December 2025): Look for the first documented eligible e-methanol and e-ammonia deployments under ZEMBA's second award. A delay into 2028 would miss the published start window. The evidence to look for is fuel used in service and the resulting verified freight attributes. Tender and verification requirements",
+          "source_heading": "What to watch",
+          "extraction_mode": "explicit_bullet",
+          "source_text": "By December 31, 2027 (base December 2025): Look for the first documented eligible e-methanol and e-ammonia deployments under ZEMBA's second award. A delay into 2028 would miss the published start window. The evidence to look for is fuel used in service and the resulting verified freight attributes. Tender and verification requirements",
+          "source_url": "https://www.shipzemba.org/how-we-work/rfp-2/",
+          "source_urls": [
+            "https://www.shipzemba.org/how-we-work/rfp-2/"
+          ],
+          "resolve_by": "2027-12-31",
+          "resolve_by_text": "December 31, 2027",
+          "state": "open",
+          "settlement": null
+        }
+      ],
+      "watch_extraction": {
+        "status": "explicit_bullets",
+        "source_heading": "What to watch",
+        "unpublished_candidate_count": 0
+      }
+    },
     {
       "slug": "2026-11-19-workforce-credentialing-and-industrial-construction",
       "slug_source": "publication_registry",

@@ -7,13 +7,13 @@
     },
     {
       "path": ".publication-release.json",
-      "sha256": "98fb8e378dd76345721a10656944ae30d36b4e7ca6c1406a24db1022a2189eb5",
-      "size": 219087
+      "sha256": "eb8865be9043cb40b164446b7d4a13c4f0e2ec72d42ead71a125a73cda248614",
+      "size": 232890
     },
     {
       "path": "404.html",
-      "sha256": "83d818a88fb8948e5c401ef9168184fb19a72c37a8a54dd740670a4fe8f7ca2a",
-      "size": 135578
+      "sha256": "d75016bf9d46c1b87f706251da028c2caadd766a0a8770cccb6e1e326f42c91d",
+      "size": 136634
     },
     {
       "path": "about.html",
@@ -411,6 +411,11 @@
       "size": 81076
     },
     {
+      "path": "assets/heroes/2026-11-19-methanol-ships-and-marine-fuel-availability-fb3975663345b64d.webp",
+      "sha256": "fb3975663345b64d676b65067db1ff4d966c7c3a496d3324cc25630e0c644051",
+      "size": 120100
+    },
+    {
       "path": "assets/heroes/2026-11-19-workforce-credentialing-and-industrial-construction-ed67a80b2fc15425.webp",
       "sha256": "ed67a80b2fc15425148c3d15247613852d9664ac62c676e069f484e139d95e69",
       "size": 212018
@@ -806,6 +811,11 @@
       "size": 94856
     },
     {
+      "path": "assets/og/2026-11-19-methanol-ships-and-marine-fuel-availability.jpg",
+      "sha256": "2b348513ba86ec568043140647e2ed058fd967ad208380e0679ceb5de54f67b7",
+      "size": 126452
+    },
+    {
       "path": "assets/og/2026-11-19-workforce-credentialing-and-industrial-construction.jpg",
       "sha256": "78bd7c91552ab1e4c21f0b76634a06b197a822652e68feb48246feb7a5699752",
       "size": 168203
@@ -817,8 +827,8 @@
     },
     {
       "path": "blog-data.json",
-      "sha256": "0fb09ade84c9e1eca01b28866263f44cda49ac413c27655a44000c68d7c18e6c",
-      "size": 57504
+      "sha256": "ad3ea0aac1243f0f01d961c81dc1107d9345cae278039adff3f3977238b3f9fa",
+      "size": 58043
     },
     {
       "path": "disclaimer.html",
@@ -832,28 +842,28 @@
     },
     {
       "path": "feed.xml",
-      "sha256": "a71b900653104e8bc8c12aa4f02887c3ee01283e4b2e00dc86b2b8bb88d77486",
-      "size": 25310
+      "sha256": "a1eeeafa0b1eadbf4d28d93043c440304742ac2d673caae8e3c90f651526d2d5",
+      "size": 25077
     },
     {
       "path": "image-manifest.json",
-      "sha256": "50c2691b76c301b0b9a993fe3eb3120c1eb565e3f10f93928581183712a71cc5",
-      "size": 335013
+      "sha256": "6b2ff979c7b16b3c1e4997a5b3f50a6ae46763a233715322e4932b90bc6efd95",
+      "size": 338575
     },
     {
       "path": "index.html",
-      "sha256": "83d818a88fb8948e5c401ef9168184fb19a72c37a8a54dd740670a4fe8f7ca2a",
-      "size": 135578
+      "sha256": "d75016bf9d46c1b87f706251da028c2caadd766a0a8770cccb6e1e326f42c91d",
+      "size": 136634
     },
     {
       "path": "ledger.html",
-      "sha256": "f14372d64af7640e9985ff271e61db2bd3d2d70610d98d0f1fba39ed95163dbb",
-      "size": 94277
+      "sha256": "de5e66b581860c9c3b8c3a5171e71157d5d76c4ed7d635a6ec86be1e5cd0adf5",
+      "size": 95468
     },
     {
       "path": "patterns.html",
-      "sha256": "bc352fc97038b3d767b780c9e7d48ecaf12085abade3ba598462bf0b30a60811",
-      "size": 54283
+      "sha256": "7e1c7dc8eced62a420194c0f307ebfec50fed2547072f04dab17bb208dd66c97",
+      "size": 54714
     },
     {
       "path": "posts/2026-06-06-eu-sovereign-cloud-compliance-bottleneck.html",
@@ -1112,8 +1122,8 @@
     },
     {
       "path": "posts/2026-07-24-port-electrification-is-becoming-an-operating-system-problem.html",
-      "sha256": "493ed4beb6040d9bb8f7e0c8eb696181ce3f65204a1de7adf3b350ac83f30d6a",
-      "size": 58203
+      "sha256": "44198d825ea21af517c7a033de379856dedab56af98ecf3665383a479bbb9cbb",
+      "size": 58432
     },
     {
       "path": "posts/2026-07-24-quantum-computing-s-next-commercial-layer-is-acceptance-evidence.html",
@@ -1246,6 +1256,11 @@
       "size": 39992
     },
     {
+      "path": "posts/2026-11-19-methanol-ships-and-marine-fuel-availability.html",
+      "sha256": "0d5057eab64206512da0a90ea83bf5c44aba28fee01db916821c056d78fc5bc2",
+      "size": 37853
+    },
+    {
       "path": "posts/2026-11-19-workforce-credentialing-and-industrial-construction.html",
       "sha256": "661c7e5d4be66f5454a3791826c0b5bf53a8fcb350b491698c227de04b4975f3",
       "size": 37748
@@ -1257,8 +1272,8 @@
     },
     {
       "path": "publication-data.json",
-      "sha256": "2aa9b08a14e348829554a086ca9cd5554ef75c75aefe0d6c5a8678c4854f6d3d",
-      "size": 896514
+      "sha256": "6a640fb621b5f3021ee98104a449e539bac66e1a7d78b746d84845ecfb5002f2",
+      "size": 903158
     },
     {
       "path": "rgraph.js",
@@ -1272,8 +1287,8 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "059923c219403cea495156caf80e0d50996a0a9766ab23406f0f0662e1b35ed4",
-      "size": 14068
+      "sha256": "962687b23c8bc41afd58141d571a50a0b033ee590026ed3cbac033dd994a155a",
+      "size": 14219
     },
     {
       "path": "styles.css",
